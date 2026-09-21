@@ -1,0 +1,4550 @@
+/* ==========================================================================
+   Spice Route — Editorial System
+   Magazine layout primitives: sections, hero, story cards, index rows,
+   edition covers and motion. All colour comes from the brand tokens
+   defined in globals.css.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. Masthead / header
+   -------------------------------------------------------------------------- */
+/* Solid, so page text never ghosts through behind the logo. Only the bar is
+   sticky: on desktop the masthead strip scrolls away (negative top). */
+.ed-header {
+  --masthead-h: 2.125rem;
+  /* The band re-points the shared text tokens to its own colours */
+  --text-heading: var(--header-text);
+  --text-secondary: var(--header-text);
+  --text-muted: var(--header-muted);
+  --highlight-text: var(--header-accent);
+  --border-subtle: var(--header-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  border-bottom: 1px solid var(--border-subtle);
+  transition: box-shadow 0.3s var(--ease-editorial);
+}
+
+.ed-header.is-scrolled {
+  box-shadow: var(--shadow-header);
+}
+
+/* Phones: a shorter bar leaves more of the screen to the page */
+@media (max-width: 619px) {
+  :root {
+    --header-h: 64px;
+  }
+}
+
+.ed-header__masthead {
+  display: none;
+  height: var(--masthead-h);
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: var(--header-strip);
+}
+
+/* Desktop only: below 960px the drawer hangs from the bar, so the header
+   stays a single row there. */
+@media (min-width: 960px) {
+  .ed-header {
+    top: calc(-1 * var(--masthead-h));
+  }
+
+  .ed-header__masthead {
+    display: block;
+  }
+}
+
+.ed-header__masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-header__masthead-issue {
+  color: var(--highlight-text);
+  white-space: nowrap;
+}
+
+.ed-header__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: var(--header-h);
+}
+
+.ed-header__logo {
+  position: relative;
+  width: clamp(142px, 42vw, 186px);
+  height: min(52px, calc(var(--header-h) - 20px));
+  flex: none;
+}
+
+.ed-header__nav {
+  display: none;
+  align-items: center;
+  gap: clamp(1.1rem, 2.4vw, 2rem);
+}
+
+.ed-navlink {
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding-block: 0.55rem;
+  white-space: nowrap;
+}
+
+.ed-navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--nav-active);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease-editorial);
+}
+
+.ed-navlink:hover,
+.ed-navlink.is-active {
+  color: var(--text-heading);
+}
+
+.ed-navlink:hover::after,
+.ed-navlink.is-active::after {
+  transform: scaleX(1);
+}
+
+.ed-header__actions {
+  display: none;
+  align-items: center;
+  gap: 0.75rem;
+  flex: none;
+}
+
+/* Header call to action: inverted on the red band so it stays visible */
+.ed-header__actions .btn-primary {
+  background: var(--header-cta-bg);
+  color: var(--header-cta-text);
+}
+
+.ed-header__actions .btn-primary:hover {
+  background: var(--header-cta-hover);
+  color: var(--header-cta-text);
+}
+
+/* Theme switch — icon button in the header bar, labelled switch in the menu.
+   Icon and switch position come from the theme tokens. */
+.ed-theme-toggle {
+  cursor: pointer;
+  font: inherit;
+}
+
+.ed-theme-toggle--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  padding: 0;
+  background: var(--header-control-bg);
+  border: 1px solid var(--header-control-border);
+  border-radius: var(--radius-full);
+  color: var(--header-text);
+  transition: background-color 0.2s var(--ease-editorial);
+}
+
+.ed-theme-toggle--icon:hover {
+  background: var(--header-control-hover);
+}
+
+.ed-theme-toggle__moon {
+  display: var(--toggle-moon);
+}
+
+.ed-theme-toggle__sun {
+  display: var(--toggle-sun);
+}
+
+.ed-theme-toggle--row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.5rem 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.ed-theme-toggle__switch {
+  position: relative;
+  flex: none;
+  width: 44px;
+  height: 26px;
+  border-radius: var(--radius-full);
+  background-color: var(--toggle-track);
+  transition: background-color 0.2s var(--ease-editorial);
+}
+
+.ed-theme-toggle__knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--on-accent);
+  transform: translateX(var(--toggle-knob));
+  transition: transform 0.2s var(--ease-editorial);
+}
+
+.ed-header__toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  background: var(--header-control-bg);
+  border: 1px solid var(--header-control-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text-heading);
+}
+
+.ed-burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 20px;
+}
+
+.ed-burger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: currentColor;
+  transition: transform 0.25s var(--ease-editorial), opacity 0.2s linear;
+}
+
+.ed-burger.is-open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.ed-burger.is-open span:nth-child(2) {
+  opacity: 0;
+}
+
+.ed-burger.is-open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.ed-drawer {
+  /* Absolute inside the sticky header so it always hangs from its true
+     bottom edge, whatever the masthead adds. */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  /* 100% = the header's own height, so the drawer fills exactly the rest
+     of the screen with or without the masthead row. */
+  height: calc(100dvh - 100%);
+  z-index: 99;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1.75rem var(--gutter) 2.5rem;
+  /* Solid so page text never ghosts behind the menu links */
+  --text-heading: var(--drawer-text);
+  --text-muted: var(--drawer-muted);
+  --accent-text: var(--drawer-active);
+  --border-subtle: var(--drawer-border);
+  --focus-ring: var(--drawer-active);
+  background-color: var(--drawer-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+  animation: fadeIn 0.22s ease-out;
+}
+
+/* The class sets display:flex, which would otherwise beat the UA [hidden]
+   rule and leave the closed drawer covering the page. */
+.ed-drawer[hidden] {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .ed-drawer {
+    display: none !important;
+  }
+}
+
+.ed-drawer__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.ed-drawer__link {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-drawer__link.is-active {
+  color: var(--accent-text);
+}
+
+.ed-drawer__foot {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------------
+   1. Sections & section headers
+   -------------------------------------------------------------------------- */
+.ed-section {
+  padding-block: var(--space-section);
+  position: relative;
+}
+
+.ed-section--tight {
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+
+.ed-section--tint {
+  background-color: var(--bg-tint);
+  border-block: 1px solid var(--border-subtle);
+}
+
+.ed-section--rule {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-shead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  margin-bottom: var(--space-block);
+}
+
+.ed-shead__main {
+  max-width: 62ch;
+}
+
+.ed-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-sans);
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+  margin-bottom: 0.9rem;
+}
+
+.ed-kicker::before {
+  content: "";
+  width: 26px;
+  height: 1px;
+  background-color: currentColor;
+  flex: none;
+}
+
+.ed-kicker--red {
+  color: var(--accent-text);
+}
+
+.ed-shead__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-h2);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: -0.015em;
+  color: var(--text-heading);
+}
+
+.ed-shead__sub {
+  margin-top: 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: var(--measure-excerpt);
+}
+
+/* Text link with travelling arrow */
+.ed-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+  padding-block: 0.35rem;
+  flex: none;
+}
+
+.ed-more__arrow {
+  display: inline-block;
+  transition: transform 0.3s var(--ease-editorial);
+}
+
+.ed-more:hover {
+  color: var(--text-heading);
+}
+
+.ed-more:hover .ed-more__arrow {
+  transform: translateX(4px);
+}
+
+/* --------------------------------------------------------------------------
+   2. Hero
+   -------------------------------------------------------------------------- */
+/* Front page: text beside the current issue's lead photograph. The photo is a
+   verified story image, shown whole-colour — no gradient laid over it, and no
+   text set on top of it. */
+.ed-front {
+  position: relative;
+  padding-block: clamp(1.75rem, 4.5vw, 3.25rem) clamp(3rem, 6vw, 4.75rem);
+  overflow: clip;
+}
+
+.ed-front__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.25rem, 6vw, 3rem);
+}
+
+@media (min-width: 1024px) {
+  .ed-front__grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: var(--grid-gap);
+    align-items: center;
+  }
+}
+
+.ed-front__text {
+  max-width: 40rem;
+}
+
+.ed-front .ed-hero__title {
+  font-size: clamp(2.2rem, 7.4vw, 3.5rem);
+}
+
+@media (min-width: 1024px) {
+  .ed-front .ed-hero__title {
+    font-size: clamp(2.6rem, 3.7vw, 3.6rem);
+  }
+}
+
+.ed-front__media {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  margin: 0;
+  isolation: isolate;
+}
+
+.ed-front__photo {
+  grid-column: 1 / -1;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg-plate);
+  /* Phones: edge to edge */
+  margin-inline: calc(-1 * var(--gutter));
+  aspect-ratio: 4 / 5;
+  max-height: 68svh;
+}
+
+@media (min-width: 640px) {
+  .ed-front__photo {
+    margin-inline: 0;
+    border-radius: var(--radius-plate);
+    aspect-ratio: 4 / 3;
+    max-height: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-front__photo {
+    aspect-ratio: auto;
+    height: clamp(540px, 76svh, 780px);
+  }
+}
+
+.ed-front__photo img {
+  object-fit: cover;
+  transition: transform 1.1s var(--ease-editorial);
+}
+
+.ed-front__media:hover .ed-front__photo img {
+  transform: scale(1.03);
+}
+
+/* The printed cover, tucked over the photograph's lower edge */
+.ed-front__issue {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  z-index: 2;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  width: clamp(92px, 12vw, 142px);
+  margin-top: calc(-1 * clamp(3.25rem, 8vw, 6rem));
+  margin-left: clamp(0.75rem, 2.5vw, 1.5rem);
+}
+
+.ed-front__issuecover {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 3px solid var(--bg-primary);
+  background-color: var(--bg-plate);
+  box-shadow: var(--shadow-plate);
+  transition: transform 0.45s var(--ease-editorial);
+}
+
+.ed-front__issuecover img {
+  object-fit: cover;
+}
+
+.ed-front__issue:hover .ed-front__issuecover {
+  transform: translateY(-4px);
+}
+
+.ed-front__issuetext {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+  line-height: 1.45;
+}
+
+.ed-front__issuetext span {
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.ed-front__caption {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 1.1rem 0 0 clamp(1rem, 2.5vw, 1.5rem);
+  min-width: 0;
+}
+
+.ed-front__story {
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text-heading);
+}
+
+/* One link for the story; it stretches over photo and caption */
+.ed-front__storylink {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  transition: background-size 0.4s var(--ease-editorial);
+}
+
+.ed-front__storylink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-front__media:hover .ed-front__storylink,
+.ed-front__storylink:focus-visible {
+  background-size: 100% 1px;
+}
+
+.ed-front__standfirst {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: var(--measure-excerpt);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Gentle drift as the photograph scrolls past (compositor-only, and only
+   where scroll-driven animation exists and motion is welcome) */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .ed-front__photo img {
+      scale: 1.08;
+      animation: edDrift linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+    }
+  }
+}
+
+@keyframes edDrift {
+  from {
+    translate: 0 -3%;
+  }
+  to {
+    translate: 0 3%;
+  }
+}
+
+.ed-hero__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-display);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--text-heading);
+  margin-bottom: 1.25rem;
+}
+
+.ed-hero__title em {
+  font-style: italic;
+  color: var(--emphasis);
+}
+
+.ed-hero__lede {
+  font-size: var(--step-lede);
+  line-height: 1.68;
+  color: var(--text-secondary);
+  max-width: var(--measure-lede);
+  margin-bottom: 2rem;
+}
+
+.ed-hero__actions,
+.ed-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Tertiary source CTA ("Publish Your Story") sits beside the buttons; no
+   side padding, so it starts on the text edge when it wraps */
+.ed-hero__publish {
+  align-self: center;
+}
+
+/* Welcome Aboard letter band: a portrait-led note that fills the same 7
+   columns as the Featured lead below it */
+@media (min-width: 1000px) {
+  .ed-letter {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    column-gap: var(--grid-gap);
+  }
+}
+
+.ed-letter .ed-card--horizontal {
+  grid-template-columns: minmax(0, 1fr) clamp(96px, 22vw, 168px);
+}
+
+.ed-letter .ed-card__title {
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+}
+
+.ed-letter .ed-card__excerpt {
+  -webkit-line-clamp: 4;
+}
+
+/* Small phones: full-width, thumb-friendly CTAs that never wrap awkwardly */
+@media (max-width: 479px) {
+  .ed-hero__actions .btn,
+  .ed-actions .btn {
+    flex: 1 1 100%;
+    padding-inline: 1.1rem;
+  }
+}
+
+.ed-hero__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem clamp(1.5rem, 4vw, 3rem);
+  margin-top: clamp(2rem, 4vw, 2.75rem);
+  padding-top: clamp(1.5rem, 3vw, 2rem);
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* dt precedes dd in the markup; show the figure above its label */
+.ed-fact {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ed-fact__value {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 2.4vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text-heading);
+}
+
+.ed-fact__value--gold {
+  color: var(--highlight-text);
+}
+
+.ed-fact__label {
+  margin-top: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Cover presentation (hero + edition cards) */
+.ed-cover-frame {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin-inline: auto;
+  border-radius: var(--radius-plate);
+  box-shadow: var(--shadow-cover), 0 0 0 1px var(--border-subtle);
+}
+
+.ed-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+}
+
+.ed-cover img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+/* --------------------------------------------------------------------------
+   3. Story cards
+   -------------------------------------------------------------------------- */
+.ed-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+}
+
+.ed-card__plate {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  aspect-ratio: 4 / 5;
+}
+
+.ed-card__plate img {
+  object-fit: cover;
+  transition: transform 0.85s var(--ease-editorial);
+}
+
+.ed-card:hover .ed-card__plate img,
+.ed-card:focus-within .ed-card__plate img {
+  transform: scale(1.045);
+}
+
+.ed-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-top: 1.15rem;
+}
+
+.ed-card__cat {
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-card__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--text-heading);
+  font-size: 1.25rem;
+}
+
+/* Stretched link: whole card is clickable, one link for assistive tech */
+.ed-card__link {
+  color: inherit;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  transition: background-size 0.4s var(--ease-editorial), color 0.25s var(--ease-editorial);
+}
+
+.ed-card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-card:hover .ed-card__link,
+.ed-card__link:focus-visible {
+  background-size: 100% 1px;
+}
+
+.ed-card__excerpt {
+  font-size: 0.9rem;
+  line-height: 1.62;
+  color: var(--text-secondary);
+  max-width: var(--measure-excerpt);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ed-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+  margin-top: 0.15rem;
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+.ed-card__author {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Printed role, attached to the byline so it can never dangle on wrap */
+.ed-card__role {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+/* -- Variant: featured (large split feature) ------------------------------- */
+.ed-card--featured .ed-card__plate {
+  aspect-ratio: 4 / 5;
+}
+
+.ed-card--featured .ed-card__title {
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
+  line-height: 1.12;
+}
+
+.ed-card--featured .ed-card__excerpt {
+  font-size: 1rem;
+  -webkit-line-clamp: 4;
+}
+
+.ed-card--featured .ed-card__body {
+  gap: 0.85rem;
+}
+
+.ed-card--featured .ed-card__plate {
+  max-height: min(72vh, 560px);
+}
+
+/* The feature splits image | text when its *column* is wide enough,
+   so it composes correctly in any grid slot, not just at a viewport size. */
+@container (min-width: 540px) {
+  .ed-card--featured {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: clamp(1.5rem, 3.5vw, 2.5rem);
+    align-items: center;
+  }
+
+  .ed-card--featured .ed-card__plate {
+    max-height: none;
+  }
+
+  .ed-card--featured .ed-card__body {
+    padding-top: 0;
+  }
+}
+
+/* Stacked feature: a large landscape plate above the text. Used where the
+   opposite column is tall, so the pair balances instead of leaving a gap. */
+@container (min-width: 540px) {
+  .ed-card--featured.ed-card--stack {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .ed-card--featured.ed-card--stack .ed-card__plate {
+    aspect-ratio: 4 / 3;
+    max-height: none;
+  }
+
+  .ed-card--featured.ed-card--stack .ed-card__body {
+    padding-top: 1.35rem;
+  }
+}
+
+/* -- Variant: standard (plate above text) ---------------------------------- */
+.ed-card--standard .ed-card__title {
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+}
+
+/* -- Variant: horizontal (text with side thumb) ---------------------------- */
+.ed-card--horizontal {
+  gap: 1.25rem;
+}
+
+.ed-card--horizontal .ed-card__body {
+  padding-top: 0;
+}
+
+.ed-card--horizontal .ed-card__title {
+  font-size: clamp(1.15rem, 1.7vw, 1.35rem);
+}
+
+/* Keeps its side thumb at every width — a small cover, never a full-bleed plate */
+.ed-card--horizontal {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(84px, 20vw, 148px);
+  align-items: start;
+  gap: clamp(1rem, 3vw, 1.5rem);
+}
+
+.ed-card--horizontal .ed-card__plate {
+  aspect-ratio: 3 / 4;
+  order: 2;
+}
+
+.ed-card--horizontal:not(:has(.ed-card__plate)) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* -- Variant: compact (type only, ruled) ----------------------------------- */
+.ed-card--compact {
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-card--compact .ed-card__body {
+  padding-top: 0;
+  gap: 0.5rem;
+}
+
+.ed-card--compact .ed-card__title {
+  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+}
+
+.ed-card--compact .ed-card__excerpt {
+  -webkit-line-clamp: 2;
+  font-size: 0.875rem;
+}
+
+/* -- Variant: quote (interview / conversation feature) --------------------- */
+.ed-card--quote {
+  padding: clamp(1.75rem, 4vw, 2.75rem);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-plate);
+  background: var(--bg-card);
+  transition: border-color 0.35s var(--ease-editorial), transform 0.35s var(--ease-editorial);
+}
+
+.ed-card--quote:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-3px);
+}
+
+.ed-card--quote .ed-card__title {
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  line-height: 1.16;
+}
+
+.ed-quote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--emphasis);
+  margin-top: 1.15rem;
+  padding-left: 1.15rem;
+  border-left: 2px solid var(--accent);
+  max-width: 46ch;
+}
+
+/* --------------------------------------------------------------------------
+   4. Editorial compositions
+   -------------------------------------------------------------------------- */
+
+/* Even story row (2 / 3 up) */
+.ed-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--grid-gap-cards);
+}
+
+@media (min-width: 620px) {
+  .ed-row--2,
+  .ed-row--3,
+  .ed-row--4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 980px) {
+  .ed-row--3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .ed-row--4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Ruled editorial index list */
+.ed-index {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.ed-index__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.35rem 1rem;
+  padding-block: clamp(1.1rem, 2.2vw, 1.5rem);
+  border-top: 1px solid var(--border-subtle);
+  isolation: isolate;
+}
+
+.ed-index__item:last-child {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-index__num {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--highlight-text);
+  padding-top: 0.2rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-index__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ed-index__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 1.9vw, 1.4rem);
+  font-weight: 700;
+  line-height: 1.24;
+  color: var(--text-heading);
+}
+
+.ed-index__link {
+  color: inherit;
+}
+
+.ed-index__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-index__item:hover .ed-index__title,
+.ed-index__link:focus-visible {
+  color: var(--emphasis);
+}
+
+.ed-index__aside {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.75rem;
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+/* Optional thumbnail column (each story's own image) */
+.ed-index__item--thumb {
+  grid-template-columns: 2.25rem minmax(0, 1fr) 72px;
+}
+
+.ed-index__thumb {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: var(--bg-plate);
+  align-self: start;
+}
+
+.ed-index__thumb img {
+  object-fit: cover;
+  transition: transform 0.7s var(--ease-editorial);
+}
+
+.ed-index__item:hover .ed-index__thumb img {
+  transform: scale(1.06);
+}
+
+/* The index sizes to its column, so it reads the same full-width or in a split */
+.ed-index-wrap {
+  container-type: inline-size;
+}
+
+@container (min-width: 640px) {
+  .ed-index__item {
+    grid-template-columns: 2.5rem minmax(0, 1fr) minmax(140px, 0.32fr);
+    align-items: baseline;
+    gap: 0.5rem 1.5rem;
+  }
+
+  .ed-index__aside {
+    grid-column: 3;
+    justify-content: flex-end;
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+  }
+
+  .ed-index__item--thumb {
+    grid-template-columns: 2.5rem minmax(0, 1fr) minmax(130px, 0.3fr) 104px;
+    align-items: start;
+  }
+
+  .ed-index__item--thumb .ed-index__aside {
+    padding-top: 0.2rem;
+  }
+
+  .ed-index__item--thumb .ed-index__thumb {
+    grid-column: 4;
+    grid-row: 1;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Edition cards (Recent Editions)
+   -------------------------------------------------------------------------- */
+/* Phones: a swipeable cover rail that bleeds to the screen edge.
+   Tablet+: an even grid. The rail scrolls inside itself, so the page
+   never scrolls sideways. */
+.ed-editions {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(70%, 260px);
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  margin-inline: calc(-1 * var(--gutter));
+  padding: 0.5rem var(--gutter) 1.25rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
+
+.ed-editions > * {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 480px) {
+  .ed-editions {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--grid-gap-cards);
+    overflow: visible;
+    margin-inline: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 820px) {
+  .ed-editions {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ed-edition {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+}
+
+.ed-edition__cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-plate);
+  transition: transform 0.45s var(--ease-editorial), box-shadow 0.45s var(--ease-editorial),
+    border-color 0.45s var(--ease-editorial);
+}
+
+.ed-edition__cover img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+.ed-edition:hover .ed-edition__cover,
+.ed-edition:focus-within .ed-edition__cover {
+  transform: translateY(-5px);
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-cover);
+}
+
+.ed-edition:hover .ed-edition__cover img,
+.ed-edition:focus-within .ed-edition__cover img {
+  transform: scale(1.04);
+}
+
+.ed-edition__body {
+  padding-top: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  flex: 1;
+}
+
+.ed-edition__title {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-heading);
+}
+
+/* Primary: the edition's page — stretched over the whole card */
+.ed-edition__read {
+  color: inherit;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  transition: background-size 0.4s var(--ease-editorial), color 0.25s var(--ease-editorial);
+}
+
+.ed-edition__read::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-edition:hover .ed-edition__read,
+.ed-edition__read:focus-visible {
+  color: var(--emphasis);
+  background-size: 100% 1px;
+}
+
+.ed-edition__date {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-edition__kind {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.ed-edition__kind.is-web {
+  color: var(--highlight-text);
+}
+
+/* Grid cells stretch to the tallest card; let each card fill its cell so
+   the PDF links line up across a row whatever the wrapping. */
+.ed-editions > .ed-reveal {
+  display: flex;
+}
+
+.ed-editions > .ed-reveal > .ed-edition {
+  flex: 1;
+}
+
+/* Secondary: the original PDF — quiet, above the stretched link */
+.ed-edition__pdf {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: auto;
+  padding: 0.55rem 0 0.2rem;
+  min-height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 4px;
+  transition: color 0.25s var(--ease-editorial), text-decoration-color 0.25s var(--ease-editorial);
+}
+
+.ed-edition__pdf:hover {
+  color: var(--emphasis);
+  text-decoration-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   6. About, numbers, partners, advertising
+   -------------------------------------------------------------------------- */
+.ed-prose {
+  max-width: var(--measure-body);
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.ed-prose p + p {
+  margin-top: 1.1rem;
+}
+
+.ed-byline {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-byline__name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-byline__role {
+  font-size: 0.8rem;
+  color: var(--highlight-text);
+  margin-top: 0.2rem;
+}
+
+/* About: a long-form column beside the CEO's Note, set like a sidebar */
+.ed-about {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+@media (min-width: 960px) {
+  .ed-about {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--grid-gap);
+    align-items: start;
+  }
+}
+
+.ed-about__lede {
+  margin: 1.5rem 0 1.4rem;
+  max-width: 36ch;
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+  line-height: 1.45;
+  color: var(--text-heading);
+}
+
+.ed-about__more {
+  margin-top: 1.5rem;
+}
+
+.ed-about__note {
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--accent);
+}
+
+@media (min-width: 960px) {
+  .ed-about__note {
+    margin-top: 0.4rem;
+  }
+}
+
+.ed-about__notetext {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.ed-about__notetext + .ed-about__notetext {
+  margin-top: 1rem;
+}
+
+/* The four pillars from the source homepage: ruled and numbered */
+.ed-pillars {
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.75rem var(--grid-gap-cards);
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+@media (min-width: 620px) {
+  .ed-pillars {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .ed-pillars {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ed-pillar {
+  height: 100%;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border-strong);
+}
+
+.ed-pillar__num {
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-pillar__title {
+  margin-top: 0.6rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-pillar__text {
+  margin-top: 0.55rem;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+/* SpiceJet in Numbers: figures set in type, separated by hairlines */
+.ed-numbers {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.ed-numbers__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.85rem var(--grid-gap);
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 900px) {
+  .ed-numbers__head {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    align-items: end;
+  }
+}
+
+.ed-numbers__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-h3);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text-heading);
+}
+
+.ed-numbers__text {
+  max-width: 60ch;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+/* Fixed column counts so long figures (402,949,078) never break mid-number */
+.ed-figures {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--grid-gap-cards);
+}
+
+@media (min-width: 900px) {
+  .ed-figures {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ed-figure {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  padding-block: 1.1rem 1.4rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-figure__value {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.6vw, 2.1rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--text-heading);
+  white-space: nowrap;
+  font-variant-numeric: lining-nums;
+}
+
+.ed-figure__value span {
+  color: var(--highlight-text);
+  font-size: 0.7em;
+  margin-left: 1px;
+}
+
+.ed-figure__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-note {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Partner logos beside the source sentence about them */
+.ed-partners__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem var(--grid-gap);
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .ed-partners__grid {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  }
+}
+
+.ed-partners__text {
+  max-width: 52ch;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.ed-logos {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.5rem, 4vw, 2.5rem) clamp(1.75rem, 5vw, 3rem);
+}
+
+@media (min-width: 1024px) {
+  .ed-logos {
+    justify-content: flex-start;
+  }
+}
+
+.ed-logo {
+  position: relative;
+  width: clamp(84px, 22vw, 104px);
+  height: clamp(38px, 10vw, 46px);
+  flex: none;
+}
+
+/* Advertising: an editorial band under a red rule */
+.ed-advert {
+  padding-block: clamp(3.5rem, 8vw, 6rem);
+  border-top: 3px solid var(--accent);
+  background-color: var(--bg-band);
+}
+
+.ed-advert__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.75rem var(--grid-gap);
+}
+
+@media (min-width: 900px) {
+  .ed-advert__grid {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    align-items: end;
+  }
+}
+
+.ed-advert__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+  max-width: 18ch;
+}
+
+.ed-advert__title em {
+  display: block;
+  font-style: italic;
+  color: var(--emphasis);
+}
+
+.ed-advert__text {
+  margin-bottom: 1.5rem;
+  max-width: 46ch;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* --------------------------------------------------------------------------
+   6a. Homepage compositions — each section keeps its own shape
+   -------------------------------------------------------------------------- */
+
+/* Featured: one dominant feature (7) beside a conversation and a photo essay (5) */
+.ed-featured {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 3rem);
+}
+
+.ed-featured > * {
+  min-width: 0;
+  container-type: inline-size;
+}
+
+@media (min-width: 1000px) {
+  .ed-featured {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    grid-template-rows: auto 1fr;
+    gap: 2.75rem var(--grid-gap);
+  }
+
+  .ed-featured__lead {
+    grid-row: 1 / span 2;
+  }
+}
+
+@container (min-width: 540px) {
+  .ed-featured__lead .ed-card--featured.ed-card--stack .ed-card__plate {
+    aspect-ratio: 5 / 4;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ed-featured__lead .ed-card--featured.ed-card--stack .ed-card__plate {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+.ed-featured__lead .ed-card--featured .ed-card__title {
+  font-size: clamp(1.8rem, 3.6vw, 2.75rem);
+}
+
+.ed-featured__side .ed-card__plate {
+  aspect-ratio: 16 / 10;
+}
+
+.ed-featured--issue .ed-featured__side .ed-card__plate {
+  aspect-ratio: 4 / 3;
+}
+
+/* Conversation card: printed portrait beside its printed pull quote */
+.ed-card--quote:has(.ed-card__plate) {
+  display: grid;
+  grid-template-columns: clamp(92px, 34%, 170px) minmax(0, 1fr);
+  gap: 1rem clamp(1rem, 3vw, 1.5rem);
+  align-items: start;
+}
+
+.ed-card--quote .ed-card__plate {
+  aspect-ratio: 3 / 4;
+}
+
+.ed-card--quote .ed-card__body {
+  padding-top: 0;
+}
+
+.ed-card--quote .ed-quote {
+  margin-top: 0.4rem;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+}
+
+@container (max-width: 380px) {
+  .ed-card--quote:has(.ed-card__plate) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ed-card--quote .ed-card__plate {
+    width: 112px;
+  }
+}
+
+/* Latest: a ruled, numbered strip — the first story wider */
+.ed-strip {
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  counter-reset: strip;
+}
+
+.ed-strip__item {
+  counter-increment: strip;
+  padding-block: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-strip__item:last-child {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-strip .ed-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(88px, 24vw, 132px);
+  gap: 1rem;
+  align-items: start;
+}
+
+.ed-strip .ed-card__plate {
+  order: 2;
+  aspect-ratio: 1;
+}
+
+.ed-strip .ed-card__body {
+  padding-top: 0;
+}
+
+.ed-strip .ed-card__body::before {
+  content: counter(strip, decimal-leading-zero);
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--highlight-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-strip .ed-card__title {
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+}
+
+@media (min-width: 820px) {
+  .ed-strip {
+    --strip-gap: var(--grid-gap);
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: var(--strip-gap);
+  }
+
+  .ed-strip__item {
+    position: relative;
+    padding: 0;
+    border-top: 0;
+  }
+
+  .ed-strip__item + .ed-strip__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(-0.5 * var(--strip-gap));
+    width: 1px;
+    background-color: var(--border-subtle);
+  }
+
+  .ed-strip__item:last-child {
+    border-bottom: 0;
+  }
+
+  .ed-strip .ed-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .ed-strip .ed-card__plate {
+    order: 0;
+    aspect-ratio: 3 / 2;
+  }
+
+  .ed-strip .ed-card__body {
+    padding-top: 1.1rem;
+  }
+
+  .ed-strip__item:first-child .ed-card__plate {
+    aspect-ratio: 4 / 3;
+  }
+
+  .ed-strip__item:first-child .ed-card__title {
+    font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+  }
+}
+
+/* Travel: an atlas — four places in a 2 × 2 grid, the long read beside them */
+.ed-atlas {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 3rem);
+}
+
+.ed-atlas > * {
+  min-width: 0;
+  container-type: inline-size;
+}
+
+.ed-atlas__lead {
+  order: -1;
+}
+
+.ed-atlas__places {
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.25rem var(--grid-gap-cards);
+}
+
+@media (min-width: 560px) {
+  .ed-atlas__places {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .ed-atlas {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--grid-gap);
+    align-items: start;
+  }
+
+  .ed-atlas__lead {
+    order: 0;
+  }
+}
+
+.ed-card--place .ed-card__plate {
+  aspect-ratio: 4 / 3;
+}
+
+.ed-card--place .ed-card__body {
+  padding-top: 0.95rem;
+  gap: 0.45rem;
+}
+
+.ed-card--place .ed-card__title {
+  font-size: clamp(1.15rem, 1.7vw, 1.3rem);
+}
+
+.ed-card--place .ed-card__excerpt {
+  font-size: 0.86rem;
+  -webkit-line-clamp: 2;
+}
+
+.ed-card--tall .ed-card__plate {
+  aspect-ratio: 4 / 5;
+}
+
+@container (min-width: 540px) {
+  .ed-card--featured.ed-card--stack.ed-card--tall .ed-card__plate {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+/* Food: a light "paper" spread. Tokens are re-pointed for dark-on-cream
+   text, so every component inside keeps its contrast. */
+.ed-section--paper {
+  color-scheme: light;
+  --text-heading: var(--light-heading);
+  --text-primary: var(--light-text);
+  --text-secondary: var(--light-text-secondary);
+  --text-muted: var(--light-text-muted);
+  --border-subtle: var(--light-border);
+  --border-strong: var(--light-border-strong);
+  --highlight-text: var(--light-highlight-text);
+  --emphasis: var(--light-emphasis);
+  --accent-text: var(--light-accent-text);
+  --focus-ring: var(--light-focus);
+  --bg-plate: var(--paper-surface);
+  background-color: var(--paper-cream);
+  color: var(--text-primary);
+}
+
+.ed-section--paper .ed-card__plate {
+  box-shadow: var(--light-shadow-plate);
+}
+
+.ed-shead--center {
+  justify-content: center;
+  text-align: center;
+}
+
+.ed-shead--center .ed-shead__main {
+  margin-inline: auto;
+}
+
+.ed-shead--center .ed-kicker::after {
+  content: "";
+  width: 26px;
+  height: 1px;
+  background-color: currentColor;
+  flex: none;
+}
+
+/* Three plates: a swipeable row on phones, a staggered triptych above */
+.ed-triptych {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min(78%, 320px);
+  gap: 1.25rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  margin-inline: calc(-1 * var(--gutter));
+  padding: 0.25rem var(--gutter) 1.5rem;
+  scrollbar-width: thin;
+}
+
+.ed-triptych > * {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+.ed-triptych .ed-card__plate {
+  aspect-ratio: 4 / 5;
+}
+
+@media (min-width: 640px) {
+  .ed-triptych {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--grid-gap-cards);
+    align-items: start;
+    overflow: visible;
+    margin-inline: 0;
+    padding: 0;
+  }
+
+  .ed-triptych > :nth-child(2) {
+    margin-top: clamp(2rem, 6vw, 4.5rem);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 899px) {
+  .ed-triptych .ed-card__excerpt {
+    display: none;
+  }
+}
+
+/* Culture: the lead feature beside a contents column */
+.ed-spread {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 3rem);
+}
+
+.ed-spread > * {
+  min-width: 0;
+  container-type: inline-size;
+}
+
+@media (min-width: 1000px) {
+  .ed-spread {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: var(--grid-gap);
+    align-items: start;
+  }
+}
+
+.ed-spread .ed-card--featured .ed-card__plate {
+  aspect-ratio: 5 / 4;
+}
+
+@container (min-width: 540px) {
+  .ed-spread .ed-card--featured.ed-card--stack .ed-card__plate {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+/* Recent editions: the latest cover leads, three earlier covers beside it */
+.ed-shelf {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+}
+
+.ed-shelf > * {
+  min-width: 0;
+}
+
+.ed-shelf .ed-shead {
+  margin-bottom: 0;
+}
+
+@media (min-width: 820px) {
+  .ed-shelf {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    grid-template-rows: auto 1fr;
+    gap: 2.5rem var(--grid-gap);
+    align-items: start;
+  }
+
+  .ed-shelf__lead {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .ed-shelf__head {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: start;
+  }
+
+  /* The earlier covers follow their heading directly, not pushed to the
+     foot of the column */
+  .ed-shelf__rest {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+.ed-shelf__issue {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 560px) and (max-width: 819px) {
+  .ed-shelf__issue {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: end;
+  }
+}
+
+.ed-shelf__cover {
+  position: relative;
+  display: block;
+  width: min(100%, 440px);
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  box-shadow: var(--shadow-cover);
+  transition: transform 0.5s var(--ease-editorial);
+}
+
+/* Beside the other covers the lead cover fills its five columns, like the
+   Culture lead and the hero text above it */
+@media (min-width: 820px) {
+  .ed-shelf__cover {
+    width: 100%;
+  }
+}
+
+.ed-shelf__cover img {
+  object-fit: cover;
+}
+
+.ed-shelf__issue:hover .ed-shelf__cover {
+  transform: translateY(-5px);
+}
+
+.ed-shelf__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.08;
+  color: var(--text-heading);
+}
+
+.ed-shelf__title a:hover {
+  color: var(--emphasis);
+}
+
+.ed-shelf__facts {
+  margin: 0.6rem 0 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-shelf__meta .ed-edition__kind {
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+
+/* The three earlier covers: a rail on phones, a row of three above */
+@media (min-width: 480px) {
+  .ed-shelf__rest.ed-editions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--grid-gap-cards);
+  }
+}
+
+.ed-shelf__rest .ed-edition__title {
+  font-size: 1.02rem;
+}
+
+/* --------------------------------------------------------------------------
+   6b. Article body (printed structure, source-exact text)
+   -------------------------------------------------------------------------- */
+.ed-article__label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+  margin-bottom: 0.75rem;
+}
+
+.ed-article__figure {
+  margin: 0;
+}
+
+/* The page sets the photograph's own aspect ratio inline, so it is never
+   cropped; 4:3 is only the fallback. */
+.ed-article__image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  box-shadow: var(--shadow-cover);
+}
+
+.ed-article__image img {
+  object-fit: cover;
+}
+
+.ed-article__figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+/* One reading column for everything in the article body: text, subheads,
+   photographs, captions, pull quotes. A rem measure (not ch), so parts set
+   at other font sizes share exactly the same edges. */
+.ed-article {
+  max-width: var(--article-col);
+  margin-inline: auto;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-body);
+}
+
+.ed-article > p {
+  margin-bottom: 1.4rem;
+}
+
+/* Drop cap on the opening paragraph (plain paragraphs only) */
+.ed-article > p:first-child:not([class])::first-letter {
+  float: left;
+  margin: 0.08em 0.12em 0 0;
+  font-family: var(--font-serif);
+  font-size: 3.7em;
+  font-weight: 700;
+  line-height: 0.8;
+  color: var(--emphasis);
+}
+
+.ed-article em {
+  font-style: italic;
+}
+
+.ed-article strong {
+  font-weight: 600;
+  color: var(--emphasis);
+}
+
+.ed-article__subhead {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 2.5rem 0 1rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-heading);
+}
+
+.ed-article__subhead--minor {
+  display: block;
+  margin: -0.5rem 0 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--emphasis);
+}
+
+/* A fixed slot for the printed number, so every numbered heading's text
+   starts at the same point whatever the digit's width */
+.ed-article__num {
+  flex: none;
+  min-width: 0.8em;
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  font-style: italic;
+  line-height: 1;
+  color: var(--accent-text);
+}
+
+.ed-article__q {
+  margin: 2rem 0 0.6rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-article__note {
+  margin: -0.4rem 0 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--highlight-text);
+}
+
+.ed-article__note strong {
+  color: var(--emphasis);
+}
+
+.ed-article__list {
+  margin: 0 0 1.6rem;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.ed-pullquote {
+  margin: 2.25rem 0;
+  padding: clamp(1.25rem, 4vw, 1.75rem) clamp(1.25rem, 5vw, 2.25rem);
+  border-left: 3px solid var(--accent);
+  background-color: var(--accent-tint);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.ed-pullquote p {
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text-heading);
+}
+
+.ed-article__callouts {
+  max-width: var(--article-col);
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ed-article__callout {
+  padding: 0.9rem 1.1rem;
+  border: 1px dashed var(--border-accent);
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--emphasis);
+}
+
+/* --------------------------------------------------------------------------
+   6c. Breadcrumbs
+   -------------------------------------------------------------------------- */
+.ed-crumbs {
+  margin-bottom: clamp(1.5rem, 3vw, 2.25rem);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.ed-crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0;
+  list-style: none;
+}
+
+.ed-crumbs li {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.ed-crumbs li + li::before {
+  content: "/";
+  margin: 0 0.55rem;
+  color: var(--border-strong);
+}
+
+.ed-crumbs a {
+  /* ≥24px tap target without changing the line's height */
+  display: inline-block;
+  padding-block: 0.2rem;
+  margin-block: -0.2rem;
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+.ed-crumbs a:hover {
+  color: var(--text-heading);
+  text-decoration-color: currentColor;
+}
+
+.ed-crumbs [aria-current="page"] {
+  color: var(--text-heading);
+  overflow-wrap: anywhere;
+}
+
+/* --------------------------------------------------------------------------
+   6d. Edition page
+   -------------------------------------------------------------------------- */
+.ed-issue__hero {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  padding-block: clamp(2rem, 5vw, 3.5rem) clamp(2.5rem, 6vw, 4.5rem);
+}
+
+/* A tiny copy of the cover, blurred into ambient colour behind the hero */
+.ed-issue__ambient {
+  position: absolute;
+  inset: -12% -6% 0;
+  z-index: -1;
+  opacity: var(--ambient-opacity);
+  filter: blur(64px) saturate(1.2);
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, #000 35%, transparent 96%);
+  mask-image: linear-gradient(to bottom, #000 35%, transparent 96%);
+}
+
+.ed-issue__ambient img {
+  object-fit: cover;
+}
+
+.ed-issue__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 5vw, 3.5rem);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .ed-issue__grid {
+    grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-issue__grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: var(--grid-gap);
+  }
+}
+
+.ed-issue__cover .ed-cover-frame {
+  max-width: 440px;
+}
+
+/* Beside the text the cover starts on the page edge, like the breadcrumb
+   above it, rather than floating in the middle of its column */
+@media (min-width: 768px) {
+  .ed-issue__cover .ed-cover-frame {
+    margin-inline: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ed-issue__cover .ed-cover-frame {
+    max-width: min(78vw, 320px);
+  }
+}
+
+.ed-issue__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.3rem, 5.6vw, 4rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+  margin-bottom: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+.ed-issue__masthead {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--emphasis);
+}
+
+.ed-issue__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem clamp(1.5rem, 4vw, 2.5rem);
+  padding-block: 1.1rem;
+  border-block: 1px solid var(--border-subtle);
+  margin-bottom: 1.4rem;
+}
+
+.ed-issue__desc {
+  max-width: var(--measure-lede);
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.ed-access {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.ed-access__item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.ed-access__dot {
+  flex: none;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  transform: translateY(-0.05rem);
+}
+
+.ed-access__item.is-on .ed-access__dot {
+  background-color: var(--highlight-text);
+}
+
+.ed-access__item.is-off {
+  color: var(--text-muted);
+}
+
+.ed-access__item.is-off .ed-access__dot {
+  background-color: transparent;
+  border: 1px solid var(--text-muted);
+}
+
+.ed-issue__pdf {
+  align-self: center;
+  padding-inline: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.ed-pdfpanel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem var(--grid-gap);
+  padding: clamp(1.75rem, 5vw, 3.5rem);
+  border: 1px solid var(--border-accent);
+  border-top: 3px solid var(--highlight-text);
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-card);
+}
+
+@media (min-width: 768px) {
+  .ed-pdfpanel {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+  }
+}
+
+/* The verified page count, set large: the edition's size at a glance */
+.ed-pdfpanel__pages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-pdfpanel__pages span {
+  font-family: var(--font-serif);
+  font-size: clamp(4rem, 11vw, 7.5rem);
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: lining-nums;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  color: var(--emphasis);
+}
+
+.ed-pdfpanel__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.12;
+  color: var(--text-heading);
+}
+
+.ed-pdfpanel__text {
+  margin: 1rem 0 1.75rem;
+  max-width: var(--measure-lede);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.ed-pdfband {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+}
+
+.ed-pdfband__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-pdfband__text {
+  margin-top: 0.4rem;
+  max-width: 60ch;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.ed-issue__nearby {
+  margin-top: var(--space-section);
+}
+
+/* Contents list: grouped by printed section, with printed page numbers */
+.ed-toc {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.75rem, 4vw, 2.5rem);
+  container-type: inline-size;
+}
+
+.ed-toc__section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-toc__section::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: var(--border-subtle);
+}
+
+.ed-toc__list {
+  list-style: none;
+}
+
+.ed-toc__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) 76px;
+  gap: 0.25rem 1rem;
+  align-items: start;
+  padding-block: 1.1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  isolation: isolate;
+}
+
+.ed-toc__page {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--highlight-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-toc__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.ed-toc__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-weight: 700;
+  line-height: 1.22;
+  color: var(--text-heading);
+}
+
+.ed-toc__label {
+  color: var(--emphasis);
+}
+
+.ed-toc__link {
+  color: inherit;
+}
+
+.ed-toc__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-toc__item:hover .ed-toc__title,
+.ed-toc__link:focus-visible {
+  color: var(--emphasis);
+}
+
+.ed-toc__standfirst {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  max-width: var(--measure-excerpt);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ed-toc__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+.ed-toc__thumb {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: var(--bg-plate);
+}
+
+.ed-toc__thumb img {
+  object-fit: cover;
+  transition: transform 0.7s var(--ease-editorial);
+}
+
+.ed-toc__item:hover .ed-toc__thumb img {
+  transform: scale(1.06);
+}
+
+@container (min-width: 640px) {
+  .ed-toc__item {
+    grid-template-columns: 3.5rem minmax(0, 1fr) 112px;
+    gap: 0.4rem 1.5rem;
+  }
+
+  .ed-toc__page {
+    font-size: 2rem;
+  }
+}
+
+/* Wide screens: two columns, groups never split across them */
+@media (min-width: 1100px) {
+  .ed-toc {
+    display: block;
+    columns: 2;
+    column-gap: var(--grid-gap);
+  }
+
+  .ed-toc__group {
+    break-inside: avoid;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* Previous / next pagers (editions and stories) */
+.ed-pager {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem var(--grid-gap-cards);
+}
+
+@media (min-width: 640px) {
+  .ed-pager {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.ed-pager__link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 5.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-raised);
+  transition: border-color 0.3s var(--ease-editorial), background-color 0.3s var(--ease-editorial);
+}
+
+.ed-pager__link:hover {
+  border-color: var(--border-accent);
+  background-color: var(--bg-hover);
+}
+
+.ed-pager__link--next {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.ed-pager__thumb {
+  position: relative;
+  flex: none;
+  width: 56px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: var(--bg-plate);
+}
+
+.ed-pager__thumb--story {
+  width: 72px;
+  aspect-ratio: 1;
+}
+
+.ed-pager__thumb img {
+  object-fit: cover;
+}
+
+.ed-pager__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.ed-pager__dir {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-pager__section {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-pager__title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-heading);
+  overflow-wrap: anywhere;
+}
+
+.ed-pager__end {
+  display: flex;
+  align-items: center;
+  min-height: 5.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-plate);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.ed-pager__end--next {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* After the article: pager, edition and related stories span the page
+   container, like the breadcrumb and opener at the top */
+.ed-pager--story {
+  margin-top: clamp(2.5rem, 6vw, 3.5rem);
+}
+
+/* --------------------------------------------------------------------------
+   6e. Archive
+   -------------------------------------------------------------------------- */
+.ed-archive__head {
+  max-width: 760px;
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.ed-latest {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+  padding-block: clamp(1.5rem, 3vw, 2rem);
+  border-block: 1px solid var(--border-subtle);
+}
+
+/* Cover on four columns, text on eight: the same split as the partner band */
+@media (min-width: 768px) {
+  .ed-latest {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    gap: var(--grid-gap);
+  }
+}
+
+.ed-latest__cover {
+  position: relative;
+  width: min(66vw, 280px);
+  max-width: 360px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  box-shadow: var(--shadow-cover);
+}
+
+@media (min-width: 768px) {
+  .ed-latest__cover {
+    width: 100%;
+  }
+}
+
+.ed-latest__cover img {
+  object-fit: cover;
+}
+
+.ed-latest__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-heading);
+}
+
+.ed-latest__title a:hover {
+  color: var(--emphasis);
+}
+
+.ed-latest__meta {
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.ed-latest__stories {
+  list-style: none;
+  margin: 1.25rem 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.35rem 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .ed-latest__stories {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ed-latest__stories a {
+  display: flex;
+  flex-direction: column;
+  padding-block: 0.55rem;
+  border-top: 1px solid var(--border-subtle);
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--text-heading);
+}
+
+.ed-latest__stories a:hover {
+  color: var(--emphasis);
+}
+
+.ed-latest__section {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+/* The archive grid follows the latest-edition feature closely */
+.ed-archive-page > .ed-section {
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.ed-archive__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ed-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 40px;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  background: var(--control-bg);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.ed-chip:hover {
+  border-color: var(--border-strong);
+  color: var(--text-heading);
+}
+
+.ed-chip[aria-pressed="true"] {
+  background-color: var(--accent-fill);
+  border-color: var(--accent-fill);
+  color: var(--on-accent);
+}
+
+.ed-chip__count {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.ed-search {
+  flex: 1 1 260px;
+  max-width: 400px;
+}
+
+.ed-search__input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  background-color: var(--input-bg);
+  color: var(--text-heading);
+  font-size: 0.92rem;
+}
+
+/* iOS zooms into any field set below 16px on focus */
+@media (max-width: 767px) {
+  .ed-search__input {
+    font-size: 1rem;
+  }
+}
+
+.ed-search__input::placeholder {
+  color: var(--text-muted);
+}
+
+.ed-search__input:focus-visible {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 2px;
+}
+
+.ed-archive__count {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.ed-archive__group {
+  margin-top: clamp(2rem, 5vw, 3rem);
+}
+
+.ed-archive__year {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-archive__yearcount {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-archive__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.25rem, 3vw, 2.25rem) var(--grid-gap-cards);
+}
+
+@media (min-width: 640px) {
+  .ed-archive__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .ed-archive__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ed-archive__grid > div {
+  display: flex;
+}
+
+.ed-archive__grid .ed-edition {
+  flex: 1;
+}
+
+/* Two-up cards on phones: tighten type so nothing crowds */
+@media (max-width: 639px) {
+  .ed-archive__grid .ed-edition__title {
+    font-size: 1.02rem;
+  }
+}
+
+.ed-archive__hits {
+  margin-top: 1.5rem;
+}
+
+.ed-archive__hitlist {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .ed-archive__hitlist {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ed-archive__hit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-plate);
+  transition: border-color 0.2s;
+}
+
+.ed-archive__hit:hover {
+  border-color: var(--border-accent);
+}
+
+.ed-archive__hittitle {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-archive__hitmeta {
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+.ed-archive__empty {
+  margin-top: 2rem;
+  padding: 2.5rem 1.5rem;
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-plate);
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.ed-archive__empty p {
+  margin-bottom: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   6f. Article page
+   -------------------------------------------------------------------------- */
+.ed-story {
+  padding-block: clamp(2rem, 5vw, 3.5rem) var(--space-section);
+}
+
+/* Body parts (text, callouts, tags) carry their own measure */
+.ed-story__article {
+  margin: 0 auto;
+}
+
+.ed-story__opener {
+  max-width: var(--article-opener);
+  margin: 0 auto clamp(2.5rem, 6vw, 3.75rem);
+}
+
+.ed-story__header {
+  margin-bottom: clamp(2rem, 5vw, 2.75rem);
+  text-align: center;
+}
+
+.ed-story__opener:not(.ed-story__opener--wide):not(.ed-story__opener--split) .ed-story__header {
+  margin-bottom: 0;
+}
+
+/* Portrait photographs: never wider than they are sharp */
+.ed-story__opener--split .ed-article__figure {
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  /* Portrait lead photograph: headline on seven columns, photograph on five */
+  .ed-story__opener--split {
+    max-width: none;
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--grid-gap);
+    align-items: center;
+  }
+
+  .ed-story__opener--split .ed-story__header {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .ed-story__opener--split .ed-story__section {
+    justify-content: flex-start;
+  }
+
+  .ed-story__opener--split .ed-story__title {
+    font-size: clamp(2.4rem, 4.3vw, 3.9rem);
+  }
+
+  .ed-story__opener--split .ed-story__standfirst {
+    margin-left: 0;
+  }
+
+  .ed-story__opener--split .ed-story__byline {
+    justify-content: flex-start;
+  }
+
+  .ed-story__opener--split .ed-article__figure {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+.ed-story__edition {
+  margin-bottom: 1.25rem;
+}
+
+.ed-story__edition a {
+  display: inline-flex;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--emphasis);
+  transition: background-color 0.2s;
+}
+
+.ed-story__edition a:hover {
+  background-color: var(--highlight-tint);
+}
+
+.ed-story__section {
+  justify-content: center;
+}
+
+.ed-story__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-display);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+  margin-bottom: 1.35rem;
+}
+
+.ed-story__standfirst {
+  max-width: 62ch;
+  margin: 0 auto 1.75rem;
+  font-size: var(--step-lede);
+  font-style: italic;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.ed-story__byline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.6rem;
+  padding-block: 0.95rem;
+  border-block: 1px solid var(--border-subtle);
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.ed-story__byline strong {
+  color: var(--text-heading);
+}
+
+.ed-story__tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: var(--article-col);
+  margin: 2.5rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-story__issue {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 1rem 1.25rem;
+  align-items: center;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-raised);
+}
+
+.ed-story__issue .btn {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+
+@media (min-width: 640px) {
+  .ed-story__issue {
+    grid-template-columns: 72px minmax(0, 1fr) auto;
+  }
+
+  .ed-story__issue .btn {
+    grid-column: auto;
+  }
+}
+
+.ed-story__issuecover {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.ed-story__issuecover img {
+  object-fit: cover;
+}
+
+.ed-story__issue .ed-kicker {
+  margin-bottom: 0.3rem;
+}
+
+.ed-story__issuetitle {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-story__issuetitle a:hover {
+  color: var(--emphasis);
+}
+
+.ed-story__issuemeta {
+  margin-top: 0.2rem;
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+.ed-story__related {
+  margin-top: var(--space-section);
+  padding-top: var(--space-block);
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* Related stories lead with their own photographs (4:3 keeps portrait
+   photographs recognisable) */
+.ed-related .ed-card__plate {
+  aspect-ratio: 4 / 3;
+}
+
+.ed-related .ed-card__excerpt {
+  -webkit-line-clamp: 2;
+}
+
+/* --------------------------------------------------------------------------
+   6g. Article interactions: original PDF, printed photographs, lightbox,
+       "In this story", reading progress
+   -------------------------------------------------------------------------- */
+.ed-story__original {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.1rem;
+}
+
+.ed-story__pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  background-color: var(--control-bg);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-heading);
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+}
+
+.ed-story__pdf svg {
+  flex: none;
+  color: var(--accent-text);
+}
+
+.ed-story__pdf:hover {
+  border-color: var(--accent);
+  background-color: var(--accent-tint);
+}
+
+.ed-story__pdfpages {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+@media (min-width: 1024px) {
+  .ed-story__opener--split .ed-story__original {
+    justify-content: flex-start;
+  }
+}
+
+.ed-story__issueactions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .ed-story__issueactions {
+    grid-column: auto;
+    justify-content: flex-end;
+  }
+}
+
+/* The body wraps the text so the contents rail can run beside it (see
+   "In this story" below) */
+.ed-story__body {
+  position: relative;
+}
+
+/* A photograph essay (no running text) gets a wider measure, shared by its
+   callouts and tags */
+.ed-story__article:has(.ed-article--plates) {
+  --article-col: 60rem;
+}
+
+/* Printed photographs: rows share one height, each photograph keeps its own
+   proportions (--r = width / height), so nothing is cropped */
+.ed-gallery {
+  margin: 2.25rem 0 2.5rem;
+}
+
+.ed-article--plates .ed-gallery {
+  margin-block: 0 clamp(2.5rem, 6vw, 3.5rem);
+}
+
+.ed-gallery__row {
+  display: flex;
+  gap: 0.5rem;
+  /* no taller than 33rem, and never beyond the photographs' own sharpness
+     (--maxw). A row held narrower than the column starts on the text edge,
+     over its caption, rather than floating in the middle. */
+  max-width: min(calc(33rem * var(--sum)), var(--maxw, 100%));
+}
+
+.ed-gallery__row + .ed-gallery__row {
+  margin-top: 0.5rem;
+}
+
+.ed-gallery__item {
+  position: relative;
+  flex: var(--r) 1 0;
+  min-width: 0;
+  aspect-ratio: var(--r);
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  cursor: zoom-in;
+}
+
+.ed-gallery__item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s var(--ease-editorial), filter 0.3s;
+}
+
+.ed-gallery__item::after {
+  content: "";
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3E%3Cpath d='M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7'/%3E%3C/svg%3E")
+    center / 14px no-repeat;
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity 0.25s, transform 0.25s var(--ease-editorial);
+}
+
+.ed-gallery__item:hover img {
+  transform: scale(1.035);
+}
+
+.ed-gallery__item:hover::after,
+.ed-gallery__item:focus-visible::after {
+  opacity: 1;
+  transform: none;
+}
+
+@media (hover: none) {
+  .ed-gallery__item::after {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.ed-gallery__caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+/* "Page N in print" — opens the edition PDF at that page */
+.ed-gallery__page {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  /* ≥24px tap target, offset so the caption line keeps its spacing */
+  min-height: 24px;
+  margin-block: -4px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s;
+}
+
+.ed-gallery__page::after {
+  content: "\2197";
+  letter-spacing: 0;
+}
+
+.ed-gallery__page:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Printed captions: the lead-in, then each caption as printed */
+.ed-captions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.ed-captions__label {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.ed-captions__item {
+  font-style: italic;
+}
+
+/* Lightbox (always dark, like the PDF reader) */
+.ed-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  --reserve: 10rem; /* room kept for the bar and padding */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  animation: edFade 0.2s ease-out;
+}
+
+.ed-lightbox__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem clamp(0.75rem, 3vw, 1.25rem);
+}
+
+.ed-lightbox__count {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+
+.ed-lightbox__page {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+}
+
+.ed-lightbox__close,
+.ed-lightbox__nav {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 50%;
+  background-color: var(--bg-hover);
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--text-heading);
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.ed-lightbox__close:hover,
+.ed-lightbox__nav:hover {
+  border-color: var(--accent);
+}
+
+.ed-lightbox__stage {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  padding: 0 clamp(0.75rem, 8vw, 5.5rem) 1.25rem;
+}
+
+.ed-lightbox__frame {
+  display: flex;
+  justify-content: center;
+  min-height: 0;
+  max-width: 100%;
+}
+
+/* As large as the screen allows, but never beyond twice the photograph's
+   own resolution (--w) */
+.ed-lightbox__img {
+  display: block;
+  width: min(var(--w), calc(100vw - 2 * clamp(0.75rem, 8vw, 5.5rem)), calc((100dvh - var(--reserve)) * var(--r)));
+  height: auto;
+  object-fit: contain;
+  border-radius: 2px;
+  animation: edFade 0.25s ease-out;
+}
+
+/* Printed captions under the photograph take their own room */
+.ed-lightbox--captioned {
+  --reserve: 18.5rem;
+}
+
+@keyframes edFade {
+  from {
+    opacity: 0;
+  }
+}
+
+.ed-lightbox__captions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: min(100%, 44rem);
+  max-height: 8rem;
+  overflow-y: auto;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.ed-lightbox__captionhead {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ed-lightbox__nav--prev {
+  left: clamp(0.5rem, 2vw, 1.25rem);
+}
+
+.ed-lightbox__nav--next {
+  right: clamp(0.5rem, 2vw, 1.25rem);
+}
+
+/* "In this story": a collapsible list above the text, a rail beside it on
+   wide screens */
+.ed-instory {
+  max-width: var(--article-col);
+  margin: 0 auto 2.25rem;
+}
+
+.ed-instory__rail {
+  display: none;
+}
+
+.ed-instory__compact {
+  border-block: 1px solid var(--border-subtle);
+}
+
+.ed-instory__compact summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ed-instory__compact summary::-webkit-details-marker {
+  display: none;
+}
+
+.ed-instory__compact summary::after {
+  content: "+";
+  font-size: 1.35rem;
+  line-height: 1;
+  color: var(--accent-text);
+  transition: transform 0.25s var(--ease-editorial);
+}
+
+.ed-instory__compact[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.ed-instory__title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+}
+
+.ed-instory__count {
+  margin-left: auto;
+  font-size: var(--step-meta);
+  color: var(--text-muted);
+}
+
+.ed-instory__list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.ed-instory__list a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  padding: 0.4rem 0.65rem;
+  border-left: 2px solid var(--border-subtle);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.ed-instory__list a:hover {
+  color: var(--text-heading);
+  background-color: var(--bg-hover);
+}
+
+.ed-instory__list a[aria-current] {
+  border-left-color: var(--accent);
+  font-weight: 600;
+  color: var(--text-heading);
+}
+
+.ed-instory__num {
+  flex: none;
+  min-width: 1.1em;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--accent-text);
+}
+
+/* Wide screens: the body becomes a three-column grid — margin, reading
+   column, margin — so the text stays centred under the opener, and the
+   rail takes the left margin column, starting on the page edge with the
+   breadcrumb and headline. */
+@media (min-width: 1200px) {
+  .ed-story__body:has(> .ed-instory) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, var(--article-col)) minmax(0, 1fr);
+    column-gap: var(--grid-gap);
+    align-items: stretch;
+  }
+
+  .ed-story__body > .ed-instory {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 15rem;
+    margin: 0;
+  }
+
+  .ed-story__body:has(> .ed-instory) > .ed-article {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: none;
+  }
+
+  .ed-instory__compact {
+    display: none;
+  }
+
+  .ed-instory__rail {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h) + 2rem);
+    max-height: calc(100vh - var(--header-h) - 4rem);
+    overflow-y: auto;
+  }
+
+  .ed-instory__rail .ed-instory__title {
+    display: block;
+    margin-bottom: 0.85rem;
+  }
+
+  .ed-instory__rail .ed-instory__list a {
+    font-size: 0.84rem;
+    padding-block: 0.35rem;
+  }
+}
+
+/* Reference pieces (Predictions): each printed subhead opens its own text */
+.ed-fold {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-fold:first-of-type {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-fold__summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ed-fold__summary::-webkit-details-marker {
+  display: none;
+}
+
+.ed-fold__summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--accent-text);
+  transition: transform 0.25s var(--ease-editorial);
+}
+
+.ed-fold[open] > .ed-fold__summary::after {
+  transform: rotate(45deg);
+}
+
+.ed-fold__summary:hover .ed-fold__title {
+  color: var(--emphasis);
+}
+
+.ed-article .ed-fold__title {
+  margin: 0;
+  transition: color 0.2s;
+}
+
+.ed-fold__body {
+  padding-bottom: 1.25rem;
+}
+
+.ed-fold__body > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Reading progress, across the top of the screen */
+.ed-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  height: 3px;
+  background-color: var(--accent);
+  transform-origin: 0 50%;
+  transform: scaleX(var(--progress, 0));
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-gallery__item img,
+  .ed-gallery__item::after,
+  .ed-instory__compact summary::after,
+  .ed-fold__summary::after {
+    transition: none !important;
+  }
+
+  .ed-gallery__item:hover img {
+    transform: none;
+  }
+
+  .ed-lightbox,
+  .ed-lightbox__img {
+    animation: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6h. Plain pages (About, Contact)
+   -------------------------------------------------------------------------- */
+.ed-page__head {
+  max-width: 760px;
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.ed-page__head .ed-issue__title {
+  margin-bottom: 0;
+}
+
+.ed-page__prose {
+  margin-top: 1.5rem;
+}
+
+.ed-pillars--stack {
+  margin-top: 0;
+}
+
+@media (min-width: 620px) {
+  .ed-pillars--stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.ed-page__em {
+  display: block;
+  font-style: italic;
+  color: var(--emphasis);
+}
+
+.ed-contact {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 6vw, 4rem);
+}
+
+@media (min-width: 960px) {
+  .ed-contact {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: var(--grid-gap);
+    align-items: start;
+  }
+}
+
+.ed-contact__figure {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-contact__figure span {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 8vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: none;
+  color: var(--emphasis);
+}
+
+.ed-contact__list > div {
+  padding-block: 1.1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-contact__list dt {
+  margin-bottom: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+}
+
+.ed-contact__list dd,
+.ed-contact__list address {
+  font-size: 0.95rem;
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.ed-contact__list a {
+  display: inline-block;
+  padding-block: 0.2rem;
+  color: var(--text-heading);
+}
+
+.ed-contact__list a:hover {
+  color: var(--emphasis);
+}
+
+.ed-contact__intro {
+  margin: 0.75rem 0 1.75rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Contact form: same surface, inputs and pills as before, now with visible
+   focus, error and progress states */
+.ed-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.ed-form__row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 1.4rem 1.25rem;
+}
+
+.ed-form__field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.ed-form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.ed-form__optional {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.ed-form__input {
+  width: 100%;
+  min-height: 46px;
+  padding: 0.8rem 1rem;
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text-heading);
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: border-color 0.2s var(--ease-editorial), box-shadow 0.2s var(--ease-editorial);
+}
+
+textarea.ed-form__input {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+.ed-form__input:hover {
+  border-color: var(--border-strong);
+}
+
+.ed-form__input:focus-visible {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 2px;
+  border-color: var(--border-accent);
+}
+
+.ed-form__input[aria-invalid="true"] {
+  border-color: var(--accent-text);
+}
+
+.ed-form__error {
+  margin-top: 0.45rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--accent-text);
+}
+
+.ed-form__topics {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.ed-form__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* The radio sits inside its pill: the pill is the 40px target */
+.ed-form__pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  background-color: var(--control-bg);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.ed-form__pill input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.ed-form__pill:hover {
+  border-color: var(--border-strong);
+  color: var(--text-heading);
+}
+
+.ed-form__pill:has(input:checked) {
+  background-color: var(--accent-fill);
+  border-color: var(--accent-fill);
+  color: var(--on-accent);
+}
+
+.ed-form__pill:has(input:focus-visible) {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 2px;
+}
+
+.ed-form__alert {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--border-accent);
+  border-left: 3px solid var(--accent-text);
+  border-radius: var(--radius-sm);
+  background-color: var(--accent-tint);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-heading);
+}
+
+.ed-form__alert:focus {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 2px;
+}
+
+.ed-form__alert-action {
+  margin-top: 0.5rem;
+}
+
+.ed-form__alert-action a {
+  font-weight: 700;
+  color: var(--emphasis);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+/* Clipped out of view, out of the tab order and hidden from assistive tech */
+.ed-form__hp {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.ed-form__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ed-form__actions .btn {
+  padding: 0.9rem 2.2rem;
+}
+
+.ed-form__actions .btn:disabled {
+  cursor: progress;
+  opacity: 0.8;
+  transform: none;
+}
+
+.ed-form__spinner {
+  width: 1em;
+  height: 1em;
+  border: 2px solid var(--on-accent-muted);
+  border-top-color: var(--on-accent);
+  border-radius: 50%;
+  animation: edSpin 0.8s linear infinite;
+}
+
+@keyframes edSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-form__spinner {
+    animation: none;
+  }
+}
+
+.ed-form--done {
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+
+.ed-form--done:focus {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 3px;
+}
+
+.ed-form__done-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--highlight-tint);
+  color: var(--emphasis);
+  font-size: 1.6rem;
+}
+
+.ed-form__done-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-form__done-text {
+  max-width: 52ch;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* 404 */
+.ed-notfound {
+  padding-block: clamp(3rem, 10vw, 7rem);
+}
+
+/* --------------------------------------------------------------------------
+   6g. Footer
+   -------------------------------------------------------------------------- */
+.ed-footer {
+  /* The band re-points the shared text tokens to its own colours */
+  --text-heading: var(--footer-text);
+  --text-secondary: var(--footer-text);
+  --text-muted: var(--footer-muted);
+  --highlight-text: var(--footer-heading);
+  --emphasis: var(--footer-accent);
+  --border-subtle: var(--footer-border);
+  margin-top: auto;
+  padding-block: clamp(3.5rem, 7vw, 5rem) 2rem;
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* Brand on five columns, links on seven: the same split as the page above */
+.ed-footer__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem var(--grid-gap);
+}
+
+.ed-footer__cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem var(--grid-gap-cards);
+}
+
+@media (min-width: 560px) {
+  .ed-footer__cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-footer__grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  }
+
+  .ed-footer__cols {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 0.8fr) minmax(0, 1.2fr);
+  }
+}
+
+.ed-footer__logo {
+  position: relative;
+  display: block;
+  width: 176px;
+  height: 52px;
+  margin-bottom: 1rem;
+}
+
+.ed-footer__tagline {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--emphasis);
+  margin-bottom: 0.9rem;
+}
+
+.ed-footer__text {
+  max-width: 40ch;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.ed-footer__text + .ed-footer__text {
+  margin-top: 0.6rem;
+  color: var(--text-muted);
+}
+
+.ed-footer__head {
+  margin-bottom: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--highlight-text);
+}
+
+.ed-footer__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 40px rows: comfortable touch targets without a heavy look */
+.ed-footer__list a,
+.ed-footer__social a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  overflow-wrap: anywhere;
+  transition: color 0.2s var(--ease-editorial);
+}
+
+.ed-footer__list a:hover,
+.ed-footer__social a:hover {
+  color: var(--text-heading);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ed-footer__address {
+  margin-top: 0.75rem;
+  max-width: 34ch;
+  font-size: 0.82rem;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.ed-footer__social {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.1rem;
+  margin-top: 0.9rem;
+}
+
+.ed-footer__social a {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.ed-footer__base {
+  margin-top: clamp(2.5rem, 6vw, 3.5rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   7. Motion — subtle, fast, purposeful
+   -------------------------------------------------------------------------- */
+
+/* Scroll reveal. The hidden state is only armed once JS runs, so content
+   is always visible without JavaScript. */
+.ed-reveal[data-armed="true"] {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+.ed-reveal {
+  transition: opacity 0.7s var(--ease-editorial), transform 0.7s var(--ease-editorial);
+  transition-delay: calc(var(--reveal-delay, 0) * 1ms);
+}
+
+.ed-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Inside a swipeable rail an item is "off screen" until swiped to, so it is
+   never hidden there — only the page-level reveal applies. */
+@media (max-width: 479px) {
+  .ed-editions > .ed-reveal[data-armed="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .ed-triptych > .ed-reveal[data-armed="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Photographs settle as their story arrives (reuses the plate transition) */
+.ed-reveal[data-armed="true"]:not(.is-visible) .ed-card__plate img {
+  transform: scale(1.06);
+}
+
+/* Hero entrance (CSS only, above the fold) */
+@keyframes edRise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes edCoverIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.ed-rise {
+  animation: edRise 0.55s var(--ease-editorial) both;
+  animation-delay: calc(var(--rise-delay, 0) * 1ms);
+}
+
+.ed-cover-in {
+  animation: edCoverIn 0.65s var(--ease-editorial) both;
+  animation-delay: 60ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-reveal,
+  .ed-reveal[data-armed="true"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .ed-rise,
+  .ed-cover-in {
+    animation: none !important;
+  }
+
+  .ed-cover img,
+  .ed-card__plate img,
+  .ed-edition__cover,
+  .ed-edition__cover img,
+  .ed-card--quote:hover,
+  .ed-more__arrow,
+  .ed-front__photo img,
+  .ed-front__issuecover,
+  .ed-shelf__cover,
+  .ed-index__thumb img,
+  .ed-toc__thumb img {
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .ed-front__photo img {
+    animation: none !important;
+    scale: none !important;
+    translate: none !important;
+  }
+}

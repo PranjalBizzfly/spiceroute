@@ -1,0 +1,10 @@
+{
+  "name": "spiceroute-qa",
+  "private": true,
+  "description": "Local QA toolbox: real-browser visual checks and PDF source extraction. Not part of the app build.",
+  "type": "module",
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38",
+    "playwright": "^1.63.0"
+  }
+}
