@@ -13,10 +13,10 @@ const PAGES = {
   archive: "/inflight-magazine",
   edition: "/inflight-magazine/september-2026",
   pdfonly: "/inflight-magazine/april-2024",
-  kolkata: "/stories/travel/kolkata-forever-day-in-a-city",
-  interview: "/stories/interviews/ranveer-brar-conversation",
-  ladakh: "/stories/destinations/ladakh-roof-of-the-world",
-  petyoga: "/stories/wellness/fur-all-pet-yoga",
+  kolkata: "/stories/travel-escapes/kolkata-forever-day-in-a-city",
+  interview: "/stories/conversations/ranveer-brar-conversation",
+  ladakh: "/stories/destinations/many-shades-of-ladakh",
+  petyoga: "/stories/health-healing/fur-all-pet-yoga",
   predictions: "/stories/predictions/predictions-june-2026",
   welcome: "/stories/welcome-aboard/welcome-aboard-september-2026",
 };
@@ -38,13 +38,13 @@ const probe = () => {
 
   // Text never touches the viewport edges (outside scroll rails)
   for (const el of document.querySelectorAll("main h1, main h2, main h3, main p, main li, footer p, footer a, header a")) {
-    if (!vis(el) || el.closest(".ed-editions, .ed-triptych, [hidden], .visually-hidden, .ed-lightbox")) continue;
+    if (!vis(el) || el.closest(".ed-editions, .ed-triptych, .ed-shelf__track, [hidden], .visually-hidden, .ed-lightbox")) continue;
     const r = el.getBoundingClientRect();
     if (r.width && (r.left < 10 || r.right > vw - 10)) out.push(`EDGE ${name(el)} "${el.textContent.trim().slice(0, 30)}" [${Math.round(r.left)}→${Math.round(r.right)}]`);
   }
 
   // Header, crumbs, footer share the container edges
-  for (const sel of [".ed-header__bar", ".ed-crumbs", ".ed-footer__grid"]) {
+  for (const sel of [".ed-header__bar", ".ed-crumbs", ".ed-pfoot__grid, .ed-footer__grid"]) {
     const el = document.querySelector(sel);
     if (!el || !vis(el)) continue;
     const box = sel === ".ed-header__bar" ? (() => { const s = getComputedStyle(el); return [L(el) + parseFloat(s.paddingLeft), R(el) - parseFloat(s.paddingRight)]; })() : [L(el), R(el)];
@@ -63,8 +63,14 @@ const probe = () => {
     for (const el of parts) {
       if (vis(el) && Math.abs(L(el) - al) > 1) out.push(`ARTICLE-EDGE ${name(el)} left ${L(el)} vs column ${al}`);
     }
+    // the story's contents rail: in the newspaper layout it sits in the right
+    // side column, sharing that column's left edge
     const rail = document.querySelector(".ed-instory__rail");
-    if (rail && vis(rail) && Math.abs(L(rail) - cl) > 1) out.push(`RAIL left ${L(rail)} vs container ${cl}`);
+    const side = document.querySelector(".ed-news__rail");
+    if (rail && vis(rail)) {
+      const edge = side && side.contains(rail) ? L(side) : cl;
+      if (Math.abs(L(rail) - edge) > 1) out.push(`RAIL left ${L(rail)} vs ${side ? "side column" : "container"} ${edge}`);
+    }
     for (const sel of [".ed-pager--story", ".ed-story__issue", ".ed-story__related"]) {
       const el = document.querySelector(sel);
       if (el && vis(el) && (Math.abs(L(el) - cl) > 1 || Math.abs(R(el) - cr) > 1)) out.push(`END-MATTER ${sel} [${L(el)}→${R(el)}] vs container [${cl}→${cr}]`);

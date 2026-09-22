@@ -379,7 +379,7 @@ export const MAY_2026 = [
       "p79-3": "A pink mosque gateway reflected in water",
     },
   },
-  await predictionsSpec({ slug: "predictions-may-2026", edition: E, page: 84, label: "May 2026" }),
+  await predictionsSpec({ slug: "predictions-may-2026", hero: "p84-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: E, page: 84, label: "May 2026" }),
 ];
 
 export const MAY_2026_PDF = "LR-SpiceRoute_May-2026.pdf";

@@ -1,0 +1,128 @@
+/* ==========================================================================
+   Spice Route — horizontal slides: the homepage "Recent editions" shelf
+   (auto-advance, see components/home/Shelf.tsx) and the media-partner logo
+   marquee (components/LogoMarquee.tsx). Both pause on hover and focus, have
+   a Pause button, and stay still under prefers-reduced-motion.
+   ========================================================================== */
+
+/* Pause / play glyphs for the round toggle buttons */
+.ed-slide__icon--pause {
+  display: block;
+  width: 10px;
+  height: 12px;
+  border-inline: 3px solid currentColor;
+}
+
+.ed-slide__icon--play {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  border-left: 10px solid currentColor;
+  border-block: 6px solid transparent;
+}
+
+/* --------------------------------------------------------------------------
+   Logo marquee
+   -------------------------------------------------------------------------- */
+.ed-marquee {
+  --mq-gap: clamp(2rem, 5vw, 3.25rem);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.ed-marquee__viewport {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  /* logos fade in and out at the edges instead of being cut */
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+.ed-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: ed-marquee 38s linear infinite;
+}
+
+/* Two identical lists, each with trailing space equal to the gap, so moving
+   the track by exactly half its width loops without a seam */
+.ed-logos--marquee {
+  flex: none;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: var(--mq-gap);
+  padding-block: 0.5rem;
+  padding-right: var(--mq-gap);
+}
+
+@keyframes ed-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ed-marquee:hover .ed-marquee__track,
+.ed-marquee:focus-within .ed-marquee__track,
+.ed-marquee.is-paused .ed-marquee__track {
+  animation-play-state: paused;
+}
+
+.ed-marquee__toggle {
+  flex: none;
+  width: 36px;
+  height: 36px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-marquee__track {
+    width: auto;
+    animation: none;
+  }
+
+  .ed-marquee__viewport {
+    mask-image: none;
+  }
+
+  /* one still, wrapping row of logos, as before */
+  .ed-logos--marquee {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .ed-logos--marquee[aria-hidden="true"],
+  .ed-marquee__toggle {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Shelf glide: snap points would pull against a continuous glide, so they
+   are released while it runs (reduced motion keeps them); the script moves
+   the scroll position itself, so native smooth scrolling is off here too.
+   -------------------------------------------------------------------------- */
+.ed-shelf__track.is-gliding {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+/* Shelf extent: the row starts on the content edge and ends on the content
+   edge (it no longer bleeds to the screen edge), so cards are clipped at both
+   ends as they slide past. */
+.ed-shelf__track {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* Shelf cards: wide editorial cards, ~355px on desktop, most of the screen on
+   phones. Covers stay whole at their printed proportions. */
+.ed-shelf__item {
+  flex-basis: clamp(220px, 76vw, 355px);
+}

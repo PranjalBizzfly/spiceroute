@@ -1,4 +1,4 @@
-import Image from "next/image";
+import PlatePhoto from "@/components/PlatePhoto";
 import Link from "next/link";
 import type { StoryEntry } from "@/types";
 
@@ -49,7 +49,7 @@ export default function EditionContents({ stories }: EditionContentsProps) {
           </div>
           {s.images[0] && (
             <div className="ed-toc__thumb">
-              <Image src={s.images[0].src} alt={s.images[0].alt} fill sizes="(max-width: 639px) 84px, 160px" loading="lazy" />
+              <PlatePhoto src={s.images[0].src} alt={s.images[0].alt} sizes="(max-width: 639px) 84px, (max-width: 1199px) 160px, 280px" />
             </div>
           )}
         </li>

@@ -19,6 +19,12 @@ interface ArchiveBrowserProps {
 
 const norm = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "");
 
+/**
+ * Wide screens: four covers to a row, unless that would leave one cover alone
+ * on the last row — then five, or three.
+ */
+const fitColumns = (n: number) => [4, 5, 3].find((c) => n <= c || n % c !== 1) ?? 4;
+
 export default function ArchiveBrowser({ items, years, cards }: ArchiveBrowserProps) {
   const [year, setYear] = useState<number | "all">("all");
   const [query, setQuery] = useState("");
@@ -121,7 +127,7 @@ export default function ArchiveBrowser({ items, years, cards }: ArchiveBrowserPr
             <h2 id={`year-${g.y}`} className="ed-archive__year">
               {g.y} <span className="ed-archive__yearcount">{g.list.length} {g.list.length === 1 ? "edition" : "editions"}</span>
             </h2>
-            <div className="ed-archive__grid">
+            <div className="ed-archive__grid" data-cols={fitColumns(g.list.length)}>
               {g.list.map((i) => (
                 <div key={i.edition.slug}>{cards[i.edition.slug]}</div>
               ))}

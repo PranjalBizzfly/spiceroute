@@ -1,4 +1,4 @@
-import Image from "next/image";
+import PlatePhoto from "@/components/PlatePhoto";
 import Link from "next/link";
 import type { EditionRef, StoryRef } from "@/types";
 
@@ -15,7 +15,7 @@ export default function StoryPager({ previous, next, edition }: StoryPagerProps)
     <Link href={s.href} className={`ed-pager__link ed-pager__link--${dir} ed-pager__link--story`} rel={dir}>
       {dir === "prev" && s.image && (
         <span className="ed-pager__thumb ed-pager__thumb--story">
-          <Image src={s.image} alt="" fill sizes="80px" loading="lazy" />
+          <PlatePhoto src={s.image} alt="" sizes="80px" />
         </span>
       )}
       <span className="ed-pager__text">
@@ -39,7 +39,7 @@ export default function StoryPager({ previous, next, edition }: StoryPagerProps)
       </span>
       {dir === "next" && s.image && (
         <span className="ed-pager__thumb ed-pager__thumb--story">
-          <Image src={s.image} alt="" fill sizes="80px" loading="lazy" />
+          <PlatePhoto src={s.image} alt="" sizes="80px" />
         </span>
       )}
     </Link>

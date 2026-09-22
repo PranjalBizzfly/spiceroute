@@ -11,7 +11,7 @@ const OUT = "screenshots/theme";
 await fs.rm(OUT, { recursive: true, force: true });
 await fs.mkdir(OUT, { recursive: true });
 
-const PAGES = ["/", "/inflight-magazine", "/inflight-magazine/september-2026", "/inflight-magazine/april-2025", "/stories/travel/kolkata-forever-day-in-a-city", "/stories/interviews/ranveer-brar-conversation", "/about", "/contact", "/does-not-exist"];
+const PAGES = ["/", "/inflight-magazine", "/inflight-magazine/september-2026", "/inflight-magazine/april-2025", "/stories/travel-escapes/kolkata-forever-day-in-a-city", "/stories/conversations/ranveer-brar-conversation", "/about", "/contact", "/does-not-exist"];
 const WIDTHS = [[390, 844], [1440, 900]];
 const THEMES = ["light", "dark"];
 

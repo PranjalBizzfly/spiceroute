@@ -140,7 +140,7 @@ export const COLUMNS_2026 = [
     galleryAlt: {
       "p26-1": "A café building with a painted sign among trees",
       "p26-3": "A man in a loose linen shirt and trousers",
-      "p26-4": "A bright printed shirt",
+      "p26-4": "A bright yellow floral-print short dress",
       "p26-6": "A tube of hair gloss",
       "p28-4": "Actors rehearsing a scene on a stage",
       "p28-3": "Two actors seated on the floor of a stage",
@@ -152,7 +152,7 @@ export const COLUMNS_2026 = [
   // ---------- Bookmark ----------
   {
     // Numbers 2 and 4 are drawn as artwork; dates read off the render
-    slug: "top-5-events-in-october-2026",
+    slug: "top-5-events-in-october-2026", hero: "p26-r1", heroAlt: "A domed yellow church above the rooftops of Munich",
     edition: S,
     category: "culture",
     pdfPages: [26],
@@ -168,11 +168,11 @@ export const COLUMNS_2026 = [
       ...event(5, "p26b30", "p26b39", ["p26b23", "p26b25", "p26b27"]),
     ],
     uses: ["p26b0", "p26b34", "p26b40", "p26b42"],
-    gallery: ["p26-2"],
-    galleryAlt: { "p26-2": "Monks in red robes with drums at a monastery festival" },
+    gallery: ["p26-r2","p26-r3","p26-r4","p26-2"],
+    galleryAlt: {"p26-r2":"Marigold flower arrangements in yellow, orange and red","p26-r3":"An effigy of Ravana burning at night","p26-r4":"A musician playing the violin on an open-air stage, with a fort behind","p26-2":"Monks in maroon robes seated in a monastery hall hung with large drums"},
   },
   {
-    slug: "top-5-events-in-august-2026",
+    slug: "top-5-events-in-august-2026", hero: "p22-r1", heroAlt: "Oarsmen in orange rowing a long snake boat through the water", gallery: ["p22-r2","p22-r3","p22-r4","p22-r5"], galleryAlt: {"p22-r2":"Festive sweets and sprouts around a chalkboard reading Happy Nowruz","p22-r3":"Laser beams over a waterfront concert venue at night","p22-r4":"Hands forming a heart shape in front of a concert stage","p22-r5":"A group of elephants beside a stream in a forest"},
     edition: A,
     category: "culture",
     pdfPages: [22],
@@ -190,7 +190,7 @@ export const COLUMNS_2026 = [
     uses: ["p22b0", "p22b28", "p22b34", "p22b36"],
   },
   {
-    slug: "top-5-events-in-july-2026",
+    slug: "top-5-events-in-july-2026", hero: "p22-r1", heroAlt: "A football between large figures reading 2026 on a stadium pitch", gallery: ["p22-r2","p22-r3","p22-r4","p22-r5"], galleryAlt: {"p22-r2":"Runners splashing along a rain-soaked road","p22-r3":"The three chariots of the Rath Yatra before a large crowd","p22-r4":"A heart of assorted chocolates on a wooden board","p22-r5":"The Comic-Con International logo on a convention building"},
     edition: J,
     category: "culture",
     pdfPages: [22],
@@ -215,6 +215,9 @@ export const COLUMNS_2026 = [
     category: "culture",
     pdfPages: [33],
     imagePdfPage: 33,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p33-r1b",
+    heroAlt: "Illustration of a traveller with a backpack and suitcase reading a map, with hot-air balloons overhead",
     title: "World Tourism Day",
     section: "Info Corner",
     noStandfirst: true,
@@ -227,6 +230,9 @@ export const COLUMNS_2026 = [
     category: "culture",
     pdfPages: [38],
     imagePdfPage: 38,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p38-r1",
+    heroAlt: "Illustration: a hand raised in blessing above an open book, with lotus flowers and a brass pot",
     title: "Guru Purnima",
     section: "Info Corner",
     deck: "p38b6",
@@ -448,11 +454,14 @@ export const COLUMNS_2026 = [
   },
   {
     // An infographic spread: each printed statement is one paragraph (single)
-    slug: "world-ufo-day-facts-and-figures",
+    slug: "world-ufo-day-facts-and-figures", gallery: ["p70-r2","p70-r3","p71-r1","p71-r2"], galleryAlt: {"p70-r2":"Illustration of a domed, patterned flying saucer","p70-r3":"Illustration of a green flying saucer with a row of glowing lights","p71-r1":"Cartoon of a green alien piloting a blue flying saucer against a starry sky","p71-r2":"Illustration of a flying saucer sending blue beams of light to the ground"},
     edition: J,
     category: "culture",
     pdfPages: [70, 71],
     imagePdfPage: 70,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p70-r1b",
+    heroAlt: "Illustration of a green alien waving from inside a red and teal flying saucer",
     title: "World UFO Day",
     section: "Facts and Figures",
     deck: "p70b8",
@@ -469,7 +478,7 @@ export const COLUMNS_2026 = [
   },
 
   // ---------- Predictions ----------
-  await predictionsSpec({ slug: "predictions-september-2026", edition: S, page: 80, label: "September 2026" }),
-  await predictionsSpec({ slug: "predictions-august-2026", edition: A, page: 80, label: "August 2026" }),
-  await predictionsSpec({ slug: "predictions-july-2026", edition: J, page: 80, label: "July 2026" }),
+  await predictionsSpec({ slug: "predictions-september-2026", hero: "p80-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: S, page: 80, label: "September 2026" }),
+  await predictionsSpec({ slug: "predictions-august-2026", hero: "p80-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: A, page: 80, label: "August 2026" }),
+  await predictionsSpec({ slug: "predictions-july-2026", hero: "p80-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: J, page: 80, label: "July 2026" }),
 ];

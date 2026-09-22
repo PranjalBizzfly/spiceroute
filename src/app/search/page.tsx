@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { editionDate, editionHref } from "@/lib/content";
-import { imageFocus } from "@/lib/imageFocus";
+import PlatePhoto from "@/components/PlatePhoto";
 import { categoryBySlug, search, storyCategories } from "@/lib/search";
+import { categoryHref, legacyCategorySlug } from "@/lib/urls";
+import { permanentRedirect } from "next/navigation";
 
 const description = "Search every Spice Route story and edition: headlines, article text, sections, authors, months and issues.";
 
@@ -24,14 +26,21 @@ export async function generateMetadata({ searchParams }: PageProps<"/search">): 
 export default async function SearchPage({ searchParams }: PageProps<"/search">) {
   const sp = await searchParams;
   const q = typeof sp.q === "string" ? sp.q : "";
-  const categorySlug = typeof sp.category === "string" ? sp.category : undefined;
+  const requested = typeof sp.category === "string" ? sp.category : undefined;
+  // an earlier category address (e.g. ?category=travel) means the same category
+  const categorySlug = requested && !categoryBySlug.has(requested) ? legacyCategorySlug(requested) ?? requested : requested;
+  // a category without a search term is its own page: /stories/<category>
+  if (categorySlug && !q.trim() && categoryBySlug.has(categorySlug)) permanentRedirect(categoryHref(categoryBySlug.get(categorySlug)!.id));
   const results = search(q, categorySlug);
   const cats = storyCategories();
   const hasQuery = results.query.length > 0;
   const total = results.stories.length + results.editions.length + results.categories.length;
 
   const heading = hasQuery ? "Search results" : results.category ? results.category.name : "All stories";
+  // with a search term the buttons filter the results; without one they go to
+  // the category pages
   const chipHref = (slug?: string) => {
+    if (!results.query && slug) return categoryHref(categoryBySlug.get(slug)!.id);
     const p = new URLSearchParams();
     if (results.query) p.set("q", results.query);
     if (slug) p.set("category", slug);
@@ -41,7 +50,7 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
 
   return (
     <div className="ed-page ed-searchpage">
-      <section className="ed-issue__hero" aria-labelledby="search-title">
+      <section className="ed-issue__hero ed-pagehero ed-scope-dark" aria-labelledby="search-title">
         <div className="container">
           <nav aria-label="Breadcrumb" className="ed-crumbs">
             <ol>
@@ -106,45 +115,36 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
             <h2 id="res-stories" className="ed-kicker ed-gsearch__head">
               Stories <span className="ed-gsearch__count">{results.stories.length}</span>
             </h2>
-            <ol className="ed-gsearch__list">
-              {results.stories.map(({ story, category, excerpt, matchedInText }) => (
-                <li key={story.slug} className="ed-gsearch__item">
-                  <div className="ed-gsearch__text">
-                    <p className="ed-gsearch__kicker">
-                      {story.section}
-                      {story.label ? ` · ${story.label}` : ""}
-                    </p>
-                    <h3 className="ed-gsearch__title">
-                      <Link href={story.href}>{story.printedTitle}</Link>
-                    </h3>
-                    {excerpt && (
-                      <p className={`ed-gsearch__excerpt${matchedInText ? " is-passage" : ""}`}>
-                        {excerpt}
-                      </p>
-                    )}
-                    <p className="ed-gsearch__meta">
-                      {story.author && <span>{story.author}</span>}
-                      <span>
-                        <Link href={editionHref(story.edition.slug)}>{editionDate(story.edition)} edition</Link>
-                      </span>
-                      {category && <span>{category.name}</span>}
-                      <Link href={story.href} className="ed-gsearch__read" aria-hidden="true" tabIndex={-1}>
-                        Read story →
-                      </Link>
-                    </p>
-                  </div>
-                  {story.images[0] && (
-                    <Link href={story.href} className="ed-gsearch__thumb" tabIndex={-1} aria-hidden="true">
-                      <Image
+            {/* Image cards: the story's own photograph with section, printed
+                headline and byline set over it; the whole card is the link */}
+            {/* three to a row on wide screens, or four if three would leave one card alone */}
+            <ol className="ed-gcards" data-cols={results.stories.length % 3 === 1 && results.stories.length > 3 ? 4 : 3}>
+              {results.stories.map(({ story, excerpt, matchedInText }, i) => (
+                <li key={story.slug} className="ed-gcards__item">
+                  <Link href={story.href} className={`ed-gcard${story.images[0] ? "" : " ed-gcard--noimage"}`}>
+                    {story.images[0] && (
+                      <PlatePhoto
                         src={story.images[0].src}
-                        alt=""
-                        fill
-                        sizes="(max-width: 639px) 84px, 132px"
-                        loading="lazy"
-                        style={{ objectPosition: imageFocus(story.images[0].src) }}
+                        alt={story.images[0].alt}
+                        sizes="(max-width: 639px) 92vw, (max-width: 1023px) 46vw, 480px"
+                        priority={i < 3}
+                        className="ed-gcard__img"
                       />
-                    </Link>
-                  )}
+                    )}
+                    <span className="ed-gcard__body">
+                      <span className="ed-gcard__kicker">
+                        {story.section}
+                        {story.label ? ` · ${story.label}` : ""}
+                      </span>
+                      <span className="ed-gcard__title">{story.printedTitle}</span>
+                      <span className="ed-gcard__byline">
+                        {story.author ? `By ${story.author} · ` : ""}
+                        {editionDate(story.edition)}
+                      </span>
+                    </span>
+                  </Link>
+                  {/* where the match is only in the article text, show that printed passage */}
+                  {matchedInText && excerpt && <p className="ed-gcards__passage">{excerpt}</p>}
                 </li>
               ))}
             </ol>
@@ -185,7 +185,7 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
             <ul className="ed-gsearch__cats-list">
               {results.categories.map((c) => (
                 <li key={c.slug}>
-                  <Link href={`/search?category=${c.slug}`} className="ed-gsearch__title">
+                  <Link href={categoryHref(c.id)} className="ed-gsearch__title">
                     {c.name}
                   </Link>
                   <span className="ed-gsearch__meta">

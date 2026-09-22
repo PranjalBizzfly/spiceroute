@@ -32,6 +32,23 @@
   --brand-red-tint: #ff5c62; /* red text on dark surfaces — ≥5.2:1 */
   --brand-orange-ink: #a85600; /* orange text on light surfaces — ≥4.8:1 */
 
+  /* ---- Footer (Picky Assist-style dark band; the same in both themes) ---- */
+  --pfoot-bg: #060607;
+  --pfoot-shape: rgba(255, 255, 255, 0.05);
+  --pfoot-shape-soft: rgba(255, 255, 255, 0.025);
+  --pfoot-text: #ffffff;
+  --pfoot-muted: rgba(255, 255, 255, 0.74); /* 11.6:1 on the band */
+  --pfoot-accent: var(--brand-red-tint); /* headings — 5.6:1 */
+  --pfoot-tab-from: #c1161d;
+  --pfoot-tab-to: #ec1c24;
+  --pfoot-chip-bg: #ffffff;
+  --pfoot-chip-ink: #111317;
+  --pfoot-pill-dark: #1c1e23;
+  --pfoot-pill-border: rgba(255, 255, 255, 0.16);
+  --pfoot-pill-bright: var(--brand-red-fill);
+  --pfoot-pill-bright-hover: #e8222a;
+  --pfoot-glow: rgba(236, 28, 36, 0.55);
+
   /* ---- Light palette ---- */
   --light-bg: #ffffff;
   --light-bg-tint: #f6f6f7;

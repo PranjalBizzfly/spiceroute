@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Story } from "@/types";
 import { imageFocus } from "@/lib/imageFocus";
 import { storyKicker } from "./StoryCard";
+import { storyHref } from "@/lib/urls";
 
 interface StoryIndexListProps {
   stories: Story[];
@@ -40,7 +41,7 @@ export default function StoryIndexList({
                 {storyKicker(story) && <p className="ed-card__cat">{storyKicker(story)}</p>}
                 <h3 className="ed-index__title">
                   <Link
-                    href={`/stories/${story.category}/${story.slug}`}
+                    href={storyHref(story)}
                     className="ed-index__link"
                   >
                     {story.title}

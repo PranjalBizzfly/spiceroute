@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Spice Route — site chrome additions: navigation menus, search, footer
-   columns. Colours come only from the semantic tokens in globals.css; the
+   Spice Route — site chrome additions: navigation menus, search
+   Colours come only from the semantic tokens in globals.css; the
    dropdown panel reuses the off-canvas menu palette (--drawer-*).
    ========================================================================== */
 
@@ -190,6 +190,13 @@
   margin-top: 1.5rem;
 }
 
+/* Small phones: the field takes the full width, the button goes under it */
+@media (max-width: 419px) {
+  .ed-gsearch {
+    flex-direction: column;
+  }
+}
+
 .ed-gsearch__input {
   flex: 1;
   min-width: 0;
@@ -233,7 +240,9 @@
   color: var(--text-muted);
 }
 
+/* results start clear of the dark search band, not against its edge */
 .ed-gsearch__results {
+  padding-top: var(--space-block);
   padding-bottom: var(--space-section);
 }
 
@@ -254,27 +263,141 @@
   letter-spacing: 0.08em;
 }
 
-.ed-gsearch__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-width: 56rem;
-}
-
-.ed-gsearch__item {
+/* Story results: image cards — the story's photograph with section,
+   printed headline and byline set on a dark gradient at its foot */
+.ed-gcards {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 1.25rem;
-  padding-block: 1.6rem;
-  border-bottom: 1px solid var(--border-subtle);
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  list-style: none;
+  margin: 1.75rem 0 0;
+  padding: 0;
 }
 
-.ed-gsearch__kicker {
-  font-size: 0.72rem;
+@media (min-width: 640px) {
+  .ed-gcards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-gcards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-gcards[data-cols="4"] {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.ed-gcard {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: var(--brand-charcoal);
+  isolation: isolate;
+}
+
+/* Phones: a slightly landscape plate keeps more cards in view */
+@media (max-width: 639px) {
+  .ed-gcard {
+    aspect-ratio: 4 / 3.4;
+  }
+}
+
+.ed-gcard__img {
+  object-fit: cover;
+  z-index: -2;
+  transition: transform 0.6s var(--ease-editorial);
+}
+
+/* legibility gradient under the text */
+.ed-gcard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to top, rgba(12, 13, 16, 0.86) 0%, rgba(12, 13, 16, 0.55) 30%, rgba(12, 13, 16, 0) 58%);
+}
+
+/* Phones: the text block covers about half the shorter plate, so the scrim
+   reaches higher and the small labels keep a soft shadow over bright skies */
+@media (max-width: 639px) {
+  .ed-gcard::after {
+    background: linear-gradient(to top, rgba(12, 13, 16, 0.9) 0%, rgba(12, 13, 16, 0.66) 38%, rgba(12, 13, 16, 0.2) 66%, rgba(12, 13, 16, 0) 82%);
+  }
+
+  .ed-gcard__kicker,
+  .ed-gcard__byline {
+    text-shadow: 0 1px 6px rgba(12, 13, 16, 0.55);
+  }
+}
+
+.ed-gcard--noimage::after {
+  background: none;
+}
+
+.ed-gcard__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  width: 100%;
+  padding: clamp(1.1rem, 2.4vw, 1.6rem);
+  color: #ffffff;
+}
+
+.ed-gcard__kicker,
+.ed-gcard__byline {
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--accent-text);
+}
+
+.ed-gcard__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.1vw, 1.65rem);
+  font-weight: 500;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.ed-gcard__byline {
+  font-weight: 600;
+  opacity: 0.92;
+}
+
+.ed-gcard:hover .ed-gcard__title,
+.ed-gcard:focus-visible .ed-gcard__title {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.ed-gcard:focus-visible {
+  outline: 3px solid var(--emphasis);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .ed-gcard:hover .ed-gcard__img {
+    transform: scale(1.04);
+  }
+}
+
+/* The printed passage a text-only match was found in */
+.ed-gcards__passage {
+  margin-top: 0.75rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--border-accent);
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-body);
 }
 
 .ed-gsearch__title {
@@ -293,19 +416,6 @@ a.ed-gsearch__title:hover {
   text-underline-offset: 4px;
 }
 
-.ed-gsearch__excerpt {
-  margin-top: 0.55rem;
-  max-width: 65ch;
-  color: var(--text-body);
-  line-height: 1.65;
-}
-
-.ed-gsearch__excerpt.is-passage {
-  padding-left: 0.9rem;
-  border-left: 2px solid var(--border-accent);
-  font-style: italic;
-}
-
 .ed-gsearch__meta {
   display: flex;
   flex-wrap: wrap;
@@ -322,36 +432,6 @@ a.ed-gsearch__title:hover {
 
 .ed-gsearch__meta a:hover {
   color: var(--text-heading);
-}
-
-.ed-gsearch__read {
-  margin-left: auto;
-  font-weight: 700;
-  color: var(--accent-text) !important;
-}
-
-.ed-gsearch__thumb {
-  position: relative;
-  display: block;
-  width: 132px;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  border-radius: 4px;
-  background-color: var(--bg-plate);
-}
-
-.ed-gsearch__thumb img {
-  object-fit: cover;
-}
-
-@media (max-width: 639px) {
-  .ed-gsearch__thumb {
-    width: 84px;
-  }
-
-  .ed-gsearch__read {
-    margin-left: 0;
-  }
 }
 
 .ed-gsearch__editions {
@@ -419,19 +499,6 @@ a.ed-gsearch__title:hover {
   color: var(--accent-text);
 }
 
-/* --------------------------------------------------------------------------
-   Footer: four link columns
-   -------------------------------------------------------------------------- */
-@media (min-width: 1024px) {
-  .ed-footer__grid:has(.ed-footer__cols--4) {
-    grid-template-columns: minmax(0, 3.5fr) minmax(0, 8.5fr);
-  }
-
-  .ed-footer__cols--4 {
-    grid-template-columns: repeat(3, minmax(0, 0.8fr)) minmax(0, 1.25fr);
-  }
-}
-
 /* Just above the desktop breakpoint the two menu toggles and the search
    action make the bar a little wider than the viewport: tighten spacing */
 @media (min-width: 960px) and (max-width: 1099px) {
@@ -445,5 +512,13 @@ a.ed-gsearch__title:hover {
 
   .ed-header__bar {
     gap: 0.75rem;
+  }
+}
+
+/* 960-1023px: even tightened, the row is ~30px wider than the container and
+   the actions eat the right gutter; a slightly smaller logo restores it */
+@media (min-width: 960px) and (max-width: 1023px) {
+  .ed-header__logo {
+    width: 150px;
   }
 }

@@ -1,0 +1,361 @@
+/* ==========================================================================
+   Spice Route — Type scale
+   The single source of font SIZES for the site, following the font-size
+   hierarchy of trivanawellness.com (measured in a browser at 390px and
+   1440px). Fonts, weights, colours and layout are unchanged: this file only
+   sets font-size, line-height and — for uppercase labels — letter-spacing.
+
+   Loaded last (see app/layout.tsx), so it outranks the size declarations
+   in the other stylesheets. Add or change a size HERE, not in those files.
+
+   Trivana, phone → desktop, and the tokens below:
+     H1 page headline      34.5 → 54.4px   lh 1.2    --type-h1
+     H2 section heading    27.8 → 40px     lh 1.2    --type-h2
+     H3 card / subheading  19.4 → 24px     lh 1.2    --type-h3
+     H4 small heading      17.6px                    --type-h4
+     Lead paragraph        17   → 19.5px   lh 1.7    --type-lead
+     Body, long text       15.2 → 16.5px   lh 1.7    --type-body-lg
+     Body                  15.2px          lh 1.65   --type-body
+     Body, compact         14.4px          lh 1.65   --type-body-sm
+     Navigation, buttons   14.4px                    --type-nav / --type-button
+     Small text, meta      13.1px                    --type-small
+     Label (uppercase)     12.5px   letter-spacing 0.14em   --type-label
+
+   Deliberately NOT resized: the red hero bands (.ed-shero*), which reproduce
+   the original spiceroutemagazine.in heroes; decorative numerals (chapter,
+   step and contents numbers, figures, drop caps); icon glyphs.
+   ========================================================================== */
+:root {
+  --type-h1: clamp(2.15rem, 1.694rem + 1.895vw, 3.4rem);
+  --type-h2: clamp(1.74rem, 1.454rem + 1.162vw, 2.5rem);
+  /* the one step between H2 and H3: lead feature cards, chapter entries */
+  --type-h3-lg: clamp(1.4rem, 1.2rem + 0.9vw, 2rem);
+  --type-h3: clamp(1.21rem, 1.106rem + 0.438vw, 1.5rem);
+  --type-h4: 1.1rem;
+  --type-lead: clamp(1.06rem, 1.004rem + 0.238vw, 1.22rem);
+  --type-body-lg: clamp(0.95rem, 0.92rem + 0.122vw, 1.03rem);
+  --type-body: 0.95rem;
+  --type-body-sm: 0.9rem;
+  --type-nav: 0.9rem;
+  --type-button: 0.9rem;
+  --type-small: 0.82rem;
+  --type-label: 0.78rem;
+  --type-label-track: 0.14em;
+
+  /* The shared step tokens now follow the same scale */
+  --step-display: var(--type-h1);
+  --step-h1: var(--type-h1);
+  --step-h2: var(--type-h2);
+  --step-h3: var(--type-h3);
+  --step-lede: var(--type-lead);
+  --step-meta: var(--type-small);
+  --step-label: var(--type-label);
+}
+
+/* ---- H1: page headlines ---------------------------------------------- */
+.ed-issue__title,
+.ed-hx__title,
+.ed-pagehero .ed-issue__title,
+.ed-pagehero h1 {
+  font-size: var(--type-h1);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+/* ---- H2: section headings --------------------------------------------- */
+.ed-shead__title,
+.ed-shead--x .ed-shead__title,
+.ed-section .ed-shead__title,
+.ed-story__related .ed-shead__title,
+.ed-issue__nearby .ed-shead__title,
+.ed-advert__title,
+.ed-panorama__title,
+.ed-pdfpanel__title,
+.ed-latest__title {
+  font-size: var(--type-h2);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+/* ---- H3: lead feature cards, chapter entries -------------------------- */
+.ed-card--featured .ed-card__title,
+.ed-featured__lead .ed-card--featured .ed-card__title,
+.ed-card--quote .ed-card__title,
+.ed-chapter__title {
+  font-size: var(--type-h3-lg);
+  line-height: 1.2;
+}
+
+/* ---- H3: cards, article subheads, sub-sections ------------------------ */
+.ed-card__title,
+.ed-card--standard .ed-card__title,
+.ed-numbers__title,
+.ed-index__title,
+.ed-toc__title,
+.ed-pdfband__title,
+.ed-gcard__title,
+.ed-gsearch__title,
+.ed-archive__year,
+.ed-tile__title,
+.ed-step__title,
+.ed-form__done-title,
+.ed-pfoot__tab {
+  font-size: var(--type-h3);
+  line-height: 1.2;
+}
+
+/* the footer tagline tab stays on one line on the smallest phones */
+@media (max-width: 479px) {
+  .ed-pfoot__tab {
+    font-size: clamp(0.84rem, 4.2vw, 1.06rem);
+    white-space: nowrap;
+  }
+}
+
+/* ---- H4: small headings (lists, compact cards, shelves) --------------- */
+.ed-card--horizontal .ed-card__title,
+.ed-card--compact .ed-card__title,
+.ed-card--place .ed-card__title,
+.ed-edition__title,
+.ed-pillar__title,
+.ed-voice__title,
+.ed-pager__title,
+.ed-issueindex__title,
+.ed-archive__hittitle,
+.ed-latest__stories a {
+  font-size: var(--type-h4);
+  line-height: 1.25;
+}
+
+@media (max-width: 619px) {
+  .ed-related .ed-card__title {
+    font-size: var(--type-h4);
+  }
+}
+
+@media (max-width: 639px) {
+  .ed-archive__grid .ed-edition__title {
+    font-size: var(--type-h4);
+  }
+}
+
+/* ---- Lead paragraphs -------------------------------------------------- */
+.ed-hx__excerpt,
+.ed-about__lede,
+.ed-panorama__quote,
+.ed-panorama__excerpt,
+.ed-chapter__excerpt,
+.ed-pagehero .ed-shead__sub,
+.ed-quote,
+.ed-card--quote .ed-quote,
+.ed-voice__quote {
+  font-size: var(--type-lead);
+  line-height: 1.6;
+}
+
+/* ---- Body ------------------------------------------------------------- */
+.ed-card__excerpt,
+.ed-card--featured .ed-card__excerpt,
+.ed-prose,
+.ed-advert__text,
+.ed-about__notetext,
+.ed-partners__text,
+.ed-issue__desc,
+.ed-contact__intro,
+.ed-source__facts dd {
+  font-size: var(--type-body);
+  line-height: 1.65;
+}
+
+.ed-shead__sub,
+.ed-tile__text,
+.ed-step__text,
+.ed-pillar__text,
+.ed-numbers__text,
+.ed-toc__standfirst,
+.ed-pdfband__text,
+.ed-card--compact .ed-card__excerpt,
+.ed-card--place .ed-card__excerpt,
+.ed-latest__meta,
+.ed-archive__count,
+.ed-access,
+.ed-now__facts,
+.ed-article__note,
+.ed-instory__list a,
+.ed-gcards__passage,
+.ed-gsearch__status,
+.ed-pfoot__text,
+.ed-pfoot__address,
+.ed-pfoot__list a {
+  font-size: var(--type-body-sm);
+  line-height: 1.65;
+}
+
+@media (min-width: 1200px) {
+  .ed-instory__rail .ed-instory__list a {
+    font-size: var(--type-small);
+  }
+}
+
+/* ---- Navigation ------------------------------------------------------- */
+.ed-navlink,
+.ed-navmenu__link {
+  font-size: var(--type-nav);
+}
+
+/* uppercase nav at the larger size: slightly tighter tracking, so the bar
+   keeps its width */
+.ed-navlink {
+  letter-spacing: 0.06em;
+}
+
+/* ---- Buttons and link actions ----------------------------------------- */
+.btn,
+.btn-sm,
+.ed-source__pdf,
+.ed-chip,
+.ed-form__pill,
+.ed-pfoot__pill {
+  font-size: var(--type-button);
+}
+
+.ed-more,
+.ed-hx__cta,
+.ed-toc__read,
+.ed-tile__count,
+.ed-edition__pdf {
+  font-size: var(--type-small);
+}
+
+/* ---- Small text, meta ------------------------------------------------- */
+.ed-crumbs,
+.ed-story__byline,
+.ed-card__meta,
+.ed-index__aside,
+.ed-voice__meta,
+.ed-chapter__meta,
+.ed-panorama__meta,
+.ed-edition__kind,
+.ed-byline__role,
+.ed-archive__yearcount,
+.ed-article__figure figcaption,
+.ed-gallery__caption,
+.ed-lightbox__captions,
+.ed-pager__end,
+.ed-form__label,
+.ed-form__error,
+.ed-hx__tabtitle,
+.ed-gsearch__meta,
+.ed-note,
+.ed-pfoot__base {
+  font-size: var(--type-small);
+}
+
+/* ---- Labels: uppercase kickers and section markers --------------------- */
+.ed-kicker,
+.ed-card__cat,
+.ed-header__masthead-inner,
+.ed-fact__label,
+.ed-edition__date,
+.ed-instory__title,
+.ed-figure__label,
+.ed-pdfpanel__pages,
+.ed-pager__dir,
+.ed-pager__section,
+.ed-latest__section,
+.ed-gallery__page,
+.ed-lightbox__page,
+.ed-lightbox__captionhead,
+.ed-hx__kicker,
+.ed-hx__tabnum,
+.ed-chapter__kicker,
+.ed-chapter__count,
+.ed-gcard__kicker,
+.ed-gcard__byline,
+.ed-article__callout,
+.ed-chip__count,
+.ed-navmenu__all,
+.ed-toc__section,
+.ed-issueindex__section,
+.ed-article__label,
+.ed-source__facts dt,
+.ed-pfoot__badgelabel,
+.badge {
+  font-size: var(--type-label);
+}
+
+.ed-kicker,
+.ed-card__cat,
+.ed-toc__section,
+.ed-issueindex__section,
+.ed-chapter__kicker,
+.ed-hx__kicker {
+  letter-spacing: var(--type-label-track);
+}
+
+/* Footer headings: Trivana's footer heading — small, uppercase, tracked */
+.ed-pfoot__head {
+  font-size: var(--type-small);
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Article pages — the reading sizes, kept together in one block.
+   Newspaper reading layout (article.css): a headline on the site's H1 step,
+   a lead-size standfirst, and body text a step above the site's body size
+   (17px on phones to 19px on wide screens), for long reads. The reader's
+   text-size choice (ArticleTools) scales the body through --article-scale.
+   ========================================================================== */
+:root {
+  --article-body: clamp(1.0625rem, 1rem + 0.26vw, 1.1875rem);
+  --article-scale: 1;
+}
+
+:root[data-article-size="large"] {
+  --article-scale: 1.12;
+}
+
+:root[data-article-size="larger"] {
+  --article-scale: 1.25;
+}
+
+.ed-story__title {
+  font-size: var(--type-h1);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+
+@media (min-width: 1024px) {
+  .ed-story__opener--split .ed-story__title {
+    font-size: var(--type-h1);
+  }
+}
+
+.ed-story__standfirst {
+  font-size: calc(var(--type-lead) * 1.08);
+  line-height: 1.5;
+}
+
+.ed-article {
+  font-size: calc(var(--article-body) * var(--article-scale));
+  line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+  .ed-article {
+    font-size: calc(var(--article-body) * var(--article-scale));
+    line-height: 1.75;
+  }
+}
+
+.ed-article__subhead {
+  font-size: calc(var(--type-h3) * 1.12);
+  line-height: 1.25;
+}
+
+.ed-pullquote p {
+  font-size: calc(var(--type-h3) * 1.15);
+  line-height: 1.4;
+}

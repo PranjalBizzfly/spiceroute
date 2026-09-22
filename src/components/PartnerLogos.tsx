@@ -1,5 +1,13 @@
-import Image from "next/image";
+import LogoMarquee from "./LogoMarquee";
 import { siteConfig } from "@/data/siteConfig";
+
+// Alt text reads the logo as printed where it says more than the partner name
+const LOGO_TEXT: Record<string, string> = {
+  NDTV: "NDTV 24x7",
+  "India Today": "India Today Television",
+  "PTC Network": "PTC Punjabi",
+  Ultimate: "The Ultimate Realty Awards",
+};
 
 interface PartnerLogosProps {
   /** Rendered inside a page that already provides its own section frame. */
@@ -9,20 +17,14 @@ interface PartnerLogosProps {
 /** Partner logos as shown on the source About page, with its own sentence. */
 export default function PartnerLogos({ bare = false }: PartnerLogosProps) {
   const logos = (
-    <ul className="ed-logos" aria-label="Media partners">
-      {siteConfig.partners.map((partner) => (
-        <li key={partner.name} className="ed-logo partner-logo-item">
-          <Image
-            src={partner.logo}
-            alt={partner.name}
-            fill
-            sizes="108px"
-            loading="lazy"
-            style={{ objectFit: "contain" }}
-          />
-        </li>
-      ))}
-    </ul>
+    <LogoMarquee
+      label="Media partners"
+      logos={siteConfig.partners.map((partner) => ({
+        name: partner.name,
+        src: partner.logo,
+        alt: `${LOGO_TEXT[partner.name] ?? partner.name} logo`,
+      }))}
+    />
   );
 
   if (bare) return logos;

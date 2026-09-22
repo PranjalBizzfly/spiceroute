@@ -376,6 +376,17 @@
   margin-bottom: 0.9rem;
 }
 
+/* On a narrow screen a long kicker (chapter number, rule, section names)
+   wraps as a line of text, never as two squeezed columns */
+.ed-kicker {
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+}
+
+.ed-shead__chapter {
+  white-space: nowrap;
+}
+
 .ed-kicker::before {
   content: "";
   width: 26px;
@@ -538,12 +549,20 @@
   padding-top: 1.15rem;
 }
 
+/* In a row of cards, a story printed without a section label keeps that
+   line empty, so every headline in the row starts at the same height */
+:is(.ed-row, .ed-triptych, .ed-atlas__places) .ed-card__body > .ed-card__title:first-child {
+  margin-top: calc(var(--step-label) * 1.6 + 0.6rem);
+}
+
 .ed-card__cat {
   font-size: var(--step-label);
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent-text);
+  /* tracked capitals in a narrow card: wrap rather than spill */
+  overflow-wrap: anywhere;
 }
 
 .ed-card__title {
@@ -607,6 +626,70 @@
 .ed-card__role {
   font-weight: 400;
   color: var(--text-muted);
+}
+
+/* A story printed without a photograph: the same plate, set in type */
+.ed-card__plate--type {
+  /* the label is sized to the plate, so small thumbnails never clip it */
+  container-type: inline-size;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(0.5rem, 8%, 1.5rem);
+  background: linear-gradient(135deg, var(--highlight-tint), var(--accent-tint)), var(--bg-plate);
+}
+
+.ed-card__plate--type span {
+  font-family: var(--font-serif);
+  /* sized to the plate (a 96px thumbnail gets ~11.5px), never broken mid-word */
+  font-size: clamp(0.66rem, 12cqi, 2rem);
+  white-space: nowrap;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent-text);
+  opacity: 0.85;
+}
+
+/* -- Small photographs in large plates (components/PlatePhoto.tsx) ---------- */
+/* The photograph's frame is the plate, but never larger than 1.5 × the file
+   (--photo-w / --photo-h); beyond that, a blurred copy fills the plate. */
+.ed-photo {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  background-color: var(--bg-plate);
+}
+
+.ed-photo img {
+  object-fit: cover;
+}
+
+.ed-photo .ed-photo__backdrop {
+  filter: blur(22px) saturate(1.15);
+  transform: scale(1.2);
+  opacity: 0.85;
+}
+
+.ed-photo__frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(100%, var(--photo-w));
+  height: min(100%, var(--photo-h));
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  /* only visible when the frame is smaller than the plate (clipped otherwise) */
+  box-shadow: 0 12px 28px -14px rgba(0, 0, 0, 0.45);
+}
+
+/* spreads and strips: the whole photograph, letterboxed on its backdrop */
+.ed-photo--whole .ed-photo__frame {
+  box-shadow: none;
+}
+
+.ed-photo--whole .ed-photo__frame img {
+  object-fit: contain;
 }
 
 /* -- Variant: featured (large split feature) ------------------------------- */
@@ -903,18 +986,27 @@
     gap: 0.3rem;
   }
 
+  /* With a photograph: byline and edition run under the headline, on the
+     text edge, rather than squeezed into a column of their own */
   .ed-index__item--thumb {
-    grid-template-columns: 2.5rem minmax(0, 1fr) minmax(130px, 0.3fr) 104px;
+    grid-template-columns: 2.5rem minmax(0, 1fr) 104px;
     align-items: start;
   }
 
   .ed-index__item--thumb .ed-index__aside {
-    padding-top: 0.2rem;
+    grid-column: 2;
+    grid-row: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 0.3rem 0.9rem;
+    text-align: left;
   }
 
   .ed-index__item--thumb .ed-index__thumb {
-    grid-column: 4;
-    grid-row: 1;
+    grid-column: 3;
+    grid-row: 1 / span 2;
   }
 }
 
@@ -1038,6 +1130,11 @@
   background-size: 100% 1px;
 }
 
+/* keeps a short phrase (e.g. "Vol. 19") on one line */
+.ed-nowrap {
+  white-space: nowrap;
+}
+
 .ed-edition__date {
   font-size: 0.72rem;
   font-weight: 700;
@@ -1153,6 +1250,8 @@
   margin-top: 1.5rem;
 }
 
+/* The note starts on the same line as the "About" kicker; a red rule runs
+   down its side, so it reads as the column's sidebar */
 .ed-about__note {
   padding-top: 1.5rem;
   border-top: 3px solid var(--accent);
@@ -1160,8 +1259,14 @@
 
 @media (min-width: 960px) {
   .ed-about__note {
-    margin-top: 0.4rem;
+    padding: 0 0 0 clamp(1.5rem, 2.5vw, 2rem);
+    border-top: 0;
+    border-left: 3px solid var(--accent);
   }
+}
+
+.ed-about__note .ed-kicker {
+  margin-bottom: 1.1rem;
 }
 
 .ed-about__notetext {
@@ -1590,7 +1695,8 @@
   flex: none;
 }
 
-/* Three plates: a swipeable row on phones, a staggered triptych above */
+/* Three plates: a swipeable row on phones, three even columns above —
+   photographs, kickers and headlines on shared lines */
 .ed-triptych {
   display: grid;
   grid-auto-flow: column;
@@ -1624,10 +1730,6 @@
     overflow: visible;
     margin-inline: 0;
     padding: 0;
-  }
-
-  .ed-triptych > :nth-child(2) {
-    margin-top: clamp(2rem, 6vw, 4.5rem);
   }
 }
 
@@ -2005,6 +2107,8 @@
   font-weight: 600;
   line-height: 1.5;
   color: var(--highlight-text);
+  /* long printed notes end in addresses and emails: never past the column */
+  overflow-wrap: anywhere;
 }
 
 .ed-article__note strong {
@@ -2484,9 +2588,28 @@
 }
 
 /* Wide screens: the entry text sits in a readable measure beside the photo */
+/* Small phones: a narrower number column and a smaller photograph, so the
+   headline gets the width it needs */
+@container (max-width: 479px) {
+  .ed-toc__item {
+    grid-template-columns: 1.75rem minmax(0, 1fr) 64px;
+    gap: 0.25rem 0.75rem;
+  }
+
+  .ed-toc__num {
+    font-size: 1.05rem;
+  }
+}
+
+/* Wide: a larger photograph and a wider standfirst, so text and photo
+   share the row without an empty band between them */
 @container (min-width: 1000px) {
   .ed-toc__item {
-    grid-template-columns: 5.5rem minmax(0, 1fr) 220px;
+    grid-template-columns: 5.5rem minmax(0, 1fr) 280px;
+  }
+
+  .ed-toc__standfirst {
+    max-width: 64ch;
   }
 }
 
@@ -2820,6 +2943,14 @@
   gap: clamp(1.25rem, 3vw, 2.25rem) var(--grid-gap-cards);
 }
 
+/* Phones: two narrow covers a row, so the volume/issue line tracks tighter
+   and stays on one line in most cards, keeping each row's meta level */
+@media (max-width: 479px) {
+  .ed-archive__grid .ed-edition__date {
+    letter-spacing: 0.05em;
+  }
+}
+
 @media (min-width: 640px) {
   .ed-archive__grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2829,6 +2960,18 @@
 @media (min-width: 1000px) {
   .ed-archive__grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Wide screens: the year's own column count (ArchiveBrowser fitColumns),
+   so no cover is left alone on the last row */
+@media (min-width: 1000px) {
+  .ed-archive__grid[data-cols="5"] {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .ed-archive__grid[data-cols="3"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -3022,9 +3165,12 @@
     margin-left: 0;
   }
 
+  /* fills its five columns, but never beyond the photograph's own sharpness
+     (a small file sits centred in the column instead) */
   .ed-story__opener--split .ed-article__figure {
-    max-width: none;
-    margin: 0;
+    width: 100%;
+    max-width: var(--img-max, none);
+    margin: 0 auto;
   }
 }
 
@@ -3174,10 +3320,10 @@
   border-top: 1px solid var(--border-subtle);
 }
 
+/* The section heading carries its own rule (pages.css), so the section
+   itself has none — one line, not two */
 .ed-story__related {
   margin-top: var(--space-section);
-  padding-top: var(--space-block);
-  border-top: 1px solid var(--border-subtle);
 }
 
 .ed-story__related + .ed-story__related {
@@ -4281,5 +4427,66 @@ textarea.ed-form__input {
   .ed-toc__thumb img {
     transition: none !important;
     transform: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Back to top (components/BackToTop.tsx): a round button in the bottom
+   corner, below the header and every dialog, clear of the phone's home bar
+   -------------------------------------------------------------------------- */
+.ed-totop {
+  position: fixed;
+  right: max(var(--gutter), env(safe-area-inset-right));
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-fill);
+  color: var(--on-accent);
+  box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px) scale(0.9);
+  transition: opacity 0.3s var(--ease-editorial), transform 0.3s var(--ease-editorial),
+    visibility 0s linear 0.3s, background-color 0.2s;
+}
+
+.ed-totop.is-shown {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 0.3s var(--ease-editorial), transform 0.3s var(--ease-editorial),
+    visibility 0s, background-color 0.2s;
+}
+
+.ed-totop:hover {
+  background-color: var(--accent-fill-hover);
+}
+
+.ed-totop:hover svg {
+  transform: translateY(-2px);
+}
+
+.ed-totop svg {
+  transition: transform 0.2s var(--ease-editorial);
+}
+
+.ed-totop:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-totop,
+  .ed-totop.is-shown,
+  .ed-totop svg {
+    transition: none;
   }
 }

@@ -14,7 +14,7 @@ const CONCURRENCY = 4;
 
 const sitemap = await (await fetch(`${BASE}/sitemap.xml`)).text();
 const routes = [...sitemap.matchAll(/<loc>https?:\/\/[^/<]+([^<]*)<\/loc>/g)].map((m) => m[1] || "/");
-routes.push("/this-page-does-not-exist", "/search", "/search?q=kolkata", "/search?category=travel", "/search?q=zzqxv");
+routes.push("/this-page-does-not-exist", "/search", "/search?q=kolkata", "/search?category=travel-escapes", "/search?q=zzqxv");
 const reps = [
   "/", "/about", "/contact", "/inflight-magazine", "/this-page-does-not-exist",
   routes.find((r) => /^\/inflight-magazine\/.+/.test(r)),
@@ -24,7 +24,9 @@ const reps = [
 // ---------- in-page probe ----------
 const probe = () => {
   const vw = document.documentElement.clientWidth;
-  const ignore = (el) => el.closest("nextjs-portal, [data-nextjs-toast], .visually-hidden, .ed-issue__ambient, [aria-hidden='true'] svg");
+  // also skips screen-reader-only text (the 1px clipped pattern), wherever it is declared
+  const srOnly = (el) => el.clientWidth <= 1 && el.clientHeight <= 1 && getComputedStyle(el).position === "absolute";
+  const ignore = (el) => el.closest("nextjs-portal, [data-nextjs-toast], .visually-hidden, .ed-issue__ambient, [aria-hidden='true'] svg") || srOnly(el);
   const visible = (el) => {
     const cs = getComputedStyle(el);
     return cs.display !== "none" && cs.visibility !== "hidden" && parseFloat(cs.opacity) > 0.01 && el.getClientRects().length > 0;

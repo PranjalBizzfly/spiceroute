@@ -14,7 +14,7 @@ import { chromium } from "playwright";
 const SINK_PORT = 2525;
 const QA_PORT = 3126;
 const QA = `http://localhost:${QA_PORT}`;
-const UNCONFIGURED = "http://localhost:3123";
+const UNCONFIGURED = process.env.UNCONFIGURED ?? "http://localhost:3123";
 const OUT = "screenshots/contact";
 await fs.rm(OUT, { recursive: true, force: true });
 await fs.mkdir(OUT, { recursive: true });
@@ -390,7 +390,14 @@ for (const [name, handler] of [
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, extraHTTPHeaders: { "X-Forwarded-For": "10.40.9.9" } });
   const page = await ctx.newPage();
   await page.goto(QA + "/contact", { waitUntil: "networkidle" });
-  await page.evaluate(() => {}); // submit immediately
+  // A real instant submit is timing-dependent (the form's clock starts on
+  // mount, before networkidle, so a heavier page can outlast the 1.5 s
+  // minimum). Report the elapsed time as a script would: well under it. The
+  // real server still decides, and the form must explain the rejection.
+  await page.route("**/api/contact", async (route) => {
+    const body = JSON.parse(route.request().postData() ?? "{}");
+    await route.continue({ postData: JSON.stringify({ ...body, elapsedMs: 300 }) });
+  });
   await fill(page, valid({ message: "Browser test: submitted instantly by a script." }));
   await page.click("main button[type=submit]");
   await page.locator(".ed-form__alert[role=alert]").waitFor({ timeout: 15000 });

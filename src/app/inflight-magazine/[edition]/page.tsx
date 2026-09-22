@@ -7,6 +7,8 @@ import PdfButton from "@/components/PdfButton";
 import Reveal from "@/components/Reveal";
 import EditionContents from "@/components/edition/EditionContents";
 import EditionPager from "@/components/edition/EditionPager";
+import Panorama from "@/components/Panorama";
+import { localImageSize } from "@/lib/imageSize";
 import { editionDate, getEdition, getEditions, getEditionStories, getNearbyEditions } from "@/lib/content";
 
 interface PageProps {
@@ -55,11 +57,20 @@ export default async function EditionPage({ params }: PageProps) {
   const stories = getEditionStories(slug);
   const nearby = getNearbyEditions(slug, 4);
   const total = getEditions().length;
+  // The issue's lead place, full bleed: the first story in printed order whose
+  // lead photograph is landscape and large enough to stay sharp across the screen
+  const panorama = stories.find((s) => {
+    if (s.category === "predictions") return false;
+    const size = s.heroImage ? localImageSize(s.heroImage) : undefined;
+    // …and not a strip (e.g. a printed zodiac band), which a full-bleed band would crop to a sliver
+    return size && size.width >= 1400 && size.height >= 500 && size.width > size.height && size.width / size.height <= 2.2;
+  });
+  const chapter = (n: number) => <span className="ed-shead__chapter">{String(n).padStart(2, "0")}</span>;
 
   return (
     <div className="ed-issue">
       {/* ============================ HERO ============================ */}
-      <section className="ed-issue__hero" aria-labelledby="edition-title">
+      <section className="ed-issue__hero ed-pagehero ed-scope-dark" aria-labelledby="edition-title">
         {/* Ambient colour from the printed cover (a tiny, blurred copy) */}
         <div className="ed-issue__ambient" aria-hidden="true">
           <Image src={edition.cover} alt="" fill sizes="64px" loading="eager" />
@@ -197,13 +208,16 @@ export default async function EditionPage({ params }: PageProps) {
         </section>
       ) : (
         <>
+          {/* ============ PANORAMA — the issue's lead place, full bleed ============ */}
+          {panorama && <Panorama story={panorama} id="issue-panorama-title" kicker={`From this issue · ${panorama.section}`} />}
+
           {/* ============ CONTENTS — the issue's own contents page ============ */}
           <section id="in-this-issue" className="ed-section" aria-labelledby="contents-title">
             <div className="container">
               <Reveal>
                 <div className="ed-shead">
                   <div className="ed-shead__main">
-                    <p className="ed-kicker ed-kicker--red">{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
+                    <p className="ed-kicker ed-kicker--red">{chapter(1)}{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
                     <h2 id="contents-title" className="ed-shead__title">In this issue</h2>
                     <p className="ed-shead__sub">
                       Every story from this edition that can be read on the web, in printed order, with its page
@@ -221,6 +235,7 @@ export default async function EditionPage({ params }: PageProps) {
             <div className="container">
               <div className="ed-pdfband">
                 <div>
+                  <p className="ed-kicker">{chapter(2)}The print edition</p>
                   <h2 id="print-title" className="ed-pdfband__title">The complete print edition</h2>
                   <p className="ed-pdfband__text">
                     The original PDF has every page of the {date} issue
@@ -247,7 +262,7 @@ export default async function EditionPage({ params }: PageProps) {
             <div className="ed-issue__nearby">
               <div className="ed-shead">
                 <div className="ed-shead__main">
-                  <p className="ed-kicker">Inflight archive</p>
+                  <p className="ed-kicker">{!edition.pdfOnly && chapter(3)}Inflight archive</p>
                   <h2 className="ed-shead__title">Around this edition</h2>
                 </div>
                 <Link href="/inflight-magazine" className="ed-more">

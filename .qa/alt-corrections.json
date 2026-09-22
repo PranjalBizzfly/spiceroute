@@ -1,0 +1,37 @@
+{
+  "note": "Alt-text corrections from a visual review of all 898 story images (3 reviewers over .qa/tmp/altsheets, then every flag re-checked against the photo). Apply at the source (article specs) so stories.ts regenerates with them.",
+  "reviewed": 898,
+  "corrections": [
+    { "src": "/images/stories/five-monsoon-escapes-rain-kissed-splendour/p49-3.webp", "current": "A woman and two girls walking along a village path, the woman carrying a load on her back", "alt": "Two women carrying bundles of wood on their backs walk a stone village path with two young girls" },
+    { "src": "/images/stories/ranveer-brar-conversation/p60-2.webp", "current": "Ranveer Brar in chef's whites, seated behind a table of plants", "alt": "Ranveer Brar in a black chef's jacket, arms crossed, seated behind leafy plants in a restaurant" },
+    { "src": "/images/stories/live-long-travel-longer/p54-3.webp", "current": "A therapist giving a massage treatment", "alt": "A therapist placing glass cupping cups on the back of a woman lying face down" },
+    { "src": "/images/stories/vineeta-singh-a-shark-of-all-times/p31-5.webp", "current": "Vineeta Singh with other panellists on the set of Shark Tank India", "alt": "Vineeta Singh with a man and two young boys in front of a Shark Tank India backdrop" },
+    { "src": "/images/stories/on-set-inside-mumbais-tribute-to-movies/p36-s5.webp", "current": "Visitors in a museum corridor lined with exhibits", "alt": "A seated figure in a chair facing a museum corridor lined with exhibits" },
+    { "src": "/images/stories/my-town-assam/p37-2.webp", "current": "A one-horned rhino grazing in tall grass", "alt": "Two one-horned rhinos on a forest track, with riders on an elephant behind them" },
+    { "src": "/images/stories/broadsheet-may-2024/p18-1.webp", "current": "A folk musician in a turban beside a sitar player", "alt": "A folk musician in a turban beside a man holding an electric guitar" },
+    { "src": "/images/stories/network-kandla/p30-2.webp", "current": "Illustration: tents on the white desert of the Rann", "alt": "Round thatched huts on sandy ground under a sunset sky, framed by a painted border" },
+    { "src": "/images/stories/parineeti-chopra-hitting-the-right-notes/p61-2.webp", "current": "Diljit Dosanjh and Parineeti Chopra singing on a stage in a scene from the film", "alt": "Diljit Dosanjh and Parineeti Chopra seated on a vehicle with a microphone and loudspeaker, in a scene from the film" },
+    { "src": "/images/stories/network-abu-dhabi/p28-6.webp", "current": "A colourful building in a heritage village", "alt": "A cartoon-style building with rounded stone-look walls and a hanging sign" },
+    { "src": "/images/stories/no-more-a-boomer/p34-3.webp", "current": "A couple sitting close together on a sofa", "alt": "Three people seen from behind, sitting close together on a red sofa" },
+    { "src": "/images/stories/tawang-tales-from-the-frontier.webp", "current": "Snow-covered mountains above a winding road lined with prayer flags", "alt": "A large monastery complex spread across a green hillside under a blue sky" },
+    { "src": "/images/stories/tawang-tales-from-the-frontier/p53-1.webp", "current": "A monastery complex on a hillside above the town", "alt": "A colourful ornate gateway over a road lined with prayer flags, with misty hills behind" },
+    { "src": "/images/stories/eternal-eden-remote-destinations/p62-2.webp", "current": "Icebergs floating in the sea", "alt": "A single iceberg floating in the sea" },
+    { "src": "/images/stories/eternal-eden-remote-destinations/p63-1.webp", "current": "A polar bear on the ice", "alt": "A polar bear and her cub on the ice" },
+    { "src": "/images/stories/pillars-of-progress-civil-services-day/p69-2.webp", "current": "The emblem of the Union Public Service Commission", "alt": "The emblem of the Indian Administrative Service, a wheel above a ribbon with its name" },
+    { "src": "/images/stories/network-varanasi/p26-3.webp", "current": "An old cart before a carved sandstone gateway", "alt": "An old cannon on a wheeled carriage before a carved sandstone gateway" },
+    { "src": "/images/stories/unsung-sheroes/p32-6.webp", "current": "A vintage photograph of an early aeroplane", "alt": "A line drawing of an early biplane-style aeroplane" },
+    { "src": "/images/stories/unsung-sheroes/p32-1.webp", "current": "A vintage photograph of a woman seated outdoors", "alt": "A vintage photograph of a woman in a hat, long coat and boots standing in a doorway" },
+    { "src": "/images/stories/walking-the-green-path/p46-2.webp", "current": "A jar of pickled pumpkin", "alt": "A cloth-covered jar labelled Pumpkin Tepache" },
+    { "src": "/images/stories/kathmandu-to-the-land-of-mystic-trails/p57-2.webp", "current": "A panorama of a white stupa and temples", "alt": "Illustration: a sketched panorama of a stupa and temples" },
+    { "src": "/images/stories/network-jeddah/p26-4.webp", "current": "Bowls of dates and traditional sweets", "alt": "A bowl of seeded porridge with small bowls of honey, black seeds and a white cream" },
+    { "src": "/images/stories/whispers-of-hidden-shores/p44-7.webp", "current": "A plate of grilled meat", "alt": "A plate of spiced grilled fish with onion and tomato slices" },
+    { "src": "/images/stories/whats-trending-july-2026/p26-4.webp", "current": "A bright printed shirt", "alt": "A bright yellow floral-print short dress" }
+  ],
+  "partnerLogos": {
+    "note": "Media-partner logo alt should read the logo as shown (src/components/PartnerLogos.tsx uses the partner name); these four say more than the name.",
+    "NDTV": "NDTV 24x7 logo",
+    "India Today": "India Today Television logo",
+    "PTC Network": "PTC Punjabi logo",
+    "Ultimate": "The Ultimate Realty Awards logo"
+  }
+}

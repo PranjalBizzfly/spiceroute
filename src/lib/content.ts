@@ -16,7 +16,10 @@ const MONTHS = [
 
 const chronoKey = (e: Pick<Edition, "month" | "year">) => e.year * 12 + MONTHS.indexOf(e.month);
 
-export const storyHref = (s: Pick<Story, "category" | "slug">) => `/stories/${s.category}/${s.slug}`;
+import { categoryIdFromSlug, storyHref, storyUrlSlug } from "@/lib/urls";
+
+// Public story URLs are built in lib/urls.ts
+export { storyHref };
 export const editionHref = (slug: string) => `/inflight-magazine/${slug}`;
 
 /** Printed reading order inside an edition: the page the story starts on. */
@@ -162,6 +165,15 @@ export const getEditionStories = (slug: string): StoryEntry[] =>
 export const getStories = (): StoryEntry[] => storyEntries;
 
 export const getStory = (slug: string): StoryEntry | undefined => storyBySlug.get(slug);
+
+/** The story at a public address: /stories/<categorySlug>/<urlSlug>. */
+export function getStoryByPath(categorySlug: string, urlSlug: string): StoryEntry | undefined {
+  const category = categoryIdFromSlug(categorySlug);
+  return storyEntries.find((s) => s.category === category && storyUrlSlug(s) === urlSlug);
+}
+
+/** A category's stories, newest edition first, printed order within each. */
+export const getCategoryStories = (categoryId: string): StoryEntry[] => storyEntries.filter((s) => s.category === categoryId);
 
 /** Editions nearest in time to the given one (excluding it), newest first. */
 export function getNearbyEditions(slug: string, count = 4): EditionEntry[] {

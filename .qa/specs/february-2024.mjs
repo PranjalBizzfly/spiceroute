@@ -124,7 +124,7 @@ export const FEBRUARY_2024 = [
     gallery: {
       "p26-2": "An old stone fort at sunset",
       "p26-3": "A glass tunnel through an aquarium",
-      "p26-4": "Bowls of dates and traditional sweets",
+      "p26-4": "A bowl of seeded porridge with small bowls of honey, black seeds and a white cream",
       "p26-5": "Illustration: a beach resort on the coast",
       "p26-s3": "A Formula One racing car",
     },
@@ -275,7 +275,7 @@ export const FEBRUARY_2024 = [
     galleryAlt: {
       "p44-3": "Colourful boats on a turquoise lagoon",
       "p44-8": "A diver among fish in blue water",
-      "p44-7": "A plate of grilled meat",
+      "p44-7": "A plate of spiced grilled fish with onion and tomato slices",
       "p44-5": "Coconut palms leaning over a beach",
       "p44-2": "A lighthouse above the sea at sunset",
       "p44-6": "A surfer riding a wave",
@@ -478,7 +478,7 @@ export const FEBRUARY_2024 = [
     },
   },
   {
-    slug: "your-forecast-this-month-february-2024",
+    slug: "your-forecast-this-month-february-2024", hero: "p72-r1", heroAlt: "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
     edition: E,
     category: "predictions",
     pdfPages: [72],

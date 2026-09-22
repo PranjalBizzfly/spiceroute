@@ -1,0 +1,204 @@
+/* ==========================================================================
+   Spice Route — Inner pages
+   The homepage's language carried through the site: Condé Nast-style section
+   heads (a full-width hairline over a large serif title), an immersive dark
+   opener for the archive, edition, search and not-found pages (always dark,
+   via .ed-scope-dark), a fan of covers on the archive, and a full-bleed lead
+   photograph on stories whose photograph is large enough.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Section heads, site-wide
+   -------------------------------------------------------------------------- */
+.ed-section .ed-shead:not(.ed-shead--center),
+.ed-story__related .ed-shead,
+.ed-issue__nearby .ed-shead {
+  padding-top: clamp(1rem, 2vw, 1.4rem);
+  border-top: 1px solid var(--text-heading);
+}
+
+.ed-section .ed-shead__title,
+.ed-story__related .ed-shead__title,
+.ed-issue__nearby .ed-shead__title {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+}
+
+.ed-shead .ed-kicker::before {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Immersive opener: archive, edition, search, not found
+   -------------------------------------------------------------------------- */
+.ed-pagehero {
+  --ambient-opacity: 0.55;
+  padding-block: clamp(1.5rem, 4vw, 2.5rem) clamp(3.5rem, 8vw, 6rem);
+  background:
+    radial-gradient(120% 90% at 85% 0%, rgba(236, 28, 36, 0.28) 0%, rgba(236, 28, 36, 0) 55%),
+    radial-gradient(90% 70% at 0% 100%, rgba(246, 152, 29, 0.14) 0%, rgba(246, 152, 29, 0) 60%),
+    var(--bg-band);
+  color: var(--text-primary);
+}
+
+.ed-pagehero .ed-issue__ambient {
+  -webkit-mask-image: linear-gradient(to bottom, #000 20%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 20%, transparent 100%);
+}
+
+.ed-pagehero .ed-crumbs {
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.ed-pagehero .ed-issue__title,
+.ed-pagehero h1 {
+  font-size: clamp(2.8rem, 7.5vw, 6rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.ed-pagehero .ed-shead__sub {
+  max-width: 40rem;
+  font-family: var(--font-text);
+  font-size: clamp(1.1rem, 1.7vw, 1.3rem);
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* The opener's own text and fan of covers */
+.ed-pagehead {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: clamp(2.5rem, 6vw, 4rem);
+}
+
+.ed-pagehead .ed-archive__head {
+  margin-bottom: 0;
+}
+
+@media (min-width: 960px) {
+  .ed-pagehead {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+}
+
+.ed-fan {
+  position: relative;
+  height: clamp(220px, 30vw, 340px);
+  margin-inline: auto;
+  width: min(100%, 460px);
+}
+
+.ed-fan__cover {
+  --spread: calc(var(--i) - 2);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: clamp(120px, 15vw, 200px);
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  box-shadow: 0 24px 48px -20px rgba(0, 0, 0, 0.8);
+  transform-origin: 50% 120%;
+  transform: translateX(-50%) translateX(calc(var(--spread) * 42%)) rotate(calc(var(--spread) * 7deg));
+  z-index: calc(5 - var(--i));
+  transition: transform 0.7s var(--ease-editorial);
+}
+
+.ed-fan:hover .ed-fan__cover {
+  transform: translateX(-50%) translateX(calc(var(--spread) * 58%)) rotate(calc(var(--spread) * 10deg)) translateY(-6px);
+}
+
+.ed-fan__cover img {
+  object-fit: cover;
+}
+
+/* Phones: smaller covers, a tighter fan — kept inside the page margins */
+@media (max-width: 559px) {
+  .ed-fan {
+    height: clamp(170px, 48vw, 220px);
+  }
+
+  .ed-fan__cover {
+    width: clamp(84px, 24vw, 120px);
+    transform: translateX(-50%) translateX(calc(var(--spread) * 38%)) rotate(calc(var(--spread) * 6deg));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-fan__cover {
+    transition: none;
+  }
+}
+
+/* The archive's latest edition, as a panel on the dark opener */
+.ed-latest--panel {
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* --------------------------------------------------------------------------
+   Story: a full-bleed lead photograph
+   -------------------------------------------------------------------------- */
+.ed-story {
+  overflow-x: clip;
+}
+
+.ed-story__opener--bleed .ed-article__figure {
+  width: 100vw;
+  max-width: none;
+  margin-inline: calc(50% - 50vw);
+}
+
+/* Full width at a screen-filling height; only the top and bottom trim */
+.ed-story__opener--bleed .ed-article__image {
+  aspect-ratio: auto !important;
+  height: min(82svh, 64vw);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ed-story__opener--bleed .ed-article__figure figcaption {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* --------------------------------------------------------------------------
+   Edition page: numbered chapters and the print band
+   -------------------------------------------------------------------------- */
+.ed-pdfband .ed-kicker {
+  margin-bottom: 0.6rem;
+}
+
+/* --------------------------------------------------------------------------
+   Panorama on phones: a portrait band would crop a landscape photograph to
+   a third of itself, so the photograph runs as a 3:2 band and the card sits
+   below it, overlapping its lower edge
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .ed-panorama {
+    display: block;
+    min-height: 0;
+  }
+
+  .ed-panorama__media {
+    position: relative;
+    inset: auto;
+    aspect-ratio: 3 / 2;
+    z-index: 0;
+  }
+
+  .ed-panorama__inner {
+    position: relative;
+    margin-top: -2.5rem;
+    padding-block: 0 2.5rem;
+  }
+}

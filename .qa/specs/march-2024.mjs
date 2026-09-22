@@ -105,7 +105,7 @@ export const MARCH_2024 = [
       gallery: {
         "p26-4": "The golden spires of a temple complex by the river",
         "p26-5": "Priests holding up lamps during the evening aarti",
-        "p26-3": "An old cart before a carved sandstone gateway",
+        "p26-3": "An old cannon on a wheeled carriage before a carved sandstone gateway",
         "p26-2": "Enamelled Gulabi Meenakari bangles",
         "p26-6": "Paan wrapped in betel leaves",
       },
@@ -205,9 +205,9 @@ export const MARCH_2024 = [
       "p32-5": "A painted portrait of a woman in a sari",
       "p32-2": "A vintage portrait of a woman in a sari and jewellery",
       "p32-s1": "Pink hair curlers",
-      "p32-6": "A vintage photograph of an early aeroplane",
+      "p32-6": "A line drawing of an early biplane-style aeroplane",
       "p32-3": "A vintage portrait of a woman",
-      "p32-1": "A vintage photograph of a woman seated outdoors",
+      "p32-1": "A vintage photograph of a woman in a hat, long coat and boots standing in a doorway",
     },
   },
   {
@@ -246,6 +246,9 @@ export const MARCH_2024 = [
     category: "culture",
     pdfPages: [35],
     imagePdfPage: 35,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p35-r1",
+    heroAlt: "Line illustration in the shape of a water drop, filled with rain, a tap, a bucket, fish and waves",
     sectionPdfPage: 34,
     title: "Liquid Lifeline",
     label: "World Water Day",
@@ -303,7 +306,7 @@ export const MARCH_2024 = [
       "p44-4": "Incense packs and flowers in a festive arrangement",
       "p46-3": "A thatched cottage with a pool among trees",
       "p46-1": "A man feeding animals at a petting zoo",
-      "p46-2": "A jar of pickled pumpkin",
+      "p46-2": "A cloth-covered jar labelled Pumpkin Tepache",
       "p46-4": "Bamboo toothbrushes and toiletries in a basket",
       "p48-2": "Packs of eco-friendly baby wipes",
       "p48-1": "Friends at an outdoor picnic table",
@@ -397,7 +400,7 @@ export const MARCH_2024 = [
     gallery: ["p57-3", "p57-2", "p58-1", "p58-2", "p58-3", "p58-4", "p59-1", "p59-4", "p59-2", "p59-3", "p59-5", "p59-6", "p59-7"],
     galleryAlt: {
       "p57-3": "Crowds celebrating Holi in clouds of colour before a pagoda",
-      "p57-2": "A panorama of a white stupa and temples",
+      "p57-2": "Illustration: a sketched panorama of a stupa and temples",
       "p58-1": "Pagoda temples of a Durbar Square seen from above",
       "p58-2": "A glass of a Holi drink among bowls of coloured powder",
       "p58-3": "A Nepali meal of dal bhat in brass bowls",
@@ -514,7 +517,7 @@ export const MARCH_2024 = [
     },
   },
   {
-    slug: "your-forecast-this-month-march-2024",
+    slug: "your-forecast-this-month-march-2024", hero: "p70-r1", heroAlt: "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
     edition: E,
     category: "predictions",
     pdfPages: [70],

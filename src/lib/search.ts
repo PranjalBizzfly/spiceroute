@@ -26,6 +26,8 @@ const escapeRe = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const matcher = (t: string) => new RegExp(`(?:^|[^a-z0-9])${escapeRe(t)}${t.length <= 3 ? "(?![a-z0-9])" : ""}`);
 
 export const categoryBySlug = new Map(categories.map((c) => [c.slug, c]));
+// stories name their category by id; URLs and ?category= use its slug
+const categoryById = new Map(categories.map((c) => [c.id, c]));
 
 interface IndexedStory {
   story: StoryEntry;
@@ -42,7 +44,7 @@ let index: IndexedStory[] | undefined;
 function storyIndex(): IndexedStory[] {
   // built lazily from the live data so new stories are always included
   index ??= getStories().map((story) => {
-    const category = categoryBySlug.get(story.category);
+    const category = categoryById.get(story.category);
     const blocks = story.body
       .flatMap((b) => ("items" in b ? b.items : [b.text]))
       .map((t) => ({ text: plain(t), n: norm(t) }));
@@ -89,7 +91,7 @@ export function search(rawQuery: string, categorySlug?: string): SearchResults {
   const query = rawQuery.trim().slice(0, 100);
   const category = categorySlug ? categoryBySlug.get(categorySlug) : undefined;
   const terms = norm(query).split(/\s+/).filter(Boolean);
-  const pool = storyIndex().filter((s) => !category || s.story.category === category.slug);
+  const pool = storyIndex().filter((s) => !category || s.story.category === category.id);
 
   // No query: the story index itself (optionally one category), printed order
   if (!terms.length) {
@@ -143,9 +145,9 @@ export function search(rawQuery: string, categorySlug?: string): SearchResults {
   const cats = category
     ? []
     : categories
-        .filter((c) => counts.get(c.slug))
+        .filter((c) => counts.get(c.id))
         .filter((c) => res.every((re) => re.test(norm(`${c.name} ${c.slug}`))))
-        .map((c) => ({ ...c, count: counts.get(c.slug) ?? 0 }));
+        .map((c) => ({ ...c, count: counts.get(c.id) ?? 0 }));
 
   return { query, category, stories: scored.map((h) => ({ story: h.story, category: h.category, excerpt: h.excerpt, matchedInText: h.matchedInText })), editions, categories: cats };
 }
@@ -154,7 +156,7 @@ export function search(rawQuery: string, categorySlug?: string): SearchResults {
 export function storyCategories(): (Category & { count: number })[] {
   const counts = new Map<string, number>();
   for (const s of getStories()) counts.set(s.category, (counts.get(s.category) ?? 0) + 1);
-  return categories.filter((c) => counts.get(c.slug)).map((c) => ({ ...c, count: counts.get(c.slug) ?? 0 }));
+  return categories.filter((c) => counts.get(c.id)).map((c) => ({ ...c, count: counts.get(c.id) ?? 0 }));
 }
 
 export { editionHref };

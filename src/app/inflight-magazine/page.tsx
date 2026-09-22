@@ -48,7 +48,7 @@ export default function InflightMagazinePage() {
 
   return (
     <div className="ed-archive-page">
-      <section className="ed-issue__hero" aria-labelledby="archive-title">
+      <section className="ed-issue__hero ed-pagehero ed-scope-dark" aria-labelledby="archive-title">
         <div className="container">
           <nav aria-label="Breadcrumb" className="ed-crumbs">
             <ol>
@@ -57,17 +57,27 @@ export default function InflightMagazinePage() {
             </ol>
           </nav>
 
-          <div className="ed-archive__head">
-            <p className="ed-kicker">The Inflight Magazine of SpiceJet</p>
-            <h1 id="archive-title" className="ed-issue__title">
-              <span className="ed-issue__masthead">Spice Route</span>
-              Every edition
-            </h1>
-            <p className="ed-shead__sub">{description}</p>
+          <div className="ed-pagehead">
+            <div className="ed-archive__head">
+              <p className="ed-kicker">The Inflight Magazine of SpiceJet</p>
+              <h1 id="archive-title" className="ed-issue__title">
+                <span className="ed-issue__masthead">Spice Route</span>
+                Every edition
+              </h1>
+              <p className="ed-shead__sub">{description}</p>
+            </div>
+            {/* The latest covers, fanned out */}
+            <div className="ed-fan" aria-hidden="true">
+              {editions.slice(0, 5).map((e, i) => (
+                <div key={e.slug} className="ed-fan__cover" style={{ "--i": i } as React.CSSProperties}>
+                  <Image src={e.cover} alt="" fill sizes="220px" loading={i === 0 ? "eager" : "lazy"} />
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Latest edition leads the archive */}
-          <article className="ed-latest" aria-labelledby="latest-title">
+          <article className="ed-latest ed-latest--panel" aria-labelledby="latest-title">
             <Link href={`/inflight-magazine/${latest.slug}`} className="ed-latest__cover" tabIndex={-1} aria-hidden="true">
               <Image src={latest.cover} alt="" fill loading="eager" fetchPriority="high" sizes="(max-width: 767px) 66vw, 320px" />
             </Link>

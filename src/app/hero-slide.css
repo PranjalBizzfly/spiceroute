@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Homepage carousel — first slide: the spiceroutemagazine.in brand hero
+   (red band, "A Publication by" NKN Media, headline, standfirst, "Publish
+   Your Story", the covers-and-aircraft artwork). It reuses the .ed-shero
+   styles from hero.css and only fits them into the carousel frame: the band
+   fills the slide, the content sits clear of the slide tabs, and the slanted
+   edge falls into the dark strip that carries the tabs.
+   ========================================================================== */
+/* The red band stops above the tab strip; its slanted edge falls into the
+   carousel's dark ground, which carries the tabs and buttons, so no label
+   ever straddles the two colours */
+.ed-hx__slide--intro {
+  --hx-strip: 104px;
+}
+
+.ed-hx__slide--intro .ed-shero {
+  position: absolute;
+  inset: 0 0 var(--hx-strip);
+  display: flex;
+  align-items: center;
+  padding-block: clamp(1.5rem, 4vh, 2.5rem) clamp(2.5rem, 6vh, 4rem);
+  --shape-h: clamp(40px, 7vh, 72px);
+}
+
+.ed-hx__slide--intro .ed-shero__shape {
+  fill: #0e1013;
+}
+
+.ed-hx__slide--intro .ed-shero__inner {
+  width: 100%;
+}
+
+/* The artwork never pushes the text out of the frame */
+.ed-hx__slide--intro .ed-shero__media img {
+  max-height: min(56svh, 520px);
+  width: auto;
+  max-width: 100%;
+  margin-inline: auto;
+  object-fit: contain;
+}
+
+/* The brand slide enters like the story slides */
+.ed-hx__slide--intro .ed-shero__text > * {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ed-hx__slide--intro.is-active .ed-shero__text > * {
+  opacity: 1;
+  transform: none;
+}
+
+.ed-hx__slide--intro.is-active .ed-shero__text > :nth-child(2) { transition-delay: 0.08s; }
+.ed-hx__slide--intro.is-active .ed-shero__text > :nth-child(3) { transition-delay: 0.16s; }
+.ed-hx__slide--intro.is-active .ed-shero__text > :nth-child(4) { transition-delay: 0.24s; }
+.ed-hx__slide--intro.is-active .ed-shero__text > :nth-child(5) { transition-delay: 0.32s; }
+
+/* Tablet: text above a smaller artwork */
+@media (max-width: 1024px) {
+  .ed-hx__slide--intro .ed-shero__media img {
+    max-height: 30svh;
+  }
+}
+
+/* Phones: artwork first, then the text, as on the source; both kept small
+   enough to sit above the tabs */
+@media (max-width: 767px) {
+  /* tabs and buttons stack on phones: a taller strip */
+  .ed-hx__slide--intro {
+    --hx-strip: 128px;
+  }
+
+  .ed-hx__slide--intro .ed-shero {
+    align-items: flex-start;
+    padding-block: 1rem 2rem;
+  }
+
+  .ed-hx__slide--intro .ed-shero__media img {
+    max-height: 20svh;
+  }
+
+  .ed-hx__slide--intro .ed-shero__logo {
+    width: 64px;
+    margin-block: 6px;
+  }
+
+  .ed-hx__slide--intro .ed-shero__btn {
+    margin-top: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-hx__slide--intro .ed-shero__text > * {
+    transition: none;
+  }
+}
+
+/* The covers-and-aircraft artwork "in flight": it glides in with the slide,
+   then rides the air — a slow bob with a slight bank, like the aircraft in it.
+   Transform only (no layout); off for visitors who prefer less motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .ed-hx__slide--intro .ed-shero__media {
+    opacity: 0;
+    transform: translate3d(48px, 24px, 0) rotate(-2deg);
+    transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1), transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .ed-hx__slide--intro.is-active .ed-shero__media {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.15s;
+  }
+
+  .ed-hx__slide--intro .ed-shero__media img {
+    transform-origin: 60% 50%;
+    animation: ed-inflight 7s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  /* resting still while another slide is showing */
+  .ed-hx__slide--intro:not(.is-active) .ed-shero__media img {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes ed-inflight {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate3d(4px, -10px, 0) rotate(-0.8deg);
+  }
+  50% {
+    transform: translate3d(8px, -16px, 0) rotate(-1.2deg);
+  }
+  75% {
+    transform: translate3d(3px, -7px, 0) rotate(-0.4deg);
+  }
+}

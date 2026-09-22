@@ -20,6 +20,7 @@ import * as pdfjs from "pdfjs-dist/legacy/build/pdf.mjs";
 import { chromium } from "playwright";
 import { pageBlocks } from "./blocks.mjs";
 import { REGISTRY } from "./completeness-registry.mjs";
+import { storyHref } from "./site-urls.mjs";
 
 const args = process.argv.slice(2);
 const BASE = args[0]?.startsWith("http") ? args.shift() : "http://localhost:3140";
@@ -107,7 +108,7 @@ const browser = await chromium.launch();
 const page = await browser.newPage();
 const webText = {};
 for (const s of stories) {
-  const res = await page.goto(`${BASE}/stories/${s.category}/${s.slug}`, { waitUntil: "domcontentloaded" });
+  const res = await page.goto(`${BASE}${storyHref(s)}`, { waitUntil: "domcontentloaded" });
   if (!res || res.status() !== 200) {
     webText[s.slug] = null;
     continue;

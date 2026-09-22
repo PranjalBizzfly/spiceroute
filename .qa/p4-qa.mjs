@@ -26,8 +26,8 @@ const PAGES = [
   "/inflight-magazine/april-2025",
   "/inflight-magazine/february-2024",
   // + the article reached by clicking from the September edition (added below)
-  "/stories/destinations/ladakh-roof-of-the-world",
-  "/stories/interviews/ranveer-brar-conversation",
+  "/stories/destinations/many-shades-of-ladakh",
+  "/stories/conversations/ranveer-brar-conversation",
   "/about",
   "/contact",
 ];
@@ -62,7 +62,7 @@ let clickedArticle;
   await page.waitForURL(/\/stories\//);
   clickedArticle = new URL(page.url()).pathname;
   const h1 = await page.locator("h1").innerText();
-  results.push({ check: "click-through", ok: clickedArticle === "/stories/travel/kolkata-forever-day-in-a-city" && /Forever Kolkata/.test(h1), detail: `${clickedArticle} — h1 "${h1}"` });
+  results.push({ check: "click-through", ok: clickedArticle === "/stories/travel-escapes/kolkata-forever-day-in-a-city" && /Forever Kolkata/.test(h1), detail: `${clickedArticle} — h1 "${h1}"` });
   await ctx.close();
 }
 PAGES.splice(6, 0, clickedArticle);

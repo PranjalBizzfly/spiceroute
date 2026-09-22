@@ -8,6 +8,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
+import { storyHref } from "./site-urls.mjs";
 
 const BASE = process.argv[2] ?? "http://localhost:3123";
 const SITE = "https://spiceroutemagazine.in";
@@ -39,7 +40,7 @@ check("robots", /User-Agent: \*/i.test(robots) && /Allow: \/\s/.test(robots) && 
 
 const sitemapXml = await (await fetch(BASE + "/sitemap.xml")).text();
 const locs = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
-const expected = ["/", "/inflight-magazine", "/about", "/contact", ...editions.map((e) => `/inflight-magazine/${e.slug}`), ...stories.map((s) => `/stories/${s.category}/${s.slug}`)];
+const expected = ["/", "/inflight-magazine", "/about", "/contact", ...editions.map((e) => `/inflight-magazine/${e.slug}`), ...stories.map((s) => storyHref(s))];
 const toPath = (u) => (u === SITE ? "/" : u.replace(SITE, ""));
 check("sitemap", locs.length === expected.length && new Set(locs).size === locs.length, `${locs.length} URLs, ${new Set(locs).size} unique (expected ${expected.length})`);
 check("sitemap", locs.every((u) => u === SITE || u.startsWith(SITE + "/")), "every URL on the canonical origin");
@@ -203,8 +204,8 @@ for (const [p, want] of [
   ["/inflight-magazine/september-2026/extra", 404],
   ["/stories", 404],
   ["/stories/travel", 404],
-  ["/stories/travel/not-a-story", 404],
-  ["/stories/cuisine/kolkata-forever-day-in-a-city", 404],
+  ["/stories/travel-escapes/not-a-story", 404],
+  ["/stories/food-flavours/kolkata-forever-day-in-a-city", 404],
   ["/api/does-not-exist", 404],
   ["/api/contact", 405],
   ["/wp-admin", 404],

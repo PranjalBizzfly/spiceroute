@@ -100,6 +100,24 @@ export default function ContactForm() {
     shownAt.current = Date.now();
   }, []);
 
+  // The outcome of a plain form post (sent before this script loaded), passed
+  // back in the address by /api/contact; the address is then cleaned
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const outcome = url.searchParams.get("form");
+    if (!outcome) return;
+    url.searchParams.delete("form");
+    window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time read of the address on load
+    setStatus(
+      outcome === "sent"
+        ? { kind: "sent" }
+        : outcome === "invalid"
+          ? { kind: "error", message: "Your message was not sent: some details were missing or not valid. Please fill in the form again." }
+          : failureMessage(outcome === "error" ? 500 : 400, outcome)
+    );
+  }, []);
+
   useEffect(() => {
     if (status.kind === "sent") doneRef.current?.focus();
     if (status.kind === "error") alertRef.current?.focus();
@@ -182,7 +200,7 @@ export default function ContactForm() {
         </p>
         <h3 className="ed-form__done-title">Message sent</h3>
         <p className="ed-form__done-text">
-          Thank you, {values.firstName}. Your message has been sent to the {siteConfig.name} team, and we will get back
+          Thank you{values.firstName ? `, ${values.firstName}` : ""}. Your message has been sent to the {siteConfig.name} team, and we will get back
           to you shortly.
         </p>
         <button
@@ -226,7 +244,17 @@ export default function ContactForm() {
   );
 
   return (
-    <form ref={formRef} className="ed-form" onSubmit={handleSubmit} noValidate aria-busy={submitting}>
+    // method/action: a working plain post if this script has not loaded yet
+    <form
+      ref={formRef}
+      id="contact-form"
+      className="ed-form"
+      method="post"
+      action="/api/contact"
+      onSubmit={handleSubmit}
+      noValidate
+      aria-busy={submitting}
+    >
       {status.kind === "invalid" && errorCount > 0 && (
         <div className="ed-form__alert" role="alert">
           Please correct the {errorCount === 1 ? "highlighted field" : `${errorCount} highlighted fields`} and send

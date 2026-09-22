@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Spice Route — Reading experience
+   Long-form typography for the story pages: a text serif at a comfortable
+   size and measure, a quiet rubric and byline, a large drop cap, pull quotes
+   set as a pause, and small sans captions. Layout (the shared left edge of
+   every article part) is unchanged from editorial.css.
+   ========================================================================== */
+
+:root {
+  --font-text: var(--font-newsreader), "Newsreader", Georgia, "Times New Roman", serif;
+}
+
+/* --------------------------------------------------------------------------
+   Opener: rubric → headline → standfirst → byline
+   -------------------------------------------------------------------------- */
+.ed-story__rubric .ed-kicker {
+  color: var(--accent-text);
+  letter-spacing: 0.22em;
+}
+
+.ed-story__rubric .ed-kicker::before {
+  display: none;
+}
+
+.ed-story__title {
+  font-size: clamp(2.5rem, 6.4vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.ed-story__standfirst {
+  max-width: 38rem;
+  font-family: var(--font-text);
+  font-size: clamp(1.2rem, 2.1vw, 1.5rem);
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.ed-story__byline {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.ed-story__byline strong {
+  letter-spacing: 0.16em;
+}
+
+.ed-article__figure figcaption {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+/* --------------------------------------------------------------------------
+   Body text
+   -------------------------------------------------------------------------- */
+.ed-article {
+  font-family: var(--font-text);
+  font-size: 1.1875rem;
+  line-height: 1.7;
+  text-wrap: pretty;
+  hanging-punctuation: first;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+@media (min-width: 768px) {
+  .ed-article {
+    font-size: 1.3125rem;
+    line-height: 1.68;
+  }
+}
+
+.ed-article > p,
+.ed-fold__body > p {
+  margin-bottom: 1.35em;
+}
+
+/* Drop cap: set in the display serif, in the heading colour */
+.ed-article > p:first-child:not([class])::first-letter {
+  margin: 0.06em 0.1em 0 0;
+  font-size: 4.4em;
+  line-height: 0.78;
+  color: var(--text-heading);
+}
+
+.ed-article strong {
+  font-weight: 700;
+}
+
+/* Subheads in the display serif; small labels stay in the sans */
+.ed-article__subhead {
+  font-size: clamp(1.5rem, 2.8vw, 1.9rem);
+  letter-spacing: -0.01em;
+}
+
+/* UI parts inside the article keep the sans at their own sizes */
+.ed-article__note,
+.ed-article__list,
+.ed-article__subhead--minor,
+.ed-article__callout,
+.ed-gallery,
+.ed-fold__summary,
+.ed-instory {
+  font-family: var(--font-sans);
+}
+
+/* Question in an interview: the sans, bold, a step smaller */
+.ed-article__q {
+  font-family: var(--font-sans);
+  font-size: 0.86em;
+}
+
+/* --------------------------------------------------------------------------
+   Pull quote: large, centred between hairlines
+   -------------------------------------------------------------------------- */
+.ed-pullquote {
+  margin: clamp(2.75rem, 7vw, 4rem) 0;
+  padding-block: clamp(1.75rem, 4vw, 2.5rem);
+  border-top: 1px solid var(--text-heading);
+  border-bottom: 1px solid var(--text-heading);
+  text-align: center;
+}
+
+.ed-pullquote p {
+  font-family: var(--font-text);
+  font-size: clamp(1.6rem, 3.6vw, 2.25rem);
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.ed-pullquote::before {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin: 0 auto 1.25rem;
+  background-color: var(--accent);
+}
+
+/* --------------------------------------------------------------------------
+   Cards: excerpts in the text serif, as a dek
+   -------------------------------------------------------------------------- */
+.ed-card__excerpt {
+  font-family: var(--font-text);
+  font-size: 1.02rem;
+  line-height: 1.5;
+}

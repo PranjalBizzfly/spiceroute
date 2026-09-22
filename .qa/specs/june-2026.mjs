@@ -359,7 +359,7 @@ export const JUNE_2026 = [
   },
   {
     // Twelve signs, each opening and closing on the web page
-    slug: "predictions-june-2026",
+    slug: "predictions-june-2026", hero: "p84-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
     edition: E,
     category: "predictions",
     pdfPages: [84],

@@ -63,7 +63,7 @@ export const MAY_2024 = [
     galleryAlt: {
       "p18-4": "Illustration: a golden statue of the Buddha in meditation",
       "p18-2": "A house decorated with colourful produce and rice wafers for a harvest festival",
-      "p18-1": "A folk musician in a turban beside a sitar player",
+      "p18-1": "A folk musician in a turban beside a man holding an electric guitar",
       "p18-3": "Visitors looking at a wall of artefacts in a museum",
       "p20-3": "An embroidered red potli bag",
       "p20-1": "Milind Soman running on a forest trail",
@@ -150,7 +150,7 @@ export const MAY_2024 = [
     heroAlt: "Cranes and a cargo ship at a busy port",
     gallery: ["p30-2", "p30-3", "p30-4", "p30-5", "p30-6"],
     galleryAlt: {
-      "p30-2": "Illustration: tents on the white desert of the Rann",
+      "p30-2": "Round thatched huts on sandy ground under a sunset sky, framed by a painted border",
       "p30-3": "Birds flying over a beach at sunrise",
       "p30-4": "A red sandstone building with fountains",
       "p30-5": "A colourful embroidered textile",
@@ -388,7 +388,7 @@ export const MAY_2024 = [
     gallery: ["p61-1", "p61-2", "p62-1", "p62-2", "p62-3"],
     galleryAlt: {
       "p61-1": "The poster of the film Amar Singh Chamkila",
-      "p61-2": "Diljit Dosanjh and Parineeti Chopra singing on a stage in a scene from the film",
+      "p61-2": "Diljit Dosanjh and Parineeti Chopra seated on a vehicle with a microphone and loudspeaker, in a scene from the film",
       "p62-1": "Parineeti Chopra in a pink suit holding personal care products",
       "p62-2": "Diljit Dosanjh as Chamkila with a vinyl record behind him",
       "p62-3": "Parineeti Chopra singing on stage",
@@ -437,6 +437,9 @@ export const MAY_2024 = [
     category: "culture",
     pdfPages: [35],
     imagePdfPage: 35,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p35-1",
+    heroAlt: "Illustration: a stethoscope over a red cross printed with a world map, on a yellow background",
     sectionPdfPage: 34,
     title: "Courage Across Borders",
     label: "World Red Cross Day",
@@ -447,7 +450,7 @@ export const MAY_2024 = [
   },
   {
     // Signs set in a 6×2 grid; each sign's text read off its column
-    slug: "your-forecast-this-month-may-2024",
+    slug: "your-forecast-this-month-may-2024", hero: "p66-r1", heroAlt: "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
     edition: E,
     category: "predictions",
     pdfPages: [66],

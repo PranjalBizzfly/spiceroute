@@ -1,0 +1,1087 @@
+/* ==========================================================================
+   Spice Route — Homepage storytelling
+   A scroll-told running order: a full-bleed opening, the brand statement,
+   the latest issue, then numbered chapters (a sticky photo frame, a panorama,
+   portraits, subject tiles, the reading steps and a shelf of covers).
+   Colours come from the semantic tokens in globals.css only. Photographs over
+   which text is set always carry their own dark scrim, in both themes.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Section heads: a full-width hairline, chapter number, serif title
+   -------------------------------------------------------------------------- */
+.ed-shead--x {
+  padding-top: clamp(1rem, 2vw, 1.4rem);
+  border-top: 1px solid var(--text-heading);
+}
+
+.ed-shead--x .ed-shead__title {
+  font-size: clamp(2rem, 4.4vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+.ed-shead--x.ed-shead--center {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.ed-kicker--rule::before {
+  display: none;
+}
+
+.ed-shead__chapter {
+  color: var(--accent-text);
+}
+
+.ed-shead__chapter::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1px;
+  margin: 0 0.65rem 0.25em;
+  vertical-align: middle;
+  background-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   1. Opening carousel
+   -------------------------------------------------------------------------- */
+.ed-hx {
+  --hx-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  position: relative;
+  height: min(calc(100svh - var(--header-h, 72px)), 880px);
+  min-height: 540px;
+  overflow: hidden;
+  background-color: #0e1013;
+  color: #ffffff;
+  isolation: isolate;
+}
+
+.ed-hx__slides,
+.ed-hx__slide,
+.ed-hx__media {
+  position: absolute;
+  inset: 0;
+}
+
+.ed-hx__slide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.1s var(--hx-ease), visibility 0s linear 1.1s;
+}
+
+.ed-hx__slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1.1s var(--hx-ease), visibility 0s;
+  z-index: 1;
+}
+
+.ed-hx__media img {
+  object-fit: cover;
+  transform: scale(1.02);
+}
+
+/* A slow push-in while the slide is shown */
+.ed-hx__slide.is-active .ed-hx__media img {
+  animation: ed-hx-push calc(var(--hx-interval, 7000ms) + 1500ms) linear both;
+}
+
+@keyframes ed-hx-push {
+  from { transform: scale(1.1); }
+  to { transform: scale(1.02); }
+}
+
+/* Scrim: legible white text on any photograph */
+.ed-hx__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(8, 9, 11, 0.78) 0%, rgba(8, 9, 11, 0.45) 45%, rgba(8, 9, 11, 0.08) 80%),
+    linear-gradient(0deg, rgba(8, 9, 11, 0.85) 0%, rgba(8, 9, 11, 0) 42%);
+}
+
+.ed-hx__inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: clamp(8.5rem, 16vh, 10.5rem);
+}
+
+.ed-hx__text {
+  max-width: 44rem;
+}
+
+.ed-hx__text > * {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.8s var(--hx-ease), transform 0.8s var(--hx-ease);
+}
+
+.ed-hx__slide.is-active .ed-hx__text > * {
+  opacity: 1;
+  transform: none;
+}
+
+.ed-hx__slide.is-active .ed-hx__text > :nth-child(2) { transition-delay: 0.12s; }
+.ed-hx__slide.is-active .ed-hx__text > :nth-child(3) { transition-delay: 0.22s; }
+.ed-hx__slide.is-active .ed-hx__text > :nth-child(4) { transition-delay: 0.32s; }
+
+.ed-hx__kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.ed-hx__edition {
+  padding: 0.3rem 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: var(--radius-full);
+  letter-spacing: 0.14em;
+}
+
+.ed-hx__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.35rem, 6.2vw, 5.25rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  margin-bottom: 1.1rem;
+}
+
+.ed-hx__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* The whole slide opens the story */
+.ed-hx__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ed-hx__link:focus-visible {
+  outline: none;
+}
+
+.ed-hx__link:focus-visible::after {
+  outline: 3px solid #ffffff;
+  outline-offset: -6px;
+}
+
+.ed-hx__excerpt {
+  max-width: 36rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-text);
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ed-hx__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--brand-orange);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.ed-hx__arrow {
+  transition: transform 0.3s var(--hx-ease);
+}
+
+.ed-hx__slide:hover .ed-hx__arrow {
+  transform: translateX(6px);
+}
+
+/* Tabs: a progress bar, number and title per story */
+.ed-hx__controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  padding-bottom: clamp(1.25rem, 3vh, 2rem);
+}
+
+.ed-hx__tabs {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ed-hx__tab {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 0.6rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: rgba(255, 255, 255, 0.62);
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.ed-hx__tab:hover,
+.ed-hx__tab.is-active {
+  color: #ffffff;
+}
+
+.ed-hx__tab:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.ed-hx__bar {
+  grid-column: 1 / -1;
+  position: relative;
+  height: 2px;
+  margin-bottom: 0.55rem;
+  background-color: rgba(255, 255, 255, 0.28);
+  overflow: hidden;
+}
+
+.ed-hx__fill {
+  position: absolute;
+  inset: 0;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.ed-hx__tab.is-active .ed-hx__fill {
+  transform: scaleX(1);
+}
+
+.ed-hx.is-playing .ed-hx__tab.is-active .ed-hx__fill {
+  animation: ed-hx-fill var(--hx-interval, 7000ms) linear both;
+}
+
+@keyframes ed-hx-fill {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.ed-hx__tabnum {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.ed-hx__tabtitle {
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Tablets and phones: numbers only — five titles would be cut off */
+@media (max-width: 1023px) {
+  .ed-hx__tabtitle {
+    display: none;
+  }
+}
+
+.ed-hx__buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ed-hx__btn {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background: rgba(8, 9, 11, 0.25);
+  color: #ffffff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+.ed-hx__btn:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #0e1013;
+}
+
+.ed-hx__btn:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* The same round button on a page surface */
+.ed-hx__btn--ink {
+  border-color: var(--border-strong);
+  background: var(--bg-card);
+  color: var(--text-heading);
+}
+
+.ed-hx__btn--ink:hover {
+  background-color: var(--text-heading);
+  border-color: var(--text-heading);
+  color: var(--bg-primary);
+}
+
+.ed-hx__btn--ink:focus-visible {
+  outline-color: var(--focus-ring, currentColor);
+}
+
+@media (max-width: 767px) {
+  .ed-hx {
+    height: min(calc(100svh - var(--header-h, 64px)), 720px);
+    min-height: 520px;
+  }
+
+  .ed-hx__media::after {
+    background: linear-gradient(0deg, rgba(8, 9, 11, 0.9) 0%, rgba(8, 9, 11, 0.55) 48%, rgba(8, 9, 11, 0.1) 100%);
+  }
+
+  .ed-hx__inner {
+    padding-bottom: 7.5rem;
+  }
+
+  .ed-hx__controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
+  }
+
+  .ed-hx__tabtitle {
+    display: none;
+  }
+
+  .ed-hx__buttons {
+    justify-content: flex-end;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ed-hx__slide,
+  .ed-hx__text > * {
+    transition: none;
+  }
+
+  .ed-hx__slide.is-active .ed-hx__media img {
+    animation: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. The latest issue: cover beside its contents page
+   -------------------------------------------------------------------------- */
+.ed-now__grid {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+@media (min-width: 900px) {
+  .ed-now__grid {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    align-items: start;
+  }
+
+  .ed-now__issue {
+    position: sticky;
+    top: calc(var(--header-h, 72px) + 1.5rem);
+  }
+}
+
+/* Large phones and tablets: the stacked cover is capped at 340px, so its
+   facts and actions sit beside it instead of leaving the row half empty */
+@media (min-width: 520px) and (max-width: 899px) {
+  .ed-now__issue {
+    display: grid;
+    grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+    grid-template-rows: 1fr auto auto;
+    column-gap: clamp(1.5rem, 4vw, 2.5rem);
+  }
+
+  .ed-now__issue > .ed-now__cover {
+    grid-row: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  .ed-now__issue > .ed-now__facts,
+  .ed-now__issue > .ed-actions {
+    grid-column: 2;
+  }
+
+  .ed-now__issue > .ed-now__facts {
+    grid-row: 2;
+  }
+
+  .ed-now__issue > .ed-actions {
+    grid-row: 3;
+  }
+}
+
+.ed-now__cover {
+  position: relative;
+  display: block;
+  width: min(100%, 340px);
+  aspect-ratio: 3 / 4;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+  box-shadow: var(--shadow-cover);
+  transition: transform 0.5s var(--ease-editorial);
+}
+
+.ed-now__cover:hover {
+  transform: translateY(-4px) rotate(-0.6deg);
+}
+
+.ed-now__cover img {
+  object-fit: cover;
+}
+
+.ed-now__facts {
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   4. Chapter: a sticky photo frame beside the scrolling stories
+   -------------------------------------------------------------------------- */
+.ed-chapter {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.ed-chapter__frame {
+  display: none;
+}
+
+.ed-chapter__list {
+  display: grid;
+  gap: 3rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-chapter__inline {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+}
+
+.ed-chapter__inline img,
+.ed-chapter__photo img {
+  object-fit: cover;
+}
+
+.ed-chapter__num {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.ed-chapter__kicker {
+  margin-bottom: 0.6rem;
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-chapter__title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3.2vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.9rem;
+}
+
+.ed-chapter__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s var(--ease-editorial);
+}
+
+.ed-chapter__title a:hover {
+  background-size: 100% 1px;
+}
+
+.ed-chapter__excerpt {
+  max-width: 34rem;
+  margin-bottom: 0.9rem;
+  font-family: var(--font-text);
+  font-size: 1.12rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.ed-chapter__meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 900px) {
+  .ed-chapter {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: clamp(3rem, 5vw, 5rem);
+    align-items: start;
+  }
+
+  .ed-chapter__frame {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h, 72px) + 2rem);
+    height: min(calc(100svh - var(--header-h, 72px) - 4rem), 620px);
+    overflow: hidden;
+    border-radius: var(--radius-plate);
+    background-color: var(--bg-plate);
+    box-shadow: var(--shadow-cover);
+  }
+
+  .ed-chapter__photo {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: scale(1.06);
+    transition: opacity 0.9s var(--ease-editorial), transform 1.6s var(--ease-editorial);
+  }
+
+  .ed-chapter__photo.is-active {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ed-chapter__count {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 1.1rem;
+    z-index: 1;
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-full);
+    background: rgba(8, 9, 11, 0.6);
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+  .ed-chapter__inline {
+    display: none;
+  }
+
+  .ed-chapter__list {
+    gap: 0;
+  }
+
+  .ed-chapter__item {
+    min-height: min(78svh, 680px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.32;
+    transition: opacity 0.6s var(--ease-editorial);
+  }
+
+  .ed-chapter__item.is-active,
+  .ed-chapter__item:focus-within {
+    opacity: 1;
+  }
+
+  .ed-chapter__item.is-active .ed-chapter__num {
+    -webkit-text-stroke-color: var(--accent-text);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Panorama: one place across the whole screen
+   -------------------------------------------------------------------------- */
+.ed-panorama {
+  position: relative;
+  min-height: min(92svh, 860px);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background-color: #0e1013;
+  isolation: isolate;
+}
+
+@media (max-width: 639px) {
+  .ed-panorama {
+    min-height: clamp(380px, 62svh, 500px);
+  }
+}
+
+.ed-panorama__media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.ed-panorama__media img {
+  object-fit: cover;
+}
+
+/* Gentle parallax where scroll-driven animation is supported */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .ed-panorama__media img {
+      animation: ed-pan linear both;
+      animation-timeline: view();
+    }
+  }
+}
+
+@keyframes ed-pan {
+  from { transform: scale(1.14) translateY(-3%); }
+  to { transform: scale(1.02) translateY(3%); }
+}
+
+.ed-panorama__inner {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.ed-panorama__card {
+  max-width: 34rem;
+  padding: clamp(1.75rem, 4vw, 2.75rem);
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-primary);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+}
+
+.ed-panorama__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.4vw, 3.3rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.1rem;
+}
+
+.ed-panorama__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-panorama__title a:hover {
+  color: var(--accent-text);
+}
+
+.ed-panorama__quote,
+.ed-panorama__excerpt {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-text);
+  font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.ed-panorama__excerpt {
+  font-style: normal;
+}
+
+.ed-panorama__meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   7. Voices: portraits with their printed pull quotes
+   -------------------------------------------------------------------------- */
+.ed-voices__grid {
+  display: grid;
+  gap: clamp(2rem, 4vw, 2.5rem) clamp(1.25rem, 3vw, 2rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 560px) {
+  .ed-voices__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .ed-voices__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Portrait, quote, title and meta sit on shared rows across each line of
+   cards, so every headline starts at the same height */
+.ed-voice {
+  position: relative;
+  display: grid;
+  grid-row: span 4;
+  grid-template-rows: subgrid;
+  row-gap: 0;
+  align-content: start;
+}
+
+.ed-voice__portrait {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-plate);
+}
+
+.ed-voice__portrait img {
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: filter 0.6s var(--ease-editorial), transform 0.8s var(--ease-editorial);
+}
+
+.ed-voice:hover .ed-voice__portrait img,
+.ed-voice:focus-within .ed-voice__portrait img {
+  filter: none;
+  transform: scale(1.03);
+}
+
+.ed-voice__quote {
+  margin: 0 0 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text-heading);
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  align-self: start;
+}
+
+.ed-voice__title {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.35rem;
+}
+
+.ed-voice__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-voice__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-voice__title a:focus-visible {
+  outline: none;
+}
+
+.ed-voice__title a:focus-visible::after {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 4px;
+}
+
+.ed-voice:hover .ed-voice__title a {
+  color: var(--accent-text);
+}
+
+.ed-voice__meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   9. Subject tiles
+   -------------------------------------------------------------------------- */
+.ed-tiles {
+  display: grid;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 560px) {
+  .ed-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Three across from tablet width: the nine subjects fill a 3 x 3 grid
+   instead of leaving the last card alone on its row */
+@media (min-width: 720px) {
+  .ed-tiles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-tiles {
+    gap: var(--grid-gap-cards);
+  }
+}
+
+.ed-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-card);
+  transition: transform 0.4s var(--ease-editorial), box-shadow 0.4s var(--ease-editorial), border-color 0.4s ease;
+}
+
+.ed-tile:hover,
+.ed-tile:focus-within {
+  transform: translateY(-4px);
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-plate);
+}
+
+.ed-tile__media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background-color: var(--bg-plate);
+}
+
+/* A subject printed without photographs keeps the same plate, set in type */
+.ed-tile__media--type {
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem;
+  background: linear-gradient(135deg, var(--highlight-tint), var(--accent-tint)), var(--bg-plate);
+}
+
+.ed-tile__media--type span {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent-text);
+  opacity: 0.85;
+}
+
+.ed-tile__media img {
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-editorial);
+}
+
+.ed-tile:hover .ed-tile__media img {
+  transform: scale(1.05);
+}
+
+.ed-tile__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.25rem 1.35rem;
+}
+
+.ed-tile__title {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.ed-tile__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-tile__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-tile__title a:focus-visible {
+  outline: none;
+}
+
+.ed-tile__title a:focus-visible::after {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: -3px;
+  border-radius: var(--radius-md);
+}
+
+.ed-tile__text {
+  flex: 1;
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+
+.ed-tile__count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+/* --------------------------------------------------------------------------
+   10. Reading steps
+   -------------------------------------------------------------------------- */
+.ed-steps {
+  background-color: var(--bg-band);
+  border-block: 1px solid var(--border-subtle);
+}
+
+.ed-steps__list {
+  display: grid;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: step;
+}
+
+@media (min-width: 640px) {
+  .ed-steps__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ed-steps__list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+  }
+
+  .ed-step {
+    padding-inline: 1.75rem;
+    border-left: 1px solid var(--border-subtle);
+  }
+
+  .ed-step:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+.ed-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ed-step__num {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent-text);
+  margin-bottom: 1rem;
+}
+
+.ed-step__title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-heading);
+  margin-bottom: 0.6rem;
+}
+
+.ed-step__text {
+  flex: 1;
+  margin-bottom: 1rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.ed-step .ed-more {
+  min-height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------
+   11. Shelf of covers
+   -------------------------------------------------------------------------- */
+/* The first cover starts on the page edge, under the heading; the rail runs
+   on to the right edge of the screen, so it reads as a shelf that continues */
+.ed-shelf__track {
+  display: flex;
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+  margin: 0 calc((100% - 100vw) / 2) 0 0;
+  padding: 0.5rem var(--gutter) 1.5rem 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 0;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+.ed-shelf__track::-webkit-scrollbar {
+  display: none;
+}
+
+.ed-shelf__item {
+  flex: 0 0 clamp(170px, 42vw, 240px);
+  scroll-snap-align: start;
+}
+
+.ed-shelf__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}

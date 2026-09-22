@@ -1,0 +1,685 @@
+{
+ "note": "Artwork printed on each story`s own PDF page, for stories that had no image. hero = heroImage (+ heroImageSource \"<edition title>, PDF page N\"); gallery = gallery entries in this order. No captions: none are printed beside these images. Crop box = fractions (x0,y0,x1,y1) of the page render (or of the extracted image, where source says so).",
+ "replace": [
+  {
+   "slug": "top-5-events-in-october-2026",
+   "change": "CORRECTION (f1 error): p26-2 is the Tawang Festival photograph, not Oktoberfest. Hero = p26-r1 (Oktoberfest). Gallery = p26-r2, p26-r3, p26-r4, p26-2 (Tawang, native pixels, alt about monks). p26-r5 (a re-crop of the same Tawang photo) is not used."
+  }
+ ],
+ "images": [
+  {
+   "slug": "predictions-june-2026",
+   "role": "hero",
+   "edition": "june-2026",
+   "pdfPage": 84,
+   "ref": "p84-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-may-2026",
+   "role": "hero",
+   "edition": "may-2026",
+   "pdfPage": 84,
+   "ref": "p84-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-march-2026",
+   "role": "hero",
+   "edition": "march-2026",
+   "pdfPage": 82,
+   "ref": "p82-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-september-2026",
+   "role": "hero",
+   "edition": "september-2026",
+   "pdfPage": 80,
+   "ref": "p80-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-august-2026",
+   "role": "hero",
+   "edition": "august-2026",
+   "pdfPage": 80,
+   "ref": "p80-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-july-2026",
+   "role": "hero",
+   "edition": "july-2026",
+   "pdfPage": 80,
+   "ref": "p80-r1",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.19,
+    0.96,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "predictions-april-2026",
+   "role": "hero",
+   "edition": "april-2026",
+   "pdfPage": 40,
+   "ref": "p40-r1",
+   "source": "4x page render",
+   "box": [
+    0.02,
+    0.19,
+    0.48,
+    0.272
+   ],
+   "width": 2191,
+   "height": 254,
+   "alt": "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page",
+   "caption": null
+  },
+  {
+   "slug": "your-forecast-this-month-may-2024",
+   "role": "hero",
+   "edition": "may-2024",
+   "pdfPage": 66,
+   "ref": "p66-r1",
+   "source": "4x page render",
+   "box": [
+    0.06,
+    0.205,
+    0.94,
+    0.29
+   ],
+   "width": 2095,
+   "height": 263,
+   "alt": "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
+   "caption": null
+  },
+  {
+   "slug": "your-forecast-this-month-april-2024",
+   "role": "hero",
+   "edition": "april-2024",
+   "pdfPage": 70,
+   "ref": "p70-r1",
+   "source": "4x page render",
+   "box": [
+    0.06,
+    0.205,
+    0.94,
+    0.29
+   ],
+   "width": 2095,
+   "height": 263,
+   "alt": "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
+   "caption": null
+  },
+  {
+   "slug": "your-forecast-this-month-march-2024",
+   "role": "hero",
+   "edition": "march-2024",
+   "pdfPage": 70,
+   "ref": "p70-r1",
+   "source": "4x page render",
+   "box": [
+    0.06,
+    0.205,
+    0.94,
+    0.29
+   ],
+   "width": 2095,
+   "height": 263,
+   "alt": "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
+   "caption": null
+  },
+  {
+   "slug": "your-forecast-this-month-february-2024",
+   "role": "hero",
+   "edition": "february-2024",
+   "pdfPage": 72,
+   "ref": "p72-r1",
+   "source": "4x page render",
+   "box": [
+    0.06,
+    0.205,
+    0.94,
+    0.29
+   ],
+   "width": 2095,
+   "height": 263,
+   "alt": "Gold illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the forecast",
+   "caption": null
+  },
+  {
+   "slug": "international-womens-day-info-corner",
+   "role": "hero",
+   "edition": "march-2026",
+   "pdfPage": 44,
+   "ref": "p44-r1",
+   "source": "4x page render",
+   "box": [
+    0.35,
+    0.26,
+    0.66,
+    0.52
+   ],
+   "width": 738,
+   "height": 805,
+   "alt": "Illustration: a woman with long dark hair framed by pink and coral flowers",
+   "caption": null
+  },
+  {
+   "slug": "world-water-day-liquid-lifeline",
+   "role": "hero",
+   "edition": "march-2024",
+   "pdfPage": 35,
+   "ref": "p35-r1",
+   "source": "4x page render",
+   "box": [
+    0.31,
+    0.115,
+    0.72,
+    0.575
+   ],
+   "width": 976,
+   "height": 1424,
+   "alt": "Line illustration in the shape of a water drop, filled with rain, a tap, a bucket, fish and waves",
+   "caption": null
+  },
+  {
+   "slug": "world-red-cross-day-courage-across-borders",
+   "role": "hero",
+   "edition": "may-2024",
+   "pdfPage": 35,
+   "ref": "p35-r1",
+   "source": "extracted image p35-1",
+   "box": [
+    0.12,
+    0.1,
+    0.78,
+    0.6
+   ],
+   "width": 680,
+   "height": 690,
+   "alt": "Illustration: a stethoscope over a red cross printed with a world map, on a yellow background",
+   "caption": null
+  },
+  {
+   "slug": "world-tourism-day-info-corner",
+   "role": "hero",
+   "edition": "september-2026",
+   "pdfPage": 33,
+   "ref": "p33-r1",
+   "source": "4x page render",
+   "box": [
+    0.08,
+    0.045,
+    0.88,
+    0.49
+   ],
+   "width": 1905,
+   "height": 1377,
+   "alt": "Illustration: a traveller with a backpack reading a map beside a World Tourism Day signpost, with hot-air balloons and a plane",
+   "caption": null
+  },
+  {
+   "slug": "guru-purnima-info-corner",
+   "role": "hero",
+   "edition": "july-2026",
+   "pdfPage": 38,
+   "ref": "p38-r1",
+   "source": "4x page render",
+   "box": [
+    0.07,
+    0.04,
+    0.92,
+    0.515
+   ],
+   "width": 2024,
+   "height": 1470,
+   "alt": "Illustration: a hand raised in blessing above an open book, with lotus flowers and a brass pot",
+   "caption": null
+  },
+  {
+   "slug": "world-ufo-day-facts-and-figures",
+   "role": "hero",
+   "edition": "july-2026",
+   "pdfPage": 70,
+   "ref": "p70-r1",
+   "source": "4x page render",
+   "box": [
+    0.1,
+    0.16,
+    0.58,
+    0.47
+   ],
+   "width": 1143,
+   "height": 959,
+   "alt": "Cartoon of a green alien waving from a flying saucer",
+   "caption": null
+  },
+  {
+   "slug": "world-ufo-day-facts-and-figures",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 70,
+   "ref": "p70-r2",
+   "source": "4x page render",
+   "box": [
+    0.17,
+    0.64,
+    0.46,
+    0.84
+   ],
+   "width": 690,
+   "height": 619,
+   "alt": "Illustration of a domed, patterned flying saucer",
+   "caption": null
+  },
+  {
+   "slug": "world-ufo-day-facts-and-figures",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 70,
+   "ref": "p70-r3",
+   "source": "4x page render",
+   "box": [
+    0.51,
+    0.82,
+    0.93,
+    0.965
+   ],
+   "width": 1000,
+   "height": 449,
+   "alt": "Illustration of a green flying saucer with a row of glowing lights",
+   "caption": null
+  },
+  {
+   "slug": "world-ufo-day-facts-and-figures",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 71,
+   "ref": "p71-r1",
+   "source": "4x page render",
+   "box": [
+    0.5,
+    0.07,
+    0.92,
+    0.41
+   ],
+   "width": 1000,
+   "height": 1052,
+   "alt": "Cartoon of a green alien piloting a blue flying saucer against a starry sky",
+   "caption": null
+  },
+  {
+   "slug": "world-ufo-day-facts-and-figures",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 71,
+   "ref": "p71-r2",
+   "source": "4x page render",
+   "box": [
+    0.04,
+    0.32,
+    0.46,
+    0.72
+   ],
+   "width": 1000,
+   "height": 1238,
+   "alt": "Illustration of a flying saucer sending blue beams of light to the ground",
+   "caption": null
+  },
+  {
+   "slug": "top-5-events-in-july-2026",
+   "role": "hero",
+   "edition": "july-2026",
+   "pdfPage": 22,
+   "ref": "p22-r1",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.193,
+    0.342,
+    0.292
+   ],
+   "width": 194,
+   "height": 114,
+   "alt": "A football between large figures reading 2026 on a stadium pitch",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-july-2026",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 22,
+   "ref": "p22-r2",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.638,
+    0.338,
+    0.867,
+    0.452
+   ],
+   "width": 203,
+   "height": 131,
+   "alt": "Runners splashing along a rain-soaked road",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-july-2026",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 22,
+   "ref": "p22-r3",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.503,
+    0.347,
+    0.617
+   ],
+   "width": 198,
+   "height": 131,
+   "alt": "The three chariots of the Rath Yatra before a large crowd",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-july-2026",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 22,
+   "ref": "p22-r4",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.603,
+    0.658,
+    0.867,
+    0.762
+   ],
+   "width": 234,
+   "height": 120,
+   "alt": "A heart of assorted chocolates on a wooden board",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-july-2026",
+   "role": "gallery",
+   "edition": "july-2026",
+   "pdfPage": 22,
+   "ref": "p22-r5",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.808,
+    0.377,
+    0.927
+   ],
+   "width": 225,
+   "height": 137,
+   "alt": "The Comic-Con International logo on a convention building",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-august-2026",
+   "role": "hero",
+   "edition": "august-2026",
+   "pdfPage": 22,
+   "ref": "p22-r1",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.198,
+    0.347,
+    0.297
+   ],
+   "width": 198,
+   "height": 114,
+   "alt": "Oarsmen in orange rowing a long snake boat through the water",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-august-2026",
+   "role": "gallery",
+   "edition": "august-2026",
+   "pdfPage": 22,
+   "ref": "p22-r2",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.638,
+    0.338,
+    0.867,
+    0.452
+   ],
+   "width": 203,
+   "height": 131,
+   "alt": "Festive sweets and sprouts around a chalkboard reading Happy Nowruz",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-august-2026",
+   "role": "gallery",
+   "edition": "august-2026",
+   "pdfPage": 22,
+   "ref": "p22-r3",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.498,
+    0.377,
+    0.602
+   ],
+   "width": 225,
+   "height": 120,
+   "alt": "Laser beams over a waterfront concert venue at night",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-august-2026",
+   "role": "gallery",
+   "edition": "august-2026",
+   "pdfPage": 22,
+   "ref": "p22-r4",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.603,
+    0.653,
+    0.867,
+    0.767
+   ],
+   "width": 234,
+   "height": 131,
+   "alt": "Hands forming a heart shape in front of a concert stage",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-august-2026",
+   "role": "gallery",
+   "edition": "august-2026",
+   "pdfPage": 22,
+   "ref": "p22-r5",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.823,
+    0.377,
+    0.932
+   ],
+   "width": 225,
+   "height": 125,
+   "alt": "A group of elephants beside a stream in a forest",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-october-2026",
+   "role": "hero",
+   "edition": "september-2026",
+   "pdfPage": 26,
+   "ref": "p26-r1",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.198,
+    0.347,
+    0.287
+   ],
+   "width": 198,
+   "height": 102,
+   "alt": "A domed yellow church above the rooftops of Munich",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-october-2026",
+   "role": "gallery",
+   "edition": "september-2026",
+   "pdfPage": 26,
+   "ref": "p26-r2",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.638,
+    0.343,
+    0.862,
+    0.452
+   ],
+   "width": 198,
+   "height": 125,
+   "alt": "Marigold flower arrangements in yellow, orange and red",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-october-2026",
+   "role": "gallery",
+   "edition": "september-2026",
+   "pdfPage": 26,
+   "ref": "p26-r3",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.123,
+    0.498,
+    0.377,
+    0.587
+   ],
+   "width": 225,
+   "height": 102,
+   "alt": "An effigy of Ravana burning at night",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-october-2026",
+   "role": "gallery",
+   "edition": "september-2026",
+   "pdfPage": 26,
+   "ref": "p26-r4",
+   "source": "4x page render, scaled back to the embedded resolution",
+   "box": [
+    0.608,
+    0.638,
+    0.867,
+    0.747
+   ],
+   "width": 230,
+   "height": 126,
+   "alt": "A musician playing the violin on an open-air stage, with a fort behind",
+   "caption": null,
+   "scaledToSource": 0.372
+  },
+  {
+   "slug": "top-5-events-in-october-2026",
+   "role": "gallery",
+   "edition": "september-2026",
+   "pdfPage": 26,
+   "ref": "p26-2",
+   "source": "extracted image p26-2 (embedded photograph, native pixels)",
+   "box": null,
+   "width": 225,
+   "height": 157,
+   "alt": "Monks in maroon robes seated in a monastery hall hung with large drums",
+   "caption": null
+  }
+ ],
+ "decisions": {
+  "date": "2026-09-22",
+  "byUser": {
+   "horoscopes": "use the zodiac artwork (all 11)",
+   "top5": "add at true size (scaled to embedded resolution) and drop the duplicate",
+   "ufoGallery": "add the four illustrations"
+  },
+  "applied6By36": [
+   "guru-purnima p38-r1",
+   "world-water-day p35-r1",
+   "international-womens-day p44-r1",
+   "world-ufo-day hero p70-r1b (54)",
+   "world-tourism-day p33-r1b (54)",
+   "world-red-cross hero = extracted p35-1"
+  ],
+  "correction": "2026-09-22: October mapping fixed after session 54 found p26-2 is the Tawang photo; SOURCE_SCALE corrected 0.422 → 0.372."
+ }
+}

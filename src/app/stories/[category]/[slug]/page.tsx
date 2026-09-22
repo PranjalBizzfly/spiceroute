@@ -9,7 +9,11 @@ import InThisStory from "@/components/story/InThisStory";
 import LightboxProvider, { type LightboxItem } from "@/components/story/Lightbox";
 import ReadingProgress from "@/components/story/ReadingProgress";
 import SourceStrip from "@/components/story/SourceStrip";
-import { editionDate, getEdition, getEditionStories, getStories, getStory } from "@/lib/content";
+import StoryRail from "@/components/story/StoryRail";
+import ArticleTools from "@/components/story/ArticleTools";
+import PdfButton from "@/components/PdfButton";
+import { editionDate, getEdition, getEditionStories, getStories, getStoryByPath } from "@/lib/content";
+import { categorySlug, storyUrlSlug } from "@/lib/urls";
 import { localImageSize } from "@/lib/imageSize";
 import { siteConfig } from "@/data/siteConfig";
 import { SITE_URL as SITE } from "@/lib/site";
@@ -20,11 +24,13 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getStories().map((s) => ({ category: s.category, slug: s.slug }));
+  // public addresses: /stories/<category slug>/<story slug> (lib/urls.ts)
+  return getStories().map((s) => ({ category: categorySlug(s.category), slug: storyUrlSlug(s) }));
 }
 
 /** A landscape lead photograph is shown up to this multiple of its own width. */
 const HERO_SCALE = 1.3;
+
 
 /**
  * Stories to read next, only from verified relationships: the rest of the same
@@ -47,8 +53,8 @@ const displayTitle = (s: { printedTitle: string; label?: string }) =>
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { category, slug } = await params;
-  const story = getStory(slug);
-  if (!story || story.category !== category) return { title: "Story Not Found" };
+  const story = getStoryByPath(category, slug);
+  if (!story) return { title: "Story Not Found" };
 
   const title = displayTitle(story);
   const image = story.images[0];
@@ -78,8 +84,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function StoryPage({ params }: PageProps) {
   const { category, slug } = await params;
-  const story = getStory(slug);
-  if (!story || story.category !== category) notFound();
+  const story = getStoryByPath(category, slug);
+  if (!story) notFound();
 
   const edition = getEdition(story.editionSlug)!;
   const date = editionDate(edition);
@@ -142,7 +148,7 @@ export default async function StoryPage({ params }: PageProps) {
   };
 
   return (
-    <div className="ed-story">
+    <div className="ed-story ed-news">
       {story.body.length > 0 && <ReadingProgress target=".ed-story__body" />}
       <script
         type="application/ld+json"
@@ -164,89 +170,123 @@ export default async function StoryPage({ params }: PageProps) {
         </nav>
 
         <article className="ed-story__article">
-          <div className={`ed-story__opener${image ? (portrait ? " ed-story__opener--split" : " ed-story__opener--wide") : ""}`}>
-            <header className="ed-story__header">
-              {/* Printed section, then the printed place label where set */}
-              <p className="ed-story__rubric">
-                <span className="ed-kicker ed-story__section">{story.section}</span>
-                {story.label && <span className="ed-article__label">{story.label}</span>}
-              </p>
-              <h1 className="ed-story__title">{story.printedTitle}</h1>
-              {story.standfirst && <p className="ed-story__standfirst">{story.standfirst}</p>}
+          {/* Newspaper header: section, headline, standfirst, then a ruled
+              meta line (byline · issue · printed pages · reading time) with
+              the story's actions */}
+          <header className="ed-story__header ed-news__head">
+            {/* Printed section, then the printed place label where set */}
+            <p className="ed-story__rubric">
+              <span className="ed-kicker ed-story__section">{story.section}</span>
+              {story.label && <span className="ed-article__label">{story.label}</span>}
+            </p>
+            <h1 className="ed-story__title">{story.printedTitle}</h1>
+            {story.standfirst && <p className="ed-story__standfirst">{story.standfirst}</p>}
 
-              <p className="ed-story__byline">
+            <div className="ed-news__meta">
+              <p className="ed-news__facts">
                 {story.author && (
-                  <span>
-                    {story.bylineLabel ?? "By"} <strong>{story.author}</strong>
+                  <span className="ed-news__byline">
+                    {story.bylineLabel ?? "By"}&nbsp;<strong>{story.author}</strong>
                     {story.role && <span>, {story.role}</span>}
+                  </span>
+                )}
+                <span>
+                  <Link href={`/inflight-magazine/${edition.slug}`}>
+                    {date}
+                    {edition.issue ? ` · Issue ${edition.issue}` : ""}
+                  </Link>
+                </span>
+                {story.printedPages[0] !== undefined && (
+                  <span>
+                    Printed {story.printedPages.length > 1 ? "pages" : "page"}{" "}
+                    {story.printedPages.length > 1
+                      ? `${story.printedPages[0]}–${story.printedPages[story.printedPages.length - 1]}`
+                      : story.printedPages[0]}
                   </span>
                 )}
                 <span>{story.readingTime}</span>
               </p>
-
-              <SourceStrip variant="open" {...source} />
-            </header>
-
-            {image && (
-              <figure
-                className="ed-article__figure"
-                // never shown much beyond the photograph's own resolution
-                style={heroMax ? ({ "--img-max": `${heroMax}px` } as React.CSSProperties) : undefined}
-              >
-                <div
-                  className="ed-article__image"
-                  style={size ? { aspectRatio: `${size.width} / ${size.height}` } : undefined}
-                >
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    loading="eager"
-                    fetchPriority="high"
-                    sizes={portrait ? "(max-width: 1023px) 92vw, 520px" : `(max-width: 1100px) 92vw, ${Math.min(heroMax ?? 1040, 1040)}px`}
-                  />
-                </div>
-                {heroCaption && <figcaption>{heroCaption}</figcaption>}
-              </figure>
-            )}
-          </div>
-
-          {hasBody && (
-            <LightboxProvider items={photos} title={displayTitle(story)}>
-              <div className="ed-story__body">
-                {story.sections.length >= 3 && <InThisStory sections={story.sections} />}
-                <ArticleBody
-                  body={story.body}
-                  pullQuotes={story.pullQuotes}
-                  galleries={story.galleryGroups}
-                  pdfUrl={edition.pdfUrl}
-                  editionTitle={edition.title}
-                  collapsible={story.collapsible}
-                />
+              <div className="ed-news__toolbar">
+                <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="ed-news__action ed-news__action--pdf">
+                  View Original PDF <span aria-hidden="true">↗</span>
+                </PdfButton>
+                <ArticleTools title={displayTitle(story)} path={story.href} />
               </div>
-            </LightboxProvider>
-          )}
+            </div>
+          </header>
 
-          {story.callouts && story.callouts.length > 0 && (
-            <aside className="ed-article__callouts" aria-label="SpiceJet flights">
-              {story.callouts.map((c) => (
-                <p key={c} className="ed-article__callout">{c}</p>
-              ))}
-            </aside>
-          )}
+          <div className="ed-news__grid">
+            <div className="ed-news__main">
+              {image && (
+                <figure
+                  className={`ed-article__figure ed-news__hero${portrait ? " ed-news__hero--portrait" : ""}`}
+                  // never shown much beyond the photograph's own resolution
+                  style={heroMax ? ({ "--img-max": `${heroMax}px` } as React.CSSProperties) : undefined}
+                >
+                  <div
+                    className="ed-article__image"
+                    style={size ? { aspectRatio: `${size.width} / ${size.height}` } : undefined}
+                  >
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      loading="eager"
+                      fetchPriority="high"
+                      sizes={portrait ? "(max-width: 767px) 92vw, 480px" : "(max-width: 767px) 92vw, 672px"}
+                    />
+                  </div>
+                  <figcaption>
+                    {heroCaption && <span>{heroCaption}</span>}
+                    {story.printedPages[0] !== undefined && (
+                      <span className="ed-news__credit">
+                        Spice Route, {date} · page {story.printedPages[0]}
+                      </span>
+                    )}
+                  </figcaption>
+                </figure>
+              )}
 
-          {story.tags && story.tags.length > 0 && (
-            <ul className="ed-story__tags" aria-label="Topics">
-              {story.tags.map((tag) => (
-                <li key={tag} className="badge badge-outline">{tag}</li>
-              ))}
-            </ul>
-          )}
+              {hasBody && (
+                <LightboxProvider items={photos} title={displayTitle(story)}>
+                  <div className="ed-story__body">
+                    {story.sections.length >= 3 && <InThisStory sections={story.sections} />}
+                    <ArticleBody
+                      body={story.body}
+                      pullQuotes={story.pullQuotes}
+                      galleries={story.galleryGroups}
+                      pdfUrl={edition.pdfUrl}
+                      editionTitle={edition.title}
+                      collapsible={story.collapsible}
+                    />
+                  </div>
+                </LightboxProvider>
+              )}
 
-          {/* The end of the story: its print source, one step away */}
-          <footer className="ed-story__end">
-            <SourceStrip variant="close" {...source} />
-          </footer>
+              {story.callouts && story.callouts.length > 0 && (
+                <aside className="ed-article__callouts" aria-label="SpiceJet flights">
+                  {story.callouts.map((c) => (
+                    <p key={c} className="ed-article__callout">{c}</p>
+                  ))}
+                </aside>
+              )}
+
+              {story.tags && story.tags.length > 0 && (
+                <ul className="ed-story__tags" aria-label="Topics">
+                  {story.tags.map((tag) => (
+                    <li key={tag} className="badge badge-outline">{tag}</li>
+                  ))}
+                </ul>
+              )}
+
+              {/* The end of the story: its print source, one step away */}
+              <footer className="ed-story__end">
+                <SourceStrip variant="close" {...source} />
+              </footer>
+            </div>
+
+            <StoryRail story={story} edition={edition} issue={getEditionStories(story.editionSlug)} />
+          </div>
         </article>
 
         <StoryPager previous={story.previousStory} next={story.nextStory} edition={story.edition} />

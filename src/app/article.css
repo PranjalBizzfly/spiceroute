@@ -1,0 +1,566 @@
+/* ==========================================================================
+   Spice Route — Article pages (newspaper reading layout)
+   Every PDF-converted story: a left-set newspaper header (section, headline,
+   standfirst, a ruled meta line and actions), then a reading column with a
+   sticky side rail on wide screens (contents, the print edition and what
+   follows in the issue). Content comes unchanged from the verified data; this
+   file only arranges and sets it.
+   ========================================================================== */
+
+.ed-news {
+  --news-col: 42rem;
+  --news-rail: 20rem;
+  --news-gap: clamp(2rem, 4vw, 3.5rem);
+  --news-rule: 1px solid var(--border-subtle);
+}
+
+/* --------------------------------------------------------------------------
+   Header: section, headline, standfirst, meta line, actions
+   -------------------------------------------------------------------------- */
+.ed-news__head {
+  max-width: 58rem;
+  margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
+  text-align: left;
+}
+
+.ed-news .ed-story__rubric {
+  justify-content: flex-start;
+  margin-bottom: 0.9rem;
+}
+
+.ed-news .ed-story__title {
+  margin-bottom: 1rem;
+  text-wrap: balance;
+}
+
+.ed-news .ed-story__standfirst {
+  max-width: 46rem;
+  margin: 0 0 1.5rem;
+  font-style: normal;
+  color: var(--text-secondary);
+}
+
+/* The meta line: byline, issue, printed pages, reading time — ruled above
+   and below, as a newspaper sets it */
+.ed-news__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem 1.5rem;
+  padding-block: 0.9rem;
+  border-top: 1px solid var(--text-heading);
+  border-bottom: var(--news-rule);
+}
+
+.ed-news__facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.ed-news__facts > * {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Hairline dividers between the facts */
+.ed-news__facts > * + *::before {
+  content: "";
+  width: 1px;
+  height: 0.95em;
+  margin-inline: 0.85rem;
+  background-color: var(--border-strong);
+}
+
+.ed-news__byline strong {
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.ed-news__facts a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 0.2em;
+}
+
+.ed-news__facts a:hover {
+  color: var(--accent-text);
+}
+
+.ed-news__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ed-news__action,
+.ed-news__pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  background: var(--bg-card);
+  color: var(--text-heading);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+.ed-news__action:hover,
+.ed-news__pdf:hover {
+  border-color: var(--text-heading);
+  background-color: var(--text-heading);
+  color: var(--bg-primary);
+}
+
+.ed-news__action--pdf {
+  border-color: var(--accent);
+  background-color: var(--accent-fill, var(--accent));
+  color: var(--on-accent, #ffffff);
+}
+
+.ed-news__action--pdf:hover {
+  border-color: var(--accent-fill-hover, var(--accent));
+  background-color: var(--accent-fill-hover, var(--accent));
+  color: var(--on-accent, #ffffff);
+}
+
+.ed-news__action:focus-visible,
+.ed-news__pdf:focus-visible {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Reading column and side rail
+   -------------------------------------------------------------------------- */
+.ed-news__grid {
+  display: grid;
+  gap: var(--news-gap);
+}
+
+.ed-news__main {
+  min-width: 0;
+}
+
+/* One reading column: text, photographs, pull quotes, callouts and tags
+   share its left edge */
+.ed-news .ed-article,
+.ed-news .ed-article__callouts,
+.ed-news .ed-story__tags,
+.ed-news .ed-story__end {
+  max-width: var(--news-col);
+  margin-inline: 0;
+}
+
+/* The body is a single column here; contents live in the rail on wide
+   screens and in the compact list above the text elsewhere */
+.ed-news .ed-story__body,
+.ed-news .ed-story__body:has(> .ed-instory) {
+  display: block;
+}
+
+.ed-news .ed-story__body > .ed-instory {
+  max-width: var(--news-col);
+  margin: 0 0 1.75rem;
+}
+
+.ed-news .ed-story__body > .ed-instory .ed-instory__rail {
+  display: none;
+}
+
+.ed-news .ed-story__body > .ed-instory .ed-instory__compact {
+  display: block;
+}
+
+/* Lead photograph: in the reading column, at its own proportions, and never
+   wider than 1.3× its own pixels (--img-max, set by the page) */
+.ed-news__hero {
+  max-width: min(var(--news-col), var(--img-max, var(--news-col)));
+  margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.ed-news__hero .ed-article__image {
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+/* Portrait photographs: never taller than most of the screen */
+.ed-news__hero--portrait {
+  max-width: min(var(--news-col), var(--img-max, var(--news-col)), 30rem);
+}
+
+.ed-news__hero figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+  margin-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-bottom: var(--news-rule);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.ed-news__credit {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Pull quotes: set left, against a red rule, in the text serif */
+.ed-news .ed-pullquote {
+  margin-block: clamp(2rem, 5vw, 2.75rem);
+  padding: 0.25rem 0 0.25rem 1.5rem;
+  border: 0;
+  border-left: 4px solid var(--accent);
+  text-align: left;
+}
+
+.ed-news .ed-pullquote::before {
+  display: none;
+}
+
+.ed-news .ed-pullquote p {
+  text-wrap: pretty;
+  color: var(--text-heading);
+}
+
+/* Section breaks inside the text: a short rule over each printed subhead */
+.ed-news .ed-article > h2.ed-article__subhead:not(:first-child) {
+  position: relative;
+  border-top: 0;
+  padding-top: 0;
+}
+
+.ed-news .ed-article > h2.ed-article__subhead:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 3px;
+  margin-top: -1.1rem;
+  background-color: var(--accent);
+}
+
+/* Printed travel notes and callouts read as newspaper fact boxes */
+.ed-news .ed-article__callout {
+  border-style: solid;
+  border-width: 0 0 0 3px;
+  border-radius: 0;
+  background-color: var(--bg-tint);
+}
+
+/* The story's end: its print source, ruled off from what follows */
+.ed-news .ed-story__end {
+  margin-top: clamp(2rem, 5vw, 3rem);
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--text-heading);
+}
+
+/* The rail */
+.ed-news__rail {
+  display: grid;
+  align-content: start;
+  gap: 1.5rem;
+  min-width: 0;
+}
+
+/* Contents appear in the rail only where the rail sits beside the text */
+.ed-news__box--contents {
+  display: none;
+}
+
+.ed-news__box {
+  padding-top: 0.9rem;
+  border-top: 3px solid var(--text-heading);
+}
+
+.ed-news__boxkicker {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-heading);
+}
+
+.ed-news__print {
+  display: grid;
+  grid-template-columns: 5.25rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.ed-news__printcover {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+  box-shadow: var(--shadow-plate);
+}
+
+.ed-news__printcover img {
+  object-fit: cover;
+}
+
+.ed-news__printtitle {
+  margin-bottom: 0.25rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.ed-news__printtitle a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-news__printtitle a:hover {
+  color: var(--accent-text);
+}
+
+.ed-news__printmeta {
+  margin-bottom: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.ed-news__list {
+  list-style: none;
+  margin: 0 0 0.9rem;
+  padding: 0;
+}
+
+.ed-news__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.9rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding-block: 0.8rem;
+  border-bottom: var(--news-rule);
+}
+
+.ed-news__num {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-news__itembody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.ed-news__itemsection {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ed-news__itemtitle {
+  /* a 24px tap target even on one line */
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+/* The whole row opens the story */
+.ed-news__itemtitle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-news__itemtitle:focus-visible {
+  outline: none;
+}
+
+.ed-news__itemtitle:focus-visible::after {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 2px;
+}
+
+.ed-news__item:hover .ed-news__itemtitle {
+  color: var(--accent-text);
+}
+
+.ed-news__thumb {
+  position: relative;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+}
+
+.ed-news__thumb img {
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-editorial);
+}
+
+.ed-news__item:hover .ed-news__thumb img {
+  transform: scale(1.06);
+}
+
+.ed-news__all {
+  font-size: 0.8rem;
+}
+
+/* Wide screens: reading column beside a sticky rail */
+@media (min-width: 1100px) {
+  .ed-news__grid {
+    grid-template-columns: minmax(0, 1fr) var(--news-rail);
+    align-items: start;
+  }
+
+  /* The rail runs the article's full height; its last box (the story's
+     contents) stays in view while the reader moves through the text */
+  .ed-news__rail {
+    align-self: stretch;
+    padding-bottom: 1rem;
+  }
+
+  .ed-news__box--contents {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h, 72px) + 1.5rem);
+    max-height: calc(100vh - var(--header-h, 72px) - 3rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+
+  /* the live contents list sits in the rail; the compact one steps aside */
+  .ed-news .ed-story__body > .ed-instory {
+    display: none;
+  }
+
+  .ed-news__box--contents .ed-instory {
+    margin: 0;
+  }
+
+  .ed-news__box--contents .ed-instory__compact {
+    display: none;
+  }
+
+  .ed-news__box--contents .ed-instory__rail {
+    display: block;
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+/* End matter: pager and related stories keep the page's full width */
+.ed-news .ed-story__related .ed-row {
+  row-gap: 2rem;
+}
+
+/* --------------------------------------------------------------------------
+   Toolbar: View Original PDF, then text size, print and share
+   -------------------------------------------------------------------------- */
+.ed-news__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ed-news__aa {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ed-news__aa span {
+  font-size: 1.2em;
+}
+
+/* Phones: icon-sized tools, the PDF button keeps its words */
+@media (max-width: 479px) {
+  .ed-news__actions .ed-news__actionlabel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print: the article alone, with its print source
+   -------------------------------------------------------------------------- */
+@media print {
+  .ed-header,
+  footer:not(.ed-story__end),
+  .ed-news__rail,
+  .ed-news__toolbar,
+  .ed-pager,
+  .ed-story__related,
+  .ed-crumbs,
+  .ed-flight,
+  .ed-progress,
+  .ed-story__body > .ed-instory,
+  .ed-peek,
+  .skip-link {
+    display: none !important;
+  }
+
+  .ed-news__grid {
+    display: block;
+  }
+
+  .ed-news .ed-article,
+  .ed-news__hero,
+  .ed-news .ed-story__end {
+    max-width: none;
+  }
+
+  .ed-news .ed-article {
+    font-size: 11.5pt;
+    line-height: 1.55;
+  }
+
+  .ed-news .ed-article > p,
+  .ed-news .ed-pullquote,
+  .ed-news figure {
+    break-inside: avoid;
+  }
+}

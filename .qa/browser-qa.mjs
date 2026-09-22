@@ -11,10 +11,10 @@ const VIEWPORTS = [
 ];
 const EDITION = "/inflight-magazine/september-2026";
 const ARTICLES = {
-  interview: "/stories/interviews/ranveer-brar-conversation",
-  itinerary: "/stories/travel/kolkata-forever-day-in-a-city",
-  photoessay: "/stories/destinations/ladakh-roof-of-the-world",
-  pullquotes: "/stories/wellness/fur-all-pet-yoga",
+  interview: "/stories/conversations/ranveer-brar-conversation",
+  itinerary: "/stories/travel-escapes/kolkata-forever-day-in-a-city",
+  photoessay: "/stories/destinations/many-shades-of-ladakh",
+  pullquotes: "/stories/health-healing/fur-all-pet-yoga",
 };
 const SHOTS = "screenshots";
 

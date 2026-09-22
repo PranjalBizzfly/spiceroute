@@ -12,7 +12,7 @@ export default function NotFound() {
   const total = getEditions().length;
 
   return (
-    <section className="ed-issue__hero ed-notfound" aria-labelledby="notfound-title">
+    <section className="ed-issue__hero ed-pagehero ed-scope-dark ed-notfound" aria-labelledby="notfound-title">
       <div className="container">
         <div className="ed-page__head">
           <p className="ed-kicker ed-kicker--red">Error 404</p>

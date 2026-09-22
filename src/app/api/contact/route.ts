@@ -22,6 +22,10 @@ import { isMailConfigured, sendContactEmail } from "@/lib/mailer";
  *   500 { ok: false, code: "delivery_failed" | "server_error" }
  *   503 { ok: false, code: "not_configured" }  SMTP settings are missing
  *
+ * A plain form post (application/x-www-form-urlencoded: the form sent before
+ * its script loaded, or with scripts off) runs the same checks and answers
+ * 303 → /contact?form=sent|invalid|not_configured|rate_limited|error.
+ *
  * Other methods get 405 from Next.js. Submitted details are never logged,
  * stored or echoed back.
  */
@@ -93,15 +97,46 @@ async function readBody(request: Request): Promise<string | null> {
   return new TextDecoder().decode(Buffer.concat(chunks));
 }
 
+/**
+ * A plain HTML form post (the form submitted before its script loaded, or
+ * with scripts off). The same checks run; the visitor is sent back to the
+ * contact page with the outcome in the address (never their details), which
+ * the form reads and reports.
+ */
+async function handleFormPost(request: Request): Promise<Response> {
+  const back = (outcome: string) =>
+    new Response(null, { status: 303, headers: { ...NO_STORE, Location: `/contact?form=${outcome}#contact-form` } });
+  const raw = await readBody(request);
+  if (raw === null) return back("error");
+  const fields = Object.fromEntries(new URLSearchParams(raw));
+  // Without a script there is no fill timer: the honeypot and rate limit apply
+  const res = await handleJson(request, JSON.stringify({ ...fields, elapsedMs: CONTACT_MIN_FILL_MS }));
+  const body = (await res.json()) as { ok?: boolean; code?: string };
+  if (body.ok) return back("sent");
+  return back(body.code === "invalid" ? "invalid" : body.code === "not_configured" ? "not_configured" : body.code === "rate_limited" ? "rate_limited" : "error");
+}
+
 export async function POST(request: Request) {
   try {
-    if (!(request.headers.get("content-type") ?? "").toLowerCase().includes("application/json"))
-      return reply(415, { ok: false, code: "unsupported_media_type" });
+    const type = (request.headers.get("content-type") ?? "").toLowerCase();
+    if (type.includes("application/x-www-form-urlencoded")) {
+      if (!isSameOrigin(request)) return reply(403, { ok: false, code: "forbidden" });
+      return await handleFormPost(request);
+    }
+    if (!type.includes("application/json")) return reply(415, { ok: false, code: "unsupported_media_type" });
     if (!isSameOrigin(request)) return reply(403, { ok: false, code: "forbidden" });
 
     const raw = await readBody(request);
     if (raw === null) return reply(413, { ok: false, code: "too_large" });
+    return await handleJson(request, raw);
+  } catch {
+    console.error("[contact] unexpected error");
+    return reply(500, { ok: false, code: "server_error" });
+  }
+}
 
+async function handleJson(request: Request, raw: string): Promise<Response> {
+  try {
     let payload: unknown;
     try {
       payload = JSON.parse(raw);

@@ -266,7 +266,7 @@ export const APRIL_2026 = [
     heroAlt: "Vineeta Singh in a maroon suit, arms folded",
     gallery: ["p31-5", "p31-6", "p32-2", "p32-3", "p32-5", "p32-6"],
     galleryAlt: {
-      "p31-5": "Vineeta Singh with other panellists on the set of Shark Tank India",
+      "p31-5": "Vineeta Singh with a man and two young boys in front of a Shark Tank India backdrop",
       "p31-6": "Vineeta Singh running in a race among other runners",
       "p32-2": "Vineeta Singh seated in an ornate chair",
       "p32-3": "Vineeta Singh raising her arms as she runs a marathon",
@@ -361,7 +361,7 @@ export const APRIL_2026 = [
       "p36-15": "A wall of framed film posters and photographs",
       "p36-14": "A gallery wall of screens and framed pictures",
       "p36-s4": "A statue of Raj Kapoor in a museum gallery",
-      "p36-s5": "Visitors in a museum corridor lined with exhibits",
+      "p36-s5": "A seated figure in a chair facing a museum corridor lined with exhibits",
     },
   },
   {
@@ -393,7 +393,7 @@ export const APRIL_2026 = [
     gallery: ["p37-4", "p37-2", "p37-5", "p37-6", "p37-7", "p37-8", "p37-9"],
     galleryAlt: {
       "p37-4": "Portrait of Barasha Medhi",
-      "p37-2": "A one-horned rhino grazing in tall grass",
+      "p37-2": "Two one-horned rhinos on a forest track, with riders on an elephant behind them",
       "p37-5": "Boats on a wide river at sunset",
       "p37-6": "Dancers in red and white costumes performing Bihu",
       "p37-7": "A stream running beneath the roots of large trees",
@@ -401,7 +401,7 @@ export const APRIL_2026 = [
       "p37-9": "A plate of rice with roast meat and greens",
     },
   },
-  await predictionsSpec({ slug: "predictions-april-2026", edition: E, page: 40, label: "April 2026", printedPages: [78] }),
+  await predictionsSpec({ slug: "predictions-april-2026", hero: "p40-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: E, page: 40, label: "April 2026", printedPages: [78] }),
 ];
 
 export const APRIL_2026_PDF = "LR-SpiceRoute-APR-2026.pdf";

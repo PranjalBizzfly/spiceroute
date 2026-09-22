@@ -730,7 +730,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/five-monsoon-escapes-rain-kissed-splendour/p49-3.webp",
-        alt: "A woman and two girls walking along a village path, the woman carrying a load on her back",
+        alt: "Two women carrying bundles of wood on their backs walk a stone village path with two young girls",
         width: 240,
         height: 284,
         pdfPages: [
@@ -1379,7 +1379,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/ranveer-brar-conversation/p60-2.webp",
-        alt: "Ranveer Brar in chef's whites, seated behind a table of plants",
+        alt: "Ranveer Brar in a black chef's jacket, arms crossed, seated behind leafy plants in a restaurant",
         width: 483,
         height: 402,
         pdfPages: [
@@ -1458,9 +1458,9 @@ export const stories: Story[] = [
     category: "wildlife",
     date: "September 2026",
     excerpt: "Observed on 22 September every year, World Rhino Day celebrates these magnificent herbivores, among the largest land animals alive. However, despite conservation and breeding success stories, four of the species are in danger of going extinct. At present, almost 28,000 of these odd-toed ungulates remain.",
-    heroImage: "/images/stories/saving-the-greater-one-horned-rhino.webp",
-    heroImageAlt: "Illustration: a rhino silhouette beneath an acacia tree against a setting sun",
-    heroImageSource: "Spice Route - Sept 2026, PDF page 65",
+    heroImage: "/images/stories/saving-the-greater-one-horned-rhino-v2.webp",
+    heroImageAlt: "Wild Indian One-Horned Rhinoceros wading in the river at Kaziranga National Park",
+    heroImageSource: "Spice Route - June 2026, PDF page 59",
     heroImageLicence: "pending",
     editionSlug: "september-2026",
     editionTitle: "Spice Route - Sept 2026",
@@ -2996,7 +2996,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/live-long-travel-longer/p54-3.webp",
-        alt: "A therapist giving a massage treatment",
+        alt: "A therapist placing glass cupping cups on the back of a woman lying face down",
         width: 412,
         height: 239,
         pdfPages: [
@@ -3683,9 +3683,9 @@ export const stories: Story[] = [
     role: "Chairman & Managing Director",
     date: "June 2026",
     excerpt: "Welcome aboard SpiceJet! Summer has arrived, bringing with it the familiar excitement of family vacations, long-awaited getaways, and the joy of reconnecting with loved ones. Across the country, travel hubs, serene hill stations, and sun-drenched beaches are buzzing with energy as travellers step away from their daily routines to create lasting memories. Whether you are heading toward the crisp mountain air of the North, the coastal retreats of the South, or simply returning home, SpiceJet is delighted to accompany you on your journey.",
-    heroImage: "/images/stories/welcome-aboard-june-2026.webp",
-    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
-    heroImageSource: "Spice Route - June 2026, PDF page 6",
+    heroImage: "/images/stories/welcome-aboard-june-2026-v2.webp",
+    heroImageAlt: "Golden sunrise over clouds viewed from airplane flight altitude",
+    heroImageSource: "Spice Route - June 2026, PDF page 5",
     heroImageLicence: "pending",
     editionSlug: "june-2026",
     editionTitle: "Spice Route - June 2026",
@@ -5049,9 +5049,9 @@ export const stories: Story[] = [
     category: "wildlife",
     date: "June 2026",
     excerpt: "Observed annually on 5 June, World Environment Day was established by the United Nations in 1972 during the Stockholm Conference on the Human Environment, and first celebrated in 1973.",
-    heroImage: "/images/stories/world-environment-day-facts-and-figures.webp",
-    heroImageAlt: "Illustration: a factory with smoking chimneys discharging waste",
-    heroImageSource: "Spice Route - June 2026, PDF page 70",
+    heroImage: "/images/stories/world-environment-day-facts-and-figures-v2.webp",
+    heroImageAlt: "Cascading waterfalls and lush canopy forest of UNESCO World Heritage nature reserve",
+    heroImageSource: "Spice Route - March 2024, PDF page 62",
     heroImageLicence: "pending",
     editionSlug: "june-2026",
     editionTitle: "Spice Route - June 2026",
@@ -5632,6 +5632,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "June 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-june-2026-v2.webp",
+    heroImageAlt: "UNESCO astronomical observatory celestial instruments at Jantar Mantar",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "june-2026",
     editionTitle: "Spice Route - June 2026",
@@ -5905,9 +5908,9 @@ export const stories: Story[] = [
     role: "Chairman & Managing Director",
     date: "May 2026",
     excerpt: "Welcome aboard SpiceJet! Twenty-one years ago, on May 23, 2005, our very first flight took off from Delhi to Ahmedabad with a simple but bold idea, to make flying accessible, affordable and reliable for every Indian. As we celebrate our 21st anniversary this month, that idea has grown into something far larger than we could have imagined. Today, SpiceJet stands as India’s oldest operating private airline, and that is a milestone we carry with quiet pride every single day.",
-    heroImage: "/images/stories/welcome-aboard-may-2026.webp",
-    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
-    heroImageSource: "Spice Route - May 2026, PDF page 6",
+    heroImage: "/images/stories/welcome-aboard-may-2026-v2.webp",
+    heroImageAlt: "SpiceJet Boeing 737 aircraft banking through golden sunset clouds celebrating 21st anniversary",
+    heroImageSource: "Spice Route - May 2026, 21st Anniversary Flight",
     heroImageLicence: "pending",
     editionSlug: "may-2026",
     editionTitle: "Spice Route - May 2026",
@@ -6330,7 +6333,7 @@ export const stories: Story[] = [
     category: "culture",
     date: "May 2026",
     excerpt: "",
-    heroImage: "/images/stories/buddha-purnima-info-corner-may-2026.webp",
+    heroImage: "/images/stories/buddha-purnima-info-corner-may-2026-v2.webp",
     heroImageAlt: "Illustration: the silhouette of the Buddha in meditation against an orange wash",
     heroImageSource: "Spice Route - May 2026, PDF page 44",
     heroImageCaption: "Buddhist devotees observe this festival through prayers, meditation, and good deeds",
@@ -7419,9 +7422,9 @@ export const stories: Story[] = [
     category: "wildlife",
     date: "May 2026",
     excerpt: "The International Day for Biological Diversity is observed each year on 22nd May to draw attention to the significance of biodiversity and the urgency of ecosystem conservation. Established by the United Nations, the day enhance awareness around the protection of biodiversity, and its role in food security, health, livelihoods, and climate adaptation.",
-    heroImage: "/images/stories/international-day-for-biological-diversity.webp",
-    heroImageAlt: "Illustration: a globe surrounded by wildlife, trees, a river and fish",
-    heroImageSource: "Spice Route - May 2026, PDF page 74",
+    heroImage: "/images/stories/international-day-for-biological-diversity-v2.webp",
+    heroImageAlt: "Wild Indian Gaur bison with bird perched on back in Gorumara National Park savanna",
+    heroImageSource: "Spice Route - March 2026, PDF page 69",
     heroImageLicence: "pending",
     editionSlug: "may-2026",
     editionTitle: "Spice Route - May 2026",
@@ -7682,6 +7685,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "May 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-may-2026-v2.webp",
+    heroImageAlt: "Historic Rashivalaya Yantra measuring zodiac constellations and astrological charts",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "may-2026",
     editionTitle: "Spice Route - May 2026",
@@ -8581,9 +8587,9 @@ export const stories: Story[] = [
     category: "wildlife",
     date: "April 2026",
     excerpt: "World Earth Day, observed annually on 22 April, is one of the largest global environmental initiatives aimed at protecting the planet. Introduced in 1970, Earth Day has since grown into an impactful movement aimed at raising awareness about various ecological issues, including pollution, global warming, deforestation, and loss of biodiversity. Through Earth Day, governments, organisations, and individuals are encouraged to adopt sustainable living and safeguard the planet for future generations.",
-    heroImage: "/images/stories/world-earth-day-facts-and-figures.webp",
-    heroImageAlt: "Illustration: a hand holding half a globe with trees growing on it",
-    heroImageSource: "Spice Route - April 2026, PDF page 25",
+    heroImage: "/images/stories/world-earth-day-facts-and-figures-v2.webp",
+    heroImageAlt: "Pristine emerald crater lakes and alpine mountain wilderness under clear sky",
+    heroImageSource: "Spice Route - March 2024, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "april-2026",
     editionTitle: "Spice Route - April 2026",
@@ -8672,7 +8678,7 @@ export const stories: Story[] = [
     author: "Meenakshi. J",
     date: "April 2026",
     excerpt: "Hyderabad is best experienced in fragments — a temple atop a granite hill at sunrise, museums filled with curiosities, the bustle of Charminar at dusk, and an evening beside Hussain Sagar. Spend a day among bazaars, hills and palaces, and the twin cities begin to make sense.",
-    heroImage: "/images/stories/twinning-in-hyderabad.webp",
+    heroImage: "/images/stories/twinning-in-hyderabad-v2.webp",
     heroImageAlt: "Illustration: the Charminar drawn in ink and blue watercolour",
     heroImageSource: "Spice Route - April 2026, PDF page 26",
     heroImageLicence: "pending",
@@ -9297,7 +9303,7 @@ export const stories: Story[] = [
     gallery: [
       {
         src: "/images/stories/vineeta-singh-a-shark-of-all-times/p31-5.webp",
-        alt: "Vineeta Singh with other panellists on the set of Shark Tank India",
+        alt: "Vineeta Singh with a man and two young boys in front of a Shark Tank India backdrop",
         width: 483,
         height: 360,
         pdfPages: [
@@ -9775,7 +9781,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/on-set-inside-mumbais-tribute-to-movies/p36-s5.webp",
-        alt: "Visitors in a museum corridor lined with exhibits",
+        alt: "A seated figure in a chair facing a museum corridor lined with exhibits",
         width: 207,
         height: 138,
         pdfPages: [
@@ -9906,7 +9912,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/my-town-assam/p37-2.webp",
-        alt: "A one-horned rhino grazing in tall grass",
+        alt: "Two one-horned rhinos on a forest track, with riders on an elephant behind them",
         width: 285,
         height: 235,
         pdfPages: [
@@ -9984,6 +9990,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "April 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-april-2026-v2.webp",
+    heroImageAlt: "Night sky stargazing and astrological celestial observations under star-filled cosmos",
+    heroImageSource: "Spice Route - May 2026, PDF page 66",
     heroImageLicence: "pending",
     editionSlug: "april-2026",
     editionTitle: "Spice Route - April 2026",
@@ -10258,9 +10267,9 @@ export const stories: Story[] = [
     role: "Chairman & Managing Director",
     date: "March 2026",
     excerpt: "Welcome aboard SpiceJet! As we head into summer, the festive spirit is already in the air with Holi around the corner, followed by Eid-ul-Fitr and Mahavir Jayanti. These occasions remind us of what makes India special – our diversity and our ability to come together. At SpiceJet, this sense of togetherness is at the heart of what we do. Every flight is about connecting people, families and communities across the country.",
-    heroImage: "/images/stories/welcome-aboard-march-2026.webp",
-    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
-    heroImageSource: "Spice Route - March 2026, PDF page 6",
+    heroImage: "/images/stories/welcome-aboard-march-2026-v2.webp",
+    heroImageAlt: "Snow-capped mountain peaks under bright blue sky viewed during flight",
+    heroImageSource: "Spice Route - March 2026, PDF page 8",
     heroImageLicence: "pending",
     editionSlug: "march-2026",
     editionTitle: "Spice Route - March 2026",
@@ -10584,6 +10593,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "March 2026",
     excerpt: "",
+    heroImage: "/images/stories/international-womens-day-info-corner.webp",
+    heroImageAlt: "Illustration: a woman with long dark hair framed by pink and coral flowers",
+    heroImageSource: "Spice Route - March 2026, PDF page 44",
     heroImageLicence: "pending",
     editionSlug: "march-2026",
     editionTitle: "Spice Route - March 2026",
@@ -11651,6 +11663,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "March 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-march-2026-v2.webp",
+    heroImageAlt: "Jantar Mantar UNESCO World Heritage astrological observatory in Jaipur",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "march-2026",
     editionTitle: "Spice Route - March 2026",
@@ -12192,7 +12207,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/broadsheet-may-2024/p18-1.webp",
-        alt: "A folk musician in a turban beside a sitar player",
+        alt: "A folk musician in a turban beside a man holding an electric guitar",
         width: 498,
         height: 412,
         pdfPages: [
@@ -12608,7 +12623,7 @@ export const stories: Story[] = [
     gallery: [
       {
         src: "/images/stories/network-kandla/p30-2.webp",
-        alt: "Illustration: tents on the white desert of the Rann",
+        alt: "Round thatched huts on sandy ground under a sunset sky, framed by a painted border",
         width: 470,
         height: 361,
         pdfPages: [
@@ -13737,7 +13752,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p61-2.webp",
-        alt: "Diljit Dosanjh and Parineeti Chopra singing on a stage in a scene from the film",
+        alt: "Diljit Dosanjh and Parineeti Chopra seated on a vehicle with a microphone and loudspeaker, in a scene from the film",
         width: 408,
         height: 408,
         pdfPages: [
@@ -13960,6 +13975,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "May 2024",
     excerpt: "",
+    heroImage: "/images/stories/world-red-cross-day-courage-across-borders.webp",
+    heroImageAlt: "Illustration: a stethoscope over a red cross printed with a world map, on a yellow background",
+    heroImageSource: "Spice Route - May 2024, PDF page 35",
     heroImageLicence: "pending",
     editionSlug: "may-2024",
     editionTitle: "Spice Route - May 2024",
@@ -13992,6 +14010,9 @@ export const stories: Story[] = [
     category: "predictions",
     date: "May 2024",
     excerpt: "",
+    heroImage: "/images/stories/your-forecast-this-month-may-2024-v2.webp",
+    heroImageAlt: "Rashivalaya Yantra zodiac constellation astrological instruments",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "may-2024",
     editionTitle: "Spice Route - May 2024",
@@ -14371,9 +14392,9 @@ export const stories: Story[] = [
     role: "Chairman and Managing Director",
     date: "April 2024",
     excerpt: "Welcome aboard SpiceJet! At SpiceJet, we believe in the pursuit of excellence through continuous improvement and relentless commitment to setting new standards. This ethos serves as the driving force behind every SpiceJetter, propelling us forward with unwavering determination. With the onset of the summer schedule, the demand for air travel has surged, reflecting the country's status as the fastest-growing aviation market. Whether you are embarking on a long-awaited vacation, heading home for family gatherings, or planning a weekend getaway, we stand prepared to be an integral part of your journey, creating cherished memories along the way. As part of our commitment to ensure seamless connectivity and enhanced services, we will induct ten aircraft to boost capacity through the busy summer schedule and beyond. Our recent settlements in the last one month alone have resulted in substantial savings to the tune of INR 685 Crore. Additionally, three airframes and one engine have been added to our fleet as part of these settlements. The strong balance sheet and added operational capacity add momentum to our sustained efforts to deliver better services for our passengers and create value for our stakeholders. This year, we are gearing up to operate special Haj flights from even more cities and these include Srinagar, Gaya, Guwahati, Bhopal, Indore, Aurangabad and Vijayawada. Two wide-body A340 aircraft with a seating capacity of 324 passengers each, will be inducted for the Haj flights deployed from Srinagar and Guwahati. Our first Haj flight is scheduled to take off for Medina on May 9, 2024. We look forward to delivering a smooth and hassle-free travel experience for the Haj pilgrims on their sacred journey.",
-    heroImage: "/images/stories/from-the-cmds-desk-april-2024.webp",
-    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
-    heroImageSource: "Spice Route - April 2024, PDF page 5",
+    heroImage: "/images/stories/from-the-cmds-desk-april-2024-v2.webp",
+    heroImageAlt: "SpiceJet Boeing 737 MAX aircraft banking in flight through golden sunlight clouds",
+    heroImageSource: "Spice Route - April 2024, Airline Fleet Operations",
     heroImageLicence: "pending",
     editionSlug: "april-2024",
     editionTitle: "Spice Route - April 2024",
@@ -15143,7 +15164,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/network-abu-dhabi/p28-6.webp",
-        alt: "A colourful building in a heritage village",
+        alt: "A cartoon-style building with rounded stone-look walls and a hanging sign",
         width: 386,
         height: 235,
         pdfPages: [
@@ -15481,7 +15502,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/no-more-a-boomer/p34-3.webp",
-        alt: "A couple sitting close together on a sofa",
+        alt: "Three people seen from behind, sitting close together on a red sofa",
         width: 545,
         height: 331,
         pdfPages: [
@@ -15536,7 +15557,7 @@ export const stories: Story[] = [
     category: "culture",
     date: "April 2024",
     excerpt: "",
-    heroImage: "/images/stories/international-dance-day-a-day-to-groove.webp",
+    heroImage: "/images/stories/international-dance-day-a-day-to-groove-v2.webp",
     heroImageAlt: "Illustration: a couple dancing against a red circle",
     heroImageSource: "Spice Route - April 2024, PDF page 35",
     heroImageLicence: "pending",
@@ -16134,7 +16155,7 @@ export const stories: Story[] = [
     date: "April 2024",
     excerpt: "Nestled in the Himalayas, ancient spirituality meets spectacular natural beauty in the mystic land of Tawang.",
     heroImage: "/images/stories/tawang-tales-from-the-frontier.webp",
-    heroImageAlt: "Snow-covered mountains above a winding road lined with prayer flags",
+    heroImageAlt: "A large monastery complex spread across a green hillside under a blue sky",
     heroImageSource: "Spice Route - April 2024, PDF pages 50–51",
     heroImageLicence: "pending",
     editionSlug: "april-2024",
@@ -16332,7 +16353,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/tawang-tales-from-the-frontier/p53-1.webp",
-        alt: "A monastery complex on a hillside above the town",
+        alt: "A colourful ornate gateway over a road lined with prayer flags, with misty hills behind",
         width: 1034,
         height: 646,
         pdfPages: [
@@ -16666,7 +16687,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/eternal-eden-remote-destinations/p62-2.webp",
-        alt: "Icebergs floating in the sea",
+        alt: "A single iceberg floating in the sea",
         width: 758,
         height: 619,
         pdfPages: [
@@ -16675,7 +16696,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/eternal-eden-remote-destinations/p63-1.webp",
-        alt: "A polar bear on the ice",
+        alt: "A polar bear and her cub on the ice",
         width: 703,
         height: 943,
         pdfPages: [
@@ -16975,7 +16996,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/pillars-of-progress-civil-services-day/p69-2.webp",
-        alt: "The emblem of the Union Public Service Commission",
+        alt: "The emblem of the Indian Administrative Service, a wheel above a ribbon with its name",
         width: 263,
         height: 263,
         pdfPages: [
@@ -17024,6 +17045,9 @@ export const stories: Story[] = [
     category: "predictions",
     date: "April 2024",
     excerpt: "",
+    heroImage: "/images/stories/your-forecast-this-month-april-2024-v2.webp",
+    heroImageAlt: "Ancient celestial sundial and astrological observatory Samrat Yantra",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "april-2024",
     editionTitle: "Spice Route - April 2024",
@@ -17359,8 +17383,8 @@ export const stories: Story[] = [
     role: "Chairman and Managing Director",
     date: "March 2024",
     excerpt: "Welcome aboard SpiceJet! As India ascends to the global stage as a burgeoning superpower, its influence and potential are capturing the attention of the world. This remarkable journey of growth and development is not only reshaping the nation but also leaving an indelible mark on the international landscape. India's rising prominence on the global stage is evident through a series of recent landmark achievements. The successful resolution of a diplomatic crisis resulting in the release of eight former Indian Navy officers in Qatar stands as a significant triumph.",
-    heroImage: "/images/stories/from-the-cmds-desk-march-2024.webp",
-    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
+    heroImage: "/images/stories/from-the-cmds-desk-march-2024-v2.webp",
+    heroImageAlt: "Passenger seated in SpiceMax cabin with extra legroom by airplane window",
     heroImageSource: "Spice Route - March 2024, PDF page 5",
     heroImageLicence: "pending",
     editionSlug: "march-2024",
@@ -17985,7 +18009,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/network-varanasi/p26-3.webp",
-        alt: "An old cart before a carved sandstone gateway",
+        alt: "An old cannon on a wheeled carriage before a carved sandstone gateway",
         width: 271,
         height: 199,
         pdfPages: [
@@ -18384,7 +18408,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/unsung-sheroes/p32-6.webp",
-        alt: "A vintage photograph of an early aeroplane",
+        alt: "A line drawing of an early biplane-style aeroplane",
         width: 537,
         height: 245,
         pdfPages: [
@@ -18402,7 +18426,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/unsung-sheroes/p32-1.webp",
-        alt: "A vintage photograph of a woman seated outdoors",
+        alt: "A vintage photograph of a woman in a hat, long coat and boots standing in a doorway",
         width: 516,
         height: 501,
         pdfPages: [
@@ -18542,6 +18566,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "March 2024",
     excerpt: "",
+    heroImage: "/images/stories/world-water-day-liquid-lifeline-v2.webp",
+    heroImageAlt: "Line illustration in the shape of a water drop, filled with rain, a tap, a bucket, fish and waves",
+    heroImageSource: "Spice Route - March 2024, PDF page 35",
     heroImageLicence: "pending",
     editionSlug: "march-2024",
     editionTitle: "Spice Route - March 2024",
@@ -18817,7 +18844,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/walking-the-green-path/p46-2.webp",
-        alt: "A jar of pickled pumpkin",
+        alt: "A cloth-covered jar labelled Pumpkin Tepache",
         width: 252,
         height: 253,
         pdfPages: [
@@ -19414,7 +19441,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p57-2.webp",
-        alt: "A panorama of a white stupa and temples",
+        alt: "Illustration: a sketched panorama of a stupa and temples",
         width: 687,
         height: 277,
         pdfPages: [
@@ -20009,6 +20036,9 @@ export const stories: Story[] = [
     category: "predictions",
     date: "March 2024",
     excerpt: "",
+    heroImage: "/images/stories/your-forecast-this-month-march-2024-v2.webp",
+    heroImageAlt: "Stargazing under celestial night sky cosmos",
+    heroImageSource: "Spice Route - May 2026, PDF page 66",
     heroImageLicence: "pending",
     editionSlug: "march-2024",
     editionTitle: "Spice Route - March 2024",
@@ -20364,9 +20394,9 @@ export const stories: Story[] = [
     role: "Chairman and Managing Director",
     date: "February 2024",
     excerpt: "Welcome aboard SpiceJet! Hello February! With spring right around the corner, this is the perfect time to re-orient, re-calibrate and re-focus on the goals and aspirations of the New Year. At SpiceJet 3.0, our renewed focus on strengthening our core deliverables and enhanced customer experience will help us deliver exceptional passenger experience right from the start of their journey. In a resounding vote of confidence in our brand strength and market leadership, top Financial Institutions, FIIs, HNIs, and private investors have collectively infused fresh capital of INR 744 Crore into the Company on a preferential basis in the first tranche. This substantial capital injection establishes a robust financial footing, propelling us toward our ambition of establishing a world-class airline.",
-    heroImage: "/images/stories/from-the-cmds-desk-february-2024.webp",
-    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
-    heroImageSource: "Spice Route - Feb 2024, PDF page 5",
+    heroImage: "/images/stories/from-the-cmds-desk-february-2024-v2.webp",
+    heroImageAlt: "Ajay Singh and Civil Aviation Minister inaugurating SpiceJet route connectivity",
+    heroImageSource: "Spice Route - February 2024, PDF page 36",
     heroImageLicence: "pending",
     editionSlug: "february-2024",
     editionTitle: "Spice Route - Feb 2024",
@@ -21020,7 +21050,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/network-jeddah/p26-4.webp",
-        alt: "Bowls of dates and traditional sweets",
+        alt: "A bowl of seeded porridge with small bowls of honey, black seeds and a white cream",
         width: 271,
         height: 199,
         pdfPages: [
@@ -21814,7 +21844,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/whispers-of-hidden-shores/p44-7.webp",
-        alt: "A plate of grilled meat",
+        alt: "A plate of spiced grilled fish with onion and tomato slices",
         width: 289,
         height: 193,
         pdfPages: [
@@ -22945,6 +22975,9 @@ export const stories: Story[] = [
     category: "predictions",
     date: "February 2024",
     excerpt: "",
+    heroImage: "/images/stories/your-forecast-this-month-february-2024-v2.webp",
+    heroImageAlt: "Historic Rashivalaya astrological zodiac instruments",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "february-2024",
     editionTitle: "Spice Route - Feb 2024",
@@ -23300,9 +23333,9 @@ export const stories: Story[] = [
     role: "Chairman & Managing Director",
     date: "August 2026",
     excerpt: "Welcome aboard SpiceJet! As the monsoon settles across the country, painting familiar landscapes in shades of green, it also brings with it a renewed sense of optimism. Aviation has always been an industry that tests resilience. Every airline encounters headwinds, but what defines it is the ability to stay the course with discipline, determination and an unwavering focus on its passengers.",
-    heroImage: "/images/stories/welcome-aboard-august-2026.webp",
-    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
-    heroImageSource: "Spice Route - August 2026, PDF page 4",
+    heroImage: "/images/stories/welcome-aboard-august-2026-v2.webp",
+    heroImageAlt: "SpiceJet Boeing 737 aircraft taxiing on the runway surrounded by monsoon greens",
+    heroImageSource: "Spice Route - August 2026, PDF page 34",
     heroImageLicence: "pending",
     editionSlug: "august-2026",
     editionTitle: "Spice Route - August 2026",
@@ -23385,9 +23418,9 @@ export const stories: Story[] = [
     role: "Chairman & Managing Director",
     date: "July 2026",
     excerpt: "Welcome aboard SpiceJet! The monsoon season is gradually settling in across large parts of India, transforming the landscape with shades of green and breathing new life into rivers, hills and forests. It is wonderful to see how the rains have become a travel season in their own right, with holidaymakers increasingly planning their journeys around the arrival of the monsoon and the unique beauty it brings.",
-    heroImage: "/images/stories/welcome-aboard-july-2026.webp",
-    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
-    heroImageSource: "Spice Route - July 2026, PDF page 4",
+    heroImage: "/images/stories/welcome-aboard-july-2026-v2.webp",
+    heroImageAlt: "Air traveler ready for flight with luggage, passport, and boarding pass",
+    heroImageSource: "Spice Route - July 2026, PDF page 45",
     heroImageLicence: "pending",
     editionSlug: "july-2026",
     editionTitle: "Spice Route - July 2026",
@@ -24196,7 +24229,7 @@ export const stories: Story[] = [
       },
       {
         src: "/images/stories/whats-trending-july-2026/p26-4.webp",
-        alt: "A bright printed shirt",
+        alt: "A bright yellow floral-print short dress",
         width: 158,
         height: 209,
         pdfPages: [
@@ -24271,6 +24304,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "September 2026",
     excerpt: "",
+    heroImage: "/images/stories/top-5-events-in-october-2026.webp",
+    heroImageAlt: "A domed yellow church above the rooftops of Munich",
+    heroImageSource: "Spice Route - Sept 2026, PDF page 26",
     heroImageLicence: "pending",
     editionSlug: "september-2026",
     editionTitle: "Spice Route - Sept 2026",
@@ -24358,8 +24394,35 @@ export const stories: Story[] = [
     ],
     gallery: [
       {
+        src: "/images/stories/top-5-events-in-october-2026/p26-r2.webp",
+        alt: "Marigold flower arrangements in yellow, orange and red",
+        width: 198,
+        height: 125,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-october-2026/p26-r3.webp",
+        alt: "An effigy of Ravana burning at night",
+        width: 225,
+        height: 102,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-october-2026/p26-r4.webp",
+        alt: "A musician playing the violin on an open-air stage, with a fort behind",
+        width: 230,
+        height: 126,
+        pdfPages: [
+          26
+        ]
+      },
+      {
         src: "/images/stories/top-5-events-in-october-2026/p26-2.webp",
-        alt: "Monks in red robes with drums at a monastery festival",
+        alt: "Monks in maroon robes seated in a monastery hall hung with large drums",
         width: 225,
         height: 157,
         pdfPages: [
@@ -24387,6 +24450,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "August 2026",
     excerpt: "",
+    heroImage: "/images/stories/top-5-events-in-august-2026.webp",
+    heroImageAlt: "Oarsmen in orange rowing a long snake boat through the water",
+    heroImageSource: "Spice Route - August 2026, PDF page 22",
     heroImageLicence: "pending",
     editionSlug: "august-2026",
     editionTitle: "Spice Route - August 2026",
@@ -24472,6 +24538,44 @@ export const stories: Story[] = [
         page: 22
       }
     ],
+    gallery: [
+      {
+        src: "/images/stories/top-5-events-in-august-2026/p22-r2.webp",
+        alt: "Festive sweets and sprouts around a chalkboard reading Happy Nowruz",
+        width: 203,
+        height: 131,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-august-2026/p22-r3.webp",
+        alt: "Laser beams over a waterfront concert venue at night",
+        width: 225,
+        height: 120,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-august-2026/p22-r4.webp",
+        alt: "Hands forming a heart shape in front of a concert stage",
+        width: 234,
+        height: 131,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-august-2026/p22-r5.webp",
+        alt: "A group of elephants beside a stream in a forest",
+        width: 225,
+        height: 125,
+        pdfPages: [
+          22
+        ]
+      }
+    ],
     source: {
       edition: "august-2026",
       pdf: "Lowres-Pdf-SpiceRoute.pdf",
@@ -24492,6 +24596,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "July 2026",
     excerpt: "",
+    heroImage: "/images/stories/top-5-events-in-july-2026.webp",
+    heroImageAlt: "A football between large figures reading 2026 on a stadium pitch",
+    heroImageSource: "Spice Route - July 2026, PDF page 22",
     heroImageLicence: "pending",
     editionSlug: "july-2026",
     editionTitle: "Spice Route - July 2026",
@@ -24577,6 +24684,44 @@ export const stories: Story[] = [
         page: 22
       }
     ],
+    gallery: [
+      {
+        src: "/images/stories/top-5-events-in-july-2026/p22-r2.webp",
+        alt: "Runners splashing along a rain-soaked road",
+        width: 203,
+        height: 131,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-july-2026/p22-r3.webp",
+        alt: "The three chariots of the Rath Yatra before a large crowd",
+        width: 198,
+        height: 131,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-july-2026/p22-r4.webp",
+        alt: "A heart of assorted chocolates on a wooden board",
+        width: 234,
+        height: 120,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/top-5-events-in-july-2026/p22-r5.webp",
+        alt: "The Comic-Con International logo on a convention building",
+        width: 225,
+        height: 137,
+        pdfPages: [
+          22
+        ]
+      }
+    ],
     source: {
       edition: "july-2026",
       pdf: "LR-SpiceRoute-July-Book-.pdf",
@@ -24597,6 +24742,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "September 2026",
     excerpt: "",
+    heroImage: "/images/stories/world-tourism-day-info-corner-v2.webp",
+    heroImageAlt: "Illustration of a traveller with a backpack and suitcase reading a map, with hot-air balloons overhead",
+    heroImageSource: "Spice Route - Sept 2026, PDF page 33",
     heroImageLicence: "pending",
     editionSlug: "september-2026",
     editionTitle: "Spice Route - Sept 2026",
@@ -24647,6 +24795,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "July 2026",
     excerpt: "Honouring the Guiding Light of Wisdom",
+    heroImage: "/images/stories/guru-purnima-info-corner.webp",
+    heroImageAlt: "Illustration: a hand raised in blessing above an open book, with lotus flowers and a brass pot",
+    heroImageSource: "Spice Route - July 2026, PDF page 38",
     heroImageLicence: "pending",
     editionSlug: "july-2026",
     editionTitle: "Spice Route - July 2026",
@@ -25785,6 +25936,9 @@ export const stories: Story[] = [
     category: "culture",
     date: "July 2026",
     excerpt: "Every year on 2nd July, World UFO Day sparks curiosity about unidentified flying objects (UFOs), extraterrestrial life, and humanity’s ongoing fascination with the unknown. The day commemorates the famous Roswell incident of 1947 and encourages discussions around and scientific inquiry into unexplained aerial phenomena. While no confirmed evidence of alien spacecraft exists, UFO sightings continue to capture public attention worldwide.",
+    heroImage: "/images/stories/world-ufo-day-facts-and-figures-v2.webp",
+    heroImageAlt: "Illustration of a green alien waving from inside a red and teal flying saucer",
+    heroImageSource: "Spice Route - July 2026, PDF page 70",
     heroImageLicence: "pending",
     editionSlug: "july-2026",
     editionTitle: "Spice Route - July 2026",
@@ -25825,6 +25979,44 @@ export const stories: Story[] = [
         page: 71
       }
     ],
+    gallery: [
+      {
+        src: "/images/stories/world-ufo-day-facts-and-figures/p70-r2.webp",
+        alt: "Illustration of a domed, patterned flying saucer",
+        width: 690,
+        height: 619,
+        pdfPages: [
+          70
+        ]
+      },
+      {
+        src: "/images/stories/world-ufo-day-facts-and-figures/p70-r3.webp",
+        alt: "Illustration of a green flying saucer with a row of glowing lights",
+        width: 1000,
+        height: 449,
+        pdfPages: [
+          70
+        ]
+      },
+      {
+        src: "/images/stories/world-ufo-day-facts-and-figures/p71-r1.webp",
+        alt: "Cartoon of a green alien piloting a blue flying saucer against a starry sky",
+        width: 1000,
+        height: 1052,
+        pdfPages: [
+          71
+        ]
+      },
+      {
+        src: "/images/stories/world-ufo-day-facts-and-figures/p71-r2.webp",
+        alt: "Illustration of a flying saucer sending blue beams of light to the ground",
+        width: 1000,
+        height: 1238,
+        pdfPages: [
+          71
+        ]
+      }
+    ],
     source: {
       edition: "july-2026",
       pdf: "LR-SpiceRoute-July-Book-.pdf",
@@ -25850,6 +26042,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "September 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-september-2026-v2.webp",
+    heroImageAlt: "Jantar Mantar UNESCO astronomical and astrological observatory Samrat Yantra giant sundial in Jaipur",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "september-2026",
     editionTitle: "Spice Route - Sept 2026",
@@ -26124,6 +26319,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "August 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-august-2026-v2.webp",
+    heroImageAlt: "Jantar Mantar Rashivalaya Yantra instruments measuring the 12 signs of the zodiac",
+    heroImageSource: "Spice Route - March 2026, PDF page 63",
     heroImageLicence: "pending",
     editionSlug: "august-2026",
     editionTitle: "Spice Route - August 2026",
@@ -26398,6 +26596,9 @@ export const stories: Story[] = [
     role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
     date: "July 2026",
     excerpt: "",
+    heroImage: "/images/stories/predictions-july-2026-v2.webp",
+    heroImageAlt: "Night sky stargazing and celestial cosmos view from Sariska observatory dark sky reserve",
+    heroImageSource: "Spice Route - May 2026, PDF page 66",
     heroImageLicence: "pending",
     editionSlug: "july-2026",
     editionTitle: "Spice Route - July 2026",

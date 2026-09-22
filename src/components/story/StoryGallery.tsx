@@ -16,7 +16,7 @@ interface StoryGalleryProps {
 /** Summed width:height a row aims for — about three landscape photographs. */
 const ROW_TARGET = 2.6;
 /** Never shown larger than this multiple of a photograph's own pixels. */
-const MAX_SCALE = 1.6;
+const MAX_SCALE = 1.5; // as PlatePhoto: never beyond 1.5 × the file
 
 /**
  * Splits photographs into rows in printed order, as evenly as possible (each

@@ -4,6 +4,7 @@
 import fs from "node:fs/promises";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
+import { storyHref } from "./site-urls.mjs";
 
 const require = createRequire(import.meta.url);
 const ts = require("../node_modules/typescript");
@@ -70,7 +71,7 @@ check("inventory", editions.length === 29, `editions in data: ${editions.length}
 check("inventory", new Set(editions.map((e) => e.slug)).size === 29, "edition slugs unique");
 
 // ---------- Per-story mappings ----------
-const catSlugs = new Set(categories.map((c) => c.slug));
+const catSlugs = new Set(categories.map((c) => c.id)); // stories name their category by id
 for (const s of stories) {
   const ed = editions.find((e) => e.slug === s.editionSlug);
   const text = pdfText[s.editionSlug];
@@ -127,7 +128,7 @@ const bodyOnly = stripScripts(home); // real links only, not the RSC payload
 // its own edition page and never linked twice on the homepage
 const edPages = {};
 for (const s of stories) {
-  const href = `href="/stories/${s.category}/${s.slug}"`;
+  const href = `href="${storyHref(s)}"`;
   // the latest issue's contents index (IssueIndex) lists its stories again by design
   const n = bodyOnly.split(href).slice(0, -1).filter((before) => !/class="ed-issueindex__title"[^<]*<a[^>]*$|class="ed-issueindex__title"[^>]*$/.test(before.slice(-400))).length;
   edPages[s.editionSlug] ??= stripScripts(await (await fetch(`${BASE}/inflight-magazine/${s.editionSlug}`)).text());
@@ -137,11 +138,11 @@ for (const s of stories) {
 check("homepage", !/unsplash|pexels|picsum|placehold.co|via.placeholder/i.test(home), "no stock/placeholder image hosts");
 
 // ---------- Routes ----------
-const routes = ["/", "/about", "/contact", "/inflight-magazine", ...editions.map((e) => `/inflight-magazine/${e.slug}`), ...stories.map((s) => `/stories/${s.category}/${s.slug}`)];
+const routes = ["/", "/about", "/contact", "/inflight-magazine", ...editions.map((e) => `/inflight-magazine/${e.slug}`), ...stories.map((s) => storyHref(s))];
 let bad = [];
 for (const r of routes) { const res = await fetch(BASE + r); await res.arrayBuffer(); if (res.status !== 200) bad.push(`${res.status} ${r}`); }
 check("routes", bad.length === 0, `${routes.length} routes (4 pages + ${editions.length} editions + ${stories.length} articles) — ${bad.length ? bad.join(", ") : "all 200"}`);
-const bogus = await fetch(BASE + "/stories/travel/not-a-real-article");
+const bogus = await fetch(BASE + "/stories/travel-escapes/not-a-real-article");
 check("routes", bogus.status === 404, `unknown article slug returns ${bogus.status}`);
 const bogusEd = await fetch(BASE + "/inflight-magazine/not-an-edition");
 check("routes", bogusEd.status === 404, `unknown edition slug returns ${bogusEd.status}`);

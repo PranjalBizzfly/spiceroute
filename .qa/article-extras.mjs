@@ -31,7 +31,7 @@ export const EXTRAS = {
     gallery: ["p60-1", "p60-2", "p61-1", "p61-2", "p63-1", "p63-2", "p63-3"],
     galleryAlt: {
       "p60-1": "Ranveer Brar seated in a flowing green outfit, holding flowers",
-      "p60-2": "Ranveer Brar in chef's whites, seated behind a table of plants",
+      "p60-2": "Ranveer Brar in a black chef's jacket, arms crossed, seated behind leafy plants in a restaurant",
       "p61-1": "Ranveer Brar cooking at a stove as steam rises from a pot",
       "p61-2": "Ranveer Brar standing with his luggage in an airport terminal",
       "p63-1": "Ranveer Brar crouching beside a dog in a forest",
@@ -52,7 +52,7 @@ export const EXTRAS = {
       "p48-3": "A waterfall cascading over rocks",
       "p49-1": "Rolling green hills under a cloudy sky",
       "p49-2": "Pine-covered slopes beneath distant mountains",
-      "p49-3": "A woman and two girls walking along a village path, the woman carrying a load on her back",
+      "p49-3": "Two women carrying bundles of wood on their backs walk a stone village path with two young girls",
     },
     captions: [
       { label: "p48b6", items: ["p48b7@0-1", "p48b7@2-3", "p48b7@4-5"] },
@@ -243,7 +243,7 @@ export const EXTRAS = {
     galleryAlt: {
       "p54-1": "A woman meditating in a curved, cave-like alcove",
       "p54-2": "A palace-like resort on a hilltop with terraced gardens",
-      "p54-3": "A therapist giving a massage treatment",
+      "p54-3": "A therapist placing glass cupping cups on the back of a woman lying face down",
       "p55-1": "Two people in white walking along a garden path",
       "p55-2": "A tray of healthy snacks and fresh juices",
     },

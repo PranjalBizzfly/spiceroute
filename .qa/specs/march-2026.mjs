@@ -67,6 +67,9 @@ export const MARCH_2026 = [
     category: "culture",
     pdfPages: [44],
     imagePdfPage: 44,
+    // printed artwork of the page (vector art, rendered and cropped; see .qa/missing-images.json)
+    hero: "p44-r1",
+    heroAlt: "Illustration: a woman with long dark hair framed by pink and coral flowers",
     title: "International Women’s Day",
     titleArtwork: { textLayer: "International Women’s Day", verifiedFromRender: "march-2026-p44.png" },
     section: "Info Corner",
@@ -283,7 +286,7 @@ export const MARCH_2026 = [
       "p77-5": "A man in a traditional Naga headdress holding a spear",
     },
   },
-  await predictionsSpec({ slug: "predictions-march-2026", edition: E, page: 82, label: "March 2026" }),
+  await predictionsSpec({ slug: "predictions-march-2026", hero: "p82-r1", heroAlt: "Illustrations of the zodiac signs Aries, Taurus, Gemini, Cancer, Leo and Virgo, as printed at the head of the page", edition: E, page: 82, label: "March 2026" }),
 ];
 
 export const MARCH_2026_PDF = "SpiceRoute-March-2026-Lowres.pdf";

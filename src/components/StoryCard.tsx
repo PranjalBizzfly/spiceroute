@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Story } from "@/types";
 import { categories } from "@/data/categories";
-import { imageFocus } from "@/lib/imageFocus";
+import PlatePhoto from "./PlatePhoto";
+import { storyHref } from "@/lib/urls";
 
 export type StoryCardVariant =
   | "featured"
@@ -45,7 +45,7 @@ const DEFAULT_SIZES_BY_VARIANT: Record<StoryCardVariant, string> = {
 
 export function categoryLabel(categorySlug: string): string {
   return (
-    categories.find((category) => category.slug === categorySlug)?.name ??
+    categories.find((category) => category.id === categorySlug)?.name ??
     categorySlug
   );
 }
@@ -72,9 +72,9 @@ export default function StoryCard({
   className,
 }: StoryCardProps) {
   const Heading = headingLevel;
-  const href = `/stories/${story.category}/${story.slug}`;
-  const showImage =
-    (withImage ?? DEFAULT_IMAGE_BY_VARIANT[variant]) && Boolean(story.heroImage);
+  const href = storyHref(story);
+  const wantImage = withImage ?? DEFAULT_IMAGE_BY_VARIANT[variant];
+  const showImage = wantImage && Boolean(story.heroImage);
   const pullQuote = variant === "quote" ? story.pullQuotes?.[0] : undefined;
 
   return (
@@ -90,17 +90,21 @@ export default function StoryCard({
     >
       {showImage && story.heroImage && (
         <div className="ed-card__plate">
-          <Image
+          <PlatePhoto
             src={story.heroImage}
             // the photograph is the story's own; without a description it is
             // decorative next to the printed title below it
             alt={story.heroImageAlt ?? ""}
-            fill
             sizes={sizes ?? DEFAULT_SIZES_BY_VARIANT[variant]}
-            loading={priority ? "eager" : "lazy"}
-            fetchPriority={priority ? "high" : undefined}
-            style={{ objectPosition: imageFocus(story.heroImage) }}
+            priority={priority}
           />
+        </div>
+      )}
+      {/* A story printed without a photograph keeps the plate, set in type,
+          so it lines up with the cards beside it */}
+      {wantImage && !story.heroImage && (
+        <div className="ed-card__plate ed-card__plate--type" aria-hidden="true">
+          <span>{story.section}</span>
         </div>
       )}
 

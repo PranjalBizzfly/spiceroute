@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
+import { legacyRedirects } from "./src/lib/urls";
 
 const nextConfig: NextConfig = {
   // Don't advertise the framework in every response
   poweredByHeader: false,
   images: {
+    // Every image is served as WebP. Quality 90 (Next's default is 75): the
+    // sources are already compact WebP extracted from the edition PDFs, so a
+    // second heavy compression pass would visibly soften them.
+    formats: ["image/webp"],
+    qualities: [90],
     remotePatterns: [
       {
         protocol: "https",
@@ -14,6 +20,15 @@ const nextConfig: NextConfig = {
         hostname: "nknmedia.ae",
       },
     ],
+  },
+  // Earlier story and category addresses move permanently to the current ones
+  // (src/lib/urls.ts); /stories itself lists every story. Old ?category=
+  // values on /search are redirected by the search page.
+  async redirects() {
+    return [
+      { source: "/stories", destination: "/search", permanent: true },
+      ...legacyRedirects().map((r) => ({ ...r, permanent: true })),
+    ];
   },
   // Baseline security headers for every response
   async headers() {

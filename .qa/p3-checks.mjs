@@ -2,6 +2,7 @@
 import fs from "node:fs/promises";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
+import { storyHref } from "./site-urls.mjs";
 
 const BASE = process.argv[2] ?? "http://localhost:3123";
 const SITE = "https://spiceroutemagazine.in";
@@ -63,8 +64,10 @@ for (const [i, e] of chrono.entries()) {
   for (const s of new Set(imgs)) if (!(await imgOk(s))) problems.push(`image fails: ${s.slice(0, 80)}`);
   // story links: exactly this edition's stories, each resolving
   const own = stories.filter((s) => s.editionSlug === e.slug);
-  const links = [...new Set([...body.matchAll(/href="(\/stories\/[^"]+)"/g)].map((m) => m[1]))];
-  const expected = own.map((s) => `/stories/${s.category}/${s.slug}`);
+  // story pages only (/stories/<category>/<story>), not the category pages
+  // (/stories/<category>) that the header menu links to
+  const links = [...new Set([...body.matchAll(/href="(\/stories\/[^"/]+\/[^"/?#]+)"/g)].map((m) => m[1]))];
+  const expected = own.map((s) => storyHref(s));
   const missing = expected.filter((x) => !links.includes(x));
   const foreign = links.filter((x) => !expected.includes(x));
   if (missing.length) problems.push(`missing story links ${missing.join(",")}`);
@@ -73,7 +76,7 @@ for (const [i, e] of chrono.entries()) {
   // contents order = printed order
   if (own.length) {
     const order = [...body.matchAll(/class="ed-toc__link" href="([^"]+)"|href="([^"]+)" class="ed-toc__link"/g)].map((m) => m[1] || m[2]);
-    const want = [...own].sort((a, b) => a.source.pdfPages[0] - b.source.pdfPages[0]).map((s) => `/stories/${s.category}/${s.slug}`);
+    const want = [...own].sort((a, b) => a.source.pdfPages[0] - b.source.pdfPages[0]).map((s) => storyHref(s));
     if (JSON.stringify(order) !== JSON.stringify(want)) problems.push(`contents order ${order.join(" ")} ≠ printed order`);
   }
   // PDF CTA present, web vs PDF status explicit
@@ -90,7 +93,7 @@ for (const [i, e] of chrono.entries()) {
 
 // ---------- Stories ----------
 for (const s of stories) {
-  const path = `/stories/${s.category}/${s.slug}`;
+  const path = storyHref(s);
   const { status, html } = await get(path);
   const body = noScripts(html);
   const problems = [];
@@ -108,7 +111,7 @@ for (const s of stories) {
   const nav = (body.match(/<nav[^>]*aria-label="Story navigation"[\s\S]*?<\/nav>/) || [""])[0];
   const prev = attr((nav.match(/<a[^>]+rel="prev"[^>]*>/) || [""])[0], "href");
   const next = attr((nav.match(/<a[^>]+rel="next"[^>]*>/) || [""])[0], "href");
-  const want = (x) => (x ? `/stories/${x.category}/${x.slug}` : undefined);
+  const want = (x) => (x ? storyHref(x) : undefined);
   if (prev !== want(sib[at - 1])) problems.push(`prev story ${prev} ≠ ${want(sib[at - 1])}`);
   if (next !== want(sib[at + 1])) problems.push(`next story ${next} ≠ ${want(sib[at + 1])}`);
   // structured data: present, parseable, verified values only

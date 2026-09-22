@@ -18,6 +18,25 @@ npx tsc --noEmit
 
 Requires Node.js 20.9 or newer.
 
+## URLs
+
+All addresses are lowercase words separated by hyphens. They contain no IDs or file names.
+
+| Page | URL |
+| --- | --- |
+| Home, About, Contact | `/`, `/about`, `/contact` |
+| Magazine archive | `/inflight-magazine` |
+| Edition | `/inflight-magazine/<month>-<year>`, e.g. `/inflight-magazine/september-2026` |
+| Story category | `/stories/<category>`, e.g. `/stories/travel-escapes`, `/stories/food-flavours` |
+| Story | `/stories/<category>/<story>`, e.g. `/stories/travel-escapes/kolkata-forever-day-in-a-city` |
+| Search | `/search`, `/search?q=…` (not indexed) |
+
+- **Where URLs are built:** story and category URLs are built in one place, `src/lib/urls.ts`.
+- **Categories:** each category's slug follows its page name (`src/data/categories.ts`).
+- **Stories:** a story's slug is its data key. When a key doesn't describe the story, `RENAMED_STORIES` gives the story a slug based on its printed headline.
+- **Data keys never change.** A story's key and its image folder stay the same when its URL changes.
+- **Old URLs keep working.** Every earlier story, category or `/search?category=` address redirects permanently to the current one (`next.config.ts`).
+
 ## Colour themes
 
 - **Single source of colour:** every colour is defined once, in the token block at the top of `src/app/globals.css`. Components use only the semantic tokens (`--bg-*`, `--text-*`, `--border-*`, `--accent-*`, `--highlight-*`, `--header-*`, `--footer-*`), never raw colours.

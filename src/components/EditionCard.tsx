@@ -50,7 +50,8 @@ export default function EditionCard({
 
         {edition.issue && (
           <p className="ed-edition__date">
-            Vol. {edition.volume} · Issue {edition.issue}
+            {/* each half kept whole, so a narrow card breaks between them */}
+            <span className="ed-nowrap">Vol. {edition.volume}</span> · <span className="ed-nowrap">Issue {edition.issue}</span>
           </p>
         )}
 

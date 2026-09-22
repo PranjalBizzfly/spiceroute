@@ -112,7 +112,7 @@ for (const [w, h] of WIDTHS) {
   const empty = await page.locator(".ed-archive__empty").isVisible();
   await page.getByRole("button", { name: "Show all editions" }).click();
   const reset = await page.locator(".ed-archive__grid .ed-edition").count();
-  entry.checks.archive = { cardsAll, cards2024, pressed, hitHref, cardsSearch, empty, reset, ok: cardsAll === 29 && cards2024 === 8 && pressed === "true" && hitHref === "/stories/interviews/ranveer-brar-conversation" && cardsSearch === 1 && empty && reset === 29 };
+  entry.checks.archive = { cardsAll, cards2024, pressed, hitHref, cardsSearch, empty, reset, ok: cardsAll === 29 && cards2024 === 8 && pressed === "true" && hitHref === "/stories/conversations/ranveer-brar-conversation" && cardsSearch === 1 && empty && reset === 29 };
   if (w === 390 || w === 1440) entry.checks.archivePdf = await pdfCheck(page, "View Original PDF");
 
   // ---------------- Editions: latest / middle / oldest ----------------
