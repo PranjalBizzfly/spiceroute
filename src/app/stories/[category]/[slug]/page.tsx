@@ -3,16 +3,17 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import ArticleBody from "@/components/ArticleBody";
-import PdfButton from "@/components/PdfButton";
-import StoryCard from "@/components/StoryCard";
+import StoryCard, { categoryLabel } from "@/components/StoryCard";
 import StoryPager from "@/components/edition/StoryPager";
 import InThisStory from "@/components/story/InThisStory";
 import LightboxProvider, { type LightboxItem } from "@/components/story/Lightbox";
 import ReadingProgress from "@/components/story/ReadingProgress";
-import { editionDate, getEdition, getRelatedStories, getStories, getStory } from "@/lib/content";
+import SourceStrip from "@/components/story/SourceStrip";
+import { editionDate, getEdition, getEditionStories, getStories, getStory } from "@/lib/content";
 import { localImageSize } from "@/lib/imageSize";
 import { siteConfig } from "@/data/siteConfig";
 import { SITE_URL as SITE } from "@/lib/site";
+import type { StoryEntry } from "@/types";
 
 interface PageProps {
   params: Promise<{ category: string; slug: string }>;
@@ -22,13 +23,22 @@ export async function generateStaticParams() {
   return getStories().map((s) => ({ category: s.category, slug: s.slug }));
 }
 
-function PdfIcon() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
-      <path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z" />
-      <path d="M14 3v5h5M8.5 13h7M8.5 16.5h7" />
-    </svg>
-  );
+/** A landscape lead photograph is shown up to this multiple of its own width. */
+const HERO_SCALE = 1.3;
+
+/**
+ * Stories to read next, only from verified relationships: the rest of the same
+ * issue in printed order, then the same printed section or web category in
+ * other issues (newest first). Previous/next are shown by the pager instead.
+ */
+function readNext(story: StoryEntry) {
+  const skip = new Set([story.slug, story.previousStory?.slug, story.nextStory?.slug]);
+  const issue = getEditionStories(story.editionSlug).filter((s) => !skip.has(s.slug)).slice(0, 3);
+  issue.forEach((s) => skip.add(s.slug));
+  const others = getStories().filter((s) => !skip.has(s.slug) && s.editionSlug !== story.editionSlug);
+  const bySection = others.filter((s) => s.section === story.section);
+  const section = (bySection.length ? bySection : others.filter((s) => s.category === story.category)).slice(0, 3);
+  return { issue, section, sectionName: bySection.length ? story.section : categoryLabel(story.category) };
 }
 
 /** Display headline: printed headline, with the printed place label where set. */
@@ -73,14 +83,20 @@ export default async function StoryPage({ params }: PageProps) {
 
   const edition = getEdition(story.editionSlug)!;
   const date = editionDate(edition);
-  const related = getRelatedStories(slug, 3);
+  const next = readNext(story);
   const image = story.images[0];
   // Shown at its own proportions — never cropped. Portrait photographs sit
-  // beside the headline on wide screens.
+  // beside the headline on wide screens; landscape ones run wide under it,
+  // never beyond HERO_SCALE × their own pixels.
   const size = image ? localImageSize(image.src) : undefined;
   const portrait = Boolean(size && size.height > size.width * 1.1);
-  const pages = story.printedPages;
-  const pageRange = `${pages[0]}${pages.length > 1 ? `–${pages[pages.length - 1]}` : ""}`;
+  const heroMax = size ? Math.round(size.width * HERO_SCALE) : undefined;
+  const source = {
+    edition: { ...story.edition, issue: edition.issue },
+    pdfUrl: edition.pdfUrl,
+    pdfPage: story.pdfPages[0],
+    printedPages: story.printedPages,
+  };
 
   // The story's printed photographs, in printed order, for the lightbox
   const photos: LightboxItem[] = story.galleryGroups.flatMap((g) =>
@@ -113,6 +129,17 @@ export default async function StoryPage({ params }: PageProps) {
     },
     ...(story.pdfPages.length ? { pagination: `${story.printedPages[0]}-${story.printedPages[story.printedPages.length - 1]}` } : {}),
   };
+  // Mirrors the visible breadcrumb
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      ["Home", SITE],
+      ["Inflight Magazine", `${SITE}/inflight-magazine`],
+      [date, `${SITE}/inflight-magazine/${edition.slug}`],
+      [displayTitle(story), `${SITE}${story.href}`],
+    ].map(([name, item], i) => ({ "@type": "ListItem", position: i + 1, name, item })),
+  };
 
   return (
     <div className="ed-story">
@@ -120,6 +147,10 @@ export default async function StoryPage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd).replace(/</g, "\\u003c") }}
       />
 
       <div className="container">
@@ -135,18 +166,15 @@ export default async function StoryPage({ params }: PageProps) {
         <article className="ed-story__article">
           <div className={`ed-story__opener${image ? (portrait ? " ed-story__opener--split" : " ed-story__opener--wide") : ""}`}>
             <header className="ed-story__header">
-              <p className="ed-story__edition">
-                <Link href={`/inflight-magazine/${edition.slug}`}>
-                  From the {date} edition
-                  {edition.issue ? ` · Issue ${edition.issue}` : ""}
-                </Link>
+              {/* Printed section, then the printed place label where set */}
+              <p className="ed-story__rubric">
+                <span className="ed-kicker ed-story__section">{story.section}</span>
+                {story.label && <span className="ed-article__label">{story.label}</span>}
               </p>
-              <p className="ed-kicker ed-story__section">{story.section}</p>
-              {story.label && <p className="ed-article__label">{story.label}</p>}
               <h1 className="ed-story__title">{story.printedTitle}</h1>
               {story.standfirst && <p className="ed-story__standfirst">{story.standfirst}</p>}
 
-              <div className="ed-story__byline">
+              <p className="ed-story__byline">
                 {story.author && (
                   <span>
                     {story.bylineLabel ?? "By"} <strong>{story.author}</strong>
@@ -154,25 +182,16 @@ export default async function StoryPage({ params }: PageProps) {
                   </span>
                 )}
                 <span>{story.readingTime}</span>
-                <span>
-                  Page{pages.length > 1 ? "s" : ""} {pageRange} in print
-                </span>
-              </div>
-
-              <p className="ed-story__original">
-                <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="ed-story__pdf">
-                  <PdfIcon />
-                  View original PDF
-                  <span className="ed-story__pdfpages">p. {pageRange}</span>
-                </PdfButton>
               </p>
+
+              <SourceStrip variant="open" {...source} />
             </header>
 
             {image && (
               <figure
                 className="ed-article__figure"
-                // photographs printed small stay near their own resolution
-                style={size && size.width * 1.6 < 800 ? { maxWidth: Math.round(size.width * 1.6), marginInline: "auto" } : undefined}
+                // never shown much beyond the photograph's own resolution
+                style={heroMax ? ({ "--img-max": `${heroMax}px` } as React.CSSProperties) : undefined}
               >
                 <div
                   className="ed-article__image"
@@ -184,7 +203,7 @@ export default async function StoryPage({ params }: PageProps) {
                     fill
                     loading="eager"
                     fetchPriority="high"
-                    sizes={portrait ? "(max-width: 1023px) 92vw, 520px" : "(max-width: 832px) 92vw, 800px"}
+                    sizes={portrait ? "(max-width: 1023px) 92vw, 520px" : `(max-width: 1100px) 92vw, ${Math.min(heroMax ?? 1040, 1040)}px`}
                   />
                 </div>
                 {heroCaption && <figcaption>{heroCaption}</figcaption>}
@@ -223,54 +242,46 @@ export default async function StoryPage({ params }: PageProps) {
               ))}
             </ul>
           )}
+
+          {/* The end of the story: its print source, one step away */}
+          <footer className="ed-story__end">
+            <SourceStrip variant="close" {...source} />
+          </footer>
         </article>
 
         <StoryPager previous={story.previousStory} next={story.nextStory} edition={story.edition} />
 
-        {/* Back to the issue */}
-        <aside className="ed-story__issue" aria-label="Edition">
-          <Link href={`/inflight-magazine/${edition.slug}`} className="ed-story__issuecover" tabIndex={-1} aria-hidden="true">
-            <Image src={edition.cover} alt="" fill sizes="96px" loading="lazy" />
-          </Link>
-          <div>
-            <p className="ed-kicker">Published in</p>
-            <p className="ed-story__issuetitle">
-              <Link href={`/inflight-magazine/${edition.slug}`}>
-                {edition.title}
-              </Link>
-            </p>
-            <p className="ed-story__issuemeta">
-              {edition.storyIds.length} web {edition.storyIds.length === 1 ? "story" : "stories"} from this issue
-              {edition.pageCount ? ` · ${edition.pageCount} pages in print` : ""}
-            </p>
-          </div>
-          <div className="ed-story__issueactions">
-            <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="btn btn-outline btn-sm">
-              This story in the PDF
-            </PdfButton>
-            <Link href={`/inflight-magazine/${edition.slug}`} className="btn btn-outline btn-sm">
-              See the whole edition <span aria-hidden="true">&rarr;</span>
-            </Link>
-          </div>
-        </aside>
-
-        {related.length > 0 && (
-          <section className="ed-story__related" aria-labelledby="related-title">
+        {next.issue.length > 0 && (
+          <section className="ed-story__related" aria-labelledby="issue-more-title">
             <div className="ed-shead">
               <div className="ed-shead__main">
-                <p className="ed-kicker">Keep reading</p>
-                <h2 id="related-title" className="ed-shead__title">Related stories</h2>
+                <p className="ed-kicker">{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
+                <h2 id="issue-more-title" className="ed-shead__title">More from this issue</h2>
+              </div>
+              <Link href={`/inflight-magazine/${edition.slug}#in-this-issue`} className="ed-more">
+                All {edition.storyIds.length} stories in this issue
+                <span className="ed-more__arrow" aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
+            <div className="ed-row ed-row--3 ed-related">
+              {next.issue.map((s) => (
+                <StoryCard key={s.slug} story={s} variant="standard" sizes="(max-width: 619px) 92vw, (max-width: 979px) 46vw, 390px" />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {next.section.length > 0 && (
+          <section className="ed-story__related ed-story__related--more" aria-labelledby="section-more-title">
+            <div className="ed-shead">
+              <div className="ed-shead__main">
+                <p className="ed-kicker">From other issues</p>
+                <h2 id="section-more-title" className="ed-shead__title">More {next.sectionName}</h2>
               </div>
             </div>
             <div className="ed-row ed-row--3 ed-related">
-              {related.map((s) => (
-                <StoryCard
-                  key={s.slug}
-                  story={s}
-                  variant="standard"
-                  showEdition
-                  sizes="(max-width: 619px) 92vw, (max-width: 979px) 46vw, 390px"
-                />
+              {next.section.map((s) => (
+                <StoryCard key={s.slug} story={s} variant="standard" showEdition sizes="(max-width: 619px) 92vw, (max-width: 979px) 46vw, 390px" />
               ))}
             </div>
           </section>

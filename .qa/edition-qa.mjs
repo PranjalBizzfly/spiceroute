@@ -131,7 +131,7 @@ for (const [w, h] of WIDTHS) {
 
     // PDF CTA
     if (w === 390 || w === 1440 || w === 768) {
-      entry.checks[`${name}Pdf`] = await pdfCheck(page, name === "middle" || name === "oldest" ? "Read this edition online" : "View Original PDF");
+      entry.checks[`${name}Pdf`] = await pdfCheck(page, name === "middle" ? "Read this edition online" : "View Original PDF");
     }
     // Prev/next edition by click
     const prev = page.locator('nav[aria-label="Edition navigation"] a[rel="prev"]');

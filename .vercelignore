@@ -1,0 +1,7 @@
+# Local-only: QA toolbox (browsers, PDF extracts, image backups), build output, deps
+/.qa
+/.next
+/node_modules
+*.tsbuildinfo
+.env*
+!.env.example

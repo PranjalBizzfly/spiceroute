@@ -15,6 +15,12 @@ import { EXTRAS } from "./article-extras.mjs";
 import { JUNE_2026, JUNE_2026_PDF } from "./specs/june-2026.mjs";
 import { MAY_2026, MAY_2026_PDF } from "./specs/may-2026.mjs";
 import { APRIL_2026, APRIL_2026_PDF } from "./specs/april-2026.mjs";
+import { MARCH_2026, MARCH_2026_PDF } from "./specs/march-2026.mjs";
+import { MAY_2024, MAY_2024_PDF } from "./specs/may-2024.mjs";
+import { APRIL_2024, APRIL_2024_PDF } from "./specs/april-2024.mjs";
+import { MARCH_2024, MARCH_2024_PDF } from "./specs/march-2024.mjs";
+import { FEBRUARY_2024, FEBRUARY_2024_PDF } from "./specs/february-2024.mjs";
+import { COLUMNS_2026 } from "./specs/columns-2026.mjs";
 
 export const PDF_FILES = {
   "september-2026": "11-Sep_Lowres-SpiceRoute_Sep.pdf",
@@ -23,6 +29,11 @@ export const PDF_FILES = {
   "june-2026": JUNE_2026_PDF,
   "may-2026": MAY_2026_PDF,
   "april-2026": APRIL_2026_PDF,
+  "march-2026": MARCH_2026_PDF,
+  "may-2024": MAY_2024_PDF,
+  "april-2024": APRIL_2024_PDF,
+  "march-2024": MARCH_2024_PDF,
+  "february-2024": FEBRUARY_2024_PDF,
 };
 
 // Printed folio = PDF page − offset (checked against the folios printed on
@@ -33,6 +44,11 @@ export const FOLIO_OFFSET = {
   "july-2026": 2,
   "june-2026": 6,
   "may-2026": 6,
+  "march-2026": 4,
+  "may-2024": 2,
+  "april-2024": 2,
+  "march-2024": 2,
+  "february-2024": 2,
 };
 
 // Editions whose PDF pages are two-page spreads (printed pages 2p-2 and 2p-1)
@@ -102,6 +118,48 @@ export const HYPHENS = {
   "High-|definition": "keep",
   "one-|horned": "keep",
   "decision-|making": "keep",
+  "youth-|driven": "keep",
+  "year-|round": "keep",
+  "extra-|large": "keep",
+  "stress-|free": "keep",
+  "well-|being": "keep",
+  "non-|stop": "keep",
+  "Leaf-|shaped": "keep",
+  "easy-|breezy": "keep",
+  "custom-|made": "keep",
+  "pre-|independence": "keep",
+  "add-|ons": "keep",
+  "start-|up": "keep",
+  "state-|of": "keep",
+  "long-|awaited": "keep",
+  "off-|road": "keep",
+  "UNESCO-|inscribed": "keep",
+  "one-|stop": "keep",
+  "ASI-|maintained": "keep",
+  "and-|light": "keep",
+  "high-|altitude": "keep",
+  "stump-|filled": "keep",
+  "from-|home": "keep",
+  "re-|emerging": "keep",
+  "high-|shine": "keep",
+  "home-|cooked": "keep",
+  "environment-|friendly": "keep",
+  "single-|use": "keep",
+  "measles-|rubella": "keep",
+  "paper-|work": "keep",
+  "much-|needed": "keep",
+  "top-|notch": "keep",
+  "wood-|fired": "keep",
+  "anti-|inflammatory": "keep",
+  "Instagram-|worthy": "keep",
+  "old-|world": "keep",
+  "after-|hours": "keep",
+  "age-|old": "keep",
+  "first-|hand": "keep",
+  "community-|based": "keep",
+  "documentary-|like": "keep",
+  "All-|domain": "keep",
+  "well-|deserved": "keep",
 };
 
 export const SPECS = [
@@ -556,4 +614,4 @@ export const SPECS = [
 for (const spec of SPECS) Object.assign(spec, EXTRAS[spec.slug] ?? {});
 
 // Further editions: one file per edition in specs/, with their extras inline
-SPECS.push(...JUNE_2026, ...MAY_2026, ...APRIL_2026);
+SPECS.push(...JUNE_2026, ...MAY_2026, ...APRIL_2026, ...MARCH_2026, ...MAY_2024, ...APRIL_2024, ...MARCH_2024, ...FEBRUARY_2024, ...COLUMNS_2026);

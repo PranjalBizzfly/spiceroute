@@ -25,6 +25,9 @@ for (const spec of SPECS) {
       // spread editions: only the halves (printed pages) the story occupies
       if (SPREAD_EDITIONS[spec.edition] && !spec.printedPages.includes(b.x < 595.5 ? 2 * p - 2 : 2 * p - 1)) continue;
       if (/^(\d{1,3}|\||SPICEROUTE|\d{1,3} \| SPICEROUTE|SPICEROUTE \| \d{1,3})$/i.test(t)) continue;
+      // 2024 page furniture: running head "SPICEJET <section>", folio line "<Month> 2024",
+      // and the standard disclaimers printed on every travel page
+      if (/^(SPICEJET|Map not to scale|Images are for representational purposes only|(January|February|March|April|May|June|July|August|September|October|November|December) 20\d\d)$/i.test(t)) continue;
       rows.push(`  [${b.id}] ${b.font} ${b.size}pt (${t.length}): ${t.slice(0, 110)}`);
     }
   }

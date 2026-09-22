@@ -64,6 +64,8 @@ export interface StorySource {
   /** The PDF's pages are two-page spreads (printed pages 2p-2 and 2p-1). */
   spreads?: boolean;
   imagePdfPage: number;
+  /** Facing page carrying the section running head, for single-page pieces printed without one. */
+  sectionPdfPage?: number;
 }
 
 export interface Story {

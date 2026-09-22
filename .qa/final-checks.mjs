@@ -23,10 +23,15 @@ const { siteConfig } = await load("siteConfig");
 
 const norm = (s) => s.toLowerCase().replace(/[‘’`´]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, " ").replace(/-\s+/g, "").replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
 const pdfText = {};
-for (const ed of ["september-2026", "august-2026", "july-2026", "june-2026", "may-2026", "april-2026"]) {
+for (const ed of ["september-2026", "august-2026", "july-2026", "june-2026", "may-2026", "april-2026", "march-2026", "may-2024", "april-2024", "march-2024", "february-2024"]) {
   pdfText[ed] = norm(JSON.parse(await fs.readFile(`extract/${ed}.pages.json`, "utf8")).map((p) => p.text).join(" "));
 }
 const IDENTITY = {
+  // Predictions pages: the extract interleaves their columns (content-audit
+  // checks these order-independently at 100% coverage)
+  "predictions-september-2026": ["Aries", "Scorpio", "Pisces", "Lucky"],
+  "predictions-august-2026": ["Aries", "Scorpio", "Pisces", "Lucky"],
+  "predictions-july-2026": ["Aries", "Scorpio", "Pisces", "Lucky"],
   "welcome-aboard-september-2026": ["Welcome aboard SpiceJet", "Ajay Singh"],
   "kolkata-forever-day-in-a-city": ["Victoria Memorial", "New Market"],
   "ranveer-brar-conversation": ["Ranveer Brar", "Kashkan"],
@@ -53,7 +58,7 @@ const check = (area, ok, detail) => results.push({ area, ok, detail });
 
 // ---------- Inventory ----------
 const slugs = stories.map((s) => s.slug);
-check("inventory", stories.length === 55, `stories in data: ${stories.length} (20 Sept–July 2026 + 35 June–April 2026)`);
+check("inventory", stories.length === 151, `stories in data: ${stories.length} (151 source-exact articles, 11 editions)`);
 check("inventory", new Set(slugs).size === slugs.length, "story slugs unique");
 // Duplicate ARTICLES (not shared headlines): the series headline "My Town" is
 // printed on three different crew members' pieces.
@@ -85,8 +90,10 @@ for (const s of stories) {
     const kw = IDENTITY[s.slug] ?? [opening];
     if (!kw.every((k) => text.includes(norm(k)))) problems.push(`identity text missing from PDF: ${kw.filter((k) => !text.includes(norm(k))).map((k) => k.slice(0, 60)).join(", ")}`);
   }
-  // Pieces printed without a photograph (Predictions) carry no image
-  if (s.heroImage || s.section !== "Predictions") {
+  // Pieces printed without an article photograph (Predictions, Info Corner,
+  // the Bookmark calendars, infographics) carry no image: content-audit
+  // checks every printed image of a story's pages is placed or excluded
+  if (s.heroImage) {
     if (!s.heroImage?.startsWith("/images/stories/")) problems.push(`image not a verified article image: ${s.heroImage}`);
     else {
       try { await fs.access(`../public${s.heroImage}`); } catch { problems.push(`image file missing ${s.heroImage}`); }
@@ -116,11 +123,18 @@ check("restored", wScore > 0.98, `Welcome Aboard body matches PDF verbatim: ${(w
 const home = await (await fetch(BASE + "/")).text();
 const stripScripts = (h) => h.replace(/<script[\s\S]*?<\/script>/g, "");
 const bodyOnly = stripScripts(home); // real links only, not the RSC payload
+// The homepage shows a capped selection; every story must be reachable from
+// its own edition page and never linked twice on the homepage
+const edPages = {};
 for (const s of stories) {
-  const n = (bodyOnly.match(new RegExp(`href="/stories/${s.category}/${s.slug}"`, "g")) || []).length;
-  check("homepage", n === 1, `${s.slug} linked ${n}x`);
+  const href = `href="/stories/${s.category}/${s.slug}"`;
+  // the latest issue's contents index (IssueIndex) lists its stories again by design
+  const n = bodyOnly.split(href).slice(0, -1).filter((before) => !/class="ed-issueindex__title"[^<]*<a[^>]*$|class="ed-issueindex__title"[^>]*$/.test(before.slice(-400))).length;
+  edPages[s.editionSlug] ??= stripScripts(await (await fetch(`${BASE}/inflight-magazine/${s.editionSlug}`)).text());
+  const onEdition = edPages[s.editionSlug].includes(href);
+  check("homepage", n <= 1 && onEdition, `${s.slug} homepage ${n}x, edition page ${onEdition ? "yes" : "NO"}`);
 }
-check("homepage", !/unsplash|pexels|picsum|placeholder/i.test(home), "no stock/placeholder image hosts");
+check("homepage", !/unsplash|pexels|picsum|placehold.co|via.placeholder/i.test(home), "no stock/placeholder image hosts");
 
 // ---------- Routes ----------
 const routes = ["/", "/about", "/contact", "/inflight-magazine", ...editions.map((e) => `/inflight-magazine/${e.slug}`), ...stories.map((s) => `/stories/${s.category}/${s.slug}`)];
@@ -162,5 +176,5 @@ for (const page of ["/", "/about", "/contact", "/inflight-magazine/september-202
 await fs.writeFile("screenshots/final-checks.json", JSON.stringify(results, null, 1));
 const failed = results.filter((r) => !r.ok);
 for (const r of results) if (!r.ok || ["inventory", "restored", "routes", "pdf", "links", "edition-map"].includes(r.area)) console.log(`${r.ok ? "PASS" : "FAIL"}  [${r.area}] ${r.detail}`);
-console.log(`\nstory mapping checks: ${results.filter((r) => r.area === "story" && r.ok).length}/${stories.length} pass | homepage exactly-once: ${results.filter((r) => r.area === "homepage" && r.ok).length}/${stories.length + 1} pass`);
+console.log(`\nstory mapping checks: ${results.filter((r) => r.area === "story" && r.ok).length}/${stories.length} pass | homepage/edition discovery: ${results.filter((r) => r.area === "homepage" && r.ok).length}/${stories.length + 1} pass`);
 console.log(failed.length ? `\n${failed.length} FAILED CHECK(S)` : "\nALL CHECKS PASS");

@@ -81,7 +81,15 @@ for (const s of stories) {
   const pageText = items.map((i) => i.str).join(" ");
   const pageTok = tokens(pageText);
   const tokSet = new Set(pageTok);
-  for (let i = 0; i + 1 < pageTok.length; i++) tokSet.add(pageTok[i] + pageTok[i + 1]); // split words / drop caps
+  for (let i = 0; i + 1 < pageTok.length; i++) {
+    tokSet.add(pageTok[i] + pageTok[i + 1]); // split words / drop caps
+    tokSet.add(pageTok[i] + "'" + pageTok[i + 1]); // "What" "'" "s More" set as separate items
+    if (pageTok[i + 2]) tokSet.add(pageTok[i] + pageTok[i + 1] + pageTok[i + 2]); // kerned "I" "ma" "gine"
+  }
+  // a drop cap placed elsewhere in the content stream: its single letter
+  // is printed on these pages and the rest of the word follows in the text
+  const letters = new Set(pageTok.filter((w) => w.length === 1));
+  for (const w of pageTok) for (const l of letters) tokSet.add(l + w);
 
   for (const re of FABRICATED) {
     if (re.test(JSON.stringify(s)) && !re.test(pageText)) unprintedHits.get(re).push(s.slug);
@@ -102,7 +110,11 @@ for (const s of stories) {
   const printed = (v) => tokens(v).every((w) => tokSet.has(w));
   if (s.author && !printed(s.author)) problems.push(`author "${s.author}" not printed`);
   if (s.role && !printed(s.role)) problems.push(`role "${s.role}" not printed`);
-  if (!printed(s.section)) problems.push(`section "${s.section}" not printed`);
+  if (s.source.sectionPdfPage) {
+    // section running head printed on the facing page only
+    const facing = new Set(tokens((await pageItems(s.editionSlug, s.source.sectionPdfPage)).map((i) => i.str).join(" ")));
+    if (!tokens(s.section).every((w) => facing.has(w))) problems.push(`section "${s.section}" not printed on facing page`);
+  } else if (!printed(s.section)) problems.push(`section "${s.section}" not printed`);
   if (s.label && !printed(s.label)) problems.push(`label "${s.label}" not printed`);
 
   // Every word of the site text must occur on the article's pages

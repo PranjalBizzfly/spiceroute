@@ -50,3 +50,6 @@ next-env.d.ts
 /.qa/screenshots
 /.qa/pdf
 /.qa/extract
+
+.vercel
+.env*

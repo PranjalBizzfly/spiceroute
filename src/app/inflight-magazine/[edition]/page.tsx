@@ -5,7 +5,6 @@ import Link from "next/link";
 import EditionCard from "@/components/EditionCard";
 import PdfButton from "@/components/PdfButton";
 import Reveal from "@/components/Reveal";
-import StoryCard from "@/components/StoryCard";
 import EditionContents from "@/components/edition/EditionContents";
 import EditionPager from "@/components/edition/EditionPager";
 import { editionDate, getEdition, getEditions, getEditionStories, getNearbyEditions } from "@/lib/content";
@@ -52,12 +51,8 @@ export default async function EditionPage({ params }: PageProps) {
   if (!edition) notFound();
 
   const date = editionDate(edition);
+  // In printed reading order — the issue's contents page
   const stories = getEditionStories(slug);
-  const letter = stories.find((s) => s.section === "Welcome Aboard");
-  // Features follow the printed running order (the letter opens the issue).
-  const features = stories.filter((s) => s !== letter);
-  const [lead, ...rest] = features;
-  const supporting = rest.slice(0, 2);
   const nearby = getNearbyEditions(slug, 4);
   const total = getEditions().length;
 
@@ -202,63 +197,22 @@ export default async function EditionPage({ params }: PageProps) {
         </section>
       ) : (
         <>
-          {/* ================= WELCOME ABOARD (opens the issue) ================= */}
-          {letter && (
-            <section className="ed-section ed-section--tight ed-section--rule" aria-label="Welcome Aboard">
-              <div className="container">
-                <Reveal>
-                  <div className="ed-letter">
-                    <StoryCard story={letter} variant="horizontal" withImage headingLevel="h2" sizes="(max-width: 559px) 112px, 168px" />
-                  </div>
-                </Reveal>
-              </div>
-            </section>
-          )}
-
-          {/* ======================= FEATURED ======================= */}
-          {lead && (
-            <section className="ed-section ed-section--tint" aria-labelledby="featured-title">
-              <div className="container">
-                <Reveal>
-                  <div className="ed-shead">
-                    <div className="ed-shead__main">
-                      <p className="ed-kicker">{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
-                      <h2 id="featured-title" className="ed-shead__title">Featured in this issue</h2>
-                    </div>
-                  </div>
-                </Reveal>
-                <div className="ed-featured ed-featured--issue">
-                  <Reveal className="ed-featured__lead">
-                    <StoryCard story={lead} variant="featured" stacked sizes="(max-width: 999px) 92vw, 740px" />
-                  </Reveal>
-                  {supporting.map((s, i) => (
-                    <Reveal key={s.slug} delay={80 + i * 80} className="ed-featured__side">
-                      <StoryCard story={s} variant="standard" sizes="(max-width: 999px) 92vw, 500px" />
-                    </Reveal>
-                  ))}
-                </div>
-              </div>
-            </section>
-          )}
-
-          {/* ===================== CONTENTS BY SECTION ===================== */}
+          {/* ============ CONTENTS — the issue's own contents page ============ */}
           <section id="in-this-issue" className="ed-section" aria-labelledby="contents-title">
             <div className="container">
               <Reveal>
                 <div className="ed-shead">
                   <div className="ed-shead__main">
-                    <p className="ed-kicker ed-kicker--red">Contents</p>
+                    <p className="ed-kicker ed-kicker--red">{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
                     <h2 id="contents-title" className="ed-shead__title">In this issue</h2>
                     <p className="ed-shead__sub">
-                      Every story from this edition that can be read on the web, in printed order and under the
-                      section it appears in, with its page number in print.
+                      Every story from this edition that can be read on the web, in printed order, with its page
+                      number in print.
                     </p>
                   </div>
                 </div>
               </Reveal>
-              <Reveal>
-                <EditionContents stories={stories} />
-              </Reveal>
+              <EditionContents stories={stories} />
             </div>
           </section>
 
@@ -274,8 +228,8 @@ export default async function EditionPage({ params }: PageProps) {
                   </p>
                 </div>
                 <div className="ed-actions">
-                  <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} className="btn btn-outline">
-                    View Original PDF <span aria-hidden="true">↗</span>
+                  <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} className="btn btn-primary">
+                    View original issue PDF <span aria-hidden="true">↗</span>
                   </PdfButton>
                 </div>
               </div>

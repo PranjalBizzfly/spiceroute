@@ -433,269 +433,13 @@
 }
 
 /* --------------------------------------------------------------------------
-   2. Hero
+   2. Action rows and fact lists (shared by page heroes)
    -------------------------------------------------------------------------- */
-/* Front page: text beside the current issue's lead photograph. The photo is a
-   verified story image, shown whole-colour — no gradient laid over it, and no
-   text set on top of it. */
-.ed-front {
-  position: relative;
-  padding-block: clamp(1.75rem, 4.5vw, 3.25rem) clamp(3rem, 6vw, 4.75rem);
-  overflow: clip;
-}
-
-.ed-front__grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: clamp(2.25rem, 6vw, 3rem);
-}
-
-@media (min-width: 1024px) {
-  .ed-front__grid {
-    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-    gap: var(--grid-gap);
-    align-items: center;
-  }
-}
-
-.ed-front__text {
-  max-width: 40rem;
-}
-
-.ed-front .ed-hero__title {
-  font-size: clamp(2.2rem, 7.4vw, 3.5rem);
-}
-
-@media (min-width: 1024px) {
-  .ed-front .ed-hero__title {
-    font-size: clamp(2.6rem, 3.7vw, 3.6rem);
-  }
-}
-
-.ed-front__media {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  margin: 0;
-  isolation: isolate;
-}
-
-.ed-front__photo {
-  grid-column: 1 / -1;
-  position: relative;
-  overflow: hidden;
-  background-color: var(--bg-plate);
-  /* Phones: edge to edge */
-  margin-inline: calc(-1 * var(--gutter));
-  aspect-ratio: 4 / 5;
-  max-height: 68svh;
-}
-
-@media (min-width: 640px) {
-  .ed-front__photo {
-    margin-inline: 0;
-    border-radius: var(--radius-plate);
-    aspect-ratio: 4 / 3;
-    max-height: none;
-  }
-}
-
-@media (min-width: 1024px) {
-  .ed-front__photo {
-    aspect-ratio: auto;
-    height: clamp(540px, 76svh, 780px);
-  }
-}
-
-.ed-front__photo img {
-  object-fit: cover;
-  transition: transform 1.1s var(--ease-editorial);
-}
-
-.ed-front__media:hover .ed-front__photo img {
-  transform: scale(1.03);
-}
-
-/* The printed cover, tucked over the photograph's lower edge */
-.ed-front__issue {
-  grid-column: 1;
-  grid-row: 2;
-  position: relative;
-  z-index: 2;
-  align-self: start;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  width: clamp(92px, 12vw, 142px);
-  margin-top: calc(-1 * clamp(3.25rem, 8vw, 6rem));
-  margin-left: clamp(0.75rem, 2.5vw, 1.5rem);
-}
-
-.ed-front__issuecover {
-  position: relative;
-  display: block;
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
-  border-radius: 2px;
-  border: 3px solid var(--bg-primary);
-  background-color: var(--bg-plate);
-  box-shadow: var(--shadow-plate);
-  transition: transform 0.45s var(--ease-editorial);
-}
-
-.ed-front__issuecover img {
-  object-fit: cover;
-}
-
-.ed-front__issue:hover .ed-front__issuecover {
-  transform: translateY(-4px);
-}
-
-.ed-front__issuetext {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--highlight-text);
-  line-height: 1.45;
-}
-
-.ed-front__issuetext span {
-  color: var(--text-muted);
-  font-weight: 600;
-  letter-spacing: 0.08em;
-}
-
-.ed-front__caption {
-  grid-column: 2;
-  grid-row: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  padding: 1.1rem 0 0 clamp(1rem, 2.5vw, 1.5rem);
-  min-width: 0;
-}
-
-.ed-front__story {
-  font-family: var(--font-serif);
-  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
-  font-weight: 700;
-  line-height: 1.15;
-  color: var(--text-heading);
-}
-
-/* One link for the story; it stretches over photo and caption */
-.ed-front__storylink {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 0% 1px;
-  transition: background-size 0.4s var(--ease-editorial);
-}
-
-.ed-front__storylink::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
-
-.ed-front__media:hover .ed-front__storylink,
-.ed-front__storylink:focus-visible {
-  background-size: 100% 1px;
-}
-
-.ed-front__standfirst {
-  font-size: 0.92rem;
-  line-height: 1.6;
-  color: var(--text-secondary);
-  max-width: var(--measure-excerpt);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Gentle drift as the photograph scrolls past (compositor-only, and only
-   where scroll-driven animation exists and motion is welcome) */
-@supports (animation-timeline: view()) {
-  @media (prefers-reduced-motion: no-preference) {
-    .ed-front__photo img {
-      scale: 1.08;
-      animation: edDrift linear both;
-      animation-timeline: view();
-      animation-range: cover 0% cover 100%;
-    }
-  }
-}
-
-@keyframes edDrift {
-  from {
-    translate: 0 -3%;
-  }
-  to {
-    translate: 0 3%;
-  }
-}
-
-.ed-hero__title {
-  font-family: var(--font-serif);
-  font-size: var(--step-display);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.025em;
-  color: var(--text-heading);
-  margin-bottom: 1.25rem;
-}
-
-.ed-hero__title em {
-  font-style: italic;
-  color: var(--emphasis);
-}
-
-.ed-hero__lede {
-  font-size: var(--step-lede);
-  line-height: 1.68;
-  color: var(--text-secondary);
-  max-width: var(--measure-lede);
-  margin-bottom: 2rem;
-}
-
 .ed-hero__actions,
 .ed-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-}
-
-/* Tertiary source CTA ("Publish Your Story") sits beside the buttons; no
-   side padding, so it starts on the text edge when it wraps */
-.ed-hero__publish {
-  align-self: center;
-}
-
-/* Welcome Aboard letter band: a portrait-led note that fills the same 7
-   columns as the Featured lead below it */
-@media (min-width: 1000px) {
-  .ed-letter {
-    display: grid;
-    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-    column-gap: var(--grid-gap);
-  }
-}
-
-.ed-letter .ed-card--horizontal {
-  grid-template-columns: minmax(0, 1fr) clamp(96px, 22vw, 168px);
-}
-
-.ed-letter .ed-card__title {
-  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
-}
-
-.ed-letter .ed-card__excerpt {
-  -webkit-line-clamp: 4;
 }
 
 /* Small phones: full-width, thumb-friendly CTAs that never wrap awkwardly */
@@ -705,15 +449,6 @@
     flex: 1 1 100%;
     padding-inline: 1.1rem;
   }
-}
-
-.ed-hero__facts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem clamp(1.5rem, 4vw, 3rem);
-  margin-top: clamp(2rem, 4vw, 2.75rem);
-  padding-top: clamp(1.5rem, 3vw, 2rem);
-  border-top: 1px solid var(--border-subtle);
 }
 
 /* dt precedes dd in the markup; show the figure above its label */
@@ -1746,104 +1481,6 @@
   }
 }
 
-/* Latest: a ruled, numbered strip — the first story wider */
-.ed-strip {
-  list-style: none;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  counter-reset: strip;
-}
-
-.ed-strip__item {
-  counter-increment: strip;
-  padding-block: 1.25rem;
-  border-top: 1px solid var(--border-subtle);
-}
-
-.ed-strip__item:last-child {
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.ed-strip .ed-card {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(88px, 24vw, 132px);
-  gap: 1rem;
-  align-items: start;
-}
-
-.ed-strip .ed-card__plate {
-  order: 2;
-  aspect-ratio: 1;
-}
-
-.ed-strip .ed-card__body {
-  padding-top: 0;
-}
-
-.ed-strip .ed-card__body::before {
-  content: counter(strip, decimal-leading-zero);
-  font-family: var(--font-serif);
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--highlight-text);
-  font-variant-numeric: tabular-nums;
-}
-
-.ed-strip .ed-card__title {
-  font-size: clamp(1.15rem, 2vw, 1.35rem);
-}
-
-@media (min-width: 820px) {
-  .ed-strip {
-    --strip-gap: var(--grid-gap);
-    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: var(--strip-gap);
-  }
-
-  .ed-strip__item {
-    position: relative;
-    padding: 0;
-    border-top: 0;
-  }
-
-  .ed-strip__item + .ed-strip__item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: calc(-0.5 * var(--strip-gap));
-    width: 1px;
-    background-color: var(--border-subtle);
-  }
-
-  .ed-strip__item:last-child {
-    border-bottom: 0;
-  }
-
-  .ed-strip .ed-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .ed-strip .ed-card__plate {
-    order: 0;
-    aspect-ratio: 3 / 2;
-  }
-
-  .ed-strip .ed-card__body {
-    padding-top: 1.1rem;
-  }
-
-  .ed-strip__item:first-child .ed-card__plate {
-    aspect-ratio: 4 / 3;
-  }
-
-  .ed-strip__item:first-child .ed-card__title {
-    font-size: clamp(1.45rem, 2.4vw, 1.95rem);
-  }
-}
-
 /* Travel: an atlas — four places in a 2 × 2 grid, the long read beside them */
 .ed-atlas {
   display: grid;
@@ -2030,65 +1667,29 @@
   }
 }
 
-/* Recent editions: the latest cover leads, three earlier covers beside it */
-.ed-shelf {
+/* Current issue: the front door. Cover and issue facts on five columns, the
+   issue's lead story on seven — the latest issue outranks every other one. */
+.ed-issuefront__grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 2rem;
+  gap: clamp(2.5rem, 6vw, 3rem) var(--grid-gap);
 }
 
-.ed-shelf > * {
+.ed-issuefront__lead {
   min-width: 0;
+  container-type: inline-size;
 }
 
-.ed-shelf .ed-shead {
-  margin-bottom: 0;
-}
-
-@media (min-width: 820px) {
-  .ed-shelf {
-    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-    grid-template-rows: auto 1fr;
-    gap: 2.5rem var(--grid-gap);
-    align-items: start;
-  }
-
-  .ed-shelf__lead {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-  }
-
-  .ed-shelf__head {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: start;
-  }
-
-  /* The earlier covers follow their heading directly, not pushed to the
-     foot of the column */
-  .ed-shelf__rest {
-    grid-column: 2;
-    grid-row: 2;
-  }
-}
-
-.ed-shelf__issue {
+.ed-issuefront__issue {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: clamp(120px, 34vw, 200px) minmax(0, 1fr);
+  gap: 1.25rem clamp(1.25rem, 4vw, 2rem);
+  align-items: end;
 }
 
-@media (min-width: 560px) and (max-width: 819px) {
-  .ed-shelf__issue {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    align-items: end;
-  }
-}
-
-.ed-shelf__cover {
+.ed-issuefront__cover {
   position: relative;
   display: block;
-  width: min(100%, 440px);
   aspect-ratio: 3 / 4;
   overflow: hidden;
   border-radius: var(--radius-plate);
@@ -2097,36 +1698,29 @@
   transition: transform 0.5s var(--ease-editorial);
 }
 
-/* Beside the other covers the lead cover fills its five columns, like the
-   Culture lead and the hero text above it */
-@media (min-width: 820px) {
-  .ed-shelf__cover {
-    width: 100%;
-  }
-}
-
-.ed-shelf__cover img {
+.ed-issuefront__cover img {
   object-fit: cover;
 }
 
-.ed-shelf__issue:hover .ed-shelf__cover {
-  transform: translateY(-5px);
+.ed-issuefront__issue:hover .ed-issuefront__cover {
+  transform: translateY(-4px);
 }
 
-.ed-shelf__title {
+.ed-issuefront__title {
   font-family: var(--font-serif);
-  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-size: clamp(2rem, 4.2vw, 3.2rem);
   font-weight: 700;
-  line-height: 1.08;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
   color: var(--text-heading);
 }
 
-.ed-shelf__title a:hover {
+.ed-issuefront__title a:hover {
   color: var(--emphasis);
 }
 
-.ed-shelf__facts {
-  margin: 0.6rem 0 0.3rem;
+.ed-issuefront__facts {
+  margin: 0.65rem 0 0.3rem;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -2134,33 +1728,139 @@
   color: var(--text-muted);
 }
 
-.ed-shelf__meta .ed-edition__kind {
+.ed-issuefront__meta .ed-edition__kind {
   margin-bottom: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
 }
 
-/* The three earlier covers: a rail on phones, a row of three above */
-@media (min-width: 480px) {
-  .ed-shelf__rest.ed-editions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--grid-gap-cards);
+/* Small phones: the cover above its facts */
+@media (max-width: 479px) {
+  .ed-issuefront__issue {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ed-issuefront__cover {
+    width: min(62vw, 240px);
   }
 }
 
-.ed-shelf__rest .ed-edition__title {
-  font-size: 1.02rem;
+@media (min-width: 1000px) {
+  .ed-issuefront__grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    align-items: start;
+  }
+
+  /* The cover fills its five columns, with the facts beneath */
+  .ed-issuefront__issue {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .ed-issuefront__cover {
+    width: min(100%, 380px);
+  }
+}
+
+/* Explore this issue: the current contents page, compact — two columns of
+   numbered, ruled entries on wide screens, each with its printed page */
+.ed-issueindex {
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  border-top: 2px solid var(--text-heading);
+}
+
+@media (min-width: 820px) {
+  .ed-issueindex {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(var(--rows, 5), auto);
+    grid-auto-flow: column;
+  }
+}
+
+.ed-issueindex__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding-block: 1.1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-issueindex__num {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--highlight-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.ed-issueindex__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.ed-issueindex__section {
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+/* The whole row is the link (::after), and the link box itself also clears
+   the 24px target-size minimum */
+.ed-issueindex__title {
+  display: inline-block;
+  padding-block: 0.2rem;
+  margin-block: -0.2rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-heading);
+}
+
+.ed-issueindex__title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-issueindex__item:hover .ed-issueindex__title,
+.ed-issueindex__title:focus-visible {
+  color: var(--emphasis);
+}
+
+.ed-issueindex__label {
+  font-style: italic;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.ed-issueindex__page {
+  font-size: var(--step-meta);
+  font-weight: 700;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 /* --------------------------------------------------------------------------
    6b. Article body (printed structure, source-exact text)
    -------------------------------------------------------------------------- */
+/* Printed place label beside the section (e.g. "Sittong") */
 .ed-article__label {
-  font-size: 0.75rem;
+  font-size: var(--step-label);
   font-weight: 700;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--highlight-text);
-  margin-bottom: 0.75rem;
+  color: var(--text-muted);
 }
 
 .ed-article__figure {
@@ -2202,8 +1902,17 @@
   color: var(--text-body);
 }
 
-.ed-article > p {
-  margin-bottom: 1.4rem;
+/* Tablet and up: an 18px reading size, ~70 characters to the line */
+@media (min-width: 768px) {
+  .ed-article {
+    font-size: 1.125rem;
+    line-height: 1.78;
+  }
+}
+
+.ed-article > p,
+.ed-fold__body > p {
+  margin-bottom: 1.5rem;
 }
 
 /* Drop cap on the opening paragraph (plain paragraphs only) */
@@ -2232,10 +1941,23 @@
   gap: 0.75rem;
   margin: 2.5rem 0 1rem;
   font-family: var(--font-serif);
-  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  font-size: clamp(1.3rem, 2.6vw, 1.6rem);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.25;
   color: var(--text-heading);
+}
+
+/* Each printed section opens after a clear break: space and a hairline */
+.ed-article > h2.ed-article__subhead {
+  margin-top: clamp(2.75rem, 6vw, 3.75rem);
+  padding-top: clamp(1.5rem, 3vw, 2rem);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-article > h2.ed-article__subhead:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .ed-article__subhead--minor {
@@ -2260,16 +1982,28 @@
   color: var(--accent-text);
 }
 
+/* Interview question, bold as printed; a rule marks the change of voice */
 .ed-article__q {
-  margin: 2rem 0 0.6rem;
+  margin: 2.25rem 0 0.75rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
   font-weight: 700;
+  line-height: 1.6;
   color: var(--text-heading);
 }
 
+/* Printed travel note ("Next stop: …") */
 .ed-article__note {
-  margin: -0.4rem 0 1.6rem;
-  font-size: 0.9rem;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: -0.25rem 0 1.75rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--highlight-tint);
+  font-size: 0.88rem;
   font-weight: 600;
+  line-height: 1.5;
   color: var(--highlight-text);
 }
 
@@ -2285,19 +2019,20 @@
   gap: 0.6rem;
 }
 
+/* Printed pull quote: set large between accent rules, a pause in the text */
 .ed-pullquote {
-  margin: 2.25rem 0;
-  padding: clamp(1.25rem, 4vw, 1.75rem) clamp(1.25rem, 5vw, 2.25rem);
-  border-left: 3px solid var(--accent);
-  background-color: var(--accent-tint);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin: clamp(2.5rem, 6vw, 3.5rem) 0;
+  padding-block: clamp(1.5rem, 4vw, 2rem);
+  border-top: 3px solid var(--accent);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .ed-pullquote p {
   font-family: var(--font-serif);
-  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  font-size: clamp(1.4rem, 3.2vw, 1.9rem);
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
   color: var(--text-heading);
 }
 
@@ -2599,54 +2334,32 @@
   margin-top: var(--space-section);
 }
 
-/* Contents list: grouped by printed section, with printed page numbers */
+/* Contents page: one numbered entry per web story, in printed order —
+   number | section, headline, standfirst, byline, printed page | photograph.
+   Ruled like a magazine's contents page, readable top to bottom. */
 .ed-toc {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: clamp(1.75rem, 4vw, 2.5rem);
+  counter-reset: toc;
   container-type: inline-size;
-}
-
-.ed-toc__section {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.25rem;
-  font-size: var(--step-label);
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent-text);
-}
-
-.ed-toc__section::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background-color: var(--border-subtle);
-}
-
-.ed-toc__list {
-  list-style: none;
+  border-top: 2px solid var(--text-heading);
 }
 
 .ed-toc__item {
   position: relative;
   display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1fr) 76px;
+  grid-template-columns: 2.25rem minmax(0, 1fr) 84px;
   gap: 0.25rem 1rem;
   align-items: start;
-  padding-block: 1.1rem;
+  padding-block: clamp(1.25rem, 3vw, 1.75rem);
   border-bottom: 1px solid var(--border-subtle);
   isolation: isolate;
 }
 
-.ed-toc__page {
+.ed-toc__num {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.3;
   color: var(--highlight-text);
   font-variant-numeric: tabular-nums;
 }
@@ -2654,20 +2367,30 @@
 .ed-toc__body {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.45rem;
   min-width: 0;
+}
+
+.ed-toc__section {
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-text);
 }
 
 .ed-toc__title {
   font-family: var(--font-serif);
-  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.6rem);
   font-weight: 700;
-  line-height: 1.22;
+  line-height: 1.2;
   color: var(--text-heading);
 }
 
 .ed-toc__label {
-  color: var(--emphasis);
+  font-style: italic;
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
 .ed-toc__link {
@@ -2687,12 +2410,12 @@
 }
 
 .ed-toc__standfirst {
-  font-size: 0.9rem;
+  max-width: var(--measure-excerpt);
+  font-size: 0.92rem;
   line-height: 1.6;
   color: var(--text-secondary);
-  max-width: var(--measure-excerpt);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -2700,16 +2423,38 @@
 .ed-toc__meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 1rem;
+  gap: 0.25rem 1.1rem;
   font-size: var(--step-meta);
   color: var(--text-muted);
 }
 
+/* The printed page: the link back to the magazine */
+.ed-toc__page {
+  font-weight: 700;
+  color: var(--highlight-text);
+}
+
+.ed-toc__read {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-toc__item:hover .ed-more__arrow {
+  transform: translateX(4px);
+}
+
 .ed-toc__thumb {
   position: relative;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: var(--radius-plate);
   background-color: var(--bg-plate);
 }
 
@@ -2719,31 +2464,29 @@
 }
 
 .ed-toc__item:hover .ed-toc__thumb img {
-  transform: scale(1.06);
+  transform: scale(1.05);
 }
 
 @container (min-width: 640px) {
   .ed-toc__item {
-    grid-template-columns: 3.5rem minmax(0, 1fr) 112px;
-    gap: 0.4rem 1.5rem;
+    grid-template-columns: 4.5rem minmax(0, 1fr) 160px;
+    gap: 0.4rem var(--grid-gap-cards);
   }
 
-  .ed-toc__page {
-    font-size: 2rem;
+  .ed-toc__num {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
+
+  .ed-toc__thumb {
+    aspect-ratio: 4 / 3;
   }
 }
 
-/* Wide screens: two columns, groups never split across them */
-@media (min-width: 1100px) {
-  .ed-toc {
-    display: block;
-    columns: 2;
-    column-gap: var(--grid-gap);
-  }
-
-  .ed-toc__group {
-    break-inside: avoid;
-    margin-bottom: 2.5rem;
+/* Wide screens: the entry text sits in a readable measure beside the photo */
+@container (min-width: 1000px) {
+  .ed-toc__item {
+    grid-template-columns: 5.5rem minmax(0, 1fr) 220px;
   }
 }
 
@@ -3172,13 +2915,16 @@
   margin: 0 auto;
 }
 
+/* Opener: rubric → headline → standfirst → byline → print source, then the
+   lead photograph. Everything shares one centre axis with the reading column;
+   a portrait photograph moves beside the headline on wide screens. */
 .ed-story__opener {
-  max-width: var(--article-opener);
-  margin: 0 auto clamp(2.5rem, 6vw, 3.75rem);
+  margin: 0 auto clamp(2.5rem, 6vw, 4rem);
 }
 
 .ed-story__header {
-  margin-bottom: clamp(2rem, 5vw, 2.75rem);
+  max-width: var(--article-opener);
+  margin: 0 auto clamp(2rem, 5vw, 3rem);
   text-align: center;
 }
 
@@ -3186,16 +2932,70 @@
   margin-bottom: 0;
 }
 
+/* Landscape lead photograph: wider than the text, never beyond --img-max
+   (a small multiple of its own pixels, set by the page) */
+.ed-story__opener--wide .ed-article__figure {
+  max-width: min(64rem, var(--img-max, 64rem));
+  margin-inline: auto;
+}
+
 /* Portrait photographs: never wider than they are sharp */
 .ed-story__opener--split .ed-article__figure {
-  max-width: 520px;
+  max-width: min(520px, var(--img-max, 520px));
   margin-inline: auto;
+}
+
+.ed-story__rubric {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.ed-story__rubric .ed-kicker {
+  margin-bottom: 0;
+}
+
+.ed-story__title {
+  font-family: var(--font-serif);
+  font-size: var(--step-display);
+  font-weight: 700;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  color: var(--text-heading);
+  margin-bottom: 1.25rem;
+}
+
+.ed-story__standfirst {
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.ed-story__byline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.ed-story__byline strong {
+  font-weight: 700;
+  color: var(--text-heading);
 }
 
 @media (min-width: 1024px) {
   /* Portrait lead photograph: headline on seven columns, photograph on five */
   .ed-story__opener--split {
-    max-width: none;
     display: grid;
     grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
     gap: var(--grid-gap);
@@ -3203,11 +3003,14 @@
   }
 
   .ed-story__opener--split .ed-story__header {
-    margin-bottom: 0;
+    max-width: none;
+    margin: 0;
     text-align: left;
   }
 
-  .ed-story__opener--split .ed-story__section {
+  .ed-story__opener--split .ed-story__rubric,
+  .ed-story__opener--split .ed-story__byline,
+  .ed-story__opener--split .ed-source--open {
     justify-content: flex-start;
   }
 
@@ -3219,72 +3022,145 @@
     margin-left: 0;
   }
 
-  .ed-story__opener--split .ed-story__byline {
-    justify-content: flex-start;
-  }
-
   .ed-story__opener--split .ed-article__figure {
     max-width: none;
     margin: 0;
   }
 }
 
-.ed-story__edition {
-  margin-bottom: 1.25rem;
-}
-
-.ed-story__edition a {
-  display: inline-flex;
-  padding: 0.35rem 0.9rem;
-  border: 1px solid var(--border-accent);
-  border-radius: var(--radius-full);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--emphasis);
-  transition: background-color 0.2s;
-}
-
-.ed-story__edition a:hover {
-  background-color: var(--highlight-tint);
-}
-
-.ed-story__section {
-  justify-content: center;
-}
-
-.ed-story__title {
-  font-family: var(--font-serif);
-  font-size: var(--step-display);
-  font-weight: 700;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  color: var(--text-heading);
-  margin-bottom: 1.35rem;
-}
-
-.ed-story__standfirst {
-  max-width: 62ch;
-  margin: 0 auto 1.75rem;
-  font-size: var(--step-lede);
-  font-style: italic;
-  line-height: 1.65;
-  color: var(--text-secondary);
-}
-
-.ed-story__byline {
+/* Print source: edition, printed pages, original PDF. A ruled bar under the
+   byline; a panel with the cover at the end of the story. */
+.ed-source {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem 1.75rem;
+}
+
+.ed-source--open {
   justify-content: center;
-  gap: 0.4rem 1.6rem;
-  padding-block: 0.95rem;
+  padding-block: 0.9rem;
   border-block: 1px solid var(--border-subtle);
-  font-size: 0.88rem;
+}
+
+.ed-source__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.75rem;
+  text-align: left;
+}
+
+.ed-source__facts dt {
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--text-muted);
 }
 
-.ed-story__byline strong {
+.ed-source__facts dd {
+  font-size: 0.95rem;
+  font-weight: 600;
   color: var(--text-heading);
+}
+
+.ed-source__facts a {
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 3px;
+}
+
+.ed-source__facts a:hover {
+  color: var(--emphasis);
+  text-decoration-color: currentColor;
+}
+
+.ed-source__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.ed-source__pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 40px;
+  padding: 0.5rem 1.05rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  background-color: var(--control-bg);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.ed-source__pdf svg,
+.ed-source .btn svg {
+  flex: none;
+}
+
+.ed-source__pdf svg {
+  color: var(--accent-text);
+}
+
+.ed-source__pdf:hover {
+  border-color: var(--accent);
+  background-color: var(--accent-tint);
+}
+
+/* End of the story */
+.ed-story__end {
+  max-width: var(--article-col);
+  margin: clamp(2.5rem, 6vw, 3.5rem) auto 0;
+}
+
+.ed-source--close {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 1rem 1.25rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius-plate);
+  background-color: var(--bg-raised);
+}
+
+.ed-source--close .ed-source__actions {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 560px) {
+  .ed-source--close {
+    grid-template-columns: 76px minmax(0, 1fr);
+    align-items: center;
+  }
+
+  .ed-source--close .ed-source__actions {
+    grid-column: 2;
+  }
+}
+
+.ed-source__cover {
+  position: relative;
+  grid-row: span 2;
+  align-self: start;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: var(--shadow-plate);
+}
+
+.ed-source__cover img {
+  object-fit: cover;
+}
+
+@media (max-width: 559px) {
+  .ed-source__cover {
+    grid-row: auto;
+  }
 }
 
 .ed-story__tags {
@@ -3298,69 +3174,14 @@
   border-top: 1px solid var(--border-subtle);
 }
 
-.ed-story__issue {
-  margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: 64px minmax(0, 1fr);
-  gap: 1rem 1.25rem;
-  align-items: center;
-  padding: 1.1rem 1.25rem;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-plate);
-  background-color: var(--bg-raised);
-}
-
-.ed-story__issue .btn {
-  grid-column: 1 / -1;
-  justify-self: start;
-}
-
-@media (min-width: 640px) {
-  .ed-story__issue {
-    grid-template-columns: 72px minmax(0, 1fr) auto;
-  }
-
-  .ed-story__issue .btn {
-    grid-column: auto;
-  }
-}
-
-.ed-story__issuecover {
-  position: relative;
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
-  border-radius: 3px;
-}
-
-.ed-story__issuecover img {
-  object-fit: cover;
-}
-
-.ed-story__issue .ed-kicker {
-  margin-bottom: 0.3rem;
-}
-
-.ed-story__issuetitle {
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text-heading);
-}
-
-.ed-story__issuetitle a:hover {
-  color: var(--emphasis);
-}
-
-.ed-story__issuemeta {
-  margin-top: 0.2rem;
-  font-size: var(--step-meta);
-  color: var(--text-muted);
-}
-
 .ed-story__related {
   margin-top: var(--space-section);
   padding-top: var(--space-block);
   border-top: 1px solid var(--border-subtle);
+}
+
+.ed-story__related + .ed-story__related {
+  margin-top: var(--space-block);
 }
 
 /* Related stories lead with their own photographs (4:3 keeps portrait
@@ -3373,67 +3194,44 @@
   -webkit-line-clamp: 2;
 }
 
+/* Phones: compact rows — a small photograph beside the headline — so the
+   end of a story is a short list to choose from, not a wall of cards */
+@media (max-width: 619px) {
+  .ed-related {
+    gap: 0;
+  }
+
+  .ed-related .ed-card {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    padding-block: 1rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .ed-related .ed-card__plate {
+    aspect-ratio: 1;
+  }
+
+  .ed-related .ed-card__body {
+    gap: 0.35rem;
+    padding-top: 0;
+  }
+
+  .ed-related .ed-card__title {
+    font-size: 1.1rem;
+  }
+
+  .ed-related .ed-card__excerpt {
+    display: none;
+  }
+}
+
 /* --------------------------------------------------------------------------
-   6g. Article interactions: original PDF, printed photographs, lightbox,
-       "In this story", reading progress
+   6g. Article interactions: printed photographs, lightbox, "In this story",
+       reading progress
    -------------------------------------------------------------------------- */
-.ed-story__original {
-  display: flex;
-  justify-content: center;
-  margin-top: 1.1rem;
-}
-
-.ed-story__pdf {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius-full);
-  background-color: var(--control-bg);
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--text-heading);
-  cursor: pointer;
-  transition: border-color 0.2s, color 0.2s, background-color 0.2s;
-}
-
-.ed-story__pdf svg {
-  flex: none;
-  color: var(--accent-text);
-}
-
-.ed-story__pdf:hover {
-  border-color: var(--accent);
-  background-color: var(--accent-tint);
-}
-
-.ed-story__pdfpages {
-  font-weight: 500;
-  color: var(--text-muted);
-}
-
-@media (min-width: 1024px) {
-  .ed-story__opener--split .ed-story__original {
-    justify-content: flex-start;
-  }
-}
-
-.ed-story__issueactions {
-  grid-column: 1 / -1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-@media (min-width: 640px) {
-  .ed-story__issueactions {
-    grid-column: auto;
-    justify-content: flex-end;
-  }
-}
-
 /* The body wraps the text so the contents rail can run beside it (see
    "In this story" below) */
 .ed-story__body {
@@ -3991,60 +3789,6 @@
   }
 }
 
-.ed-contact__figure {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-subtle);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.ed-contact__figure span {
-  font-family: var(--font-serif);
-  font-size: clamp(3rem, 8vw, 4.5rem);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  text-transform: none;
-  color: var(--emphasis);
-}
-
-.ed-contact__list > div {
-  padding-block: 1.1rem;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.ed-contact__list dt {
-  margin-bottom: 0.35rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--highlight-text);
-}
-
-.ed-contact__list dd,
-.ed-contact__list address {
-  font-size: 0.95rem;
-  font-style: normal;
-  line-height: 1.7;
-  color: var(--text-secondary);
-}
-
-.ed-contact__list a {
-  display: inline-block;
-  padding-block: 0.2rem;
-  color: var(--text-heading);
-}
-
-.ed-contact__list a:hover {
-  color: var(--emphasis);
-}
-
 .ed-contact__intro {
   margin: 0.75rem 0 1.75rem;
   color: var(--text-secondary);
@@ -4533,18 +4277,9 @@ textarea.ed-form__input {
   .ed-edition__cover img,
   .ed-card--quote:hover,
   .ed-more__arrow,
-  .ed-front__photo img,
-  .ed-front__issuecover,
-  .ed-shelf__cover,
   .ed-index__thumb img,
   .ed-toc__thumb img {
     transition: none !important;
     transform: none !important;
-  }
-
-  .ed-front__photo img {
-    animation: none !important;
-    scale: none !important;
-    translate: none !important;
   }
 }

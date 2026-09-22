@@ -79,7 +79,7 @@ const weightRank = (font) => {
 // Join an ordered list of blocks into paragraphs of styled runs.
 async function flow(slug, edition, ids, { plain = false, dropcap = null, lightBase = false } = {}) {
   const lines = [];
-  for (const id of ids) {
+  for (const id of ids.flat(Infinity)) {
     const b = await block(edition, id);
     for (const l of b.rawLines) lines.push({ ...l, page: b.page, size: b.size });
   }
@@ -244,7 +244,15 @@ export async function buildArticle(spec) {
     if (!spec.titleArtwork.verifiedFromRender) flag(slug, "titleArtwork needs verifiedFromRender");
     mustBePrinted("title (text-layer part)", spec.titleArtwork.textLayer);
   } else mustBePrinted("title", spec.title);
-  mustBePrinted("section", spec.section);
+  if (spec.sectionPdfPage) {
+    // single-page pieces whose section running head is printed only on the
+    // facing page of the spread (the 2024 'Open House' day pages)
+    docs[edition] ??= await pdfjs.getDocument({ data: new Uint8Array(await fs.readFile(`pdf/${edition}.pdf`)), verbosity: 0 }).promise;
+    blockCache[`${edition}-p${spec.sectionPdfPage}`] ??= await pageBlocks(docs[edition], spec.sectionPdfPage);
+    const facing = norm(blockCache[`${edition}-p${spec.sectionPdfPage}`].map((b) => b.text).join(" "));
+    const missing = norm(spec.section).split(/\s+/).filter((w) => !facing.includes(w));
+    if (missing.length) flag(slug, `section "${spec.section}" not printed on facing page ${spec.sectionPdfPage}`);
+  } else mustBePrinted("section", spec.section);
   mustBePrinted("label", spec.label);
   mustBePrinted("author", spec.author);
   mustBePrinted("byline label", spec.bylineLabel);
@@ -282,7 +290,8 @@ export async function buildArticle(spec) {
       // a drop cap drawn as artwork (not in the text layer), verified on the render
       if (seg.dropcapArtwork) {
         if (!seg.dropcapArtwork.verifiedFromRender) flag(slug, "dropcapArtwork needs verifiedFromRender");
-        paras[0] = seg.dropcapArtwork.letter + paras[0];
+        // inside any opening emphasis marker ("W**hy**" → "**Why**")
+        paras[0] = paras[0].replace(/^(\*{0,2})/, `$1${seg.dropcapArtwork.letter}`);
       }
       // single: one printed statement set in mixed sizes (infographics) — never split
       if (seg.single) body.push({ type: "p", text: paras.join(" "), page: paras.pages[0] });
@@ -412,6 +421,7 @@ export async function buildArticle(spec) {
       printedPages,
       ...(spread ? { spreads: true } : {}),
       imagePdfPage: spec.imagePdfPage,
+      ...(spec.sectionPdfPage ? { sectionPdfPage: spec.sectionPdfPage } : {}),
     },
   };
 }

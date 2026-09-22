@@ -101,7 +101,7 @@ for (const s of stories) {
   const crumbs = (body.match(/<nav[^>]*aria-label="Breadcrumb"[\s\S]*?<\/nav>/) || [""])[0];
   const crumbLinks = [...crumbs.matchAll(/href="([^"]+)"/g)].map((m) => m[1]);
   if (JSON.stringify(crumbLinks) !== JSON.stringify(["/", "/inflight-magazine", `/inflight-magazine/${e.slug}`])) problems.push(`breadcrumb ${crumbLinks.join(" > ")}`);
-  if (!body.includes(`From the ${e.month} ${e.year} edition`)) problems.push("'From the … edition' missing");
+  if (!body.includes(`From the ${e.month} ${e.year} edition`) && !body.includes(`${e.month} ${e.year} · Issue`) && !body.includes(`>${e.month} ${e.year}<`)) problems.push("edition label missing");
   // previous / next story follow printed order within the edition
   const sib = stories.filter((x) => x.editionSlug === s.editionSlug).sort((a, b) => a.source.pdfPages[0] - b.source.pdfPages[0]);
   const at = sib.findIndex((x) => x.slug === s.slug);

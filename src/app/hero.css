@@ -1,0 +1,361 @@
+/* ==========================================================================
+   Spice Route — Home, About and Contact heroes
+   Recreated from spiceroutemagazine.in: the SpiceJet-red band that continues
+   the header, Gotham-style type (Montserrat), the orange "Publish Your Story"
+   CTA and the slanted white edges. Sizes follow the source's Elementor
+   breakpoints: desktop > 1024px, tablet 768–1024px, mobile < 768px.
+   Colours come from the --hero-* tokens in globals.css.
+   ========================================================================== */
+.ed-shero {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background-color: var(--hero-bg);
+  color: var(--hero-text);
+  font-family: var(--font-hero);
+  --shape-h: 60px;
+}
+
+/* Slanted edge into the next section, as on the source */
+.ed-shero__shape {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: var(--shape-h);
+  fill: var(--bg-primary);
+  pointer-events: none;
+}
+
+.ed-shero__title {
+  font-family: var(--font-hero);
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--hero-text);
+}
+
+/* --------------------------------------------------------------------------
+   Home: text beside the covers-and-aircraft artwork
+   -------------------------------------------------------------------------- */
+.ed-shero--home {
+  padding-block: 40px 80px;
+}
+
+.ed-shero--home .ed-shero__inner {
+  display: grid;
+  /* Montserrat sets a touch wider than Gotham: a slightly wider text column
+     keeps the source headline on three lines */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  align-items: center;
+  /* On the site grid, so the text lines up with the header logo */
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.ed-shero__kicker {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ed-shero__logo {
+  display: block;
+  width: 103px;
+  height: auto;
+  margin-block: 10px;
+}
+
+.ed-shero--home .ed-shero__title {
+  font-size: clamp(32px, 2.8vw, 40px);
+  line-height: 1.15;
+}
+
+.ed-shero__lede {
+  max-width: 36rem;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--hero-text);
+}
+
+.ed-shero__btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 30px;
+  border-radius: 8px;
+  background-color: var(--hero-cta-bg);
+  color: var(--hero-cta-text);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.25s var(--ease-editorial), transform 0.25s var(--ease-editorial);
+}
+
+.ed-shero__btn:hover {
+  background-color: var(--hero-cta-hover);
+  color: var(--hero-cta-text);
+  transform: translateY(-2px);
+}
+
+.ed-shero__btn:focus-visible {
+  outline: 2px solid var(--hero-text);
+  outline-offset: 3px;
+}
+
+.ed-shero__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Tablet: centred text above the artwork */
+@media (max-width: 1024px) {
+  .ed-shero--home {
+    padding-block: 24px 0;
+  }
+
+  .ed-shero--home .ed-shero__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    text-align: center;
+  }
+
+  .ed-shero--home .ed-shero__logo {
+    margin-inline: auto;
+  }
+
+  .ed-shero--home .ed-shero__lede {
+    margin-inline: auto;
+    max-width: 44rem;
+  }
+
+  .ed-shero--home .ed-shero__media {
+    width: min(100%, 720px);
+    margin-inline: auto;
+  }
+}
+
+/* Mobile: artwork first, then the text, as on the source */
+@media (max-width: 767px) {
+  .ed-shero--home {
+    padding-block: 24px 60px;
+    --shape-h: 24px;
+  }
+
+  .ed-shero--home .ed-shero__media {
+    order: -1;
+  }
+
+  .ed-shero__logo {
+    width: 74px;
+  }
+
+  .ed-shero--home .ed-shero__title {
+    font-size: 22px;
+  }
+
+  .ed-shero__lede {
+    font-size: 14px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   About: full-bleed aircraft photograph
+   -------------------------------------------------------------------------- */
+.ed-shero--about {
+  min-height: 720px;
+  --shape-h: 80px;
+}
+
+.ed-shero__bg {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media (max-width: 1024px) {
+  .ed-shero--about {
+    --shape-h: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ed-shero--about {
+    min-height: 360px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Contact: photo collage and 14M+ figure beside the headline and details
+   -------------------------------------------------------------------------- */
+.ed-shero--contact {
+  padding-block: 24px 70px;
+}
+
+.ed-shero__crumbs {
+  margin-bottom: 26px;
+  color: var(--hero-text);
+}
+
+.ed-shero__crumbs a,
+.ed-shero__crumbs a:hover,
+.ed-shero__crumbs [aria-current="page"],
+.ed-shero__crumbs li + li::before {
+  color: var(--hero-text);
+}
+
+.ed-shero__crumbs a {
+  text-decoration-color: rgba(255, 255, 255, 0.55);
+}
+
+.ed-shero__crumbs a:hover {
+  text-decoration-color: currentColor;
+}
+
+.ed-shero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: clamp(2rem, 7vw, 110px);
+  align-items: start;
+}
+
+/* Positions measured from the source layout (563 × 636) */
+.ed-shero__collage {
+  position: relative;
+  width: min(100%, 563px);
+  aspect-ratio: 563 / 636;
+  margin-inline: auto;
+}
+
+.ed-shero__photo {
+  position: absolute;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 16px 30px -8px rgba(0, 0, 0, 0.45);
+}
+
+.ed-shero__photo img {
+  object-fit: cover;
+}
+
+.ed-shero__photo--one {
+  top: 1.6%;
+  left: 0;
+  width: 46.9%;
+}
+
+.ed-shero__photo--two {
+  top: 44%;
+  left: 34.8%;
+  z-index: 1;
+  width: 47.4%;
+}
+
+.ed-shero__stat {
+  position: absolute;
+  top: 3.1%;
+  left: 52.6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 47.4%;
+  height: 37.7%;
+  padding: 0 clamp(12px, 3.5vw, 30px);
+  border-radius: 8px;
+  background-color: var(--hero-cta-bg);
+  color: var(--hero-cta-text);
+}
+
+.ed-shero__statnum {
+  font-size: clamp(30px, 4.4vw, 50px);
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.ed-shero__statlabel {
+  margin-top: 16px;
+  font-size: clamp(13px, 1.6vw, 18px);
+  font-weight: 500;
+  line-height: 1.55;
+}
+
+.ed-shero--contact .ed-shero__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ed-shero__list > div {
+  margin-top: 26px;
+}
+
+.ed-shero__list dt {
+  margin-bottom: 14px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.ed-shero__list dd,
+.ed-shero__list address {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--hero-text);
+}
+
+.ed-shero__list a {
+  display: inline-block;
+  padding-block: 0.15rem;
+  color: var(--hero-text);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+.ed-shero__list a:hover {
+  color: var(--hero-text);
+  text-decoration-color: currentColor;
+}
+
+.ed-shero__list a:focus-visible {
+  outline: 2px solid var(--hero-text);
+  outline-offset: 2px;
+}
+
+/* Mobile: headline and details first, then the collage */
+@media (max-width: 767px) {
+  .ed-shero__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+  }
+
+  .ed-shero__collage {
+    order: 1;
+    width: min(100%, 420px);
+  }
+
+  .ed-shero--contact .ed-shero__title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .ed-shero__list dt {
+    font-size: 24px;
+  }
+}
+
+/* The contact form, on its own below the hero */
+.ed-shero-form {
+  max-width: 860px;
+  margin-inline: auto;
+}

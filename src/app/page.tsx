@@ -9,10 +9,10 @@ import PartnerLogos from "@/components/PartnerLogos";
 import PdfButton from "@/components/PdfButton";
 import Reveal from "@/components/Reveal";
 import StatsSection from "@/components/StatsSection";
-import StoryCard, { categoryLabel, storyKicker } from "@/components/StoryCard";
+import StoryCard, { categoryLabel } from "@/components/StoryCard";
 import StoryIndexList from "@/components/StoryIndexList";
-import { editionDate, getEdition, getEditions, getLatestEdition } from "@/lib/content";
-import { imageFocus } from "@/lib/imageFocus";
+import IssueIndex from "@/components/edition/IssueIndex";
+import { editionDate, getEditions, getEditionStories, getLatestEdition } from "@/lib/content";
 
 /* --------------------------------------------------------------------------
    Editorial running order.
@@ -22,11 +22,9 @@ import { imageFocus } from "@/lib/imageFocus";
    closing index, so no verified story can silently drop off the page.
    -------------------------------------------------------------------------- */
 
-// Opens the page: the lead photograph of the current issue
+// The current issue's lead story, beside its cover. If it is missing, the
+// issue's first story after the Chairman's letter leads instead.
 const LEAD = ["kolkata-forever-day-in-a-city"];
-
-// The Chairman's letter that opens the current issue (PDF page 4)
-const LETTER = ["welcome-aboard-september-2026"];
 
 const FEATURED = [
   "five-monsoon-escapes-rain-kissed-splendour",
@@ -34,11 +32,8 @@ const FEATURED = [
   "ladakh-roof-of-the-world",
 ];
 
-const LATEST = [
-  "saving-the-greater-one-horned-rhino",
-  "sweet-devotion-modak-traditions",
-  "my-hometown-gwalior",
-];
+// The closing "More stories" list stays short; the rest are in the archive
+const MORE_LIMIT = 6;
 
 // Lead first, then the four places
 const TRAVEL = [
@@ -71,7 +66,10 @@ const delay = (ms: number) => ({ "--rise-delay": ms }) as React.CSSProperties;
 export default function HomePage() {
   const editions = getEditions();
   const latestEdition = getLatestEdition();
-  const [shelfLead, ...shelfRest] = editions.slice(0, 4);
+  // The current issue, in printed order: its contents lead the page
+  const issueStories = getEditionStories(latestEdition.slug);
+  // Earlier issues only — the current one already leads the page
+  const earlierEditions = editions.slice(1, 5);
 
   const bySlug = new Map(stories.map((story) => [story.slug, story]));
   const used = new Set<string>();
@@ -88,17 +86,16 @@ export default function HomePage() {
     return selected;
   };
 
-  const leadStory = pick(LEAD)[0] ?? stories[0];
-  if (leadStory) used.add(leadStory.slug);
-  const leadEdition = leadStory ? getEdition(leadStory.editionSlug) : undefined;
-
-  const [letter] = pick(LETTER);
+  const fallbackLead = issueStories.find((s) => s.section !== "Welcome Aboard");
+  const leadStory = pick(LEAD)[0] ?? (fallbackLead ? pick([fallbackLead.slug])[0] : undefined);
   const featuredStories = pick(FEATURED);
-  const latestStories = pick(LATEST);
   const travelStories = pick(TRAVEL);
   const foodStories = pick(FOOD);
   const cultureStories = pick(CULTURE);
+  // Every current-issue story is listed in "Explore this issue"
+  issueStories.forEach((s) => used.add(s.slug));
   const remainingStories = stories.filter((story) => !used.has(story.slug));
+  const moreStories = remainingStories.slice(0, MORE_LIMIT);
 
   const [featureLead, ...featureSupport] = featuredStories;
   const [travelLead, ...travelRest] = travelStories;
@@ -109,138 +106,105 @@ export default function HomePage() {
   return (
     <>
       {/* ================================================================
-          1. FRONT PAGE — the current issue's lead photograph
+          1. HERO — recreated from the spiceroutemagazine.in homepage: the red
+          band, "A Publication by" NKN Media, its headline, standfirst and
+          "Publish Your Story" CTA beside the covers-and-aircraft artwork
           ================================================================ */}
-      <section className="ed-front" aria-labelledby="hero-title">
-        <div className="container ed-front__grid">
-          <div className="ed-front__text">
-            {/* Source homepage: "A Publication by" NKN Media */}
-            <p className="ed-kicker ed-rise">A Publication by {siteConfig.publisher.name}</p>
-
-            <h1 id="hero-title" className="ed-hero__title ed-rise" style={delay(40)}>
-              Discover stories, destinations, and inspiration with <em>SpiceRoute</em>
+      <section className="ed-shero ed-shero--home" aria-labelledby="hero-title">
+        <div className="ed-shero__inner">
+          <div className="ed-shero__text">
+            <p className="ed-shero__kicker ed-rise">A Publication by</p>
+            <Image
+              src="/images/hero/nkn-media-logo.webp"
+              alt={siteConfig.publisher.name}
+              width={469}
+              height={328}
+              className="ed-shero__logo ed-rise"
+              style={delay(30)}
+              sizes="110px"
+              priority
+            />
+            <h1 id="hero-title" className="ed-shero__title ed-rise" style={delay(60)}>
+              Discover stories, destinations, and inspiration with SpiceRoute
             </h1>
-
-            <p className="ed-hero__lede ed-rise" style={delay(80)}>
+            <p className="ed-shero__lede ed-rise" style={delay(90)}>
               {siteConfig.description}
             </p>
-
-            <div className="ed-hero__actions ed-rise" style={delay(120)}>
-              <Link href={latestHref} className="btn btn-primary">
-                Read the {latestEdition.month} {latestEdition.year} issue
-                <span aria-hidden="true">&rarr;</span>
-              </Link>
-              <Link href="/inflight-magazine" className="btn btn-outline">
-                Browse all {editions.length} editions
-              </Link>
-              {/* Source homepage CTA */}
-              <Link href="/contact" className="ed-more ed-hero__publish">
-                Publish Your Story
-                <span className="ed-more__arrow" aria-hidden="true">
-                  &rarr;
-                </span>
-              </Link>
-            </div>
-
-            {/* Figures from the source homepage copy */}
-            <dl className="ed-hero__facts ed-rise" style={delay(160)}>
-              <div className="ed-fact">
-                <dt className="ed-fact__label">Monthly passengers</dt>
-                <dd className="ed-fact__value">1M+</dd>
-              </div>
-              <div className="ed-fact">
-                <dt className="ed-fact__label">Destinations</dt>
-                <dd className="ed-fact__value ed-fact__value--gold">63</dd>
-              </div>
-              <div className="ed-fact">
-                <dt className="ed-fact__label">Years of excellence</dt>
-                <dd className="ed-fact__value">17</dd>
-              </div>
-              {latestEdition.issue && (
-                <div className="ed-fact">
-                  <dt className="ed-fact__label">Current issue</dt>
-                  <dd className="ed-fact__value ed-fact__value--gold">No. {latestEdition.issue}</dd>
-                </div>
-              )}
-            </dl>
+            <Link href="/contact" className="ed-shero__btn ed-rise" style={delay(120)}>
+              Publish Your Story
+            </Link>
           </div>
 
-          {leadStory?.heroImage && (
-            <figure className="ed-front__media">
-              <div className="ed-front__photo">
-                <Image
-                  src={leadStory.heroImage}
-                  alt={leadStory.heroImageAlt ?? ""}
-                  fill
-                  loading="eager"
-                  fetchPriority="high"
-                  sizes="(max-width: 1023px) 100vw, 720px"
-                  style={{ objectPosition: imageFocus(leadStory.heroImage) }}
-                />
-              </div>
-
-              <figcaption className="ed-front__caption">
-                <p className="ed-card__cat">
-                  {storyKicker(leadStory) ?? categoryLabel(leadStory.category)}
-                  {leadEdition ? ` · ${leadEdition.month} ${leadEdition.year}` : ""}
-                </p>
-                <h2 className="ed-front__story">
-                  {/* One link; it stretches over the photograph */}
-                  <Link href={`/stories/${leadStory.category}/${leadStory.slug}`} className="ed-front__storylink">
-                    {leadStory.title}
-                  </Link>
-                </h2>
-                <p className="ed-front__standfirst">{leadStory.excerpt}</p>
-                {leadStory.author && (
-                  <p className="ed-card__meta">
-                    <span className="ed-card__author">{leadStory.author}</span>
-                  </p>
-                )}
-              </figcaption>
-
-              {/* The printed cover of the current issue, tucked onto the photograph */}
-              <Link href={latestHref} className="ed-front__issue">
-                <span className="ed-front__issuecover">
-                  <Image
-                    src={latestEdition.cover}
-                    alt={`Cover of ${latestEdition.title}`}
-                    fill
-                    loading="eager"
-                    sizes="150px"
-                  />
-                </span>
-                <span className="ed-front__issuetext">
-                  {latestEdition.issue ? `Issue ${latestEdition.issue}` : "Current issue"}
-                  <span>
-                    {latestEdition.month} {latestEdition.year}
-                  </span>
-                </span>
-              </Link>
-            </figure>
-          )}
+          <div className="ed-shero__media ed-rise" style={delay(80)}>
+            <Image
+              src="/images/hero/home-hero-magazines.webp"
+              alt="Spice Route magazine covers in flight beside a SpiceJet aircraft"
+              width={1600}
+              height={984}
+              sizes="(max-width: 767px) 100vw, (max-width: 1024px) 90vw, 56vw"
+              priority
+            />
+          </div>
         </div>
+
+        <svg className="ed-shero__shape" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M0,100V95L738,1L1000,94.4V100Z" />
+        </svg>
       </section>
 
       {/* ================================================================
-          1b. WELCOME ABOARD — the Chairman's letter that opens the issue
+          2. CURRENT ISSUE — the front door: this month's cover, its facts and
+          its lead story
           ================================================================ */}
-      {letter && (
-        <section className="ed-section ed-section--tight ed-section--rule" aria-label="Welcome Aboard">
-          <div className="container">
-            <Reveal>
-              <div className="ed-letter">
-                <StoryCard
-                  story={letter}
-                  variant="horizontal"
-                  withImage
-                  headingLevel="h2"
-                  sizes="(max-width: 559px) 112px, 168px"
-                />
+      <section id="current-issue" className="ed-section ed-issuefront" aria-labelledby="current-issue-title">
+        <div className="container ed-issuefront__grid">
+          <Reveal className="ed-issuefront__issue">
+            <Link href={latestHref} className="ed-issuefront__cover" tabIndex={-1} aria-hidden="true">
+              <Image
+                src={latestEdition.cover}
+                alt=""
+                fill
+                sizes="(max-width: 559px) 40vw, 300px"
+                priority
+              />
+            </Link>
+            <div className="ed-issuefront__meta">
+              <p className="ed-kicker ed-kicker--red">Current issue</p>
+              <h2 id="current-issue-title" className="ed-issuefront__title">
+                <Link href={latestHref}>{editionDate(latestEdition)}</Link>
+              </h2>
+              <p className="ed-issuefront__facts">
+                {latestEdition.issue ? `Volume ${latestEdition.volume} · Issue ${latestEdition.issue}` : latestEdition.title}
+                {latestEdition.pageCount ? ` · ${latestEdition.pageCount} pages in print` : ""}
+              </p>
+              <p className="ed-edition__kind is-web">
+                {issueStories.length} {issueStories.length === 1 ? "story" : "stories"} to read on the web
+              </p>
+              <div className="ed-actions">
+                <Link href={latestHref} className="btn btn-primary">
+                  Read this issue <span aria-hidden="true">&rarr;</span>
+                </Link>
+                <PdfButton pdfUrl={latestEdition.pdfUrl} title={latestEdition.title} className="ed-more ed-issue__pdf">
+                  Original PDF <span aria-hidden="true">↗</span>
+                </PdfButton>
               </div>
+            </div>
+          </Reveal>
+
+          {leadStory && (
+            <Reveal className="ed-issuefront__lead" delay={80}>
+              <StoryCard
+                story={leadStory}
+                variant="featured"
+                headingLevel="h3"
+                stacked
+                priority
+                sizes="(max-width: 999px) 92vw, 700px"
+              />
             </Reveal>
-          </div>
-        </section>
-      )}
+          )}
+        </div>
+      </section>
 
       {/* ================================================================
           2. FEATURED — one dominant feature, a conversation, a photo essay
@@ -305,38 +269,34 @@ export default function HomePage() {
       )}
 
       {/* ================================================================
-          3. LATEST — a ruled, numbered strip
+          4. EXPLORE THIS ISSUE — its contents page, in printed order
           ================================================================ */}
-      {latestStories.length > 0 && (
-        <section id="latest" className="ed-section" aria-labelledby="latest-title">
+      {issueStories.length > 0 && (
+        <section id="latest" className="ed-section" aria-labelledby="explore-title">
           <div className="container">
             <Reveal>
               <div className="ed-shead">
                 <div className="ed-shead__main">
-                  <p className="ed-kicker ed-kicker--red">{latestEdition.title}</p>
-                  <h2 id="latest-title" className="ed-shead__title">
-                    Latest stories
+                  <p className="ed-kicker ed-kicker--red">
+                    {latestEdition.issue ? `Issue ${latestEdition.issue} · ` : ""}
+                    {editionDate(latestEdition)}
+                  </p>
+                  <h2 id="explore-title" className="ed-shead__title">
+                    Explore this issue
                   </h2>
+                  <p className="ed-shead__sub">Every story from the issue, in printed order, with its page in print.</p>
                 </div>
+                <Link href={`${latestHref}#in-this-issue`} className="ed-more">
+                  Full contents
+                  <span className="ed-more__arrow" aria-hidden="true">
+                    &rarr;
+                  </span>
+                </Link>
               </div>
             </Reveal>
-
-            <ol className="ed-strip">
-              {latestStories.map((story, i) => (
-                <Reveal as="li" key={story.slug} delay={i * 80} className="ed-strip__item">
-                  <StoryCard
-                    story={story}
-                    variant="standard"
-                    showEdition
-                    sizes={
-                      i === 0
-                        ? "(max-width: 699px) 104px, (max-width: 1099px) 40vw, 520px"
-                        : "(max-width: 699px) 104px, (max-width: 1099px) 30vw, 380px"
-                    }
-                  />
-                </Reveal>
-              ))}
-            </ol>
+            <Reveal>
+              <IssueIndex stories={issueStories} />
+            </Reveal>
           </div>
         </section>
       )}
@@ -462,11 +422,41 @@ export default function HomePage() {
       )}
 
       {/* ================================================================
-          7. RECENT EDITIONS — the latest cover leads, three before it
+          8. MORE STORIES — a short index from earlier issues; the rest are
+          listed in the archive
+          ================================================================ */}
+      {moreStories.length > 0 && (
+        <section className="ed-section ed-section--rule" aria-labelledby="more-title">
+          <div className="container">
+            <Reveal>
+              <div className="ed-shead">
+                <div className="ed-shead__main">
+                  <p className="ed-kicker ed-kicker--red">From earlier issues</p>
+                  <h2 id="more-title" className="ed-shead__title">
+                    More stories
+                  </h2>
+                </div>
+                <Link href="/search" className="ed-more">
+                  All stories
+                  <span className="ed-more__arrow" aria-hidden="true">
+                    &rarr;
+                  </span>
+                </Link>
+              </div>
+            </Reveal>
+            <Reveal>
+              <StoryIndexList stories={moreStories} withThumbs />
+            </Reveal>
+          </div>
+        </section>
+      )}
+
+      {/* ================================================================
+          9. RECENT EDITIONS — the issues before the current one
           ================================================================ */}
       <section id="editions" className="ed-section ed-section--tint" aria-labelledby="editions-title">
-        <div className="container ed-shelf">
-          <Reveal className="ed-shelf__head">
+        <div className="container">
+          <Reveal>
             <div className="ed-shead">
               <div className="ed-shead__main">
                 <p className="ed-kicker">Inflight archive</p>
@@ -484,82 +474,15 @@ export default function HomePage() {
             </div>
           </Reveal>
 
-          {shelfLead && (
-            <Reveal className="ed-shelf__lead">
-              <article className="ed-shelf__issue" aria-labelledby="shelf-lead-title">
-                <Link
-                  href={`/inflight-magazine/${shelfLead.slug}`}
-                  className="ed-shelf__cover"
-                  tabIndex={-1}
-                  aria-hidden="true"
-                >
-                  <Image
-                    src={shelfLead.cover}
-                    alt=""
-                    fill
-                    sizes="(max-width: 819px) 72vw, 420px"
-                    loading="lazy"
-                  />
-                </Link>
-                <div className="ed-shelf__meta">
-                  <p className="ed-kicker ed-kicker--red">Latest edition</p>
-                  <h3 id="shelf-lead-title" className="ed-shelf__title">
-                    <Link href={`/inflight-magazine/${shelfLead.slug}`}>{editionDate(shelfLead)}</Link>
-                  </h3>
-                  <p className="ed-shelf__facts">
-                    {shelfLead.issue ? `Volume ${shelfLead.volume} · Issue ${shelfLead.issue}` : shelfLead.title}
-                    {shelfLead.pageCount ? ` · ${shelfLead.pageCount} pages in print` : ""}
-                  </p>
-                  <p className="ed-edition__kind is-web">
-                    {shelfLead.pdfOnly
-                      ? "Full edition available as PDF"
-                      : `${shelfLead.storyIds.length} ${shelfLead.storyIds.length === 1 ? "story" : "stories"} to read on the web`}
-                  </p>
-                  <div className="ed-actions">
-                    <Link href={`/inflight-magazine/${shelfLead.slug}`} className="btn btn-primary">
-                      {shelfLead.pdfOnly ? "Open edition" : "Read Online"} <span aria-hidden="true">&rarr;</span>
-                    </Link>
-                    <PdfButton pdfUrl={shelfLead.pdfUrl} title={shelfLead.title} className="ed-more ed-issue__pdf">
-                      View Original PDF <span aria-hidden="true">↗</span>
-                    </PdfButton>
-                  </div>
-                </div>
-              </article>
-            </Reveal>
-          )}
-
-          <div className="ed-shelf__rest ed-editions">
-            {shelfRest.map((edition, i) => (
+          <div className="ed-editions">
+            {earlierEditions.map((edition, i) => (
               <Reveal key={edition.slug} delay={i * 70}>
-                <EditionCard edition={edition} sizes="(max-width: 479px) 60vw, (max-width: 819px) 30vw, 220px" />
+                <EditionCard edition={edition} sizes="(max-width: 479px) 60vw, (max-width: 819px) 45vw, 290px" />
               </Reveal>
             ))}
           </div>
         </div>
       </section>
-
-      {/* ================================================================
-          8. MORE FROM THE ARCHIVE — safety net for unplaced stories
-          ================================================================ */}
-      {remainingStories.length > 0 && (
-        <section className="ed-section" aria-labelledby="more-title">
-          <div className="container">
-            <Reveal>
-              <div className="ed-shead">
-                <div className="ed-shead__main">
-                  <p className="ed-kicker ed-kicker--red">Also in this archive</p>
-                  <h2 id="more-title" className="ed-shead__title">
-                    More Spice Route stories
-                  </h2>
-                </div>
-              </div>
-            </Reveal>
-            <Reveal>
-              <StoryIndexList stories={remainingStories} />
-            </Reveal>
-          </div>
-        </section>
-      )}
 
       {/* ================================================================
           9. ABOUT SPICE ROUTE — source copy only

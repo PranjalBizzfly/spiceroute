@@ -274,7 +274,7 @@ const successShown = (page) => page.locator("text=Message sent").count();
 // A. empty submission (client validation; nothing sent)
 {
   const { ctx, page, posts } = await formPage(QA);
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.waitForTimeout(300);
   const st = await page.evaluate(() => ({
     alert: document.querySelector(".ed-form__alert[role=alert]")?.textContent.trim(),
@@ -292,13 +292,13 @@ const successShown = (page) => page.locator("text=Message sent").count();
 {
   const { ctx, page, posts } = await formPage(QA);
   await fill(page, valid({ email: "asha.example.com" }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.waitForTimeout(300);
   let st = await page.evaluate(() => ({ invalid: [...document.querySelectorAll("[aria-invalid=true]")].map((e) => e.name), msg: document.getElementById("cf-email-error")?.textContent, first: document.getElementById("cf-firstName").value, focused: document.activeElement?.name }));
   check("form-B", posts.length === 0 && st.invalid.join() === "email" && st.first === "Asha" && st.focused === "email", `invalid email → "${st.msg}", other values kept, focus → ${st.focused}`);
   await page.fill("#cf-email", "asha.rao@example.com");
   await page.fill("#cf-message", "");
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.waitForTimeout(300);
   st = await page.evaluate(() => ({ invalid: [...document.querySelectorAll("[aria-invalid=true]")].map((e) => e.name), msg: document.getElementById("cf-message-error")?.textContent }));
   check("form-C", posts.length === 0 && st.invalid.join() === "message", `missing message → "${st.msg}"`);
@@ -310,7 +310,7 @@ const successShown = (page) => page.locator("text=Message sent").count();
   sink.messages.length = 0;
   const { ctx, page, posts, consoleErrors } = await formPage(QA);
   await fill(page, valid({ message: "Browser test D: please send the media kit details." }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator("text=Message sent").waitFor({ timeout: 15000 });
   const focusedDone = await page.evaluate(() => document.activeElement?.classList.contains("ed-form--done"));
   check("form-D", posts.length === 1 && sink.messages.length === 1 && focusedDone && consoleErrors.length === 0, `valid → 1 request, sink received ${sink.messages.length}, "Message sent" shown and focused`);
@@ -323,7 +323,7 @@ const successShown = (page) => page.locator("text=Message sent").count();
   sink.messages.length = 0;
   const { ctx, page, posts } = await formPage(QA);
   await fill(page, valid({ message: "Browser test E: double click must send once." }));
-  await page.dblclick("button[type=submit]");
+  await page.dblclick("main button[type=submit]");
   await page.keyboard.press("Enter").catch(() => {});
   await page.locator("text=Message sent").waitFor({ timeout: 15000 });
   await page.waitForTimeout(500);
@@ -336,20 +336,20 @@ const successShown = (page) => page.locator("text=Message sent").count();
   sink.mode = "reject";
   const { ctx, page } = await formPage(QA);
   await fill(page, valid({ message: "Browser test F: the mail server will refuse this." }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator(".ed-form__alert[role=alert]").waitFor({ timeout: 15000 });
   const st = await page.evaluate(() => ({
     text: document.querySelector(".ed-form__alert")?.textContent.trim(),
     mailto: document.querySelector(".ed-form__alert a")?.getAttribute("href") ?? "",
     kept: document.getElementById("cf-message").value,
-    enabled: !document.querySelector("button[type=submit]").disabled,
+    enabled: !document.querySelector("main button[type=submit]").disabled,
   }));
   check("form-F", (await successShown(page)) === 0 && /could not be sent/.test(st.text) && st.mailto.startsWith("mailto:info@nknmedia.in?") && st.kept.includes("Browser test F") && st.enabled,
     `SMTP failure → error "${st.text.slice(0, 70)}…", no success, values kept, retry enabled, mailto → info@nknmedia.in`);
   await page.screenshot({ path: `${OUT}/F-failed.png` });
   // retry succeeds once the server recovers
   sink.mode = "accept";
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator("text=Message sent").waitFor({ timeout: 15000 });
   check("form-F", true, "retry after the failure → sent");
   await ctx.close();
@@ -359,7 +359,7 @@ const successShown = (page) => page.locator("text=Message sent").count();
 try {
   const { ctx, page } = await formPage(UNCONFIGURED);
   await fill(page, valid({ message: "Browser test F2: no SMTP settings on this server." }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator(".ed-form__alert[role=alert]").waitFor({ timeout: 15000 });
   const st = await page.evaluate(() => ({ text: document.querySelector(".ed-form__alert")?.textContent.trim(), mailto: decodeURIComponent(document.querySelector(".ed-form__alert a")?.getAttribute("href") ?? "") }));
   check("form-F2", (await successShown(page)) === 0 && /not been sent/.test(st.text) && st.mailto.includes("Browser test F2") && st.mailto.startsWith("mailto:info@nknmedia.in"),
@@ -379,7 +379,7 @@ for (const [name, handler] of [
   const { ctx, page } = await formPage(QA);
   await page.route("**/api/contact", handler);
   await fill(page, valid({ message: `Browser test F3: ${name}.` }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator(".ed-form__alert[role=alert]").waitFor({ timeout: 15000 });
   check("form-F3", (await successShown(page)) === 0, `${name} → error shown, never "Message sent"`);
   await ctx.close();
@@ -392,7 +392,7 @@ for (const [name, handler] of [
   await page.goto(QA + "/contact", { waitUntil: "networkidle" });
   await page.evaluate(() => {}); // submit immediately
   await fill(page, valid({ message: "Browser test: submitted instantly by a script." }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   await page.locator(".ed-form__alert[role=alert]").waitFor({ timeout: 15000 });
   const text = await page.locator(".ed-form__alert").innerText();
   check("spam", (await successShown(page)) === 0 && /take a moment/.test(text), `instant submit → "${text.slice(0, 60)}…"`);
@@ -409,7 +409,7 @@ for (const w of [320, 390]) {
   await fill(page, valid({ message: `Browser test G: sent from a ${w}px phone.` }));
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
   const tap = await page.evaluate(() => [...document.querySelectorAll(".ed-form__pill, .ed-form__input, .ed-form button")].map((e) => e.getBoundingClientRect()).filter((r) => r.height < 40).length);
-  await page.locator("button[type=submit]").tap();
+  await page.locator("main button[type=submit]").tap();
   await page.locator("text=Message sent").waitFor({ timeout: 15000 });
   check("form-G", sink.messages.length === 1 && !overflow && tap === 0, `${w}px touch → sent (${sink.messages.length}), no overflow, all targets ≥40px`);
   await page.screenshot({ path: `${OUT}/G-mobile-${w}.png`, fullPage: true });
@@ -452,9 +452,9 @@ for (const w of [320, 390]) {
   await page.goto(QA + "/contact", { waitUntil: "networkidle" });
   await page.waitForTimeout(1700);
   await fill(page, valid({ message: "Browser test: reduced motion preference." }));
-  await page.click("button[type=submit]");
+  await page.click("main button[type=submit]");
   const spinner = await page.locator(".ed-form__spinner").evaluate((e) => getComputedStyle(e).animationName).catch(() => "absent");
-  const disabled = await page.locator("button[type=submit]").isDisabled().catch(() => false);
+  const disabled = await page.locator("main button[type=submit]").isDisabled().catch(() => false);
   await page.locator("text=Message sent").waitFor({ timeout: 15000 });
   check("form-motion", spinner === "none" && disabled, `while sending: button disabled, spinner animation "${spinner}" under reduced motion`);
   await ctx.close();

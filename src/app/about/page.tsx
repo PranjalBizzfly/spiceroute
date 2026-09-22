@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import PartnerLogos from "@/components/PartnerLogos";
@@ -35,6 +36,22 @@ export default function AboutPage() {
 
   return (
     <div className="ed-page">
+      {/* Hero recreated from the source About page: a full-bleed photograph
+          of a SpiceJet aircraft above the clouds, cut by a slanted edge */}
+      <section className="ed-shero ed-shero--about">
+        <Image
+          src="/images/hero/about-hero-plane.webp"
+          alt="A SpiceJet Boeing 737 flying above the clouds at sunset"
+          fill
+          priority
+          sizes="100vw"
+          className="ed-shero__bg"
+        />
+        <svg className="ed-shero__shape" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path d="M0,100V94L1000,0V100Z" />
+        </svg>
+      </section>
+
       <section className="ed-issue__hero" aria-labelledby="about-title">
         <div className="container">
           <nav aria-label="Breadcrumb" className="ed-crumbs">

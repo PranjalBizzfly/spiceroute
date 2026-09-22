@@ -7,14 +7,14 @@ import { chromium } from "playwright";
 
 const BASE = process.argv.find((a) => a.startsWith("http")) ?? "http://localhost:3000";
 const ONLY = process.argv.find((a) => a.startsWith("--only="))?.slice(7);
-const TARGET_WIDTHS = [320, 375, 414, 768, 1024, 1280, 1440, 1920];
+const TARGET_WIDTHS = process.argv.find((a) => a.startsWith("--widths="))?.slice(9).split(",").map(Number) ?? [320, 375, 414, 768, 1024, 1280, 1440, 1920];
 const EXTRA_WIDTHS = [340, 360, 390, 480, 540, 600, 700, 820, 900, 959, 961, 1100, 1180, 1366, 1600, 2560];
-const OUT = "screenshots/audit";
+const OUT = process.argv.find((a) => a.startsWith("--out="))?.slice(6) ?? "screenshots/audit";
 const CONCURRENCY = 4;
 
 const sitemap = await (await fetch(`${BASE}/sitemap.xml`)).text();
 const routes = [...sitemap.matchAll(/<loc>https?:\/\/[^/<]+([^<]*)<\/loc>/g)].map((m) => m[1] || "/");
-routes.push("/this-page-does-not-exist");
+routes.push("/this-page-does-not-exist", "/search", "/search?q=kolkata", "/search?category=travel", "/search?q=zzqxv");
 const reps = [
   "/", "/about", "/contact", "/inflight-magazine", "/this-page-does-not-exist",
   routes.find((r) => /^\/inflight-magazine\/.+/.test(r)),

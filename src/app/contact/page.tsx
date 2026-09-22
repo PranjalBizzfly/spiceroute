@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/siteConfig";
 import ContactForm from "@/components/ContactForm";
@@ -29,31 +30,49 @@ export default function ContactPage() {
 
   return (
     <div className="ed-page">
-      <section className="ed-issue__hero" aria-labelledby="contact-title">
+      {/* Hero recreated from the source Contact page: the red band, two cabin
+          photographs and the 14M+ figure beside the headline and details */}
+      <section className="ed-shero ed-shero--contact" aria-labelledby="contact-title">
         <div className="container">
-          <nav aria-label="Breadcrumb" className="ed-crumbs">
+          <nav aria-label="Breadcrumb" className="ed-crumbs ed-shero__crumbs">
             <ol>
               <li><Link href="/">Home</Link></li>
               <li aria-current="page">Contact</li>
             </ol>
           </nav>
 
-          <div className="ed-page__head">
-            <p className="ed-kicker ed-rise">Contact</p>
-            <h1 id="contact-title" className="ed-issue__title ed-rise" style={{ "--rise-delay": 40 } as React.CSSProperties}>
-              Convinced yet? <span className="ed-page__em">Let&apos;s make something great together.</span>
-            </h1>
-          </div>
-
-          <div className="ed-contact">
-            <div className="ed-contact__details">
+          <div className="ed-shero__grid">
+            <div className="ed-shero__collage ed-rise">
+              <div className="ed-shero__photo ed-shero__photo--one">
+                <Image
+                  src="/images/hero/contact-reader-1.webp"
+                  alt="A passenger reading Spice Route in a SpiceJet cabin"
+                  fill
+                  priority
+                  sizes="(max-width: 767px) 45vw, 270px"
+                />
+              </div>
               {/* Source Contact page figure */}
-              <p className="ed-contact__figure">
-                <span>14 M+</span>
-                Passengers Flown in 2024
+              <p className="ed-shero__stat">
+                <span className="ed-shero__statnum">14M+</span>
+                <span className="ed-shero__statlabel">Passengers Flown in 2024</span>
               </p>
+              <div className="ed-shero__photo ed-shero__photo--two">
+                <Image
+                  src="/images/hero/contact-reader-2.webp"
+                  alt="A SpiceJet crew member reading Spice Route on board"
+                  fill
+                  sizes="(max-width: 767px) 45vw, 270px"
+                />
+              </div>
+            </div>
 
-              <dl className="ed-contact__list">
+            <div className="ed-shero__details">
+              <h1 id="contact-title" className="ed-shero__title ed-rise" style={{ "--rise-delay": 40 } as React.CSSProperties}>
+                Convinced yet? Let&apos;s make something great together.
+              </h1>
+
+              <dl className="ed-shero__list ed-rise" style={{ "--rise-delay": 80 } as React.CSSProperties}>
                 <div>
                   <dt>Address</dt>
                   <dd>
@@ -85,7 +104,13 @@ export default function ContactPage() {
                 </div>
               </dl>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="ed-section" aria-label="Contact form">
+        <div className="container">
+          <div className="ed-shero-form">
             <div className="ed-contact__form">
               <h2 className="ed-shead__title">Drop Us a Line</h2>
               <p className="ed-contact__intro">

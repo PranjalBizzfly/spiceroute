@@ -10247,5 +10247,16418 @@ export const stories: Story[] = [
       spreads: true,
       imagePdfPage: 40
     }
+  },
+  {
+    id: "welcome-aboard-march-2026",
+    slug: "welcome-aboard-march-2026",
+    title: "Welcome Aboard",
+    section: "Welcome Aboard",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman & Managing Director",
+    date: "March 2026",
+    excerpt: "Welcome aboard SpiceJet! As we head into summer, the festive spirit is already in the air with Holi around the corner, followed by Eid-ul-Fitr and Mahavir Jayanti. These occasions remind us of what makes India special – our diversity and our ability to come together. At SpiceJet, this sense of togetherness is at the heart of what we do. Every flight is about connecting people, families and communities across the country.",
+    heroImage: "/images/stories/welcome-aboard-march-2026.webp",
+    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
+    heroImageSource: "Spice Route - March 2026, PDF page 6",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet!",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "As we head into summer, the festive spirit is already in the air with Holi around the corner, followed by Eid-ul-Fitr and Mahavir Jayanti. These occasions remind us of what makes India special – our diversity and our ability to come together. At SpiceJet, this sense of togetherness is at the heart of what we do. Every flight is about connecting people, families and communities across the country.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "India is passing through an important phase in its growth story. The country is playing a larger role on the global stage, with new trade agreements opening doors for Indian businesses and workers. Aviation has an important part to play in this journey by helping people travel, trade and stay connected – both within India and with the world.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "For SpiceJet, the past few months have been about rebuilding with care and focus. The results are encouraging. Our domestic market share has more than doubled, and more passengers are choosing to fly with us. We are operating at an outstanding 90% passenger load factor (occupancy rate) and flew 1.9 million guests in Q3 FY26, which was a 77% increase over the previous quarter. While there is still work to be done, the direction is positive.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "We are now preparing for the next phase of growth. Over the course of this year, we plan to expand our fleet to around 60 aircraft. This will allow us to add more flights and serve more destinations, while continuing to grow in a responsible and measured way.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Strengthening connectivity remains central to our plans. Whether it is linking Indian travellers to destinations like Sharjah or improving access to the North East through new services such as Imphal, our aim is to reduce distances and open up opportunities for people and businesses alike. None of this would be possible without the dedication of our pilots, cabin crew, engineers and ground staff. Their discipline, hard work and commitment – often behind the scenes – have been critical to the progress we are making.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "I would also like to congratulate our Indian boxers for their outstanding performance at the BOXAM Elite 2026 Tournament in Spain. Winning 19 medals and topping the medal table is a proud moment for the country and a reminder of what perseverance and belief can achieve.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "As we look ahead, our goal is simple: to offer reliable, affordable and comfortable travel, and to serve you better with every journey.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Thank you for choosing SpiceJet and for being part of our journey.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Wishing you safe and pleasant flights ahead.",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 6
+      },
+      {
+        type: "p",
+        text: "Best Regards",
+        page: 6
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        6
+      ],
+      printedPages: [
+        2
+      ],
+      imagePdfPage: 6
+    }
+  },
+  {
+    id: "whats-trending-march-2026",
+    slug: "whats-trending-march-2026",
+    title: "What’s Trending",
+    section: "Hot & Happening",
+    category: "culture",
+    date: "March 2026",
+    excerpt: "",
+    heroImage: "/images/stories/whats-trending-march-2026.webp",
+    heroImageAlt: "Platters of Holi sweets and snacks with bowls of coloured powder",
+    heroImageSource: "Spice Route - March 2026, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "Holi with a Quirky Twist",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "**Khoya by Sid Mathur** presents a Holi 2026 collection that celebrates traditional mithai imbued with a contemporary sensibility. The range features reimagined Gujiyas in six variants—Classic, Walnut, Coconut, Chenna, Apple-Cinnamon, and Motichoor—alongside sugar-free options. The offering extends to Orange Rasmalai infused with citrus and saffron, Thandai Powder and ready-to-drink Thandai milk, as well as Rajasthani Hing Kachori inspired by regional flavours. Marking a decade of craftsmanship, the collection reflects a refined approach to festive indulgence, blending heritage recipes with thoughtful innovation.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Available**: Khoya stores and online",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "HOLI CHALLENGE!",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "The **Parsi Dairy Farm** adds a fun element to Holi celebrations with a festive line-up that’s traditional and fresh. In addition to the classic offerings available during the season, the brand launches the Maharaja Lassi Challenge, a high-energy in-store activity where consumers are encouraged to drink a large, indulgent lassi in 60 seconds. The drink is topped with milk cake, malai kulfi, and strawberry crush, making it both a treat and a challenge. The winners get a Holi-themed hamper and participate in photo activities, as the stores in Mumbai are converted into festive zones.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: Parsi Dairy Farm outlets, Mumbai",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**When**: 20 February - 8 March 2026",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "LET’S GET ROCKED!",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Legendary 1980s rockers **Def Leppard** will be performing in India for the first time, in a three-city tour that takes in Shillong, Mumbai, and Bangaluru. Expect the Sheffield band, celebrated for its contribution to the genre of arena rock, to belt out the songs that made them the favourite of many a heavy-metal fan, numbers like Love Bites, Pour Some Sugar on Me, Hysteria, and Armageddon It. So, those who grew up in the 80s, get ready for a trip down memory lane!",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**What**: Def Leppard India Tour 2026",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**When**: 25, 27, 29 March in Shillong, Mumbai, Bengaluru respectively",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "COLLABORATIVE LEADERSHIP",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "**Chandigarh University** showcases how forward-thinking institutions can effectively hand over leadership to a vibrant, new generation while maintaining robust academic principles. A major driver of this change is Jai Inder Sandhu, Managing Director of Chandigarh University’s Uttar Pradesh Campus with his focus on artificial intelligence, new technologies, and education integrated with industry needs. Supporting this vision is Deep Inder Sandhu, Senior Managing Director of the Punjab Campus. This collaborative leadership embodies a strong blend of seasoned expertise and fresh creativity, placing Chandigarh University as a future-ready institution grounded in excellence.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "META: BEST OF INDIAN THEATRE",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "The **Mahindra Excellence in Theatre Awards** (META) is back with its 21st edition, presenting some of the most acclaimed plays from all over India. Chosen from a record 422 entries across various states, languages, and formats, the shortlisted plays will be performed in New Delhi over a week. The festival, which has been highlighting a range of stories covering mythology, identity, and contemporary social issues—among other topics—also promotes innovation in format and narrative. It will culminate with an awards function honouring excellence in Indian theatre.",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**Where**: Kamani Auditorium & Shri Ram Centre, New Delhi",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**When**: 19 - 25 March 2026",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "MAGIC IN THE MOUNTAINS",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "**Himalayan O2: The Tehri Lake Festival** is back with a celebration of adventure, culture, sport and community, with the Himalayas as a backdrop. The four-day fest, which embraces activities such as trekking, rafting and photography, alongside a showcase of music, fashion and food, will feature live performances by—among others—Uttarakhand outfit Pandavaas, and Amit Trivedi, fêted composer, singer and lyricist. Held across Tehri Lake and other nearby locations, Himalayan O2 will focus on the local culture and engage with indigenous communities, making it a key youth-driven event for the state’s tourism sector..",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**What**: Tehri Lake Festival 2026",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**Where**: Tehri Lake, Uttarakhand",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**When**: 6 - 9 March 2026",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "HONORARY DOCTORATE",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "**VIT Vice President, Mr. Sankar Viswanathan**, has been conferred the honorary degree of Doctor of Philosophy in Engineering and Technology Management by the Rajamangala University of Technology Krungthep (RMUTK), Thailand. The honorary degree symbolises the highest level of academic recognition for distinguished service and professional excellence. The Ceremony was attended by VIT Chancellor G Viswanathan, Ramani Balasundaram, Assistant Vice President Kadhambari S. Viswanathan, Dr. Sravan Krishna.",
+        page: 30
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/whats-trending-march-2026/p28-2.webp",
+        alt: "Bowls of rasmalai beside heaps of coloured powder",
+        width: 301,
+        height: 320,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p28-3.webp",
+        alt: "A bottle of thandai milk beside bowls of rose petals and spices",
+        width: 278,
+        height: 275,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p28-4.webp",
+        alt: "A plate of gujiyas on a festive table",
+        width: 185,
+        height: 168,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p28-5.webp",
+        alt: "A cup of thandai beside bowls of coloured powder",
+        width: 165,
+        height: 168,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p28-6.webp",
+        alt: "The members of Def Leppard posing together",
+        width: 343,
+        height: 186,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p30-1.webp",
+        alt: "Actors performing on a stage in red light",
+        width: 470,
+        height: 229,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p30-2.webp",
+        alt: "Actors in a scene from a play",
+        width: 210,
+        height: 366,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p30-3.webp",
+        alt: "A poster for the Himalayan O2 festival",
+        width: 231,
+        height: 327,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-march-2026/p30-4.webp",
+        alt: "Two men in suits standing before flags",
+        width: 236,
+        height: 255,
+        pdfPages: [
+          30
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        28,
+        30
+      ],
+      printedPages: [
+        24,
+        26
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "international-womens-day-info-corner",
+    slug: "international-womens-day-info-corner",
+    title: "International Women’s Day",
+    section: "Info Corner",
+    category: "culture",
+    date: "March 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "International Women’s Day, celebrated every year on March 8, is a reminder of the social, economic, cultural, and political accomplishments of women, as well as the need for further action towards achieving gender equality. Since 1975, International Women’s Day has been recognized by the United Nations as an occasion to celebrate progress and discuss challenges such as gender inequality, disparity, and lack of opportunities.",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "In India, International Women’s Day has become a significant event to look back at accomplishments as well as policy-level advancements. The Indian government has launched various initiatives to empower women in areas such as education, health, financial inclusion, and entrepreneurship. Initiatives such as Beti Bachao Beti Padhao aim to enhance the ratio of child survival and girls’ education, while Pradhan Mantri Matru Vandana Yojana provides support to pregnant and lactating mothers. Another area that has received importance is economic empowerment. Schemes such as Pradhan Mantri Mudra Yojana provide collateral-free loans to women entrepreneurs, and initiatives under the National Rural Livelihood Mission have linked close to 10 crore women to self-help groups, promoting economic empowerment and development.",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Also, support services such as One Stop Centres, which provide legal, medical, and psychological support to women experiencing violence, indicate a holistic approach to women’s welfare.",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Thus, International Women’s Day is not merely a day to celebrate but a day to act. In the Indian context, it marks the significance of continued policy interventions, social awareness, and joint responsibility towards creating a more inclusive and equal society where women can grow and lead.",
+        page: 44
+      }
+    ],
+    pullQuotes: [
+      "Schemes such as Pradhan Mantri Mudra Yojana provide collateral-free loans to women entrepreneurs giving wings to their dreams"
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        44
+      ],
+      printedPages: [
+        40
+      ],
+      imagePdfPage: 44
+    }
+  },
+  {
+    id: "imphal-your-ultimate-guide",
+    slug: "imphal-your-ultimate-guide",
+    title: "Imphal: Your Ultimate Guide",
+    section: "Take Off",
+    category: "travel",
+    author: "Florina Soren",
+    date: "March 2026",
+    excerpt: "Among the cities of the Northeast states, Imphal is picture-perfect. With its rolling hills, and a rich culture and history, the capital of Manipur assures its guests of a warm welcome and tales to remember.",
+    heroImage: "/images/stories/imphal-your-ultimate-guide.webp",
+    heroImageAlt: "Green hills around a wetland lake under a cloudy sky",
+    heroImageSource: "Spice Route - March 2026, PDF page 52",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "Cradled among hills, Imphal is a sight to behold as one prepares to land at the Bir Tikendrajit International Airport. Loktak, a lake unlike any other (and dotted with islands), looks like a magical web from atop. The drive from the airport to the city centre sets the tone for a holiday that promises to be extraordinary in more ways than one. The people are soft-spoken, the roads clean and wide, the air crisp and fresh—and there is something mystical about Imphal, perched at approx. 2,500 feet.",
+        page: 53
+      },
+      {
+        type: "subhead",
+        text: "Revisiting History",
+        page: 53
+      },
+      {
+        type: "p",
+        text: "The iconic Kangla Fort in the heart of Imphal is a proud reminder of the state’s storied history. Once the citadel of Manipur’s Meitei kings, the fort and the museum inside present a walk down memory lane. It holds within its premises ancient temples, remnants of its once imposing brick walls, palace halls—and the regal statues of Kangla Sha, two sacred leogryphs standing majestically tall at 18 feet. This historic structure has been witness to the rise and fall of successive Meitei kingdoms, followed by the British invasion. While its grandeur recalls Manipur’s resilience and valour, the fort is also strewn with religious sites. Notable among them is the resplendently white Pakhangba Laisang temple, the epitome of reverence, and the shrine of Shree Govindajee. Today, Kangla Fort is a must-visit ecological retreat with lush-green spaces, pristine water bodies, gardens of medicinal plants, and much more.",
+        page: 53
+      },
+      {
+        type: "subhead",
+        text: "Loktak Lake The Lifeline",
+        page: 53
+      },
+      {
+        type: "p",
+        text: "Among the most immersive experiences Imphal has to offer is a boat ride on the tranquil Loktak, the largest freshwater lake in the Northeast. As you make your way through the serene waters, covered by a multitude of small islands known as *phumdis*, fishermen cross your path in local boats. The lake is an integral part of Manipur’s ecosystem, supporting native vegetation and fisheries, besides helping generate hydropower and boosting tourism.",
+        page: 53
+      },
+      {
+        type: "p",
+        text: "To complete your experience, do stop by for a cuppa at one of the *phumdis*—there is also the added attraction of Sendra Island, a scenic hillock on Loktak that boasts a captivating view of the bustling lake below. Another can’t-miss is the Takmu Water Sports Complex, where you will spot tourists and locals engaging in water-skiing, motor-boating, and wind-surfing, among other adventure sports.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "The Park that Floats",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Another of Manipur’s many unique sites is Keibul Lamjao, the only floating national park in the world. This wetland ecosystem, a part of Loktak Lake, guarantees a breathtaking encounter with fauna—you can sight wild boar, hog deer, otters, and a host of waterfowl and migratory birds. More significantly, it is home to the endangered Sangai, the state animal, also known as the brow-antlered deer or Eld’s deer. Complete with watchtowers and resthouses, a day spent amid the still and silent waters of Keibul Lamjao is nothing less than an expedition.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "Where Women Reign",
+        page: 56
+      },
+      {
+        type: "p",
+        text: "In Imphal and almost everywhere in Manipur, it is mostly the women who are seen managing the shops and local businesses. In fact, this is probably the only city in India where there is a special market dedicated to, and run exclusively by, women. The origins of Ima Keithel, meaning ‘Mothers’ Market’, go as far back as the 16th century. Hundreds of women in traditional and colourful attire can be seen selling a range of items, including handicrafts, cane items, vibrant handwoven textiles, wonderfully curated jewellery pieces, and local produce, besides a plethora of other Manipuri creations. And since many of them understand English, shopping here can be really exciting. Ima Keithel is a symbol of women’s empowerment, and definitely an example for the rest of us to follow.",
+        page: 56
+      },
+      {
+        type: "p",
+        text: "A visit to Manipur is incomplete without tasting the state cuisine. Rice is a staple here, often served with vegetable stew or non-vegetarian dishes. The food is healthy with most of the preparations steamed with very little spices—and plenty of greens. Among the popular culinary delights are Chamthong, a vegetable stew, and Eromba, a mix of vegetables, fish, and mashed chillis, all boiled together to give a very distinct flavour. And the perfect dish to end your Manipur sojourn? Chak-hao Kheer, a pudding made from black rice",
+        page: 56
+      },
+      {
+        type: "subhead",
+        text: "Festive galore",
+        page: 56
+      },
+      {
+        type: "list",
+        items: [
+          "**Sangai Festival**: Named after the Sangai deer, this annual tourism festival is held in November. Folk dance performances and indigenous sport competitions are held besides showcasing Manipur’s rich culture, cuisine and textile legacy.",
+          "**Yaoshang Festival**: Celebrated on the full moon day of the month of Lamta (February-March), the festival is celebrated with singing and dancing. The ‘yaoshang’ (a small straw hut) is constructed and then burnt on the first day of the festival.",
+          "**Heikru Hitongba**: A traditional boat race festival that has been passed down since 948 AD is held in the month of September every year. Originally held to foster a feeling of peace and unity, today the boat race held at the moat of Sangolband is a big draw for tourists and locals alike.",
+          "**Best Time To Visit**: October to March is the best time to visit Manipur. The time is ideal for outdoor activities, also this is when most festivals take place."
+        ],
+        page: 56
+      }
+    ],
+    callouts: [
+      "SPICEJET FLIES DIRECTLY TO SHARJAH FROM AHMEDABAD",
+      "SPICEJET OFFERS FLIGHTS TO IMPHAL FROM KOLKATA, GUWAHATI AND MUMBAI"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p53-1.webp",
+        alt: "A lake dotted with floating vegetation, seen through trees",
+        width: 830,
+        height: 1078,
+        pdfPages: [
+          53
+        ]
+      },
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p54-1.webp",
+        alt: "A boatman poling a dinghy across a lake reflecting the clouds",
+        width: 483,
+        height: 439,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p54-2.webp",
+        alt: "A small island on a calm lake",
+        width: 725,
+        height: 405,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p54-3.webp",
+        alt: "The brick ruins of an old temple",
+        width: 247,
+        height: 304,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p56-1.webp",
+        alt: "Rowers in traditional dress racing long boats",
+        width: 728,
+        height: 481,
+        pdfPages: [
+          56
+        ]
+      },
+      {
+        src: "/images/stories/imphal-your-ultimate-guide/p56-2.webp",
+        alt: "A woman selling vegetables at a market stall",
+        width: 288,
+        height: 208,
+        pdfPages: [
+          56
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 54,
+        label: "Clockwise from Top",
+        items: [
+          "A boatman on his dinghy at the Loktak Lake. A ride in the mesmerizingly beautiful lake is a not-to-miss.",
+          "A floating village in one of the phumdis, on the lake",
+          "The ruins of an old temple inside the Kangla fort, Imphal."
+        ]
+      },
+      {
+        pdfPage: 56,
+        label: "Top & Above",
+        items: [
+          "Local boat races are an integral part of Manipuri culture, and locals participate in large numbers wearing traditional attire.",
+          "Women as shopkeepers are a common sight, and Imphal is the only city in India with an all-women market."
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        52,
+        53,
+        54,
+        56
+      ],
+      printedPages: [
+        48,
+        49,
+        50,
+        52
+      ],
+      imagePdfPage: 52
+    }
+  },
+  {
+    id: "jaipur-in-historys-glow",
+    slug: "jaipur-in-historys-glow",
+    title: "Jaipur: In History’s Glow",
+    section: "Day in a City",
+    category: "travel",
+    author: "Pamela Mukherjee",
+    date: "March 2026",
+    excerpt: "Jaipur wakes unhurriedly, wrapped in shades of rose and warm sandstone. From latticed windows that catch the earliest light to hilltop forts holding the last glow of the day, the city reveals itself best not by ticking off landmarks, but by moving gently between them, allowing each place to lead naturally to the next.",
+    heroImage: "/images/stories/jaipur-in-historys-glow.webp",
+    heroImageAlt: "The ramparts and palaces of a hilltop fort in golden light",
+    heroImageSource: "Spice Route - March 2026, PDF page 61",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "MORNING LIGHT AT HAWA MAHAL",
+        number: 1,
+        page: 62
+      },
+      {
+        type: "p",
+        text: "As the sun rises, the delicate façade of Hawa Mahal, an intricate honeycomb of 953 jharokhas, softly absorbs the morning light. Designed so that royal women could observe the city unseen, the palace still feels quietly watchful. Below, vendors lift shutters, scooters ride past, and the Pink City stirs into motion. This is Jaipur before the crowds arrive, when the colour feels almost intimate. A cup of hot chai from a nearby stall completes the moment—simple, grounding, and unmistakably local.",
+        page: 62
+      },
+      {
+        type: "note",
+        text: "Next stop: 5 minutes on foot",
+        page: 62
+      },
+      {
+        type: "subhead",
+        text: "A WALK THROUGH THE OLD CITY",
+        number: 2,
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Step away from the main road and the city softens. Narrow lanes curl behind Hawa Mahal, unveiling small temples tucked into corners, artisans polishing gemstones by hand, and shopfronts painted in Jaipur’s iconic shade of pink. This is the city where every turn offers a subtle detail—bells chiming, mirrors catching light, the scent of fresh kachoris drifting through the air. Pause for breakfast at Laxmi Mishtan Bhandar, a local institution where traditional sweets and savouries have been served for generations.",
+        page: 62
+      },
+      {
+        type: "note",
+        text: "Next stop: 7 minutes on foot",
+        page: 62
+      },
+      {
+        type: "subhead",
+        text: "ROYAL PAUSE AT CITY PALACE",
+        number: 3,
+        page: 62
+      },
+      {
+        type: "p",
+        text: "At the heart of the old city lies the City Palace, still part-home to Jaipur’s former royal family. Inside its walls, the tempo shifts. Courtyards open out one after another, each defined by symmetry, colour, and hushed grandeur. The Peacock Gate gleams with layered symbolism, while museum galleries display silks, ceremonial weapons, and manuscripts that speak of power, patronage, and precision. Here, Jaipur feels carefully composed, a city imagined, planned, and executed with remarkable intent.",
+        page: 62
+      },
+      {
+        type: "note",
+        text: "Next stop: Right next door",
+        page: 62
+      },
+      {
+        type: "subhead",
+        text: "TIME STOPS AT JANTAR MANTAR",
+        number: 4,
+        page: 63
+      },
+      {
+        type: "p",
+        text: "At Jantar Mantar, the monumental astronomical instruments rise from the ground like sculptural forms, built not for ornamentation but for exactness. Long before satellites and digital clocks, these structures measured the movement of celestial bodies with astonishing accuracy. Walking among them is unexpectedly calming, a reminder that Jaipur has always balanced beauty with intellect, observation with imagination. Follow a visit to the observatory with lunch at Govindam Retreat, where a traditional Rajasthani thali is served with a quiet generosity and warmth.",
+        page: 63
+      },
+      {
+        type: "note",
+        text: "Next stop: 10 minutes on foot",
+        page: 63
+      },
+      {
+        type: "subhead",
+        text: "AFTERNOON HUES IN JOHARI BAZAAR",
+        number: 5,
+        page: 63
+      },
+      {
+        type: "p",
+        text: "By noon, the city is fully awake. Johari Bazaar shimmers with gemstones, lac bangles, and finely crafted jewellery, while textile shops display block-printed fabrics in endless variations. Conversations flow easily here—between shopkeepers, artisans, and visitors—making the bazaar feel as much social as commercial. This is Jaipur at its expressive best: vibrant, layered, and unapologetically alive.",
+        page: 63
+      },
+      {
+        type: "note",
+        text: "Next stop: 30 minutes drive",
+        page: 63
+      },
+      {
+        type: "subhead",
+        text: "SUNSET AT NAHARGARH FORT",
+        number: 6,
+        page: 63
+      },
+      {
+        type: "p",
+        text: "As the day begins to slow, a short uphill drive 30mins from Johari Bazaar, leads you to the majestic Nahargarh Fort. From this vantage point, Jaipur stretches out below in muted geometry, pink blocks fading into gold as the sun dips lower. Gradually, city lights flicker on, tracing familiar roads and neighbourhoods in a gentle glow. It is a moment made for reflection, not just on the day, but on the city itself.",
+        page: 63
+      },
+      {
+        type: "subhead",
+        text: "AT PINK CITY’S EMBRACE",
+        number: 7,
+        page: 63
+      },
+      {
+        type: "p",
+        text: "Return to the old city as night settles in. Rooftops glow enticingly, conversations linger, and the air cools just enough to tempt an unhurried dinner. Jaipur feels intimate again, measured and composed. It’s a city, you notice, that does not rush its visitors. It simply invites them to stay a little longer",
+        page: 63
+      }
+    ],
+    callouts: [
+      "SPICEJET OFFERS DIRECT FLIGHTS TO JAIPUR FROM AHMEDABAD, DUBAI, PUNE AND OTHER CITIES"
+    ],
+    pullQuotes: [
+      "The Peacock Gate gleams with layered symbolism, while museum galleries display silks, ceremonial weapons and manuscripts"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/jaipur-in-historys-glow/p62-1.webp",
+        alt: "The pink honeycomb façade of Hawa Mahal",
+        width: 727,
+        height: 395,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/jaipur-in-historys-glow/p62-2.webp",
+        alt: "A palace with domed pavilions above the old city",
+        width: 480,
+        height: 282,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/jaipur-in-historys-glow/p63-3.webp",
+        alt: "The giant stone instruments of Jantar Mantar",
+        width: 483,
+        height: 397,
+        pdfPages: [
+          63
+        ]
+      },
+      {
+        src: "/images/stories/jaipur-in-historys-glow/p63-2.webp",
+        alt: "A visitor browsing textiles at a market stall",
+        width: 237,
+        height: 397,
+        pdfPages: [
+          63
+        ]
+      },
+      {
+        src: "/images/stories/jaipur-in-historys-glow/p63-1.webp",
+        alt: "A fort wall winding along a green ridge above the city",
+        width: 480,
+        height: 334,
+        pdfPages: [
+          63
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        61,
+        62,
+        63
+      ],
+      printedPages: [
+        57,
+        58,
+        59
+      ],
+      imagePdfPage: 61
+    }
+  },
+  {
+    id: "holi-ke-rang",
+    slug: "holi-ke-rang",
+    title: "Holi Ke Rang",
+    section: "Snapshots",
+    category: "culture",
+    date: "March 2026",
+    excerpt: "",
+    heroImage: "/images/stories/holi-ke-rang.webp",
+    heroImageAlt: "A crowd celebrating Holi in clouds of red and orange colour",
+    heroImageSource: "Spice Route - March 2026, PDF page 64",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "Holi is celebrated across India and also among the Indian diaspora across the globe with great enthusiasm. Observing the ancient Hindu mythological belief of good triumphing over evil, it is one festival that brings communities together.",
+        page: 64
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/holi-ke-rang/p64-2.webp",
+        alt: "Women in bright saris holding sticks during Latmar Holi, seen from above",
+        width: 347,
+        height: 440,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/holi-ke-rang/p64-3.webp",
+        alt: "Young women smeared with colour dancing at a Holi celebration",
+        width: 355,
+        height: 237,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/holi-ke-rang/p65-1.webp",
+        alt: "Devotees dressed as Radha and Krishna amid showers of flowers",
+        width: 730,
+        height: 610,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/holi-ke-rang/p65-2.webp",
+        alt: "A woman in an ornate headdress with a painted face",
+        width: 265,
+        height: 338,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/holi-ke-rang/p65-3.webp",
+        alt: "A performer in a swirling orange skirt dancing before a crowd",
+        width: 491,
+        height: 354,
+        pdfPages: [
+          65
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 64,
+        label: "Left & Inset",
+        items: [
+          "The Holi celebration in Barsana - a quaint village in Uttar Pradesh is unique in many ways. Known as Latmar Holi, menfolk from the nearby village come to play Holi, and the women in return playfully beat them with sticks. This is an age-old tradition from the time of Radha and Krishna, and is still followed here.",
+          "In Kolkata, this festival of colour is celebrated as ‘Dol Jatra’, and besides playing with colours and flowers, people enjoy the day dancing and singing."
+        ]
+      },
+      {
+        pdfPage: 65,
+        label: "Clockwise from top",
+        items: [
+          "People dress up as Radha and Krishna while devotees shower them with flowers during Holi celebrations.",
+          "Holi is celebrated with much enthusiasm in Vrindavan. Devotees perform plays on the theme of Lord Krishna at Keshi Ghat. Visitors and devotees come in large numbers to be part of the celebration.",
+          "In Varanasi, a devotee with a painted face as part of the Holi celebrations at the Manikarnika ghat."
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        64,
+        65
+      ],
+      printedPages: [
+        60,
+        61
+      ],
+      imagePdfPage: 64
+    }
+  },
+  {
+    id: "dooars-gateway-to-virgin-vistas-and-cultures",
+    slug: "dooars-gateway-to-virgin-vistas-and-cultures",
+    title: "Gateway to Virgin Vistas & Cultures",
+    label: "Dooars",
+    section: "Getaway",
+    category: "destinations",
+    author: "Akanksha Garg",
+    date: "March 2026",
+    excerpt: "There are places built around landmarks. And then there are places that unfold slowly—through forests, rivers, and the quiet lives of the people who inhabit them. The Dooars belong firmly in the latter category.",
+    heroImage: "/images/stories/dooars-gateway-to-virgin-vistas-and-cultures.webp",
+    heroImageAlt: "Tea bushes in the foreground of a wetland, with trees under a blue sky",
+    heroImageSource: "Spice Route - March 2026, PDF page 68",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "Spanning the foothills of Darjeeling, Sikkim and Bhutan, this lush belt of North Bengal feels less like a single destination and more like a threshold. The name itself comes from the word ‘doors’, historic forest routes that once connected the plains of Cooch Behar with the Himalayan kingdoms. These were pathways through dense jungle used by traders, envoys, and royalty travelling between Bhutan and the plains. Over time, ‘Doors’ evolved into ‘Dooars’, and the name endured—fitting for a region that has always been a kaleidoscope of landscapes and cultures.",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Even today, the Dooars sits at a remarkable crossroads: Bhutan lies to the north, Sikkim and eastern Nepal to the west, Assam to the east, and the plains sweep southward toward Bangladesh. Few places in India’s east hold such geographic convergence.",
+        page: 69
+      },
+      {
+        type: "subhead",
+        text: "FORESTS THAT STILL FEEL WILD",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "The Dooars is defined by its forests; vast breathing ecosystems that stretch across nearly 3,000 square kilometres. Within this landscape lie Gorumara National Park, Jaldapara National Park, Chapramari Wildlife Sanctuary, and the expansive Buxa Tiger Reserve. Safaris here feel less like dramatic wildlife adventures and more like drive-through explorations of a living wilderness, where tall elephant grass sways along jungle tracks and the golden light shines through tall Sal trees. Elephant sightings are common, often near riverbanks or forest edges. Jaldapara and Gorumara are home to the iconic one-horned rhinoceros, while leopards and Himalayan black bears move quietly through the jungle corridors that connect Bhutan and Sikkim. And for birdwatchers, the Dooars is a paradise, with hundreds of resident and migratory avian species.",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Yet, what lingers most is not a specific sighting but a stillness, the sense that the forest is in charge.",
+        page: 69
+      },
+      {
+        type: "subhead",
+        text: "THE DEFINING TEA GARDENS",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Tea is inseparable from the Dooars, which produces over 25 per cent of India’s crop and hosts more than 100 estates, many with their own processing factories. Unlike the steep, postcard slopes of Darjeeling, tea here grows over wide, flat expanses, merging seamlessly into the forests beyond. Past the large estates, small and marginal farmers also cultivate tea, sometimes even in kitchen gardens, making it part of daily lives.",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "As you walk through a tea garden in the soft glow of the evening sun, the rhythms of the region reveal themselves: pluckers moving steadily between rows, the aroma of fresh leaves wafting from factories, and communities shaped by cultivation thrive alongside. Here, a simple cup of locally-brewed tea, enjoyed without hurry, feels truly at home.",
+        page: 69
+      },
+      {
+        type: "subhead",
+        text: "RIVERS BORN OF THE HIMALAYAS",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Because the Dooars lie on a gentle Himalayan slope, they are fed year-round by glacier-origin rivers. Within a 100 kms, more than 15 rivers carve their way through this expanse, among them are the more popular Murti, Jaldhaka, and Teesta. In summer, they run clear and cool. During the monsoon, they transform, swelling with mountain rain, rushing with astonishing force, sometimes creating seasonal waterfalls along the way. Anglers know the upper stretches of the Murti and Jaldhaka for the prized Mahseer, making monsoon fishing a memorable experience in Dooars.",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Often, however, it is blissful just to pause by a riverbank, feet dipped in cold water, watching the current move steadily toward the plains.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "A MOSAIC OF COMMUNITIES",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "The Dooars is among eastern India’s most culturally layered areas. Large tribal communities such as the Oraon, Santhal, Munda, and Kharia coexist alongside the Rajbanshi, Mech and Gorkha populations, and also the endangered Toto tribe. In a span of 150–200 kms, one encounters nearly 50 ethnic villages and gets to hear a remarkable diversity of languages.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Local festivals reflect this richness. Karma Utsab in mid-September celebrates agrarian traditions with music and dance. Mahashivratri at the Mahakal Temple, located inside a forested stretch near Gorumara, draws devotees who walk through the wilderness to offer prayers. These traditions are not staged performances; they are lived and experienced with much vigour.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "DOORWAY BEYOND BORDERS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Just a short drive away lies Phuentsholing, making the Dooars a natural gateway to Bhutan. Travellers often begin here, grounding themselves in arboreal calm before crossing into the hills beyond. In an era of overexposed destinations, the Dooars continue to stand out—a forested crossroads that rewards those willing to slow down. It does not demand attention. It simply waits, quietly confident in what it has always been: a portal to landscapes, cultures, and the Eastern Himalayas",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "WHERE TO STAY",
+        page: 70
+      },
+      {
+        type: "list",
+        items: [
+          "**The Riverwood Forest Retreat** This 12-room luxurious property is surrounded by trees, medicinal plants, organic vegetable farms, and overlooks the Murti River and the forest fringes of Gorumara.",
+          "**Baradighi The Bungalow** A heritage colonial bungalow built in 1891 is set in the midst of an expansive tea garden bordering Gorumara forest. It offers the ultimate tea tourism experience. A handful of genuine family-run homestays offer great stay options."
+        ],
+        page: 70
+      },
+      {
+        type: "note",
+        text: "Akanksha Garg is an avid traveller and a hotelier. She is also the Tourism Committee Member-CII, Chapter President India-Swiss Education Group besides holding many other industry positions.",
+        page: 70
+      }
+    ],
+    callouts: [
+      "SPICEJET OFFERS DIRECT FLIGHTS TO BAGDOGRA FROM NEW DELHI, KOLKATA AND MUMBAI"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/dooars-gateway-to-virgin-vistas-and-cultures/p69-2.webp",
+        alt: "A wooden watch tower among tall trees",
+        width: 482,
+        height: 367,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/dooars-gateway-to-virgin-vistas-and-cultures/p69-1.webp",
+        alt: "An Indian gaur grazing in tall grass",
+        width: 483,
+        height: 284,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/dooars-gateway-to-virgin-vistas-and-cultures/p70-2.webp",
+        alt: "A woman plucking tea leaves in a tea garden",
+        width: 235,
+        height: 354,
+        pdfPages: [
+          70
+        ]
+      },
+      {
+        src: "/images/stories/dooars-gateway-to-virgin-vistas-and-cultures/p70-1.webp",
+        alt: "Performers in bright costumes dancing with drums at night",
+        width: 483,
+        height: 467,
+        pdfPages: [
+          70
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 68,
+        items: [
+          "Photo Credit@The Riverwood Forest Retreat, Dooars"
+        ]
+      },
+      {
+        pdfPage: 69,
+        label: "Top & Bottom",
+        items: [
+          "Tourists enjoying the perfect view from the Rhino Point Watch Tower at the Gorumara National Park",
+          "The Indian Gaur is a common sight at Dooars"
+        ]
+      },
+      {
+        pdfPage: 70,
+        label: "Top & Bottom",
+        items: [
+          "Large expanse of tea gardens are spread across the Dooars region. Tea garden workers carefully plucking tea leaves are a common sight here.",
+          "Dooars is also home to many ethnic tribes, and they offer a rich cultural legacy to the region"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        68,
+        69,
+        70
+      ],
+      printedPages: [
+        64,
+        65,
+        66
+      ],
+      imagePdfPage: 68
+    }
+  },
+  {
+    id: "wake-up-to-a-healthy-start",
+    slug: "wake-up-to-a-healthy-start",
+    title: "Wake Up to a Healthy Start",
+    section: "Wellness",
+    category: "wellness",
+    date: "March 2026",
+    excerpt: "Renowned nutritionist Kavita Devgan highlights the significance of the first meal of the day and shares power-packed breakfast ideas for every age group.",
+    heroImage: "/images/stories/wake-up-to-a-healthy-start.webp",
+    heroImageAlt: "A woman sipping from a mug at a breakfast table",
+    heroImageSource: "Spice Route - March 2026, PDF page 71",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "p",
+        text: "**Why do we need breakfast**? At night, when we sleep, our body rests but the brain doesn’t. It continues to use energy (glucose) from body stores. So, when we wake up in the morning, our body needs to recover from a ‘fasting’ state. If you don’t supply energy, it might not function properly. Besides, breakfast helps to replenish blood glucose levels, which is important since the brain itself has no reserves of glucose, its main energy source, and must constantly be replenished. We bring you some power-packed breakfast ideas for all age groups.",
+        page: 71
+      },
+      {
+        type: "subhead",
+        text: "For your toddler",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Banana pancake**: Combine 50 gm flour, 70 ml milk, 20 gm actor sugar, 5 gm baking powder, and 1 egg. Whisk all the ingredients together. It will become a batter. Now sieve it into another bowl to avoid lumps. Heat a nonstick pan. Pour one ladle of batter on a slow flame. Cut thin slices of one banana and keep them ready. Add the slices of banana to it before turning it to the other side. After a minute, flip it around for another minute. Cook until the pancakes are golden brown on both sides. Serve hot with some honey.",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Why this works** Banana contains three natural sugars – sucrose, fructose and glucose – combined with an extra-large dose of fibre, so it gives an instant boost along with sustained and substantial energy.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "For your teenager",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Crepes with corn and asparagus**: Make a thin batter with 100 gm wheat flour, 1 egg, 1 tsp olive oil, and water as required. Add 2 tsp olive oil to a nonstick pan. Add 10 gm chopped garlic, 100 gm blanched asparagus, and 30 gm steamed corn. Cook for 5 minutes, then add 20 ml cream and 30 gm grated cheddar cheese. Keep aside. Cook thin crepes from the batter on a greased pan and stuff with the corn and asparagus mixture.",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Why this works** A good combination of complex carbohydrates, protein, and fibre, this is a delicious change from the regular breakfasts that we mostly eat",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "For adults",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Palak thepla**: In a bowl, combine 200 gm raw shredded palak, 50 gm whole wheat flour, 10 gm green chili, 1/8 teaspoon of turmeric, 1/4 teaspoon of red chilli powder, 20 gm chopped garlic, 1 gm asafoetida, and salt to taste. Knead well with sufficient water. Divide the dough into equal portions and roll them into thin theplas. Cook them on a nonstick pan with the help of oil.",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "**Why this works** Spinach delivers thylakoids (green leaf membranes), which help control cravings. Plus, it has good amounts of vitamin K, calcium, and magnesium, all three bone health supportive nutrients.",
+        page: 73
+      },
+      {
+        type: "p",
+        text: "**Buckwheat pav**: Preheat the oven to 180 degrees Celsius. Mix 100 gm buckwheat flour, 50 gm whole wheat flour, 3 gm yeast, and 5 gm salt together. Add water and 30 ml olive oil to it, and knead into a dough. Now make rolls of the dough, 20 gm each, and let them rest for 30 minutes. Spray water on the buns before you keep them in the oven. Now bake them for 15 minutes at 180 degrees Celsius. Serve hot after stuffing hash brown patties.",
+        page: 73
+      },
+      {
+        type: "p",
+        text: "**Hash brown Pattie recipe**: Mash 1 boiled potato or sweet potato, 10 gm onion, 10 ml oil, a pinch of nutmeg, and 10 gm parsley. Cook sliced onions with 1 tsp oil and butter, add the potato mixture, make a patty of the same, and shallow fry it on a nonstick pan. **Why this works** This tasty breakfast is gluten free, high in protein and fibre, and very satisfying. Besides, buckwheat also helps improve circulation, lower blood cholesterol, and control blood glucose levels",
+        page: 73
+      },
+      {
+        type: "note",
+        text: "Kavita Devgan is an eminent nutritionist, and weight management consultant who propagates practical, effective, and delicious ways to achieve a healthy lifestyle.",
+        page: 73
+      },
+      {
+        type: "subhead",
+        text: "Healthy quick fixes",
+        page: 73
+      },
+      {
+        type: "list",
+        items: [
+          "Soaked and boiled black chana with chopped vegetables and a glass of fresh juice.",
+          "Any leftover *sabzi* (or fresh vegetable) toaster sandwich with one glass of milk and an orange.",
+          "Boiled egg with toast and papaya.",
+          "2 grated fresh amla with honey, 5 soaked almonds with steamed sprouts.",
+          "Spinach *besan cheela* with lemony boiled *aloo chaat*. Have with green chutney.",
+          "*Chapati* roll (with paneer, cucumber, and mint chutney)."
+        ],
+        page: 73
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/wake-up-to-a-healthy-start/p72-1.webp",
+        alt: "A stack of banana pancakes on a plate",
+        width: 482,
+        height: 236,
+        pdfPages: [
+          72
+        ]
+      },
+      {
+        src: "/images/stories/wake-up-to-a-healthy-start/p72-3.webp",
+        alt: "Crepes filled with asparagus on a white plate",
+        width: 242,
+        height: 223,
+        pdfPages: [
+          72
+        ]
+      },
+      {
+        src: "/images/stories/wake-up-to-a-healthy-start/p72-4.webp",
+        alt: "A breakfast buffet of plated dishes",
+        width: 481,
+        height: 558,
+        pdfPages: [
+          72
+        ]
+      },
+      {
+        src: "/images/stories/wake-up-to-a-healthy-start/p73-2.webp",
+        alt: "Rolled palak theplas in a basket with curd, onion and chilli",
+        width: 729,
+        height: 496,
+        pdfPages: [
+          73
+        ]
+      },
+      {
+        src: "/images/stories/wake-up-to-a-healthy-start/p73-1.webp",
+        alt: "A bowl of buckwheat with bread rolls on a cloth",
+        width: 481,
+        height: 280,
+        pdfPages: [
+          73
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        71,
+        72,
+        73
+      ],
+      printedPages: [
+        67,
+        68,
+        69
+      ],
+      imagePdfPage: 71
+    }
+  },
+  {
+    id: "my-town-nagaland",
+    slug: "my-town-nagaland",
+    title: "My Town",
+    label: "Nagaland",
+    section: "My Town",
+    category: "destinations",
+    author: "Likivi G Yeptho",
+    role: "Cabin Crew",
+    date: "March 2026",
+    excerpt: "In our series, we travel to various Indian destinations with a SpiceJet family member. This time, Likivi takes us around her home state, Nagaland.",
+    heroImage: "/images/stories/my-town-nagaland.webp",
+    heroImageAlt: "A hillside village among forest and drifting mist",
+    heroImageSource: "Spice Route - March 2026, PDF page 76",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "question",
+        text: "Where is your home, and what makes it so special?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "My home is in Nagaland, one of India’s most enchanting states. Known as the ‘land of festivals’, it is a place where traditions are lived every day with pride and joy, not preserved in museums. Each tribe has its own language, attire, music, and customs, creating a cultural richness that feels both diverse and deeply connected.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "The one thing that keeps on bringing you back again and again…",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The peaceful feeling that being home always gives me. The quiet hills, fresh air, vibrant heritage, and the warmth of the people make every visit feel comforting and special.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Which is the perfect hangout spot in Nagaland?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Jüro Coffee House in Chümoukedima, the best part of which is not just the coffee—their ‘chicken chilly’ is an absolute standout. Tender, perfectly spiced, and packed with flavour, it’s the kind of dish you’ll crave again and again. Every bite feels like the right blend of heat and juiciness, making it one of the best ‘chicken chilly’ experiences in Dimapur/ Chümoukedima. A must-try for anyone who loves their food bold!",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Name one restaurant you would recommend to a visitor, and a can’t-miss delicacy on the menu…",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "At Niathu Resort, the Naga-style smoked pork with bamboo shoot is rich and flavourful. The smoky meat blends perfectly with the tangy shoots, creating a simple yet authentic taste that truly epitomises Naga cuisine.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the best season to visit Nagaland and why?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Between the months of October and March, when the weather is pleasant and cool, the skies are clear, and the countryside is fresh and green. Which makes it the ideal time of the year to experience local festivals, participate in outdoor activities, and immerse yourself in the natural beauty of the hills.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which must-visit places would you recommend back home?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Dzükou Valley presents one of the most peaceful and beautiful experiences in Nagaland. Surrounded by rolling, verdant hills and wide-open meadows, it makes for a refreshing day out. In the valley’s cool breeze, clear streams, and quietude lie the perfect escape from our busy lives. Walking through Dzükou feels slow and soothing, leaving you with a deep sense of calm and unforgettable memories.",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Then there’s Kisama Heritage Village, a wonderful showcase of Nagaland’s cultural diversity in one place. Each house represents a different Naga tribe, offering a glimpse into their customs, craftsmanship, and lifestyle. The village comes alive during the Hornbill Festival, a lively celebration of Naga heritage embracing colourful dances, traditional music, local food, and handicrafts. Together, Kisama and the Hornbill Festival promise a memorable experience, one that reflects the spirit and unity of Nagaland",
+        page: 77
+      },
+      {
+        type: "subhead",
+        text: "PLACES FOR A QUICK DAY TRIP…",
+        page: 77
+      },
+      {
+        type: "list",
+        items: [
+          "**The Kohima War Cemetery** This is a tranquil and deeply moving space that honours those combatants who lost their lives in the Battle of Kohima during World War II. Set on a quiet hilltop, it offers scenic views while leaving you with a sense of reverence and remembrance. The cemetery stands as a powerful reminder of the courage and sacrifices of soldiers, and the importance of peace.",
+          "**Khonoma Village** Known as Asia’s first green village, it is a fine example of how tradition and nature can exist in harmony. Snuggled among lush-green hills near Kohima, the village is recognised for its strong commitment to conservation and sustainable living. Forests here are protected, and farming is done using eco-friendly methods passed down through generations. Stone-built houses, terraced fields, and warm hospitality add to its charm. More than just a destination for the sightseer, Khonoma is a living model of environmental responsibility, cultural pride, and serene village life."
+        ],
+        page: 77
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/my-town-nagaland/p76-5.webp",
+        alt: "Portrait of Likivi G Yeptho",
+        width: 150,
+        height: 199,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p76-2.webp",
+        alt: "A town on a hillside below misty mountains",
+        width: 357,
+        height: 530,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p76-3.webp",
+        alt: "Dancers in feathered headdresses performing a traditional dance",
+        width: 236,
+        height: 285,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p77-1.webp",
+        alt: "Rolling green hills in a valley under clouds",
+        width: 483,
+        height: 332,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p77-2.webp",
+        alt: "Terraced fields on a hillside",
+        width: 234,
+        height: 351,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p77-3.webp",
+        alt: "Dancers in traditional dress performing before a tall thatched house",
+        width: 252,
+        height: 221,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p77-4.webp",
+        alt: "A plate of smoked pork with bamboo shoot",
+        width: 241,
+        height: 199,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-nagaland/p77-5.webp",
+        alt: "A man in a traditional Naga headdress holding a spear",
+        width: 234,
+        height: 351,
+        pdfPages: [
+          77
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        76,
+        77
+      ],
+      printedPages: [
+        72,
+        73
+      ],
+      imagePdfPage: 76
+    }
+  },
+  {
+    id: "predictions-march-2026",
+    slug: "predictions-march-2026",
+    title: "Predictions",
+    label: "March 2026",
+    section: "Predictions",
+    category: "predictions",
+    author: "Dr. Prem Kumar Sharma",
+    role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
+    date: "March 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "march-2026",
+    editionTitle: "Spice Route - March 2026",
+    body: [
+      {
+        type: "note",
+        text: "**email**: psharma@premastrologer.com | **web**: www.premastrologer.com",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Personal relationships strengthen through clear understanding and emotional reassurance. Career momentum improves with a timely and competent decision. Monetary stability supports stress-free future planning. Official travel wil bring productive exposure and social engagement will help boost your morale. Physical well-being stays strong through disciplined routines and balanced lifestyle choices.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **1**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Red**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "A shift in surroundings will help you feel emotionally refreshed. Professional duties demand prompt attention to prevent delays. Financial resources require careful handling, especially around uncertain expenses. Emotional exchanges call for patience and understanding. Wellness improves through adequate rest, and selective social interaction.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **5**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Social visibility increases through articulate expression. Career influence grows as new collaborations emerge. Workplace confusion will be soon resolved with decisive thinking. Income-related suggestions may surface but require discretion. Travel offers variety and insight. Emotional warmth returns to close bonds. Home life stays peaceful. Health improves steadily.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **2**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Yellow**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Personal priorities shift, calling for adaptability. Changing professional conditions will require adaptibility and calmness. Workplace dedication earns appreciation. Domestic matters demand emotional sensitivity while well-being needs consistent effort. Academic progress improves through measured communication and discipline.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **11**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **White**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Emotional bonds strengthen through reassurance and mutual trust. Career responsibilities require careful supervision. Financial comfort continues, and savings prove beneficial over time. Long-distance travel offers a fresh perspective. Group activities remain encouraging. Academic discipline develops with greater commitment. Energy levels fluctuate slightly, making routine and balance essential.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **22**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour:**Green**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Learning gains momentum through healthy competition and focus. Professional partnerships need strategic handling. Financial planning benefits with cautious budgeting. Short journeys are on the cards and offer useful exposure. Health remains stable with discipline. Networking expands outlook and supports long-term ambitions, helping you move steadily ahead toward personal goals.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **6**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Beige**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Unresolved personal matters resurface for closure. Task organisation improves productivity. Asset returns may arrive slowly, requiring patience. Workplace decisions should be delayed briefly. Family opinions differ, demanding diplomacy. Well-being improves as mental pressure reduces, allowing balance between duties and personal peace.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **4**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Pink**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Your judgment leads to recognition, increasing your influence. Professional challenges will help build inner strength. Financial discipline supports long-term security and steady asset growth. Emotional bonds progress smoothly when intensity is well balanced. Travel brings positive momentum and fresh perspective. Physical stamina remains dependable.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **18**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Support from capable people helps conserve energy. A new initiative begins positively. Career trends favour salaried individuals. Income stability will help in strengthening confidence. Family interactions evoke nostalgia. Emotional connections deepen through shared experiences. Health remains balanced with moderation. Educational focus remains steady, encouraging confidence.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **3**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Orange**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Careful decisions deliver lasting value despite higher initial costs. Professional matters require patience rather than haste. Financial awareness helps manage expenses wisely. Health demands discipline in routines. Romantic prospects improve for those seeking commitment. Family communication stays respectful. Travel refreshes perspective.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **4**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Grey**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Professional focus intensifies toward a meaningful achievement. Scholastic growth demands patience and regular effort. Social situations need calm clarification. Financial prudence supports savings and future planning. Health improves through disciplined habits. Romantic bonds deepen with thoughtful initiative. Family support will help strengthen emotional balance.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **8**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Magenta**",
+        page: 82
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 82
+      },
+      {
+        type: "p",
+        text: "Circumstances encourage stepping back for clarity this month. Professional restraint protects credibility. Academic performance fluctuates and needs discipline. Family emotions require sensitivity. Romantic harmony improves when space is respected. Travel calls for caution and intuition. Health remains stable with balance. Financial flow improves gradually with mindful management.",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky No.: **6**",
+        page: 82
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Purple**",
+        page: 82
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "march-2026",
+      pdf: "SpiceRoute-March-2026-Lowres.pdf",
+      pdfPages: [
+        82
+      ],
+      printedPages: [
+        78
+      ],
+      imagePdfPage: 82
+    }
+  },
+  {
+    id: "from-the-cmds-desk-may-2024",
+    slug: "from-the-cmds-desk-may-2024",
+    title: "From the CMD’s Desk",
+    section: "From the CMD’s Desk",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman and Managing Director",
+    date: "May 2024",
+    excerpt: "Welcome aboard SpiceJet! As we complete 19 glorious years of serving our passengers and the nation, I am reminded of the exhilaration I felt watching our inaugural flight take off from New Delhi on May 23, 2005, bound for Ahmedabad. The enthusiasm and conviction that fuelled our journey’s outset remain as vibrant as ever, matched only by our unwavering commitment to providing a seamless flying experience to each of our passengers. From being a part of countless cherished memories for first-time flyers to stepping up to serve in the face of adversity, our relentless spirit and unwavering dedication continue to drive us forward. As we reflect on our journey thus far, we renew our pledge to serve both our passengers and our nation with the same passion and determination that have defined us from the very beginning.",
+    heroImage: "/images/stories/from-the-cmds-desk-may-2024.webp",
+    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
+    heroImageSource: "Spice Route - May 2024, PDF page 5",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet! As we complete 19 glorious years of serving our passengers and the nation, I am reminded of the exhilaration I felt watching our inaugural flight take off from New Delhi on May 23, 2005, bound for Ahmedabad. The enthusiasm and conviction that fuelled our journey’s outset remain as vibrant as ever, matched only by our unwavering commitment to providing a seamless flying experience to each of our passengers.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "From being a part of countless cherished memories for first-time flyers to stepping up to serve in the face of adversity, our relentless spirit and unwavering dedication continue to drive us forward. As we reflect on our journey thus far, we renew our pledge to serve both our passengers and our nation with the same passion and determination that have defined us from the very beginning.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "As we press onward on our growth trajectory, we are steadfastly fortifying our fleet to ensure optimal operational readiness. The recent incorporation of Boeing and Q400 aircraft into our fleet has significantly bolstered our operational capacity, precisely meeting the escalating demand for air travel. We are poised to inaugurate new flights and elevate the frequency of existing routes. Moreover, we have reached successful settlements with some of our key partners, yielding substantial savings exceeding INR 1250 Crore for the airline. These savings not only fortify our balance sheet but also pave the way for an exciting new chapter of growth and prosperity.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Remaining steadfast in our commitment to serve the people, we are intensifying our focus on regional and UDAN routes to benefit as many individuals as possible.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "As part of our ongoing efforts to enhance connectivity to smaller cities and remote areas, we are pleased to announce the resumption of flight operations to Pakyong Airport in Sikkim. Our daily flights between Kolkata and Pakyong, along with the five-day-a-week service connecting Pakyong with Delhi, signify our dedication to providing convenient travel options for residents and meeting the needs of business travellers and tourists alike. The resumption of flight connectivity to Pakyong will not only benefit residents with convenient travel options but will also cater to the growing number of business travellers and tourists visiting this picturesque state.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "We are thrilled to announce another significant expansion to our growing network with the introduction of non-stop flights connecting Hyderabad to Ayodhya. The launch of direct flights from Hyderabad will provide pilgrims from the region with unparalleled convenience in reaching this sacred destination. Our team is actively working to enhance the frequency of flights and establish connections with additional cities, further streamlining travel to Ayodhya.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "It is heartening to note that our efforts have been met with such warmth and enthusiasm from our valued patrons. Consistently achieving the highest occupancy rates among all airlines in the country is a testament to our dedication to providing exceptional service. In March 2024, we proudly recorded an impressive occupancy rate (PLF) of 92.7%.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "We are deeply grateful for your continued trust in choosing us for your travel needs. We remain dedicated to exceeding your expectations with our unparalleled services and expanding network. Thank you for your continued support, and we look forward to serving you with excellence on every journey.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 5
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        5
+      ],
+      printedPages: [
+        3
+      ],
+      imagePdfPage: 5
+    }
+  },
+  {
+    id: "broadsheet-may-2024",
+    slug: "broadsheet-may-2024",
+    title: "Broadsheet",
+    section: "Broadsheet",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "",
+    heroImage: "/images/stories/broadsheet-may-2024.webp",
+    heroImageAlt: "The Sydney Opera House lit up in bright patterns at night, reflected in the harbour",
+    heroImageSource: "Spice Route - May 2024, PDF page 16",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "VIVID SYDNEY",
+        page: 16
+      },
+      {
+        type: "p",
+        text: "Lights and music return to Sydney this month with a 23-day-long festival, featuring many events and activities. The annual Vivid Sydney is known for awe-inspiring art installations and 3D light projections, lighting landmarks such as the Sydney Opera House and Harbour Bridge.",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**When**: May 24 onwards",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**Where**: Sydney, Australia",
+        page: 16
+      },
+      {
+        type: "subhead",
+        text: "Events",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "BUDDHA PURNIMA",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Also known as Buddha Jayanti, this day marks the birth anniversary of Gautama Buddha, the founder of Buddhism. It is believed that he had attained enlightenment on this day.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: May 23",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: In many parts around the world",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "PAHIYAS FESTIVAL",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "A traditional harvest festival, Pahiyas is a colourful celebration in honour of San Isidro Labrador, the patron of farmers in the Philippines. Leaf-shaped decorations and feasts are some of the attractions.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: May 15",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Many places across the Philippines, especially Lucban",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "CULTURE MEETS MELODY",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Folk musician Mame Khan and sitar maestro Purbayan Chatterjee are coming together for a power-packed performance, showcasing the best of regional music with a modern twist.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: May 11",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Royal Opera House, Mumbai",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "INTERNATIONAL MUSEUM DAY",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "This day is observed to raise awareness about museums as an important means of cultural exchange, mutual understanding, cooperation and peace.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: May 18",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the world",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "Fashion",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "A TRADITIONAL TOUCH",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Summer is the perfect time to don those easy-breezy ethnic outfits and amp up the look with quirky traditional accessories. Anita Dongre's latest collection features such vibrant accessories that are vegan and inspired by from zardozi and Pichhwai.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "POWER-PACKED!",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Actor and model Milind Soman has always been an inspiration to fitness enthusiasts. Known to participate in marathons often, he has recently joined hands with performance wear brand Puma as its \"running ambassador.\"",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "A POP OF COLOUR",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Elevate your summer style with bright and refreshing colours. American fashion house Kate Spade has come up with a fresh range of apparels, necklaces, handbags and more, to add to your summer wardrobe.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "COOL AND COMFY",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "If comfort is your priority during the summer season, the latest spring/summer collection by Boss can be a good option. You can pick from a variety of essentials like cotton t-shirts, swimwear, trousers, and more.",
+        page: 20
+      }
+    ],
+    pullQuotes: [
+      "“Painting is poetry that is seen rather than felt, and poetry is painting that is felt rather than seen.” Leonardo da Vinci Italian polymath"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/broadsheet-may-2024/p18-4.webp",
+        alt: "Illustration: a golden statue of the Buddha in meditation",
+        width: 464,
+        height: 537,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p18-2.webp",
+        alt: "A house decorated with colourful produce and rice wafers for a harvest festival",
+        width: 465,
+        height: 297,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p18-1.webp",
+        alt: "A folk musician in a turban beside a sitar player",
+        width: 498,
+        height: 412,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p18-3.webp",
+        alt: "Visitors looking at a wall of artefacts in a museum",
+        width: 488,
+        height: 399,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p20-3.webp",
+        alt: "An embroidered red potli bag",
+        width: 514,
+        height: 698,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p20-1.webp",
+        alt: "Milind Soman running on a forest trail",
+        width: 472,
+        height: 700,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p20-4.webp",
+        alt: "A pink handbag surrounded by flowers",
+        width: 325,
+        height: 324,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-may-2024/p20-2.webp",
+        alt: "Summer clothes and accessories laid out: caps, shirts, shorts and a backpack",
+        width: 646,
+        height: 358,
+        pdfPages: [
+          20
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 18,
+        items: [
+          "Image: parashare.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        16,
+        18,
+        20
+      ],
+      printedPages: [
+        14,
+        16,
+        18
+      ],
+      imagePdfPage: 16
+    }
+  },
+  {
+    id: "network-pakyong",
+    slug: "network-pakyong",
+    title: "Pakyong",
+    section: "Network",
+    category: "destinations",
+    date: "May 2024",
+    excerpt: "With verdant mountains and terraced fields, Pakyong in Sikkim beckons the traveller for an adventurous and captivating retreat",
+    heroImage: "/images/stories/network-pakyong.webp",
+    heroImageAlt: "A mountaintop airstrip carved into forested hills",
+    heroImageSource: "Spice Route - May 2024, PDF page 26",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Located at the foothills of the Himalayas, the picturesque city of Pakyong, whose hidden gems have only started being explored in recent years, offers an offbeat holiday experience. The destination came into being after the inauguration of the Pakyong Airport. The place is adorned with lush mountains, pines and terraced paddy fields. Experience the local culture and traditions, and participate in festivals such as Losar, Saga Dawa and Bhumchu.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Enjoy serenity at the Saramsa Garden, around 12 km from Pakyong. Enjoy family time at nearby Sikkim Science Centre and Jawaharlal Nehru Botanical Garden, around 30 km away.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Take a trip to Kathog Monastery above Pakyong Bazaar, apart from Rumtek Monastery, around 30 km away. Visit the Pacheykhani cave and farms to enjoy the surreal beauty of the region.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Relish local dishes such as thukpa, sel roti and wonton. Shop for fermented foods like gundruk, Sikkim tea, Tibetan crafts and attractive souvenirs from local markets.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Around 25 km from Pakyong lies Gangtok, the capital city of Sikkim. Visit popular Buddhist monasteries as well as the beautiful Tsomgo (Changu) Lake.",
+        page: 26
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Pakyong from Delhi, Kolkata, Chennai, Dharamshala, Goa and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-pakyong/p26-2.webp",
+        alt: "A monk in saffron robes before a monastery during a festival",
+        width: 311,
+        height: 365,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-pakyong/p26-6.webp",
+        alt: "A blue glacial lake below mountains",
+        width: 334,
+        height: 334,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-pakyong/p26-5.webp",
+        alt: "A building with a pagoda-style roof in a garden",
+        width: 271,
+        height: 201,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-pakyong/p26-4.webp",
+        alt: "Monks seated in rows inside a colourful monastery hall",
+        width: 272,
+        height: 200,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-pakyong/p26-3.webp",
+        alt: "Rings of sel roti on a plate",
+        width: 270,
+        height: 202,
+        pdfPages: [
+          26
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 26,
+        items: [
+          "Images: theindia.co.in",
+          "Images: sikkimstdc.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        26
+      ],
+      printedPages: [
+        24
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "network-jabalpur",
+    slug: "network-jabalpur",
+    title: "Jabalpur",
+    section: "Network",
+    category: "destinations",
+    date: "May 2024",
+    excerpt: "Located in a rocky basin surrounded by low hills, Jabalpur offers a glimpse of Madhya Pradesh's glorious heritage",
+    heroImage: "/images/stories/network-jabalpur.webp",
+    heroImageAlt: "A waterfall plunging through a rocky gorge",
+    heroImageSource: "Spice Route - May 2024, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Located in the heart of Madhya Pradesh, Jabalpur is steeped in history and culture. Situated close to the Narmada River, the city soothes the soul with its natural beauty and has a number of sightseeing spots. The expansive Dumna Nature Reserve Park, around 10 km away, is ideal for catching a glimpse of wild creatures. Pay your obeisance at the Chausath Yogini Temple or visit the Kachnar City Shiva Temple, which houses one of the tallest statues of Lord Shiva.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Boat your way through the magnificent Marble Rocks at Bedaghat. Admire the Dhuandhar Falls nearby, which plunges from a height of 30 ft, apart from Bhadbhada Falls, around 17 km away.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Visit the Madan Mahal Fort, a testimony to the lives of the rulers of Jabalpur, besides the natural marvel of the Balancing Rock formations, an exotic retreat. Visit the Bargi Dam located close-by.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Relish treats such as poha-jalebi, khoya jalebi, aloo bonda and kachori at Chatori Gali and Sarafa Bazaar. Buy marble artefacts at local markets.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Take a trip to Mandla, around 95 km from Jabalpur, to see the ruins of its eponymous fort. The National Park of Fossils, around 85 km away, is a well-known attraction.",
+        page: 28
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Jabalpur from Delhi, Mumbai, Ahmedabad, Hyderabad and many more cities. Book now at www.spicejet.com."
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-jabalpur/p28-1.webp",
+        alt: "A boat on a river between white marble cliffs",
+        width: 288,
+        height: 178,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-jabalpur/p28-2.webp",
+        alt: "The stone ruins of a hilltop fort",
+        width: 286,
+        height: 178,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-jabalpur/p28-4.webp",
+        alt: "Domed stone ruins in a green field",
+        width: 303,
+        height: 303,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-jabalpur/p28-6.webp",
+        alt: "A large white statue of Lord Shiva",
+        width: 453,
+        height: 302,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-jabalpur/p28-5.webp",
+        alt: "Poha and jalebi served together on a plate",
+        width: 203,
+        height: 223,
+        pdfPages: [
+          28
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 28,
+        items: [
+          "Images: en.m.wikipedia.org/"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        28
+      ],
+      printedPages: [
+        26
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "network-kandla",
+    slug: "network-kandla",
+    title: "Kandla",
+    section: "Network",
+    category: "destinations",
+    date: "May 2024",
+    excerpt: "One of the busiest port cities in India, Kandla is a gateway to tourist places like Bhuj",
+    heroImage: "/images/stories/network-kandla.webp",
+    heroImageAlt: "Cranes and a cargo ship at a busy port",
+    heroImageSource: "Spice Route - May 2024, PDF page 30",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "An important port city in India, Kandla is also a centre for culture and heritage. Kandla Port (or Deendayal Port) is one of the largest in India in terms of the volume of cargo handled. From Kandla, travel to Bhuj, about 70 km away, and dotted with attractions. You can also plan a trip to Rann of Kachchh to admire the beauty of the white salt marshy land. It is well-known for the annual Rann Utsav, held in Dhordo.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the Gandhi Samadhi nearby, the second place in India that houses Mahatma Gandhi's ashes. Also, visit the unique Vande Mataram Memorial at Bhujodi and the Aina Mahal located close-by.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the Bharatiya Sanskriti Darshan (about 70 km away) to see Kachchhi folk art and crafts. Visit the Shree Swaminarayan Temple in Bhuj, apart from serene Mandvi beach, about 100 km away.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Relish authentic Gujarati dishes such as dabeli, bajara na rotla with curd, thepla, khakra, and more. Shop for handicrafts with traditional Kachchh embroidery from local markets.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Around 130 km from Kandla lies Hodka Village, a growing rural tourism spot famous for its art and craft work. Enjoy overnight camel safaris here.",
+        page: 30
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Kandla from Delhi, Mumbai, Ahmedabad, Ayodhya, Chennai, and Bengaluru. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-kandla/p30-2.webp",
+        alt: "Illustration: tents on the white desert of the Rann",
+        width: 470,
+        height: 361,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-kandla/p30-3.webp",
+        alt: "Birds flying over a beach at sunrise",
+        width: 271,
+        height: 200,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-kandla/p30-4.webp",
+        alt: "A red sandstone building with fountains",
+        width: 271,
+        height: 202,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-kandla/p30-5.webp",
+        alt: "A colourful embroidered textile",
+        width: 270,
+        height: 200,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-kandla/p30-6.webp",
+        alt: "A decorated camel cart on the salt desert",
+        width: 303,
+        height: 302,
+        pdfPages: [
+          30
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        30
+      ],
+      printedPages: [
+        28
+      ],
+      imagePdfPage: 30
+    }
+  },
+  {
+    id: "watch-your-style",
+    slug: "watch-your-style",
+    title: "Watch Your Style!",
+    section: "Open House",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "Watches are a favourite accessory of many. Apart from keeping an eye on time, here's how you can elevate your look with them!",
+    heroImage: "/images/stories/watch-your-style.webp",
+    heroImageAlt: "Rihanna performing on stage, pointing into the crowd",
+    heroImageSource: "Spice Route - May 2024, PDF page 32",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Extreme styles can be paired with extreme timepieces! Rihanna proved this by sporting a jewelled Jacob & Co. watch as an anklet at the F1 Grand Prix in Las Vegas in 2023!",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Did you know that watches could be accessorised as earrings too? Not only can you wear watch earrings with your favourite outfits, but can also check the time on these! There are a variety of battery-operated watch earrings in silver and gold-coloured cases, in a variety of face colours.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Taylor Swift ignited a new trend at the 66th Grammy Awards by rocking a custom-made Lorraine Schwartz watch choker. The square-shaped face, composed of shimmering black stones and a traditional white dial, went well with her custom Schiaparelli gown.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "From pocket watches to wristwatches and of course smart watches, the popular accessory of all time has surely come a long way! The latest addition to the list are ring watches. Though the accessory has been around for years, it is only recently that it has become popular as a statement jewellery.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Next time you want to experiment with accessories, try adding a watch-charm to your wristwatch to quirk up the look. This piece of jewellery is like a tiny decoration that hangs from a watch chain and is fastened to the strap using a tiny hook, ring, or clasp. Such watch-charms are available at many jewellery stores.",
+        page: 32
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/watch-your-style/p32-4.webp",
+        alt: "A beaded watch bracelet",
+        width: 489,
+        height: 405,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/watch-your-style/p32-2.webp",
+        alt: "Taylor Swift holding a Grammy award, wearing a watch choker",
+        width: 299,
+        height: 599,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/watch-your-style/p32-3.webp",
+        alt: "A hand wearing a ring watch",
+        width: 305,
+        height: 668,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/watch-your-style/p32-1.webp",
+        alt: "A watch worn as an anklet",
+        width: 471,
+        height: 660,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/watch-your-style/p32-6.webp",
+        alt: "A pair of pocket-watch earrings",
+        width: 210,
+        height: 191,
+        pdfPages: [
+          32
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 32,
+        items: [
+          "Image: insta/jacobandco",
+          "Image: pirate-treasures.com",
+          "Image: insta/schiaparelli",
+          "Image: fb/JOKER & WITCH",
+          "Image: fb/Patricia Stanley Ring Watches"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        32
+      ],
+      printedPages: [
+        30
+      ],
+      imagePdfPage: 32
+    }
+  },
+  {
+    id: "keeping-it-cool",
+    slug: "keeping-it-cool",
+    title: "Keeping it Cool!",
+    section: "Open House",
+    category: "wellness",
+    date: "May 2024",
+    excerpt: "With the mercury rising, you can bank on these food items to stay hydrated and keep the heat at bay!",
+    heroImage: "/images/stories/keeping-it-cool.webp",
+    heroImageAlt: "A bowl of mango salsa with lime and herbs",
+    heroImageSource: "Spice Route - May 2024, PDF page 34",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Ditch tea, coffee and carbonated drinks this season! Instead, switch to healthy beverages such as a glass of chilled kokum sharbat or juice extracted from the kokum fruit. Else, try chaas (buttermilk) mixed with salt, black salt and mint flakes, or aam panna, a cooling drink made from unripe green tart mangoes, flavoured with roasted cumin.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "A lesser known summer food is khus khus. These can be used to make a cooling drink that is also known to help with all sorts of inflammation. Khus khus is a good source of magnesium, which aids cellular functions in the body.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Include fruits and green vegetables like papaya, spinach, cucumber, jackfruit, yam and others to beat the heat during summers. Experts recommend avoiding excess fried food as it may shoot up your body temperature. You can also opt for watermelon, tomatoes and litchi, which have high water content.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "The season of our favourite summer fruit, mango, is here! While shakes and cheesecakes are popular, try a refreshing mango salsa recipe with chips or nachos for getting that summer kick! Grab some ripe mangoes, red bell pepper, red onion, cilantro/coriander and chillies. Dice everything finely and mix them up with a pinch of salt and a spoon of lemon juice.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Sattu (roasted gram flour) is a summer superfood that can keep you energetic and prevent heatstroke! It adds roughage and pulls in water for easy digestion. It is also known to curb flatulence, constipation and acidity. To quench your thirst, try an icy drink by whisking sattu and sugar/jaggery in cold water.",
+        page: 34
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/keeping-it-cool/p34-5.webp",
+        alt: "A basket of fruits including watermelon and mangoes",
+        width: 391,
+        height: 304,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/keeping-it-cool/p34-4.webp",
+        alt: "Two glasses of a dark red summer drink",
+        width: 624,
+        height: 396,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/keeping-it-cool/p34-2.webp",
+        alt: "Red poppies beside a scoop of poppy seeds",
+        width: 313,
+        height: 255,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/keeping-it-cool/p34-3.webp",
+        alt: "Bowls of sattu and spices on a wooden tray",
+        width: 403,
+        height: 730,
+        pdfPages: [
+          34
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        34
+      ],
+      printedPages: [
+        32
+      ],
+      imagePdfPage: 34
+    }
+  },
+  {
+    id: "phuket-heaven-on-earth",
+    slug: "phuket-heaven-on-earth",
+    title: "Heaven on Earth",
+    label: "Phuket",
+    section: "Lead",
+    category: "destinations",
+    author: "Aishani Gupta",
+    bylineLabel: "Text:",
+    date: "May 2024",
+    excerpt: "SpiceJet is turning 19! As we turn another leaf in our lives, we are all set to gift you one of the greatest holidays. A direct flight to Phuket, one of the world's most popular beach destinations",
+    heroImage: "/images/stories/phuket-heaven-on-earth.webp",
+    heroImageAlt: "A longtail boat on shallow turquoise water below limestone islands at sunset",
+    heroImageSource: "Spice Route - May 2024, PDF pages 40–41",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Famously hailed as the ‘pearl of the Andaman Sea’, the island of Phuket is where centuries of human history mingle with pristine nature. As azure waves wash white-gold beaches, enveloped in warm Thai heritage, Thailand's dazzling island pride is a paradise you may never want to leave. The biggest isle off Thailand, Phuket has been a major port and commercial centre, attracting traders from across the world for centuries. The island’s dreamy sceneries bustle with tantalising vestiges of their diverse religious, culinary and architectural traditions.",
+        page: 41
+      },
+      {
+        type: "subhead",
+        text: "DIVINE BEACHES",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "A beach enthusiast’s paradise, Phuket is surrounded by turquoise waters lapping its pristine shores. The busiest beaches with thriving nightlife and fabulous seafood dining experiences are along Patong and Kata locales. Surin, Kamala and Mai Khao beaches are less crowded and perfect for quiet, romantic getaways and also for solo travel. The Sirinat National Park bordering Mai Khao beach beckons nature lovers with immaculate white sands and evergreen pine covers. A quiet sunset stroll along this coastline, with fishing boats gently bobbling on rippling waves, takes you back in time when explorers arrived at these delicate sands in search of new opportunities.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "OLD TOWN",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Dedicated walking tours along Thanon Klang, Thanon Dibuk, Thanon Phang nga, Thanon Yaowarat, Thanon Krabi and Soi Romanee are great ways to experience the rich, multicultural legacies of Phuket’s Old Town. Among the early settlers were Hokkien Chinese people working in the tin mining industry — apart from Europeans and Indians — who settled in the area and built many establishments including the famous Jui Tui Shrine, which hosts the annual Vegetarian Festival. The Portuguese built unique homes, which later came to be known as Sino-European architecture — characterised by ornate facades and intricate motifs on pastel-hued buildings — that have been painstakingly restored by Thai authorities over the years and are a common sight in the Old Town. For a guided tour of a Sino-Portuguese mansion, head over to the Chinpracha House in Mueang Phuket, which is still inhabited by descendants of its original owners. The Old Town’s cross-cultural culinary delights also won the UNESCO’s Creative City Award as the City of Gastronomy in 2015. Fried noodles, satay, crab curries, fish curry and rice dishes are among the best of this city’s flavourful offerings.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "BUDDHIST HERITAGE",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "People in Thailand are predominantly Buddhist, and Phuket has several impressive temples bearing testimony to the vibrant histories of Buddhism in the region. The intricate Thai architecture including a magnificent viharn (assembly hall) at Wat Chalong, Phuket’s most revered temple, is undoubtedly a photographer’s delight. This shrine complex also contains a bone relic of Lord Buddha inside its three-storeyed chedi (stupa). Another of the island’s oldest and most serene temples is Wat Phra Thong, known for its golden statue of a half-buried Lord Buddha. The most recognisable landmark in Phuket is the 45-m-tall Big Buddha at Nakkerd Hill in Karon, which, owing to its elevation, is among the best sunset spots in the island. On a clear weather day, it has the most breathtaking views of Chalong bay, Phuket Town and even Phang Nga Bay.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "WILD SANCTUARIES",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Phuket beckons nature and wildlife enthusiasts with its new Elephant Sanctuary, which rescues and allows these animals to roam free in its 30-acre lush, tropical vistas. Visitors are encouraged to hike through the verdant landscapes to observe elephants relaxing and foraging in their natural habitats. The Marine Turtle Foundation in Mai Khao is dedicated towards protecting and replenishing aquatic ecologies of the Andaman Sea in collaboration with local communities, schools, donors and government authorities. They have established a protected zone for breeding endangered sea turtles, and organise marathons and sporting events with tourists and locals to raise awareness.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "WHAT TO DO",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Experience the island’s lush forests with ziplining near the Elephant Sanctuary.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "NOT TO MISS",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Siam Niramit in Mueang Phuket and Phuket Fantasea theme park in Kamala present Thailand’s culture and mythology in mesmerising stage shows.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "WATER FUN",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Jet skiing, kayaking, scuba diving, parasailing, snorkelling and surfing along Patong and Kata beaches are highly popular among tourists.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "SUNSET POINTS",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Radar Hill viewpoint above Patong beach is the most exquisite place to view Phuket’s golden sunset. Promthep Cape in the south of the island is also popular for sundowners.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "IDYLLIC ISLANDS",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Go island hopping around Phuket to soak in the beauty of scenic shores and enjoy water activities at Koh Samui, Phi Phi, Similan Island, Coconut Island, Coral Island and Krabi. They can be reached via ferries or boat transfers.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Relish delectable Royal Thai, Malay and Peranakan cuisine at Blue Elephant and shop for locally made artworks and batik sarongs and scarves at ChimJae Walking Street market.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "THINGS TO KNOW BEFORE VISITING A THAI TEMPLE",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "list",
+        items: [
+          "In Thailand, “Wat” means temple",
+          "Remove your shoes before entering",
+          "A small donation is often considered a good gesture",
+          "Remember to dress modestly covering shoulders and legs"
+        ],
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "Bangkok",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Bangkok, the bustling capital of Thailand, is a city that blends tradition with modernity. Stepping into this metropolis, one is greeted by a sensory overload of sights, sounds, and aromas. The city's skyline is punctuated by glittering skyscrapers.",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "A highlight of Bangkok is its rich cultural heritage. The Grand Palace, a complex of dazzling structures and intricate designs, showcases the opulence of Thai royalty.",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Exploring Bangkok’s vibrant neighbourhoods is a must. Chatuchak Weekend Market, a sprawling labyrinth of stalls, offers everything from local handicrafts to exotic street food. There are shopping malls for luxury lovers too.",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Beyond the urban sprawl, Bangkok's waterways offer a peek into the past. A boat ride along the Chao Phraya River unveils hidden communities, traditional stilt houses and glimpses of local life.",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Cuisine is another cornerstone of Bangkok's charm. From street-side stalls serving pad thai to Michelin-starred restaurants pushing culinary boundaries, the city is a paradise for food enthusiasts.",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Bangkok captivates with its contrasts—it is where ancient traditions meet contemporary lifestyle. A prominent symbol of its heritage is vibrant floating markets such as the one in Damnoen Saduak.",
+        page: 46
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects daily direct flights* from New Delhi to Phuket (12:15- 18:30) and from Phuket to Delhi (19:30-22:45) *May 15 onwards"
+    ],
+    pullQuotes: [
+      "Phuket is surrounded by turquoise waters, fabulous seafood, ornate shrines and a thriving nightlife"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p42-1.webp",
+        alt: "Kayaks paddling towards a sea cave in green water below cliffs",
+        width: 906,
+        height: 627,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p42-2.webp",
+        alt: "A couple sitting beside an elephant in a forest",
+        width: 277,
+        height: 345,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p42-3.webp",
+        alt: "A mermaid statue in a garden pond",
+        width: 277,
+        height: 212,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p42-4.webp",
+        alt: "Parasailing over a busy beach",
+        width: 277,
+        height: 252,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p42-5.webp",
+        alt: "A red and gold Chinese shrine with ornate roofs",
+        width: 424,
+        height: 423,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p44-1.webp",
+        alt: "The Big Buddha statue on a hilltop overlooking the sea",
+        width: 917,
+        height: 753,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p44-2.webp",
+        alt: "People watching the sunset over the sea from a hillside",
+        width: 399,
+        height: 431,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p44-3.webp",
+        alt: "A woman with arms outstretched at the bow of a boat among limestone islands",
+        width: 379,
+        height: 316,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p44-4.webp",
+        alt: "A bowl of Thai curry seen from above",
+        width: 265,
+        height: 266,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-1.webp",
+        alt: "A woman sitting in a giant woven nest overlooking limestone islands",
+        width: 708,
+        height: 580,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-2.webp",
+        alt: "Bangkok’s skyline and river at dusk",
+        width: 248,
+        height: 221,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-6.webp",
+        alt: "The golden spires of the Grand Palace",
+        width: 235,
+        height: 235,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-3.webp",
+        alt: "A woman browsing colourful goods at a market stall",
+        width: 215,
+        height: 199,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-4.webp",
+        alt: "A longtail boat on the river in front of a temple",
+        width: 235,
+        height: 215,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-7.webp",
+        alt: "Skewers of street food on a grill",
+        width: 226,
+        height: 227,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/phuket-heaven-on-earth/p46-5.webp",
+        alt: "Boats laden with fruit at a floating market",
+        width: 235,
+        height: 207,
+        pdfPages: [
+          46
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        40,
+        41,
+        42,
+        44,
+        46
+      ],
+      printedPages: [
+        38,
+        39,
+        40,
+        42,
+        44
+      ],
+      imagePdfPage: 40
+    }
+  },
+  {
+    id: "international-cabin-crew-day-heroes-of-the-sky",
+    slug: "international-cabin-crew-day-heroes-of-the-sky",
+    title: "International Cabin Crew Day: Heroes of the Sky!",
+    section: "RedHot",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "",
+    heroImage: "/images/stories/international-cabin-crew-day-heroes-of-the-sky.webp",
+    heroImageAlt: "SpiceJet cabin crew in red uniforms standing in an aircraft cabin",
+    heroImageSource: "Spice Route - May 2024, PDF page 48",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "On May 31, we celebrate the exceptional men and women who safeguard our skies and make our journeys comfortable. Their unwavering dedication and professionalism inspire us, and we deeply appreciate their commitment to excellence in service. Here are some of our star crew members, whose exceptional efforts have brightened countless journeys.",
+        page: 49
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/international-cabin-crew-day-heroes-of-the-sky/p49-1.webp",
+        alt: "SpiceJet cabin crew in red uniforms posing in an aircraft cabin",
+        width: 1241,
+        height: 1612,
+        pdfPages: [
+          49
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 48,
+        items: [
+          "Rojileena Subba",
+          "Mahesh Lulla",
+          "Jumon Baruah",
+          "Khushboo Bohra",
+          "Abhay Pratap Singh"
+        ]
+      },
+      {
+        pdfPage: 49,
+        items: [
+          "Anisha Singh",
+          "Lakshika Ahuja",
+          "Albina Peters",
+          "Komal Singh",
+          "Rimi Majumdar"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        48,
+        49
+      ],
+      printedPages: [
+        46,
+        47
+      ],
+      imagePdfPage: 48
+    }
+  },
+  {
+    id: "dreaming-of-munnar",
+    slug: "dreaming-of-munnar",
+    title: "Dreaming of Munnar",
+    section: "Homebound",
+    category: "destinations",
+    author: "Gita Hari",
+    bylineLabel: "Text:",
+    date: "May 2024",
+    excerpt: "With tea gardens, waterfalls and misty mountains, this hill station in Kerala is a picture-perfect summer getaway",
+    heroImage: "/images/stories/dreaming-of-munnar.webp",
+    heroImageAlt: "Rolling tea gardens on the hills at sunrise",
+    heroImageSource: "Spice Route - May 2024, PDF pages 50–51",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Imagine stepping into a living canvas of the perfect landscape – rolling green fields of chequered tea gardens, meticulously manicured and set against a backdrop of undulating hills enveloped in mist, with soft clouds floating in and out. Munnar, in the Western Ghats, is nothing short of spectacular. This tea plantation paradise is dotted with cascading waterfalls, fragrant spice plantations, mysterious wildlife sanctuaries and enthralling adventure activities! This former colonial summer resort is Instagram-ready for a cooling holiday.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "WATERFALLS GALORE",
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Few things can be more therapeutic in summer than the ice-cold spray of a waterfall gushing down a verdant mountain face. In Munnar, there's an abundance of silver waterfalls streaking through olive mountains, creating plunge pools and even small rainbows in air. The Lakkam Falls in tourist haven Eravikulam National Park is one of the most spectacular, adorned with a variety of flowering plants, and in summer, when the fiery flowers bloom, the sight is ethereal. Also, explore the milky jets of Attukad waterfalls, and the Cheeyappara and Valara falls. The Nyayamakad waterfalls, which smashes down from a height of around 1,600 m, is sure to leave you awed. To view the hidden gems in and around Munnar, visit Thoovanam waterfalls near Marayoor sandalwood forests, the untamed Kuthumkal waterfalls plummeting with high velocity, or the unhurried and rhythmic Chinnakanal waterfalls gliding down the hills of Devikulam.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "FORESTS AND WILDLIFE",
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Spot the endangered Nilgiri tahr at Eravikulam National Park. The Rajamala area of the park is accessible to tourists, offering a chance to observe these exotic creatures. Keep an eye out for rare orchids, stunning wild balsams, as well as Nilgiri langurs, leopards, and Indian bison during your visit. Under an evergreen canopy flourishes Chinnar Wildlife Sanctuary with native flora and fauna. The scenic Carmelagiri Elephant Park at Mattupetty Road promises to educate visitors about the daily routine, bathing rituals, training procedures and special diets of elephants.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "ADVENTURE ACTIVITIES",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Inside Eravikulam National Park stands Anamudi - the highest peak in South India - luring hikers and trekkers. For an adventurous dense forest trek organised by the state forest department, Mathikettan Shola National Park (around 40 km from Munnar) is unmissable. Bamboo rafting in the Periyar Lake near Munnar is another draw.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "TEA GARDENS",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Watch out for Kolukkumalai - the highest tea garden in the country. A guided tour takes visitors around an old tea factory from the 1930s, nestled amidst sprawling tea plantations. Showcasing the genesis and legacy of tea in Kerala is also the captivating Tea Museum, which is a repository of artefacts, photographs and machineries.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "H I G H L I G H T S",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "MUST-SEE",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Visit the Rajamalai (Eravikulam) National Park, the natural habitat of Nilgiri tahr",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Munnar gets covered in Neelakurinji blooms, a rare plant which flowers once in twelve years",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "WHAT TO DO",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Take a shikara boat ride at the Kundala lake and trek at the Lockhart Gap",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "HISTORY TIP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Travel back to the pre-independence period at the old CSI Christ church in Munnar plantations",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "CUISINE",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Kerala is a land of diverse and delectable flavours. The sumptuous Kairali thali is a must-try. Malabar parotta, idiyappam, puttu and kadala curry, nadan kozhi varuthathu (chicken fry) and Kerala fish curry are the local specialties to savour.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "SIGHTS AND SOUNDS",
+        level: 3,
+        page: 54
+      },
+      {
+        type: "p",
+        text: "From vantage points on mountain tops that offer panoramic views of the picturesque valley below and tea-tasting at sprawling tea plantations, to a leisurely farm picnic at a spice garden and boating in the lake of Mattupetty Dam, there are unending experiences to enthrall.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "WELLNESS RETREATS",
+        level: 3,
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Kerala, being the global Ayurveda capital, offers avenues to indulge in abhyanga, shirodhara, panchakarma, kashayadhara, meditation and other wellness therapies at any of the Ayurvedic spas.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "TRAVEL TIPS",
+        level: 3,
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Carry an umbrella as the weather is unpredictable.",
+        page: 54
+      },
+      {
+        type: "note",
+        text: "**Best Time to Visit**: May for its pleasant climate. It’s dry during daytime and chilly at night.",
+        page: 52
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Madurai (04 hours drive from Munnar) from Hyderabad and Jabalpur. Book now at www.spicejet.com."
+    ],
+    pullQuotes: [
+      "In Munnar, there's an abundance of silver waterfalls streaking through olive mountains creating plunge pools and even small rainbows in air",
+      "For an adventurous dense forest trek, the thrilling Mathikettan Shola National Park is unmissable"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/dreaming-of-munnar/p51-2.webp",
+        alt: "A traveller in a hooded jacket looking out over misty hills",
+        width: 421,
+        height: 421,
+        pdfPages: [
+          51
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p52-1.webp",
+        alt: "A waterfall cascading over dark rocks",
+        width: 1031,
+        height: 615,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p52-2.webp",
+        alt: "Nilgiri tahr on a rocky outcrop",
+        width: 392,
+        height: 384,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p52-5.webp",
+        alt: "A bowl of Kerala fish curry",
+        width: 349,
+        height: 337,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p54-3.webp",
+        alt: "Peppercorns growing on a vine among green leaves",
+        width: 356,
+        height: 355,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p54-1.webp",
+        alt: "A woman receiving an Ayurvedic oil treatment",
+        width: 361,
+        height: 329,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p54-10.webp",
+        alt: "Bamboo rafting on a forest lake",
+        width: 436,
+        height: 436,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/dreaming-of-munnar/p54-2.webp",
+        alt: "Women picking tea on a hillside tea estate",
+        width: 753,
+        height: 555,
+        pdfPages: [
+          54
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        50,
+        51,
+        52,
+        54
+      ],
+      printedPages: [
+        48,
+        49,
+        50,
+        52
+      ],
+      imagePdfPage: 50
+    }
+  },
+  {
+    id: "garden-glory-flower-festivals",
+    slug: "garden-glory-flower-festivals",
+    title: "Garden Glory",
+    section: "Montage",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "Spring is all about rebirth, colours and fresh blossoms! Celebrating the spirit of the season, we bring you glimpses of some vibrant flower festivals from around the world",
+    heroImage: "/images/stories/garden-glory-flower-festivals.webp",
+    heroImageAlt: "A giant sculpted eye made of orange blooms in a flower show garden",
+    heroImageSource: "Spice Route - May 2024, PDF pages 56–57",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Formally known as the Great Spring Show, the Chelsea Flower Show is a five-day fest organised by the Royal Horticultural Society on the grounds of Royal Hospital in Chelsea, London.",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "Photo: **Natalia Vestigio Services**",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "One of the largest and most spectacular flower festivals in the Netherlands, Bloemencorso Bollenstreak sees a grand parade with colourful floats and vehicles decked in blooms.",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "Photo: **TPopova**",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "Organised in Pasadena, California, the Rose Parade is a 136-year-old tradition, where state-of-the-art floats are showcased alongside spirited marching bands and equestrian units.",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "Photo: **Marie1969**",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "The stunning Brussels Flower Carpet is one of Europe's most anticipated flower festivals. Held at Grand-Place, nearly 100 volunteers assemble to make the carpet with begonias, dahlias, grass, leaves and bark. Photo: **Tania_ _Wild**",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "During the vibrant Infiorata festival, Italy is enveloped in splendid designs made of delicate flower petals. The celebrations coincide with the Corpus Domini feast.",
+        page: 59
+      },
+      {
+        type: "p",
+        text: "Photo: **Michele Ponzio**",
+        page: 59
+      },
+      {
+        type: "p",
+        text: "The Chiang Mai Flower Festival is a spectacular riot of colours and fragrances. It is organised annually in Thailand and is popular with tourists and locals alike.",
+        page: 59
+      },
+      {
+        type: "p",
+        text: "Photo: **501room**",
+        page: 59
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/garden-glory-flower-festivals/p57-2.webp",
+        alt: "A parade float shaped like a dragon covered in flowers",
+        width: 604,
+        height: 420,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/garden-glory-flower-festivals/p58-1.webp",
+        alt: "A huge carpet of flowers laid out in a historic square",
+        width: 1241,
+        height: 781,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/garden-glory-flower-festivals/p58-2.webp",
+        alt: "A parade float decorated with flowers and a house",
+        width: 1118,
+        height: 773,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/garden-glory-flower-festivals/p59-1.webp",
+        alt: "A flower-covered float in a festival parade",
+        width: 1121,
+        height: 767,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/garden-glory-flower-festivals/p59-2.webp",
+        alt: "A portrait made of flower petals laid on a street",
+        width: 1241,
+        height: 787,
+        pdfPages: [
+          59
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        56,
+        57,
+        58,
+        59
+      ],
+      printedPages: [
+        54,
+        55,
+        56,
+        57
+      ],
+      imagePdfPage: 56
+    }
+  },
+  {
+    id: "parineeti-chopra-hitting-the-right-notes",
+    slug: "parineeti-chopra-hitting-the-right-notes",
+    title: "Hitting the Right Notes",
+    section: "Limelight",
+    category: "interviews",
+    author: "Aarti Kapur Singh",
+    bylineLabel: "Text:",
+    date: "May 2024",
+    excerpt: "Basking in the success of her latest film, Amar Singh Chamkila, Parineeti Chopra says it was a leap of faith",
+    heroImage: "/images/stories/parineeti-chopra-hitting-the-right-notes.webp",
+    heroImageAlt: "Parineeti Chopra in a green sari",
+    heroImageSource: "Spice Route - May 2024, PDF page 60",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "Every once in a while, an actor gets a role that completely overshadows all past performances. Not that Parineeti Chopra needed a clean slate as ever since the actor debuted as Dimple Chaddha in 2011’s Ladies vs Ricky Bahl, she has been a darling of the masses as well as critics. She belongs to the category of performers with the perfect blend of beauty with brains. A graduate of the Manchester Business School, where she obtained a triple honours degree in Business, Finance and Economics, Parineeti Chopra is a multi-talented actress who is also a well-known singer. This talent was evident in her latest outing, Amar Singh Chamkila, a biopic on the life of Punjabi singer Amar Singh, popularly known as Chamkila, and his wife Amarjot. The film traces the short but brilliant life of the Punjabi singer, known as one of the highest-selling Indian artistes of the 1980s. While",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "singer-actor Diljit Dosanjh essays the role of Chamkila, Chopra plays Amarjot. Stepping into the shoes of a legend is not easy, especially when the masses and classes have admired Chamkila and Amarjot so much. \"A biopic is as much a matter of responsibility as it is of pride. And playing the role of Amarjot was no different,\" she says, adding, \"Imtiaz Sir asked me to gain 16 kg of weight, wear no makeup and also dress in a certain way!” But not once did she doubt the process. \"I understood it was a performance character and once I had committed to this role, my decision was made.\" She explains that she \"drew inspiration from Vidya Balan and how she embodied Silk Smitha in her film The Dirty Picture\". Speaking about the film (directed by Imtiaz Ali) not being a cakewalk, the actor says, \"This, probably, has been the toughest and most demanding role of my life! It was not just about getting the mannerisms of Amarjot right, putting on weight or acquiring the right diction and accent. The toughest part was the singing. Chamkila ji sang at a certain pitch and one of the reasons why the pairing of Amarjot ji and Chamkila ji was such a hit was the perfect synchrony between the two singers. Matching that pitch was extremely challenging. I could not have made a mistake!\" It is even more remarkable when one learns that the songs were sung live on the shoot! Speaking about that experience, Chopra says, \"It was the kind of thing that makes you nervous but also propels you to take the leap of faith. Live singing has a magic of its own and we managed to capture it. What we recorded was a back-up. The songs sung in the film were recorded live on location like the dialogues. There were no add-ons whatsoever.\" Chopra has taken the proverbial leap of faith several times over. \"It became more about quality over quantity,\" she says, asserting, \"Films like The Girl On the Train and Sandeep Aur Pinky Faraar were choices that made me nervous, but I was also excited about them. Then Saina happened. I think that is when I realised I would rather be the tortoise than the hare.\"",
+        page: 61
+      },
+      {
+        type: "subhead",
+        text: "Beyond celluloid",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Aside from acting projects and music, Chopra has also forayed into entrepreneurship. She recently joined hands as an investor and partner with personal care brand, Clensta. Talking about the venture, the newly turned entrepreneur wrote on Instagram, “I’m finally getting to do something that I have been wanting to do for four years but needed the right team to do it with. My education and business background have always made me want to do more than just act, and I’m glad my crazy team and I now have the same vision for my dreams.”",
+        page: 62
+      }
+    ],
+    pullQuotes: [
+      "\"The portrayal of Amarjot has probably been the toughest and the most demanding role of my life. It was not about mannerisms, gaining weight or acquiring her diction, the most difficult part was to sing at her pitch,\" says Parineeti Chopra"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p61-1.webp",
+        alt: "The poster of the film Amar Singh Chamkila",
+        width: 699,
+        height: 702,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p61-2.webp",
+        alt: "Diljit Dosanjh and Parineeti Chopra singing on a stage in a scene from the film",
+        width: 408,
+        height: 408,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p62-1.webp",
+        alt: "Parineeti Chopra in a pink suit holding personal care products",
+        width: 389,
+        height: 762,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p62-2.webp",
+        alt: "Diljit Dosanjh as Chamkila with a vinyl record behind him",
+        width: 646,
+        height: 550,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/parineeti-chopra-hitting-the-right-notes/p62-3.webp",
+        alt: "Parineeti Chopra singing on stage",
+        width: 441,
+        height: 331,
+        pdfPages: [
+          62
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 60,
+        items: [
+          "Image: insta/parineetichopra"
+        ]
+      },
+      {
+        pdfPage: 61,
+        items: [
+          "Images: IMDB",
+          "Image: insta/parineetichopra"
+        ]
+      },
+      {
+        pdfPage: 62,
+        items: [
+          "Amar Singh Chamkila is available to stream on the OTT platform, Netflix.Image: insta/parineetichopra",
+          "Images: IMDB"
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        60,
+        61,
+        62
+      ],
+      printedPages: [
+        58,
+        59,
+        60
+      ],
+      imagePdfPage: 60
+    }
+  },
+  {
+    id: "tech-time-national-technology-day",
+    slug: "tech-time-national-technology-day",
+    title: "Tech Time",
+    section: "Number Game",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "National Technology Day is held every year on May 11. Marking the day, here are some facts about its importance.",
+    heroImage: "/images/stories/tech-time-national-technology-day.webp",
+    heroImageAlt: "A missile lifting off in a plume of smoke",
+    heroImageSource: "Spice Route - May 2024, PDF page 64",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "The day commemorates India's successful nuclear missile test in Pokhran on May 11, **1998** marking a significant milestone in the history of technological innovations in India",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "The day also marks the occasion when the Technology Development Board (TDB) confers National Awards to various industries to honour technological innovations that boost national growth",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "National Technology Day (also celebrated as National Technology Week) recognises the significant contributions and achievements of scientists, researchers, and engineers in the field of science and technology. It symbolises India's quest for scientific discovery",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "The National Awards are presented in various categories such as Successful commercialisation of indigenous technology, MSME, technology start-up, and more",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "According to government data, India saw a massive jump in its global ranking on Global Innovation Index (GII), from 81st in 2015 to 40th in 2022, among **130** economies of the world",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "To promote innovation and entrepreneurship, the Government of India set up the Atal Innovation Mission (AIM) in 2016, an initiative that fosters a problem-solving innovative mindset at schools, universities and research institutions",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "A part of AIM is the state-of-the-art Atal Tinkering Lab programme, established in various schools across the country for students of Classes 6 to 12 to promote hands-on learning of Internet of Things, 3D printing, robotics and other tools and technologies",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The Government of India's Department of Science and Technology (DST) serves as the nodal agency for strengthening science, technology and innovation, identifying gap areas in S&T sectors and promoting new areas in the sector to meet future demands",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "**India is said to have the third-largest tech start-up ecosystem globally. As per a Nasscom report in 2023, the country has around** 27,000 **active tech start-ups**",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "To encourage girls to pursue a career in Science, Technology, Engineering and Mathematics (STEM), the Government of India's Vigyan Jyoti Programme has enrolled around 21,600 meritorious girls of Classes 11 and 12 from different schools in 250 districts",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "One of the most resounding Indian achievements in science and technology in recent years is the successful and historic touchdown of the Chandrayaan-3 on the moon on August 23, 2023",
+        page: 65
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/tech-time-national-technology-day/p64-4.webp",
+        alt: "The national emblem of India",
+        width: 198,
+        height: 231,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/tech-time-national-technology-day/p64-3.webp",
+        alt: "Award trophies shaped like leaves on stands",
+        width: 354,
+        height: 354,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/tech-time-national-technology-day/p64-5.webp",
+        alt: "Illustration: a globe overlaid with market charts",
+        width: 309,
+        height: 221,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/tech-time-national-technology-day/p65-4.webp",
+        alt: "The logo of the Atal Innovation Mission",
+        width: 201,
+        height: 202,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/tech-time-national-technology-day/p65-2.webp",
+        alt: "Two girls in lab goggles doing a science experiment",
+        width: 500,
+        height: 621,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/tech-time-national-technology-day/p65-3.webp",
+        alt: "The Chandrayaan-3 lander",
+        width: 277,
+        height: 234,
+        pdfPages: [
+          65
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        64,
+        65
+      ],
+      printedPages: [
+        62,
+        63
+      ],
+      imagePdfPage: 64
+    }
+  },
+  {
+    id: "world-red-cross-day-courage-across-borders",
+    slug: "world-red-cross-day-courage-across-borders",
+    title: "Courage Across Borders",
+    label: "World Red Cross Day",
+    section: "Open House",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "World Red Cross and Red Crescent Day is celebrated on May 8 for commemorating the birth anniversary of Henry Dunant, the founder of the International Committee of the Red Cross. The day honours the spirit of humanitarianism and recognises individuals who make a difference in their communities.",
+        page: 35
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        35
+      ],
+      printedPages: [
+        33
+      ],
+      imagePdfPage: 35,
+      sectionPdfPage: 34
+    }
+  },
+  {
+    id: "your-forecast-this-month-may-2024",
+    slug: "your-forecast-this-month-may-2024",
+    title: "Your Forecast This Month",
+    label: "May 2024",
+    section: "Astro Time",
+    category: "predictions",
+    date: "May 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "You will be quite productive and can expect good fortune in business, or good returns in your job. You might have a minor misunderstanding with a friend. If you have been feeling alone, this is coming to an end. This is a positive time for romance. You might find out that you have a secret admirer.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Money is coming in for you through a business, job or person. If finances have been stressing you out, this month will bring a sigh of relief for you. You might come across an offer that appears to be 'golden', but make sure to double-check before moving ahead. When it comes to love, expect to be surprised.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "There will be new things coming to the fore in terms of your work, but you might feel a little unsettled. This is because you desire a certain position and you haven't landed there yet. Those who owe you money are returning it. Try to connect more with your partner during this time. Be positive!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "You are attaining a position of power, expansion and surprising success. Because of this, you will have an elevated sense of determination. If there have been differences with family members, there will be reconciliation. Some good news is coming your way to lift up your spirits. Cheer up!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "If you are planning to have a business meeting with someone, this might be a signal for you to make a major move. You are going to let go of anything that is no longer serving you. You might be having some mixed emotions that are troubling you. This might be in matters of the heart. Give it time.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "You are socialising this month and this is going to give you a chance to flaunt your skills and fetch more opportunities for career growth. Your public life and business are mixing well. You will achieve small goals one after the other. An offer of financial assistance or money in the form of a gift is coming. It's a blessed time!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Change is on your mind! You will be changing your stream of work or trying out something new to spice things up in your profession. You might be a little apprehensive about your finances. There might be someone specific on your mind and you will wonder what is going on with them. Do not worry, all will be fine!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "You will be lending a helping hand to others and your good karma is going back to you. Something good will be given to you when you are least expecting it. You might receive silver from someone as well. You will be a little irritated because you might be stuck in a situation. You will receive a long-awaited payment. Gains are coming!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "If you are dissatisfied with your love life, job or career, do not fret! It's all in your mind. Your success will come through preordained changes that will alter your present circumstances and ease your tensions. Someone from your past is going to return and you might have to make a decision. Watch out for allergies!",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "There are some issues that you will want to settle once and for all. Travelling is on the cards! You will be going on a short trip and will be thinking about moving to a new home or living with someone new. You might have to deal with difficult people or circumstances at your workplace. A secret admirer might be coming forward.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "This is a prosperous and influential period for you. Someone could enter your life who could help you manage your career and move you into a much more prominent position. There will be emotional discussions between you and a family member. A special someone will be sweeping you off your feet.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "You will be coming in contact with some influential people. This is going to improve your work life significantly. You’re going to acquire money through new contacts and will be socialising with more people. You will get a message regarding your work from a business partner and that you have passed some tests. Stay positive!",
+        page: 66
+      },
+      {
+        type: "note",
+        text: "Tarot card reader and holistic healer Poonam Sethi believes in the power of giving. With a career spanning more than three decades, Sethi today is an internationally-acclaimed tarot card reader, Reiki healer, colour therapist, Feng Shui practitioner, crystal healer, a specialist in removal and balancing the negative evil eye energies and a rudraksha consultant. She is also the author of The Power of Feng Shui, which offers 90 practical and efficient tips to improve one's life. For details, contact – poonamsethi27@hotmail.com",
+        page: 66
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        66
+      ],
+      printedPages: [
+        64
+      ],
+      imagePdfPage: 66
+    }
+  },
+  {
+    id: "indian-elections-biggest-celebration-of-democracy",
+    slug: "indian-elections-biggest-celebration-of-democracy",
+    title: "Indian Elections",
+    section: "RedHot",
+    category: "culture",
+    date: "May 2024",
+    excerpt: "The Biggest Celebration of Democracy",
+    heroImage: "/images/stories/indian-elections-biggest-celebration-of-democracy.webp",
+    heroImageAlt: "Illustration: an inked finger raised against the colours of the Indian flag",
+    heroImageSource: "Spice Route - May 2024, PDF page 68",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "p",
+        text: "In the world's largest democracy, India, elections are not just a political process; they are a celebration of the democratic spirit that pulses through the nation's veins. Every five years, as the electoral machinery gears up, the country transforms into a vibrant kaleidoscope of colours, opinions, and aspirations. Indian elections are not merely about choosing representatives; they are about empowering every citizen to have a say in shaping the future of the nation. Established by Article 324 of the Constitution, which took effect on January 26, 1950, the ECI's office was set up a day earlier, demonstrating its foundational role in India's democracy. The Election Commission of India (ECI) is an independent constitutional body crucial for conducting and overseeing the world's largest democracy's elections. Its impartial role ensures the electoral process's fairness and integrity, securing public trust. ECI facilitates the right of every adult citizen to vote, regardless of caste, religion, gender, or socio-economic status, embodying the principle of universal suffrage. With over 970 million eligible voters, the process of conducting elections becomes a logistical marvel. From the snow-capped mountains of the Himalayas to the remote islands of the Indian Ocean, every corner of the vast subcontinent is touched by the electoral process, making it the biggest man and machine movement exercise across the globe. The Election Commission of India orchestrates this mammoth exercise with meticulous planning, ensuring that every eligible citizen has the opportunity to cast their vote. But beyond the numbers and logistics, Indian elections are a festival of diversity. India, often described as a 'unity in diversity,' showcases its rich tapestry of cultures, languages, and traditions during elections. As we approach the 18th General Elections in 2024, the theme \"Chunav ka Parv, Desh ka Garv\" underscores the election festivities and pride in our democracy. ECI has introduced several initiatives to make the election process more \"inclusive, accessible, and participative.\" These include campaigns such as 'Desh ka Form,' National Voter's Awareness Contest, engagement through Electoral Literacy Clubs, 360-degree multi-media campaign, **#MeraVoteDeshkeLiye** campaign, icon engagement, and partnership and collaboration with ministries, civil society organisations, etc. all designed to engage every societal segment. The ECI's commitment is also reflected in its efforts to ensure 100% participation from vulnerable groups, with targeted interventions for women, first-time voters, and PwDs. Innovations like Home Voting and the use of technology like EVMs, VVPAT, and voter assistance apps like Voter Helpline App, Saksham App, and c-Vigil App have significantly improved election transparency and convenience. They embody the collective aspirations, diversity, and resilience of a nation marching forward on the path of democratic governance. As India continues to evolve and grow, its elections will remain a vibrant testament to the enduring spirit of democracy that defines the soul of the nation and is considered the 'Gold Standard' among global democracies.",
+        page: 68
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/indian-elections-biggest-celebration-of-democracy/p68-s1.webp",
+        alt: "The logo “Chunav ka Parv, Desh ka Garv” for the 2024 Lok Sabha election",
+        width: 266,
+        height: 141,
+        pdfPages: [
+          68
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        68
+      ],
+      printedPages: [
+        66
+      ],
+      imagePdfPage: 68
+    }
+  },
+  {
+    id: "my-town-dharamshala",
+    slug: "my-town-dharamshala",
+    title: "My Town",
+    label: "Dharamshala",
+    section: "RedHot",
+    category: "destinations",
+    author: "Ms. Shivani",
+    role: "Cabin Crew, Ahmedabad (Base)",
+    date: "May 2024",
+    excerpt: "In our series, in which we travel to various Indian cities with a SpiceJet family member, this time, Shivani, Cabin Crew (Base-Ahmedabad), takes us around her hometown.",
+    heroImage: "/images/stories/my-town-dharamshala.webp",
+    heroImageAlt: "A monastery with a red and gold facade in front of green hills",
+    heroImageSource: "Spice Route - May 2024, PDF page 76",
+    heroImageLicence: "pending",
+    editionSlug: "may-2024",
+    editionTitle: "Spice Route - May 2024",
+    body: [
+      {
+        type: "question",
+        text: "Are you originally from Dharamshala?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Yes, I was born in a beautiful place called Norbulingka in Dharamshala, known for its serene atmosphere and colourful monasteries.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the quality of life here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The quality of life in Dharamshala is quite good. Dharamshala is famous for clean air, stunning landscapes, spiritual exploration and outdoor activities. An amalgamation of Tibetan and Indian culture, Dharamshala is visited by tourists from across the globe.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the best thing about Dharamshala?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The best thing about Dharamshala is the lush green view and the natural beauty of this place. The peaceful atmosphere of the city is what attracts nature and travel enthusiasts.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What are the people here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The people of Dharamshala are warm and hospitable. There are people from various communities as residents in Dharamshala. There are many Tibetans and you can see the influence of Tibet's culture here. You will find the people to be friendly, welcoming, open-minded, and kind-hearted.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "As compared to other big cities, how is the lifestyle different in Dharamshala?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The very name 'Dharamshala' evokes the concept of a shelter or rest house for spiritual pilgrims. The city has always given the message of warmth and inclusivity and has welcomed everyone with open arms. The lifestyle here in Dharamshala is different in many aspects, especially due to the greenery, serene atmosphere and sense of togetherness embedded amongst the locals.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the night scene here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The nightlife in Dharamshala is a bit more quiet as compared to metropolitan cities. While a few restaurants, cafes and bars are open during the after-hours, the overall atmosphere remains quiet. Tourists are spotted enjoying a serene walk at night or dining at local eateries. Occasionally, cultural events and performances are organised which are quite entertaining.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Which are the best places to hang out in Dharamshala?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "If you want to spend some quiet time, you can visit the Bhagsunath Temple, to feel the positivity and good vibes. For those who enjoy trekking, Triund is an excellent option. It is a famous destination renowned for its breathtaking views. Adventure enthusiasts can indulge in activities like paragliding at Indrunag, where the lofty heights provide beautiful views of the surroundings. To enjoy an evening full of fun, you can head to the Black Magic Club in Mcleodganj. It is a good option for having a good time with friends.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Are you a foodie? Which is your favourite eatery in Dharamshala?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "As a food lover, Dharamshala is a delightful destination for trying out some amazing recipes. While there are many eateries here, the House of Tibet is my favourite in Mcleodganj. This establishment offers a fusion of Tibetan and Indian cuisine, which are quite scrumptious. I think all food lovers must visit the House of Tibet while visiting Dharamshala. The ambiance of this place is quite good as well.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "How did you discover the eating place?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I often visit new eateries and cafes with my friends and family. I prefer places that are neat and clean, have a pleasant ambience and are located at a good location. On my birthday, we decided to visit the House of Tibet, which turned out to be an excellent decision. The ambience here is delightful, complemented by fast service and delicious food.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What attractions in Dharamshala would you recommend to a tourist?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "The natural beauty of Dharamshala has always been a tourist magnet. The city has many attractions for tourists to discover. The first place that I recommend visiting is the Kangra Fort, renowned for its ancient ruins and majestic architecture. The Dal Lake is also a popular destination where tourists can go to relax. Another gem is Dharamkot, a quaint village near Dharamshala.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Apart from Dharamshala, which other nearby places would you recommend for visiting?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are many places that tourists can visit near Dharamshala. The first one is Palampur, renowned for its tea gardens, pleasant weather and picturesque landscapes. For those interested in exploring history or spirituality, Kangra Fort and Masroor Rock Cut Temple offer a fascinating glimpse into the rich heritage of the region. Bir Billing is also a good tourist destination, famous for paragliding and breathtaking landscapes.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "PLEASE DESCRIBE YOUR FAVOURITE DISH AT THE PLACE.",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "My favourite dish to eat at the House of Tibet is thukpa. It is a traditional Tibetan noodle stew that is quite popular in the Northeastern cuisine as well. The vegetarian thukpa variant available at this restaurant is quite mouth-watering. It is made of noodles and a variety of vegetables like cabbage, bell peppers, carrots, tomatoes, spring onions and spinach, which are all simmered in a flavourful broth.",
+        page: 77
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/my-town-dharamshala/p76-3.webp",
+        alt: "Portrait of Ms. Shivani in a SpiceJet uniform",
+        width: 383,
+        height: 448,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-dharamshala/p77-1.webp",
+        alt: "Illustration: a toy train, a monk and travellers in the hills",
+        width: 1008,
+        height: 611,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-dharamshala/p77-2.webp",
+        alt: "A bowl of thukpa noodle soup",
+        width: 378,
+        height: 253,
+        pdfPages: [
+          77
+        ]
+      }
+    ],
+    source: {
+      edition: "may-2024",
+      pdf: "SpiceRouteMay24.pdf",
+      pdfPages: [
+        76,
+        77
+      ],
+      printedPages: [
+        74,
+        75
+      ],
+      imagePdfPage: 76
+    }
+  },
+  {
+    id: "from-the-cmds-desk-april-2024",
+    slug: "from-the-cmds-desk-april-2024",
+    title: "From the CMD’s Desk",
+    section: "From the CMD’s Desk",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman and Managing Director",
+    date: "April 2024",
+    excerpt: "Welcome aboard SpiceJet! At SpiceJet, we believe in the pursuit of excellence through continuous improvement and relentless commitment to setting new standards. This ethos serves as the driving force behind every SpiceJetter, propelling us forward with unwavering determination. With the onset of the summer schedule, the demand for air travel has surged, reflecting the country's status as the fastest-growing aviation market. Whether you are embarking on a long-awaited vacation, heading home for family gatherings, or planning a weekend getaway, we stand prepared to be an integral part of your journey, creating cherished memories along the way. As part of our commitment to ensure seamless connectivity and enhanced services, we will induct ten aircraft to boost capacity through the busy summer schedule and beyond. Our recent settlements in the last one month alone have resulted in substantial savings to the tune of INR 685 Crore. Additionally, three airframes and one engine have been added to our fleet as part of these settlements. The strong balance sheet and added operational capacity add momentum to our sustained efforts to deliver better services for our passengers and create value for our stakeholders. This year, we are gearing up to operate special Haj flights from even more cities and these include Srinagar, Gaya, Guwahati, Bhopal, Indore, Aurangabad and Vijayawada. Two wide-body A340 aircraft with a seating capacity of 324 passengers each, will be inducted for the Haj flights deployed from Srinagar and Guwahati. Our first Haj flight is scheduled to take off for Medina on May 9, 2024. We look forward to delivering a smooth and hassle-free travel experience for the Haj pilgrims on their sacred journey.",
+    heroImage: "/images/stories/from-the-cmds-desk-april-2024.webp",
+    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
+    heroImageSource: "Spice Route - April 2024, PDF page 5",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet! At SpiceJet, we believe in the pursuit of excellence through continuous improvement and relentless commitment to setting new standards. This ethos serves as the driving force behind every SpiceJetter, propelling us forward with unwavering determination. With the onset of the summer schedule, the demand for air travel has surged, reflecting the country's status as the fastest-growing aviation market. Whether you are embarking on a long-awaited vacation, heading home for family gatherings, or planning a weekend getaway, we stand prepared to be an integral part of your journey, creating cherished memories along the way.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "As part of our commitment to ensure seamless connectivity and enhanced services, we will induct ten aircraft to boost capacity through the busy summer schedule and beyond. Our recent settlements in the last one month alone have resulted in substantial savings to the tune of INR 685 Crore. Additionally, three airframes and one engine have been added to our fleet as part of these settlements. The strong balance sheet and added operational capacity add momentum to our sustained efforts to deliver better services for our passengers and create value for our stakeholders. This year, we are gearing up to operate special Haj flights from even more cities and these include Srinagar, Gaya, Guwahati, Bhopal, Indore, Aurangabad and Vijayawada. Two wide-body A340 aircraft with a seating capacity of 324 passengers each, will be inducted for the Haj flights deployed from Srinagar and Guwahati. Our first Haj flight is scheduled to take off for Medina on May 9, 2024. We look forward to delivering a smooth and hassle-free travel experience for the Haj pilgrims on their sacred journey.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "SpiceJet remains a trusted choice for travellers seeking reliable air travel services. The latest government data on domestic air traffic highlights our airline's robust passenger occupancy rate (Passenger Load Factor) of 94.5%, positioning us as one of the industry leaders in this aspect. Additionally, global investors are recognising our growth trajectory, as evidenced by the recent purchase of SpiceJet shares by prominent investors. These developments underscore the strength of our value proposition to stakeholders and we are committed to continuously enhancing and improving our offerings to uphold this trust and confidence.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Domestic aviation is poised for another phase of growth following the inauguration of 15 airport projects worth 9,800 crores by our Hon’ble Prime Minister of India, Shri Narendra Modi. Once completed, these projects will include 12 new terminal buildings in Pune, Kolhapur, Gwalior, Jabalpur, Delhi, Lucknow, Aligarh, Azamgarh, Chitrakoot, Moradabad, Shravasti and Adampur Airports, collectively capable of serving 61.5 million passengers annually.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "The country continues to make positive strides in various fields, with both the Indian men’s and women’s table tennis teams clinching a historic qualification for the team event at the upcoming Paris Olympics 2024. This marks the first time ever that our national teams will compete in this prestigious event. Join me in congratulating the teams for this remarkable achievement. Our best wishes go out to the team as they prepare for this historic moment.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "You have already made us proud.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Wishing you all cool journeys filled with joy and excitement.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 5
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        5
+      ],
+      printedPages: [
+        3
+      ],
+      imagePdfPage: 5
+    }
+  },
+  {
+    id: "broadsheet-april-2024",
+    slug: "broadsheet-april-2024",
+    title: "Broadsheet",
+    section: "Broadsheet",
+    category: "culture",
+    date: "April 2024",
+    excerpt: "",
+    heroImage: "/images/stories/broadsheet-april-2024.webp",
+    heroImageAlt: "Cherry blossoms framing a domed memorial reflected in water at sunset",
+    heroImageSource: "Spice Route - April 2024, PDF page 16",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "CHERRY BLOSSOM",
+        page: 16
+      },
+      {
+        type: "p",
+        text: "With the onset of spring, different cities across the world are getting enveloped in shades of pink with cherry blossom buds blooming in full glory. The colourful National Cherry Blossom Festival in Washington, D.C., in the U.S., is one of the best festivals to attend during this time.",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**When**: Until April 14",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**Where**: Washington, D.C.",
+        page: 16
+      },
+      {
+        type: "subhead",
+        text: "Events",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "BAISAKHI",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "A popular festival in northern India, Baisakhi or Vaisakhi spreads the message of peace, love and harmony. Celebrated with great pomp, it also marks the beginning of the harvest of rabi crops.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: April 13",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: North India (especially Punjab)",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "INTERNATIONAL JAZZ DAY",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Jazz is often referred to as \"America's classical music\". International Jazz Day celebrates the popular form of music and aims to spread awareness regarding the origins and the global impact of jazz.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: April 30",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the world",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "THRISSUR POORAM",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "This grand temple festival is celebrated every year in Thrissur, in the Malayalam month of medam. A large number of caparisoned elephants participate in a massive procession on this occasion.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: April 19",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Thrissur, Kerala",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "QAWWALI",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Music lovers in Delhi now have a chance to hear the Nizami Bandhu live! The musical group rose to fame after being featured in the iconic song 'Kun Faya Kun'.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: April 20",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Kamani Auditorium",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "Art | Sports | Food",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "THE CANVAS OF LIFE",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Intrigued by the daily life of the Indian middle class, artist Roshan Chhabria has curated a series of artworks titled 'Lipstick Stories', which is on display at the Sakshi Gallery in Mumbai.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: Until April 13",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Mumbai, Maharashtra",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "GLOBAL CUISINE",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Looking for a new place to dine out with your loved one? Tres at Lodhi Colony, New Delhi, can be on your list. Led by chefs of international repute, the restaurant offers a wide variety of dishes from various cuisines around the world.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "VAN GOGH EXPERIENCE",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "'The Real Van Gogh Immersive Experience' in Hyderabad is capturing the attention of all art lovers. It promises an exceptional spectacle with 22K lumen projection and large screens.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: Until April 10",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Hyderabad, Telangana",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "GOLFING LEGACY",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "One of the first major golf tournaments, the Masters Tournament is being organised annually in the U.S. since 1934. Professional golfers from across the world compete in the event for the number one spot.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: April 11-14",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Augusta, Georgia, U.S.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "Fashion",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "WATCHING THE '80S",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Two-tone gold and steel watches, which were quite a popular fashion accessory in the '80s, are making a comeback. Recently, Anant Ambani wore a similar Richard Mille classic watch at his pre-wedding celebrations in Jamnagar.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "FLOATING SHOULDERS",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "At the Oscars (Academy Awards) this year, actors Emily Blunt and Florence Pugh stole the show with a sculptural element in their dresses. The shoulder straps, in fact, seemed to be floating a few inches above the body!",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "SUMMER GLOW",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "As the mercury rises and nature welcomes change, your skin might need some extra care. A good option for summer skincare is the new range by Sulwhasoo, which can help rejuvenate your skin.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "ALL ABOUT CLASS",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "If you are looking for a fresh option to buy men's accessories, check out the latest collection by Boss. It includes a new range of belts, shoes, bags and more items.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Tech",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "ENGINEER TO THE RESCUE",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "What if you had an AI buddy who could help you in writing codes and creating softwares? Well, this has just become a reality. Named Devin, it is a super-smart computer programme created by Cognition. Designed to help engineers, Devin can solve problems, learn from its mistakes and improve over time. It has already done jobs like making reports and fixing issues on some platforms.",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "MANAGE LIKE A BOSS!",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "Imagine a powerful AI device at your fingertips, ready to elevate your productivity and creativity significantly! Microsoft's Copilot Pro, an advanced-paid version of Microsoft Copilot, is what you may be looking for. With the help of this device, you can do multiple activities such as jump-starting writing processes, catching up on mixed meetings, managing overflowing inboxes and more.",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "ALL WORK AND PLAY",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "According to news reports, LinkedIn, one of the most popular job search platforms, is planning to introduce puzzle games for its users to make the job search process more fun and engaging. The platform is reportedly developing puzzle games called Queens, Inference and Crossclimb. This has left users excited to know how and when they could be playing the games!",
+        page: 24
+      }
+    ],
+    pullQuotes: [
+      "“A thing of beauty is a joy forever: its loveliness increases; it will never pass into nothingness.\" John Keats English poet"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/broadsheet-april-2024/p18-2.webp",
+        alt: "Illustration: dancers celebrating the harvest in a wheat field",
+        width: 497,
+        height: 332,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p18-4.webp",
+        alt: "Illustration: jazz musicians playing in a burst of colour",
+        width: 529,
+        height: 398,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p18-1.webp",
+        alt: "Caparisoned elephants carrying parasols at a temple festival",
+        width: 314,
+        height: 480,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p18-3.webp",
+        alt: "A poster for a qawwali concert by the Nizami Bandhu",
+        width: 419,
+        height: 348,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p20-4.webp",
+        alt: "An artwork of a street stall with a bicycle cart",
+        width: 540,
+        height: 409,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p20-3.webp",
+        alt: "A cocktail and a plated dish on a restaurant table",
+        width: 327,
+        height: 517,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p20-1.webp",
+        alt: "Visitors in an immersive gallery with Van Gogh paintings projected on the walls",
+        width: 485,
+        height: 358,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p20-2.webp",
+        alt: "A golf club about to strike a ball on the grass",
+        width: 629,
+        height: 438,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p22-3.webp",
+        alt: "A two-tone gold and steel wristwatch",
+        width: 688,
+        height: 514,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p22-2.webp",
+        alt: "An actor in a gown with sculpted shoulders on the red carpet",
+        width: 448,
+        height: 687,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p22-4.webp",
+        alt: "Orange skincare tubes",
+        width: 239,
+        height: 294,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p22-1.webp",
+        alt: "Men’s accessories laid out: bags, belts, shoes and sunglasses",
+        width: 633,
+        height: 413,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p24-1.webp",
+        alt: "A robot at a computer beside the word Cognition",
+        width: 1034,
+        height: 619,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p24-2.webp",
+        alt: "The colourful Copilot logo",
+        width: 292,
+        height: 292,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-april-2024/p24-3.webp",
+        alt: "A glowing LinkedIn logo above a game controller",
+        width: 427,
+        height: 413,
+        pdfPages: [
+          24
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 18,
+        items: [
+          "Image: fizdi.com",
+          "Image: kamaniauditorium.org",
+          "Image: jazzday.com"
+        ]
+      },
+      {
+        pdfPage: 22,
+        items: [
+          "Image: insta/schiaparelli"
+        ]
+      },
+      {
+        pdfPage: 24,
+        items: [
+          "Image: analyticsvidhya.com",
+          "Image: analyticsvidhya.com",
+          "Image: english.mathrubhumi.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      printedPages: [
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      imagePdfPage: 16
+    }
+  },
+  {
+    id: "network-leh",
+    slug: "network-leh",
+    title: "Leh",
+    section: "Network",
+    category: "destinations",
+    date: "April 2024",
+    excerpt: "Perched in the backdrop of lofty mountains, Leh's dramatic charm, with monasteries and meandering paths, is unmatched",
+    heroImage: "/images/stories/network-leh.webp",
+    heroImageAlt: "A monastery gateway and white stupa below snowy mountains",
+    heroImageSource: "Spice Route - April 2024, PDF page 26",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "One of the most sought-after tourist destinations in India, Leh is an adventure haven for travel junkies from around the world. Surrounded by the snow-capped Himalayan, Karakoram and Zanskar ranges, Leh is the main city in the Ladakh region. Just outside the city, the rugged terrain with off-road canvases are ideal for activities like trekking, camping, biking and mountain climbing. The Chadar Trek, which starts from Chilling, around 60 km from Leh, is well-known.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Visit quaint Buddhist monasteries, including the beautiful Thiksey nearby and Lamayuru (around 127 km from Leh). Visit the Leh Palace for a peek into the region's royal past.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Find serenity at the beautiful Tsomoriri Lake. Visit the Magnetic Hill (around 30 km away), which defies gravity. Take a trip to the azure Pangong Lake nearby and Changla pass.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Shop for antiques, Tibetan jewellery, Buddhist art and pashmina shawls at local markets. Relish local dishes such as Tibetan butter tea, thukpa and skyu.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Visit Nubra Valley (160 km away), known for its orchards and monasteries. Try double-humped camel safari and drive up to the Khardung La pass.",
+        page: 26
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Leh from Delhi, Mumbai, Goa, Hyderabad, Patna, Varanasi and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-leh/p26-4.webp",
+        alt: "A monastery perched on eroded cliffs",
+        width: 271,
+        height: 201,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-leh/p26-3.webp",
+        alt: "A road winding through a barren mountain valley",
+        width: 271,
+        height: 200,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-leh/p26-5.webp",
+        alt: "A masked dancer in bright robes at a monastery festival",
+        width: 272,
+        height: 287,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-leh/p26-2.webp",
+        alt: "Heaps of colourful beads and jewellery at a market",
+        width: 275,
+        height: 199,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-leh/p26-6.webp",
+        alt: "Riders on double-humped camels on sand dunes",
+        width: 451,
+        height: 344,
+        pdfPages: [
+          26
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        26
+      ],
+      printedPages: [
+        24
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "network-abu-dhabi",
+    slug: "network-abu-dhabi",
+    title: "Abu Dhabi",
+    section: "Network",
+    category: "destinations",
+    date: "April 2024",
+    excerpt: "From grand entertainment zones to historic centres and varied natural beauty, explore the many facets of Abu Dhabi in UAE",
+    heroImage: "/images/stories/network-abu-dhabi.webp",
+    heroImageAlt: "A white-domed grand mosque with minarets",
+    heroImageSource: "Spice Route - April 2024, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "An urban centre with glitzy hotels and high-end shopping malls like the Yas, UAE's capital Abu Dhabi offers a mix of luxury, culture, recreation and nature. Apart from admiring iconic landmarks such as the Sheikh Zayed Grand Mosque or the Etihad Towers, one can enjoy kayaking along lush mangrove forests. For some fun family time, visit Warner Bros. World™ Abu Dhabi at Yas Island and enjoy amazing rides. It is one of the largest indoor theme parks in the world. Visit local souks, explore the vast dunes or sail on a dhow while listening to ancient sea-faring tales.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Tour the Heritage Village on the Marina Mall Island and the archaeological sites at Bidaa Bint Saud, Jebel Hafit and Hili. Go for sunbathing or snorkelling at Corniche Beach.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Visit the Hudayriyat Island or escape to the Green Mubazzarah for a picnic. Visit the iconic Ferrari World Abu Dhabi, and the ancient Qasr Al Hosn, where you can explore the region's history.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Try thareed (a traditional stew), chebab (pancake) and the sweet luqaimat. Shop for souvenirs and spices from Al Ain Souk, apart from other markets.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "About 155 km away is the UNESCO-inscribed Al Ain, often referred to as the 'Green City.' Reconnect with nature amidst diverse vegetation at Al Ain Oasis.",
+        page: 28
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet offers direct and one-stop flights to Dubai (approx 1.5 hours from Abu Dhabi) from cities including Delhi, Mumbai, Ahmedabad, Srinagar, Goa and more. Book now at www.spicejet.com."
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-abu-dhabi/p28-1.webp",
+        alt: "A city skyline across turquoise water",
+        width: 289,
+        height: 181,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-abu-dhabi/p28-2.webp",
+        alt: "An aerial view of a red-roofed theme park",
+        width: 286,
+        height: 181,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-abu-dhabi/p28-5.webp",
+        alt: "A road winding over a rocky mountain",
+        width: 303,
+        height: 302,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-abu-dhabi/p28-3.webp",
+        alt: "Traditional dishes laid out on a table",
+        width: 285,
+        height: 180,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-abu-dhabi/p28-6.webp",
+        alt: "A colourful building in a heritage village",
+        width: 386,
+        height: 235,
+        pdfPages: [
+          28
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        28
+      ],
+      printedPages: [
+        26
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "network-port-blair",
+    slug: "network-port-blair",
+    title: "Port Blair",
+    section: "Network",
+    category: "destinations",
+    date: "April 2024",
+    excerpt: "Port Blair, the capital of the Andaman and Nicobar Islands, captivates visitors with a blend of colonial history, azure waters and lush greenery",
+    heroImage: "/images/stories/network-port-blair.webp",
+    heroImageAlt: "A forested coastline along a clear sea",
+    heroImageSource: "Spice Route - April 2024, PDF page 30",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "Port Blair is the gateway to picturesque beaches at Andaman and Nicobar Islands. One of the most unique places to visit in India, it offers a blend of natural beauty, adventure and relaxation. Take a stroll through the pristine white beaches along with enjoying several water sports like scuba diving and snorkelling. Take a boat ride to the Netaji Subhash Chandra Bose Island (Ross Island) from Port Blair, to find ruins of British-era buildings.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the historic Cellular Jail, Samudrika (Naval Marine Museum) and Anthropological Museum. Relax at Corbyn's Cove Beach. Visit Wandoor and Mahatma Gandhi Marine National Park nearby.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Take a day trip to Shaheed Dweep and Swaraj Dweep and try water activities like seakart and scuba diving. The Mundapahar and Madhuban treks are recommended for adventure enthusiasts.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Sample seafood such as fish curry, grilled lobsters, crab curry, and more. Visit the Aberdeen Bazaar to buy bamboo and cane crafts, shell jewellery, and handcrafted souvenirs.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit Chidiyatappu, around 28 km from Port Blair, for breathtaking sunset and oceanic views as well as birdwatching. The biological park here is also popular.",
+        page: 30
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Port Blair from Ahmedabad, Chennai, Delhi, Kolkata, Bengaluru and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-port-blair/p30-4.webp",
+        alt: "The brick wings of the Cellular Jail",
+        width: 271,
+        height: 202,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-port-blair/p30-3.webp",
+        alt: "Scuba divers beside a coral reef",
+        width: 271,
+        height: 199,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-port-blair/p30-6.webp",
+        alt: "Trees standing in the sea at sunset",
+        width: 351,
+        height: 350,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-port-blair/p30-1.webp",
+        alt: "A plate of crab",
+        width: 350,
+        height: 240,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-port-blair/p30-5.webp",
+        alt: "Carved wooden masks",
+        width: 270,
+        height: 200,
+        pdfPages: [
+          30
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        30
+      ],
+      printedPages: [
+        28
+      ],
+      imagePdfPage: 30
+    }
+  },
+  {
+    id: "its-pet-tacular",
+    slug: "its-pet-tacular",
+    title: "It’s Pet-tacular!",
+    section: "Open House",
+    category: "culture",
+    date: "April 2024",
+    excerpt: "Marking National Pet Day on April 11, let's look at some unique pet traditions around the world.",
+    heroImage: "/images/stories/its-pet-tacular.webp",
+    heroImageAlt: "Cats and dogs peeking over a ledge",
+    heroImageSource: "Spice Route - April 2024, PDF page 32",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "In Nepal, dog lovers celebrate their four-legged companions in a vibrant festival called Kukur Tihar. Observed on the second day of the five-day Diwali festivities, people shower pets and strays with flowers and garlands as a show of respect. Once the rituals end, the pups can gorge on their favourite food.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "It is said that in ancient Egypt, cats were considered magical creatures, capable of bringing good luck, and were often decked in precious jewels. When they died, the owners shaved off their eyebrows, and continued to be in mourning till the eyebrows grew back! And cats were mummified too.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Pet festivals take place across the world. In countries like Bolivia and Italy, many pet owners gather to celebrate the annual feast day of Saint Roch, who is also known as the patron saint of dogs. Pets are dressed up in quirky costumes as their owners participate in fun events to mark the occasion.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "In Australia, the indigenous people have had a long cultural relationship with animals, especially with dingoes (an ancient lineage of dog found in the continent). In indigenous cultures, dogs are known to often have a formal inclusion into the family, thus granting them a status. Sometimes, the dogs also attend rituals.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Sweden, which is said to be very pet-friendly, has definitive rules for our furry friends. The law says that your pet dog should be allowed to go outdoors at least every six hours. And while indoors, they must have a view from a window that provides sunlight.",
+        page: 32
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/its-pet-tacular/p32-3.webp",
+        alt: "A dog garlanded and marked with colour for Kukur Tihar",
+        width: 290,
+        height: 289,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/its-pet-tacular/p32-5.webp",
+        alt: "An ancient Egyptian bronze statue of a cat",
+        width: 309,
+        height: 445,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/its-pet-tacular/p32-4.webp",
+        alt: "A statue of Saint Roch with a dog",
+        width: 274,
+        height: 769,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/its-pet-tacular/p32-2.webp",
+        alt: "A dingo standing on rocks",
+        width: 230,
+        height: 385,
+        pdfPages: [
+          32
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 32,
+        items: [
+          "Image: worldhistory.org",
+          "Image: commons.wikimedia.org"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        32
+      ],
+      printedPages: [
+        30
+      ],
+      imagePdfPage: 32
+    }
+  },
+  {
+    id: "ayushman-bharat-diwas",
+    slug: "ayushman-bharat-diwas",
+    title: "Ayushman Bharat Diwas",
+    section: "Open House",
+    category: "wellness",
+    date: "April 2024",
+    excerpt: "",
+    heroImage: "/images/stories/ayushman-bharat-diwas.webp",
+    heroImageAlt: "Illustration: a family inside a stethoscope shaped like a heart over a map of India",
+    heroImageSource: "Spice Route - April 2024, PDF page 33",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "Observed on April 30 every year, this day promotes the core values of the Ayushman Bharat – Pradhan Mantri Jan Aarogya Yojana (AB-PMJAY). Said to be one of the largest government-funded health schemes in the world, it was launched in 2018 by the Government of India to give healthcare coverage to Indian citizens, especially to the poor. Under the programme, the Ayushman Bharat Health Account (ABHA) numbers have already been issued to more than 50 crore citizens, as per the latest government data.",
+        page: 33
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        33
+      ],
+      printedPages: [
+        31
+      ],
+      imagePdfPage: 33,
+      sectionPdfPage: 32
+    }
+  },
+  {
+    id: "no-more-a-boomer",
+    slug: "no-more-a-boomer",
+    title: "No More a Boomer!",
+    section: "Open House",
+    category: "culture",
+    date: "April 2024",
+    excerpt: "'Situationship' is not the only latest dating trend! These dating lingos have created a buzz among the Gen Z.",
+    heroImage: "/images/stories/no-more-a-boomer.webp",
+    heroImageAlt: "A woman holding red paper hearts over her eyes",
+    heroImageSource: "Spice Route - April 2024, PDF page 34",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "Are you constantly exchanging text messages with someone but haven't met him or her in person yet? Chances are this might be a 'textationship'! It refers to a type of relationship where partners communicate solely through text messages and have never met face-to-face.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "The state of being deeply in love with your partner might make you overlook their flaws. The Gen Z now has come up with a new term for this called 'love haze'! In a way, it could be seen as a modern version of viewing things through rose-tinted glasses.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Consider a scenario where a person you are dating is seeming inconsistent with limited availability; this might be 'benching'. It is when a person holds onto an online connection as a backup while levelling the playing field.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Progressivism and social awareness are becoming increasingly desirable traits among youngsters when it comes to dating. But when someone pretends to be 'woke' to impress a partner, Gen Z calls it 'wokefishing'. Steer clear of it if you are looking for a genuine connection.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Have you heard about the popular television show Fleabag? Did you know about the dating lingo called 'fleabagging'? Just like the plot of the show, the term refers to the act of repeatedly dating people who aren't right for you.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "In 2023, this dating lingo was declared Oxford's Word of the Year — 'rizz'! Derived from the word 'charisma', this now-popular term can be defined as the charm, style, or one's ability to attract a romantic partner.",
+        page: 34
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/no-more-a-boomer/p34-1.webp",
+        alt: "Illustration: two people texting on phones",
+        width: 286,
+        height: 184,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/no-more-a-boomer/p34-3.webp",
+        alt: "A couple sitting close together on a sofa",
+        width: 545,
+        height: 331,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/no-more-a-boomer/p34-4.webp",
+        alt: "A couple leaning against a red wall with doodles",
+        width: 426,
+        height: 505,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/no-more-a-boomer/p34-5.webp",
+        alt: "A woman in a red dress against a blue wall",
+        width: 459,
+        height: 407,
+        pdfPages: [
+          34
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 34,
+        items: [
+          "Image: insta/ Insta_bbcfleabag"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        34
+      ],
+      printedPages: [
+        32
+      ],
+      imagePdfPage: 34
+    }
+  },
+  {
+    id: "international-dance-day-a-day-to-groove",
+    slug: "international-dance-day-a-day-to-groove",
+    title: "A Day to Groove",
+    label: "International Dance Day",
+    section: "Open House",
+    category: "culture",
+    date: "April 2024",
+    excerpt: "",
+    heroImage: "/images/stories/international-dance-day-a-day-to-groove.webp",
+    heroImageAlt: "Illustration: a couple dancing against a red circle",
+    heroImageSource: "Spice Route - April 2024, PDF page 35",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "Observed on April 29 every year, International Dance Day celebrates the spirit of dance as a performing art and encourages authorities and institutions to recognise its value and take necessary steps for its promotion. The day was initiated by the Dance Committee of the International Theatre Institute, who always get a popular dancer to share a message on the occasion. In 2023, for instance, iconic dancer and choreographer Yang Liping was chosen to inspire people.",
+        page: 35
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        35
+      ],
+      printedPages: [
+        33
+      ],
+      imagePdfPage: 35,
+      sectionPdfPage: 34
+    }
+  },
+  {
+    id: "memories-etched-in-stone",
+    slug: "memories-etched-in-stone",
+    title: "Memories Etched in Stone",
+    section: "Lead",
+    category: "culture",
+    author: "Bindu Gopal Rao",
+    bylineLabel: "Text:",
+    date: "April 2024",
+    excerpt: "Adorning India's spiritual landscape are beautiful shrines, which are also repositories of history. Here's a tribute to the stunning beauty of a few of these UNESCO World Heritage sites",
+    heroImage: "/images/stories/memories-etched-in-stone.webp",
+    heroImageAlt: "A long colonnade of carved stone pillars leading to a temple tower",
+    heroImageSource: "Spice Route - April 2024, PDF pages 40–41",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "India, a tapestry woven with threads of spirituality, unfurls its divine essence through an array of enchanting shrines. These sacred sanctuaries, repositories of history, stand proudly etched into the annals of time. As World Heritage Day graces us annually on April 18, here's a curated list of spiritual heritage sites with celestial architecture.",
+        page: 41
+      },
+      {
+        type: "subhead",
+        text: "HAMPI GROUP OF TEMPLES",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Nestled amidst a landscape of majestic granite boulders, Hampi, in Karnataka, once stood as the pulsating heart of the formidable Vijayanagara empire. The ensemble of monuments, proudly standing against the backdrop of the Tungabhadra River and rugged hills, encompasses temples, a water tank, regal enclosures, and grand pillared halls. Among these treasures lies the resplendent Vijaya Vithala temple complex, harbouring the iconic stone chariot. The temple's grandeur unfolds through a main hall, a ceremonial marriage hall, a divine abode for the Goddess, a festive celebration hall, and the renowned musical pillars, each emitting enchanting notes. The Virupaksha temple, a sanctuary of worship, boasts a splendid spire visible from afar, while the Queen's Bath, Lotus Mahal and Elephant Stables stand as additional must-visit marvels.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Around 140 km away is the formidable Chitradurga Fort, famed for its water harvesting system.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Sample local dishes like chitranna (lemon rice), tambuli (curd-based side dish), and haalbai (sweet cake).",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "KHAJURAHO TEMPLE COMPLEX",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Khajuraho in Madhya Pradesh is a captivating complex of medieval temples. Constructed by the Chandela rulers, this UNESCO-listed site is one of India's most popular tourist destinations, renowned for its Nagara-style architecture and elegant sculptures depicting nayikas (Hindu mythological female protagonists) and deities. According to historical records, Khajuraho boasted 85 temples during the 12th century. However, only 25 have withstood the ravages of time. Notably, the Kandariya Mahadeva temple reigns supreme among them, with a height of 117 ft, its spires ascending in a sequence reminiscent of rolling hills. Visit other temples such as the Vamana temple, Javari temple, Parsvanatha temple, and the Duladeo and Chaturbhuja temples. Check out the Adivart Tribal and Folk Art Museum to round out your cultural excursion.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Located about 40 minutes away from the temple complex is the Panna Tiger Reserve on the banks of Ken River. Enjoy wildlife safari and river rafting.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Try murar ke kebabs, kodu til ka baat (rice with black sesame), samosa and daal baati.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "BODH GAYA MAHABODHI TEMPLE",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "The Mahabodhi Temple complex at Bodh Gaya, Bihar, shares a profound connection with the enlightenment of Lord Buddha, tracing its origins back to the 5th or 6th century. A testament to the enduring strength of early brick constructions, the temple, believed to have been erected during the late Gupta period, stands as an architectural marvel. It is adorned with niches and engravings, with a sanctum cradling a gilded statue of the seated Lord Buddha. Within the expansive complex, the Bodhi tree, witnessing the transformative moment of Lord Buddha's enlightenment, stands as a sacred testament to history. Beyond the central temple, the complex unfolds with six sacred locations, accompanied by an enchanting Lotus Pond. The Animeshlochan Chaitya, a prayer hall, is where Lord Buddha is thought to have spent the Second Week post-enlightenment.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Visit the colossal 80-ft Buddha statue nearby and the Dungeshwari Temple at Dungeshwari Hill, believed to be the place where Lord Buddha meditated for years before he went to Bodh Gaya.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Savour litti chokha, and dahi vada. For dessert, try thekua and laung lata.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "KONARK SUN TEMPLE",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Built under the rule of Narasimha Deva I of the Ganga dynasty in the 13th century, the Konark (Konârak) Sun Temple in Odisha stands as an awe-inspiring testament to the architectural prowess of Indian artisans. Adorned with 24 intricately carved wheels, each bearing symbolic designs, this temple is a majestic representation of the Sun God Surya's celestial chariot, gracefully drawn by seven horses, out of which only six stand today. Explore the remnants of the main temple, the regal Jagamohana entrance hall, and the wheels, designed to gauge the time of the day with the help of the shadow cast on their spokes by the sun. Wander through the roofless Natya Mandap and witness the numerous sculptures within the expansive temple complex. It is also where the annual Konark Dance Festival is held, which is attended by people in large numbers.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "For an insight into the temple's history, visit the ASI museum, which displays numerous artefacts recovered from the temple complex.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Taste dalma (lentil dish), pakhala (fermented rice) and the delicious pitha (cereal-based steamed cake).",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "BUDDHIST MONUMENTS AT SANCHI",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Situated around 50 km from Bhopal in Madhya Pradesh, Sanchi boasts an ensemble of stupas, monolithic pillars, palaces, temples and monasteries dating back to the 2nd and 1st centuries. Known as the oldest Buddhist sanctuary in existence, it was a major Buddhist centre in India until the 12th century. The crown jewel of this historical panorama is the Great Stupa, masterfully crafted under the patronage of Emperor Ashoka. The stupa showcases a commanding hemispherical dome encircled by four grand gateways adorned with intricate carvings, narrating profound tales from the life of Lord Buddha. Don't miss Stupa No. 2 and Stupa No. 3, which stand as silent storytellers of a bygone era. Located close to the Southern gateway of the Great Stupa is the Ashoka Pillar, featuring four lions standing back to back, proudly serving as India's National Emblem. Also, visit the Udaygiri Caves nearby to see ancient rock-cut architecture.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Visit the ASI-maintained museum to see Buddhist artefacts, found during the excavations. The Buddha Jambudweep Park is also nearby.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Try the popular poha jalebi for breakfast and dal bafla, among other local delicacies.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "MAHABALIPURAM COMPLEX",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "A sublime reverie in stone by the sea is the enchanting narrative spun by the Mamallapuram (Mahabalipuram) group of monuments, conceived and brought to life under the Pallava kings during the 7th and 8th centuries. Among the mesmerising structures, the Shore Temple emerges as a masterpiece hewn from granite, and stands as a beacon of Dravidian architecture. Its two sanctums are devoted to Lord Shiva and Lord Vishnu. The open-air rock relief known as Arjuna's Penance tells a celestial tale, intricately carved on two monolithic boulders. It vividly portrays the Ganga River's celestial descent to Earth. As you navigate the complex, the Pancha Rathas (Five Chariots) beckon, paying homage to each of the Pandavas from the Mahabharata. These monolithic temples stand adorned with an array of artistic motifs and wall panels that bring Hindu deities to life. Embark on a journey through the site, where the echoes of craftsmanship resonate through time.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "The Mamallapuram Seashell Museum is a must-see to understand how diverse and varied shells can be. You will also learn about maritime trade in the region.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Try authentic elai saapadu (banana leaf meal), dosa, vada, and freshly brewed filter coffee.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "BASILICA OF BOM JESUS IN GOA",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Among the UNESCO-listed churches and convents of Goa, is the resplendent Basilica of Bom Jesus located in Old Goa. It was built between 1594 and 1605, and cradles the sacred relics of the missionary, St. Francis Xavier, in an exquisitely carved silver casket, studded with precious stones. The church emerges as a captivating ode to the opulence of Renaissance Baroque, entwined with the grace of Portuguese colonial design. The black granite-facade, besides the Mosaico-Corinthian interiors, are remarkable for their simplicity. The gilded main altar has the figure of infant Jesus and right above it is a large statue of St.Ignatius Loyola, the founder of the order of Jesuits.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "A visit to the Se Cathedral, located close-by, is a must. A museum is also in the vicinity. Visit the Candolim beach and enjoy water activities.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Taste tangy ambot tik (fish curry), biyaam tondak (coconut gravy with cashew nuts) and varieties of seafood.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "THANJAVUR BRIHADEESWARA TEMPLE",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "The Brihadeeswara Temple in Tamil Nadu's Thanjavur, stands as a celestial marvel and a testament to the grandeur of Chola craftsmanship under the reign of King Rajaraja Chola I. Built around 1010 CE, this divine sanctuary, with its towering silhouette and intricate carvings, embody a meticulously planned architectural symphony. A unique arrangement of stones ensures that no shadow falls on the temple grounds. The nearly 80-tonne granite dome pays tribute to human ingenuity. Its exterior, adorned with carvings, intricately captures several postures of the classical dance form of Bharatanatyam. It is believed that the mammoth structure was built over a period of seven years. Earning its place among the UNESCO-listed Great Living Chola Temples, along with the Gangaikondacholeeswaram Temple and Airavastesvara Temple, this architectural marvel houses a colossal Nandi statue, chiseled from a single rock.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "GOOD TO KNOW",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Visit the Thanjavur Palace, which houses the Darbar Hall with vibrant frescoes and the Saraswathi Mahal Library. Also, pick up the famous Thanjavur dancing dolls.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Sample kelyachi bhaji (made with raw banana), traditional kichadi, and the sweet thirattippal.",
+        page: 48
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-1.webp",
+        alt: "A tall temple tower in Hampi at sunset",
+        width: 1106,
+        height: 632,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-2.webp",
+        alt: "Visitors at an illuminated interpretive display",
+        width: 302,
+        height: 255,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-8.webp",
+        alt: "A plate of lemon rice",
+        width: 230,
+        height: 223,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-3.webp",
+        alt: "Visitors photographing the carved walls of a Khajuraho temple",
+        width: 983,
+        height: 668,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-4.webp",
+        alt: "A leopard resting in a tree",
+        width: 249,
+        height: 222,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p42-5.webp",
+        alt: "Samosas with chutneys",
+        width: 268,
+        height: 191,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-2.webp",
+        alt: "The tall spire of the Mahabodhi temple",
+        width: 521,
+        height: 1384,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-4.webp",
+        alt: "A golden Buddha shrine lit with lamps",
+        width: 254,
+        height: 201,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-7.webp",
+        alt: "A large white statue of the seated Buddha",
+        width: 226,
+        height: 214,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-6.webp",
+        alt: "A plate of litti chokha",
+        width: 207,
+        height: 200,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-1.webp",
+        alt: "Carved stone figures at a sun temple under a fiery sky",
+        width: 551,
+        height: 414,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-3.webp",
+        alt: "Classical dancers performing on stage",
+        width: 323,
+        height: 220,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p44-5.webp",
+        alt: "Fried pithas on a plate",
+        width: 388,
+        height: 213,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-1.webp",
+        alt: "The Great Stupa at Sanchi beside a carved gateway",
+        width: 654,
+        height: 628,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-6.webp",
+        alt: "A carved stone lion capital in a museum",
+        width: 205,
+        height: 305,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-4.webp",
+        alt: "Bowls of jalebi and poha",
+        width: 234,
+        height: 160,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-2.webp",
+        alt: "Rock-cut rathas at Mahabalipuram",
+        width: 677,
+        height: 676,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-3.webp",
+        alt: "Seashells displayed in a museum",
+        width: 330,
+        height: 206,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p46-5.webp",
+        alt: "Vadas on a banana leaf",
+        width: 244,
+        height: 177,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-2.webp",
+        alt: "The Basilica of Bom Jesus",
+        width: 524,
+        height: 435,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-4.webp",
+        alt: "An ornate gilded tomb inside a church",
+        width: 243,
+        height: 243,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-8.webp",
+        alt: "Parasailing over the sea",
+        width: 261,
+        height: 260,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-3.webp",
+        alt: "A bowl of fish curry",
+        width: 317,
+        height: 203,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-5.webp",
+        alt: "The Brihadeeswara temple with its tower",
+        width: 552,
+        height: 384,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-1.webp",
+        alt: "A palace courtyard with a tiered tower",
+        width: 397,
+        height: 229,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-6.webp",
+        alt: "A Thanjavur dancing doll",
+        width: 291,
+        height: 400,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/memories-etched-in-stone/p48-7.webp",
+        alt: "A bowl of a sweet dish",
+        width: 270,
+        height: 182,
+        pdfPages: [
+          48
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 42,
+        items: [
+          "Image: jeffreyshawcompendium.com"
+        ]
+      },
+      {
+        pdfPage: 46,
+        items: [
+          "Image: media.meer.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        40,
+        41,
+        42,
+        44,
+        46,
+        48
+      ],
+      printedPages: [
+        38,
+        39,
+        40,
+        42,
+        44,
+        46
+      ],
+      imagePdfPage: 40
+    }
+  },
+  {
+    id: "tawang-tales-from-the-frontier",
+    slug: "tawang-tales-from-the-frontier",
+    title: "Tales from the Frontier",
+    label: "Tawang",
+    section: "Homebound",
+    category: "destinations",
+    author: "Kunal Bhatia and Shuvajit Payne",
+    bylineLabel: "Text:",
+    date: "April 2024",
+    excerpt: "Nestled in the Himalayas, ancient spirituality meets spectacular natural beauty in the mystic land of Tawang.",
+    heroImage: "/images/stories/tawang-tales-from-the-frontier.webp",
+    heroImageAlt: "Snow-covered mountains above a winding road lined with prayer flags",
+    heroImageSource: "Spice Route - April 2024, PDF pages 50–51",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "It's a surreal landscape of snow-covered mountains, soaring peaks, frozen lakes, and a winding, hairpin road that solemnly attempts to scale these astounding heights. We are at Sela, a mountain pass deep in India’s Northeast at a staggering height. In the sprawling swathes of white is a burst of colours – blues, reds, greens, and yellows – fluttering in the chilly winds and breathing a sense of vitality into the otherwise still surroundings. Carrying a message of well-being and compassion, these Buddhist prayer flags welcome us into Tawang, at the remote, western end of Arunachal Pradesh.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "A MONASTIC PARADISE",
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Explore the region’s most iconic landmark, the historic Tawang Monastery. Officially known as Galden Namgyal Lhatse, it was established back in the 17th century on instructions of the fifth Dalai Lama, and the mystical name translates to “celestial paradise in a clear night.” The monastery is reputed to be the second-largest in the world after Tibet’s Potala Palace and was built on top of a ridge, encircled by protective walls to ward off invaders. Amongst the many monastic buildings for worship, cultural studies, and living quarters of the monks, the grandest is the main prayer hall, known as Dukhang. Merely stepping through its intricate doors will take your breath away, for every surface of the hall is vividly coloured and richly decorated! The walls are covered in a profusion of mythological paintings. Carvings adorn the columns and beams, devotional cloths hang from the ceiling, objects of worship and offerings of the faithful are found all around, and in the very centre of these is enshrined a gigantic statue of Lord Buddha. Artworks across the monastery depict the teachings of the Buddha in myriad ways and the most eye-catching ones include the bhavachakra – a wheel-of-life that depicts a series of positives and negatives forming a cyclic existence; and the geometric mandalas that are a representation of the cosmos as per Buddhist traditions.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "WHILE IN TOWN",
+        page: 53
+      },
+      {
+        type: "p",
+        text: "Whereas the main Tawang Monastery is reserved for monks, a short drive away is the charming Brahma Dung Chung Ani Gompa or Thukje Chueling. This nunnery might be smaller in size but is as gorgeous, and the nuns in residence here welcome visitors wholeheartedly too. On your bucket list should also be the Tawang War Memorial, dedicated to the 2,420 soldiers, who laid down their lives during the 1962 war. Built to resemble a Buddhist chorten (shrine) that venerates departed souls, the memorial incorporates traditional elements such as prayer wheels and flags, as also motifs like lotus petals, dragons, and lions. Catch glimpses of the daily flag-lowering ceremony and stay back for the sound-and-light show conducted by the Army that highlights the region’s rich heritage and culture.",
+        page: 53
+      },
+      {
+        type: "subhead",
+        text: "VENTURING BEYOND",
+        page: 53
+      },
+      {
+        type: "p",
+        text: "The stunning scenery continues beyond Tawang town, all the way till the border with China at the Bumla pass, situated at an altitude of over 15,000 ft. The pass is snowbound for almost the entire year and presents a beautiful view of the Tibetan plateau. The roads might be rather rickety, but the views make the journey completely worth it. There are shimmering lakes cradled between majestic mountains, large tracts of snow, and rugged terrain that are characteristic of such high-altitude regions. But a special permit is required to visit the pass. One of the most popular lakes in the region is the picturesque Pankang Teng Tso. Its expansive waters reflect the surrounding snow-capped mountains and a pathway allows a walk all around its extents. Up ahead is Y-Junction, the name of an army post from where the road bifurcates into two: on one side is the tree-stump-filled Sangestar Tso (also known as Madhuri Lake, named after the veteran actor, Madhuri Dixit Nene), made popular by the Bollywood film Koyla; and on the other side is the border road to Bumla. Both these stretches are said to be exceedingly beautiful but require a clear weather day to traverse. However, venturing further can sometimes become a challenge, especially in the case of snowfall. A halt at the Y-Junction is no less interesting. There’s freshly made thukpa, bhajiyas and steaming masala tea, which can be relished over gripping stories narrated by the jawans.",
+        page: 53
+      },
+      {
+        type: "subhead",
+        text: "What's More",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "AN ODE TO THE BRAVE",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Along the road from Sela to Tawang is the Jaswant Garh War Memorial, dedicated to the bravery of rifleman Jaswant Singh Rawat, who defended the post from the invading Chinese army in 1962. One can even enter some of the bunkers here.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "STROKE OF CULTURE",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "The traditional Tibetan thangka painting continues to flourish in Tawang. It is not only used to design and elevate everyday objects but is also an important means of religious expression.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "ALONG THE WAY",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Stop at the town of Rupa for the white-washed stone structure and colourful wooden interiors of its historic monastery. While here, also drive uphill to Chillipam Monastery – a more recent construction inspired by oriental architecture, and embellished with animal figurines.",
+        page: 52
+      },
+      {
+        type: "note",
+        text: "**Getting there**: Guwahati is the closest airport to Tawang and the roughly 500-km drive is best done over two days. Halt overnight at Bomdila and visit the Lower Gompa, famed for its massive prayer hall.",
+        page: 52
+      },
+      {
+        type: "note",
+        text: "**Best time to visit** The most apt time for a trip to Tawang is till May, when the weather is most pleasant.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "H I G H L I G H T S",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "MUST-SEE",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Witness the beauty of the Gudpi and Chong-Chugmi ranges, Tawang chu River and Tawang valley",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "This region is dotted with Buddhist monasteries. Don’t miss the monasteries at Bomdila and Rupa",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "WHAT TO DO",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Try local delicacies like thukpa and ghyapa kazi, and buy handicrafts and traditional jewellery at the local markets",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "HISTORY TIP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Don’t miss the historical manuscripts, artefacts, and curios in the little museum within the Tawang Monastery complex",
+        page: 50
+      },
+      {
+        type: "note",
+        text: "**Shuvajit & Kunal** are travel writers and photographers. Follow them on Instagram @RicketyRoads.",
+        page: 54
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Guwahati from Delhi, Mumbai, Kolkata, Patna, Jaipur and many more cities. Book now at www.spicejet.com"
+    ],
+    pullQuotes: [
+      "Spectacular mountain views, tranquil lakes and monasteries make Tawang, the land of the Monpa Tribe, a breathtaking getaway"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p52-1.webp",
+        alt: "The colourful prayer hall of a monastery",
+        width: 769,
+        height: 513,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p52-2.webp",
+        alt: "A monastery interior with red pillars",
+        width: 418,
+        height: 282,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p52-3.webp",
+        alt: "An artist painting a thangka",
+        width: 313,
+        height: 313,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p52-4.webp",
+        alt: "A war memorial below snowy peaks",
+        width: 328,
+        height: 262,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p52-5.webp",
+        alt: "Butter lamps lit in rows",
+        width: 600,
+        height: 306,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p53-1.webp",
+        alt: "A monastery complex on a hillside above the town",
+        width: 1034,
+        height: 646,
+        pdfPages: [
+          53
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p53-2.webp",
+        alt: "Monks and visitors at a monastery",
+        width: 575,
+        height: 415,
+        pdfPages: [
+          53
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p54-1.webp",
+        alt: "A frozen lake with dead tree trunks, below mountains",
+        width: 1034,
+        height: 702,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p54-2.webp",
+        alt: "A bowl of noodle soup",
+        width: 346,
+        height: 349,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/tawang-tales-from-the-frontier/p54-3.webp",
+        alt: "A yak grazing on a snowy slope",
+        width: 611,
+        height: 407,
+        pdfPages: [
+          54
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 52,
+        items: [
+          "Image: Kunal Bhatia and Shuvajit Payne",
+          "Image: Kunal Bhatia and Shuvajit Payne"
+        ]
+      },
+      {
+        pdfPage: 54,
+        items: [
+          "Image: Kunal Bhatia and Shuvajit Payne"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      printedPages: [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      imagePdfPage: 50
+    }
+  },
+  {
+    id: "lasting-impressions-permanent-makeup",
+    slug: "lasting-impressions-permanent-makeup",
+    title: "Lasting Impressions",
+    section: "Kaleidoscope",
+    category: "wellness",
+    author: "Sayoni Bhaduri",
+    bylineLabel: "Text:",
+    date: "April 2024",
+    excerpt: "Permanent makeup is taking India by storm, offering a convenient and long-lasting solution for brows, lips and more. Here is all you need to know about the procedure, which is a fine combination of art and science.",
+    heroImage: "/images/stories/lasting-impressions-permanent-makeup.webp",
+    heroImageAlt: "A cosmetic artist measuring a woman’s brows for permanent makeup",
+    heroImageSource: "Spice Route - April 2024, PDF page 56",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "‘Beauty is only skin deep’ is an adage that refers to the ephemeral quality of conventional beauty. However, with the advent of permanent makeup (PMU), also known as cosmetic tattoo or semi-permanent makeup procedures, the concept of skin-deep beauty has been flipped on its head. If social media metrics are anything to go by, the combination of aesthetics and convenience is driving the popularity of PMU, both internationally and in India.",
+        page: 56
+      },
+      {
+        type: "subhead",
+        text: "A SKIN-DEEP SOLUTION",
+        page: 56
+      },
+      {
+        type: "p",
+        text: "PMU involves the application of pigments into the epidermis layer of the skin, pigments that mimic the appearance of makeup, resulting in enhanced facial features that last for an extended period. “The epidermis is the topmost layer of the skin that sheds over time. This is the biggest difference between a tattoo and permanent makeup. Tattoo pigment is deposited in the dermis of the skin, which does not regenerate and therefore makes the pigment and design stay forever,” says Dr. Shikha Baghi, founder and MD, of Timeless Aesthetics, Gurugram, explaining the difference between conventional tattoos and PMU. Depending on the skin type, PMU treatments can last up to two years, with gradual fading as the epidermis sheds and regenerates. This is perhaps the most vital aspect of PMU — it has to fade over time — asserts Dr. Baghi.",
+        page: 56
+      },
+      {
+        type: "subhead",
+        text: "PMU TREATMENTS IN INDIA",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "The two most popular facial features considered for PMU are the eyebrows and lips. For eyebrows, there are two treatments—microblading and powder brows. “Eyebrows add a frame and give a dimension to a face,” explains Delhi-based makeup artist Shagun Gupta, who specialises in powder brows. Alia Bhatt, Deepika Padukone and other actors are known to opt for PMU to keep their eyebrows bold and beautiful. “Indians have a predisposition towards dark lips, especially as one ages, so PMU treatments such as lip blush or lip tinting can mask the melanin and the pigmentation,” Dr. Baghi shares, while talking about the popularity of PMU treatments for lips. She adds that this procedure is very popular among both men and women. Other popular PMU treatments on the rise are permanent eyeliner and blush, but Gupta advises on being wary of them, since under full coverage makeup, these get hidden, defeating the purpose of the treatment. Scalp micro-pigmentation is another treatment for those experiencing hair loss. Experts say that PMU is not supposed to give one a flawless makeup look; but improve the natural features. The outcome is dependent on how the skin absorbs the pigment and then heals. “I cannot recommend a full-face PMU because at the end of the day, it is not natural to our body. It is a dye being injected and it will look extremely fake,” says Gupta. Ashmi Singhai, founder and CEO of the Browmasters, Mumbai, adds that one should also be mentally prepared to experience some level of pain during the process.",
+        page: 57
+      },
+      {
+        type: "subhead",
+        text: "RISING DEMAND",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "In comparison to the West, where PMU has been around for almost 20 to 25 years, it is a recent entrant in India’s skincare and beauty space. There has been a huge surge in PMU since COVID-19, observes Dr. Baghi, who added PMU as one of her areas of expertise in 2016. This technique has gained popularity for its ability to save time, maintain a polished appearance, and boost confidence. “Most Bollywood celebrities and influencers have already gotten perfect brows and lips although they don’t prefer to talk about it,” says Singhai, who counts actor siblings Shilpa and Shamita Shetty as satisfied clients. The predominant consumer base for PMU, according to experts, are middle-aged women or those who have skin conditions such as alopecia. “For women above the age of 40, it has huge age-rewinding benefits, and can make people look younger,” says Singhai. But there is a growing number of young urban professionals, who are also opting for PMU for a very simple reason of better time management. “It can reduce one’s makeup time by 20 to 30 minutes,” she adds.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "PMU IN THE FUTURE",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "The potential for PMU is unprecedented, where dermatologists, aestheticians, makeup artists and salon owners are investing and training in different facets of the procedure. The surge in popularity in Mumbai, Delhi NCR and Bengaluru is spreading to tier 1 cities of Kolkata, Hyderabad and others. “India will see a huge expansion of the PMU industry over the next five years as currently, the market penetration and awareness is only at the tip of the iceberg,” believes Singhai.",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "Please note that these treatments should only be done under the supervision of a professional.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "PMU-specific dos and don’ts recommended by experts:",
+        page: 57
+      },
+      {
+        type: "list",
+        items: [
+          "Look for artists with proper certifications, a clean and sterile environment, and a portfolio showcasing their work.",
+          "Get an extensive consultation with the PMU technician before the procedure. “It is important that they understand your needs and requirements, as well as your facial structure, to make the correct recommendation,” says Gupta.",
+          "See before and after pictures. “It takes almost four weeks for the skin to heal and the pigment to settle, so it is important to see the fully healed image before taking the plunge,” explains Dr Baghi.",
+          "Experts also emphasise the importance of proper hygiene. Since there are needles that are going to inject dye into the skin, hygiene and sanitation are paramount to avoid any chance of infection."
+        ],
+        page: 57
+      }
+    ],
+    pullQuotes: [
+      "The tattoo pigment is deposited in the dermis of the skin, which makes it stay there forever, while PMU is planted on the epidermis, the topmost layer, which sheds over time",
+      "PMU is a recent entrant in India's skincare and beauty space. There has been a huge surge in PMU since the COVID-19 pandemic. It is said to reduce one’s makeup time by 20 to 30 minutes"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p56-2.webp",
+        alt: "A technician applying lip pigment",
+        width: 468,
+        height: 312,
+        pdfPages: [
+          56
+        ]
+      },
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p56-3.webp",
+        alt: "A technician working on a woman’s brows",
+        width: 551,
+        height: 368,
+        pdfPages: [
+          56
+        ]
+      },
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p57-2.webp",
+        alt: "Portrait of Deepika Padukone",
+        width: 360,
+        height: 449,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p57-1.webp",
+        alt: "Portrait of a woman with defined brows and lips",
+        width: 366,
+        height: 406,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p57-3.webp",
+        alt: "Illustration: a face mapped for brow shaping",
+        width: 208,
+        height: 269,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/lasting-impressions-permanent-makeup/p58-1.webp",
+        alt: "Actor Shilpa Shetty with Ashmi Singhai",
+        width: 474,
+        height: 579,
+        pdfPages: [
+          58
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 58,
+        items: [
+          "Actor Shilpa Shetty with Ashmi Singhai, founder and CEO of the Browmasters"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        56,
+        57,
+        58
+      ],
+      printedPages: [
+        54,
+        55,
+        56
+      ],
+      imagePdfPage: 56
+    }
+  },
+  {
+    id: "eternal-eden-remote-destinations",
+    slug: "eternal-eden-remote-destinations",
+    title: "Eternal Eden",
+    section: "Montage",
+    category: "destinations",
+    date: "April 2024",
+    excerpt: "With many travellers veering towards the remote travel trend, ditching well-known tourist spots for the most isolated and unexplored places, here are some unique destinations for the adventurer in you",
+    heroImage: "/images/stories/eternal-eden-remote-destinations.webp",
+    heroImageAlt: "The swirling blue marble walls of a lakeside cave",
+    heroImageSource: "Spice Route - April 2024, PDF pages 60–61",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "Bordering the General Carrera lake in Patagonia — a remote glacial wonder — are the stunning **Marble Caves**, marked by unique textured walls, formed over thousands of years",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Photo: **Irina Dementyeva**",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Connecting the southern tip of South America with the Antarctic peninsula is the **Drake passage**. But the vast, tumultuous expanse of sea is not for the faint-hearted, and is a part of the attraction of going to the “white continent”",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "**Photo: Mystic Stock Photography**",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "The ethereal **Svalbard Islands**, a short flight away from Norway's mainland, fascinates with its wilderness, polar climate, wildlife and the Northern lights",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "**Photo: ginger_polina_bublik**",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Perched in the northernmost part of Canada, **Nunavut** is an Arctic paradise that offers exotic experiences amidst fjords, crystalline lakes and polar bears",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "**Photo: karenfoleyphotography**",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "The remote island of **Madagascar** in the Indian Ocean promises a colourful journey through rare biodiversity, including baobab trees and geological wonders like Tsingy, which are fossilised shell formations",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "**Photo: KENTA SUDO**",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "The **Macquarie Island**, between Australia and Antarctica, is known to be the only place on the Earth where the rocks from the mantle are exposed above sea-level. It is home to penguins and seals",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "Photo: **Charles Bergman**",
+        page: 63
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/eternal-eden-remote-destinations/p62-1.webp",
+        alt: "The northern lights over a dark sea",
+        width: 1081,
+        height: 669,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/eternal-eden-remote-destinations/p62-2.webp",
+        alt: "Icebergs floating in the sea",
+        width: 758,
+        height: 619,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/eternal-eden-remote-destinations/p63-1.webp",
+        alt: "A polar bear on the ice",
+        width: 703,
+        height: 943,
+        pdfPages: [
+          63
+        ]
+      },
+      {
+        src: "/images/stories/eternal-eden-remote-destinations/p63-2.webp",
+        alt: "An avenue of baobab trees",
+        width: 918,
+        height: 671,
+        pdfPages: [
+          63
+        ]
+      },
+      {
+        src: "/images/stories/eternal-eden-remote-destinations/p63-3.webp",
+        alt: "A colony of penguins",
+        width: 539,
+        height: 436,
+        pdfPages: [
+          63
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        60,
+        61,
+        62,
+        63
+      ],
+      printedPages: [
+        58,
+        59,
+        60,
+        61
+      ],
+      imagePdfPage: 60
+    }
+  },
+  {
+    id: "ed-sheeran-hoping-srk-will-be-in-my-music-video",
+    slug: "ed-sheeran-hoping-srk-will-be-in-my-music-video",
+    title: "‘I am hoping SRK will be in my music video’",
+    section: "Limelight",
+    category: "interviews",
+    author: "Aarti Kapur Singh",
+    bylineLabel: "Text:",
+    date: "April 2024",
+    excerpt: "Ed Sheeran's India tour may be over but the popular singer seems to be still basking in his desi moments and thinking of another trip soon. He speaks to us about the Indian audience, working with actors and singers here, and the love he receives",
+    heroImage: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video.webp",
+    heroImageAlt: "Ed Sheeran playing a guitar on stage",
+    heroImageSource: "Spice Route - April 2024, PDF page 64",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "\"It's awesome meeting people in India!\" is the first thing popular English musician Ed Sheeran said when asked about his recent India tour. The singer-songwriter not only impressed fans at his concert, but was also left quite awestruck at the diversity of India. \"From residents of Dharavi (in Mumbai), to actors and fans - I met quite a large group, and they have left me so positively affected for life,\" said the “Shape Of You” singer. It is true. Edward Christopher Sheeran, the Halifax-born star, ticked quite a few boxes during his **+−=÷×** Tour (Mathematics).",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "Taste For Life",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "Talking about his most vivid interpretation of India and its people, Sheeran says, \"It is the love that is so palpable in everything that people in India do. To come to a country that is not my home and yet a place where I am loved the most, is huge! You can really feel it! People are expressive and they have so many ways to express their love for you - whether it is dancing at your show, or gifting you things, or feeding you! Every time I come back here, it feels more and more exciting. I am in love with how vibrant and excited the people are. And since I am like that too, I felt very warmly welcomed. People have a taste for life!\" Ask him about his love for Indian food, and the singer impressively lists out his favourites. \"My trips are based around food and I did that last time too. My trick is not to order off a menu, but to speak to the chef at any restaurant and ask them to bring me small portions of whatever they want me to try. I tried upma and I think it is going to be a staple back home for me. Paneer butter masala will be the favourite thing I had on my recent trip. (Actor) Ayushmann Khurrana got me a sweet - I think it is called pinni - that was made at home. I was so touched! I think I will have to come back for a longer duration for a holiday that is focused exclusively on Indian food!\"",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "Work & Pleasure",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The global star was hosted by the who's who of the Mumbai entertainment industry, from Shah Rukh Khan and Jackky Bhagnani to Kapil Sharma; and Sheeran was only too happy to \"party the way only Indians can!\" Pictures of him with Bollywood royalty were all over the internet, but what was not so well known was his fondness for some recent content produced by Indian cinema. \"I am in love with RRR! I have already seen the movie multiple times. It is fantastic! I also spent a lot of time with Shah Rukh and I am hoping he will be in my music video. I'd love that!\" The singer is also game for a chance in Bollywood and says, \"I am okay with a cameo too! I did it for Game Of Thrones and I will do it for the beautiful people that make these magical movies in India!\" A few days after his show in Mumbai, Sheeran offered his fans a glimpse of his experience in India on social media. The posted clip shows him saying that he \"loves India\". It features Shah Rukh Khan, Diljit Dosanjh and Shubman Gill, among others. He can also be seen making misal pav, a local snack. Ask him if there are any other plans for working with Indian entertainers and he promptly names singer-rapper King, adding, \"I have heard his music and I do have some ideas on stuff that might be good to work together on. We were meant to play in Bengaluru and Delhi this time, but it didn’t work out. So, I think we're going to come back and perform in these two cities. I might as well combine work and pleasure in an extended visit to India, during which I can roam and wander all I want, eat all I want, shop all I want and work with the brilliant and talented people that keep us immensely entertained!\"",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "Ed in India!",
+        page: 66
+      },
+      {
+        type: "note",
+        text: "Here are a few of Ed Sheeran's favourite things to do in India…",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Favourite food - \"I'd strongly recommend the rich curries. Nobody makes curries like Indians do!\" (In a roundup video posted on social media by the singer, Sheeran can be seen indulging in large amounts of butter chicken.)",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Best place to watch Hindi films - \"I'd love to watch them in a movie hall in India. Till that happens, the second best place would be on flights!\"",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Destination wish-list – \"Kashmir and Goa.\"",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Indian culture - \"Besides music, I want to explore painting. I really want to learn about the folk art forms of India.\"",
+        page: 66
+      }
+    ],
+    pullQuotes: [
+      "Talking about the immense love and affection Ed Sheeran receives from his fans in India, he says, \"To come to a country that is not my home and yet a place where I am loved the most is huge.\""
+    ],
+    gallery: [
+      {
+        src: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video/p65-1.webp",
+        alt: "Ed Sheeran performing on stage with flames behind him",
+        width: 900,
+        height: 626,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video/p65-2.webp",
+        alt: "Ed Sheeran in a denim jacket among fans",
+        width: 433,
+        height: 360,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video/p66-2.webp",
+        alt: "Ed Sheeran playing guitar at a concert",
+        width: 688,
+        height: 503,
+        pdfPages: [
+          66
+        ]
+      },
+      {
+        src: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video/p66-1.webp",
+        alt: "Ed Sheeran in a Pikachu hat against a cartoon mural",
+        width: 389,
+        height: 594,
+        pdfPages: [
+          66
+        ]
+      },
+      {
+        src: "/images/stories/ed-sheeran-hoping-srk-will-be-in-my-music-video/p66-3.webp",
+        alt: "A poster for Ed Sheeran’s 2024 tour",
+        width: 441,
+        height: 331,
+        pdfPages: [
+          66
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 65,
+        items: [
+          "Image: teddysphotos"
+        ]
+      },
+      {
+        pdfPage: 66,
+        items: [
+          "Ed Sheeran performing at a concert",
+          "Image: teddysphotos",
+          "Image: teddysphotos"
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        64,
+        65,
+        66
+      ],
+      printedPages: [
+        62,
+        63,
+        64
+      ],
+      imagePdfPage: 64
+    }
+  },
+  {
+    id: "pillars-of-progress-civil-services-day",
+    slug: "pillars-of-progress-civil-services-day",
+    title: "Pillars of Progress",
+    section: "Number Game",
+    category: "culture",
+    date: "April 2024",
+    excerpt: "Civil Services Day is celebrated every year on April 21 in India. Let us understand its history and significance",
+    heroImage: "/images/stories/pillars-of-progress-civil-services-day.webp",
+    heroImageAlt: "Sketch portrait of Sardar Vallabhbhai Patel",
+    heroImageSource: "Spice Route - April 2024, PDF page 68",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "p",
+        text: "The date (April 21) marks the moment in **1947** when the first Home Minister of Independent India, Sardar Vallabhbhai Patel, addressed the probationers of Administrative Services Officers at Metcalf House, Delhi. He famously referred to them as the \"steel frame of India\"",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "The Government of India observes Civil Services Day as an occasion for civil servants to renew their commitment to public service and work excellence. It was first celebrated in 2006 at Vigyan Bhawan in Delhi",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "This day is also when the Prime Minister's Awards for Excellence in Public Administration are presented to districts/ implementing units for the implementation of priority programmes and innovation categories",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "The concept of the modern merit-based Civil Service in India was introduced in 1854.",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "Initially, the Indian Civil Service examinations were conducted only in London but from 1922 onwards, it began to be held in India as well",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "Satyendranath Tagore, brother of Nobel laureate Rabindranath Tagore, was the first Indian to qualify for the Indian Civil Service in 1864",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "The Public Service Commission was set up in India for the first time on **October 1, 1926**. Sir Ross Barker was the first chairman of the Commission. Later, it came to be known as the Union Public Service Commission (UPSC)",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "The All India Services comprise the Indian Administrative Service (IAS), the Indian Police Service (IPS), and the Indian Forest Service (IFS)",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "The UPSC conducts various examinations in accordance with the rules notified by the Government of India, for a merit-based selection and recommendation of candidates for various civil services",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "A premier training institution for civil services in India is the Lal Bahadur Shastri National Academy of Administration (LBSNAA) in Mussoorie. It is an attached office of the Department of Personnel & Training, Government of India.",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "The percentage of women selected in civil services has increased over the years, as per government data. In the **Civil Services Exam 2022**, the first four toppers and **60 per cent** of the **top 20 were women**",
+        page: 69
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p68-2.webp",
+        alt: "Black-and-white portrait of Satyendranath Tagore",
+        width: 335,
+        height: 342,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p68-3.webp",
+        alt: "The national emblem of India",
+        width: 174,
+        height: 292,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p68-5.webp",
+        alt: "An award trophy",
+        width: 261,
+        height: 339,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p69-2.webp",
+        alt: "The emblem of the Union Public Service Commission",
+        width: 263,
+        height: 263,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p69-3.webp",
+        alt: "The building of a civil services training academy",
+        width: 573,
+        height: 382,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/pillars-of-progress-civil-services-day/p69-4.webp",
+        alt: "Illustration: a government building with the national emblem",
+        width: 496,
+        height: 594,
+        pdfPages: [
+          69
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        68,
+        69
+      ],
+      printedPages: [
+        66,
+        67
+      ],
+      imagePdfPage: 68
+    }
+  },
+  {
+    id: "your-forecast-this-month-april-2024",
+    slug: "your-forecast-this-month-april-2024",
+    title: "Your Forecast This Month",
+    label: "April 2024",
+    section: "Astro Time",
+    category: "predictions",
+    date: "April 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You will be very surprised to see the attention you’re going to get from the one who piques your romantic interest. Pleasure pursuits, financial agreements and spiritual matters are going to bring you a lot of personal satisfaction. Something that you had to let go in the past is going to come again.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "There's unexpected progress and good fortune on the cards, particularly in business or financial matters. Or you’ll surprise yourself by saying “yes” for something that you’ve been putting off. Plodding work or a sordid relationship can trouble you. You will unite with a loved one or partner and discuss plans for the future.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Someone will help you collect money that is owed to you. You might get together with a person on an idea or a partnership. You will also be making revisions in your work or presentation, to increase earnings or make your returns lucrative. You are likely to receive a message from an admirer.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Someone will present you with a very enticing opportunity regarding your home or business. This can open up a whole new possibility or increase your income substantially. You will want to share your deepest feelings, but will keep them to yourself because you can't find an outlet.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You’re going to experience a chain reaction in money matters with only a partial response at first. One thing will lead to another, and a moderate degree of success will be attained. You may think that your partner is ignoring you or not including you in his/her plans or being honest, but you might be overthinking.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Seems like someone has too much on his plate! Naturally, it can cause some nervousness or anxiety. Do not fret and try to calm yourself down. Try to sort out issues one at a time. You can expect new opportunities, expansion, and an increase in your finances. Money is surely coming in. Cheer up!",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "A payment is going to be late, which will aggrieve you, but money will come in from a new undertaking or a different source. Don’t try to assess situations and draw conclusions. Your heartfelt desires are coming true through the entry of someone with whom you will establish a deep rapport and mutual feeling of affinity.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Professionally, you will make many important contacts, but you will have to wait for things to unfold in your favour. On the personal front, you might be weighed down with responsibilities, and feel that you need someone to ease your burden. Do not let this get to your head. Loosen up and you’ll find that love is everywhere.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Money will be acquired from a business, probably from a work-from-home situation. Be sure to handle all financial negotiations before you start to avoid any misunderstandings. You will be in a romantic mood and life will offer exciting opportunities for romance. People are going to compete for your attention.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You will have discussions about work or finances, which will be agreed upon by everyone. If you have your own business, you’ll make money, but will have to make some concessions. It's time to keep a check on your emotions. Keep a check on your blood pressure level too. Try to be patient and think through every step.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You might have to delay a plan. Try not to force things and wait for the timing to be right. You are going to have a complete reversal in your thinking. You will be waiting to see what a lover will do. This could also indicate a sudden flight from home, but not a permanent one. New avenues will open up for jobs or businesses.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You’ll be surprised by some unexpected good news about your career or there will be positive changes in your home or work environment. A new romantic interest is also indicated. Your emotional state will improve greatly. Don’t give up in your pursuit as you will receive an answer or a clear-cut direction that will solve your problems.",
+        page: 70
+      },
+      {
+        type: "note",
+        text: "Tarot card reader and holistic healer Poonam Sethi believes in the power of giving. With a career spanning more than three decades, Sethi today is an internationally-acclaimed tarot card reader, Reiki healer, colour therapist, Feng Shui practitioner, crystal healer, a specialist in removal and balancing the negative evil eye energies and a rudraksha consultant. She is also the author of The Power of Feng Shui, which offers 90 practical and efficient tips to improve one's life. For details, contact – poonamsethi27@hotmail.com",
+        page: 70
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        70
+      ],
+      printedPages: [
+        68
+      ],
+      imagePdfPage: 70
+    }
+  },
+  {
+    id: "my-town-prayagraj",
+    slug: "my-town-prayagraj",
+    title: "My Town",
+    label: "Prayagraj",
+    section: "RedHot",
+    category: "destinations",
+    author: "Ms. Tasbih Fatima",
+    role: "Senior Cabin Crew, Prayagraj",
+    date: "April 2024",
+    excerpt: "In our series, in which we travel to various Indian cities with a SpiceJet family member, this time, Tashbih Fatima, Cabin Crew (Prayagraj), takes us around her hometown.",
+    heroImage: "/images/stories/my-town-prayagraj.webp",
+    heroImageAlt: "Illustration: the ghats and temples of Prayagraj by the river",
+    heroImageSource: "Spice Route - April 2024, PDF page 76",
+    heroImageLicence: "pending",
+    editionSlug: "april-2024",
+    editionTitle: "Spice Route - April 2024",
+    body: [
+      {
+        type: "question",
+        text: "Are you originally from Prayagraj?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Yes, I was born and raised in Prayagraj, a centre of spirituality and culture.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the quality of life here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "It's like living in any other city in India. From an educational standpoint, it's a good choice due to the presence of many reputed colleges and coaching centres. Prayagraj has many attractions related to historical and religious viewpoints.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the best thing that you like about the place?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Prayagraj is famous for its rivers, architecture, food and calm atmosphere. The confluence of three sacred rivers, the grand forts and amiable people make the city very special to me.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "As compared to other big cities, how is the lifestyle in Prayagraj different?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Prayagraj offers a lifestyle that is deeply rooted in culture, history and spirituality. The atmosphere, cultural richness, slower pace of life, connection with nature and strong community and family ties make the city unique. The city provides a lifestyle that balances cultural depth, spiritual serenity, academic vibrancy and a close-knit community spirit, offering a distinct and enriching experience compared to the more fast-paced, modern lifestyle of larger urban centres.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the night scene here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "At night, Prayagraj becomes calm and beautiful. Peaceful ceremonies by the river offer a sight to behold, and the streets line up with food stalls. Music and dance shows, revisiting the city's history, are also organised. Although Prayagraj doesn't host big parties like other cities, the peaceful nights are enjoyable, revealing the city's true nature. It's a lovely place to be after the sun goes down.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Are you a foodie? Which is your favourite eatery in Prayagraj?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "One of my favourite places to satisfy cravings is the Chowk Area, renowned for its variety of Indian snacks and sweets. From spicy chaat to sweet jalebi, the diversity of items available here is a delight for all food lovers. I always look forward to visiting the El Chico Restaurant. They offer a mix of Indian, Chinese, and Continental dishes, catering to both vegetarian and non-vegetarian preferences. However, when it comes to my non-vegetarian cravings, Kareem's is a must-visit for me in Prayagraj. They are renowned for their kebab and biryani varieties.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "How did you discover the eatery?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Having lived in Prayagraj, I've had the opportunity to visit most of these places with my friends. We had made it a tradition to try new eateries every week. I discovered this place through recommendations from friends, suggestions from social media and food reviews. In local communities, information about good eateries spread through word of mouth matters. Additionally, I find valuable insights into the best places to eat through food blogs, local guides and food-related posts.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Why do you like the place so much?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I love Prayagraj's street food scenario because it offers everything from chaat, samosa and kachori to sweets like jalebi and kulfi. Furthermore, authentic Indian sweets like gujiya, rasmalai and the city's version of peda are mouthwatering.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which are the best places to hang out in Prayagraj?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are many popular places among locals for hanging out. The most important tourist destination in Prayagraj is Triveni Sangam, the confluence of three rivers of India: Ganges, Yamuna, and Saraswati. Another well-known tourist destination in Prayagraj is Khusro Bagh, which draws many visitors. Located in Lukarganj, this bagh and its surrounding walls and brackets serve as a reminder of exquisite Mughal architecture.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Apart from Prayagraj, what are the other places that you would recommend nearby?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are many places near Prayagraj, which offer unique experiences and are worth exploring. Some of these destinations include Chitrakoot, Ayodhya, Kaushambi, Bandhavgarh National Park, Varanasi and Sarnath. These destinations near Prayagraj provide a mix of spiritual, historical and natural experiences, making them great additions to your travel itinerary while visiting the beautiful city and looking for places to go on day trips.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "How is Prayagraj different when compared to other Indian cities?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I have stayed in Hyderabad, Kolkata and Jaipur. Hyderabad excels in technology and culinary richness, Jaipur in royal heritage and arts, and Kolkata has cultural and intellectual legacy. In contrast, Prayagraj is revered for its religious significance and historical role in India's independence. It holds a special place in my heart as I have spent my childhood here and I cherish the calmness and purity that this city embodies.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "PLEASE DESCRIBE YOUR FAVOURITE DISH.",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "One of my most beloved dishes is chaat. This street food delight is a mix of tangy, spicy and sweet flavours, encapsulating the essence of local cuisine. Typically, the dish includes ingredients like fried dough, boiled potatoes, chickpeas, spices, yogurt and chutney, all skilfully combined to create a dish that bursts with flavour. More than its taste, eating chaat is an experience in itself and is quite a popular dish.",
+        page: 77
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/my-town-prayagraj/p76-3.webp",
+        alt: "Portrait of Ms. Tasbih Fatima in a SpiceJet uniform",
+        width: 330,
+        height: 425,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-prayagraj/p77-1.webp",
+        alt: "Illustration: sadhus in saffron turbans",
+        width: 681,
+        height: 686,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-prayagraj/p77-2.webp",
+        alt: "A plate of chaat",
+        width: 329,
+        height: 373,
+        pdfPages: [
+          77
+        ]
+      }
+    ],
+    source: {
+      edition: "april-2024",
+      pdf: "SpiceRouteApr24.pdf",
+      pdfPages: [
+        76,
+        77
+      ],
+      printedPages: [
+        74,
+        75
+      ],
+      imagePdfPage: 76
+    }
+  },
+  {
+    id: "from-the-cmds-desk-march-2024",
+    slug: "from-the-cmds-desk-march-2024",
+    title: "From the CMD’s Desk",
+    section: "From the CMD’s Desk",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman and Managing Director",
+    date: "March 2024",
+    excerpt: "Welcome aboard SpiceJet! As India ascends to the global stage as a burgeoning superpower, its influence and potential are capturing the attention of the world. This remarkable journey of growth and development is not only reshaping the nation but also leaving an indelible mark on the international landscape. India's rising prominence on the global stage is evident through a series of recent landmark achievements. The successful resolution of a diplomatic crisis resulting in the release of eight former Indian Navy officers in Qatar stands as a significant triumph.",
+    heroImage: "/images/stories/from-the-cmds-desk-march-2024.webp",
+    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
+    heroImageSource: "Spice Route - March 2024, PDF page 5",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet! As India ascends to the global stage as a burgeoning superpower, its influence and potential are capturing the attention of the world. This remarkable journey of growth and development is not only reshaping the nation but also leaving an indelible mark on the international landscape.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "India's rising prominence on the global stage is evident through a series of recent landmark achievements. The successful resolution of a diplomatic crisis resulting in the release of eight former Indian Navy officers in Qatar stands as a significant triumph.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "In another milestone event, Prime Minister Narendra Modi inaugurated the magnificent Bochasanwasi Akshar Purushottam Swaminarayan Sanstha (BAPS) Mandir in Abu Dhabi, marking the first Hindu temple in the capital of the United Arab Emirates, on February 14, 2024. These accomplishments underscore India's expanding influence and its emergence as a global powerhouse across economic, cultural, and political domains.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "In the midst of this transformative era, SpiceJet is proud to serve as a vital conduit, connecting passengers to the heart of India's progress and prosperity. The grand opening of Ram Mandir in Ayodhya has seen a surge of devotees heading to this temple town. After operating a special flight for the Pran Pratishtha ceremony, SpiceJet commenced non-stop flights to this pious town from eight prominent cities, including Ahmedabad, Chennai, Darbhanga, Delhi, Jaipur, Patna, Mumbai, and Bengaluru. Religious tourism holds a significant place in our operations, and we are committed to expanding our flight services to Ayodhya and other significant destinations in the future.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "SpiceJet takes pride in its longstanding tradition of operating Haj Special flights annually. This year, we are gearing up to serve pilgrims with special flights from Srinagar, Gaya, Guwahati, Bhopal, Indore, Aurangabad, and Vijayawada. Our commitment remains unwavering in providing top-notch services to all our passengers, including pilgrims embarking on this sacred journey.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Your continued patronage serves as a driving force for us, inspiring us to strive for excellence. We are grateful for consistently leading the industry with impressive occupancy rate month after month. Maintaining our position as the airline topping the charts in one of the world's most dynamic aviation markets is no small feat. As we continue to expand, we are committed to adding more routes and services to ensure hassle-free travel to a wider array of destinations.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Congratulations to the Indian women's badminton team for their historic gold medal win at the Badminton Asia Team Championships 2024. Defeating Thailand 3-2 in the finale in Malaysia, the team overcame formidable opponents, including the top three seeds China, Japan, and Thailand to clinch the title. Our best wishes go out to the team for continued success in future competitions.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "The recently concluded 2024 Under-19 Cricket World Cup showcased remarkable sportsmanship from the participating teams. While the gripping finale drew attention, the Indian team's resilience and determination to learn from their experience against Australia stood out. Congratulations to the boys for reaching the finals, and our best wishes to the players for a successful career ahead.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 5
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        5
+      ],
+      printedPages: [
+        3
+      ],
+      imagePdfPage: 5
+    }
+  },
+  {
+    id: "broadsheet-march-2024",
+    slug: "broadsheet-march-2024",
+    title: "Broadsheet",
+    section: "Broadsheet",
+    category: "culture",
+    date: "March 2024",
+    excerpt: "",
+    heroImage: "/images/stories/broadsheet-march-2024.webp",
+    heroImageAlt: "Revellers celebrating Holi in clouds of red and orange colour",
+    heroImageSource: "Spice Route - March 2024, PDF page 16",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "HOLI",
+        page: 16
+      },
+      {
+        type: "p",
+        text: "One of the most widely celebrated festivals in India, Holi marks the victory of good over evil, with hopes for the beginning of a bountiful spring harvest. It is celebrated with great fervour across regions, where people smear colours on each other and perform the ritual of Holika dahan.",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**When**: March 25",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**Where**: All over India",
+        page: 16
+      },
+      {
+        type: "subhead",
+        text: "Events",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "MAHASHIVRATRI",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "The festival is celebrated to offer obeisance to Lord Shiva. Mahashivratri translates to \"the great night of Shiva\". It is celebrated as the wedding day of Lord Shiva and Goddess Parvati.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: March 8",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: All over India",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "WORLD THEATRE DAY",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Initiated in 1961 by the International Theatre Institute, World Theatre Day is observed to pay respect and celebrate the beauty of various forms of theatres around the world. It is meant to celebrate the love for this art form.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: March 27",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the World",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "INTERNATIONAL YOGA FESTIVAL",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Organised at the Parmarth Niketan Ashram in Rishikesh, which is dubbed the yoga capital of the world, this week-long event promotes healthy well-being.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: March 8-14",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Rishikesh, Uttarakhand",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "MARSHMELLO COMES TO INDIA",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Grammy-nominated DJ Marshmello is visiting India, as part of the Sunburn Holi Weekend, making the festival of colours memorable for music lovers. He brings his fresh hits along with his iconic helmet.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: March 22-25",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Bengaluru, Delhi, Mumbai, Pune",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "Cinema | Books | Sports | Food",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "KUNG FU PANDA 4",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Even though Po is a lazy panda, his kung-fu skills are praiseworthy. The first movie of the Kung Fu Panda franchise came out in 2008 and has been a celebrated release. The fourth movie is here!",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: March 8",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the world",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "FOR THE GRAM",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Goagr@m: Misadventures of an Influencer by Bina Nayak is about the protaganist, Maddie escaping to Goa for her vlogs. However, her digital dreams are shattered by a horrifying experience.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "FOOD FEST",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "The Food for Thought Fest is here for all vegetarians. Presented by the Ahmedabad Municipal Corporation at the River Front Event Centre, the three-day event explores the culinary diversity of the South Asian region.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: March 8-10",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Ahmedabad, Gujarat",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "CRICKET FEVER",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "India's favourite cricket fiesta, the Indian Premier League is here! The 17th edition of IPL will have a total of 74 matches with Chennai Super Kings being the defending champions.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: March 22 onwards",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: India",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "Fashion",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "STATEMENT GLASSES",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The geek chic era seems to be back with glasses re-emerging as a fashion statement. From Bella Hadid to Billie Eilish and Brad Pitt, many celebrities have been spotted wearing spectacles at events.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "BRIGHT AND RADIANT",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "If skincare has been a priority for you then you should try the latest bundle by Gunam. Its products are infused with the secrets of Ayurveda, and are said to have a positive impact on the skin.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "ESSENCE OF LUXURY",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "If you are looking for new fragrances to suit your mood, the latest collection by Maison De Fouzdar can be a good option.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "A YEAR OF SEQUINS",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "A repeated style on most of the runways in 2024 has been sequins. The high-shine fabric is no longer just for a party outfit but is also suitable for other occasions. Team it with a chic bag and get ready to dazzle!",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Tech",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "LUCID DREAMS",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "Wouldn't it be wonderful if you were able to control your dreams? Tapping into the capabilities of AI, a company named Prophetic has come up with a Halo AI headband that actually enables users to know when they are dreaming! This unique phenomena, also known as lucid dreaming, is possible through ultrasound that is used in the headband.",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "CRYPTO WALLET",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "With cryptocurrency gaining attention and people investing in virtual digital assets, users are seeking better security for their investments. While crypto investors avail of hardware crypto wallets, the new Cypherock X1 crypto wallet has emerged as a fresh alternative. It comes with a set of accessories for improving its security and usability.",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "AI POWERED",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "In a bid to make gadgets smarter and personalised, Samsung's Galaxy AI features have now been added on more of its devices like the Galaxy Buds2 and Buds2 Pro, and also Buds FE, enabling experiences like AI-assisted live translation and interpretation. The company plans to introduce these features on more devices in the future like the Galaxy S23 series, Galaxy Z Flip5 and the Galaxy Z Fold5.",
+        page: 24
+      }
+    ],
+    pullQuotes: [
+      "“Poetry is the record of the best and happiest moments of the happiest and best minds.\" P. B. Shelley British poet"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/broadsheet-march-2024/p18-1.webp",
+        alt: "A Shiva lingam decorated with marigolds",
+        width: 498,
+        height: 574,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p18-2.webp",
+        alt: "Rows of people doing yoga outdoors",
+        width: 420,
+        height: 291,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p18-3.webp",
+        alt: "Actors performing on a dark stage",
+        width: 452,
+        height: 625,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p18-4.webp",
+        alt: "DJ Marshmello in his white helmet and an orange jacket",
+        width: 266,
+        height: 639,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p20-2.webp",
+        alt: "Po from Kung Fu Panda 4 leaping in a burst of green",
+        width: 440,
+        height: 489,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p20-1.webp",
+        alt: "The cover of the book Goagr@m by Bina Nayak",
+        width: 375,
+        height: 547,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p20-4.webp",
+        alt: "Chefs cooking at a food festival stall",
+        width: 593,
+        height: 419,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p20-3.webp",
+        alt: "A 2024 cricket trophy",
+        width: 471,
+        height: 516,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p22-1.webp",
+        alt: "A woman in a sequinned dress and sunglasses",
+        width: 660,
+        height: 591,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p22-2.webp",
+        alt: "Skincare bottles",
+        width: 448,
+        height: 618,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p22-3.webp",
+        alt: "A man in statement glasses",
+        width: 514,
+        height: 689,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p22-4.webp",
+        alt: "A red perfume bottle",
+        width: 224,
+        height: 381,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p24-3.webp",
+        alt: "A woman sleeping with a headband on",
+        width: 1034,
+        height: 619,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p24-2.webp",
+        alt: "A black crypto hardware wallet card",
+        width: 469,
+        height: 469,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-march-2024/p24-1.webp",
+        alt: "A smartphone and earbuds with AI features",
+        width: 526,
+        height: 639,
+        pdfPages: [
+          24
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 20,
+        items: [
+          "Image: imdb.com",
+          "Image: ipl2024schedule.in"
+        ]
+      },
+      {
+        pdfPage: 24,
+        items: [
+          "Image: analyticsvidhya.com",
+          "Image: cypherock.com",
+          "Image: samsung.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      printedPages: [
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      imagePdfPage: 16
+    }
+  },
+  {
+    id: "network-varanasi",
+    slug: "network-varanasi",
+    title: "Varanasi",
+    section: "Network",
+    category: "destinations",
+    date: "March 2024",
+    excerpt: "Also known as Benaras, the city has a significant cultural history, and is a centre of learning and spirituality",
+    heroImage: "/images/stories/network-varanasi.webp",
+    heroImageAlt: "Boats moored along the ghats of Varanasi at dawn",
+    heroImageSource: "Spice Route - March 2024, PDF page 26",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Believed to be one of the oldest living cities in the world, Varanasi is a centre for spirituality, arts, crafts and architecture. Situated on the banks of River Ganga, the city's charm lies in the beauty of its ghats like the Assi ghat, Panchganga ghat and Manikarnika ghat. Watch the stunning sunrise and the grand aarti at the ghats; witness the annual Ganga Mahotsava, a five-day cultural festival. Visit the prestigious Banaras Hindu University and also enjoy delectable street food.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Find serenity at the Shri Kashi Vishwanath Temple, one of the 12 Jyotirlingas of Lord Shiva, among several other temples. Traverse the Ganges on a luxury cruise boat for Varanasi Darshan.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Admire the architecture of the Jain temples and plan a visit to the beautiful Ramnagar Fort and Chunar Fort nearby. Also, visit the stunning Man Mahal near Dashashvamedh ghat.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Shop for Banarasi silk sarees, known for intricate design, and Gulabi Meenakari handicrafts. Try Banarasi paan, snacks like tomato chaat, and desserts like launglata.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Visit Sarnath, around 10 km from Varanasi. It is a revered Buddhist pilgrimage centre, known for the great Dhamekh Stupa, among other monuments.",
+        page: 26
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Varanasi from Srinagar, Dharamshala, Mumbai, Bengaluru, Delhi and many more cities in India. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-varanasi/p26-4.webp",
+        alt: "The golden spires of a temple complex by the river",
+        width: 271,
+        height: 202,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-varanasi/p26-5.webp",
+        alt: "Priests holding up lamps during the evening aarti",
+        width: 273,
+        height: 286,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-varanasi/p26-3.webp",
+        alt: "An old cart before a carved sandstone gateway",
+        width: 271,
+        height: 199,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-varanasi/p26-2.webp",
+        alt: "Enamelled Gulabi Meenakari bangles",
+        width: 271,
+        height: 155,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-varanasi/p26-6.webp",
+        alt: "Paan wrapped in betel leaves",
+        width: 366,
+        height: 275,
+        pdfPages: [
+          26
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 26,
+        items: [
+          "Image: utsavapp.in"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        26
+      ],
+      printedPages: [
+        24
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "network-bengaluru",
+    slug: "network-bengaluru",
+    title: "Bengaluru",
+    section: "Network",
+    category: "destinations",
+    date: "March 2024",
+    excerpt: "With diverse demography, Bengaluru is among the fastest growing major metropolis in India",
+    heroImage: "/images/stories/network-bengaluru.webp",
+    heroImageAlt: "The Vidhana Soudha, its dome against a blue sky",
+    heroImageSource: "Spice Route - March 2024, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "One of the largest metropolitan cities in southern India, Bengaluru has evolved from being the Garden City to the Silicon Valley of India. Tourists flock here to witness its art, parks, heritage buildings, busy markets and culture. It is home to many renowned educational and research institutions such as the Indian Institute of Science and Indian Institute of Management, Bengaluru. With a burgeoning partying and shopping scene, the city's quirky stores and cafes heighten the excitement of tourists. Take a trip to Hampi, around 340 km from here.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Visit Nandi hills for watching the sunset. Visit WonderLa amusement park along with admiring the beauty of the Vidhana Soudha and the Bengaluru Palace.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "The ancient Bangalore Golf Club is well-known among several other golf courses in the city. History buffs can visit Tipu Sultan's Summer Palace. Enjoy bird watching at the Hebbal Lake.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Shop for sandalwood products, Mysuru silk sarees, spices and coffee powder from the local markets. Taste dishes like poori sagu, kesari bhath and rawa idli.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Go on a short trek to the Bilikal Rangaswamy Betta, about 75 km from Bengaluru. Around 145 km away is Mysuru, which is dotted with palaces and serene locales.",
+        page: 28
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Bengaluru from Varanasi, Srinagar, Dharamshala, Guwahati, Pondicherry and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-bengaluru/p28-5.webp",
+        alt: "A white-domed memorial on a raised platform",
+        width: 303,
+        height: 303,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-bengaluru/p28-6.webp",
+        alt: "A carved stone temple chariot",
+        width: 400,
+        height: 230,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-bengaluru/p28-1.webp",
+        alt: "A pavilion on a hilltop at sunrise",
+        width: 288,
+        height: 181,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-bengaluru/p28-2.webp",
+        alt: "A bird spreading its wings on a branch",
+        width: 286,
+        height: 181,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-bengaluru/p28-3.webp",
+        alt: "Idlis in a steamer with chutney",
+        width: 285,
+        height: 180,
+        pdfPages: [
+          28
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 28,
+        items: [
+          "Image: tripoto.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        28
+      ],
+      printedPages: [
+        26
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "network-bagdogra",
+    slug: "network-bagdogra",
+    title: "Bagdogra",
+    section: "Network",
+    category: "destinations",
+    date: "March 2024",
+    excerpt: "From vast stretches of tea gardens that soothe the eye to pretty hill stations, there's a lot to explore in and around Bagdogra",
+    heroImage: "/images/stories/network-bagdogra.webp",
+    heroImageAlt: "Tea gardens on rolling hills",
+    heroImageSource: "Spice Route - March 2024, PDF page 30",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Situated in West Bengal, Bagdogra acts as a gateway to many beautiful destinations nearby, from Darjeeling to Siliguri and Sikkim. En route, visitors can enjoy the scenic view of large stretches of tea plantations and cool breeze in the region. Find serenity in the quaint atmosphere of the city owing to Buddhist influences. Visit the Sevokeswari Kali Temple and Salugara Monastery and interact with locals for a peek into the flourishing culture.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Go river rafting on the Teesta River, which flows close to the town. Visit the sparkling Lake Tsomgo on the way up from Bagdogra. Take a trip to the serene town of Mirik.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the Bokar Ngedon Chokhor Ling Monastery or go for a stroll at Surya Sen Park nearby. Head to Darjeeling to experience the Batasia Loop and the Darjeeling Himalayan Railway.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Sample traditional Bengali fish curry and Nepalese dishes like sel roti, apart from Darjeeling tea. Shop for authentic tea, Tibetan handicrafts, clothes, accessories and trinkets.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Around 130 km from Bagdogra is Jaldapara National Park, at the foothills of the Eastern Himalayas in the Alipurduar district. Enjoy lush scenic views and go on a wildlife safari.",
+        page: 30
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Bagdogra from Srinagar, Mumbai, Dharamshala, Leh, Delhi and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-bagdogra/p30-3.webp",
+        alt: "A monastery building below a blue sky",
+        width: 271,
+        height: 200,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-bagdogra/p30-6.webp",
+        alt: "A tall statue of the Buddha on a monastery",
+        width: 265,
+        height: 258,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-bagdogra/p30-4.webp",
+        alt: "A turquoise lake among snowy mountains",
+        width: 271,
+        height: 201,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-bagdogra/p30-1.webp",
+        alt: "Illustration: a toy train on a mountain railway",
+        width: 417,
+        height: 276,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-bagdogra/p30-5.webp",
+        alt: "Rings of sel roti in a bowl",
+        width: 271,
+        height: 199,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-bagdogra/p30-7.webp",
+        alt: "A deer crossing a stream",
+        width: 189,
+        height: 188,
+        pdfPages: [
+          30
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 30,
+        items: [
+          "Image: en.wikipedia.org"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        30
+      ],
+      printedPages: [
+        28
+      ],
+      imagePdfPage: 30
+    }
+  },
+  {
+    id: "unsung-sheroes",
+    slug: "unsung-sheroes",
+    title: "Unsung Sheroes!",
+    section: "Open House",
+    category: "culture",
+    date: "March 2024",
+    excerpt: "Marking International Women's Day on March 8, here are some women in history whose contributions were significant but lesser-known",
+    heroImage: "/images/stories/unsung-sheroes.webp",
+    heroImageAlt: "A vintage photograph of a woman in a military uniform and cap",
+    heroImageSource: "Spice Route - March 2024, PDF page 32",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Lee Miller, a Vogue cover model and photojournalist, was one of the few accredited war photographers with the US armed forces during World War II. She photographed intense scenes, including that of the concentration camps. In fact, she was the only photojournalist — male or female — at the famous Battle of Saint-Malo at a time when women war correspondents were not allowed at the front line.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Tarabai Shinde was a feminist activist, writer and an associate of Savitribai Phule. She created Stri Purush Tulana, often regarded as the first modern Indian feminist text.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Rukhmabai Raut was one of the first women doctors to practice medicine in British India. Apart from being a pioneer in the field of medicine, she was also an advocate of women's rights in India. Her efforts contributed to the Age of Consent Act in 1891.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Hair curlers and can openers are commonly used today but who invented them? None other than Beulah Louise Henry, who also invented vacuum ice cream freezers.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "We've all heard about the Wright brothers but did you know of the 'flying feminist' Lilian Bland, who flew Ireland's first powered biplane? She is known to be the first woman in the world to design, build and fly her own aeroplane. Bland even used her aunt's ear-trumpet among other materials to construct the plane, named 'Mayfly'.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Laura Cornelius Kellogg was an author, visionary and activist, who was one of the founding members of the Society of American Indians in 1911, established to address the problems faced by Native Americans on issues like health, education and civil rights.",
+        page: 32
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/unsung-sheroes/p32-5.webp",
+        alt: "A painted portrait of a woman in a sari",
+        width: 197,
+        height: 196,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/unsung-sheroes/p32-2.webp",
+        alt: "A vintage portrait of a woman in a sari and jewellery",
+        width: 321,
+        height: 320,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/unsung-sheroes/p32-s1.webp",
+        alt: "Pink hair curlers",
+        width: 175,
+        height: 136,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/unsung-sheroes/p32-6.webp",
+        alt: "A vintage photograph of an early aeroplane",
+        width: 537,
+        height: 245,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/unsung-sheroes/p32-3.webp",
+        alt: "A vintage portrait of a woman",
+        width: 206,
+        height: 208,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/unsung-sheroes/p32-1.webp",
+        alt: "A vintage photograph of a woman seated outdoors",
+        width: 516,
+        height: 501,
+        pdfPages: [
+          32
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 32,
+        items: [
+          "Image: herzindagi.com",
+          "Image: wikimedia.org",
+          "Image: wikimedia.org",
+          "Image: wikimedia.org"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        32
+      ],
+      printedPages: [
+        30
+      ],
+      imagePdfPage: 32
+    }
+  },
+  {
+    id: "celebrating-verses",
+    slug: "celebrating-verses",
+    title: "Celebrating Verses",
+    section: "Open House",
+    category: "culture",
+    date: "March 2024",
+    excerpt: "Marking World Poetry Day on March 21, let's know about this form of literary expression a little more!",
+    heroImage: "/images/stories/celebrating-verses.webp",
+    heroImageAlt: "A copy of Homer’s The Odyssey on a shelf",
+    heroImageSource: "Spice Route - March 2024, PDF page 34",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "An 'epic' is among the earliest forms of poetry. A long narrative poem, an epic typically revolves around the heroic deeds of gods and legendary figures. The most famous historical epics are attributed to Greek poet Homer who is said to have composed the Iliad and the Odyssey.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Related to spoken word is the free-form 'slam' poetry. Been around in its current form since the 1980s, it is typically performed at a poetry slam, a competitive event. Poets like Gaurav Tripathi are well-known in this genre.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Have you heard of ekphrasis? This form of poem typically uses a visual image or work of art as inspiration. Ekphrasis is not about form, structure or rigidity but the connection between art and poetry. A contemporary example of an ekphrastic poem is 'Self-Portrait with Sylvia Plath's Braid' by Diane Seuss.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "'Haiku' is an ancient form of Japanese short poem made of three lines. They speak of natural aesthetics and human emotions and traditionally follow the rule of including one word to express the season, called kigo. One of the greatest Haiku poets was Matsuo Basho.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Another popular form of poetry is the 'sonnet', comprising 14 metrical lines. It is said to have originated around the 13th century in Italy and was perfected by early Renaissance poet Petrarch. Later, the Shakespearean sonnet (three quatrains and a couplet) attained a popularity of its own. Poetry has seen a remarkable metamorphosis over time. One of the forms that is becoming increasingly popular today is 'spoken word' poetry, which is like an oral poetic performance art that draws on music and sound. Often the subjects of this form revolve around topics of social justice, political issues and more. Priya Malik and Rupi Kaur are popular spoken word poets.",
+        page: 34
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/celebrating-verses/p34-3.webp",
+        alt: "A poet performing at a microphone",
+        width: 325,
+        height: 493,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/celebrating-verses/p34-5.webp",
+        alt: "A statue of a seated Japanese poet",
+        width: 259,
+        height: 338,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/celebrating-verses/p34-4.webp",
+        alt: "An engraved portrait of William Shakespeare",
+        width: 412,
+        height: 576,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/celebrating-verses/p34-2.webp",
+        alt: "A woman performing spoken-word poetry on stage",
+        width: 560,
+        height: 357,
+        pdfPages: [
+          34
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 34,
+        items: [
+          "Image: fb/ GauravTripathi",
+          "Image: poetryhit.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        34
+      ],
+      printedPages: [
+        32
+      ],
+      imagePdfPage: 34
+    }
+  },
+  {
+    id: "world-water-day-liquid-lifeline",
+    slug: "world-water-day-liquid-lifeline",
+    title: "Liquid Lifeline",
+    label: "World Water Day",
+    section: "Open House",
+    category: "culture",
+    date: "March 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "World Water Day, observed on March 22 every year, promotes the sustainable management of freshwater resources. It also advocates for significant action to tackle the global water crisis. The theme this year is 'Water for Peace' to encourage effective cooperation on water among nations for a more stable and prosperous future.",
+        page: 35
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        35
+      ],
+      printedPages: [
+        33
+      ],
+      imagePdfPage: 35,
+      sectionPdfPage: 34
+    }
+  },
+  {
+    id: "walking-the-green-path",
+    slug: "walking-the-green-path",
+    title: "Walking the Green Path",
+    section: "Lead",
+    category: "travel",
+    author: "Gita Hari",
+    bylineLabel: "Text:",
+    date: "March 2024",
+    excerpt: "Marking Global Recycling Day (March 18), we look at how conscious players in the travel and hospitality industry are promoting planet-sensitive trips, urging tourists to join hands with them in making the world a more sustainable place.",
+    heroImage: "/images/stories/walking-the-green-path.webp",
+    heroImageAlt: "Illustration: a green globe framed by torn paper",
+    heroImageSource: "Spice Route - March 2024, PDF page 40",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Envisage a greener future as a traveller, where picturesque surroundings and experiences remain unspoilt by human intervention. By making mindful choices during our travels, we can significantly reduce our ecological footprint and preserve the beauty of our destinations for generations to come. Allow immersive experiences to leave a lasting impact with lesser carbon imprint. Visit unexplored, offbeat destinations. After all, travel is not just an incredible experience, but also the best school of learning with its inherent capacity to generate responsiveness and sensitivity towards the environment.",
+        page: 41
+      },
+      {
+        type: "subhead",
+        text: "AN EFFORT TOWARDS ZERO-WASTE",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "In today's environmentally conscious world, travellers are increasingly seeking ways to make positive contributions to the planet and striving to adopt 'zero-waste' travel. Recycling plays a vital role in the eco-friendly ethos. For many committed hotels and resorts in India, it extends beyond mere rhetoric. Conscious travel, regenerative methods and sustainability, for instance, are the ethos of Rare India initiative, dedicated to planet-sensitive tourism. The Lodge at Wah in Palampur, Himachal Pradesh, is a 100 per cent eco-friendly property from the collection, which exemplifies this with the use of reclaimed wood sourced from the dismantled Palampur Court House. From glass and copper bottles for water storage to locally crafted ceramic dispensers for toiletries, they consciously opt for sustainable alternatives.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "UPCYCLING AND CONSCIOUS LUXURY",
+        page: 42
+      },
+      {
+        type: "p",
+        text: "If luxurious travel is your lifestyle, opt for those with green initiatives. Hotel chains such as The Leela have taken some significant measures to reduce their carbon footprint, focusing on the holistic wellness of guests. Their in-room amenities have been replaced with bamboo-based biodegradable ones, avoiding single-use plastic. In their commitment to a circular economy, they've partnered with Phool to upcycle the flowers used at their hotels into charcoal-free incense sticks and cones that are infused with their signature fragrance. Each of these exquisite floral incense sticks is handcrafted by women entrepreneurs from marginalised communities, providing livelihood opportunities while upcycling floral waste.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "ECO-FRIENDLY CAMPS",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "A camping experience is typically about processes that involve little or no carbon emissions. Carpooling, biking or availing public transport to reach the camp, and minimal water usage — as camps do not have tubs or showers that cause colossal wastage of water — are some of the measures, says Yashowardhan Singh, managing partner at Jaisalmer's Oasis India Camps. They organise camps in scenic locations with minimal impact on the environment, making visitors appreciate the delicate balance between humans and nature. Mindful vacationers prefer fossil fuel-free activities and experiences, says Singh. Exploring sand dunes while hiking or on camelback, trekking, bird watching and forest bathing are valued much more for relaxation and thrill than sight-seeing from motorised vehicles.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "HOMESTAYS",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Eco-accommodations and homestays offer pocket-sized and localised attractions. With just a handful of dwellings, they cater to smaller guest numbers, reducing the overall carbon footprint. Eco-conscious properties like Svanir Wilderness Ecostay in Bhubaneswar, Odisha, ensured most of the pre-existing trees were unharmed during its construction and were incorporated into the design. Meanwhile, its co-founder Indrani Chakraborty encourages the use of reusable shopping bags, and practises grey water harvesting, composting as well as recycling. Despite the focus on recycling, comfort of guests is not compromised with. Take one look at Svanir and you will see spacious cottages, well-equipped with comfortable beds, clean linens, and other amenities. Delicious, home-cooked meals are also part of the experience, which are made using fresh and locally sourced organic ingredients to minimise food miles and support sustainable practices.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "RECYCLING PLASTIC WASTE",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Many hotels are also taking a bold step towards eliminating plastic pollution by phasing out conventional garbage bags in favour of pull-out tin liners tailored to fit each bin precisely. According to Upasana Todi, founder of The Lodge at Wah, this innovation not only streamlines waste management but also mitigates the proliferation of toxic materials. EcoKaari, a Pune-based social enterprise, upcycles waste plastic into handwoven fabrics and products. Going a step further, its founder, Nandan Bhatt also engages women and youth belonging to humble origins to provide a source of income to them. From audio/ video cassettes to wafer packets, any single-use plastic is spun into useful travel items like handbags, backpacks, bottle holders, fashion accessories and stationery products by means of charkhas (spindles) and handlooms.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "ENERGY CONSERVATION",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Amid rising pollution levels, the travel industry has also directed many of its initiatives to reducing CO2 emissions and conserving energy, often focussing on environment-friendly alternatives. The Leela operates windmill and solar plants in Bengaluru, Chennai, Jaipur and Udaipur, to reduce carbon emissions without compromising on guest comfort. The Leela Palace also operates electric boats on Lake Pichola in Udaipur. The installation of EV charging points across their properties further support the adoption of sustainable transportation.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "EDUCATING GUESTS",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "While responsible tourism is picking up, there's still a long way to go. Discerning property owners are taking significant measures to educate guests, especially the younger ones, on the importance of waste reduction and encourage them to participate in recycling efforts. Among them, Svanir reinforces sustainable practices through information boards and discussions. Activities such as nature walks, meditation under a tree and birdwatching are made available. They have also introduced an initiative called \"Trees Are Us\", in which guests are requested to take a one-hour walk around the premises with the staff in the morning, to learn about the tree varieties and their specialty. And the impact is seen through guest reviews that suggest a high level of environmental consciousness among many visitors.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "GREEN FUTURE",
+        level: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "As per a recent Sustainable Travel Report, nearly 76 per cent of people globally want to travel more sustainably. And around 67 per cent of travellers had adopted habits such as turning off the air conditioner at their accommodation in their absence.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "ZERO-WASTE TRAVEL TIPS",
+        page: 44
+      },
+      {
+        type: "list",
+        items: [
+          "Collaborate with sustainable and environment-conscious accommodations and conveyance providers. Opt for stays with a strict sustainable focus. You can also go on organised group trips.",
+          "Slow travelling is eco-friendly as it allows you to align with a destination and embrace sustainable modes of transport like exploring sites on foot or cycling.",
+          "For road trips, pack your food, and use reusable packaging and cutlery and plastic-free food storage containers. Bamboo toothbrush, toiletries in refillable containers, steel straw and coffee mug, reusable cloth napkins, towels, masks, and upcycled travel bags are some of the supportable items.",
+          "Settle for locally made souvenirs. Follow regenerative tourism, involve local artisans, artists, products and ingredients.",
+          "Curate tours with zero-waste amenities and experiences. Book with tour operators who offer carbon offset initiatives for travellers.",
+          "Do not waste food. Take only as much food from a buffet as you can finish. While ordering a la carte, indulge in tasting portions. Opt for farm-to-table experiences that are being offered at many places now.",
+          "Switch off lights, TV, and other appliances in your hotel room, while going out. Avoid using a bath tub."
+        ],
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "PETTING ZOO AND MORE",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "For all those who longed to have pets in the house but were unable to – the eco-friendly, sustainable Forest Hills at Tala, in Maharashtra, goes beyond luxury and greenery. They house horses, pigs, goats, and birds like emus, black roosters, chickens, ducks, and turkeys. With the help of local experts, guests can spend some time cuddling and petting their favourite animal. It is a sanctuary encompassing different types of trees, activities like pluck and plate your own food, cycling, camping or walk the farm trail.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "WASTE-FREE GASTRONOMY",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Zero-waste dining is a growing trend among conscious travellers, with some eateries adopting the root-to-shoot approach. Silo in London is deemed one of the world's first zero-waste restaurants, where the menu is an expression of natural farming.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "ECO-FRIENDLY TRIP FOR INFANTS",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Travelling with tiny-tots warrants eco wipes and diapers. Tapping into the cause, companies have come up with wipes that contribute to a low carbon footprint. Tapasya Sharma, global marketing & digital head, Terra, says they make baby wipes with compostable materials, which break down quickly and minimise environmental impact.",
+        page: 48
+      }
+    ],
+    pullQuotes: [
+      "Hotels and resorts have dedicated serious efforts towards reducing carbon footprint, and replacing single-use plastic with biodegradable materials",
+      "Some sustainable properties are taking significant measures to instill awareness about waste reduction among people, including children, and encourage them to participate in recycling activities"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/walking-the-green-path/p41-1.webp",
+        alt: "A woman with arms outstretched in a bamboo forest",
+        width: 1241,
+        height: 1613,
+        pdfPages: [
+          41
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p42-1.webp",
+        alt: "A lodge sitting room with wooden beams and green curtains",
+        width: 916,
+        height: 581,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p42-5.webp",
+        alt: "Ceramic dispensers for body wash, shampoo, conditioner and lotion",
+        width: 308,
+        height: 306,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p42-4.webp",
+        alt: "A bedroom with a block-printed bedspread",
+        width: 689,
+        height: 428,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p44-3.webp",
+        alt: "Tents on desert sand dunes",
+        width: 805,
+        height: 477,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p44-1.webp",
+        alt: "A woman working at a potter’s wheel",
+        width: 313,
+        height: 480,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p44-2.webp",
+        alt: "Fruit in a net bag with reusable cups",
+        width: 313,
+        height: 384,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p44-4.webp",
+        alt: "Incense packs and flowers in a festive arrangement",
+        width: 348,
+        height: 317,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p46-3.webp",
+        alt: "A thatched cottage with a pool among trees",
+        width: 857,
+        height: 535,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p46-1.webp",
+        alt: "A man feeding animals at a petting zoo",
+        width: 361,
+        height: 265,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p46-2.webp",
+        alt: "A jar of pickled pumpkin",
+        width: 252,
+        height: 253,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p46-4.webp",
+        alt: "Bamboo toothbrushes and toiletries in a basket",
+        width: 381,
+        height: 380,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p48-2.webp",
+        alt: "Packs of eco-friendly baby wipes",
+        width: 294,
+        height: 295,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p48-1.webp",
+        alt: "Friends at an outdoor picnic table",
+        width: 747,
+        height: 527,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p48-10.webp",
+        alt: "Guests looking at red plants in a garden",
+        width: 441,
+        height: 391,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/walking-the-green-path/p48-9.webp",
+        alt: "Schoolchildren in blue uniforms outside a cottage",
+        width: 385,
+        height: 237,
+        pdfPages: [
+          48
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 42,
+        items: [
+          "Images: thelodgeatwah",
+          "Image: Svanir Wilderness Ecostay"
+        ]
+      },
+      {
+        pdfPage: 44,
+        items: [
+          "Image: Oasis India Camps",
+          "Image: thelodgeatwah",
+          "Image: The Leela"
+        ]
+      },
+      {
+        pdfPage: 46,
+        items: [
+          "Image: Forest Hills at Tala",
+          "Image: Forest Hills at Tala",
+          "Image: insta/silolondon"
+        ]
+      },
+      {
+        pdfPage: 48,
+        items: [
+          "Image: The Leela",
+          "Image: The Leela",
+          "Image: Svanir Wilderness Ecostay",
+          "Image: Canary Islands Resort, Lonavala"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        40,
+        41,
+        42,
+        44,
+        46,
+        48
+      ],
+      printedPages: [
+        38,
+        39,
+        40,
+        42,
+        44,
+        46
+      ],
+      imagePdfPage: 40
+    }
+  },
+  {
+    id: "ayodhya-where-history-meets-faith",
+    slug: "ayodhya-where-history-meets-faith",
+    title: "Where History Meets Faith",
+    label: "Ayodhya",
+    section: "Homebound",
+    category: "destinations",
+    author: "Aishani Gupta",
+    bylineLabel: "Text:",
+    date: "March 2024",
+    excerpt: "From being Lord Rama’s legendary capital to a flourishing ground for Jain and Buddhist traditions, Ayodhya and its neighbouring regions serve as important reminders of our shared and multicultural pasts",
+    heroImage: "/images/stories/ayodhya-where-history-meets-faith.webp",
+    heroImageAlt: "Sadhus walking past a large painted mural",
+    heroImageSource: "Spice Route - March 2024, PDF pages 50–51",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Once the capital of the ancient kingdom of Kosala, Ayodhya is located on the east bank of the Ghaghara (more popularly known as the Saryu) River. It is the birthplace of Lord Rama, the legendary hero of the Hindu epic Ramayana, and one of modern India’s most important pilgrimage sites. But with its rolling landscapes and myriad architectural remains, Ayodhya and its immediate surrounds have also borne witness to the lasting legacies of Jain and Buddhist traditions. This itinerary is for an immersive cultural trail across one of the oldest settlements in north India.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "LORD RAMA'S LAND",
+        page: 51
+      },
+      {
+        type: "p",
+        text: "The town is dotted with several temples in close proximity, celebrating various events from the Ramayana. The Dashrath Mahal and the Kanak Bhawan near the Ram Janmabhoomi Temple are believed to have been the residences of King Dashrath and Devi Sita respectively. Hanuman Garhi, dedicated to Lord Hanuman, is also nearby and was completed with generous donations during the reign of the Nawabs of Awadh. By far the most interesting structure is the Raj Dwar temple, whose current facade dates back almost 900 years, and it was a major entry gate into Ayodhya in the ancient times. Constructed on one of the highest points of the city, it includes a tower built in Nagara style. At a short distance is the Guptar Ghat where Lord Rama is believed to have taken jal samadhi to mark the end of his earthly life. Enjoy a boat ride here to experience a serene sunset in the backdrop of old temples and palaces.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "JAIN HERITAGE",
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Several ancient Gupta period texts from the 5th century indicate that the ancient name for Ayodhya was Saket, which is significant to the history of Jainism. Five out of 24 Jain Tirthankaras were born at Saket, including the first Tirthankara Adinath, making it one of the most important cities for Jains. A massive 31-ft statue of Lord Adinath, who is also known as Lord Rishabhdev, has been installed at the Digambar Temple at Raiganj. Other temples commemorating the lives of Tirthankaras Ajitnath, Abhinandannath, Sumatinath and Ananthnath are located in Ramkot, Saptsagar, and the Sarai locality, among other areas within the district of Ayodhya.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "SHRAVASTI AND KUSHINAGAR",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "About three hours from Ayodhya lies the ruins of Shravasti, where Lord Buddha preached. The Angulimala Stupa ruins or Pakki Kuti is among the largest Buddhist mounds in the Mahet area. It finds mention in the records of Xuanzang, the Chinese explorer who travelled extensively through India in the 7th century. Lord Buddha himself is believed to have stayed at the Jetavana Vihara, which has been converted into a historical park. Stroll around the remnants of halls and stupas, and the Ananda Bodhi pipal tree under which Lord Buddha is said to have delivered sermons. If you have an extra day at your disposal, visit Kushinagar (around 200 km away) where Lord Buddha attained Parinirvana (salvation). The mound at Ramabhar Stupa marks the site of his cremation while the Mahanirvana Stupa was built on his relics.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "NATHA YOGIS",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Between Kushinagar and Ayodhya lies Gorakhpur, with a temple complex dedicated to Gorakhnath, a prominent early medieval mystic of the Natha order. The Natha yogis were influenced by Shaivism and are strong proponents of yoga, particularly Hatha yoga. The Gorakhnath Mandir, a shrine built in the honour of the saint, is not only a cultural hub, but also serves as a poignant reminder of the region’s diverse, interlinked histories.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "What's More",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "CELEBRATIONS",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "The festivals celebrated in Ayodhya offer deep cultural experiences. Some of the most vibrant festivals and events include Ram Navami mela, Shravan jhula mela and Deepotsav. The city also traditionally hosts stunning productions of the Ram Lila or the re-enactment of the life of Lord Rama.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "FOODIES DELIGHT",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Enjoy the scrumptious kachoris and mouthwatering chaats, from pani puri to aloo tikki, which are local delicacies. Also, try sweet laddoos.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "ACTIVITIES",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Try rafting on the Saryu River, which offers a mix of rapids, for a thrilling experience. Take a stroll on the numerous beautiful ghats, from Swargdwar ghat to Naya ghat.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "OLD LORE",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Visit Tulsi Smarak Bhawan to learn more about saint Tulsidas, the author of Ramcharitmanas. Roam the old alleys and visit other attractions such as the Raj Sadan gates and Gulab Bari.",
+        page: 52
+      },
+      {
+        type: "note",
+        text: "**Best Time to Visit**: Spring is a good time to explore Ayodhya and its neighbouring regions.",
+        page: 54
+      },
+      {
+        type: "note",
+        text: "Ayodhya is about 140 km from Lucknow.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "H I G H L I G H T S",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "MUST-SEE",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Visit Ram ki Paidi, a series of ghats on the Saryu River frequented by devotees",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Dotted with shrines, Ayodhya is one of the most sought-after centres among pilgrims and archeologists",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "WHAT TO DO",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Shop for bangles, copper vessels, holographic posters and marble statues of gods and goddesses",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "HISTORY TIP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "The ancient city attained grandeur under many eminent kings such as Ikshvaku and Prithu over the centuries",
+        page: 50
+      },
+      {
+        type: "note",
+        text: "**Aishani Gupta** writes on cities, art and architecture of India. She is an entrepreneur and a heritage consultant.",
+        page: 54
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Ayodhya from Delhi, Mumbai, Ahmedabad, Bengaluru, Jaipur, Kolkata and many more cities in India. Book now at www.spicejet.com"
+    ],
+    pullQuotes: [
+      "The new Ram Janmabhoomi temple features a stunning 51-inch idol sculpted in black stone by artist Arun Yogiraj",
+      "Ayodhya is a place of high religious significance even among the Jains, with many important shrines located in the region"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p51-2.webp",
+        alt: "A mural of a flying figure over the river",
+        width: 373,
+        height: 271,
+        pdfPages: [
+          51
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p51-3.webp",
+        alt: "Performers in colourful costumes at a festival",
+        width: 390,
+        height: 271,
+        pdfPages: [
+          51
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p51-4.webp",
+        alt: "A painted artwork on a riverside wall",
+        width: 373,
+        height: 272,
+        pdfPages: [
+          51
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-1.webp",
+        alt: "A performer in an orange costume and headdress",
+        width: 352,
+        height: 454,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-2.webp",
+        alt: "Lamps lit along the ghats at night",
+        width: 418,
+        height: 246,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-6.webp",
+        alt: "Crowds at a temple decorated for a festival",
+        width: 768,
+        height: 495,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-5.webp",
+        alt: "An ornate arched temple gateway",
+        width: 221,
+        height: 214,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-7.webp",
+        alt: "A devotee in saffron raising his arms",
+        width: 298,
+        height: 289,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-3.webp",
+        alt: "Pani puri and chutneys on a plate",
+        width: 230,
+        height: 258,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p52-4.webp",
+        alt: "Rafters on white water",
+        width: 245,
+        height: 237,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p54-1.webp",
+        alt: "A white temple beside a lake",
+        width: 627,
+        height: 425,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p54-2.webp",
+        alt: "A golden stupa under a blue sky",
+        width: 538,
+        height: 368,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p54-3.webp",
+        alt: "A carpet of flowers in a garden",
+        width: 521,
+        height: 321,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/ayodhya-where-history-meets-faith/p54-4.webp",
+        alt: "Performers in costume in a Ramleela scene",
+        width: 345,
+        height: 344,
+        pdfPages: [
+          54
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 51,
+        items: [
+          "Images: Andhekar Sathish Lal"
+        ]
+      },
+      {
+        pdfPage: 52,
+        items: [
+          "Images: Andhekar Sathish Lal",
+          "Image: Andhekar Sathish Lal"
+        ]
+      },
+      {
+        pdfPage: 54,
+        items: [
+          "Images: fb/ FB/Ayodhya Ki Ramleela"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        50,
+        51,
+        52,
+        54
+      ],
+      printedPages: [
+        48,
+        49,
+        50,
+        52
+      ],
+      imagePdfPage: 50
+    }
+  },
+  {
+    id: "kathmandu-to-the-land-of-mystic-trails",
+    slug: "kathmandu-to-the-land-of-mystic-trails",
+    title: "To the Land of Mystic Trails",
+    label: "Kathmandu",
+    section: "Voyage",
+    category: "destinations",
+    author: "Bindu Gopal Rao",
+    bylineLabel: "Text:",
+    date: "March 2024",
+    excerpt: "This spring, visit the beautiful city of Kathmandu in Nepal, where Holi or Fagu Purnima is celebrated with great fervour and devotion. Also, explore the stunning mountain nation",
+    heroImage: "/images/stories/kathmandu-to-the-land-of-mystic-trails.webp",
+    heroImageAlt: "Orange tents at a mountain base camp below snowy peaks",
+    heroImageSource: "Spice Route - March 2024, PDF pages 56–57",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "Kathmandu celebrates Holi, the festival of colours, in all its gaiety as it marks the end of winter and the onset of spring. The week-long festival celebrates the triumph of good over evil. It is said to be the day when demon princess Holika, Hiranyakashipu's sister, was killed when she tried to burn her nephew, Prahlad, and instead got burnt to death herself. Most of the festivities take place in the first three days when the Basantapur Durbar Square in Kathmandu transforms into a carnival space. The first day sees a decorated wooden or bamboo pole being set on fire, and women in colourful sarees circle around it seeking blessings for a prosperous year ahead. Symbolically, this custom is meant to reflect the burning of evils of the past year. There are special bonfires lit on the second day to symbolise the death of Holika and the third day is all about throwing colours at each other - in the form of powder, water and more, while popular Nepali singers perform. The festival is celebrated across Nepal and most of the traditions include singing, dancing and visiting temples.",
+        page: 57
+      },
+      {
+        type: "subhead",
+        text: "WILD CALL",
+        page: 57
+      },
+      {
+        type: "p",
+        text: "The lush landscape of Kathmandu lends itself to some amazing flora and fauna that take centre stage in the valley — the Ranibari Community Forest near Lazimpat, is popular for bird watching. You can also spot the jackal, jungle cat and small mammals. The Shivapuri Nagarjun National Park in Kathmandu Valley, Ichangu, Taudaha lake, Godawari, Gokarna Sahid Smarak Park in Gokarneshwor, pine forests of Hattiban, and fields of Khokana are some biodiversity hotspots. One of the must-do experiences is the exploration of the Chitwan jungle. The UNESCO-listed Chitwan National Park, around 200 km from capital Kathmandu, is where you can spot crocodiles while enjoying a canoe cruise, the elusive one-horned rhino and even the tiger while on a jeep safari. Plan a tour to a village of the local Tharu community, which has been living in the forests for centuries, and has nature at the heart of its local culture. Try Tharu dishes like ghonghi (snail dish), dhikri (rice flour stick), bhakka (rice flour steamed cake), sikarni (sweet yogurt), and patushni (rice or legume wrap). Food in Nepal is an assortment of rich indigenous flavours. Sample authentic local delicacies, from Newari-special steamed fish-shaped dumpling, yomari to the traditional dal bhat, served with fresh seasonal veggies. Nepal chiya (milk-based tea), made with aromatic spices, is also popular due to its distinct taste.",
+        page: 57
+      },
+      {
+        type: "subhead",
+        text: "TREKKERS' PARADISE",
+        page: 58
+      },
+      {
+        type: "p",
+        text: "In the northeastern province of Nepal are vast glaciers, high mountains and deep valleys that make up a serene landscape for travellers and an adventurous trail for trekkers. One of the most sought-after trekking routes, the Everest Base Camp trek tests physical strength while offering deep cultural experiences. Apart from the usual hike up the Everest, experienced trekkers also take the route from Jiri through Solu to Khumbu and Sagarmatha National Park. There are other trails in the Annapurna, Langtang, and Kanchenjunga regions with stunning Himalayan views.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "HERITAGE HUES",
+        page: 59
+      },
+      {
+        type: "p",
+        text: "Kathmandu is home to seven UNESCO World Heritage Sites. Start your exploration at the revered Pashupatinath Temple dedicated to Lord Shiva. The Kathmandu Durbar Square, despite being damaged in an earthquake, is stunning. This is where Nepal's rulers used to be crowned. The Swayambhunath Temple on a hillock features a dome stupa and the sanctum is revered as one of the holiest Buddhist sites. The Patan Durbar Square hosts several Buddhist and Hindu temples, and heritage buildings. At Boudhanath Stupa near the city centre, a ritualistic circumambulation is believed to open the doors to heaven after death! Also, visit Bhaktapur Durbar Square, the erstwhile home of the region's royal family.",
+        page: 59
+      },
+      {
+        type: "subhead",
+        text: "AROUND KATHMANDU",
+        level: 3,
+        page: 58
+      },
+      {
+        type: "p",
+        text: "Kathmandu is surrounded by many serene destinations. Located close-by, Nagarkot offers excellent panoramic mountain views with stunning sunrises. Dhulikhel is home to the famed peaks of Langtang Lirung, Dorje Lakpa, Gauri Shankar, Melungtse, and Numbur. About 147 km away is Bandipur with the thriving Newari culture. A hilltop settlement above the Marsyangdi River, it is a great pit-stop to experience traditional village architecture and a lush countryside.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "CULTURAL CANVAS",
+        level: 3,
+        page: 58
+      },
+      {
+        type: "p",
+        text: "Nepal's vibrant festivities and performing arts reflect its rich traditions and culture. Tiji, Janai Purnima, Chhath, Indra Jatra, and Mha Puja are some of the widely celebrated festivals. Integral to some of these are rhythmic masked dances in traditional costumes, such as Nava Durga nach, accompanied by local music instruments.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "TASTE OF HOLI",
+        level: 3,
+        page: 58
+      },
+      {
+        type: "p",
+        text: "Some of the dishes that you must try around the Holi festivities include bhang (drink made from buds and leaves of cannabis) lassi, thandai (cooling drink) and sweets like laddoo, gujiya and milk peda.",
+        page: 58
+      },
+      {
+        type: "subhead",
+        text: "Five places to visit in Nepal",
+        page: 59
+      },
+      {
+        type: "list",
+        items: [
+          "Pokhara, the second-largest city in Nepal, is famous for trekking, being the starting point for treks to the Annapurna Range. Indulge in boating, paragliding, river rafting and more. The old city is known for woodwork and woollen goods.",
+          "Lumbini is the birthplace of Lord Buddha and is a UNESCO World Heritage Site. Explore ancient stupas and monasteries that have stunning paintings. If you like trekking, the Lumbini Circuit Trek is a must. Visit the Maya Devi Temple, where Lord Buddha is said to have been born, and the Bodhi Tree nearby.",
+          "Janakpur, said to be the birthplace of Goddess Sita, is known as the 'city of ponds'. The grand Janaki Mandir is well-known. Also, check out the Rolwaling Valley, Jaleshwar, Ram Sita Vivah Mandap and Dolakha Bhimsen Mandir.",
+          "Patan (Lalitpur), the city of artisans, has a Durbar Square with statues, temples, and palaces. Stop by the Patan museum to see local handicrafts and traditional jewellery.",
+          "Dharan, often referred to as the 'Gateway to Mahabharata Hills', is a low-lying hilly region in eastern Nepal. With a salubrious climate through the year, this is where you can golf, hike to Namche, and drive to Bhedetar hill station."
+        ],
+        page: 59
+      },
+      {
+        type: "subhead",
+        text: "MUST-TRY",
+        level: 3,
+        page: 59
+      },
+      {
+        type: "p",
+        text: "Explore the antique charms of Nepal in Bhaktapur and Patan.",
+        page: 59
+      },
+      {
+        type: "subhead",
+        text: "RETAIL THERAPY",
+        level: 3,
+        page: 59
+      },
+      {
+        type: "p",
+        text: "Visit Thamel, a vibrant space with restaurants and shops. Buy Tibetan singing bowls, glass pipes, Kukri swords, and more.",
+        page: 59
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p57-3.webp",
+        alt: "Crowds celebrating Holi in clouds of colour before a pagoda",
+        width: 507,
+        height: 506,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p57-2.webp",
+        alt: "A panorama of a white stupa and temples",
+        width: 687,
+        height: 277,
+        pdfPages: [
+          57
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p58-1.webp",
+        alt: "Pagoda temples of a Durbar Square seen from above",
+        width: 877,
+        height: 671,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p58-2.webp",
+        alt: "A glass of a Holi drink among bowls of coloured powder",
+        width: 264,
+        height: 263,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p58-3.webp",
+        alt: "A Nepali meal of dal bhat in brass bowls",
+        width: 417,
+        height: 413,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p58-4.webp",
+        alt: "A masked dancer performing before a crowd",
+        width: 371,
+        height: 256,
+        pdfPages: [
+          58
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-1.webp",
+        alt: "Paragliders over a green valley",
+        width: 399,
+        height: 228,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-4.webp",
+        alt: "A stupa illuminated at night",
+        width: 722,
+        height: 482,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-2.webp",
+        alt: "A white palace-like temple",
+        width: 292,
+        height: 191,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-3.webp",
+        alt: "Bronze statues in a museum",
+        width: 231,
+        height: 153,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-5.webp",
+        alt: "Pagoda temples in an old square",
+        width: 564,
+        height: 324,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-6.webp",
+        alt: "Prayer flags strung around a sacred tree",
+        width: 330,
+        height: 329,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/kathmandu-to-the-land-of-mystic-trails/p59-7.webp",
+        alt: "A town spread over forested hills",
+        width: 309,
+        height: 283,
+        pdfPages: [
+          59
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 57,
+        items: [
+          "Image: visittnt.com"
+        ]
+      },
+      {
+        pdfPage: 58,
+        items: [
+          "Image: insta/nepaltourism/Rusell Pradhan",
+          "Image: insta/nepaltourism"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        56,
+        57,
+        58,
+        59
+      ],
+      printedPages: [
+        54,
+        55,
+        56,
+        57
+      ],
+      imagePdfPage: 56
+    }
+  },
+  {
+    id: "a-walk-to-remember-national-parks",
+    slug: "a-walk-to-remember-national-parks",
+    title: "A Walk to Remember",
+    section: "Montage",
+    category: "destinations",
+    date: "March 2024",
+    excerpt: "Plan an adrenaline-pumped hike at one of these national parks during spring season to rejoice in the abundance of natural beauty, from lush landscapes to unique biodiversity",
+    heroImage: "/images/stories/a-walk-to-remember-national-parks.webp",
+    heroImageAlt: "Volcanic islands and turquoise bays of the Galápagos",
+    heroImageSource: "Spice Route - March 2024, PDF page 60",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "With nature waking up from its winter hibernation, dried branches burst into life, adorned with new leaves and delicate flower buds. Spring brings the perfect time to wipe the dust off your hiking boots and head out for your next hike at these picturesque national parks from across the world.",
+        page: 60
+      },
+      {
+        type: "p",
+        text: "The **Galapagos National Park**, located to the west of Ecuador, is home to the Galapagos islands rich in marine biodiversity. The wildlife comprise Galapagos land iguanas, marine iguanas and the Galapagos tortoise. It is a must-visit in spring",
+        page: 60
+      },
+      {
+        type: "p",
+        text: "**Photo: Jess Kraft**",
+        page: 60
+      },
+      {
+        type: "p",
+        text: "One of the world's oldest national parks, **Yellowstone National Park** in the US mesmerises tourists with its hydrothermal and geological features, offering fantastic views and hiking opportunities",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "**Photo: Lorcel**",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "The UNESCO-inscribed **Plitvice Lakes National Park** in Croatia has many hiking trails, interspersed with water bodies and tufa barriers",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "**Photo: Baia Dzagnidze**",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "The **Joshua Tree National Park** has varied desert species. During spring, enjoy abundant sunshine, stargazing and hiking",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "**Photo: Patricia Elaine Thomas**",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "A spring dream for hikers, the **Yosemite National Park** in California is dotted with deep valleys, waterfalls and meadows. Try the easy hikes around Yosemite Valley",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "**Photo: Lukas Uher**",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "The **Tongariro National Park** in New Zealand is good for experienced hikers. The UNESCO-inscribed park has extinct and active volcanoes, and serene landscapes",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "**Photo: Heavenlyflower**",
+        page: 63
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/a-walk-to-remember-national-parks/p60-2_p61-1.webp",
+        alt: "A rainbow-coloured hot spring in Yellowstone",
+        width: 1594,
+        height: 1375,
+        pdfPages: [
+          60,
+          61
+        ]
+      },
+      {
+        src: "/images/stories/a-walk-to-remember-national-parks/p62-2.webp",
+        alt: "Waterfalls and a boardwalk among lakes in a forest",
+        width: 1241,
+        height: 733,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/a-walk-to-remember-national-parks/p62-1.webp",
+        alt: "Joshua trees and boulders at sunset",
+        width: 1107,
+        height: 673,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/a-walk-to-remember-national-parks/p63-1.webp",
+        alt: "Granite cliffs reflected in a river in a valley",
+        width: 1241,
+        height: 810,
+        pdfPages: [
+          63
+        ]
+      },
+      {
+        src: "/images/stories/a-walk-to-remember-national-parks/p63-2.webp",
+        alt: "Emerald crater lakes in a volcanic landscape",
+        width: 1106,
+        height: 663,
+        pdfPages: [
+          63
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        60,
+        61,
+        62,
+        63
+      ],
+      printedPages: [
+        58,
+        59,
+        60,
+        61
+      ],
+      imagePdfPage: 60
+    }
+  },
+  {
+    id: "sting-india-is-like-second-home-to-me",
+    slug: "sting-india-is-like-second-home-to-me",
+    title: "“India is like second home to me!”",
+    section: "Limelight",
+    category: "interviews",
+    author: "Aarti Kapur Singh",
+    bylineLabel: "Text:",
+    date: "March 2024",
+    excerpt: "From touring the country in search of spirituality and wellness to its stunning landscapes inspiring his music, the legendary singer Sting elaborates why he is in love with India",
+    heroImage: "/images/stories/sting-india-is-like-second-home-to-me.webp",
+    heroImageAlt: "Sting singing and playing bass guitar on stage",
+    heroImageSource: "Spice Route - March 2024, PDF page 64",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "At the second edition of music fest Lollapalooza India, legendary English musician Sting proved that age has nothing on him. The 72-year-old crooner painted Mumbai with nostalgia and took everyone's breath away with 16 of his most popular songs. But the biggest high for Gordon Matthew Thomas Sumner (Sting), by his own admission, was \"coming back and performing in one of my favourite countries in the world!\" He may have won 17 Grammy Awards, an Emmy, a Golden Globe and has been nominated four times for the Academy Awards and yet, Sting considers performing in India \"a huge high\".”I got to share stage with music greats like Halsey, Anoushka Shankar, Jonas Brothers and Raghu Dixit. It was a multicultural and multi-sensory experience because there was good food, great art, fashion and so much more. It was a great Woodstock-like setup. India is like second home to me and this homecoming was special,\" he says.",
+        page: 64
+      },
+      {
+        type: "subhead",
+        text: "Stung By Nostalgia",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "Sting's first visit to India was also for a performance. Reminiscing, he says, \"This was way back in 1980, when I was part of 'The Police' (popular 1980's band). What a debut that was! And it led me to fall in love with India forever! I have such vivid memories of ladies in their sarees standing up on their seats with their umbrellas and dancing. There was even a stage invasion!\" Speaking about his fascination with India, the crooner says, \"India has always had a profound influence on my thoughts, life, growth and music. I am not unfamiliar with the vastness of this prolific culture, and I want to learn more and more. Trudy (wife Trudie Styler) and I have been fascinated by all things Indian – from Hinduism and sitar to yoga and a lot more! I have been coming here for more than three decades. I have celebrated New Year in Goa, camped in the Thar desert and visited the holy headwaters of the Yamuna and Ganges rivers. I’ve been lucky enough to share it with my family, and now my children love it as much as I do.\" Indian culture has inspired the work of many musicians and Sting is no different. Revealing how most of his standout work has Indian influences, he says, \"I heard a street-side singer in Mumbai once. He was singing a song from a Hindi film and very unlike what I had ever heard before. That inspired a lot of jamming when I went back. Another experience that moved me enough to inspire me to incorporate it in my work was my road trip on a bike across Rajasthan. That experience and the visuals I encountered were the inspiration for the song 'Desert Rose.'\"",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "Moved By Spirituality",
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Indian culture and spirituality have moved people globally. Sting also believes in the \"idea of India\". “The basis of Indian philosophy, if I have understood it correctly, is journeying within your own self. And it makes so much sense. I've bathed at Gangotri, contemplated mortality in Varanasi, and hitch-hiked in the Himalayas. All through my travels and explorations, I have met different parts of myself and learnt to live in harmony with everything,\" avers the singer, adding, \"India teaches you to live with differences, harmoniously. I have seen the whole spectrum, the poverty and the fantastic wealth. I enjoy India’s paradoxes. It’s a complicated society, it’s not perfect, and I enjoy that. Aren't we all like that?\"",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "Sting secrets",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "In High Spirits",
+        level: 3,
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Sting has recently co-developed an alcohol brand, Amante 1530. Speaking about it, he says, \"I wanted it to reflect who I am, what I like, and what hopefully a lot of people will like too. Through Amante, I want to send a message of connection, reverence, passion, love, joy and fun. And what better way of sending a message than in a bottle!\"",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "India bucket-list",
+        level: 3,
+        page: 66
+      },
+      {
+        type: "p",
+        text: "Next on his dreams is to explore Indian vineyards to try and see \"the fun part of India\", as he says.",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "Working in India",
+        level: 3,
+        page: 66
+      },
+      {
+        type: "p",
+        text: "The singer is \"open to the idea of collaborating with musicians in India.\" Lauding the global influence Indian musicians have had, Sting says, \"Look at the heights 'Shakti' (Indian band) reached, now that they are lauded for their contributions at the Grammys. I want to meet A.R. Rahman and a few independent musicians. It would be really nice to collaborate.\"",
+        page: 66
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/sting-india-is-like-second-home-to-me/p65-2.webp",
+        alt: "Sting playing a bass guitar at a concert",
+        width: 562,
+        height: 603,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/sting-india-is-like-second-home-to-me/p65-3.webp",
+        alt: "Black-and-white photograph of Sting meditating",
+        width: 424,
+        height: 299,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/sting-india-is-like-second-home-to-me/p66-2.webp",
+        alt: "Black-and-white photograph of Sting holding his young daughter",
+        width: 652,
+        height: 597,
+        pdfPages: [
+          66
+        ]
+      },
+      {
+        src: "/images/stories/sting-india-is-like-second-home-to-me/p66-3.webp",
+        alt: "Sting in a yellow suit playing bass on stage",
+        width: 517,
+        height: 549,
+        pdfPages: [
+          66
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 64,
+        items: [
+          "Images: wikimedia.org"
+        ]
+      },
+      {
+        pdfPage: 65,
+        items: [
+          "Images: insta/ theofficialsting",
+          "Images: elginhotels.com"
+        ]
+      },
+      {
+        pdfPage: 66,
+        items: [
+          "Sting, with his daughter Mickey as a child",
+          "Images: insta/ theofficialsting",
+          "Images: insta/ theofficialsting"
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        64,
+        65,
+        66
+      ],
+      printedPages: [
+        62,
+        63,
+        64
+      ],
+      imagePdfPage: 64
+    }
+  },
+  {
+    id: "a-jab-tale-national-vaccination-day",
+    slug: "a-jab-tale-national-vaccination-day",
+    title: "A Jab Tale",
+    section: "Number Game",
+    category: "wellness",
+    date: "March 2024",
+    excerpt: "Marking National Vaccination Day, observed on March 16 every year in India, we highlight some milestones achieved by the country under one of the biggest immunisation programmes",
+    heroImage: "/images/stories/a-jab-tale-national-vaccination-day.webp",
+    heroImageAlt: "Illustration: a pregnant woman and a mother holding her baby",
+    heroImageSource: "Spice Route - March 2024, PDF page 68",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "p",
+        text: "National Vaccination Day or National Immunisation Day was launched in India in **1995** when the government initiated the Pulse Polio Immunisation Programme",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "India committed to the resolution for global polio eradication, passed by the World Health Assembly, in **1988**",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "The country reported the last case of polio in **2011**",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "On March 27, 2014, the South-east Asia region of WHO, including India, was certified polio free by the Regional Certification Commission",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "The Government of India started Mission Indradhanush in 2014 to accelerate full immunisation coverage to around 90 per cent and reduce mortality among children",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "India's universal immunisation programme is one of the largest in the world with annual cohorts of about 26.5 million infants and 29 million pregnant women as per the latest government data",
+        page: 68
+      },
+      {
+        type: "p",
+        text: "Following the success of Mission Indradhanush, PM Narendra Modi launched the “Intensified Mission Indradhanush (IMI)\" in 2017 to further reinforce the immunisation programme across **121 districts, 17 urban areas** and **52 districts** of the **Northeastern states**",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "The immunisation programme has been expanded to cover diseases including pertussis, meningitis and pneumonia (hemophilus influenza type B infections), and Japanese encephalitis (JE) in JE endemic districts with vaccines such as rotavirus vaccine, IPV, adult JE vaccine, pneumococcal conjugate vaccine (PCV) and measles-rubella (MR)",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "Till February 2023, 4.45 crore children and 1.2 crore pregnant women had been vaccinated, as per the latest government data",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "According to WHO, immunisation is a key component of primary health care and an “**indisputable** **human right**”. Vaccines work with the body's natural defences to reduce the risk of contracting a disease",
+        page: 69
+      },
+      {
+        type: "p",
+        text: "In the recent interim budget for 2024-25, Finance Minister Nirmala Sitharaman said that the government is considering rolling out a human papillomavirus (HPV) vaccination campaign for girls between the ages nine and 14, to tackle the incidence of cervical cancer",
+        page: 69
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p68-2.webp",
+        alt: "Illustration: a child receiving oral polio drops",
+        width: 247,
+        height: 261,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p68-4.webp",
+        alt: "A Mission Indradhanush poster urging full immunisation",
+        width: 269,
+        height: 180,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p68-5.webp",
+        alt: "Illustration: a gloved hand holding a syringe beside vials",
+        width: 515,
+        height: 302,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p69-2.webp",
+        alt: "Illustration: a family waiting in line for vaccination",
+        width: 673,
+        height: 409,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p69-3.webp",
+        alt: "A gloved hand holding an HPV vaccine vial and syringe",
+        width: 350,
+        height: 242,
+        pdfPages: [
+          69
+        ]
+      },
+      {
+        src: "/images/stories/a-jab-tale-national-vaccination-day/p69-4.webp",
+        alt: "Illustration: a raised fist holding a syringe",
+        width: 389,
+        height: 289,
+        pdfPages: [
+          69
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        68,
+        69
+      ],
+      printedPages: [
+        66,
+        67
+      ],
+      imagePdfPage: 68
+    }
+  },
+  {
+    id: "your-forecast-this-month-march-2024",
+    slug: "your-forecast-this-month-march-2024",
+    title: "Your Forecast This Month",
+    label: "March 2024",
+    section: "Astro Time",
+    category: "predictions",
+    date: "March 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You will have the conviction to move forward in life and tackle all problems with strength. As a result, all the things will start falling into place for you. Your business will expand as money is increasing and unproductive and worked-up areas are being settled. You will find your soulmate soon. Health will be good.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "It seems like your emotions are on a roller-coaster. They are going to demand attention as you need to calm down. A major obstacle related to your work or personal affairs is about to be resolved. Keep calling people who owe you money, it will come soon. Court cases will be resolved relieving your pressures. Cheer up!",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Are you feeling overconfident? If yes, then you might need to hold your horses. If you decide to go a little slow, you will not make mistakes. A shift in your career is indicated. Health needs attention. Children will bring good news. An addition to the family is expected! Travel overseas is indicated.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "There might be some circumstances that will warrant the abandonment of a project involving paperwork because you won’t be willing to pursue it for now. Hold onto your finances this month, and avoid overspending. Marriage is on the cards. Legal issues will also come to a resolution. Happy family time lies ahead.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Someone is feeling trapped in a nasty situation. But do not worry! You will be happy to know that it is temporary. It's time to eliminate gossip, do not believe anything or everything negative that you hear. You may have to dissolve a partnership. A new and favourable business proposal will be presented.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "New people are entering your life, and you will be pleased with their appearance as they will bring positive changes in your life, both professionally and personally. You will consider buying a new car or property. A family member might irritate you a little bit, but there's no need to worry. Romance is on the cards.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You might be getting busy with paper-work. Most likely, you will be involved with some kind of release form or legal, medical or corporate papers. If you've made a mistake that had hindered your progress, someone is coming your way to correct it for you. Financial assistance is coming through a loan. Travel is on the cards.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Seems like you are bubbling with ideas and you will begin a new project or a venture and some of these ideas will be backed up by people who will provide much-needed assistance or sponsorship. It's time to accept material gains that are coming your way. You will be popular socially. Stomach issues need attention.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "A chain or series of events will unfold, which will turn out to be positive and in your favour. It will detach you from your problems along with eliminating any kind of apprehension. Be willing to act upon new ideas. Popularity is on the cards for you but better keep a count of the wine glasses. It seems like a good time to invest in property.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Good surprises seem to be coming your way, and that calls for some excitement. You will be offered a promotional opportunity that will give you the chance to sell or advertise your product through media, trade or radio. You will get lucky in matters related to the heart. Your debts will finally be cleared and this will enable you to amp up your savings.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "You are a social butterfly this month. You will be networking with people who will help you in your job. Your problems or quarrels are also getting sorted easily. What was wrong will be set right, what was missing will be found & whatever is needed will be provided. Take a break as you might be a little tired. All is well.",
+        page: 70
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Opportunities are calling you so, don't miss them! You are going to get a business call or an employment offer that is different from your usual work profile. There might be a slight misunderstanding in the family, but nothing to be worried about. Financial gains will make you happy and you will be able to start saving.",
+        page: 70
+      },
+      {
+        type: "note",
+        text: "Tarot card reader and holistic healer Poonam Sethi believes in the power of giving. With a career spanning more than three decades, Sethi today is an internationally-acclaimed tarot card reader, Reiki healer, colour therapist, Feng Shui practitioner, crystal healer, a specialist in removal and balancing the negative evil eye energies and a rudraksha consultant. She is also the author of The Power of Feng Shui, which offers 90 practical and efficient tips to improve one's life. For details, contact – poonamsethi27@hotmail.com",
+        page: 70
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        70
+      ],
+      printedPages: [
+        68
+      ],
+      imagePdfPage: 70
+    }
+  },
+  {
+    id: "my-town-bengaluru",
+    slug: "my-town-bengaluru",
+    title: "My Town",
+    label: "Bengaluru",
+    section: "RedHot",
+    category: "destinations",
+    author: "Ms. Delphine Mary Wilson",
+    role: "Line Check Cabin Crew, Bengaluru",
+    date: "March 2024",
+    excerpt: "In our series, in which we travel to various Indian cities with a SpiceJet family member, this time, Delphine Mary Wilson, Cabin Crew (Bengaluru), takes us around her hometown.",
+    heroImage: "/images/stories/my-town-bengaluru.webp",
+    heroImageAlt: "Illustration: Bengaluru landmarks drawn in a skyline",
+    heroImageSource: "Spice Route - March 2024, PDF page 76",
+    heroImageLicence: "pending",
+    editionSlug: "march-2024",
+    editionTitle: "Spice Route - March 2024",
+    body: [
+      {
+        type: "question",
+        text: "Are you originally from Bengaluru?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Yes, famously known as the 'Silicon Valley of India,' I feel extremely lucky to have been born and brought up in Bengaluru.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the quality of life here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "The quality of life here is good because of its vibrant culture, pleasant climate, and corporate setup. Alongside great weather and good schools, the city boasts a decent cost of living, a relatively safe environment, abundant greenery, affordable public transport and sumptuous meals.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the best thing that you like about the place?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "For me, it has always been the weather of Bengaluru that I cherish. The pleasant weather adds a unique charm to the city, be it a delightful monsoon melody, harmonising raindrops or sunny interludes.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "As compared to other big cities, how is Bengaluru's lifestyle different?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "I get such a sense of elation when I tell people that I hail from Bengaluru. The city is renowned for its charm, opulent modern lifestyle, top-notch living amenities and nightlife. Known as the Garden City for its leafy avenues and quiet suburbs, Bengaluru was the first city in Asia to be lit by street lamps and has since continued to spearhead India’s technological boom.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the night scene here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "It’s no shocker that Bengaluru has a lively nightlife scene that is unmatched. As one of the most vibrant cities, Bengaluru loves its party-loving crowd and offers them a plethora of pubs, bars, lounges and nightclubs. So, whether you’re on vacation or a business trip, don’t confine yourself to just one place. As the sun sets and the city lights twinkle, Bengaluru transforms into a pulsating hub of entertainment. The city has many clubs, open-air lounges, sports pubs, and chic rooftop bars atop some of its tallest buildings.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Are you a foodie? Which is your favourite eatery in Bengaluru?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I am a foodie because I love to eat, and if we're talking about my favourite spot, then Toit is at the top of my list. It’s a famous pub, known for having some of the best brewers in the nation. This brewpub is a throwback to the beer-ale-pub culture, which has taken the city by storm.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "How did you discover the eatery?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "My friends and I like exploring new cafes and eateries and we often wander around town to do the same. We ended up here once and immediately fell in love with this place.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Why do you like the place so much?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are many reasons as to why I like the place. First, the ambience is flamboyant and the interior décor of this place is stunning and visually appealing. For me, this place truly symbolises a superior brewpub experience. Bringing easy-breezy vibes, quirky cocktails, freshly brewed beer, and a scrumptious food menu. This place is my favourite spot for hanging out with friends.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which are the best places to hang out in Bengaluru?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Cubbon Park is among the popular places to visit with friends in Bengaluru. There are statues of many famous personalities there. Another amazing place is Lal Bagh Botanical Garden, which comprises a glass house inspired by the London Crystal Palace.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What attractions in Bengaluru would you recommend to a tourist?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Offering a spectacular view of nature, Nandi Hills is amongst the most ideal locations for connecting with nature. I would also recommend visiting Bangalore Palace. This evocative palace comprises of fortified arches, towers, Tudor-style architecture, green lawns and sophisticated wood carvings in the interiors. Another picturesque place to visit is Ulsoor Lake, located in the heart of the city.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What are the other places that you would recommend to visit near Bengaluru?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "The most popular place to visit near Bengaluru is Mysuru. The city retains its old-world charm with many palaces, heritage buildings, traditions and temples. Another must-visit destination is Hogenakal, located almost 146 km from Bengaluru. It is often referred to as the ‘Niagara of India’ due to its breathtaking waterfalls.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What are the people here like?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "The people of Bengaluru are the most gentle and polite ones. The people living here are often described as diverse, dynamic and cosmopolitan. You will find a mix of cultures, languages and backgrounds here, that contribute to the vibrant and inclusive atmosphere of the city.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which are the other places where you have stayed in India? How is Bengaluru compared to them?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I have lived in other Indian cities, and every city has something unique about it. The most important thing about Bengaluru is that it is quite an inclusive and welcoming city. Bengaluru is sometimes referred to as the “Silicon Valley of India” because of its role as the nation's leading information technology hub. The city is also blessed with a thriving art and cultural scene. From theatres to exclusive South Indian food joints and classical dance forms, you can witness several manifestations of Indian culture being showcased here. It has managed to keep its traditions alive along with becoming a tech hub.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "PLEASE DESCRIBE YOUR FAVOURITE DISH AT THE PLACE.",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "I absolutely love their wood-fired pizzas, the thought of it makes me hungry. Wood-fired pizzas are cooked in brick ovens that are heated directly using fire. The flavour of this pizza is unmatched. Not to mention, the fast cooking creates a special caramelisation of the ingredients that accentuates their deep flavours.",
+        page: 77
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/my-town-bengaluru/p76-3.webp",
+        alt: "Portrait of Ms. Delphine Mary Wilson",
+        width: 330,
+        height: 420,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-bengaluru/p77-1.webp",
+        alt: "A viewpoint on a hilltop with visitors at sunrise",
+        width: 682,
+        height: 399,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-bengaluru/p77-2.webp",
+        alt: "A wood-fired pizza on a board",
+        width: 401,
+        height: 285,
+        pdfPages: [
+          77
+        ]
+      }
+    ],
+    source: {
+      edition: "march-2024",
+      pdf: "SpiceRouteMar24.pdf",
+      pdfPages: [
+        76,
+        77
+      ],
+      printedPages: [
+        74,
+        75
+      ],
+      imagePdfPage: 76
+    }
+  },
+  {
+    id: "from-the-cmds-desk-february-2024",
+    slug: "from-the-cmds-desk-february-2024",
+    title: "From the CMD’s Desk",
+    section: "From the CMD’s Desk",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman and Managing Director",
+    date: "February 2024",
+    excerpt: "Welcome aboard SpiceJet! Hello February! With spring right around the corner, this is the perfect time to re-orient, re-calibrate and re-focus on the goals and aspirations of the New Year. At SpiceJet 3.0, our renewed focus on strengthening our core deliverables and enhanced customer experience will help us deliver exceptional passenger experience right from the start of their journey. In a resounding vote of confidence in our brand strength and market leadership, top Financial Institutions, FIIs, HNIs, and private investors have collectively infused fresh capital of INR 744 Crore into the Company on a preferential basis in the first tranche. This substantial capital injection establishes a robust financial footing, propelling us toward our ambition of establishing a world-class airline.",
+    heroImage: "/images/stories/from-the-cmds-desk-february-2024.webp",
+    heroImageAlt: "Ajay Singh standing in front of a SpiceJet aircraft",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 5",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet! Hello February! With spring right around the corner, this is the perfect time to re-orient, re-calibrate and re-focus on the goals and aspirations of the New Year. At SpiceJet 3.0, our renewed focus on strengthening our core deliverables and enhanced customer experience will help us deliver exceptional passenger experience right from the start of their journey.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "In a resounding vote of confidence in our brand strength and market leadership, top Financial Institutions, FIIs, HNIs, and private investors have collectively infused fresh capital of INR 744 Crore into the Company on a preferential basis in the first tranche. This substantial capital injection establishes a robust financial footing, propelling us toward our ambition of establishing a world-class airline.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "A significant portion of these funds will be allocated towards network expansion and the introduction of new routes, as well as bolstering our fleet with additional aircraft. Additionally, resources will be dedicated to the revitalization of grounded planes, ensuring their return to active flight operation. This strategic allocation underscores our commitment to delivering exceptional service and expanding our reach within the aviation industry.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "India is undoubtedly one of the most exciting aviation markets in the world with huge potential for growth. However, it’s important to note that less than 5% of Indians currently fly. With aspirations rising and optimism surging across the country, more Indians are eagerly embracing air travel, many for the first time. We are confident that over the next 12 to 18 months, our fleet will double in size.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "With this expanding fleet and our commitment to enhanced service delivery, SpiceJet is uniquely positioned to cater to this growing demand. We are poised to not only meet but also capture a significant share of this burgeoning market.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "We are delighted to announce the addition of the historic city of Ayodhya to our network. Scheduled non-stop flights now link Ayodhya with major cities including Ahmedabad, Bengaluru, Chennai, Darbhanga, Delhi, Jaipur, Mumbai, and Patna. As part of our ongoing commitment to enhancing connectivity, we are in the process of increasing frequencies on existing routes and adding new destinations. This initiative reflects our dedication to providing passengers with convenient travel options and expanding our network to serve diverse travel needs.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "SpiceXpress, a subsidiary of SpiceJet, is rapidly expanding its reach. A recent collaboration with Star Air has introduced nine new destinations to its domestic network. With this addition, SpiceXpress now serves a total of 48 destinations, further enhancing its capability to provide door-to-door delivery of goods, including postal parcels, in previously underserved areas. This expansion not only contributes to economic development but also strengthens the logistics sector, playing a vital role in the country's overall growth.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "SpiceJet has been a consistent high performer in the aviation space with unmatched leadership in passenger occupancy. We are thankful for your continued preference and support that enabled us to consistently register one of the highest occupancy among domestic airlines.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Grandmaster R Praggnanandhaa has ascended to the position of the top-ranked Indian chess player, marking a remarkable achievement in his career. Notably, Praggnanandhaa is the youngest chess player in the world to have reached the World Cup final. We extend our heartfelt congratulations to him on this significant accomplishment and wish him continued success in his career.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "I extend my heartfelt congratulations to Rohan Bopanna for his outstanding victory in the men's doubles final at the Australian Open Tennis Championship 2024. At the age of 43, he has made history by becoming the oldest tennis champion to win a grand slam. Your remarkable achievement is an inspiration to all. May you and Praggnanandhaa continue to reach new heights and bring immense pride and glory to our nation.",
+        page: 5
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 5
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        5
+      ],
+      printedPages: [
+        3
+      ],
+      imagePdfPage: 5
+    }
+  },
+  {
+    id: "broadsheet-february-2024",
+    slug: "broadsheet-february-2024",
+    title: "Broadsheet",
+    section: "Broadsheet",
+    category: "culture",
+    date: "February 2024",
+    excerpt: "",
+    heroImage: "/images/stories/broadsheet-february-2024.webp",
+    heroImageAlt: "Terracotta pots and handicrafts stacked at a crafts fair",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 16",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "SURAJKUND CRAFTS FAIR",
+        page: 16
+      },
+      {
+        type: "p",
+        text: "The grand Surajkund International Crafts Mela showcases the diversity of traditional handlooms and handicrafts. It is organised by the Surajkund Mela Authority & Haryana Tourism with Union Ministries of Tourism, Textiles, Culture and External Affairs.",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**When**: February 2-18",
+        page: 16
+      },
+      {
+        type: "note",
+        text: "**Where**: Faridabad, Haryana",
+        page: 16
+      },
+      {
+        type: "subhead",
+        text: "Events",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "SOULFUL MELODIES",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "The 12th edition of the Mahindra Blues festival celebrates soulful blues vibes. If you are a fan of soul-stirring rhythms, this event is your next stop. The festival has a line-up of renowned artistes.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: February 10-11",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Mumbai, Maharashtra",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "THINK LIKE A GIRL!",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "The International Day of Women and Girls in Science aims to promote the participation of women and girls in science and technology. The day honours the contributions made by women in the field.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: February 11",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the world",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "LOSAR FESTIVAL",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "A Buddhist festival, the vibrant and colourful Losar marks the beginning of the Tibetan New Year and is celebrated with great fervour in the Himayalan region including Ladakh, Sikkim, Himachal Pradesh and Darjeeling.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: February 10",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Mostly Himalayan region",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "KHAJURAHO DANCE FESTIVAL",
+        level: 3,
+        page: 18
+      },
+      {
+        type: "p",
+        text: "Organised in the backdrop of the magnificent Khajuraho temple in Madhya Pradesh, the annual festival is a cultural extravaganza which promotes India's culture and heritage. An array of classical dance performances are showcased at the festival.",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**When**: February 20-26",
+        page: 18
+      },
+      {
+        type: "note",
+        text: "**Where**: Khajuraho, Madhya Pradesh",
+        page: 18
+      },
+      {
+        type: "subhead",
+        text: "Cinema | Books | Sports | Art",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "MADAME WEB",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "The spin-off of Spiderman's 'Madame Web' has finally arrived for all Spiderman fans. Starring Dakota Johnson, the story revolves around a paramedic, who may have some clairvoyant abilities.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: February 14",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Around the world",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "EARTH CALLING!",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "'Critical Zones, In Search of a Common Ground' is a travelling exhibition, which invites visitors to explore new modes of coexistence between all forms of life. One of the editions is being held in New Delhi.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: February 3-March 3",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Goethe-Institute/Max Mueller Bhavan, New Delhi",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "TABLE TENNIS",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "The 2024 World Team Table Tennis Championships is witnessing the strongest face-offs with the best of players competing with each other for the top spot. Korea Republic is hosting the finals for the first time.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: February 16-25",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Busan, South Korea",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "LIMCA BOOK OF RECORDS",
+        level: 3,
+        page: 20
+      },
+      {
+        type: "p",
+        text: "The longest-running record book in India has completed 34 years with the release of its latest edition this year. The Limca Book of Records captures the achievements of Indians in various fields, from business to arts.",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "Fashion",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "BACK TO '90S",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Big labels are reimagining our favourite toys and cartoon characters in the most chic way. With luxury brands like Fendi coming up with their new Pokemon collection, it is a perfect walk down memory lane.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "CARE FOR HAIR WOES",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "From frizzy texture to dry scalp, hair issues can be difficult to manage. The new rosemary & niacinamide haircare range by Nykaa Naturals is sulphate-free and can be the answer to your problems.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "BOW DOWN",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The social media trend of tying cute little bows is now taking over the glam world. From designers to influencers and brands, everyone has started sporting fashionable bows.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "ELEVATE YOUR SKINCARE",
+        level: 3,
+        page: 22
+      },
+      {
+        type: "p",
+        text: "This year, take a pledge to focus on self-care. Indulge yourself with the floral collection by Marks & Spencer, formulated with essential oils.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Tech",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "HYBRID REALITY",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "If Apple Vision Pro's claims are to be believed, there is no need to visit a theatre anymore! The brand says its mixed reality headset can effortlessly transform any room into a personal theatre. The special features of the headset make you feel a part of the action, especially with Spatial Audio and pixels more than a 4K TV. You can also capture spatial photos and spatial videos in 3D!",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "PUFFING AWAY",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "A novel star type called \"Old Smoker\" has been identified by astronomers within the Milky Way galaxy. Scientists discovered 32 such stars in one batch and claimed that they were throwing puffs of smoke at intervals, making them brighter or dimmer. The reason, however, is yet to be determined.",
+        page: 24
+      },
+      {
+        type: "subhead",
+        text: "RING THE CHANGE",
+        level: 3,
+        page: 24
+      },
+      {
+        type: "p",
+        text: "Samsung is expected to launch a new wearable Galaxy Ring. The much-awaited smart ring was teased during the Galaxy Unpacked event recently and is set to be released before the end of this year. The device is expected to be a powerful and accessible health and wellness equipment.",
+        page: 24
+      }
+    ],
+    pullQuotes: [
+      "“Have enough courage to trust love one more time and always one more time\" Maya Angelou American Author"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/broadsheet-february-2024/p18-4.webp",
+        alt: "A poster for the Mahindra Blues festival",
+        width: 455,
+        height: 550,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p18-3.webp",
+        alt: "A woman scientist looking into a microscope",
+        width: 491,
+        height: 312,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p18-1.webp",
+        alt: "A masked dancer at a Losar celebration",
+        width: 408,
+        height: 312,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p18-2.webp",
+        alt: "A classical dancer performing before a temple",
+        width: 542,
+        height: 566,
+        pdfPages: [
+          18
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p20-1.webp",
+        alt: "The poster of the film Madame Web",
+        width: 406,
+        height: 513,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p20-4.webp",
+        alt: "Illustration: a globe covered in trees",
+        width: 462,
+        height: 441,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p20-2.webp",
+        alt: "A table tennis bat and ball on a table",
+        width: 601,
+        height: 491,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p20-3.webp",
+        alt: "The cover of the Limca Book of Records 2024",
+        width: 311,
+        height: 423,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p22-3.webp",
+        alt: "A woman in a white dress with a large bow in her hair",
+        width: 472,
+        height: 621,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p22-4.webp",
+        alt: "A black handbag with a cartoon character",
+        width: 503,
+        height: 596,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p22-1.webp",
+        alt: "A jar of hair cream",
+        width: 465,
+        height: 352,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p22-2.webp",
+        alt: "Floral skincare products",
+        width: 502,
+        height: 588,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p24-3.webp",
+        alt: "A woman wearing a mixed-reality headset",
+        width: 569,
+        height: 826,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p24-1.webp",
+        alt: "A glowing galaxy in space",
+        width: 431,
+        height: 350,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p24-2.webp",
+        alt: "A smart ring",
+        width: 1034,
+        height: 408,
+        pdfPages: [
+          24
+        ]
+      },
+      {
+        src: "/images/stories/broadsheet-february-2024/p24-4.webp",
+        alt: "A red star glowing in space",
+        width: 270,
+        height: 269,
+        pdfPages: [
+          24
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 18,
+        items: [
+          "Image: Mahindrablues.com"
+        ]
+      },
+      {
+        pdfPage: 20,
+        items: [
+          "Image: imdb.com"
+        ]
+      },
+      {
+        pdfPage: 22,
+        items: [
+          "Image: Insta/ Fendi"
+        ]
+      },
+      {
+        pdfPage: 24,
+        items: [
+          "Image: apple.com",
+          "Image: phys.org",
+          "Image: sammobile.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      printedPages: [
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      imagePdfPage: 16
+    }
+  },
+  {
+    id: "network-jeddah",
+    slug: "network-jeddah",
+    title: "Jeddah",
+    section: "Network",
+    category: "destinations",
+    date: "February 2024",
+    excerpt: "With vibrant entertainment and activity centres dotting the region, Jeddah offers varied opportunities for a fulfilling vacation",
+    heroImage: "/images/stories/network-jeddah.webp",
+    heroImageAlt: "Waves breaking on rocks below a mosque on the Red Sea coast",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 26",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Located in the central Hejaz region in Saudi Arabia, Jeddah lies on the coast of the Red Sea. This seaside wonder is a melting pot of cultures, with icons of heritage and adventure in every corner. From exploring its cobbled walkways to beach resorts, there's a lot in store for visitors. Enjoy activities like scuba diving or yachting or explore the historic side of the city at the Al-Balad site that dates back to the seventh century. Watch a relaxing sunset at the gorgeous Thuwal beach.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "See interesting marine species at Fakieh Aquarium. The Art Promenade, Tayebat Museum, and the Jeddah Superdome are well-known. Visit the famous spice markets such as in Souq Al Alawi.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Relax at the Silver Sands beach, among similar seaside spots. Visit the famed Old Jeddah Gate, the Corniche Circuit to indulge in the thrill of the F1 race, and the popular King Fahd Fountain.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Jeddah's culture manifests itself in the form of ancient souqs such as Souq Al Badu. Relish local seafood, subia, a traditional beverage, and masoub, a type of pudding.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Located close to Jeddah is Dhahban, a vintage small town famous for its seaside resorts and unique vibe. It is much sought after among beach-goers.",
+        page: 26
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Jeddah from Delhi, Kozhikode and many other cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-jeddah/p26-2.webp",
+        alt: "An old stone fort at sunset",
+        width: 272,
+        height: 199,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-jeddah/p26-3.webp",
+        alt: "A glass tunnel through an aquarium",
+        width: 273,
+        height: 202,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-jeddah/p26-4.webp",
+        alt: "Bowls of dates and traditional sweets",
+        width: 271,
+        height: 199,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-jeddah/p26-5.webp",
+        alt: "Illustration: a beach resort on the coast",
+        width: 570,
+        height: 328,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/network-jeddah/p26-s3.webp",
+        alt: "A Formula One racing car",
+        width: 281,
+        height: 144,
+        pdfPages: [
+          26
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 26,
+        items: [
+          "Image: abouther.com",
+          "Image: Lafontaine Rose Beach Resort"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        26
+      ],
+      printedPages: [
+        24
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "network-tezpur",
+    slug: "network-tezpur",
+    title: "Tezpur",
+    section: "Network",
+    category: "destinations",
+    date: "February 2024",
+    excerpt: "Situated on the banks of the Brahmaputra, Tezpur in Assam epitomises legends through pristine sites and beautiful ruins",
+    heroImage: "/images/stories/network-tezpur.webp",
+    heroImageAlt: "The Brahmaputra at sunset with trees along the bank",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Famous for the folk love story of princess Usha and Aniruddha, Tezpur in Assam is steeped in tales of valour and romance. Apart from its vast stretches of tea gardens, it is also a pilgrimage destination with shrines like Mahabhairav Temple. The historical lineage of Tezpur is preserved in several ruins, two of which are Da-Parbatiya Gate and Bamuni Hills. Visitors can also take a day-long excursion to Bhalukpong (around 60 km) to enjoy the enchanting view of lush green hills.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Visit Agnigarh, the site of the Usha-Aniruddha saga, and Chitralekha Udyan (Cole Park), which has ancient ruins. Visit the Dak Bungalow, a British colonial building.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Explore man-made lakes like Padum Pukhuri and Hazara Pukhuri. Drive to the Nameri National Park nearby and visit the Addabarie Tea Estate located on the outskirts.",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Sample the GI-tagged Tezpur litchi. Buy handicrafts and mekhela chadar. Relish Assamese thali and local dishes such as khar (alkaline dish) and tenga jhul (sour fish curry).",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Visit the mesmerising town of Tawang, around 330 km from Tezpur, to witness the Tawang monastery and Gorichen Peak. You can also visit Bura Chapori Wildlife Sanctuary.",
+        page: 28
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and non-stop flights to Tezpur from Kolkata and many other cities in India. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-tezpur/p28-3.webp",
+        alt: "Red-painted gateway and steps up a hillside park",
+        width: 271,
+        height: 202,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-tezpur/p28-5.webp",
+        alt: "Ancient carved stone ruins",
+        width: 254,
+        height: 254,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-tezpur/p28-2.webp",
+        alt: "A deer in a forest",
+        width: 270,
+        height: 200,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-tezpur/p28-4.webp",
+        alt: "An Assamese thali of rice and curries",
+        width: 270,
+        height: 199,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/network-tezpur/p28-6.webp",
+        alt: "Illustration: a monastery gateway in the snow",
+        width: 472,
+        height: 419,
+        pdfPages: [
+          28
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 28,
+        items: [
+          "Image: en.wikipedia.org Image: namerinptr.in",
+          "Image: tripoto.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        28
+      ],
+      printedPages: [
+        26
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "network-tirupati",
+    slug: "network-tirupati",
+    title: "Tirupati",
+    section: "Network",
+    category: "destinations",
+    date: "February 2024",
+    excerpt: "Tirupati is not just a revered site for pilgrims but also known for its abundant architectural marvels and scenic beauty",
+    heroImage: "/images/stories/network-tirupati.webp",
+    heroImageAlt: "A temple tower rising above hills",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 30",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "A holy abode with rich architectural heritage, Tirupati in Andhra Pradesh is home to many temples dedicated to Lord Venkateswara. The most revered shrine is the Sri Venkateswara Swamy Temple or Tirupati Balaji, which attracts devotees in large numbers. The vibrant local culture and sights surely make for a memorable getaway. Tourists also visit the stone arch or the Silathoranam in Tirumala, a rare geological formation. Take a short trip to Chandragiri (around 16 km), and visit the Chandragiri fort, a magnificent specimen of Indo-Saracenic architecture.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "DON'T MISS",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Admire the architecture of the Sri Govindarajaswamy Temple among several others. Nature lovers can stop by the Pulicat Lake Bird Sanctuary and the Talakona waterfall in Yerravaripalem, around 40 km away.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "MUST SEE",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the Satish Dhawan Space Centre in Sriharikota, the spaceport of India. Also, visit Sri Venkateswara Zoological Park, said to be one of the largest zoos in Asia.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "EAT & SHOP",
+        level: 3,
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Sample the popular Tirupati laddu. Try local dishes like pongal and pulihora. Shop for souvenirs from local markets like the Tirumala Tirupati Market.",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "NEARBY",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Visit the charming Horsley Hills, a part of the Nallamalai range, for enjoying a peaceful and rejuvenating time amidst nature. It is located around 130 km from Tirupati.",
+        page: 30
+      }
+    ],
+    callouts: [
+      "Route:SpiceJet connects direct and one-stop flights to Tirupati from Hyderabad, Pune and many more cities. Book now at www.spicejet.com"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/network-tirupati/p30-6.webp",
+        alt: "An Indo-Saracenic building with domes",
+        width: 540,
+        height: 233,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-tirupati/p30-2.webp",
+        alt: "A rocket at a launch pad",
+        width: 290,
+        height: 193,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-tirupati/p30-1.webp",
+        alt: "A waterfall cascading down rocks",
+        width: 289,
+        height: 181,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-tirupati/p30-5.webp",
+        alt: "Hills above a lake",
+        width: 321,
+        height: 320,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/network-tirupati/p30-3.webp",
+        alt: "Laddus on a plate",
+        width: 285,
+        height: 180,
+        pdfPages: [
+          30
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 30,
+        items: [
+          "Image: vijaysweets.com",
+          "Image: equitypandit.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        30
+      ],
+      printedPages: [
+        28
+      ],
+      imagePdfPage: 30
+    }
+  },
+  {
+    id: "rooted-in-time-ayurveda",
+    slug: "rooted-in-time-ayurveda",
+    title: "Rooted in Time",
+    section: "Open House",
+    category: "wellness",
+    date: "February 2024",
+    excerpt: "Following an urban lifestyle can be stressful and can demand us to be on our toes. Include these simple Ayurvedic practices in your routine to attain calm and holistic well-being!",
+    heroImage: "/images/stories/rooted-in-time-ayurveda.webp",
+    heroImageAlt: "Bowls of ghee, spices and herbs on a dark surface",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 32",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Lately, B-town celebs have been advocating drinking ghee (clarified butter) coffee or \"bullet coffee\" in the morning. While ghee is recommended under Ayurveda as a therapeutic agent, combining it with caffeine provides a steady release of energy, according to experts. A cup of ghee coffee can boost productivity, improve focus, and give a sense of satiety, to reduce your overall calorie consumption during the day.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Ayurvedic aromatherapy is becoming popular of late, given its positive impact on sleep, and mental and emotional well-being. This healing technique involves the use of essential oils, either in skincare products or in a diffuser. A few drops of lavender oil, for instance, can have a calming effect while rosemary is known to be good for coping with headaches, owing to its anti-inflammatory properties.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "To maintain good oral health, a simple Ayurveda routine is oil pulling. Swish a tablespoon of edible oil (like coconut or sesame) in your mouth for a few minutes on an empty stomach and then spit it out, followed by warm water rinse. Researchers say this can cure or control various systemic diseases such as headaches and chronic ailments like asthma and diabetes.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Have elders in your family ever advised you to not sleep with your head facing north? It is said to draw energy out of the body and disturb blood circulation. Ayurveda recommends sleeping with the head facing south or southeast, especially for those who tend to be anxious. Sleeping towards the east (considered a direction of positive waves) is said to particularly benefit students as it enhances memory and concentration.",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "Self-love is crucial for overall well-being and in Ayurveda, it can be practised through abhyanga, for a feeling of stability and for coping with stress. Self-abhyanga is about a 15-min practice of full body massage involving rhythmic strokes that increase circulation, eliminate impurities from the body, and improve skin as well as stamina.",
+        page: 32
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/rooted-in-time-ayurveda/p32-4.webp",
+        alt: "Coconut halves and oil in a glass jar",
+        width: 355,
+        height: 283,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/rooted-in-time-ayurveda/p32-5.webp",
+        alt: "An aromatherapy diffuser with a lit candle",
+        width: 321,
+        height: 321,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/rooted-in-time-ayurveda/p32-1.webp",
+        alt: "Hands massaging a leg with oil",
+        width: 324,
+        height: 215,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/rooted-in-time-ayurveda/p32-2.webp",
+        alt: "Illustration: a woman sleeping",
+        width: 363,
+        height: 343,
+        pdfPages: [
+          32
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        32
+      ],
+      printedPages: [
+        30
+      ],
+      imagePdfPage: 32
+    }
+  },
+  {
+    id: "its-a-lit-month",
+    slug: "its-a-lit-month",
+    title: "It’s a LIT Month!",
+    section: "Open House",
+    category: "culture",
+    date: "February 2024",
+    excerpt: "From birthdays of authors to facts about one of the early bestselling novels, here's some trivia for book lovers",
+    heroImage: "/images/stories/its-a-lit-month.webp",
+    heroImageAlt: "Illustration: two people reading under a tree",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 34",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "The much-anticipated New Delhi World Book Fair 2024 is all set to be held this month at Pragati Maidan. Organised by National Book Trust under the Ministry of Education, Government of India, this mega event brings together book lovers, eminent authors and artists under one roof. Scour the numerous stalls for your favourite book titles, and attend insightful panel discussions and cultural programmes at the book fair, which is being held from February 10-18.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "The most anticipated reads in 2024 include Knife by Salman Rushdie and Until August by Gabriel Garcia Marquez. One of the best reads so far is Come and Get It by Kiley Reid released in January this year. It is a multi-narrative novel set in a college campus.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Who hasn't heard of Jane Austen's much-acclaimed work, Pride and Prejudice! The novel, however, was originally named First Impressions. A romantic classic, it was released anonymously in three volumes in the year 1813.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "Way before the frenzy surrounding bestselling books begun, it was Miguel de Cervantes' 17th-century Spanish epic Don Quixote that created a record by becoming one of the highest selling novels in history with over 500 million copies sold!",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "This year marks the 150th birth anniversary of Gertrude Stein, a celebrated American novelist, poet, playwright and avant-garde art collector. Born on February 3, 1874, she rose to popularity in 1933 when she published The Autobiography of Alice B. Toklas.",
+        page: 34
+      },
+      {
+        type: "p",
+        text: "February, which ushers in a new spirit of life after winter, has inspired many beautiful poems by illustrious authors. February: 17th by Ted Hughes, A Valentine by Lewis Carroll, Mirror in February by Thomas Kinsella, and 1915: February by Ezra Pound are some well-known ones.",
+        page: 34
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/its-a-lit-month/p34-4.webp",
+        alt: "The cover of Knife by Salman Rushdie",
+        width: 247,
+        height: 322,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/its-a-lit-month/p34-s1.webp",
+        alt: "Old leather-bound volumes of Pride and Prejudice",
+        width: 134,
+        height: 264,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/its-a-lit-month/p34-3.webp",
+        alt: "The cover of Tales of Don Quixote",
+        width: 194,
+        height: 259,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/its-a-lit-month/p34-1.webp",
+        alt: "Black-and-white photograph of Gertrude Stein",
+        width: 583,
+        height: 417,
+        pdfPages: [
+          34
+        ]
+      },
+      {
+        src: "/images/stories/its-a-lit-month/p34-5.webp",
+        alt: "Illustration: a pink typewriter",
+        width: 231,
+        height: 219,
+        pdfPages: [
+          34
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 34,
+        items: [
+          "Image: nbtindia.gov.in",
+          "Image: rct.uk",
+          "Image: poetryfoundation.org"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        34
+      ],
+      printedPages: [
+        32
+      ],
+      imagePdfPage: 34
+    }
+  },
+  {
+    id: "safer-internet-day-watching-the-web",
+    slug: "safer-internet-day-watching-the-web",
+    title: "Watching the Web",
+    label: "Safer Internet Day",
+    section: "Open House",
+    category: "culture",
+    date: "February 2024",
+    excerpt: "",
+    heroImage: "/images/stories/safer-internet-day-watching-the-web.webp",
+    heroImageAlt: "Illustration: people using devices around a glowing screen",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 35",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Observed on February 6 every year, Safer Internet Day, an initiative of the EU SafeBorders project, aims to raise awareness about safety on the internet and promote cyber security. Upholding the slogan of \"Together for a Better Internet,\" it aims to address pertinent concerns regarding cyberbullying, social networking and digital identity and make the internet a safe and ethical space for people of all ages, genders and backgrounds.",
+        page: 35
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        35
+      ],
+      printedPages: [
+        33
+      ],
+      imagePdfPage: 35,
+      sectionPdfPage: 34
+    }
+  },
+  {
+    id: "whispers-of-hidden-shores",
+    slug: "whispers-of-hidden-shores",
+    title: "Whispers of Hidden Shores",
+    section: "Lead",
+    category: "travel",
+    author: "Bindu Gopal Rao",
+    bylineLabel: "Text:",
+    date: "February 2024",
+    excerpt: "There's nothing like a serene beach vacation with azure waters and soft sands. Here are a few such stunning, unexplored shorelines across India for your bucket-list",
+    heroImage: "/images/stories/whispers-of-hidden-shores.webp",
+    heroImageAlt: "An island fringed with palms in a turquoise sea",
+    heroImageSource: "Spice Route - Feb 2024, PDF pages 42–43",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "You couldn't have missed Indian Prime Minister's recent iconic images clicked at the bucolic surroundings of Lakshadweep. The brilliant blue of the Arabian Sea softly lapping against the golden sand, with a gentle breeze rustling trees, paint such a tempting picture that the serene islands of the archipelago have been topping many travel wishlists. However, Lakshadweep is not alone in its untouched beauty. India's extensive coastline is dotted with several such sea-side paradises. Here are some beaches that must be on your itinerary this season.",
+        page: 43
+      },
+      {
+        type: "subhead",
+        text: "KADMAT, LAKSHADWEEP",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Nestled in the heart of a tropical paradise, Kadmat is one of the most exquisite beaches in Lakshadweep, and is also open to international travellers. This idyllic haven boasts a panorama of perfection, with turquoise waters, expanses of powdery white sand, and the rhythmic dance of coconut trees swaying in the breeze. Accessible from Agatti, a flight away, the journey to Kadmat unfolds across about 77 km of azure waters, where speedboats and catamaran vessels await to ferry you to this utopian destination. Kadmat's allure lies in its pristine beauty, while adventure beckons those with a zest for excitement, as the island presents a myriad of water activities. Dive into the depths with professional snorkelling and scuba diving to witness the mesmerising coral reefs. Glide over the aquatic wonders in glass-bottom boats or paddle into the marine realm on a kayak. Kadmat is renowned for deep-sea fishing, adding a dash of excitement for angling aficionados. The exclusive Kadmat Island Beach Resort is the sole accommodation option.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Visit the Minicoy Island for its large lagoon. Indulge in water sports along with the tuna canning factory, and admire the quiet village life. Avail the Marine Wealth Awareness Programme.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Try dishes like the moah appam made with bananas, and jaggery, and samak kebab (fish skewers). Also try the pathiri, a pancake made with rice flour.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "MARARI BEACH, KERALA",
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Nestled approximately 14 km away from the bustling town of Alappuzha, Marari Beach unveils itself as a secluded haven. This hidden gem, inhabited by the fisherfolk of Mararikulam, promises a distinctive twist to your Kerala experience. Marari stands out for its commitment to sustainable tourism, offering a myriad of unique encounters with the local culture. For those yearning to witness the serene backwaters of Kerala, this picturesque fishing village effortlessly satisfies that desire. The beach, adorned with swaying coconut palms, not only captivates with its natural beauty but also hosts a cluster of Ayurvedic massage centres, inviting you to unwind and revitalise in the lap of nature. Enjoy long strolls along the shoreline and absorb the breathtaking vistas of nature.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Visit the International Coir Museum and the Ayurveda wellness centres nearby. Indulge in water sports like surfing and others.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Parotta, fish fry, Kuttanadan duck curry, well-known in these backwaters, are some of the must-try dishes.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "OTTINENE BEACH, KARNATAKA",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Situated approximately 80 km from Manipal in Karnataka, Ottinene Beach is a coastal jewel celebrated for its breathtaking backdrops. What sets this beach apart is the confluence of the Byndoor River with the Arabian Sea, a spectacle where river and sea merge. Ascend to a vantage point, and you'll be treated to Instagram-worthy images of the tranquil beach waters, embraced by hills on one side. For an unparalleled experience, time your visit to Ottinene Beach during the magical hues of sunset, transforming the scenery into a visual masterpiece. A quaint Shiva temple graces the area, offering an ideal setting to capture the sun bidding adieu. Stroll along the serene beach, with the quiet broken only by the intriguing presence of crabs, starfish, and other fascinating marine life.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Take a boat ride and enjoy the mangroves, home to several species of birds. Also, visit Kshitija Nesara Dhama and Someshwara Temple located nearby.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Kundapur chicken curry and neer dosa are quite well-known.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "DUBLAGADI BEACH, ODISHA",
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Nestled in the heart of Balasore, the concealed gem of Dublagadi Beach beckons, offering an escape to pristine tranquility amidst crystal-clear waters. The beach unveils a natural marvel – the mesmerising spectacle of the blue wave, a manifestation of bioluminescence that adds a magical touch to the shoreline. Beyond its renowned majestic sunsets, the beach boasts a unique biodiversity, with red crabs and various avian species dotting its landscape, creating a haven for nature enthusiasts. The shoreline is adorned with thick, untouched woodlands of Tamarix trees, providing a picturesque backdrop for those seeking a connection with nature. To enhance the experience, choose to stay in camps or tents.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Some nearby places of interest include the Panchalingeswar mandir, Chandipur beach, and the Kuldiha Wildlife Sanctuary.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 46
+      },
+      {
+        type: "p",
+        text: "Try dal bora or lentil fritters, savoury crab dish, pakhala (fermented rice) and pitha (steamed cake). Most campsites offer chicken barbeques.",
+        page: 46
+      },
+      {
+        type: "subhead",
+        text: "SHIVRAJPUR BEACH, GUJARAT",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Located along the Dwarka-Okha highway, this beach in Gujarat is a haven of tranquillity with picture-perfect backdrops and soothing sea breeze brushing against your face, offering an ideal serene getaway. Watch a mesmerising sunset enveloping this seaside paradise as you feel the touch of salty sea water on your feet. You can also catch a glimpse of dolphins and a variety of birds here. For an immersive thrilling experience, enjoy water activities such as scuba diving, snorkelling and sea bathing in clean waters. It is among the few 'blue flag' certified beaches that focus on providing beach goers clean and hygienic facilities.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Spend some time at the pilgrimage centre of Dwarka, about 12 km away. Close-by is a pristine island, Beyt Dwarka that offers scenic vistas. Visit the Marine National Park at Pirotan to witness beautiful coral reefs.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Try methi na gota, fansi nu shak, farsan (snacks such as bhakarwadi, patra, khakra and others) and a traditional Gujarati thali.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "BUTTERFLY BEACH, GOA",
+        page: 48
+      },
+      {
+        type: "p",
+        text: "A hidden treasure in the coastal paradise of Goa, Butterfly Beach emerges as one of the region's most secluded gems, accessible only by boat or a scenic hike. Tucked away in South Goa, this haven lives up to its name, particularly during low tides when it becomes a fluttering sanctuary for butterflies. Beyond this enchanting spectacle, the beach unveils a thriving marine world during low tides, showcasing crabs, goldfish, sea urchins, sea cucumbers, and vibrant redfish. Dolphin enthusiasts will be delighted, as sightings are common here. Sunset unveils a breathtaking panorama. For a more immersive experience, consider a tranquil canoe ride along the meandering streams that grace the surroundings. The semi-circular bay, adorned with turquoise blue waters, is embraced by lush landscapes, earning it the affectionate moniker of the \"honeymoon beach,\" making it a romantic retreat for couples.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Located close-by is the Fort Cabo de Rama. Try activities like kayaking.",
+        page: 48
+      },
+      {
+        type: "subhead",
+        text: "FOOD",
+        level: 3,
+        page: 48
+      },
+      {
+        type: "p",
+        text: "Don't miss vindaloo (a Portuguese dish), sanna, a moist spongy rice cake, solantule kodi, a piquant coconut curry, and kokum curry.",
+        page: 48
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-3.webp",
+        alt: "Colourful boats on a turquoise lagoon",
+        width: 552,
+        height: 814,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-8.webp",
+        alt: "A diver among fish in blue water",
+        width: 193,
+        height: 192,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-7.webp",
+        alt: "A plate of grilled meat",
+        width: 289,
+        height: 193,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-5.webp",
+        alt: "Coconut palms leaning over a beach",
+        width: 599,
+        height: 410,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-2.webp",
+        alt: "A lighthouse above the sea at sunset",
+        width: 327,
+        height: 335,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-6.webp",
+        alt: "A surfer riding a wave",
+        width: 364,
+        height: 374,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-1.webp",
+        alt: "A carved wooden object shaped like a lotus",
+        width: 232,
+        height: 167,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p44-4.webp",
+        alt: "A plate of prawns with lemon",
+        width: 297,
+        height: 161,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-1.webp",
+        alt: "An aerial view of a sandy beach and surf",
+        width: 892,
+        height: 674,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-3.webp",
+        alt: "An ornate temple tower",
+        width: 225,
+        height: 225,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-2.webp",
+        alt: "An elephant in a forest",
+        width: 214,
+        height: 210,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-5.webp",
+        alt: "A bowl of chicken curry",
+        width: 188,
+        height: 184,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-4.webp",
+        alt: "A river meeting the sea beside a sandbar",
+        width: 486,
+        height: 631,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p46-6.webp",
+        alt: "A red crab on sand",
+        width: 170,
+        height: 169,
+        pdfPages: [
+          46
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-5.webp",
+        alt: "A temple town along the sea",
+        width: 430,
+        height: 212,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-6.webp",
+        alt: "A woman kayaking at sunset",
+        width: 190,
+        height: 192,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-4.webp",
+        alt: "Two glasses of a pink drink",
+        width: 190,
+        height: 189,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-2.webp",
+        alt: "A beach below green cliffs",
+        width: 677,
+        height: 441,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-3.webp",
+        alt: "A secluded cove with blue water",
+        width: 677,
+        height: 432,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-1.webp",
+        alt: "The walls of an old fort on a clifftop",
+        width: 337,
+        height: 232,
+        pdfPages: [
+          48
+        ]
+      },
+      {
+        src: "/images/stories/whispers-of-hidden-shores/p48-7.webp",
+        alt: "A plate of fried snacks",
+        width: 238,
+        height: 200,
+        pdfPages: [
+          48
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 44,
+        items: [
+          "Image: bawarchi.com Image: insta/just.sudha"
+        ]
+      },
+      {
+        pdfPage: 46,
+        items: [
+          "Image: fb/L'attitude49",
+          "Image: Facebook/ Karnataka focus",
+          "Image: lbb.in",
+          "Image: fb/ Dublagadi Sea Beach"
+        ]
+      },
+      {
+        pdfPage: 48,
+        items: [
+          "Image: refersms.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        42,
+        43,
+        44,
+        46,
+        48
+      ],
+      printedPages: [
+        40,
+        41,
+        42,
+        44,
+        46
+      ],
+      imagePdfPage: 42
+    }
+  },
+  {
+    id: "shillong-symphony-of-clouds",
+    slug: "shillong-symphony-of-clouds",
+    title: "Symphony of Clouds",
+    label: "Shillong",
+    section: "Homebound",
+    category: "destinations",
+    author: "Shuvajit Payne and Kunal Bhatia",
+    bylineLabel: "Text:",
+    date: "February 2024",
+    excerpt: "From scenic natural escapades to vibrant culture and culinary delights, explore the diverse wonders of Shillong and its neighbouring regions this season",
+    heroImage: "/images/stories/shillong-symphony-of-clouds.webp",
+    heroImageAlt: "Green hills and valleys under a blue sky with clouds",
+    heroImageSource: "Spice Route - Feb 2024, PDF pages 50–51",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Picture a canvas woven in winding alleyways, painted in shades of mists and clouds. Overlay this dreamscape with the ever-present rhythm of a youthful soul strumming a guitar - that’s the mood you step into when you enter Shillong, the capital city of Meghalaya.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "SCENIC GATEWAY",
+        page: 51
+      },
+      {
+        type: "p",
+        text: "The airport-side approach to the city will make it abundantly clear that breathtaking mountains and valleys are a common sight here. The expansive Umiam Lake at dusk or dawn, with cascading hillsides in hues of blue, weaves a surreal experience. Nature lovers are in for a treat as they wander about the place, be it the panoramic view at the end of a meandering path to the Laitkor Peak, treading the gravel path surrounding Ward's Lake, the exhilarating above-the-clouds escapade at the Laitlum Canyons, or the multitude of gushing waterfalls including the Elephant Falls or the Spread Eagle Falls. For the adventurous, a trek through the Khasi Hills along the verdant David Scott forest trail promises a delightful experience peppered by crystal-clear pools and serene valleys. While exploring the surrounds on a day road trip, make sure to stop at the iconic Nohkalikai Falls, one of the tallest plunge waterfalls in India, in the lush Sohra region. The ethereal sight of the waters cascading down evergreen hills is straight out of a dream. Not very far away, experience the thrill of adventure at Mawsmai Cave where you can spot fossils, or stop at the scenic Mawkdok for a cup of tea. In the West Khasi Hills, a few hours from Shillong, you will be awestruck by the beauty of the biggest river island in Meghalaya, Nongkhnum, where you can seek solace as you bask in the sun or go boating or fishing. The island is surrounded by waterfalls and rare biodiversity, and often hosts local festivals.",
+        page: 51
+      },
+      {
+        type: "subhead",
+        text: "CULTURAL SYNTHESIS",
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Shillong's ubiquitous English architectural influence is epitomised in the forest houses, churches, and educational institutes that dot the city. One of the oldest buildings here is the restored All Saints' Cathedral with striking wooden structures. Equally captivating are the stained glass installations at Cathedral Catholic Church in Laitumkhrah. This old-world colonial charm thrives seamlessly alongside the flourishing and diverse tribal heritage - the Khasi, Jaintia, and Garo tribes, among others, each with their unique identity, festivals, and customs. A stroll at the Don Bosco Centre for Indigenous Cultures is a must to understand the region’s cultural heritage. The galleries showcase lifestyle, language, art and culture in detail, with a skywalk panning to a breathtaking 360-degree view of Shillong. Not very far from the capital is what is dubbed 'nature's museum' — the sacred groves of Mawphlang and the abode of the Khasi deity. Take a tour around the village through the monoliths for a peek into the tribal customs and traditions as you soak in the beauty of an enchanting multi-hued lush landscape with a hint of brightly coloured flowers. On the other side, amidst the West Jaintia Hills, is the cultural and commercial hotspot of Jowai that was once the seat of the Pnar kings. It is an ideal place to encounter local culture besides visiting historical attractions like Syntu Ksiar, the 19th-century Jowai Presbyterian Church, Thadlaskein Lake, Ialong Park and the famous Nartiang monoliths. Don't miss the iconic Krangshuri Falls that unveils like a white curtain over a cave, making for a breathtaking view as you descend multiple rocky steps toward it. Also, visit the enchanting Chympe Falls in East Jaintia Hills.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "RAP, ROCK AND K-POP",
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Beyond tribal beats, Shillong's modern melody owes a nod to its Christian influence. Growing up singing hymns, kids here pick up Western notes quickly. Homegrown rock bands like Indian Ocean boast global popularity, attracting heavy-hitters like The Scorpions and Michael Learns to Rock for unforgettable concerts. YouTube rockstars are the latest craze, and catching them live at the Polo Grounds or the Shillong International Centre for Performing Arts and Culture (colloquially SICPAC) is a must. Or, swing by Laitumkhrah’s Cafe Shillong and Dylan's Cafe for a musical feast.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "A MOVEMENT IN MOTION",
+        page: 56
+      },
+      {
+        type: "p",
+        text: "A predominant craft of the tribals in Meghalaya is weaving of cane or cloth. Attractive specimens populate the local markets, especially the Iewduh Bara Bazar, one of the oldest markets here. From cane baskets and lines of tailors to piles of fresh produce, every corner is a vibrant snapshot of local life. The adjacent and more upmarket Police Bazar is the hangout for trendy shoppers. Shillong’s distinctive products and designs were once underrated but with the surge in tourist interest, a wave of young entrepreneurship has transformed the scene. Explore The Craft Collective Cafe & Store for an array of artisanal products, or the Dakti Craft for its exquisite handmade clay and bamboo creations. Peeling back Shillong's layers reveals much more - daily archery traditions, kayaking and canyoning adventures, and epic day trips await the intrepid explorer.",
+        page: 56
+      },
+      {
+        type: "subhead",
+        text: "What's More",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "NATURE'S MYSTERY",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "Root bridges are a staple of traditional Khasi architecture, facilitating daily pedestrian movement. Not just the Nohwet living root bridge at Mawlynnong, one of Asia's cleanest villages, equally picturesque ones can be spotted at Nongbareh, Padu, Sohra and Nongriat, some of which are double-decker root bridges.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "FLAVOURS FOR FOODIES",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "On the top floor of the Don Bosco Centre, one can taste the diversity of Northeastern cuisines. But the authentic local flavours are in the roadside stalls of momos and jadoh (a rice and meat preparation). Taste a slice of Shillong’s teenage nostalgia packed in Jeves’ Food Corner, or head to the Red Rice in the bustling Police Bazar for a Khasi thali. For the adventurous, doh snam (blood sausages), exotic meat, and fried silkworms await! Pickles made of fiery chillies, bamboo shoots, and berries are perfect gastronomic souvenirs.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "LOCAL INDULGENCE",
+        level: 3,
+        page: 52
+      },
+      {
+        type: "p",
+        text: "The abundance of fruits and berries, such as the sohiong (black cherry), in Meghalaya's hills and forests makes for exceptional homemade wine. Local shops stock affordable fruit wine throughout the year, but the real magic happens at the stalls of spirited local entrepreneurs during Shillong's countless festivals. One insider tip: sip the pocket-friendly Bhutanese Zumzin peach wine.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "BORDER TOWN",
+        level: 3,
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Visit the tranquil town of Dawki (around 80 km from Shillong) near the India-Bangladesh to witness the crystal-clear Umngot River. As you gasp at the vast expanse of the river, make a stop at the Dawki-Tamabil border crossing, where the army personnel on the other side of the border oblige by posing for photographs. Take a boat ride on the emerald waters of Umngot before you return.",
+        page: 54
+      },
+      {
+        type: "subhead",
+        text: "LAND OF PERPETUAL WINDS",
+        level: 3,
+        page: 54
+      },
+      {
+        type: "p",
+        text: "Take a trip to the mystical Balpakram, considered the abode of spirits by the local Garo tribe. Explore the foreboding cliffs, jungles and caves in the region. Visit the famed national park here, which is a treasure trove of animal species, including the endangered wild water buffalo.",
+        page: 54
+      },
+      {
+        type: "note",
+        text: "Best Time to Visit: The most apt time for a trip to Shillong is between February and June, which is when the weather is quite pleasant.",
+        page: 52
+      },
+      {
+        type: "note",
+        text: "Shillong is around 100 km from Guwahati, Assam.",
+        page: 52
+      },
+      {
+        type: "subhead",
+        text: "H I G H L I G H T S",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "MUST-SEE",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Take a road trip to Mawsynram and Cherrapunjee, considered the wettest places on Earth",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "USP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "With colonial heritage, pretty lakes and hills, Shillong is rightly called the 'Scotland of the East'",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "WHAT TO DO",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Visit Shnongpdeng near the Bangladesh border, for riverside camping and other adventure activities",
+        page: 50
+      },
+      {
+        type: "subhead",
+        text: "HISTORY TIP",
+        level: 3,
+        page: 50
+      },
+      {
+        type: "p",
+        text: "Visit the Capt. Williamson Sangma State Museum for an insight into ethnic tribal culture and traditions",
+        page: 50
+      },
+      {
+        type: "note",
+        text: "**Shuvajit & Kunal** are travel writers and photographers. Follow them on Instagram @RicketyRoads.",
+        page: 56
+      }
+    ],
+    callouts: [
+      "Route: SpiceJet connects direct and one-stop flights to Shillong from Delhi, Kolkata, Bagdogra, Bengaluru and many more cities in India. Book now at www.spicejet.com"
+    ],
+    pullQuotes: [
+      "In the South Garo hills lies the mystical Wari Chora with towering canyons and a tranquil river flowing through it"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p51-2.webp",
+        alt: "An island in a blue lake among forested hills",
+        width: 376,
+        height: 376,
+        pdfPages: [
+          51
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p52-1.webp",
+        alt: "A waterfall pouring into a green pool",
+        width: 633,
+        height: 413,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p52-4.webp",
+        alt: "A living root bridge over a stream",
+        width: 413,
+        height: 253,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p52-2.webp",
+        alt: "A glass of red wine beside a decanter and berries",
+        width: 219,
+        height: 235,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p52-3.webp",
+        alt: "A plate of rice with meat",
+        width: 284,
+        height: 284,
+        pdfPages: [
+          52
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p54-4.webp",
+        alt: "A boat on a crystal-clear river",
+        width: 336,
+        height: 335,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p54-2.webp",
+        alt: "A narrow canyon with a river",
+        width: 589,
+        height: 459,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p54-3.webp",
+        alt: "Standing stone monoliths among trees",
+        width: 429,
+        height: 345,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p54-1.webp",
+        alt: "Young women in traditional dress and headgear",
+        width: 338,
+        height: 232,
+        pdfPages: [
+          54
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p56-3.webp",
+        alt: "A blue and white church",
+        width: 269,
+        height: 268,
+        pdfPages: [
+          56
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p56-1.webp",
+        alt: "Exhibits in a museum gallery",
+        width: 378,
+        height: 535,
+        pdfPages: [
+          56
+        ]
+      },
+      {
+        src: "/images/stories/shillong-symphony-of-clouds/p56-2.webp",
+        alt: "Handcrafted objects on display",
+        width: 645,
+        height: 671,
+        pdfPages: [
+          56
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 52,
+        items: [
+          "Image: insta/meghtourism",
+          "Image: Just Shillong"
+        ]
+      },
+      {
+        pdfPage: 54,
+        items: [
+          "Image: en.wikipedia.org",
+          "Image: fb/MeghalayaTourism Image: insta/meghtourism"
+        ]
+      },
+      {
+        pdfPage: 56,
+        items: [
+          "Image: twitter-@ankitv",
+          "Image: Dak_ti Craft - Impressions of a hand"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        50,
+        51,
+        52,
+        54,
+        56
+      ],
+      printedPages: [
+        48,
+        49,
+        50,
+        52,
+        54
+      ],
+      imagePdfPage: 50
+    }
+  },
+  {
+    id: "hallyu-hits-home",
+    slug: "hallyu-hits-home",
+    title: "‘Hallyu’ Hits Home",
+    section: "Kaleidoscope",
+    category: "cuisine",
+    author: "Geetika Sachdev",
+    bylineLabel: "Text:",
+    date: "February 2024",
+    excerpt: "With K-dramas gaining popularity in India, the interest in Korean cuisine has increased manifold. We dig deeper into this new-age trend",
+    heroImage: "/images/stories/hallyu-hits-home.webp",
+    heroImageAlt: "A spread of Korean dishes on a dark table",
+    heroImageSource: "Spice Route - Feb 2024, PDF pages 58–59",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "India’s obsession with K-dramas has reached its pinnacle lately. Crash Landing On You and Kim’s Convenience, among other shows, became smashing hits during the Covid-19 pandemic, impressing the country’s netizens with its brand of romance, comedy and drama. A Netflix report revealed that the viewership of Korean dramas by the Indian audience rose by 370 per cent, between 2019-20. From K-pop to K-beauty, Korean culture has attained global popularity like never before, reinforcing the 'Hallyu' or the K-wave that has taken the world by storm. It has sparked greater interest in Korean cuisine, with food assuming a ‘central’ character in most shows and movies. Whether it’s a romantic date made special with bibimbap, a family bonding over kimchi at dinner or a bowl of piping-hot ramen, there’s something about these dishes that has left the curious diner wanting for more. While some Korean restaurants have been running in different pockets of the country for a while now, unsurprisingly, this K-craze has translated into a meteoric rise",
+        page: 59
+      },
+      {
+        type: "p",
+        text: "in their popularity, particularly in Delhi, Mumbai, Bengaluru, Chennai and Pune. Gung–The Palace, a Korean restaurant that opened in 2007 in Delhi’s Green Park area, can attest to the higher acceptance of this cuisine. Interestingly, its owner Jin Bum Kim’s observation and conviction many years ago helped him become a pioneer in this space. “While I was studying at Delhi University, I found that my batchmates loved gimchi (or kimchi) whenever I brought it in my lunchbox or served at a house party. I realised they enjoyed everything spicy and strong, particularly due to the similarities in Indian cuisine,” he shares. Soon after, Gung opened in Gurugram in 2010 and in Noida in 2011. “An increasing population of Indian youngsters are becoming aware of Korean food. Thanks to K-dramas, they want to experiment with our cuisine. Most of them already know of soju or Korean wine. They are also gaga about Korean barbecue,” adds Kim. The credit for the growing popularity of Korean cuisine partly goes to 'mukbang' videos as well, where the host eats unusually large amounts of food. “I am addicted to ASMR 'mukbang' where the host prepares Korean dishes and eats it in front of the audience. Sounds like chewing, chomping and slurping are rather common, making it a sensory experience for the viewer,” confesses Neha Sinha, a 32-year-old advertising professional from Bengaluru. While the obsession with Korean cuisine may have recently gone mainstream, the food was already popular in Northeast India, with its locals preferring similar kind of meat with a hint of spice, says Ankur Sahni, General Manager at Kofuku, a popular Japanese restaurant with outposts in Goa, Leh, Delhi-NCR, and Mumbai that has recently introduced a Korean menu. “Koreans generally enjoy dinner in a community-style setup with friends and family, hence their meals have large portions. Korean banchan (side dishes) is preferred apart from hot pots. Tteokbokki and bibimbap are also big draws for Indians,” he mentions. The commonalities between Korean and Indian cuisine are far and few. Chef Amal Farooque, Founder, SugarOverDose, Sliders & Fries, and Sage & Olio, in Mumbai, highlights, “Korean cuisine has a lot of red elements—their kimchi and jjigae (Korean stews) are usually reddish-orange. The sweet tangy gochujang and the umami of their soybean paste are palatable by Indians. Their ingredients may not be necessarily similar to the Indian subcontinent but they liberally use gochugaru garlic, onion and sesame in their preparations.” There are also other dishes that reflect the rich culinary tradition of Korea. K-Benedict, Korean corn cheese and vegetable pancakes for instance, hold a prominent place in Korean cuisine. “Observations suggest that the preference for bold and spicy flavours and fermented ingredients are distinctive features of Korean cuisine, contributing to its popularity,” Dhruv Oberoi, Chef at The Grammar Room, Delhi, says. The love for Korean street food is also catching up! The Cafe at Korean Cultural Centre in Delhi and Sibang in Delhi-NCR have frequent visitors for bingsoo, a street-food dessert. Other street foods include crispy Korean fried chicken and corn dog, available at various food joints. The fascination with K-food is here to stay. “I don’t think the obsession is going down anytime soon. Even the older generation is taking interest,” Kim emphasises. As gastronomes throng Korean eateries, culinary enthusiasts have taken to whipping up exotic Korean meals at home and not just ramen! For authentic ingredients, they can always fall back on the exclusive Korean grocery stores that have cropped up in different cities. From Seela Mart in Gurugram to Seoul Store in Bengaluru and Uncle's Shop in Mumbai, the shops have abundant varieties of noodles, rice cake, frozen foods, and more.",
+        page: 60
+      },
+      {
+        type: "subhead",
+        text: "SWEET TOOTH!",
+        level: 3,
+        page: 60
+      },
+      {
+        type: "p",
+        text: "While Korean cuisine is popular for its spicy flavours, it also has a variety of desserts for food connoisseurs to explore. Try out tteok or Korean rice cakes, hotteok (sweet pancakes), the dalgona candy, which become famous from the web series Squid Game and hwachae or traditional Korean punches.",
+        page: 60
+      },
+      {
+        type: "subhead",
+        text: "What's More",
+        page: 61
+      },
+      {
+        type: "subhead",
+        text: "BOWL FOR SOUL",
+        level: 3,
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Bibimbap, a Korean rice dish, derives from bibim meaning ‘mixing’ and bap that translates to cooked rice. The most searched dish on Google in 2023 is served as a bowl of warm white rice topped with namul (variety of edible grass or leaves) and gochujang (chilli paste). Many prefer to add egg and sliced meat too!",
+        page: 61
+      }
+    ],
+    pullQuotes: [
+      "According to a chef, the various forms and types of Korean banchan is similar to our achaar and murabba culture",
+      "Korean fried chicken and corn dog are some of the street-food favourites among young Indians"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/hallyu-hits-home/p59-2.webp",
+        alt: "A bowl of Korean chicken soup",
+        width: 439,
+        height: 357,
+        pdfPages: [
+          59
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p60-2.webp",
+        alt: "Kimchi in a black bowl with chopsticks",
+        width: 757,
+        height: 573,
+        pdfPages: [
+          60
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p60-3.webp",
+        alt: "Spicy noodles with rice cakes and a boiled egg",
+        width: 346,
+        height: 342,
+        pdfPages: [
+          60
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p60-1.webp",
+        alt: "Cups of Korean tea with dates",
+        width: 330,
+        height: 279,
+        pdfPages: [
+          60
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p61-1.webp",
+        alt: "A bowl of bibimbap topped with a fried egg",
+        width: 249,
+        height: 261,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p61-2.webp",
+        alt: "Corn dogs on a plate",
+        width: 487,
+        height: 737,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/hallyu-hits-home/p61-3.webp",
+        alt: "A Korean pancake being dipped in sauce",
+        width: 634,
+        height: 479,
+        pdfPages: [
+          61
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 61,
+        items: [
+          "Image: eng.obozrevatel.com"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        58,
+        59,
+        60,
+        61
+      ],
+      printedPages: [
+        56,
+        57,
+        58,
+        59
+      ],
+      imagePdfPage: 58
+    }
+  },
+  {
+    id: "house-of-quirk-unusual-museums",
+    slug: "house-of-quirk-unusual-museums",
+    title: "House of Quirk",
+    section: "Montage",
+    category: "culture",
+    date: "February 2024",
+    excerpt: "From a vibrant balloon museum in Spain to one exhibiting an exotic array of gold pieces, these unusual museums around the world are a must-visit.",
+    heroImage: "/images/stories/house-of-quirk-unusual-museums.webp",
+    heroImageAlt: "A pink room with a vintage ice cream cart",
+    heroImageSource: "Spice Route - Feb 2024, PDF pages 62–63",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Museums are usually deemed to be solemn spaces, housing rare and priceless weaponry, manuscripts, and other cultural, artistic and traditional artefacts of yore. But around the world are also located some really quirky places that house items that you wouldn't imagine seeing inside a museum, from noodles to even ice cream! Take a look at some of them.",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "Present across many locations, including **Singapore** and **New York City**, the **Museum of Ice cream** is about all things pink and frosty. It has different interactive activities for visitors.",
+        page: 63
+      },
+      {
+        type: "p",
+        text: "Bring out the child in you at the **Pop Air Balloon Museum** in **Madrid**, **Spain**. It has colourful installations and experiential activities bringing out 'air' as a distinctive element.",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "**Photo: Al More**",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "If you are a fan of instant noodles, the **Cup Noodles Museum** in **Osaka, Japan** is the right place for you. The vivid showcase tells you about the history of the invention of instant noodles.",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "**Photo: Supachai Panyaviwat**",
+        page: 64
+      },
+      {
+        type: "p",
+        text: "**The International Spy Museum** in **Washington DC, US**, houses one of the biggest collections of espionage artefacts, which are open for public display. It is a heaven for all spy enthusiasts.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "**Photo: Antares_NS**",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "All that glitters is gold at the **Gold Museum** in **Bogota, Colombia**. It has a collection of over 34,000 gold pieces, most of them of historical importance.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "**Photo: OSTILL is Franck Camhi**",
+        page: 65
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/house-of-quirk-unusual-museums/p64-2.webp",
+        alt: "Giant colourful balloon installations",
+        width: 1028,
+        height: 650,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/house-of-quirk-unusual-museums/p64-1.webp",
+        alt: "A wall displaying hundreds of instant noodle cups",
+        width: 948,
+        height: 623,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/house-of-quirk-unusual-museums/p65-1.webp",
+        alt: "Exhibits in glass cases at a museum",
+        width: 1031,
+        height: 608,
+        pdfPages: [
+          65
+        ]
+      },
+      {
+        src: "/images/stories/house-of-quirk-unusual-museums/p65-2.webp",
+        alt: "Visitors in a dark gallery around a glowing display of gold",
+        width: 1055,
+        height: 718,
+        pdfPages: [
+          65
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 62,
+        items: [
+          "Image: fb/Museum of Ice Cream Sg"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        62,
+        63,
+        64,
+        65
+      ],
+      printedPages: [
+        60,
+        61,
+        62,
+        63
+      ],
+      imagePdfPage: 62
+    }
+  },
+  {
+    id: "ananya-panday-id-rather-my-work-speak-about-me",
+    slug: "ananya-panday-id-rather-my-work-speak-about-me",
+    title: "“I’d rather my work speak about me”",
+    section: "Limelight",
+    category: "interviews",
+    author: "Aarti Kapur Singh",
+    bylineLabel: "Text:",
+    date: "February 2024",
+    excerpt: "Young actor Ananya Panday is riding high on her recent professional success and says that this is the validation that she was looking forward to. In an interview, she speaks about work, social media and her personal life",
+    heroImage: "/images/stories/ananya-panday-id-rather-my-work-speak-about-me.webp",
+    heroImageAlt: "Ananya Panday posing in a red outfit",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 66",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "The critics may have labelled her as \"just another star-kid\" during her debut film Student of the Year 2 but actor Ananya Panday has proven her worth. Particularly noteworthy is her recent performance in the OTT film Kho Gaye Hum Kahan, where critics have praised Panday as \"terrific and evolved\" in the role of Ahaana. In the film, the young icon explores the impact of social media on one's life, portraying a proactive character addressing the challenges youngsters face due to the constant flow of information on social platforms. Panday emphasises the anxiety-inducing impact of platforms that can make them distressed. The actor is riding high with the praise her latest release has garnered. Panday says, \"I feel more validated than happy. Not just the fact that I chose to be Ahaana, but also that my character makes those choices in the film. I am happy that people noticed small things that I did in the film and liked them. More than anything, they found comfort in my character.\" Talking about the response her latest release has received, the 25-year-old shares, “We are all so much over the moon! It was a very pleasant surprise! What was noteworthy was that despite being on OTT, the response was theatrical - almost everyone saw it at the same time - almost as soon as it was released.\" Directed by Arjun Varain Singh, the film delves into the complexities of modern relationships in the era of social media. Speaking about the relatable nature of the narrative, Panday says, \"It is very real - how the characters interact, how they spend time, hangout at specific places, and just the way that the world is right now - social media is the fourth character in everyone’s life now - and how relationships are being affected in this time. Isn't it very real?” The young Gen Z cast and crew left no stone unturned in their efforts to make the film seem as real and relatable as possible. Narrating an anecdote while shooting in Goa, Panday says, \"In the very first schedule, we went to Goa to shoot the first song ‘Hone Do Jo Hota Hai,’ which I actually recorded on my phone. They gave us scooters and sent us to bars and beaches. All of it was actually happening, and I just happened to record all of it on my phone, and we made a song out of it. Isn't that how most of us in this generation live - take life as it comes?\"",
+        page: 66
+      },
+      {
+        type: "subhead",
+        text: "Personal space",
+        page: 67
+      },
+      {
+        type: "p",
+        text: "This is also probably why the actor, with an active presence on social media, is adept at dodging questions on her personal life. Panday has not been exactly revelatory about her relationship with rumored beau actor Aditya Roy Kapoor, but neither has she been coy. Ask her about all the conjecture of personal and professional life on social media and she says, “We are living in times dominated by media. Weird as it may sound, my generation doesn’t really know a world without social media. Even before my first film, I was always posting on social media, but in a private account with 15 to 20 friends. Now, privacy is one of the things I am choosing very consciously. I'd rather my work tell you more about me.\" In response to her father's (veteran actor Chunky Panday) comments about her relationship with Kapoor on social media, she says, \"That's his choice. Honestly, social media is a beast that should not be taken seriously. I tend to take it with a pinch of salt. I'm a believer in keeping things private and special because you are dealing with relationships like any normal person. You are feeling it out with the person that you are with, and so sometimes it feels unfair and little personal to put those things out for everyone to comment on. I don't think I am comfortable with that.\" For now, the actor is in a happy space. \"It is a long journey ahead. I want to do big commercial cinema, which I love watching as an audience. I want to do a biopic of a sportsperson or a classical singer or dancer, for which I have to learn a specific skill. I want to be challenged as an actor,\" she adds. Excited about her upcoming cyber-thriller, Control by Vikramaditya Motwane, she says, \"I am hoping people will appreciate the choices I am making and continue to support me in my growth as a performer.\"",
+        page: 67
+      },
+      {
+        type: "subhead",
+        text: "Knowing her better",
+        page: 68
+      },
+      {
+        type: "subhead",
+        text: "Cheat meal",
+        level: 3,
+        page: 68
+      },
+      {
+        type: "p",
+        text: "\"I am obsessed with chicken dishes. I could probably have butter chicken all my life! I am obsessed with chicken popcorn too! It might not show on my body, but I eat a lot! My ideal cheat meal would be butter chicken with cheese naan and then choco-chip cookies with ice cream.\"",
+        page: 68
+      },
+      {
+        type: "subhead",
+        text: "Cooking therapy",
+        level: 3,
+        page: 68
+      },
+      {
+        type: "p",
+        text: "\"I can't cook much but I do make a good Szechwan cheese dosa! My friends joke that I could be sending them that every morning for breakfast! I love pottering around in the kitchen. It is therapeutic!\"",
+        page: 68
+      },
+      {
+        type: "subhead",
+        text: "Ideal holiday",
+        level: 3,
+        page: 68
+      },
+      {
+        type: "p",
+        text: "“That would be at home, in my bed, munching chicken popcorn with endless bowls of Maggi and watching Kill Bill or Shutter Island.\"",
+        page: 68
+      },
+      {
+        type: "subhead",
+        text: "Dream vacation",
+        level: 3,
+        page: 68
+      },
+      {
+        type: "p",
+        text: "\"One year of my life, I want to dedicate to just travelling! From Ibiza to Mexico and from Paris and South Africa to Japan, I want to globe-trot.\"",
+        page: 68
+      }
+    ],
+    pullQuotes: [
+      "Ananya Panday says that she loves big commercial cinema. The actor adds, \"I want to do a biopic of a sportsperson or a classical singer or dancer, for which I have to learn a specific skill.\""
+    ],
+    gallery: [
+      {
+        src: "/images/stories/ananya-panday-id-rather-my-work-speak-about-me/p67-1.webp",
+        alt: "Ananya Panday on a film poster",
+        width: 590,
+        height: 689,
+        pdfPages: [
+          67
+        ]
+      },
+      {
+        src: "/images/stories/ananya-panday-id-rather-my-work-speak-about-me/p67-2.webp",
+        alt: "The poster of the film Khaali Peeli",
+        width: 326,
+        height: 392,
+        pdfPages: [
+          67
+        ]
+      },
+      {
+        src: "/images/stories/ananya-panday-id-rather-my-work-speak-about-me/p68-1.webp",
+        alt: "The poster of Kho Gaye Hum Kahan",
+        width: 662,
+        height: 735,
+        pdfPages: [
+          68
+        ]
+      },
+      {
+        src: "/images/stories/ananya-panday-id-rather-my-work-speak-about-me/p68-2.webp",
+        alt: "Portrait of Ananya Panday",
+        width: 352,
+        height: 441,
+        pdfPages: [
+          68
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 66,
+        items: [
+          "Images: insta/iananyapanday"
+        ]
+      },
+      {
+        pdfPage: 67,
+        items: [
+          "Images: IMDB"
+        ]
+      },
+      {
+        pdfPage: 68,
+        items: [
+          "(Above) A poster of Kho Gaye Hum Kahan, (left) Panday striking a pose"
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        66,
+        67,
+        68
+      ],
+      printedPages: [
+        64,
+        65,
+        66
+      ],
+      imagePdfPage: 66
+    }
+  },
+  {
+    id: "tuning-in-world-radio-day",
+    slug: "tuning-in-world-radio-day",
+    title: "Tuning In",
+    section: "Number Game",
+    category: "culture",
+    date: "February 2024",
+    excerpt: "World Radio Day (February 13) aims to promote the medium's value in disseminating information and fostering freedom of expression. Marking the occasion, here are some interesting facts about radio",
+    heroImage: "/images/stories/tuning-in-world-radio-day.webp",
+    heroImageAlt: "A vintage photograph of a man beside an early radio set with a horn",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 70",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "p",
+        text: "Italian inventor Guglielmo Marconi proved the feasibility of radio communication and is often dubbed the father of modern radio. He is credited with the first successful transatlantic radiotelegraph message in **1902**",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "World Radio Day was proclaimed by the Member States of UNESCO in 2011 and adopted by the United Nations General Assembly in 2012. It is on February 13, 1946 that the United Nations Radio was launched",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "In India, the first ever broadcast was made by the Radio Club of Bombay in June 1923, followed by the setting up of the Calcutta Radio Club five months later",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "Edwin Howard Armstrong is credited with the invention of frequency modulation (FM) radio. The first FM station began broadcasting in 1939 from New Jersey",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "The theme for World Radio Day this year is “Radio: A century informing, entertaining and educating,” marking its significant past, and power to connect with people at the grassroots",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "KDKA of the Westinghouse Electric and Manufacturing Company in East Pittsburgh, Pennsylvania, is considered to be the world's first commercially licensed station that went on air on November 2, 1920",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "The British Broadcasting Company or the BBC, as it is famously called, also played a significant role in the development of radio service. Formed in 1922, it started its first daily radio service in London",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "Radio is not just a low-cost means of communication and entertainment but has also served as an important tool in emergency situations, when disasters hit infrastructure or electricity",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "India's first private 24-hour FM channel was launched in 2001 in Bengaluru",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "The name 'Akashvani' was first adopted for India's national broadcaster in 1956",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "India's public service broadcaster, the Akashvani (formerly All India Radio that came into being in 1936), broadcasts in 23 languages and 179 dialects, making it one of the largest broadcasting organisations in the world",
+        page: 71
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/tuning-in-world-radio-day/p71-1.webp",
+        alt: "Black-and-white photograph of a man at early radio equipment",
+        width: 347,
+        height: 251,
+        pdfPages: [
+          71
+        ]
+      },
+      {
+        src: "/images/stories/tuning-in-world-radio-day/p71-2.webp",
+        alt: "Black-and-white photograph of the BBC's Broadcasting House",
+        width: 306,
+        height: 396,
+        pdfPages: [
+          71
+        ]
+      },
+      {
+        src: "/images/stories/tuning-in-world-radio-day/p71-3.webp",
+        alt: "The Akashvani logo",
+        width: 183,
+        height: 173,
+        pdfPages: [
+          71
+        ]
+      },
+      {
+        src: "/images/stories/tuning-in-world-radio-day/p71-4.webp",
+        alt: "A vintage radio set",
+        width: 206,
+        height: 213,
+        pdfPages: [
+          71
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        70,
+        71
+      ],
+      printedPages: [
+        68,
+        69
+      ],
+      imagePdfPage: 70
+    }
+  },
+  {
+    id: "your-forecast-this-month-february-2024",
+    slug: "your-forecast-this-month-february-2024",
+    title: "Your Forecast This Month",
+    label: "February 2024",
+    section: "Astro Time",
+    category: "predictions",
+    date: "February 2024",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You have been working quite hard for some time but the results have been a little slow. This might have frustrated you a bit. You will be happy to know that this is temporary and will change soon. You need to take care of yourself and get proper rest. Money will come in from an unexpected source. It is time to take a break!",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You will deal with all financial concerns with utmost effectiveness and will be resourceful in acquiring money. Your business will thrive and a commission, assignment, or offer of employment is on the horizon. You will be happy to hear about it. If you have been waiting for a call, it's on its way. Cheer up!",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You will take some decisive actions which will improve your life greatly. Any tough situation that has been causing any kind of tension in the past is going to end soon. It's your time to hit the spotlight and present those ideas. You might receive a cheque or a payment. Tone down that party animal within you.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "Are you worried that your resources are drying up? Or that you might never cover the losses from the past? The good news is that this situation will improve and you will feel relaxed, as this issue will be getting resolved itself. Someone from your past is going to return, you better be careful about what decision you have to make. What would you do?",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "Work is piling up! Avoid pushing it away and stop running from it. You’ll be lucky in tackling your problems with sheer courage. You might think that some money has been lost or you might have incurred some kind of loss, but do not worry, it will be recovered. An unexpected financial gain could also be indicated. Get going!",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "There are some lucky breaks and cost cuts that are improving your finances, so cheer up! If someone owes you money, this is the perfect time to call them, as you will get it back. An important news or decision is coming your way regarding your livelihood. Moving to a different environment will ease existing tensions, so do not fret.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You might feel apprehensive about your work or that something is not going as expected. Do not get disheartened as things are about to turn in your favour. It's time to let go of the past baggage. You will make new friends, mend relationships and set things straight for yourself and the future.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You will escape from all or any oppressive situation and will have unexpected gains in terms of your finances. You might feel upset over a call. Know that how others behave has nothing to do with you and is a reflection of their selves. In situations like these, it is better to walk away or simply say 'no', when things feel fishy. Do not worry!",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "It is time to have that delayed conversation and finally discuss those finances and come to a conclusion which will result in an increase in your profits. Take one step at a time! Speak and act only when required. If you are doubtful about something, stay quiet. You will be in a position of power. Expansion and success is coming.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "Quit trying to force anything and wait for things to unfold gradually. Keep that assertiveness on the down low for now. Make sure to share a good laugh with your colleagues. The work might have been a little mundane for you, but do not worry as things are changing for you. It's time for a change, especially when it comes to perspective.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "Profits or earnings from business may have been slow in the past, but things are going to take an upward swing and improve steadily. Your patience has finally paid off! You may have to hustle a little to collect the money that you deserve, but you will be happy to know that you will be victorious in the end. All is well.",
+        page: 72
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 72
+      },
+      {
+        type: "p",
+        text: "You can expect financial success, regardless of some obstacles or problems. This is because it is your time to shine when it comes to getting that money! You will soon be with the one your heart is yearning for! A union is on the cards! A health problem requires a little attention, but nothing you will not be able to handle.",
+        page: 72
+      },
+      {
+        type: "note",
+        text: "Tarot card reader and holistic healer Poonam Sethi believes in the power of giving. With a career spanning more than three decades, Sethi today is an internationally-acclaimed tarot card reader, Reiki healer, colour therapist, Feng Shui practitioner, crystal healer, a specialist in removal and balancing the negative evil eye energies and a rudraksha consultant. She is also the author of The Power of Feng Shui, which offers 90 practical and efficient tips to improve one's life. For details, contact – poonamsethi27@hotmail.com",
+        page: 72
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        72
+      ],
+      printedPages: [
+        70
+      ],
+      imagePdfPage: 72
+    }
+  },
+  {
+    id: "my-town-hyderabad",
+    slug: "my-town-hyderabad",
+    title: "My Town",
+    label: "Hyderabad",
+    section: "RedHot",
+    category: "destinations",
+    author: "Ms. Anjali Hatte",
+    role: "Senior Cabin Crew, Hyderabad",
+    date: "February 2024",
+    excerpt: "In our series, in which we travel to various Indian cities with a SpiceJet family member, this time, Anjali Hatte, Cabin Crew (Hyderabad), takes us around her hometown.",
+    heroImage: "/images/stories/my-town-hyderabad.webp",
+    heroImageAlt: "Illustration: Hyderabad landmarks in watercolour",
+    heroImageSource: "Spice Route - Feb 2024, PDF page 76",
+    heroImageLicence: "pending",
+    editionSlug: "february-2024",
+    editionTitle: "Spice Route - Feb 2024",
+    body: [
+      {
+        type: "question",
+        text: "Are you originally from Hyderabad?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Yes, I was born and brought up in the City of Pearls, Hyderabad.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the quality of life here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Hyderabad is a destination unlike others because of the blend of its historic past and modern expediencies. The city's remarkable architectural wonders, including Golconda Fort and Charminar, will take you back in time. Hyderabad has a rich culinary heritage, which contributes to delicious food served in its eateries. Furthermore, visitors will always receive the same degree of hospitality from residents, regardless of their purpose of visit.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the best thing about the city?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Honestly, there are so many things about Hyderabad that I like but what stands apart is that it welcomes people from all over the country. From having the biggest monolithic Buddha statue and largest film studio to being the original home of Koh-I-Noor, the most precious diamond in the world, the allure of this city is unmatched.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "As compared to other big cities, how is the lifestyle in Hyderabad different?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Hyderabad is a city of rich culture and history. The contemporary world sees the city as a combination of age-old culture with a touch of urban lifestyle. Hyderabadi people are regarded as very friendly and hospitable. This city exhibits a high index of happiness.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What are the people here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "Generosity is often synonymous with Hyderabadis. They take immense pleasure and pride in conversing in their local, characteristic, and vibrant Hyderabadi language, which is a mix of Urdu, Hindi and Telugu. They are known for their ability to maintain a unique blend of traditions, customs and lifestyle.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "What is the night scene here like?",
+        page: 76
+      },
+      {
+        type: "p",
+        text: "There are a wide variety of places to explore during the after-hours, including both upscale and alternative venues. The nightlife here reflects the city’s cultural diversity. One can visit swanky bars and clubs in trendy areas, local watering holes or hawker stands in the historic core. The nightlife of a city is about more than simply going out and having a good time; it's also about learning the city's history and customs.",
+        page: 76
+      },
+      {
+        type: "question",
+        text: "Are you a foodie? Which is your favourite eatery in Hyderabad?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Yes, being a Hyderabadi, I cannot deny this fact. People enjoy delicacies like the Irani chai, biryani, mandi and haleem. The multitude of eateries and street food vendors providing an extensive range of cuisines makes it easy to find something to satisfy everyone's palate. Bawarchi and Shah Ghouse have always been my personal favourites. The city is a great destination for foodies because there are tons of options to try and enjoy. Here, you will experience the finest food, perfectly combining ancient traditions and authentic flavours.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "How did you discover the eating places?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Generally, I keep track of trending places as per the recommendations on social media platforms and my friends.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which are the best places to hang out in Hyderabad?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are a number of cool places for hanging out in Hyderabad like Hussain Sagar Lake, Hyderabad Botanical Gardens, Ramoji Film City, Charminar, Snow World, Golconda Fort, 10 Downing Street, and more. The prominent places to hang out offer a plethora of opportunities to globetrotters to indulge in the historical heritage of the city, combined with exotic food delicacies.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Why do you like these places so much?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "They are famous for curries like butter chicken, gongura mutton, etc. These places always feel like home, and the staff is welcoming and courteous as well.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What attractions in Hyderabad would you recommend to a tourist?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Charminar is at the top of the list. The surrounding Laad Bazar and the 400-year-old mosque on the top floor of Charminar make it worth the visit. Golconda Fort is also one of the most magnificent fortresses with its impressive architecture. Chowmohallah Palace is famous for its style and elegance, a magnificent palace showcasing the Nizam's opulent lifestyle and architecture. The list is never-ending.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "What are the other places to explore near Hyderabad?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "There are many places near Hyderabad worth exploring including Bidar, which is well known for its historical monuments, like Bidar Fort and Bahmani Tombs. Warangal is home to the beautiful Warangal Fort and Thousand Pillar Temple. Visiting the Nagarjuna Sagar Dam is a must and exploring the Ethipothala Waterfall is another adventure.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "Which are the other places where you have stayed in India? How is Hyderabad compared to them?",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "As someone working in the aviation sector as crew, I have had the opportunity to travel across different countries and explore a variety of different things at each destination like music, dance, cultural beauty and architecture, Hyderabad is different; it has everything one desires. It is a land of mouth-watering cuisines where every street and lane smells of good food amid remains of an age-old culture.",
+        page: 77
+      },
+      {
+        type: "question",
+        text: "PLEASE DESCRIBE YOUR FAVOURITE DISH.",
+        page: 77
+      },
+      {
+        type: "p",
+        text: "Dum biryani is my all-time favourite. Hyderabadi biryani has a confluence of different cultures. It got famous because of its ability to imbibe many food ingredients. What makes it special is the way it is cooked. The aroma stirs up your senses when you pass through the area. Lately, the eateries serving mandi in Hyderabad have seen huge crowds due to the high public demand, especially in the Old City.",
+        page: 77
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/my-town-hyderabad/p76-3.webp",
+        alt: "Portrait of Ms. Anjali Hatte in a SpiceJet uniform",
+        width: 380,
+        height: 428,
+        pdfPages: [
+          76
+        ]
+      },
+      {
+        src: "/images/stories/my-town-hyderabad/p77-1.webp",
+        alt: "Illustration: the Charminar drawn in ink",
+        width: 698,
+        height: 645,
+        pdfPages: [
+          77
+        ]
+      },
+      {
+        src: "/images/stories/my-town-hyderabad/p77-2.webp",
+        alt: "A pot of dum biryani",
+        width: 244,
+        height: 318,
+        pdfPages: [
+          77
+        ]
+      }
+    ],
+    source: {
+      edition: "february-2024",
+      pdf: "SpiceRouteFeb24.pdf",
+      pdfPages: [
+        76,
+        77
+      ],
+      printedPages: [
+        74,
+        75
+      ],
+      imagePdfPage: 76
+    }
+  },
+  {
+    id: "welcome-aboard-august-2026",
+    slug: "welcome-aboard-august-2026",
+    title: "Welcome Aboard",
+    section: "Welcome Aboard",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman & Managing Director",
+    date: "August 2026",
+    excerpt: "Welcome aboard SpiceJet! As the monsoon settles across the country, painting familiar landscapes in shades of green, it also brings with it a renewed sense of optimism. Aviation has always been an industry that tests resilience. Every airline encounters headwinds, but what defines it is the ability to stay the course with discipline, determination and an unwavering focus on its passengers.",
+    heroImage: "/images/stories/welcome-aboard-august-2026.webp",
+    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
+    heroImageSource: "Spice Route - August 2026, PDF page 4",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet!",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "As the monsoon settles across the country, painting familiar landscapes in shades of green, it also brings with it a renewed sense of optimism. Aviation has always been an industry that tests resilience. Every airline encounters headwinds, but what defines it is the ability to stay the course with discipline, determination and an unwavering focus on its passengers.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "For over 21 years, that spirit has defined SpiceJet. Every challenge has strengthened our resolve and every milestone has reaffirmed our commitment to connecting people safely, reliably and affordably.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "The global aviation environment continues to remain challenging, with geopolitical developments, supply chain constraints and cost pressures affecting airlines across the world. Despite the challenges, one thing has never changed – the enduring appeal of travel. Every major disruption the aviation industry has faced has eventually been followed by renewed demand. We saw it after the pandemic, when people returned to the skies in record numbers. Travel is about far more than reaching a destination. It is about spending time with loved ones, discovering new places and creating memories that last a lifetime. That enduring spirit continues to inspire us and gives us every reason to look to the future with confidence.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "SpiceJet continues to make steady progress, strengthening its fleet, expanding capacity and laying the foundation for its next phase of growth. We recently inducted three aircraft into our fleet and expect to add more aircraft in the coming months. We are also in the final stages of lease arrangements for another 20 aircraft, with deliveries expected to commence shortly. These additions will strengthen our network, enhance connectivity and provide our passengers with greater choice and convenience as we continue to grow in a measured and sustainable manner.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "As we continue to grow, our focus remains firmly on delivering a better travel experience. We are strengthening our operations across the board to offer greater reliability, improved connectivity and a smoother journey from booking to arrival. Every addition to our fleet brings with it greater flexibility, allowing us to serve our passengers better while maintaining the high standards of safety and service that remain at the heart of everything we do.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Before I conclude, I would like to congratulate our outstanding Indian boxers, who continue to bring pride to the nation with their achievements on the international stage. Just as every successful flight is the result of discipline, preparation and teamwork, sporting excellence is built on the same values. From Olympic medallist Lovlina Borgohain leading India’s campaign at the Commonwealth Games in Glasgow to our young boxers delivering an impressive performance at the Asian U-19 & U-23 Boxing Championships in Jakarta, they have once again demonstrated the immense talent and determination that define Indian sport. We wish them continued success and look forward to celebrating many more milestones in the years ahead.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "As I conclude, I would like to thank you for choosing SpiceJet and for placing your trust in us. It is a privilege to be a part of your journeys, and we look forward to welcoming you onboard again soon.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Happy flying.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 4
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        4
+      ],
+      printedPages: [
+        2
+      ],
+      imagePdfPage: 4
+    }
+  },
+  {
+    id: "welcome-aboard-july-2026",
+    slug: "welcome-aboard-july-2026",
+    title: "Welcome Aboard",
+    section: "Welcome Aboard",
+    category: "welcome-aboard",
+    author: "Ajay Singh",
+    role: "Chairman & Managing Director",
+    date: "July 2026",
+    excerpt: "Welcome aboard SpiceJet! The monsoon season is gradually settling in across large parts of India, transforming the landscape with shades of green and breathing new life into rivers, hills and forests. It is wonderful to see how the rains have become a travel season in their own right, with holidaymakers increasingly planning their journeys around the arrival of the monsoon and the unique beauty it brings.",
+    heroImage: "/images/stories/welcome-aboard-july-2026.webp",
+    heroImageAlt: "Ajay Singh, Chairman & Managing Director of SpiceJet, leaning against an aircraft engine",
+    heroImageSource: "Spice Route - July 2026, PDF page 4",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "p",
+        text: "DEAR READERS,",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Welcome aboard SpiceJet!",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "The monsoon season is gradually settling in across large parts of India, transforming the landscape with shades of green and breathing new life into rivers, hills and forests. It is wonderful to see how the rains have become a travel season in their own right, with holidaymakers increasingly planning their journeys around the arrival of the monsoon and the unique beauty it brings.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "There is something special about seeing India during the monsoon. The rains transform familiar landscapes, filling lakes and rivers, cloaking hills in mist and bringing a freshness that is difficult to find at any other time of the year. From the cloud-kissed hills of Shillong and the breath-taking valleys of Srinagar to the lush greenery of Goa, the season offers a completely different perspective of the country. With air connectivity making these destinations more accessible than ever, it is easier to experience the beauty of the monsoon first-hand. At SpiceJet, we are delighted to connect you and your loved ones to some of India’s most beautiful destinations and be a part of your journey.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "As more Indians take to the skies than ever before, SpiceJet remains focused on strengthening its network and enhancing the travel experience for its passengers. I am delighted to share that we are inducting three Airbus A320 aircraft into our fleet. These additions will help us expand capacity, strengthen connectivity across key routes and offer our passengers greater choice and convenience as we continue to grow our network.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "I am also pleased to share that SpiceJet has successfully brought another Boeing 737 MAX aircraft back into commercial service under its Return to Service programme. The aircraft’s return marks another important step in our efforts to strengthen the fleet and expand capacity. Over the past several months, we have been working closely with OEMs, maintenance partners and lessors to bring grounded aircraft back into service, and we are seeing steady progress on that front. Each aircraft that returns to the skies helps us improve connectivity, enhance reliability and serve our passengers better. Beyond aviation, it is always a matter of great pride to see Indian athletes excel on the global stage. This month, our young boxers delivered a series of outstanding performances at international competitions, bringing home an impressive haul of medals and once again showcasing India’s growing strength in the sport.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "From the World Boxing Cup in China to the prestigious Grand Prix Usti nad Labem in Czechia, our boxers displayed remarkable skill, determination and fighting spirit against some of the best talent from around the world. Their success is a reflection of the hard work and dedication that goes into representing the country at the highest level.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "These achievements not only make the nation proud but also inspire countless young Indians to dream bigger and pursue excellence in their chosen fields. My heartiest congratulations to all the athletes, coaches and support staff who contributed to this success. As citizens, we remain deeply grateful to these young champions for giving us moments of pride and reminding us of what India can achieve on the world stage.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Thank you for choosing SpiceJet and for placing your trust in us. It is a privilege to be a part of your journeys, and we remain committed to making every trip safe, comfortable and memorable.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "We look forward to welcoming you onboard again soon.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Happy flying.",
+        page: 4
+      },
+      {
+        type: "p",
+        text: "Jai Hind!",
+        page: 4
+      }
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        4
+      ],
+      printedPages: [
+        2
+      ],
+      imagePdfPage: 4
+    }
+  },
+  {
+    id: "whats-trending-september-2026",
+    slug: "whats-trending-september-2026",
+    title: "What’s Trending",
+    section: "Hot & Happening",
+    category: "culture",
+    date: "September 2026",
+    excerpt: "",
+    heroImage: "/images/stories/whats-trending-september-2026.webp",
+    heroImageAlt: "A lakeside café with blue-framed windows and tables",
+    heroImageSource: "Spice Route - Sept 2026, PDF page 20",
+    heroImageLicence: "pending",
+    editionSlug: "september-2026",
+    editionTitle: "Spice Route - Sept 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "FOOD HEAVEN BY THE LAKE",
+        page: 20
+      },
+      {
+        type: "p",
+        text: "**The Hazelnut Factory** (THF) has opened THF Lakehouse on Nainital’s iconic Mall Road, marking their entry into Uttarakhand. Founder and CEO Ankit Sahni spent his school years in Nainital, and THF’s 23rd outlet brings him back, presenting the brand’s signature artisanal *mithai*, handcrafted desserts, specialty coffee, fresh bakes, and all-day dining against the beautiful backdrop of Nainital Lake. Designed to complement the city’s old-world charm, the space combines contemporary interiors with warm, intimate surroundings and beautiful views of the water.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**What**: THF Lakehouse",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Mall Road, Nainital",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "JOURNEY TO THE INFINITE",
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Artist and architect Vasant Dora presents **Aaveg: Between the Finite and the Infinite**, a solo exhibition curated by Jyoti A. Kathpalia. Bringing together two interconnected series, Habitat Scapes and Samsara, the exhibition explores Dora’s engagement with architecture, cities, and inhabited urban spaces alongside ideas of existence through Shiva and Shakti, *purusha* and *prakriti*. Drawing from his nearly four-decade career as an architect, Dora combines structural forms, expressive colours, and spiritual thought to examine relationships between matter and energy, the built and the felt, and the finite and infinite. His artistic practice reflects his longstanding interests in design, philosophy, poetry, and spirituality.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Visual Arts Gallery, India Habitat Centre, New Delhi",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: 8–11 September 2026",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "KRISHNA’S HALF-CENTURY",
+        page: 20
+      },
+      {
+        type: "p",
+        text: "Shriram Bharatiya Kala Kendra presents the 50th year of its iconic dance drama **Krishna** this Janmashtami season. Initially conceptualised by Sumitra Charat Ram as Krishna Avtar, the production is directed by Padmashri Shobha Deepak Singh and choreographed by Shashidharan Nair, with support from Raj Kumar Sharma. Tracing Krishna’s journey from Gokul and Vrindavan to Kurukshetra, the production brings together classical dance, music, lighting, and stage design while exploring love, duty, forgiveness, responsibility, and moral choice. The milestone presentation also returns to the Kendra’s distinctive visual language, featuring handcrafted costumes, jewellery, and live stage design.",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**Where**: Kamani Auditorium, New Delhi",
+        page: 20
+      },
+      {
+        type: "note",
+        text: "**When**: 29 August–4 September 2026",
+        page: 20
+      },
+      {
+        type: "subhead",
+        text: "KEEPING TIME WITH CLASS",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "**Attrangi Designs** brings a festive touch to traditional jewellery with its latest curation of Traditional Indian Bracelet Watches, reimagining the classic wristwatch as an ornate statement accessory. The collection features intricate gold-toned filigree, *kundan* and *polki* detailing, ruby and emerald accents, and delicate temple-inspired motifs, creating pieces that blend the charm of heirloom jewellery with everyday functionality. Designed to complement festive and occasion wear, the watches can be styled with sarees, *lehengas*, *anarkalis* and fusion ensembles. Highlights include the *Ghadi Sone Ki* Traditional Indian Watch, an emerald-dial design with ruby accents, and the Holdali Gold Traditional Indian Watch, featuring *kundan* work with ruby, emerald and pearl motifs.",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**What**: Watches by Attrangi Designs",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**Price**: ₹4,850 onwards",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "OPEN ALL HOURS",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The **Patio at 24/1** has unveiled a new menu by Chef Afzal Mahmood, designed for everything from breakfast and matcha mornings to leisurely lunches, evening cocktails, and relaxed dinners. Highlights include Ms. Patio Big Breakfast, Lebanese Batata Harra, Edamame & Red Cheddar Croquetas, Homemade Almond Butter Ricotta & Young Spinach Ravioli, Saffron Seafood Cappelletti, and Premium Pink Cut Salmon. Desserts include A Must Eat Risotto, featuring white chocolate gelato and almond crumble, alongside the restaurant’s classic Tiramisu, prepared from a 58-year-old recipe.",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**What**: New Menu by Chef Afzal Mahmood",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**Where**: The Patio at 24/1, JW Marriott Hotel Bengaluru",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "LIP TONES & CARE",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "**Oshea Herbals** has unveiled its new HD Matte Lip Color, combining high-definition pigmentation with a lightweight, non-drying formulation. Enriched with Jojoba Oil and Vitamin E, the lip colour is designed to keep lips feeling conditioned and comfortable while delivering a smooth matte finish. The range features a curated palette of 12 shades, spanning warm understated neutrals, dramatic reds, and rich berry hues, making it suitable for both everyday looks and special occasions. With the launch, Oshea Herbals brings together make-up performance and lip nourishment, reflecting a focus on products that combine colour with everyday care.",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**What**: HD Matte Lip Color",
+        page: 22
+      },
+      {
+        type: "note",
+        text: "**Available**: Website, e-commerce, retail, and other outlets",
+        page: 22
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/whats-trending-september-2026/p20-3.webp",
+        alt: "A view of a lake and hills from a café balcony",
+        width: 322,
+        height: 178,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p20-1.webp",
+        alt: "Dancers performing on stage in a large ensemble",
+        width: 430,
+        height: 176,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p20-4.webp",
+        alt: "An artwork of layered natural textures",
+        width: 276,
+        height: 183,
+        pdfPages: [
+          20
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-4.webp",
+        alt: "An ornate watch with an emerald dial on a wooden block",
+        width: 171,
+        height: 261,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-5.webp",
+        alt: "A jewelled watch worn on a wrist",
+        width: 217,
+        height: 275,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-3.webp",
+        alt: "A plated dish of fish on a restaurant table",
+        width: 259,
+        height: 321,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-8.webp",
+        alt: "A plate of an English breakfast",
+        width: 183,
+        height: 183,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-1.webp",
+        alt: "A dark lipstick beside its box",
+        width: 315,
+        height: 315,
+        pdfPages: [
+          22
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-september-2026/p22-2.webp",
+        alt: "A liquid lip colour beside its box",
+        width: 233,
+        height: 233,
+        pdfPages: [
+          22
+        ]
+      }
+    ],
+    source: {
+      edition: "september-2026",
+      pdf: "11-Sep_Lowres-SpiceRoute_Sep.pdf",
+      pdfPages: [
+        20,
+        22
+      ],
+      printedPages: [
+        18,
+        20
+      ],
+      imagePdfPage: 20
+    }
+  },
+  {
+    id: "whats-trending-august-2026",
+    slug: "whats-trending-august-2026",
+    title: "What’s Trending",
+    section: "Hot & Happening",
+    category: "culture",
+    date: "August 2026",
+    excerpt: "",
+    heroImage: "/images/stories/whats-trending-august-2026.webp",
+    heroImageAlt: "South Indian dishes laid out on a table with chillies",
+    heroImageSource: "Spice Route - August 2026, PDF page 28",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "CELEBRATION OF SOUTHERN FLAVOURS",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "**Nadoo** continues to celebrate the culinary heritage of South India by presenting the distinct flavours of Tamil Nadu, Kerala, Karnataka, Andhra Pradesh and Telangana. Through a refined gastronomic lens, the menu gathers heirloom curries, traditions from royal kitchens, regional comfort food, and street-food favourites. Popular dishes include *Russel Market Raan*, *Chicken* and *Prawn Ghee Roast*, Green Chilli Chicken with Bao, *Malabar Biryani*, S*hivaji Nagar Military Donne Biryani*, and T*angy Brinjal Curry* with *Dibba Rot*i. The experience is complemented by a dedicated Kaapi Bar, created in collaboration with Bharat Singhal of Bili Hu Coffee, offering traditional and contemporary filter-coffee concoctions.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**What**: Nadoo",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: Tower A, Global Gateway Towers, Unit 4, Sikanderpur, Sector 26, Gurugram",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "CARE FOR MELANIN-RICH SKIN",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "**Asaya** has introduced the Super Fade Regenerative Peel, a next-generation exfoliating treatment formulated specifically for melanin-rich skin. Powered by a 30% Triple-Acid Complex, MelaMe™ Complex, and Barrier-Calm Complex, the peel helps target clogged pores, excess sebum, uneven skin texture, and dark spots while supporting the skin barrier. The formulation combines AHA, BHA and PHA with ingredients including Niacinamide, Panthenol, Allantoin, Bisabolol, and Centella Asiatica, to exfoliate, soothe, and hydrate the skin. The dermatologically tested formula is fragrance-free, silicone-free, and sulphate-free.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**What**: Asaya Super Fade Regenerative Peel",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: https://worldofasaya.com",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "ELEVATED INDIAN STREET FOOD",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "**Ala-Chaat** reimagines the vibrant flavours of Indian street food through a refined dining experience that blends nostalgia with contemporary presentation. Founded by Naveen Sachdeva, Kratika Gupta and Saurabh Vijhani, the brand brings together regional chaat favourites, elevated ingredients and thoughtful craftsmanship to offer a fresh take on familiar classics. From reinvented *Papdi Chaats* and *Golgappas* to innovative flavour combinations inspired by Indian regional cuisines, every offering reflects a commitment to craftsmanship and creativity. With a varied menu including *Bun Kaladi Chaat*, *Thalipeeth*, *Bhuttey Ki Khees Tikki* and more, Ala-Chaat celebrates India’s diverse street food culture while delivering an experience that balances tradition with modern sensibilities. The brand offers catering services, both within the country and also abroad.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**What**: Ala Chaat Luxury Dining Experience",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: Cherish Ballrooms, Vasant Kunj, New Delhi",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "FRESHNESS, ANYTIME, ANYWHERE",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "**Antinorm** introduces Shower in Seconds, a waterless body cleanser designed for life on the move. The product instantly removes sweat, odour, and stickiness, offering the feeling of a fresh shower without the need for water. Compact, lightweight, and leak-proof, it can easily be attached to a bag, making it suitable for travel, long flights, road trips, humid weather, and post-workout routines. Designed for convenience and everyday use, the cleanser provides a practical solution for staying fresh and comfortable wherever the day takes you.",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**What**: Shower in Seconds Waterless Body Cleanser",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**Where**: https://antinorm.co",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "SCULPTED BY NATURE",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "**Meroh** unveils Belong, a sculptural fine jewellery collection inspired by the natural geometry of leaves and the idea of connection. Translating organic rhythms into abstract forms, the collection features rings, necklaces, earrings, and bangles designed with movement and three-dimensional depth. Every piece combines architectural precision with lightweight comfort, while diamonds set in mixed pavé and polished gold surfaces highlight the sculptural designs without overpowering the gemstones. Rooted in the concept that everything in nature belongs somewhere, the collection reflects both craftsmanship and emotional storytelling through contemporary fine jewellery.",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**What**: Belong Fine Jewellery Collection",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**Where**: https://meroh.in",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "JOURNEY THROUGH DECADES OF ART",
+        page: 30
+      },
+      {
+        type: "p",
+        text: "Chawla Art Gallery presents Continuum: A 30-Year Retrospective, a solo exhibition by **Asit Kumar Patnaik** featuring 45–50 works created between 1995 and the present. The exhibition showcases paintings, works on paper, sketches, drawings, watercolours, landscapes, abstract compositions, and graphic prints, including several works being exhibited for the first time. It traces Patnaik’s artistic evolution through his experimentation with wood, fibreglass, paper collage, threads, and canvas, while highlighting the distinctive textural language and semi-realistic figurative style that define his practice.",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**When**: 21–25 August 2026",
+        page: 30
+      },
+      {
+        type: "note",
+        text: "**Where**: LTC Gallery, Bikaner House",
+        page: 30
+      },
+      {
+        type: "subhead",
+        text: "EXPANDING BEYOND BEVERAGES",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "**Mogu Mogu** is expanding its portfolio in India with the launch of Sugar-Free Candy and the upcoming introduction of Chewy Iced Tea. Marking the brand’s entry into the snacking category, the sugar-free candy is enriched with Vitamin C and infused with sorbitol, offering flavours including Lychee, Peach, Mango and Strawberry. The Iced Tea combines fruit tea with the brand’s signature nata de coco, delivering its distinctive “sip and chew” experience in Lemon and Peach variants. The launches build on Mogu Mogu’s international success and reinforce India’s position as one of its fastest-growing markets.",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**What**: Mogu Mogu Sugar-Free Candy & Chewy Iced Tea",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**Where**: Available nationwide",
+        page: 32
+      },
+      {
+        type: "subhead",
+        text: "RAISE A TOAST TO FRIENDSHIP",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "**BeeYoung Brewgarden** celebrates Friendship Day with a special experience centred around great food, craft beer and shared moments. Guests can enjoy a 2+1 offer on beer pints while indulging in shareable dishes such as Tom Yum Pizza, Chicken Tikka and other favourites from the menu. The brewgarden also features its signature craft beers, including Amrus, Gulabo and Sukoon, creating the perfect setting for friends to reconnect over food, drinks and conversation in a lively atmosphere.",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**What**: Friendship Day Celebration",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**Where**: BeeYoung Brewgarden, Malviya Nagar, New Delhi",
+        page: 32
+      },
+      {
+        type: "subhead",
+        text: "MORE THAN JUST MUSIC",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "The inaugural **realme Music Fest** brings together music, youth culture, and technology on one platform for an absorbing entertainment spectacle. Headlined by Haryanvi hip-hop sensation Dhanda Nyoliwala, the festival promises energetic live performances alongside interactive experience zones, immersive brand activations, and engaging fan experiences. Early Bird tickets start at ₹999, while regular tickets are available from ₹1,299 onwards.",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**When**: 29 August 2026",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**Where**: Yashobhoomi Convention Centre, Dwarka, New Delhi",
+        page: 32
+      },
+      {
+        type: "subhead",
+        text: "JEWELLERY THAT CELEBRATES YOU",
+        page: 32
+      },
+      {
+        type: "p",
+        text: "DAIMANTÉ introduces The Talisman Collection, inspired by the growing trend of self-gifting to celebrate personal milestones and achievements. The collection features symbolic laboratory-grown diamond pendants designed as meaningful reminders of new beginnings, resilience and everyday victories. Highlights include the Cle Amour pendant, inspired by the timeless key and representing new opportunities and confidence, and the Luna pendant, which draws inspiration from the moon to symbolise transformation, intuition and personal growth. Each design is available in White Gold, Yellow Gold and Rose Gold.",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**What**: The Talisman Collection by DAIMANTÉ",
+        page: 32
+      },
+      {
+        type: "note",
+        text: "**Where**: https://www.daimante.com",
+        page: 32
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/whats-trending-august-2026/p28-2.webp",
+        alt: "A plated dessert decorated with flowers on a stone slab",
+        width: 251,
+        height: 242,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p28-3.webp",
+        alt: "A plated chaat-style dish",
+        width: 280,
+        height: 173,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p28-4.webp",
+        alt: "A woman wearing a blue face mask holding a skincare bottle",
+        width: 212,
+        height: 271,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p28-5.webp",
+        alt: "A blue skincare bottle",
+        width: 186,
+        height: 336,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p30-2.webp",
+        alt: "A hand holding a small blue body cleanser pouch",
+        width: 208,
+        height: 333,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p30-3.webp",
+        alt: "Blue body cleanser packs on display",
+        width: 398,
+        height: 279,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p30-4.webp",
+        alt: "A woman with a sculptural pink earring",
+        width: 337,
+        height: 322,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p30-1.webp",
+        alt: "A painting of two figures",
+        width: 404,
+        height: 305,
+        pdfPages: [
+          30
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p32-3.webp",
+        alt: "A bottle of pink iced tea",
+        width: 183,
+        height: 254,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p32-1.webp",
+        alt: "A pizza and a cocktail on a table",
+        width: 243,
+        height: 350,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p32-4.webp",
+        alt: "A poster for the realme Music Fest",
+        width: 167,
+        height: 209,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p32-5.webp",
+        alt: "A poster of a performer at the realme Music Fest",
+        width: 152,
+        height: 191,
+        pdfPages: [
+          32
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-august-2026/p32-2.webp",
+        alt: "A pendant necklace",
+        width: 162,
+        height: 153,
+        pdfPages: [
+          32
+        ]
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        28,
+        30,
+        32
+      ],
+      printedPages: [
+        26,
+        28,
+        30
+      ],
+      imagePdfPage: 28
+    }
+  },
+  {
+    id: "whats-trending-july-2026",
+    slug: "whats-trending-july-2026",
+    title: "What’s Trending",
+    section: "Hot & Happening",
+    category: "culture",
+    date: "July 2026",
+    excerpt: "",
+    heroImage: "/images/stories/whats-trending-july-2026.webp",
+    heroImageAlt: "A dosa with chutneys and filter coffee on a banana leaf",
+    heroImageSource: "Spice Route - July 2026, PDF page 26",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "FLAVOURS FROM DOWN SOUTH",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Located in the heart of Meharchand market, **Café Athyeka** brings together the flavours, culture, and warmth of India’s five southern states. Inspired by founder Sheetal Saxena’s years of travel and lived experiences across the region, Athyeka feels less like a restaurant and more like stepping into a modern South Indian home. Highlights include the signature Athyeka Plate – a banana leaf-lined brass thali featuring regional favourites – alongside dishes such as Karimnagar Wings, Vegetable Stew with Appam, and Chettinad Chicken Curry with flaky Malabar Paratha.",
+        page: 26
+      },
+      {
+        type: "note",
+        text: "**Where**: Meharchand Market, Lodi Colony, New Delhi",
+        page: 26
+      },
+      {
+        type: "note",
+        text: "**Meal for Two**: ₹1,000 – ₹1,200",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "Find Your Summer Style",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "**Culture Circle**, a curated multi-brand platform for global fashion and lifestyle products, features some of the most loved international streetwear and luxury brands. For the summer, Culture Circle has curated a fresh line-up of trendy pastel t-shirts, statement graphic tees, and easy everyday essentials that vibe perfectly with the season. From elegant low-back dresses and breathable linen shirts, and from minimal aesthetics to bold streetwear styles, the collection presents premium fashion at accessible prices.",
+        page: 26
+      },
+      {
+        type: "note",
+        text: "**Where**: Available exclusively at https:// www.culture-circle.com/",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "GOOD HAIR DAYS!",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "A science-first hair brand born out of Italian craftsmanship – and made for India. Whether you’re creating soft waves or a bouncy blowout, styling products can help add body and hold while keeping your look intact throughout the day. The **2.Oh**! 3-in-1 Hair Styling Spray helps prep hair before styling, protects against heat damage, and supports longer-lasting volume and shine, while the 2.Oh! Hair Gloss aids in enhancing shine and adds that finishing touch to make your hair look camera-ready from every angle.",
+        page: 26
+      },
+      {
+        type: "note",
+        text: "**What**: 2.Oh! Hair Styling Spray & Hair Gloss",
+        page: 26
+      },
+      {
+        type: "note",
+        text: "**Where**: Available at https://www.2pointoh. in/products",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "HAMLET FOR OUR TIMES",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "The talented ensemble of the SRCPA (Shri Ram Centre for Performing Arts) Repertory presents **Hamlet** in Hindi, directed by acclaimed French-Tunisian director Habib Naghmouchi. This compelling adaptation of William Shakespeare’s timeless tragedy explores themes of power, betrayal, revenge, and human conscience through a contemporary lens. What makes Hamlet so relevant today is its reflection of a world in turmoil, living as we do in similarly noisy, fractured, and unsettled times in which the truth is often obscured.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**When**: 3, 4 and 5 July (7:00 pm)",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: Shri Ram Centre Auditorium, Mandi House, Delhi",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "DRAMA IN REAL LIFE",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "Set in present-day Mumbai, **IF ONLY** follows the intertwined lives of four young adults navigating the complexities of the Hindi film industry. Aaliya, a rising actress battling deep insecurities; Karam, a struggling actor dreaming of becoming the quintessential Bollywood hero; Anika, a talented photographer yearning to be truly seen and understood; and Vedang, a writer striving to find his authentic voice beyond the demands of commercial success. Intense and emotionally charged, ‘IF ONLY’ explores identity, aspiration, vulnerability, and the cost of chasing dreams in an industry built on illusion.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**When**: 22, 23 and 24 July (7:30 PM)",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**Where**: Kiran Nadar Museum of Art, Delhi",
+        page: 28
+      },
+      {
+        type: "subhead",
+        text: "WONDERFUL WORLD OF WORDS",
+        page: 28
+      },
+      {
+        type: "p",
+        text: "In **The Sunday Book Bazaar**, Kanupriya Dhingra traces the life of this remarkable market – from its roots in the book cultures of Shahjahanabad and Daryaganj to its rise as a second-hand book paradise, and from its legal battles and evictions to its relocation in Mahila Haat. Combining urban history, ethnography, fieldwork, and memoir, Dhingra follows the books, booksellers, and readers who make the bazaar a parallel world of print: informal, unpredictable, deeply democratic, and impossible to replace. This is a love letter to second-hand books.",
+        page: 28
+      },
+      {
+        type: "note",
+        text: "**What**: The Sunday Book Bazaar by Kanupriya Dhingra",
+        page: 28
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/whats-trending-july-2026/p26-1.webp",
+        alt: "A café building with a painted sign among trees",
+        width: 323,
+        height: 350,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p26-3.webp",
+        alt: "A man in a loose linen shirt and trousers",
+        width: 164,
+        height: 315,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p26-4.webp",
+        alt: "A bright printed shirt",
+        width: 158,
+        height: 209,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p26-6.webp",
+        alt: "A tube of hair gloss",
+        width: 177,
+        height: 245,
+        pdfPages: [
+          26
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p28-4.webp",
+        alt: "Actors rehearsing a scene on a stage",
+        width: 157,
+        height: 177,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p28-3.webp",
+        alt: "Two actors seated on the floor of a stage",
+        width: 168,
+        height: 177,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p28-1.webp",
+        alt: "The poster of the play If Only",
+        width: 158,
+        height: 237,
+        pdfPages: [
+          28
+        ]
+      },
+      {
+        src: "/images/stories/whats-trending-july-2026/p28-2.webp",
+        alt: "A poster for the play If Only",
+        width: 161,
+        height: 227,
+        pdfPages: [
+          28
+        ]
+      }
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        26,
+        28
+      ],
+      printedPages: [
+        24,
+        26
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "top-5-events-in-october-2026",
+    slug: "top-5-events-in-october-2026",
+    title: "Top 5 Events in October",
+    section: "Bookmark",
+    category: "culture",
+    date: "September 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "september-2026",
+    editionTitle: "Spice Route - Sept 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "Oktoberfest",
+        number: 1,
+        page: 26
+      },
+      {
+        type: "note",
+        text: "4 October",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "**Oktoberfest**, the world’s most famous beer festival and a major tourism event, wraps up its annual celebrations in Munich during the first week of October. A showcase of Bavarian hospitality, Oktoberfest brings together local customs, music, regional cuisine, cultural performances, and colourful parades. Visitors can experience traditional attire, lively brass bands, historic fairground attractions, and an energetic festival atmosphere across the city’s iconic Theresienwiese grounds.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "Bathukamma Festival",
+        number: 2,
+        page: 26
+      },
+      {
+        type: "note",
+        text: "10-18 October",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "**Bathukamma** is Telangana’s vibrant festival celebrating nature, womanhood, and the region’s cultural heritage, and bringing neighbourhoods together. Women create colourful flower arrangements using seasonal blooms and gather in traditional attire to sing, dance, and participate in community celebrations.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "Dussehra",
+        number: 3,
+        page: 26
+      },
+      {
+        type: "note",
+        text: "20 October",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "Vijayadashami, also known as **Dussehra**, marks the triumph of good over evil and concludes the Navratri celebrations. Across northern India, large-scale Ram-Leela performances culminate in the ceremonial burning of effigies of Ravana, Meghnad and Kumbhakarna, symbolising Lord Rama’s victory.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "Jodhpur RIFF",
+        number: 4,
+        page: 26
+      },
+      {
+        type: "note",
+        text: "22-26 October",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "The **Jodhpur RIFF** to be held this October at the iconic Mehrangarh Fort brings together musicians, artists and performers from six continents. Over 250 performers from around the globe will spell their magic under the open star-lit skies. A fascinating collaboration this year brings together Polish singer Karolina Cicha - devoted to resurrecting the vanishing Tatar music - and Anita Dangi of Rajasthan’s classical Rajwaadi Maand style.",
+        page: 26
+      },
+      {
+        type: "subhead",
+        text: "Tawang Festival",
+        number: 5,
+        page: 26
+      },
+      {
+        type: "note",
+        text: "27–31 October",
+        page: 26
+      },
+      {
+        type: "p",
+        text: "The **Tawang Festival** 2026 will bring the cultural heritage, traditions, and natural beauty of Arunachal Pradesh to the forefront through a five-day celebration in the scenic Himalayan town of Tawang. Set against a backdrop of high-altitude mountains and monasteries, the festival will feature traditional dances, local music, indigenous sports, and regional culinary experiences.",
+        page: 26
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/top-5-events-in-october-2026/p26-2.webp",
+        alt: "Monks in red robes with drums at a monastery festival",
+        width: 225,
+        height: 157,
+        pdfPages: [
+          26
+        ]
+      }
+    ],
+    source: {
+      edition: "september-2026",
+      pdf: "11-Sep_Lowres-SpiceRoute_Sep.pdf",
+      pdfPages: [
+        26
+      ],
+      printedPages: [
+        24
+      ],
+      imagePdfPage: 26
+    }
+  },
+  {
+    id: "top-5-events-in-august-2026",
+    slug: "top-5-events-in-august-2026",
+    title: "Top 5 Events in August",
+    section: "Bookmark",
+    category: "culture",
+    date: "August 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "Onam Festival",
+        number: 1,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "26 August2026",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "**Kerala’s biggest harvest festival** welcomes the legendary King Mahabali through ten days of celebrations featuring intricate floral carpets (Pookalam), traditional boat races, Kathakali performances, Pulikali (Tiger Dance), temple festivities and the grand Onam Sadya served on banana leaves. The festival attracts domestic and international travellers eager to experience Kerala’s rich cultural heritage.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Navroz - Parsi New Year",
+        number: 2,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "16 August",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "**Celebrated by the Parsi community**, Navroz marks the beginning of the new year with prayers at fire temples, festive feasts, charitable activities and family gatherings. Cities such as Mumbai, Surat and Navsari host vibrant community celebrations that highlight the rich traditions and culinary heritage of one of India’s oldest communities.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Sonu Nigam Global Tour",
+        number: 3,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "21 August",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Popular playback singer Sonu Nigam will launch his global tour with a major arena concert in **Abu Dhabi**. Expected to feature his timeless Bollywood classics alongside contemporary hits, the performance marks one of the region’s biggest Indian music events and is likely to attract audiences from across the Middle East and South Asia.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Marcin Art of Guitar India Tour",
+        number: 4,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "7–12 August",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Acclaimed Polish guitarist and one-man musical phenomenon Marcin makes his much-awaited India debut as part of Foreword’s India Jazz Project. His Art of Guitar tour will feature original compositions, classical reinterpretations and inventive contemporary covers, offering audiences a unique live musical experience across four Indian cities. The show will be held in **Mumbai (7 Aug), Bengaluru (8Aug), Gurugram (9Aug) & Shillong (12Aug)**",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "World Elephant Day",
+        number: 5,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "12 August",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Observed worldwide, **World Elephant Day raises awareness about elephant conservation** and ethical wildlife tourism. National parks, wildlife sanctuaries and conservation organisations, particularly across India, Sri Lanka and Thailand, organise educational programmes, guided safaris and conservation initiatives highlighting the importance of protecting Asian and African elephants.",
+        page: 22
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        22
+      ],
+      printedPages: [
+        20
+      ],
+      imagePdfPage: 22
+    }
+  },
+  {
+    id: "top-5-events-in-july-2026",
+    slug: "top-5-events-in-july-2026",
+    title: "Top 5 Events in July",
+    section: "Bookmark",
+    category: "culture",
+    date: "July 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "FIFA World Cup Final",
+        number: 1,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "19 July",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The biggest sporting event of the year reaches its climax as the **FIFA World Cup 2026 Final** takes place at the iconic **MetLife Stadium in New Jersey on 19th July**. As the concluding match of the first-ever 48-team FIFA World Cup, the event is expected to attract millions of viewers worldwide and thousands of travelling fans. Beyond the match itself, the host city will come alive with festivals, live screenings and concerts.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Mumbai Monsoon Marathon",
+        number: 2,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "5 July",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The Mumbai Monsoon Marathon returns on 5 July 2026, offering runners a unique opportunity to experience the city’s scenic coastline during the peak monsoon season. Organised by Omega Events, the timed race begins at Bandra Fort Garden and features three categories – 21.1 km Half Marathon, 10 km Timed Run, and 5 km Timed Run, catering to participants of varying fitness levels. The route winds through the picturesque stretches of Bandra Bandstand and Carter Road, providing stunning sea views and refreshing monsoon vibes.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "Jagannath Rath Yatra",
+        number: 3,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "16 July",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "The Jagannath Rath Yatra – one of India’s most revered and visually spectacular religious festivals, is celebrated annually in the temple town of Puri, Odisha. The festival witnesses the grand procession of Lord Jagannath, along with Lord Balabhadra and Goddess Subhadra, on massive, intricately decorated wooden chariots pulled by thousands of devotees through the streets. Millions of pilgrims and visitors gather to witness this extraordinary display of faith, devotion, and cultural heritage.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "World Chocolate Day",
+        number: 4,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "7 July",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "Celebrated annually on 7 July, World Chocolate Day pays tribute to one of the world’s most loved culinary indulgences. Over the years, World Chocolate Day has evolved into a popular food tourism occasion, bringing together chocolate enthusiasts, chefs, and travellers to celebrate the rich history, craftsmanship, and universal appeal of chocolate.",
+        page: 22
+      },
+      {
+        type: "subhead",
+        text: "San Diego Comic-Con",
+        number: 5,
+        page: 22
+      },
+      {
+        type: "note",
+        text: "23-26 July",
+        page: 22
+      },
+      {
+        type: "p",
+        text: "San Diego Comic-Con, popularly known as SDCC, is one of the world’s largest and most influential pop culture conventions, attracting fans from around the globe. With the Preview Night on 22 July 2026, the event features exclusive studio presentations, celebrity appearances, product launches, cosplay competitions, and immersive fan experiences. Over the years, SDCC has evolved into a global cultural phenomenon, shaping trends across the entertainment industry.",
+        page: 22
+      }
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        22
+      ],
+      printedPages: [
+        20
+      ],
+      imagePdfPage: 22
+    }
+  },
+  {
+    id: "world-tourism-day-info-corner",
+    slug: "world-tourism-day-info-corner",
+    title: "World Tourism Day",
+    section: "Info Corner",
+    category: "culture",
+    date: "September 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "september-2026",
+    editionTitle: "Spice Route - Sept 2026",
+    body: [
+      {
+        type: "p",
+        text: "India’s tourism story is being rewritten far beyond its iconic landmarks. Today, the journey is reaching remote border villages, rural communities and destinations where local traditions are becoming an important part of the visitor experience. On World Tourism Day, 27 September, this shift offers a glimpse into how travel can connect India’s most diverse communities and geographies.",
+        page: 33
+      },
+      {
+        type: "p",
+        text: "A significant example is the Vibrant Villages Programme, which places tourism at the heart of development in India’s northern border villages. According to the Ministry of Tourism’s Annual Report 2023-24, 2,963 villages across 46 blocks in 19 districts in Himachal Pradesh, Uttarakhand, Arunachal Pradesh, Sikkim and Ladakh have been identified under the programme. The Ministry has been tasked with leveraging the tourism potential of these villages, using their landscapes, traditions, crafts and community-based experiences to create new opportunities for local economies.",
+        page: 33
+      },
+      {
+        type: "p",
+        text: "The approach is already visible on the ground. In Chushul, Ladakh, the Ministry organised a cultural festival featuring traditional performances and conducted workshops introducing local communities to opportunities such as homestays and the Incredible India Tourist Facilitator Programme. Such initiatives demonstrate how tourism can create employment and entrepreneurship while allowing communities to remain connected to their cultural identity. Tourism is also being used to encourage cultural exchange across states through Ek Bharat Shreshtha Bharat. The initiative promotes interactions between different regions through food, music, dance, traditions and heritage, encouraging travellers to experience India’s diversity beyond their immediate surroundings. Tourism thus becomes not only a movement of people, but also a movement of ideas and cultural understanding.",
+        page: 33
+      },
+      {
+        type: "p",
+        text: "The Ministry’s Best Tourism Villages initiative is another indicator of this changing tourism landscape. In 2024, the initiative received 991 applications from 30 States and Union Territories, with 36 villages recognised across eight categories, including adventure, agri-tourism, community-based tourism and crafts. The recognition brings attention to rural destinations where tourism is closely connected with local livelihoods and traditions.",
+        page: 33
+      },
+      {
+        type: "p",
+        text: "Meanwhile, *Swadesh Darshan* 2.0 is promoting sustainable and responsible tourism through destination development, including projects such as the Border Tourism Experience at Attari and a rural tourism cluster at Gunji in Pithoragarh, Uttarakhand. This World Tourism Day, India’s tourism narrative is therefore expanding beyond established destinations. From border villages to rural communities, the country is showing how travel can become a bridge between places, people and cultures.",
+        page: 33
+      }
+    ],
+    source: {
+      edition: "september-2026",
+      pdf: "11-Sep_Lowres-SpiceRoute_Sep.pdf",
+      pdfPages: [
+        33
+      ],
+      printedPages: [
+        31
+      ],
+      imagePdfPage: 33
+    }
+  },
+  {
+    id: "guru-purnima-info-corner",
+    slug: "guru-purnima-info-corner",
+    title: "Guru Purnima",
+    section: "Info Corner",
+    category: "culture",
+    date: "July 2026",
+    excerpt: "Honouring the Guiding Light of Wisdom",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "p",
+        text: "Guru Purnima, one of the most revered festivals in India, will be celebrated on 29 July 2026. Observed on the full moon day (Purnima) of the Hindu month of Ashadha, the festival is dedicated to expressing gratitude towards teachers, mentors, and spiritual guides who illuminate the path of knowledge and self-discovery.",
+        page: 38
+      },
+      {
+        type: "p",
+        text: "In 2026, the Purnima Tithi begins at 6:18 PM IST on 28 July and ends at 8:05 PM IST on 29 July, with the auspicious morning hours considered ideal for Guru Puja and prayers. The day is also celebrated as Vyasa Purnima, commemorating the birth anniversary of Maharishi Veda Vyasa, the sage credited with compiling the Vedas and authoring the Mahabharata. Guru Purnima holds deep significance across Hindu, Buddhist, and Jain traditions, symbolising the eternal bond between a guru and disciple. It is believed that seeking blessings from one’s guru on this day enhances wisdom, spiritual growth, and inner clarity, owing to its association with the benevolent energy of Jupiter (Brihaspati).",
+        page: 38
+      },
+      {
+        type: "p",
+        text: "Devotees mark the occasion by visiting temples, ashrams, and meditation centres, offering flowers, fruits, and sattvic meals, and participating in prayer gatherings and discourses. More than a ritual, Guru Purnima is a heartfelt reminder to acknowledge the mentors who inspire learning, shape character, and guide individuals toward a life of purpose and enlightenment.",
+        page: 38
+      }
+    ],
+    pullQuotes: [
+      "It is believed that seeking blessings of one’s guru on this auspicious day enhances wisdom, spiritual growth, and inner clarity"
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        38
+      ],
+      printedPages: [
+        36
+      ],
+      imagePdfPage: 38
+    }
+  },
+  {
+    id: "going-immersive-in-bangkok",
+    slug: "going-immersive-in-bangkok",
+    title: "Going Immersive in Bangkok",
+    section: "Day in a City",
+    category: "travel",
+    author: "Pamela Mukherjee",
+    date: "August 2026",
+    excerpt: "Bangkok reveals itself slowly, and the best way to experience it is by lingering – over breakfast in an old café, a leisurely lunch of bold Thai flavours, sunset high above the skyline, and dinner beside the river.",
+    heroImage: "/images/stories/going-immersive-in-bangkok.webp",
+    heroImageAlt: "The spired towers of a cable-stayed bridge in Bangkok against a blue sky",
+    heroImageSource: "Spice Route - August 2026, PDF page 43",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "subhead",
+        text: "QUIET START AT WAT ARUN",
+        number: 1,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Before Bangkok slips into full speed, head to Wat Arun. Known as the Temple of Dawn, its towering peaks glow beautifully in the soft morning light, their delicate porcelain details catching every golden ray. Saffron-robed monks move quietly through the temple grounds while across the Chao Phraya, boats begin ferrying commuters. Walk towards the riverside nearby and stop at one of the local cafés for a traditional Thai breakfast. Order Jok, a comforting rice porridge served with minced meat and a perfectly soft-boiled egg, or keep it simple with buttery toast and strong Thai coffee at the iconic On Lok Yun, one of Bangkok’s oldest breakfast institutions. Don’t leave without trying the freshly grilled Moo Ping (marinated pork skewers), paired with Thai iced coffee",
+        page: 42
+      },
+      {
+        type: "note",
+        text: "Next stop: 10 minutes by ferry",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "EVERYDAY BANGKOK",
+        number: 2,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "A short ferry ride leads to Pak Khlong Talat, Bangkok’s famous flower market. Even if flowers aren’t your thing, it’s impossible not to pause here. Buckets overflowing with orchids, jasmine garlands being threaded by hand, and vendors expertly arranging lotus blooms for nearby temples. This isn’t staged for visitors – it’s simply another ordinary morning in Bangkok. From here, wander through the surrounding lanes where tiny shrines, hidden coffee shops and old shophouses quietly tell stories of the city’s past.",
+        page: 42
+      },
+      {
+        type: "note",
+        text: "Next stop: 10 minutes by tuk-tuk",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "INSIDE THAILAND’S ROYAL HEART",
+        number: 3,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "No visit to Bangkok feels complete without stepping inside the Grand Palace. Its intricate architecture demands attention: golden rooftops shimmer under the sun, mirrored mosaics sparkle with every movement, and beautifully painted corridors narrate stories from Thai mythology. Within the palace complex lies the Temple of the Emerald Buddha, Thailand’s most sacred Buddhist shrine. Visitors naturally lower their tone of voice here, and somehow even the busiest tour groups seem to move a little slower.",
+        page: 42
+      },
+      {
+        type: "note",
+        text: "Next stop: A leisurely walk",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "WAT PHO: A MOMENT OF STILLNESS",
+        number: 4,
+        page: 42
+      },
+      {
+        type: "p",
+        text: "Just around the corner, Wat Pho presents a completely different mood. Home to the magnificent Reclining Buddha (stretching over 46 metres), the temple encourages you to stroll rather than hurry. Listen to the gentle clink of coins dropped into bronze bowls, admire the colourful stupas, and spend a little time beneath the shade of ancient Bodhi trees.",
+        page: 42
+      },
+      {
+        type: "subhead",
+        text: "LAID-BACK LUNCH",
+        number: 5,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "Make yourself comfortable at Err Urban Rustic Thai. Order a few dishes, for Thai meals are meant to be shared. Start with Som Tam (green papaya salad), followed by fragrant Pad Krapow and creamy Green Curry – or Thailand’s iconic Pad Thai. Finish with sweet Mango Sticky Rice (if it’s in season).",
+        page: 44
+      },
+      {
+        type: "note",
+        text: "Next stop: Around 20 minutes by MRT or taxi",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "SHOPPING & STREET VIBES",
+        number: 6,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "As the afternoon unfolds, Bangkok turns up the energy. If it’s a weekend, spend a few hours wandering through Chatuchak Market, where every turn reveals something unexpected – handmade ceramics, vintage treasures, quirky home décor, handcrafted soaps, silk scarves, and endless street-food stalls. On weekdays, Talad Noi offers a completely different experience: narrow lanes decorated with street art lead to hidden cafés, restored warehouses, and family-run workshops that have existed for generations.",
+        page: 44
+      },
+      {
+        type: "note",
+        text: "Next stop: 25 minutes by Skytrain",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "SUNDOWN FROM UP HIGH",
+        number: 7,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "As daylight softens, make your way to King Power Mahanakhon SkyWalk. Here, you’ll find that watching Bangkok from above changes your perspective entirely. The river winds through the city like a ribbon, temples gleam between skyscrapers, and the traffic below becomes little more than streams of tiny lamps. And as sunset fades into dusk, thousands of lights slowly illuminate the skyline.",
+        page: 44
+      },
+      {
+        type: "subhead",
+        text: "DINNER ON THE RIVERFRONT",
+        number: 8,
+        page: 44
+      },
+      {
+        type: "p",
+        text: "End the day where Bangkok is at its magical best – the Chao Phraya river. Boats drift past, live musicians perform softly in the background, and the city’s bustle settles into something wonderfully unhurried. Any one of the elegant restaurants overlooking the water provide a beautiful setting for dinner. Don’t miss Tom Yum Goong, rich Massaman Curry, grilled river prawns, or freshly steamed sea bass with lime and chilli. Pair it with a chilled Thai beer or a refreshing lemongrass drink. Still have room? Look for a street vendor selling warm Banana Roti drizzled generously with condensed milk – arguably one of Bangkok’s simplest and most satisfying desserts",
+        page: 44
+      }
+    ],
+    callouts: [
+      "SPICEJET OFFERS FLIGHTS TO BANGKOK FROM DELHI AND KOLKATA"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p42-2.webp",
+        alt: "A gilded temple with tiered roofs",
+        width: 235,
+        height: 193,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p42-3.webp",
+        alt: "A tall tree beside a decorated temple pillar",
+        width: 234,
+        height: 435,
+        pdfPages: [
+          42
+        ]
+      },
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p44-1.webp",
+        alt: "A plate of som tam with fresh vegetables and chillies",
+        width: 232,
+        height: 324,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p44-4.webp",
+        alt: "Temples and boats along the Chao Phraya river",
+        width: 483,
+        height: 323,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p44-2.webp",
+        alt: "A shopper browsing a busy market stall",
+        width: 234,
+        height: 303,
+        pdfPages: [
+          44
+        ]
+      },
+      {
+        src: "/images/stories/going-immersive-in-bangkok/p44-3.webp",
+        alt: "Bangkok’s skyline and the river at dusk",
+        width: 481,
+        height: 308,
+        pdfPages: [
+          44
+        ]
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        42,
+        43,
+        44
+      ],
+      printedPages: [
+        40,
+        41,
+        42
+      ],
+      imagePdfPage: 43
+    }
+  },
+  {
+    id: "shalini-passi-a-life-shaped-by-art",
+    slug: "shalini-passi-a-life-shaped-by-art",
+    title: "A Life Shaped by Art",
+    section: "Face to Face",
+    category: "interviews",
+    author: "Pallavi Singh",
+    date: "August 2026",
+    excerpt: "From art collector and patron to becoming one of India’s most recognised cultural personalities, Shalini Passi has worn many hats while successfully balancing entrepreneurship, philanthropy, and motherhood. Passi, whose recent appearance at the Cannes Film Festival attracted global attention, opens up on a life enriched by art.",
+    heroImage: "/images/stories/shalini-passi-a-life-shaped-by-art.webp",
+    heroImageAlt: "Shalini Passi in a flowing blue gown on the steps of a palace",
+    heroImageSource: "Spice Route - August 2026, PDF page 60",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "question",
+        text: "What first sparked your love for art, design, and aesthetics?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Art came into my life before collecting did. It began with curiosity – noticing colour, form, architecture, textiles, and the beauty hidden in everyday life. Eventually I started painting myself, and that changed everything. Once you experience the vulnerability of creating something, you never look at art the same way again. Collecting, for me, became less about acquiring objects and more about preserving something intangible – a feeling, a memory, a moment in time. I’ve always believed aesthetics aren’t confined to galleries; they’re a way of living.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "Growing up, who or what shaped your creative sensibilities? Was there a defining moment that made you realise art would become such an integral part of your life?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "I draw inspiration from everywhere – travel, nature, literature, and the people I meet along the way. My family encouraged curiosity rather than conformity, and that gave me the freedom to develop my own point of view. The defining moment came when I realised art wasn’t just something I admired; it was something that changed how I saw the world. From then on, it became essential to who I am.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "What inspired you to establish MASH, and how has its vision evolved over the years?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "MASH India was born from a simple belief: that creativity deserves visibility. India has extraordinary talent, but artists and designers often lack platforms that help them reach a wider audience. Over the years, MASH has grown into something larger – a cultural ecosystem spanning art, design, fashion, and craftsmanship, anchored by conversation. The mission hasn’t changed: to open doors, spark dialogue, and connect creators with the people who need to see their work.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "How do you see the role of patrons today in shaping India’s creative ecosystem?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "A patron’s responsibility extends far beyond purchasing art. It means commissioning new work, supporting institutions, mentoring young talent, and encouraging artists to take risks. Patronage is about investing in culture, not just collecting objects. When artists feel supported, entire creative ecosystems flourish.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "What did the experience at Cannes mean to you personally, and how important is it to showcase Indian craftsmanship on international platforms?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Cannes wasn’t just a fashion moment for me – it was a chance to celebrate Indian craftsmanship on a global stage. Every embroidery technique, every textile, every artisan’s hand carries generations of knowledge. I wanted the conversation to move beyond what I was wearing towards the creativity India has to offer the world. We have one of the richest artistic traditions on earth, and it deserves to be seen.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "‘Fabulous Lives vs. Bollywood Wives’ introduced millions to a different side of your personality. Was it difficult allowing cameras into your personal world, and what surprised you most about the audience’s response?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Allowing cameras into your life takes vulnerability, but authenticity has always mattered more to me than perfection. What surprised me most was how deeply people connected with my individuality, that I wasn’t trying to fit into a mould. It was a good reminder that people respond to the real thing, not the performance of it.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "What principles have helped you stay authentic while navigating such diverse roles?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "I try to stay disciplined, curious, and true to my own values – I don’t chase trends or approval. What matters to me is meaningful work and treating people with kindness. Real authenticity comes from consistency: being the same person no matter the platform or the audience.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "What excites you most about the future of Indian art, and what advice would you give to young creatives hoping to make a lasting impact?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "I’m excited by the confidence of this new generation, rooted in Indian heritage yet fully at ease in global conversations. My advice is simple: create with honesty, stay curious, and don’t be afraid to find your own voice. Trends fade; originality endures.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Is there a destination that has had a lasting influence on your appreciation of art, design, or fashion?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Japan has had a lasting influence on me. There’s a real respect for craftsmanship there, an attention to detail, and a philosophy of simplicity that runs through everything – architecture, fashion, gardens, and ceramics. It’s a quiet kind of elegance, the sort that stays with you long after you’ve come home.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Do you enjoy meticulously planning every detail of a trip, or do you leave room for spontaneous discoveries?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "I do like to plan, especially when it comes to museums, galleries, and cultural experiences – it helps me make the most of every destination. But I always leave room for the unexpected. Some of my most memorable moments have come from wandering into a small gallery, meeting a local artisan, or simply getting lost in a beautiful neighbourhood.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "If you could recommend one destination every art and design enthusiast should experience at least once, which would it be and why?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Japan, without question. It offers a rare balance of tradition and innovation, from centuries-old craft practices to contemporary architecture and design. Every detail reflects real thoughtfulness. It’s a place that teaches you to notice excellence in the smallest things",
+        page: 62
+      },
+      {
+        type: "subhead",
+        text: "Rapid Fire",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "One artist whose work you could admire forever?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Mrinalini Mukherjee",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "One handbag in your collection you’ll never part with?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Petit Point bag from Austria",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "A city that never fails to inspire your creativity?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Tokyo",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "If your life were an artwork, what would its title be?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "The Art of Being Fabulous",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "One luxury you can never resist?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Time to learn, reflect, and experience beauty",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Art gallery, fashion runway, or flea market – where can we find you?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "An art gallery – because that’s where curiosity always leads me",
+        page: 62
+      }
+    ],
+    pullQuotes: [
+      "Allowing cameras into your life takes vulnerability, but authenticity has always mattered more to me than perfection"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/shalini-passi-a-life-shaped-by-art/p61-1.webp",
+        alt: "Shalini Passi in a floral headdress and a gown covered in flowers",
+        width: 526,
+        height: 880,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/shalini-passi-a-life-shaped-by-art/p62-2.webp",
+        alt: "Shalini Passi seated beside a sculpture",
+        width: 483,
+        height: 572,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/shalini-passi-a-life-shaped-by-art/p62-1.webp",
+        alt: "Shalini Passi in a black outfit",
+        width: 285,
+        height: 1019,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/shalini-passi-a-life-shaped-by-art/p62-3.webp",
+        alt: "Shalini Passi in an orange jumpsuit",
+        width: 179,
+        height: 533,
+        pdfPages: [
+          62
+        ]
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        60,
+        61,
+        62
+      ],
+      printedPages: [
+        58,
+        59,
+        60
+      ],
+      imagePdfPage: 60
+    }
+  },
+  {
+    id: "ditch-the-display-tech-talk",
+    slug: "ditch-the-display-tech-talk",
+    title: "Ditch the Display",
+    section: "Tech Talk",
+    category: "travel",
+    author: "Jitendra Soni",
+    date: "August 2026",
+    excerpt: "No distraction smart gear for your journey",
+    heroImage: "/images/stories/ditch-the-display-tech-talk.webp",
+    heroImageAlt: "Performance sunglasses with orange lenses",
+    heroImageSource: "Spice Route - August 2026, PDF page 64",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "p",
+        text: "Screens, regardless of size, are among the most common features of almost all modern gadgets. However, more screens translate to increased distraction. Be it your smartwatch, power banks, smart glasses, or others, no-screen tech is slowly making its way back to help reduce the distraction and let you enjoy the view. Here’s the best screenless gear worth packing on your next trip.",
+        page: 64
+      },
+      {
+        type: "subhead",
+        text: "1. CHAMELO MUSIC SHIELD GEN 2",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: $299",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The Chamelo Music Shield Gen 2 is a pair of performance sunglasses that not only lets you enjoy your favourite music on the go but also features a unique tint-control mechanism. Its Eclipse™ tint control helps you adapt to changing light — from bright tarmac to dim airport corridors — without taking your eyes off the road or your surroundings.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "A quick slide on the temple of the Music Shield Gen 2 is enough to move through four tint levels, reducing visible light transmission from roughly 63% to 17%; the higher the number, the lighter the lens. All the while, you can continue to enjoy music or podcasts, or take calls wirelessly, thanks to open-ear speakers that project sound towards your ears.",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "2. GOOGLE FITBIT AIR",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: $99.99",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "Google’s latest fitness wearable, the Fitbit Air, is an unobtrusive fitness tracker that silently logs your steps as you move through the boarding gate, baggage claim, and beyond. Unlike regular fitness trackers, the Fitbit Air doesn’t send you alerts, nor does it have a screen to distract you.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "It can monitor continuous heart rate, resting heart rate, heart rate variability, SpO2, sleep duration and stages, and heart rhythm. Moreover, it has a 7-day battery life - enough to last for a short trip.",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "3. SANDISK EXTREME FIT OTG DRIVE",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: STARTS AT: $15",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The SanDisk Extreme Fit drive is an answer to all your storage woes. This tiny drive offers SSD storage in an extremely compact, travel-friendly design that lets you connect it directly to your USB-C-equipped phones, tablets, or laptops.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "While its minuscule size makes it very easy to misplace if unplugged, it is available in several storage options, ranging from 64GB to 1TB. Ideal for offloading media, storing work files, or expanding limited storage on your device, the SanDisk Extreme Fit offers immediate storage expansion in case your device runs out of space.",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "4. ANKER MAGGO WIRELESS CHARGING STATION",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: $109.99",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The Anker MagGo is a compact, foldable 3-in-1 portable charging station for your Apple devices. It can charge your iPhone, AirPods, and the Apple Watch simultaneously, replacing three different charging bricks.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "Its adjustable design folds down to a pocket-sized unit and can shift between roughly 90 and 180 degrees, doubling as a small stand for your phone in hotel rooms or airport lounges. There’s no screen, no app, just a simple indicator and magnetic alignment. For travelers, this is a power hub that disappears into your routine. Plug it in, drop your devices, and walk away.",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "5. AMBRANE AEROSYNC 65",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: $53",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "Ambrane’s Aerosync 65 is a frequent traveller’s best friend. It’s a compact, high-output charger aimed at travelers who carry multiple devices but don’t want to haul a bulky brick.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "With a 65W power rating, it can typically fast-charge laptops, tablets, and phones, with additional ports for simultaneous charging. A GaN-based design keeps the size down while improving efficiency and thermal performance compared to traditional chargers.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "This one-plug solution boasts a 15,000 mAh power bank with multiple output ports, a wireless charger, a built-in Type-C cable, and a 65-W wall socket to power your main devices, freeing your bag from a tangle of adapters.",
+        page: 65
+      },
+      {
+        type: "subhead",
+        text: "6. SATECHI VEGAN-LEATHER FINDALL LUGGAGE TAG",
+        page: 65
+      },
+      {
+        type: "note",
+        text: "PRICE: $44.99",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The Satechi FindAll Vegan-Leather Luggage Tag puts smart tracking into a familiar form factor. Designed to work with finding networks (like Apple’s Find My) via an embedded tracking card, it combines a sleek vegan-leather exterior with practical location awareness. Slip it onto your suitcase or carry-on luggage, and you can see where your bag is from your phone, preventing “lost luggage” anxiety.",
+        page: 65
+      },
+      {
+        type: "p",
+        text: "The tag’s design emphasizes durability and aesthetics: a secure enclosure for the tracker, reinforced stitching, and a premium finish that doesn’t scream “tech gadget.” Since the intelligence lives in the tag and your phone, the product itself never seeks your attention. It’s just there, working, until you need to locate your belongings",
+        page: 65
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/ditch-the-display-tech-talk/p64-3.webp",
+        alt: "A fitness tracker with a blue woven band",
+        width: 226,
+        height: 309,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/ditch-the-display-tech-talk/p64-4.webp",
+        alt: "A compact USB storage drive",
+        width: 339,
+        height: 255,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/ditch-the-display-tech-talk/p64-5.webp",
+        alt: "A foldable wireless charging station charging a phone and watch",
+        width: 383,
+        height: 394,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/ditch-the-display-tech-talk/p64-6.webp",
+        alt: "A portable charger with cables",
+        width: 361,
+        height: 361,
+        pdfPages: [
+          64
+        ]
+      },
+      {
+        src: "/images/stories/ditch-the-display-tech-talk/p64-7.webp",
+        alt: "A vegan-leather luggage tag with a tracker",
+        width: 354,
+        height: 377,
+        pdfPages: [
+          64
+        ]
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        64,
+        65
+      ],
+      printedPages: [
+        62,
+        63
+      ],
+      imagePdfPage: 64
+    }
+  },
+  {
+    id: "independence-day-facts-and-figures",
+    slug: "independence-day-facts-and-figures",
+    title: "Independence Day",
+    section: "Facts and Figures",
+    category: "culture",
+    date: "August 2026",
+    excerpt: "India celebrates Independence Day on 15 August every year, commemorating the nation’s freedom, in 1947, from nearly 200 years of British colonial rule. Here are some fascinating historical facts and milestones.",
+    heroImage: "/images/stories/independence-day-facts-and-figures.webp",
+    heroImageAlt: "The Indian national flag",
+    heroImageSource: "Spice Route - August 2026, PDF page 71",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "p",
+        text: "**FREEDOM** **AT MIDNIGHT** India officially gained independence at 12:00 a.m. on 15 August, 1947, moments after the iconic ‘Tryst with Destiny’ speech delivered by Pt. Jawaharlal Nehru, the country’s first Prime Minister.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "**WORLD’S LARGEST** **DEMOCRACY** India is home to over 980 million registered voters, making it the largest democracy in the world.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "**Population At** **Independence** India had an estimated population of around 340 million in 1947. Today, it exceeds 1.4 billion, making it the world’s most populous nation.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "*Dimensions Of* *National Flag* India’s National Flag has an official length-to-width ratio of 3:2, with the navy-blue Ashoka Chakra featuring exactly 24 spokes.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**National Flag Adopted Before 15 Aug** The Constituent Assembly adopted the Tricolour as India’s National Flag on 22 July 1947, weeks before independence.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Why 15 August**? The date was chosen by the last British Viceroy, Lord Louis Mountbatten, because it marked the second anniversary of Japan’s surrender in World War II, a date he considered personally significant.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Official Adoption Of** **National Anthem** Although Jana Gana Mana was widely known, it wasn’t officially adopted as India’s National Anthem until 24 January, 1950.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Goa’s Long** **Wait For** **Independence** Goa remained under Portuguese rule until 19 December, 1961, on which date it finally became part of India.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Not All Princely States Joined** **At First** At Independence, there were 565 princely states. Between 1947 and 1950, and through the efforts of Sardar Vallabhbhai Patel, the vast majority acceded to the Indian Union.",
+        page: 71
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        70,
+        71
+      ],
+      printedPages: [
+        68,
+        69
+      ],
+      imagePdfPage: 71
+    }
+  },
+  {
+    id: "postcards-from-ladakh",
+    slug: "postcards-from-ladakh",
+    title: "Postcards from Ladakh",
+    section: "Snapshots",
+    category: "destinations",
+    author: "Viswaprasad Raju",
+    bylineLabel: "Sketches by",
+    date: "August 2026",
+    excerpt: "From ancient monasteries and vibrant festivals to breathtaking landscapes and resilient communities, Ladakh offers an extraordinary blend of nature, culture, and spirituality.",
+    heroImage: "/images/stories/postcards-from-ladakh.webp",
+    heroImageAlt: "Watercolour sketch of a road winding up to a hillside town",
+    heroImageSource: "Spice Route - August 2026, PDF page 72",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "note",
+        text: "Sketches by Viswaprasad Raju. He is an award-winning advertisingprofessional and a published artist.",
+        page: 73
+      }
+    ],
+    gallery: [
+      {
+        src: "/images/stories/postcards-from-ladakh/p72-6.webp",
+        alt: "Watercolour sketch of white stupas before mountains",
+        width: 297,
+        height: 220,
+        pdfPages: [
+          72
+        ]
+      },
+      {
+        src: "/images/stories/postcards-from-ladakh/p72-9.webp",
+        alt: "Watercolour sketch of traditional houses on a hillside",
+        width: 304,
+        height: 538,
+        pdfPages: [
+          72
+        ]
+      },
+      {
+        src: "/images/stories/postcards-from-ladakh/p73-5.webp",
+        alt: "Watercolour sketch of a yak",
+        width: 314,
+        height: 371,
+        pdfPages: [
+          73
+        ]
+      },
+      {
+        src: "/images/stories/postcards-from-ladakh/p73-2.webp",
+        alt: "Watercolour sketch of a woman in a traditional Ladakhi hat holding a prayer wheel",
+        width: 311,
+        height: 272,
+        pdfPages: [
+          73
+        ]
+      },
+      {
+        src: "/images/stories/postcards-from-ladakh/p73-1.webp",
+        alt: "Ink sketch of birds in flight",
+        width: 369,
+        height: 241,
+        pdfPages: [
+          73
+        ]
+      },
+      {
+        src: "/images/stories/postcards-from-ladakh/p73-9.webp",
+        alt: "Watercolour sketch of prayer flags below mountains",
+        width: 704,
+        height: 525,
+        pdfPages: [
+          73
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 72,
+        label: "Clockwise from top",
+        items: [
+          "Traversing through high-altitude mountain passes and witnessing the dramatic transition from barren brown valleys to snow-capped peaks is magical.",
+          "The iconic Thiksey Monastery stands tall amidst the surrounding landscape.",
+          "Traditional homes with timeless architectural heritage blend seamlessly with the dramatic mountain landscape."
+        ]
+      },
+      {
+        pdfPage: 73,
+        label: "Clockwise from Left",
+        items: [
+          "Yaks in high-altitude regions of Ladakh.",
+          "The traditional attire of Ladakh - a distinctive cultural identity.",
+          "The colourful Tibetan Buddhist prayer flags, known locally as “tarchok or lung ta” carry a message of peace and good fortune."
+        ]
+      }
+    ],
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        72,
+        73
+      ],
+      printedPages: [
+        70,
+        71
+      ],
+      imagePdfPage: 72
+    }
+  },
+  {
+    id: "vaibhav-tatwawadi-if-story-excites-me",
+    slug: "vaibhav-tatwawadi-if-story-excites-me",
+    title: "“If story excites me, medium becomes secondary”",
+    section: "Face to Face",
+    category: "interviews",
+    author: "Deepa Natarajan Lobo",
+    date: "July 2026",
+    excerpt: "There is simplicity and honesty in Vaibhav Tatwawadi’s acting. The actor’s journey has always been about the story rather than the medium, allowing him to effortlessly navigate Marathi cinema, Hindi films, and web series. He opens up about playing a real-life character on screen, learning from the best talents, and the road ahead...",
+    heroImage: "/images/stories/vaibhav-tatwawadi-if-story-excites-me.webp",
+    heroImageAlt: "Vaibhav Tatwawadi in a beige shirt standing among trees",
+    heroImageSource: "Spice Route - July 2026, PDF page 60",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "question",
+        text: "You have seamlessly balanced Marathi cinema, Hindi films, and web series – which medium do you enjoy the most?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Honestly, I don’t look at them as separate mediums anymore. For me, it’s always about the story, the character, and the people I’m collaborating with. Each medium has its own strengths. Theatre teaches you discipline and presence, films allow you to explore details and nuances, and OTT has opened doors for layered storytelling. As an actor, I feel fortunate that I get to experience all three. If the story excites me, the medium becomes secondary.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "In ‘Made in India: A Titan Story’, you portray a real-life figure, what kind of preparation did you undertake for this role, and what was the biggest challenge?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Yes, in the series I have played the character of Akash Bansal - one of Titian’s co-founders. Whenever you are portraying a real person, the responsibility automatically increases. I spent a lot of time understanding not just the individual but also the era, the vision, and the larger journey behind the creation of Titan. The challenge was to capture the spirit of a business leader without making the performance feel overly technical or documentary-like. At the end of the day, audiences connect with people and emotions, not just achievements. Finding that human side was the most important part of the preparation.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "Sharing screen space with actors like Naseeruddin Shah and Jim Sarbh must have been a masterclass in itself. What did you take away from that experience?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Absolutely. Watching actors of that calibre work is a learning experience in itself. Naseer sir has an incredible command over rhythm, stillness, and truth in performance. Jim brings tremendous intelligence and originality to every scene. Great actors don’t try to impress; they listen, respond, and stay truthful to the moment. That is something I constantly strive to learn and practice.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "With the rise of OTT platforms, do you as an actor feel this is the most exciting time to be part of the entertainment industry?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Without a doubt. Today, audiences are open to stories from different languages, cultures, and genres. A compelling story can travel across the country and even across the world. As actors, we are getting opportunities to play more layered and unconventional characters. The boundaries that once existed are disappearing, and that’s incredibly exciting.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "In an industry that is constantly evolving, what do you think is the key to staying relevant while remaining true to yourself?",
+        page: 61
+      },
+      {
+        type: "p",
+        text: "Curiosity. The moment you stop learning, you stop growing. I try to stay open to new formats, new filmmakers, and new ideas, while remaining grounded in the values that brought me here. Trends will come and go, but authenticity never goes out of style.",
+        page: 61
+      },
+      {
+        type: "question",
+        text: "Is there a genre or character type that you would love to explore?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "I would love to explore psychologically complex characters and stories that challenge me as an actor. I’ve always been drawn to roles that have emotional depth and internal conflict. At the same time, I would love to do more comedy, because making people laugh convincingly is one of the toughest things for an actor.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Every actor faces rejection at some point. What helped you stay motivated during challenging phases of your journey, and what can aspiring actors learn from that experience?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Rejection is not an exception in this profession; it is part of the process. There were times when things didn’t go my way despite my best efforts. What helped me was focusing on growth rather than outcomes. I kept training, learning, and improving. My advice to aspiring actors would be not to attach your self-worth to a single audition or project. Success is rarely overnight. Consistency, patience, and resilience are far more important than instant results.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "What advice would you offer those trying to build a sustainable career in the industry?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Focus on longevity rather than quick success. Keep working on your craft. Be professional, be punctual, and be kind to people. Talent is important, but so are discipline and consistency. Also, build a life beyond acting. The industry can be unpredictable, and having a strong sense of self helps you navigate both success and failure.",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Can you give us a glimpse of the projects that are in the pipeline?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "There are a few exciting projects currently in different stages of development, including work across multiple languages. I’m also looking forward to exploring stories that push me into unfamiliar territory as a performer. At this stage, growth and exploration are what excite me the most",
+        page: 62
+      },
+      {
+        type: "subhead",
+        text: "Rapid Fire",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "Theatre or cinema?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Theatre. That’s where I fell in love with acting",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "A comfort dish you enjoy after a long day?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Just a simple home-cooked meal",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "An actor you’d love to share screen space with?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "Amitabh Bachchan",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "If not an actor, what would you have been?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "A professor",
+        page: 62
+      },
+      {
+        type: "question",
+        text: "A recent film you really enjoyed watching?",
+        page: 62
+      },
+      {
+        type: "p",
+        text: "I haven’t been able to watch anything recently!",
+        page: 62
+      }
+    ],
+    pullQuotes: [
+      "Whenever you are portraying a real person, the responsibility automatically increases. I spent a lot of time understanding not just the individual but also the era and the vision"
+    ],
+    gallery: [
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p61-1.webp",
+        alt: "Black-and-white portrait of Vaibhav Tatwawadi in a jacket",
+        width: 339,
+        height: 498,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p61-2.webp",
+        alt: "Black-and-white portrait of Vaibhav Tatwawadi standing",
+        width: 352,
+        height: 516,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p61-3.webp",
+        alt: "Black-and-white portrait of Vaibhav Tatwawadi in a suit",
+        width: 347,
+        height: 510,
+        pdfPages: [
+          61
+        ]
+      },
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p62-2.webp",
+        alt: "Vaibhav Tatwawadi seated on a sofa",
+        width: 235,
+        height: 308,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p62-1.webp",
+        alt: "Vaibhav Tatwawadi in a red and white jacket",
+        width: 235,
+        height: 676,
+        pdfPages: [
+          62
+        ]
+      },
+      {
+        src: "/images/stories/vaibhav-tatwawadi-if-story-excites-me/p62-3.webp",
+        alt: "Vaibhav Tatwawadi and Naseeruddin Shah in a scene",
+        width: 480,
+        height: 447,
+        pdfPages: [
+          62
+        ]
+      }
+    ],
+    printedCaptions: [
+      {
+        pdfPage: 62,
+        items: [
+          "Vaibhav Tatwawadi and Naseeruddin Shah in a still from the latest series - Made In India: A Titan Story being screened on Amazon MX Player"
+        ]
+      }
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        60,
+        61,
+        62
+      ],
+      printedPages: [
+        58,
+        59,
+        60
+      ],
+      imagePdfPage: 60
+    }
+  },
+  {
+    id: "world-ufo-day-facts-and-figures",
+    slug: "world-ufo-day-facts-and-figures",
+    title: "World UFO Day",
+    section: "Facts and Figures",
+    category: "culture",
+    date: "July 2026",
+    excerpt: "Every year on 2nd July, World UFO Day sparks curiosity about unidentified flying objects (UFOs), extraterrestrial life, and humanity’s ongoing fascination with the unknown. The day commemorates the famous Roswell incident of 1947 and encourages discussions around and scientific inquiry into unexplained aerial phenomena. While no confirmed evidence of alien spacecraft exists, UFO sightings continue to capture public attention worldwide.",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "p",
+        text: "**START OF A UFO LEGEND** Initially described by the U.S. military as a recovered “**flying disc**”, the debris was later identified as part of the secret Project Mogul surveillance balloon programme. The incident nevertheless became the foundation of modern UFO folklore.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "The date marks the anniversary of the **alleged Roswell UFO incident in New Mexico, USA, in 1947**, one of the most famous events in UFO history.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "**The Roswell Incident** **On July 2, 1947, an object** **crashed near Roswell**, New Mexico. Nearly eight decades later, it remains the most famous UFO-related event in the world and continues to inspire books, documentaries, and research.",
+        page: 70
+      },
+      {
+        type: "p",
+        text: "According to the U.S. Department of Defense’s All-domain Anomaly Resolution Office (**AARO), 757 sightings were reported in a recent** **UFO/UAP** reporting period, including 485 new cases. However, investigators found no evidence linking these incidents to extraterrestrial goings-on.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**No mystery behind** **UFO sightings Government investigations have attributed many sightings to balloons, drones, aircraft, birds, atmospheric phenomena, or sensor errors**. Numerous cases remain unresolved due to insufficient data rather than evidence of alien activity.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Increased** **transparency** **on unexplained** **sightings** In recent years, the U.S. government has released multiple reports and previously classified files related to unidentified aerial phenomena, reflecting growing public and scientific interest in investigating unexplained observations.",
+        page: 71
+      },
+      {
+        type: "p",
+        text: "**Roswell, a major UFO** **tourism destination** **The city is home to the International UFO Museum and Research Center and hosts an annual UFO festival**, attracting thousands of enthusiasts, researchers, and curious visitors each year.",
+        page: 71
+      }
+    ],
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        70,
+        71
+      ],
+      printedPages: [
+        68,
+        69
+      ],
+      imagePdfPage: 70
+    }
+  },
+  {
+    id: "predictions-september-2026",
+    slug: "predictions-september-2026",
+    title: "Predictions",
+    label: "September 2026",
+    section: "Predictions",
+    category: "predictions",
+    author: "Dr. Prem Kumar Sharma",
+    role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
+    date: "September 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "september-2026",
+    editionTitle: "Spice Route - Sept 2026",
+    body: [
+      {
+        type: "note",
+        text: "**email**: psharma@premastrologer.com | **web**: www.premastrologer.com",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A heartfelt conversation may bring greater clarity to your personal life and strengthen an important relationship. At work, your dedication begins attracting the recognition you have quietly earned through consistent effort. Careful money management helps maintain financial stability despite occasional expenses in coming times.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **11**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **White**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Professional responsibilities demand patience, but your practical approach helps you move towards success. Financial planning remains one of your strengths, making this a suitable period for long-term investments, including property. Expanding your social circle proves rewarding, as valuable connections bring future opportunities.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **9**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Brown**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Managing your finances wisely creates a solid foundation for future plans and keeps unnecessary pressure away. Your ability to adapt quickly earns appreciation at work, opening doors to fresh opportunities. Paying greater attention to your well-being keeps your busy schedule balanced. Property matters deserve careful review.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **4**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Looking after your physical and emotional well-being helps you approach every situation with confidence and calmness. Thoughtful financial decisions reduce future worries. Your patient nature restores harmony within the family, while new friendships bring fresh inspiration. Property matters require careful evaluation.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **2**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Yellow**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A change of scenery or an enjoyable journey inspires fresh ideas and renews your enthusiasm for future goals. Career progress gathers momentum as determination and sincerity earn appreciation. Excellent stamina keeps you productive throughout demanding days. Property matters are best handled patiently to secure favourable long-term results.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **6**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Green**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Academic and professional pursuits take centre-stage, rewarding your disciplined approach and consistent hard work. Recognition earned through dedication boosts your confidence and motivates you to aim even higher. Travel plans remain enjoyable despite minor adjustments, and property-related decisions should be made only after careful consideration.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **17**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Magenta**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A refreshing journey or change of surroundings helps you see familiar situations from a brighter perspective. Peace and understanding at home create the emotional stability needed to handle important decisions with confidence. Sensible budgeting keeps finances comfortably balanced. Trusting your instincts leads to valuable personal growth.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **1**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Golden**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Long-term plans related to property and future security begin moving in a positive direction, boosting your confidence. Family remains your greatest source of strength, offering encouragement whenever challenges arise. Good health enables you to manage increasing responsibilities. Organised financial planning keeps unnecessary expenses under control.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **7**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Grey**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Creative pursuits and exciting experiences fill your days with renewed enthusiasm, inspiring you to look ahead with optimism. Romance becomes especially rewarding, bringing greater emotional understanding into your relationship. Wise financial planning keeps your position comfortable, and property matters favour long-term thinking.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **22**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Orange**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Financial strength provides the confidence to move ahead with investments. Ambitions continue to gather momentum as your patience and determination produce meaningful results. Remaining flexible during travel allows unexpected changes to work in your favour. Personal interests offer the perfect opportunity to relax and recharge.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **8**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Beige**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Inspiration arrives through meaningful conversations and fresh ideas, helping you discover opportunities that may have gone unnoticed before. Paying closer attention to your health keeps energy levels high, and your routine well-balanced. Thoughtful budgeting strengthens financial security and prepares you for future commitments.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **18**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Red**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Encouragement of loved ones inspires you to move ahead with greater confidence and emotional clarity. Good health allows you to manage personal and professional responsibilities without feeling overwhelmed. Career progress reflects your ability to focus despite increasing demands. New skills contribute to personal growth.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **3**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Maroon**",
+        page: 80
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "september-2026",
+      pdf: "11-Sep_Lowres-SpiceRoute_Sep.pdf",
+      pdfPages: [
+        80
+      ],
+      printedPages: [
+        78
+      ],
+      imagePdfPage: 80
+    }
+  },
+  {
+    id: "predictions-august-2026",
+    slug: "predictions-august-2026",
+    title: "Predictions",
+    label: "August 2026",
+    section: "Predictions",
+    category: "predictions",
+    author: "Dr. Prem Kumar Sharma",
+    role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
+    date: "August 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "august-2026",
+    editionTitle: "Spice Route - August 2026",
+    body: [
+      {
+        type: "note",
+        text: "**email**: psharma@premastrologer.com | **web**: www.premastrologer.com",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Professional expectations may rise, requiring patience before recognition arrives. Keeping a close watch on expenses will help prevent unnecessary financial strain. Property matters deserve careful evaluation before reaching a final decision. Energy levels remain encouraging throughout the month. Students will need consistency to achieve results.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **17**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Grey**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Workplace responsibilities continue at a comfortable pace without creating unnecessary pressure. Family relationships may call for greater understanding before old differences begin to fade. Looking after your daily routine will help you maintain overall well-being and good health. Social commitments are best limited to those that genuinely matter to you.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **22**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Pink**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Career progress looks especially promising, giving your talent the opportunity to receive well-earned appreciation. Support from loved ones makes important decisions easier to handle with confidence. Financial stability improves through practical choices instead of unnecessary risks. Health allows you to maintain an active routine with ease.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **2**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Silver**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Emotional bonds will feel stronger than they have in recent weeks. Financial decisions made with patience could gradually improve your position. Professional responsibilities progress at a comfortable pace without demanding unnecessary compromises. Property-related issues deserve extra caution before committing.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **6**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Cream**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Feeling your best becomes a valuable advantage, helping you approach every challenge with confidence and enthusiasm. Career progress may seem gradual at the moment, but consistent effort will keep you moving in the right direction. Romance calls for greater understanding between partners before expectations are fully met.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **18**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Purple**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Romantic relationships strengthen through honest conversations and thoughtful gestures. Professional commitments remain manageable when approached with proper planning. Money matters deserve closer attention to avoid unnecessary pressure later. Travel this month is most likely to remain pleasant.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **11**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Yellow**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Meaningful relationships are likely to flourish, bringing a deeper sense of emotional fulfilment. Looking after your well-being helps you stay energetic enough to handle a busy schedule with ease. Career moves in a favourable direction, allowing your efforts to earn the appreciation they deserve. Social interactions may introduce valuable connections.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **4**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A memorable journey could become one of August’s biggest highlights, offering excitement and a fresh perspective. Your relationship benefits from greater trust, making emotional connections feel stronger than before. Career progress depends on staying patient with ongoing responsibilities. Money matters require careful handling and unnecessary expenses are to be controlled.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **5**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Magenta**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "New destinations or meaningful journeys are likely to fill August with memorable experiences and renewed enthusiasm. Caring for your health helps you enjoy opportunities that come your way. Professional goals continue moving forward with steady effort. Matters of the heart could require extra understanding before emotional balance returns.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **8**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Whit**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Professional achievements are likely to highlight your month with well-deserved recognition. Family support offers reassurance whenever responsibilities begin to grow. Romance progresses steadily when expectations remain realistic and communication stays open. Keep travel plans flexible. Social interactions may introduce worthwhile opportunities.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **7**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Red**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Financial growth has the potential to become your strongest advantage, making careful planning especially rewarding. Family life remains encouraging and offers steady emotional support through changing situations. Professional responsibilities continue without major obstacles, allowing you to focus on long-term goals.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **9**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Saffron**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Relationships are likely to bring comfort and reassurance, making emotional connections one of the month’s greatest strengths. Family members may appreciate your willingness to stand beside them during important moments. Career progress depends on maintaining consistency despite occasional distractions.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **3**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Peac**",
+        page: 80
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "august-2026",
+      pdf: "Lowres-Pdf-SpiceRoute.pdf",
+      pdfPages: [
+        80
+      ],
+      printedPages: [
+        78
+      ],
+      imagePdfPage: 80
+    }
+  },
+  {
+    id: "predictions-july-2026",
+    slug: "predictions-july-2026",
+    title: "Predictions",
+    label: "July 2026",
+    section: "Predictions",
+    category: "predictions",
+    author: "Dr. Prem Kumar Sharma",
+    role: "Astrologer, Palmist, Numerologist, Vaastu Consultant & 3-Time Limca Book of Records Holder",
+    date: "July 2026",
+    excerpt: "",
+    heroImageLicence: "pending",
+    editionSlug: "july-2026",
+    editionTitle: "Spice Route - July 2026",
+    body: [
+      {
+        type: "note",
+        text: "**email**: psharma@premastrologer.com | **web**: www.premastrologer.com",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "ARIES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A stronger sense of purpose helps you take control of important matters this month. Professional responsibilities may increase, but they also create opportunities to showcase your capabilities. Financial decisions made now can improve long-term stability. Relationships require understanding rather than impulsive reactions. Travel plans may need extra preparation.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **22**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Yellow**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "TAURUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "July brings opportunities to step outside your comfort zone and explore new experiences. Travel, social events and family gatherings add excitement to your routine. Career growth comes from staying committed to existing goals. Financially, steady progress is indicated, but avoid risky ventures. Romantic prospects appear encouraging and may develop unexpectedly.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **9**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Maroon**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "GEMINI",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Fresh opportunities emerge through conversations, networking, and shared ideas. Your professional life benefits from adaptability and quick thinking. Financial prospects brighten through smart choices and additional earning possibilities. Health remains satisfactory. Academic pursuits benefit from curiosity and a willingness to learn something new.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **3**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CANCER",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Responsibilities encourage you to become more organised and focused. Professional matters demand attention, but your efforts are likely to bring satisfying results. Financial planning helps maintain stability. Romance appears promising for those seeking emotional connections. Travel offers welcome relief from routine.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **11**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Silver**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LEO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Your ability to lead and inspire others becomes one of your greatest strengths. Recognition may come through a project, meeting, or important responsibility. Financial conditions remain encouraging and support future goals. Romantic life benefits from patience and meaningful conversations. Travel brings new perspectives.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **6**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Purple**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "VIRGO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Positive developments help restore confidence and clarity this month. Professional life feels rewarding as cooperation improves in the workplace. Financial prospects strengthen through careful management. Health benefits from greater attention to routine and well-being. Academic pursuits move ahead through determination and realistic planning.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **5**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Green**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "LIBRA",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Balance becomes the key to success in July. Professional responsibilities increase, but your diplomatic approach helps maintain harmony. Financial matters require thoughtful planning and practical decisions. Family members may look to you for guidance and support. Romance benefits from honest communication and mutual understanding.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **2**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Pink**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SCORPIO",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A desire for growth inspires you to make meaningful adjustments in several areas of life. Professional matters become more engaging as new possibilities emerge. Financially, careful budgeting remains important. Family discussions help clear lingering concerns and strengthen understanding. Relationships benefit from emotional honesty.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **5**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Orange**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "SAGITTARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Progress becomes visible as your efforts begin producing encouraging results. Career opportunities favour those willing to take initiative and take on more responsibilites. Financial stability improves through practical planning and smart decisions. Family life remains supportive, even when responsibilities increase. Health remains favourable with regular activity and excercise.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **8**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Blue**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "CAPRICORN",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "The month encourages a fresh outlook and a willingness to embrace change. Professional achievements enhance your reputation and open new possibilities. Financially, you remain well placed to build security for the future. Health improves as disciplined habits deliver noticeable benefits. Travel adds variety and inspiration.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **6**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Green**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "AQUARIUS",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "Innovation and creativity work strongly in your favour. Professional recognition grows as your unique ideas gain attention. Financial prospects improve through new opportunities and better planning. Health shows encouraging signs of improvement. Travel offers a refreshing change. Your confidence grows as progress becomes visible.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **18**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Red**",
+        page: 80
+      },
+      {
+        type: "subhead",
+        text: "PISCES",
+        page: 80
+      },
+      {
+        type: "p",
+        text: "A thoughtful approach helps you make steady progress both personally and professionally. Career developments highlight your skills and reliability. Financial conditions remain encouraging, helping ease previous concerns. Relationships flourish when honesty and understanding guide your actions. Travel brings meaningful experiences and inspiration.",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Number: **1**",
+        page: 80
+      },
+      {
+        type: "note",
+        text: "Lucky Colour: **Purple**",
+        page: 80
+      }
+    ],
+    collapsible: true,
+    source: {
+      edition: "july-2026",
+      pdf: "LR-SpiceRoute-July-Book-.pdf",
+      pdfPages: [
+        80
+      ],
+      printedPages: [
+        78
+      ],
+      imagePdfPage: 80
+    }
   }
 ];

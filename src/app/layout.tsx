@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
+import { Montserrat, Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import "./editorial.css";
+import "./chrome.css";
+import "./hero.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { getLatestEdition } from "@/lib/content";
+import { getEditionYears, getLatestEdition } from "@/lib/content";
+import { storyCategories } from "@/lib/search";
 import { siteConfig } from "@/data/siteConfig";
 import { SITE_URL } from "@/lib/site";
 import { themeInitScript } from "@/lib/theme";
@@ -20,6 +23,14 @@ const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-jakarta",
+});
+
+// Hero sections only: the nearest open match to Gotham, the source site's face
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-montserrat",
 });
 
 const latestCover = getLatestEdition();
@@ -61,7 +72,7 @@ export default function RootLayout({
 
   return (
     // data-theme may be set by the inline script before hydration
-    <html lang="en" className={`${playfair.variable} ${jakarta.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${playfair.variable} ${jakarta.variable} ${montserrat.variable}`} suppressHydrationWarning>
       <body>
         {/* Saved theme choice, applied before first paint */}
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
@@ -77,6 +88,8 @@ export default function RootLayout({
           }}
           tagline={siteConfig.tagline}
           publisherName={siteConfig.publisher.name}
+          storyMenu={storyCategories().map((c) => ({ href: `/search?category=${c.slug}`, label: c.name }))}
+          years={getEditionYears()}
         />
         <main id="main-content" style={{ flex: 1 }}>
           {children}

@@ -87,7 +87,8 @@ Submitted details are never logged, stored or echoed back.
 
 `.qa/` holds the local verification scripts:
 
-- content audit against the PDFs
+- content audit against the PDFs (`content-audit.mjs`: nothing on the web is invented)
+- completeness audit (`completeness-audit.mjs`: nothing printed is lost). Every text block on each article's PDF pages must appear on the rendered article page, or be explained: a folio, running head, advert or another story's text. Deliberate exclusions are listed with reasons in `completeness-registry.mjs`.
 - route, link and metadata audits
 - Playwright browser QA
 - contact-form QA against a local SMTP sink

@@ -83,6 +83,13 @@
   --light-footer-muted: #ffffff;
   --light-footer-accent: #ffffff;
   --light-footer-border: rgba(255, 255, 255, 0.3);
+  /* Home / About / Contact heroes: the source site's red band and orange CTA.
+     Charcoal on orange keeps the labels at WCAG AA (white would be 2.1:1). */
+  --light-hero-bg: var(--brand-red-band);
+  --light-hero-text: #ffffff;
+  --light-hero-cta-bg: var(--brand-orange);
+  --light-hero-cta-hover: #ffab3d;
+  --light-hero-cta-text: var(--brand-charcoal);
 
   /* ---- Dark palette ---- */
   --dark-bg: #121418;
@@ -133,6 +140,12 @@
   --dark-footer-muted: #8f95a0;
   --dark-footer-accent: var(--brand-orange);
   --dark-footer-border: rgba(255, 255, 255, 0.1);
+  /* The heroes stay SpiceJet red at night, one step deeper (white 6.1:1) */
+  --dark-hero-bg: #c1161d;
+  --dark-hero-text: #ffffff;
+  --dark-hero-cta-bg: var(--brand-orange);
+  --dark-hero-cta-hover: #ffab3d;
+  --dark-hero-cta-text: var(--brand-charcoal);
 
   /* ---- Theme-independent roles ---- */
   --accent: var(--brand-red); /* rules, markers, indicators */
@@ -204,10 +217,16 @@
   --footer-muted: var(--light-footer-muted);
   --footer-accent: var(--light-footer-accent);
   --footer-border: var(--light-footer-border);
+  --hero-bg: var(--light-hero-bg);
+  --hero-text: var(--light-hero-text);
+  --hero-cta-bg: var(--light-hero-cta-bg);
+  --hero-cta-hover: var(--light-hero-cta-hover);
+  --hero-cta-text: var(--light-hero-cta-text);
 
   /* Typography */
   --font-serif: var(--font-playfair), "Playfair Display", Georgia, "Times New Roman", serif;
   --font-sans: var(--font-jakarta), "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-hero: var(--font-montserrat), "Montserrat", var(--font-sans);
 
   /* Editorial type scale */
   --step-display: clamp(2.3rem, 6.2vw, 4.4rem);
@@ -304,6 +323,11 @@
     --footer-muted: var(--dark-footer-muted);
     --footer-accent: var(--dark-footer-accent);
     --footer-border: var(--dark-footer-border);
+    --hero-bg: var(--dark-hero-bg);
+    --hero-text: var(--dark-hero-text);
+    --hero-cta-bg: var(--dark-hero-cta-bg);
+    --hero-cta-hover: var(--dark-hero-cta-hover);
+    --hero-cta-text: var(--dark-hero-cta-text);
   }
 }
 
@@ -359,6 +383,11 @@
   --footer-muted: var(--dark-footer-muted);
   --footer-accent: var(--dark-footer-accent);
   --footer-border: var(--dark-footer-border);
+  --hero-bg: var(--dark-hero-bg);
+  --hero-text: var(--dark-hero-text);
+  --hero-cta-bg: var(--dark-hero-cta-bg);
+  --hero-cta-hover: var(--dark-hero-cta-hover);
+  --hero-cta-text: var(--dark-hero-cta-text);
 }
 
 /* Reset & Base

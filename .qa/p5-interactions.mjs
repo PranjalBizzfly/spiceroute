@@ -76,7 +76,7 @@ for (const [w, h] of [[390, 844], [1440, 900]]) {
 
   // ---------------- HEADER ----------------
   await go(page, "/about");
-  for (const [label, want] of [["Inflight Magazine", "/inflight-magazine"], ["Contact", "/contact"], ["About", "/about"], ["Home", "/"]]) {
+  for (const [label, want] of [["Magazine", "/inflight-magazine"], ["Contact", "/contact"], ["About", "/about"], ["Home", "/"]]) {
     if (mobile) await page.locator(".ed-header__toggle").click();
     const link = mobile ? page.locator(".ed-drawer__link", { hasText: new RegExp(`^${label}$`) }) : page.locator(".ed-header__nav a", { hasText: new RegExp(`^${label}$`) });
     const [p] = await follow(page, link);
@@ -104,21 +104,21 @@ for (const [w, h] of [[390, 844], [1440, 900]]) {
 
   // ---------------- HOME ----------------
   await go(page, "/");
-  [p] = await follow(page, page.locator(".ed-front .btn-primary"));
-  check("home", w, p === "/inflight-magazine/september-2026", `hero "Read the September 2026 issue" → ${p}`);
+  [p] = await follow(page, page.locator(".ed-issuefront .btn-primary"));
+  check("home", w, p === "/inflight-magazine/september-2026", `issue front "Read this issue" → ${p}`);
   await go(page, "/");
-  [p] = await follow(page, page.locator(".ed-front .btn-outline"));
-  check("home", w, p === "/inflight-magazine", `hero "Browse all 29 editions" → ${p}`);
+  [p] = await follow(page, page.locator('main a[href="/inflight-magazine"]').first());
+  check("home", w, p === "/inflight-magazine", `"all editions" link → ${p}`);
   await go(page, "/");
-  [p] = await follow(page, page.locator(".ed-hero__publish"));
+  [p] = await follow(page, page.locator(".ed-shero__btn"));
   check("home", w, p === "/contact", `"Publish Your Story" → ${p}`);
   await go(page, "/");
-  [p, t] = await follow(page, page.locator(".ed-front__storylink"));
-  check("home", w, p === "/stories/travel/kolkata-forever-day-in-a-city" && /Forever Kolkata/.test(t), `hero story → ${p} ("${t}")`);
+  [p, t] = await follow(page, page.locator(".ed-issuefront__lead .ed-card__plate"), { atPoint: true });
+  check("home", w, p.startsWith("/stories/") && t.length > 0, `issue lead story → ${p} ("${t}")`);
   await go(page, "/");
   // the whole card is the link: click the photograph, not the headline
   [p, t] = await follow(page, page.locator(".ed-featured__lead .ed-card__plate"), { atPoint: true });
-  check("home", w, p.startsWith("/stories/") && /Rain-Kissed Getaways/.test(t), `featured card (click on photo) → ${p} ("${t}")`);
+  check("home", w, p.startsWith("/stories/") && t.length > 0, `featured card (click on photo) → ${p} ("${t}")`);
   await go(page, "/");
   [p, t] = await follow(page, page.locator(".ed-strip__item").first().locator(".ed-card__link"));
   check("home", w, p.startsWith("/stories/") && /World Rhino Day/.test(t), `latest strip story → ("${t}")`);

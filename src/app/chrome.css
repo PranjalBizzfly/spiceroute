@@ -1,0 +1,449 @@
+/* ==========================================================================
+   Spice Route — site chrome additions: navigation menus, search, footer
+   columns. Colours come only from the semantic tokens in globals.css; the
+   dropdown panel reuses the off-canvas menu palette (--drawer-*).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Desktop navigation menus (Stories / Magazine)
+   -------------------------------------------------------------------------- */
+.ed-navmenu {
+  position: relative;
+}
+
+.ed-navmenu__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.ed-navmenu__toggle svg {
+  transition: transform 0.2s var(--ease-editorial);
+}
+
+.ed-navmenu.is-open .ed-navmenu__toggle svg {
+  transform: rotate(180deg);
+}
+
+.ed-navmenu__panel {
+  position: absolute;
+  top: 100%;
+  left: -1.25rem;
+  z-index: 110;
+  min-width: 15rem;
+  /* bridge the gap under the toggle so hover does not drop */
+  margin-top: 0.5rem;
+  padding: 0.75rem 0 0.5rem;
+  border: 1px solid var(--drawer-border);
+  border-radius: var(--radius-md, 10px);
+  background-color: var(--drawer-bg);
+  box-shadow: var(--shadow-header);
+  animation: fadeIn 0.16s ease-out;
+}
+
+.ed-navmenu__panel::before {
+  content: "";
+  position: absolute;
+  inset: -0.6rem 0 auto;
+  height: 0.6rem;
+}
+
+.ed-navmenu__panel[hidden] {
+  display: none;
+}
+
+.ed-navmenu__panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-navmenu__link,
+.ed-navmenu__all {
+  display: block;
+  padding: 0.55rem 1.25rem;
+  color: var(--drawer-text);
+  font-size: 0.92rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.ed-navmenu__link:hover,
+.ed-navmenu__link:focus-visible,
+.ed-navmenu__all:hover,
+.ed-navmenu__all:focus-visible {
+  color: var(--drawer-active);
+}
+
+.ed-navmenu__all {
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--drawer-border);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ed-navmenu :focus-visible {
+  outline-color: var(--drawer-active);
+}
+
+/* Search action in the header bar */
+.ed-searchbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--header-border);
+  border-radius: var(--radius-full);
+  color: var(--header-text);
+  transition: background-color 0.2s;
+}
+
+.ed-searchbtn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+/* --------------------------------------------------------------------------
+   Mobile drawer: search field and section sub-links
+   -------------------------------------------------------------------------- */
+.ed-drawer__search {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--drawer-border);
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.ed-drawer__search input {
+  flex: 1;
+  min-width: 0;
+  min-height: 46px;
+  padding: 0 1.1rem;
+  border: 0;
+  background: none;
+  color: var(--drawer-text);
+  font: inherit;
+  /* 16px stops iOS zooming into the field */
+  font-size: 1rem;
+}
+
+.ed-drawer__search input::placeholder {
+  color: var(--drawer-muted);
+}
+
+.ed-drawer__search button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border: 0;
+  background: none;
+  color: var(--drawer-text);
+  cursor: pointer;
+}
+
+.ed-drawer__group {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-drawer__group > .ed-drawer__link {
+  display: block;
+  border-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+.ed-drawer__sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+.ed-drawer__sub a {
+  display: inline-block;
+  padding-block: 0.35rem;
+  color: var(--drawer-muted);
+  font-size: 0.92rem;
+}
+
+.ed-drawer__sub a:hover {
+  color: var(--drawer-active);
+}
+
+/* --------------------------------------------------------------------------
+   Search page
+   -------------------------------------------------------------------------- */
+.ed-gsearch {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 44rem;
+  margin-top: 1.5rem;
+}
+
+.ed-gsearch__input {
+  flex: 1;
+  min-width: 0;
+  min-height: 52px;
+  padding: 0 1.35rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-full);
+  background-color: var(--input-bg);
+  color: var(--text-heading);
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+}
+
+.ed-gsearch__input::placeholder {
+  color: var(--text-muted);
+}
+
+.ed-gsearch__input:focus-visible {
+  outline: 2px solid var(--emphasis);
+  outline-offset: 2px;
+}
+
+.ed-gsearch__submit {
+  flex: none;
+  min-height: 52px;
+}
+
+.ed-gsearch__cats {
+  margin-top: 1.25rem;
+}
+
+.ed-gsearch__cats .ed-chip[aria-current="page"] {
+  background-color: var(--accent-fill);
+  border-color: var(--accent-fill);
+  color: var(--on-accent);
+}
+
+.ed-gsearch__status {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.ed-gsearch__results {
+  padding-bottom: var(--space-section);
+}
+
+.ed-gsearch__group + .ed-gsearch__group {
+  margin-top: 3rem;
+}
+
+.ed-gsearch__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 2px solid var(--text-heading);
+}
+
+.ed-gsearch__count {
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+}
+
+.ed-gsearch__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 56rem;
+}
+
+.ed-gsearch__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  padding-block: 1.6rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-gsearch__kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-gsearch__title {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-heading);
+}
+
+.ed-gsearch__title a:hover,
+a.ed-gsearch__title:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.ed-gsearch__excerpt {
+  margin-top: 0.55rem;
+  max-width: 65ch;
+  color: var(--text-body);
+  line-height: 1.65;
+}
+
+.ed-gsearch__excerpt.is-passage {
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--border-accent);
+  font-style: italic;
+}
+
+.ed-gsearch__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 1rem;
+  margin-top: 0.7rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.ed-gsearch__meta a {
+  color: var(--text-secondary);
+}
+
+.ed-gsearch__meta a:hover {
+  color: var(--text-heading);
+}
+
+.ed-gsearch__read {
+  margin-left: auto;
+  font-weight: 700;
+  color: var(--accent-text) !important;
+}
+
+.ed-gsearch__thumb {
+  position: relative;
+  display: block;
+  width: 132px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: var(--bg-plate);
+}
+
+.ed-gsearch__thumb img {
+  object-fit: cover;
+}
+
+@media (max-width: 639px) {
+  .ed-gsearch__thumb {
+    width: 84px;
+  }
+
+  .ed-gsearch__read {
+    margin-left: 0;
+  }
+}
+
+.ed-gsearch__editions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.5rem 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-gsearch__edition {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-gsearch__edition .ed-gsearch__title {
+  margin-top: 0;
+}
+
+.ed-gsearch__edition .ed-gsearch__meta {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.ed-gsearch__cover {
+  position: relative;
+  flex: none;
+  width: 56px;
+  aspect-ratio: 900 / 1170;
+  overflow: hidden;
+  box-shadow: var(--shadow-plate);
+}
+
+.ed-gsearch__cover img {
+  object-fit: cover;
+}
+
+.ed-gsearch__cats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 1.25rem 0 0;
+}
+
+.ed-gsearch__cats-list .ed-gsearch__meta {
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.ed-gsearch__empty {
+  max-width: 40rem;
+  padding-top: 1rem;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+
+.ed-gsearch__empty a {
+  font-weight: 700;
+  color: var(--accent-text);
+}
+
+/* --------------------------------------------------------------------------
+   Footer: four link columns
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .ed-footer__grid:has(.ed-footer__cols--4) {
+    grid-template-columns: minmax(0, 3.5fr) minmax(0, 8.5fr);
+  }
+
+  .ed-footer__cols--4 {
+    grid-template-columns: repeat(3, minmax(0, 0.8fr)) minmax(0, 1.25fr);
+  }
+}
+
+/* Just above the desktop breakpoint the two menu toggles and the search
+   action make the bar a little wider than the viewport: tighten spacing */
+@media (min-width: 960px) and (max-width: 1099px) {
+  .ed-header__nav {
+    gap: 0.85rem;
+  }
+
+  .ed-header__actions {
+    gap: 0.5rem;
+  }
+
+  .ed-header__bar {
+    gap: 0.75rem;
+  }
+}
