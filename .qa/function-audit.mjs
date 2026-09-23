@@ -42,7 +42,7 @@ const idsByPath = new Map(); // path -> Set(ids)
   page.on("console", (m) => { if (m.type() === "error") errors.push(m.text().slice(0, 160)); });
   for (const r of process.env.JOURNEYS_ONLY ? [] : routes) {
     errors = [];
-    const res = await page.goto(BASE + r, { waitUntil: "networkidle" });
+    const res = await page.goto(BASE + r, { waitUntil: "load" });
     const expect404 = false;
     check("route", res.status() === 200 || (expect404 && res.status() === 404), `${r} → ${res.status()}`);
     const data = await page.evaluate(() => ({
@@ -132,11 +132,11 @@ for (const [w, h] of process.env.JOURNEYS_ONLY ? [] : [[1280, 900], [390, 844]])
   const ctx = await browser.newContext({ viewport: { width: w, height: h } });
   const page = await ctx.newPage();
   for (const t of TEMPLATES) {
-    await page.goto(BASE + t, { waitUntil: "networkidle" });
+    await page.goto(BASE + t, { waitUntil: "load" });
     const count = await page.evaluate(() => document.querySelectorAll("button").length);
     const seen = new Set();
     for (let i = 0; i < count; i++) {
-      await page.goto(BASE + t, { waitUntil: "networkidle" });
+      await page.goto(BASE + t, { waitUntil: "load" });
       const info = await page.evaluate((i) => {
         const b = document.querySelectorAll("button")[i];
         if (!b) return null;
@@ -184,7 +184,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   const at = `@${w}`;
 
   // Search: query, results, filter chip, no-results, reset
-  await page.goto(BASE + "/search", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/search", { waitUntil: "load" });
   await page.fill(".ed-gsearch__input", "kolkata");
   await Promise.all([page.waitForURL(/q=kolkata/), page.click(".ed-gsearch__submit")]);
   const n = await page.locator(".ed-gcard").count();
@@ -192,10 +192,10 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   const firstHref = await page.locator(".ed-gcard").first().getAttribute("href");
   await Promise.all([page.waitForURL(/\/stories\//), page.locator(".ed-gcard").first().click()]);
   check("search", page.url().endsWith(firstHref), `${at} result card opens ${firstHref}`);
-  await page.goto(BASE + "/search?q=zzqqxx", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/search?q=zzqqxx", { waitUntil: "load" });
   const none = await page.locator(".ed-gsearch__status").textContent();
   check("search", /Nothing/.test(none), `${at} no-results message: "${none.trim().slice(0, 60)}"`);
-  await page.goto(BASE + "/search", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/search", { waitUntil: "load" });
   const chip = page.locator(".ed-gsearch__cats .ed-chip").nth(1);
   const chipName = (await chip.textContent()).replace(/\d+/g, "").trim();
   // without a search term a category button opens that category's page
@@ -204,18 +204,18 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   const h1 = await page.locator("h1").textContent();
   check("search", cur.includes(chipName) && h1.includes(chipName), `${at} category button "${chipName}" → ${new URL(page.url()).pathname}, marked current`);
   // with a search term the buttons filter the results instead
-  await page.goto(BASE + "/search?q=the", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/search?q=the", { waitUntil: "load" });
   const fchip = page.locator(".ed-gsearch__cats .ed-chip").nth(1);
   await Promise.all([page.waitForURL(/q=the.*category=/), fchip.click()]);
   check("search", (await page.locator(".ed-gsearch__cats [aria-current=page]").count()) === 1, `${at} with a search term, a category button filters the results (${new URL(page.url()).search})`);
   // empty query submit stays usable
-  await page.goto(BASE + "/search", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/search", { waitUntil: "load" });
   await page.click(".ed-gsearch__submit");
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("load");
   check("search", (await page.locator(".ed-gcard").count()) > 0, `${at} empty search shows all stories, no error`);
 
   // Header search / drawer search
-  await page.goto(BASE + "/about", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/about", { waitUntil: "load" });
   if (mobile) {
     await page.click(".ed-header__toggle");
     const input = page.locator(".ed-drawer__search input");
@@ -231,20 +231,20 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   }
 
   // Theme toggle persists across a reload
-  await page.goto(BASE + "/", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/", { waitUntil: "load" });
   if (mobile) await page.click(".ed-header__toggle");
   const toggle = page.locator(mobile ? ".ed-theme-toggle--row" : ".ed-theme-toggle--icon").first();
   const t0 = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
   await toggle.click();
   await page.waitForTimeout(300);
   const t1 = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-  await page.reload({ waitUntil: "networkidle" });
+  await page.reload({ waitUntil: "load" });
   const t2 = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
   check("theme", t0 !== t1 && t1 === t2, `${at} theme switch changes the page (${t0} → ${t1}) and survives reload (${t2})`);
   await page.evaluate(() => localStorage.clear());
 
   // Hero carousel: next / previous / pause
-  await page.goto(BASE + "/", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/", { waitUntil: "load" });
   const activeIdx = () => page.$$eval(".ed-hx__tab", (t) => t.findIndex((x) => x.classList.contains("is-active")));
   const a0 = await activeIdx();
   await page.click(".ed-hx__btn[aria-label='Next slide']");
@@ -261,7 +261,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   check("carousel", true, `${at} brand slide "Publish Your Story" → /contact`);
 
   // Shelf arrows and pause
-  await page.goto(BASE + "/", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/", { waitUntil: "load" });
   const shelf = page.locator(".ed-shelf__track");
   if (await shelf.count()) {
     await shelf.scrollIntoViewIfNeeded();
@@ -283,7 +283,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   }
 
   // Article: lightbox open / next / close, PDF reader, "In this story"
-  await page.goto(BASE + "/stories/travel-escapes/kolkata-forever-day-in-a-city", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/stories/travel-escapes/kolkata-forever-day-in-a-city", { waitUntil: "load" });
   const item = page.locator(".ed-gallery__item").first();
   await item.scrollIntoViewIfNeeded();
   await item.click();
@@ -313,17 +313,17 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
     const inView = await page.evaluate((id) => { const r = document.querySelector(id).getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight / 2; }, hash);
     check("instory", inView && page.url().endsWith(hash), `${at} "In this story" → ${hash} in view`);
   } else {
-    const link = page.locator(".ed-news__rail .ed-instory__rail .ed-instory__list a").nth(4);
+    const link = page.locator(".ed-news__leftbox--contents .ed-instory__list a").last();
     const hash = await link.getAttribute("href");
     await link.click();
     await page.waitForTimeout(800);
     const inView = await page.evaluate((id) => { const r = document.querySelector(id).getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight / 2; }, hash);
-    const current = await page.locator(".ed-news__rail .ed-instory__rail a[aria-current]").first().getAttribute("href").catch(() => null);
+    const current = await page.locator(".ed-news__leftbox--contents a[aria-current]").first().getAttribute("href").catch(() => null);
     check("instory", inView && current === hash, `${at} rail link → ${hash} in view, marked current (${current})`);
   }
 
   // Predictions folds open, and "In this story" opens the fold it points to
-  await page.goto(BASE + "/stories/predictions/predictions-june-2026", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/stories/predictions/predictions-june-2026", { waitUntil: "load" });
   const fold = page.locator(".ed-fold").nth(2);
   await fold.locator("summary").scrollIntoViewIfNeeded();
   await fold.locator("summary").click();
@@ -331,7 +331,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   check("folds", opened, `${at} a sign opens when its heading is pressed`);
 
   // Archive: year chip, search, empty state and reset
-  await page.goto(BASE + "/inflight-magazine", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/inflight-magazine", { waitUntil: "load" });
   await page.locator(".ed-chips .ed-chip", { hasText: "2025" }).click();
   const years = await page.$$eval(".ed-archive__year", (h) => h.map((x) => x.textContent.slice(0, 4)));
   check("archive", years.length === 1 && years[0] === "2025", `${at} year chip shows 2025 only (${years.join(",")})`);
@@ -343,7 +343,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   check("archive", empty && back === 29, `${at} no-match message, then "Show all editions" restores ${back}`);
 
   // 404: page, then its links
-  const r404 = await page.goto(BASE + "/stories/travel-escapes/not-a-story", { waitUntil: "networkidle" });
+  const r404 = await page.goto(BASE + "/stories/travel-escapes/not-a-story", { waitUntil: "load" });
   check("404", r404.status() === 404 && /not found/i.test(await page.textContent("main")), `${at} unknown story → 404 page`);
 
   await ctx.close();
@@ -357,7 +357,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   const ctx = await browser.newContext({ viewport: { width: w, height: h } });
   const page = await ctx.newPage();
   const at = `@${w}`;
-  await page.goto(BASE + "/contact", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/contact", { waitUntil: "load" });
   const submit = page.locator("main form button[type=submit]");
   await submit.scrollIntoViewIfNeeded();
   await submit.click();
@@ -408,7 +408,7 @@ for (const [w, h] of [[1280, 900], [390, 844]]) {
   // and with the script, the outcome in the address is reported, then removed
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const p2 = await ctx2.newPage();
-  await p2.goto(BASE + "/contact?form=not_configured#contact-form", { waitUntil: "networkidle" });
+  await p2.goto(BASE + "/contact?form=not_configured#contact-form", { waitUntil: "load" });
   const alert = await p2.locator(".ed-form__alert").textContent().catch(() => "");
   check("contact", /not been sent/.test(alert) && !p2.url().includes("form="), `@1280 outcome from a plain post is reported ("${alert.trim().slice(0, 50)}…") and the address cleaned`);
   await ctx2.close();

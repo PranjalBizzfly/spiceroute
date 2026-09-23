@@ -91,7 +91,11 @@ const probe = () => {
     }
   }
 
-  const images = [...document.images].filter((img) => !ignore(img));
+  // Decorative layers (PlatePhoto's blurred backdrop, the edition hero's
+  // ambient cover) are aria-hidden and blurred on purpose: their sharpness is
+  // not a defect, so they are left out of the image checks below.
+  const decorative = (img) => img.getAttribute("aria-hidden") === "true" || img.closest("[aria-hidden='true']");
+  const images = [...document.images].filter((img) => !ignore(img) && !decorative(img));
   const decode = (s) => decodeURIComponent(s).replace(/^.*[?&]url=/, "").split("&")[0];
   const imgRows = images.map((img) => {
     const r = img.getBoundingClientRect();
@@ -137,6 +141,35 @@ for (const r of reps) if (!ONLY || r === ONLY) for (const w of EXTRA_WIDTHS) job
 
 await fs.mkdir(OUT, { recursive: true });
 const browser = await chromium.launch();
+
+// A build started under a running `next start` leaves the server asking for
+// chunk names that no longer exist: the pages then render with no CSS at all
+// and every measurement below is meaningless (images fill the viewport, text
+// never wraps). Check one known styled value first and refuse to run.
+{
+  const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  await page.goto(`${BASE}/`, { waitUntil: "load", timeout: 120000 });
+  const styled = await page.evaluate(() => {
+    const el = document.querySelector(".ed-header__logo, header a");
+    const box = el?.getBoundingClientRect();
+    return {
+      sheets: document.styleSheets.length,
+      logoW: box ? Math.round(box.width) : 0,
+      serif: /serif|Playfair|Fraunces|Georgia/i.test(getComputedStyle(document.body).fontFamily),
+    };
+  });
+  await page.close();
+  if (!styled.sheets || !styled.logoW || styled.logoW > 400) {
+    await browser.close();
+    console.error(`REFUSING TO RUN: pages are unstyled (${JSON.stringify(styled)}).`);
+    console.error("A build almost certainly replaced .next while this server was running. Restart `next start` and try again.");
+    process.exit(2);
+  }
+}
+
+// A build landing part-way through is just as poisonous, and the check above
+// cannot see it, so remember which build we are testing and say so at the end.
+const buildIdAtStart = await fs.readFile("../.next/BUILD_ID", "utf8").catch(() => null);
 const results = [];
 let done = 0;
 async function worker() {
@@ -198,3 +231,11 @@ const summary = [...groups].map(([k, v]) => ({ issue: k, pages: v.routes.size, w
 await fs.writeFile(`${OUT}/summary.json`, JSON.stringify(summary, null, 1));
 console.log(`${results.length} page loads, ${results.filter((r) => r.fatal).length} failed, ${summary.length} distinct issues`);
 for (const s of summary.slice(0, 80)) console.log(`[${s.pages}p @${s.widths}] ${s.issue.slice(0, 170)}  e.g. ${s.example}`);
+
+const buildIdAtEnd = await fs.readFile("../.next/BUILD_ID", "utf8").catch(() => null);
+if (buildIdAtStart !== buildIdAtEnd) {
+  console.error(`\nRESULTS ARE VOID: the build changed during this run (${buildIdAtStart} -> ${buildIdAtEnd}).`);
+  console.error("Every page loaded after the swap renders unstyled; restart `next start` and run again.");
+  process.exit(3);
+}
+console.log(`build under test: ${buildIdAtStart?.trim() ?? "unknown"} (unchanged throughout)`);

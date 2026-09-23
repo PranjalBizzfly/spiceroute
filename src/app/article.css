@@ -1145,6 +1145,7 @@
 
 .ed-pagefeat__row {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: clamp(0.4rem, 1vw, 0.6rem);
   max-width: min(calc(22rem * var(--sum)), var(--maxw, 100%), 100%);
@@ -1156,8 +1157,13 @@
 
 .ed-pagefeat__plate {
   margin: 0;
-  flex: var(--r) 1 0;
-  min-width: 0;
+  /* the row's width shared out in proportion to each picture's own shape; the
+     shares are divided by the row's total so one upright picture on a line
+     fills it rather than taking four tenths of it */
+  flex: calc(var(--r) / var(--sum)) 1 0;
+  /* never thinner than a thumbnail: an upright picture that would be squeezed
+     to a sliver takes a line of its own instead */
+  min-width: min(100%, 96px);
   aspect-ratio: var(--r);
   overflow: hidden;
   border-radius: var(--radius-plate, var(--radius-sm));
@@ -1172,11 +1178,9 @@
 }
 
 /* On a narrow screen a row of four or five pictures would squeeze each one to
-   a thumbnail, so the row wraps instead: two pictures to a line, each at its
-   own proportions. */
+   a thumbnail, so it wraps to two pictures a line, each at its own shape. */
 @media (max-width: 640px) {
   .ed-pagefeat__row {
-    flex-wrap: wrap;
     max-width: 100%;
   }
 

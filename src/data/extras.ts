@@ -16,7 +16,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 1,
       "printedPage": -1,
       "paragraphs": [
-        "T H E",
+        "THE",
         "I N F L I G H T M AG A Z I N E",
         "ON INDIAN PLATE",
         "GL O B A L F L A V O U R S"
@@ -37,34 +37,9 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/september-2026/p02-1.webp",
-          "width": 522,
-          "height": 938
-        },
-        {
-          "src": "/images/extras/september-2026/p02-2.webp",
-          "width": 442,
-          "height": 971
-        },
-        {
-          "src": "/images/extras/september-2026/p02-3.webp",
-          "width": 361,
-          "height": 971
-        },
-        {
-          "src": "/images/extras/september-2026/p02-4.webp",
-          "width": 281,
-          "height": 797
-        },
-        {
-          "src": "/images/extras/september-2026/p02-5.webp",
-          "width": 200,
-          "height": 600
-        },
-        {
           "src": "/images/extras/september-2026/p02-6.webp",
           "width": 442,
-          "height": 617
+          "height": 414
         }
       ]
     },
@@ -107,54 +82,9 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 1092
         },
         {
-          "src": "/images/extras/september-2026/p05-2.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
           "src": "/images/extras/september-2026/p05-3.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-4.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-5.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-6.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-7.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-8.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-9.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-10.webp",
-          "width": 840,
-          "height": 1092
-        },
-        {
-          "src": "/images/extras/september-2026/p05-11.webp",
-          "width": 840,
-          "height": 1092
+          "width": 283,
+          "height": 110
         }
       ]
     },
@@ -175,7 +105,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "(Fill-less Technology)",
         "save energy, go green!",
         "COOLING TOWER",
-        "S P E C I A L I S T S"
+        "SPECIALISTS"
       ],
       "images": [
         {
@@ -186,57 +116,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p06-2.webp",
           "width": 851,
-          "height": 1094
+          "height": 141
         },
         {
           "src": "/images/extras/september-2026/p06-3.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-4.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-5.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-6.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-7.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-8.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-9.webp",
-          "width": 851,
-          "height": 1094
+          "width": 720,
+          "height": 72
         },
         {
           "src": "/images/extras/september-2026/p06-10.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-11.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-12.webp",
-          "width": 851,
-          "height": 1094
+          "width": 400,
+          "height": 80
         }
       ]
     },
@@ -297,11 +187,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "the conventional",
         "question",
         "of",
-        "“How",
         "do",
         "we market this business?ˮ",
         "The more important question is:",
-        "“What",
         "needs to exist around this business for the market to recognise, trust, choose and eventually advocate for it?ˮ",
         "Growth",
         "becomes",
@@ -427,49 +315,43 @@ export const extras: Record<string, StoryExtra[]> = {
         "the",
         "customer's",
         "mind:",
-        "“Why should I trust you?ˮ",
         "The",
         "Market",
         "Cannot",
         "Choose What It Does Not Understand",
-        "A GREAT PRODUCT IS NO LONGER A GREAT PRODUCT IS NO LONGER",
+        "A GREAT PRODUCT IS NO LONGER",
         "ENOUGH"
       ],
       "images": [
         {
           "src": "/images/extras/september-2026/p07-1.webp",
           "width": 722,
-          "height": 541
+          "height": 364
         },
         {
           "src": "/images/extras/september-2026/p07-2.webp",
-          "width": 466,
-          "height": 392
-        },
-        {
-          "src": "/images/extras/september-2026/p07-3.webp",
-          "width": 466,
-          "height": 392
+          "width": 138,
+          "height": 139
         },
         {
           "src": "/images/extras/september-2026/p07-4.webp",
-          "width": 561,
+          "width": 533,
           "height": 452
         },
         {
           "src": "/images/extras/september-2026/p07-5.webp",
-          "width": 561,
+          "width": 533,
           "height": 452
         },
         {
           "src": "/images/extras/september-2026/p07-6.webp",
-          "width": 489,
-          "height": 197
+          "width": 442,
+          "height": 155
         },
         {
           "src": "/images/extras/september-2026/p07-7.webp",
-          "width": 489,
-          "height": 197
+          "width": 442,
+          "height": 155
         }
       ]
     },
@@ -511,9 +393,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -571,18 +451,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 9,
       "paragraphs": [
         "@BuildWithMengo",
-        "ƛʞǻ͸ۯ͑ Αɦͧ͸ʱ̖̅ۯͧ ʱ͸ͧۯ ǻ͸ۯ ͸ʞɦۯ ʞɦǻ͔͸ۯ̖ ʇۯ Ĥɦ̅ʒ̖ל Ĥɦ̅ʒ̖ۯ",
-        "ۯʱͧ",
-        "ɂΑʱˠ͸ۯ",
-        "ǻ͔̖Α̅ɕۯ",
-        "ۯ͸ʞɦ",
-        "ʱɕɦǻۯ",
-        "͸ʞǻ͸ ɦ̅͸͔ɦ͔͋ɦ̅ɦΑ͔ͧۯͧ ʞ̖Αˠɕۯ̖̅ ͸ۯ ʞǻϒɦۯ ͸̖ۯ̅ ǻϒʱʒǻ͸ɦ ɦϒɦ͔Ϥۯ͋ ǻ͔͸ۯ̖ ʇۯ ɂΑʱˠɕʱ̅ʒۯ ǻ̅ɕۯ ʒ͔̖ϖʱ̅ʒ ۯǻۯ ɂΑͧʱ̅ɦͧͧ ǻˠ̖̅ɦל Å̅ͧ͸ɦǻɕۯ̖ʇۯΑͧʱ̅ʒۯͧɦ͋ǻ͔ǻ͸ɦۯ͸̖̖ˠͧۯʇ̖͔ۯɦϒɦ͔Ϥۯͧ͸ǻʒɦ̖ ʇۯ˾ǻ͔dɦ͸ʱ̅ʒۯɦϟɦɊΑ͸ʱ̖̅ۯכĤɦ̅ʒ̖ۯɂ͔ʱ̅ʒͧۯǻɊ͸ʱϒʱ͸ʱɦͧͧ ΑɊʞۯ ǻͧۯ Ɋ͔ɦǻ͸ʱ̅ʒۯ ˾ǻ͔dɦ͸ʱ̅ʒۯ ǻͧͧɦ͸ͧۯכ ʒɦ̅ɦ͔ǻ͸ʱ̅ʒ Ɋ̖̅͸ɦ̅͸ۯכ͔ Α̅̅ʱ̅ʒۯ Ɋǻ˾͋ǻʱʒ̅ͧۯכ ʒɦ̅ɦ͔ǻ͸ʱ̅ʒۯ ˠɦǻɕͧ ǻ̅ɕۯ̅ Α͔͸Α͔ʱ̅ʒۯ ͸ʞɦ˾ۯ ͸̖ϖǻ͔ɕͧۯ Ɋ̖̅ϒɦ͔ͧʱ̖̅ۯ ʱ̅͸̖̖̅ ɦۯɊ̖̅̅ɦɊ͸ɦɕۯɦ̅ϒʱ͔̖̅˾ɦ̅͸ל AΑ͸ۯ͸ʞɦۯɂʱʒʒɦ͔ۯʱɕɦǻۯʱͧۯ̖̅͸ۯ͸ʞɦۯ̅Α˾ɂɦ͔ۯ̖ʇۯ͸ʞʱ̅ʒͧ \u0002Åۯ Ɋǻ̅ۯ ɕ̖ۯל Å͸ۯ ʱͧۯ ϖʞǻ͸ۯ ͸ʞǻ͸ۯ Ɋǻ͋ǻɂʱˠʱ͸Ϥۯ ʒʱϒɦͧۯ ɂǻɊd ۯ͸̖",
-        "ۯ͸ʞɦ",
-        "ɦ̅͸͔ɦ͔͋ɦ̅ɦΑ͔ۯן",
-        "˾̖͔ɦۯ",
-        "ۯכ͸ʱ˾ɦ",
-        "ʇ̖ɊΑͧכͧ͋ۯۯۯۯۯۯ ۯǻ̅ɕ ۯכɦɦɕ",
         "the ability to maintain momentum",
         "without",
         "losing",
@@ -605,21 +473,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "carries",
         "the",
         "ambition, judgement and responsibility. AI simply helps shorten the road between ‘",
-        "We should do thisʼ",
-        "and ‘",
         "It is done. What did we learn?ʼ",
-        "ƛ¡_ۯ ęŁĬۯ ƀŁ\u0002T ۯ\u0002ƛ_ƀۯ ׈Åۯ ¡\u0002ǈ_ۯ \u0002Ĭ ÅT_\u0002׉",
-        "I̖̅ͧʱɕɦ͔ۯ ϖʞǻ͸ۯ ʞǻ͋͋ɦ̅ͧۯ ʱ˾˾ɦɕʱǻ͸ɦˠϤۯ ǻʇ͸ɦ͔ۯ ͸ʞǻ͸ ɦϟɊʱ͸ʱ̅ʒۯ ˾̖˾ɦ̅͸ۯ ϖʞɦ̅ۯ̖ͧ ˾ɦ̖̅ɦۯ ɕɦɊʱɕɦͧۯ ͸̖ ɂΑʱˠɕۯ̖ͧ˾ɦ͸ʞʱ̅ʒל ƛʞɦۯ ɂΑͧʱ̅ɦͧͧۯ̅ ɦɦɕͧ ۯǻۯ̅ ǻ˾ɦۯכ ͸ʞɦ̅ ۯǻۯͧ ͸̖͔Ϥۯכ ǻ̅ɕ ͸ʞɦ̅ۯǻ̅ۯʱɕɦ̅͸ʱ͸Ϥۯל\u0002ۯϖɦɂͧʱ͸ɦۯ̅ɦɦɕͧۯ͸̖ۯɂɦۯɊ͔ɦǻ͸ɦɕל ƍ̖Ɋʱǻˠۯ Ɋʞǻ̅̅ɦˠͧۯ ʞǻϒɦۯ ͸̖ۯ Ɋ̖˾ɦۯ ǻˠʱϒɦۯל I̖̅͸ɦ̅͸̅ ɦɦɕͧۯ ͸̖ۯ ɂɦۯ͔̖͋ ɕΑɊɦɕۯל Iǻ˾͋ǻʱʒ̅ͧۯ̅ ɦɦɕۯ ͸̖ۯ ɂɦ͋ ˠǻ̅̅ɦɕۯל IΑͧ͸̖˾ɦ͔ͧۯ ʞǻϒɦۯ ͸̖ۯ ɂɦۯ ɕʱͧɊ̖ϒɦ͔ɦɕל ęɦǻɕͧۯ̅ɦɦɕۯ͸̖ۯɂɦۯʇ̖ˠˠ̖ϖɦɕۯΑ͋ۯלĤɦͧͧǻʒɦͧۯ̅ɦɦɕ ۯ͸̖",
-        "ۯɂɦ",
-        "͸ɦͧ͸ɦɕۯל",
-        "ǋʞǻ͸ۯ",
-        "ϖ̖͔dͧۯ",
-        "˾Αͧ͸ۯ",
-        "ɂɦͧ ͸͔ɦ̅ʒ͸ʞɦ̅ɦɕۯלǋʞǻ͸ۯɕ̖ɦͧ̅׊͸ۯ˾Αͧ͸ۯɊʞǻ̅ʒɦל ƍΑɕɕɦ̅ˠϤۯכ ͸ʞɦۯ ʇ̖Α̅ɕɦ͔ۯ ϖʞ̖ۯ ϖǻ̅͸ɦɕۯ ͸̖ۯ ɂΑʱˠɕۯ ǻ ɂΑͧʱ̅ɦͧͧۯ ʇʱ̅ɕͧۯ ʞʱ˾ͧɦˠʇۯ̖͔ ۯ ʞɦ͔ͧɦˠʇۯ ˾ǻ̅ǻʒʱ̅ʒ ɕɦͧʱʒ̅ɦ͔ͧۯכ",
-        "˾ǻ͔dɦ͸ɦ͔ͧۯכ",
-        "ϖ͔ʱ͸ɦ͔ͧۯכ",
-        "ǻʒɦ̅Ɋʱɦͧכ͋ ˠǻ͸ʇ̖͔˾ͧۯ ǻ̅ɕۯ͔ͧ͋ ɦǻɕͧʞɦɦ͸ͧۯל \u0002̅ɕۯ̖ͧ ˾ɦϖʞɦ͔ɦ ɂɦ͸ϖɦɦ̅ۯ ͸ʞɦۯ̖͔ ʱʒʱ̅ǻˠۯ ɦϟɊʱ͸ɦ˾ɦ̅͸ۯ ǻ̅ɕۯ ɦ̅ɕˠɦͧͧ Ɋ̖̖͔ɕʱ̅ǻ͸ʱ̖̅ۯכ̖ͧ ˾ɦ͸ʞʱ̅ʒۯ ϒǻˠΑǻɂˠɦۯ ɕʱͧǻ͋͋ɦǻֲ͔ͧۯ",
-        "‘Momentumʼ",
         "FROM",
         "AI",
         "ASSISTANT",
@@ -636,10 +490,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "MAY NOT BE ANOTHER COMPANY",
         "In a world where ideas are becoming easier to create, the real advantage may belong to the businesses that can move from thinking to doing faster.",
         "There was a time when having a great idea gave an entrepreneur an advantage. Today, ideas are everyw",
-        "ʞɦ͔ɦל S̖˾ɦ̖̅ɦ ʞǻͧ ǻ̅ ʱɕɦǻ ʇ̖͔ ǻ ̅ ɦϖ ͔ ɦͧ͸ǻΑ͔ǻ̅͸̖̅ M̖̅ɕǻϤל S̖˾ɦ̖̅ɦ ɦˠͧɦ ʱͧ ͸ʞʱ̅˗ʱ̅ʒ ǻɂ̖Α͸ ǻ ͧ ʱ˾ʱˠǻ͔ Ɋ̖̅Ɋɦ͋͸ ʱ̅ ǻ̖̅͸ʞɦ͔ Ɋʱ͸Ϥ לA ͔̖͋ ʇɦͧͧʱ̖̅ǻˠ ̖ͧ͋ ͸ͧ ǻ̅ ̖̖͔͋͋",
-        "͸Α̅ʱ͸Ϥ ʇ̖͔ ǻ Ɋ̖̅ͧΑˠ͸ʱ̅ʒ ɂΑͧʱ̅ɦͧͧ לA ʇ̖Α̅ɕɦ͔ͧ ɦɦͧ ǻ ʒǻ͋ ʱ̅ ͸ʞɦ ˾ǻ͔˗ɦ͸ לA ͧ ˾ǻˠˠ ɂΑͧʱ̅ɦͧͧ ̖ ϖ̅ɦ͔ ͸ʞʱ̅˗ͧ ̖ ʇ ǻ ̅ ɦϖ ͔̖͋ ɕΑɊ͸ ͸ʞǻ͸ Ɋ̖Αˠɕ Ɋʞǻ̅ʒɦ ͸ʞɦ ɕʱ͔ɦɊ",
-        "͸ʱ̖̅ ̖ ʇ ͸ʞɦ Ɋ̖˾͋ǻ̅Ϥל Tʞɦ ɕʱʇʇɦ͔ɦ̅Ɋɦ ɂɦ͸ϖɦɦ̅ ͸ʞɦ˾ ˾ǻϤ ʞǻϒɦ ϒɦ͔Ϥ ˠʱ͸͸ˠɦ ͸̖ ɕ̖ ϖʱ͸ʞ ϖʞ̖ ʞǻɕ ͸ʞɦ ʱɕɦǻ ʇʱ͔ͧ͸ל I͸ ˾ǻϤ ͧ ʱ˾͋ˠϤ Ɋ̖˾ɦ ɕ̖ϖ̅ ͸̖ ϖʞ̖ ˾̖ϒɦɕ ʇʱ͔ͧ͸ל",
-        "Tʞǻ͸׉ͧ ɂɦɊǻΑͧɦ ̖̅ ɦ ̖ ʇ ͸ʞɦ ɂʱʒʒɦͧ͸ Ɋʞǻˠˠɦ̅ʒɦͧ ɦ̅͸͔ɦ͔͋ɦ̅ɦΑ͔ͧ ǻ͔ɦ ʇǻɊʱ̅ʒ ͸̖ɕǻϤ ʱͧ ̖̅ ͸ ǻ ͧ ʞ̖͔͸ǻʒɦ ̖ ʇ ʱɕɦǻͧל I͸ ʱͧ ͸ʞɦ ɕʱͧ͸ǻ̅Ɋɦ ɂɦ͸ϖɦɦ̅ ʱɕɦǻ ǻ̅ɕ ɦϟɦɊΑ͸ʱ̖̅ל",
         "Speed",
         "in",
         "business",
@@ -699,45 +549,39 @@ export const extras: Record<string, StoryExtra[]> = {
         "AI,",
         "therefore,",
         "the question for founders may be changing. It is no longer only: ‘",
-        "What is your big idea?ʼ",
         "Perhaps the more important question is: ‘",
         "How quickly can you bring it to life?ʼ",
         "Because ideas may open doors, but",
         "execution is what takes you through them.",
         "The next entrepreneurial advantage may not be having more ideas. It may be having less distance between an idea and its execution.ʼ",
         "MENGO – THE CO-FOUNDER THAT NEVER SLEEPS",
-        "REACH OUT TO US!REACH OUT TO US!"
+        "REACH OUT TO US!"
       ],
       "images": [
         {
           "src": "/images/extras/september-2026/p11-1.webp",
-          "width": 1169,
-          "height": 1169
-        },
-        {
-          "src": "/images/extras/september-2026/p11-2.webp",
-          "width": 1169,
-          "height": 1169
+          "width": 858,
+          "height": 242
         },
         {
           "src": "/images/extras/september-2026/p11-3.webp",
-          "width": 406,
-          "height": 611
+          "width": 258,
+          "height": 524
         },
         {
           "src": "/images/extras/september-2026/p11-4.webp",
-          "width": 406,
-          "height": 611
+          "width": 258,
+          "height": 524
         },
         {
           "src": "/images/extras/september-2026/p11-5.webp",
-          "width": 229,
-          "height": 229
+          "width": 169,
+          "height": 49
         },
         {
           "src": "/images/extras/september-2026/p11-6.webp",
-          "width": 229,
-          "height": 229
+          "width": 168,
+          "height": 49
         }
       ]
     },
@@ -768,7 +612,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p12-2.webp",
           "width": 500,
-          "height": 771
+          "height": 749
         }
       ]
     }
@@ -783,28 +627,28 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/september-2026/p13-1.webp",
-          "width": 1054,
-          "height": 1492
+          "width": 665,
+          "height": 899
         },
         {
           "src": "/images/extras/september-2026/p13-2.webp",
-          "width": 652,
-          "height": 923
+          "width": 645,
+          "height": 917
         },
         {
           "src": "/images/extras/september-2026/p13-3.webp",
-          "width": 549,
-          "height": 777
+          "width": 543,
+          "height": 772
         },
         {
           "src": "/images/extras/september-2026/p13-4.webp",
-          "width": 517,
-          "height": 732
+          "width": 511,
+          "height": 727
         },
         {
           "src": "/images/extras/september-2026/p13-5.webp",
-          "width": 602,
-          "height": 851
+          "width": 596,
+          "height": 845
         }
       ]
     },
@@ -832,7 +676,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p15-1.webp",
           "width": 854,
-          "height": 1009
+          "height": 712
         },
         {
           "src": "/images/extras/september-2026/p14-1.webp",
@@ -852,11 +696,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/september-2026/p16-1.webp",
           "width": 1200,
           "height": 1753
-        },
-        {
-          "src": "/images/extras/september-2026/p16-2.webp",
-          "width": 245,
-          "height": 245
         }
       ]
     },
@@ -917,23 +756,23 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p23-2.webp",
-          "width": 367,
-          "height": 492
+          "width": 228,
+          "height": 247
         },
         {
           "src": "/images/extras/september-2026/p23-3.webp",
-          "width": 357,
-          "height": 336
+          "width": 341,
+          "height": 320
         },
         {
           "src": "/images/extras/september-2026/p23-4.webp",
-          "width": 357,
-          "height": 336
+          "width": 341,
+          "height": 320
         },
         {
           "src": "/images/extras/september-2026/p23-5.webp",
           "width": 243,
-          "height": 394
+          "height": 393
         }
       ]
     },
@@ -1001,7 +840,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p25-3.webp",
           "width": 793,
-          "height": 1032
+          "height": 1007
         }
       ]
     },
@@ -1039,7 +878,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p28-1.webp",
           "width": 1200,
-          "height": 786
+          "height": 763
         }
       ]
     },
@@ -1053,7 +892,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p28-1.webp",
           "width": 1200,
-          "height": 786
+          "height": 763
         }
       ]
     }
@@ -1126,7 +965,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Every SpiceJet Axis Bank Credit Card swipe gets you closer to your dream destination.",
         "Travel. Earn. Repeat.",
         "Silver/Gold Tier Spiceclub Membership*",
-        "Up to ₹11,500",
         "Free SpiceJet Vouchers* Up to 7% Rewards on SpiceJet Spends*",
         "*TnC Apply"
       ],
@@ -1138,13 +976,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p37-2.webp",
-          "width": 527,
-          "height": 373
+          "width": 457,
+          "height": 289
         },
         {
           "src": "/images/extras/september-2026/p37-3.webp",
-          "width": 527,
-          "height": 373
+          "width": 456,
+          "height": 288
         }
       ]
     }
@@ -1178,8 +1016,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -1218,8 +1056,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -1312,10 +1150,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -1384,7 +1221,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p50-9.webp",
           "width": 202,
-          "height": 311
+          "height": 306
         }
       ]
     }
@@ -1434,10 +1271,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -1513,10 +1349,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 62,
       "printedPage": 60,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -1622,8 +1458,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/september-2026/p68-1.webp",
-          "width": 533,
-          "height": 1006
+          "width": 415,
+          "height": 917
         }
       ]
     },
@@ -1645,7 +1481,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -1689,28 +1524,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/september-2026/p76-1.webp",
-          "width": 193,
+          "width": 171,
           "height": 280
         },
         {
-          "src": "/images/extras/september-2026/p76-2.webp",
-          "width": 193,
-          "height": 234
-        },
-        {
           "src": "/images/extras/september-2026/p76-3.webp",
-          "width": 193,
-          "height": 449
+          "width": 181,
+          "height": 197
         },
         {
           "src": "/images/extras/september-2026/p76-4.webp",
-          "width": 241,
+          "width": 228,
           "height": 200
         },
         {
           "src": "/images/extras/september-2026/p76-5.webp",
-          "width": 242,
-          "height": 303
+          "width": 216,
+          "height": 295
         }
       ]
     },
@@ -1724,39 +1554,33 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "st",
-        "August, 2026.",
-        "Domestic — International —"
+        "August, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/september-2026/p76-1.webp",
-          "width": 193,
+          "width": 171,
           "height": 280
         },
         {
           "src": "/images/extras/september-2026/p77-2.webp",
-          "width": 193,
-          "height": 234
-        },
-        {
-          "src": "/images/extras/september-2026/p76-2.webp",
-          "width": 193,
+          "width": 96,
           "height": 234
         },
         {
           "src": "/images/extras/september-2026/p76-3.webp",
-          "width": 193,
-          "height": 449
+          "width": 181,
+          "height": 197
         },
         {
           "src": "/images/extras/september-2026/p76-4.webp",
-          "width": 241,
+          "width": 228,
           "height": 200
         },
         {
           "src": "/images/extras/september-2026/p76-5.webp",
-          "width": 242,
-          "height": 303
+          "width": 216,
+          "height": 295
         }
       ]
     }
@@ -1830,8 +1654,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p79-7.webp",
-          "width": 190,
-          "height": 190
+          "width": 169,
+          "height": 168
         }
       ]
     },
@@ -1854,9 +1678,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "AFTER THE FLASH. COMES THE FOCUS.",
         "Breaking news captures attention. Understanding earns trust.",
         "www.bharatexpress.com",
-        "स¶य",
-        "साहस",
-        "समपɓण",
         "EXP",
         "ESS",
         "One commitment. every platform.",
@@ -1872,7 +1693,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p81-1.webp",
           "width": 1200,
-          "height": 911
+          "height": 715
         },
         {
           "src": "/images/extras/september-2026/p81-2.webp",
@@ -1880,49 +1701,19 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 340
         },
         {
-          "src": "/images/extras/september-2026/p81-3.webp",
-          "width": 210,
-          "height": 209
-        },
-        {
-          "src": "/images/extras/september-2026/p81-4.webp",
-          "width": 192,
-          "height": 209
-        },
-        {
-          "src": "/images/extras/september-2026/p81-5.webp",
-          "width": 210,
-          "height": 209
-        },
-        {
-          "src": "/images/extras/september-2026/p81-6.webp",
-          "width": 196,
-          "height": 203
-        },
-        {
-          "src": "/images/extras/september-2026/p81-7.webp",
-          "width": 210,
-          "height": 209
-        },
-        {
-          "src": "/images/extras/september-2026/p81-8.webp",
-          "width": 210,
-          "height": 209
-        },
-        {
           "src": "/images/extras/september-2026/p81-9.webp",
-          "width": 784,
-          "height": 839
+          "width": 512,
+          "height": 483
         },
         {
           "src": "/images/extras/september-2026/p81-10.webp",
-          "width": 633,
-          "height": 657
+          "width": 618,
+          "height": 593
         },
         {
           "src": "/images/extras/september-2026/p81-11.webp",
-          "width": 712,
-          "height": 699
+          "width": 630,
+          "height": 610
         }
       ]
     },
@@ -1952,7 +1743,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p82-1.webp",
           "width": 1200,
-          "height": 1662
+          "height": 1108
         }
       ]
     },
@@ -1966,17 +1757,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p02-6.webp",
           "width": 442,
-          "height": 617
-        },
-        {
-          "src": "/images/extras/september-2026/p83-2.webp",
-          "width": 1105,
-          "height": 1140
-        },
-        {
-          "src": "/images/extras/september-2026/p83-4.webp",
-          "width": 335,
-          "height": 284
+          "height": 414
         },
         {
           "src": "/images/extras/september-2026/p83-5.webp",
@@ -1984,13 +1765,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 190
         },
         {
-          "src": "/images/extras/september-2026/p83-6.webp",
-          "width": 321,
-          "height": 248
-        },
-        {
           "src": "/images/extras/september-2026/p83-7.webp",
-          "width": 328,
+          "width": 223,
           "height": 264
         },
         {
@@ -2025,14 +1801,9 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/september-2026/p84-1.webp",
-          "width": 839,
-          "height": 1091
-        },
-        {
           "src": "/images/extras/september-2026/p84-2.webp",
           "width": 544,
-          "height": 352
+          "height": 75
         },
         {
           "src": "/images/extras/september-2026/p84-3.webp",
@@ -2041,18 +1812,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p84-4.webp",
-          "width": 385,
-          "height": 513
+          "width": 276,
+          "height": 484
         },
         {
           "src": "/images/extras/september-2026/p84-5.webp",
-          "width": 354,
-          "height": 530
-        },
-        {
-          "src": "/images/extras/september-2026/p84-6.webp",
-          "width": 1176,
-          "height": 1542
+          "width": 330,
+          "height": 501
         }
       ]
     }
@@ -2070,11 +1836,6 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/august-2026/p01-1.webp",
-          "width": 1200,
-          "height": 1592
-        },
-        {
           "src": "/images/extras/august-2026/p01-2.webp",
           "width": 1200,
           "height": 1592
@@ -2091,27 +1852,27 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p02-1.webp",
           "width": 773,
-          "height": 336
+          "height": 320
         },
         {
           "src": "/images/extras/august-2026/p02-2.webp",
           "width": 265,
-          "height": 376
+          "height": 373
         },
         {
           "src": "/images/extras/august-2026/p02-7.webp",
-          "width": 849,
-          "height": 226
+          "width": 820,
+          "height": 197
         },
         {
           "src": "/images/extras/august-2026/p02-8.webp",
-          "width": 849,
-          "height": 226
+          "width": 820,
+          "height": 197
         },
         {
           "src": "/images/extras/august-2026/p02-9.webp",
-          "width": 556,
-          "height": 556
+          "width": 348,
+          "height": 475
         }
       ]
     },
@@ -2125,7 +1886,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p03-1.webp",
           "width": 748,
-          "height": 1056
+          "height": 1040
         }
       ]
     },
@@ -2169,7 +1930,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p05-2.webp",
           "width": 291,
-          "height": 290
+          "height": 226
         },
         {
           "src": "/images/extras/august-2026/p05-3.webp",
@@ -2183,7 +1944,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p05-5.webp",
-          "width": 224,
+          "width": 113,
           "height": 218
         }
       ]
@@ -2205,7 +1966,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "(Fill-less Technology)",
         "save energy, go green!",
         "COOLING TOWER",
-        "S P E C I A L I S T S"
+        "SPECIALISTS"
       ],
       "images": [
         {
@@ -2216,57 +1977,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p06-2.webp",
           "width": 851,
-          "height": 1094
+          "height": 141
         },
         {
           "src": "/images/extras/september-2026/p06-3.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-4.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-5.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-6.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-7.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-8.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-9.webp",
-          "width": 851,
-          "height": 1094
+          "width": 720,
+          "height": 72
         },
         {
           "src": "/images/extras/september-2026/p06-10.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-11.webp",
-          "width": 851,
-          "height": 1094
-        },
-        {
-          "src": "/images/extras/september-2026/p06-12.webp",
-          "width": 851,
-          "height": 1094
+          "width": 400,
+          "height": 80
         }
       ]
     },
@@ -2284,14 +2005,11 @@ export const extras: Record<string, StoryExtra[]> = {
         "The Next Level Thought",
         "The question every leader should ask",
         "isn't:",
-        "‘How",
         "do",
         "we",
         "become",
-        "more visible?ʼ",
         "It",
         "is:",
-        "‘When",
         "people",
         "think",
         "of",
@@ -2387,7 +2105,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "that",
         "shape",
         "the future",
-        "won’t",
         "necessarily",
         "be",
         "the ones",
@@ -2417,7 +2134,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "choices,",
         "consistent",
         "experiences and a clear identity.",
-        "¡ʱͧ͸̖͔ Ϥۯۯʞǻͧۯǻ̅ʱ̅͸ɦ͔ɦͧ ͸ʱ̅ʒۯϖǻ̖ۯϤ͔ɦۯʇϖ͔ ʱ͸ʱ̅ʒͧ ΑɊɊɦͧͧל",
         "Ask",
         "someone who invented the telephone, and many will answer Alexander Graham Bell. Yet history records earlier inventors who explored the same idea. Ask who created the light bulb, and Thomas Edison is the name most people remember, despite",
         "many",
@@ -2492,23 +2208,18 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p07-2.webp",
-          "width": 1162,
-          "height": 775
+          "width": 744,
+          "height": 725
         },
         {
           "src": "/images/extras/august-2026/p07-3.webp",
-          "width": 1162,
-          "height": 775
+          "width": 744,
+          "height": 724
         },
         {
           "src": "/images/extras/august-2026/p07-4.webp",
-          "width": 498,
-          "height": 419
-        },
-        {
-          "src": "/images/extras/august-2026/p07-5.webp",
-          "width": 498,
-          "height": 419
+          "width": 148,
+          "height": 148
         }
       ]
     },
@@ -2550,9 +2261,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -2578,23 +2287,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 10,
       "printedPage": 8,
       "paragraphs": [],
-      "images": [
-        {
-          "src": "/images/extras/august-2026/p10-1.webp",
-          "width": 414,
-          "height": 261
-        },
-        {
-          "src": "/images/extras/august-2026/p10-2.webp",
-          "width": 414,
-          "height": 261
-        },
-        {
-          "src": "/images/extras/august-2026/p10-3.webp",
-          "width": 311,
-          "height": 313
-        }
-      ]
+      "images": []
     },
     {
       "kind": "page",
@@ -2604,33 +2297,18 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/august-2026/p10-1.webp",
-          "width": 414,
-          "height": 261
-        },
-        {
-          "src": "/images/extras/august-2026/p10-2.webp",
-          "width": 414,
-          "height": 261
-        },
-        {
-          "src": "/images/extras/august-2026/p10-3.webp",
-          "width": 311,
-          "height": 313
-        },
-        {
           "src": "/images/extras/august-2026/p11-4.webp",
           "width": 311,
-          "height": 313
+          "height": 312
         },
         {
           "src": "/images/extras/august-2026/p11-5.webp",
           "width": 259,
-          "height": 417
+          "height": 416
         },
         {
           "src": "/images/extras/august-2026/p11-6.webp",
-          "width": 311,
+          "width": 209,
           "height": 313
         },
         {
@@ -2652,11 +2330,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/august-2026/p11-10.webp",
           "width": 311,
           "height": 313
-        },
-        {
-          "src": "/images/extras/august-2026/p11-11.webp",
-          "width": 259,
-          "height": 261
         }
       ]
     },
@@ -2688,13 +2361,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p12-3.webp",
-          "width": 476,
-          "height": 356
+          "width": 439,
+          "height": 340
         },
         {
           "src": "/images/extras/august-2026/p12-4.webp",
-          "width": 297,
-          "height": 220
+          "width": 274,
+          "height": 208
         }
       ]
     },
@@ -2867,28 +2540,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p13-1.webp",
-          "width": 349,
-          "height": 525
+          "width": 298,
+          "height": 477
         },
         {
           "src": "/images/extras/august-2026/p13-2.webp",
-          "width": 354,
-          "height": 354
-        },
-        {
-          "src": "/images/extras/august-2026/p13-3.webp",
-          "width": 354,
-          "height": 354
+          "width": 260,
+          "height": 74
         },
         {
           "src": "/images/extras/august-2026/p13-4.webp",
           "width": 370,
-          "height": 373
+          "height": 370
         },
         {
           "src": "/images/extras/august-2026/p13-5.webp",
           "width": 370,
-          "height": 373
+          "height": 370
         }
       ]
     }
@@ -2975,8 +2643,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p18-1.webp",
-          "width": 611,
-          "height": 763
+          "width": 491,
+          "height": 348
         }
       ]
     },
@@ -2988,19 +2656,14 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/august-2026/p19-1.webp",
-          "width": 1200,
-          "height": 911
-        },
-        {
           "src": "/images/extras/august-2026/p19-2.webp",
-          "width": 636,
+          "width": 629,
           "height": 1278
         },
         {
           "src": "/images/extras/august-2026/p19-3.webp",
-          "width": 901,
-          "height": 434
+          "width": 899,
+          "height": 424
         }
       ]
     },
@@ -3014,7 +2677,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p23-1.webp",
           "width": 850,
-          "height": 1093
+          "height": 884
         }
       ]
     },
@@ -3061,11 +2724,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/august-2026/p25-2.webp",
           "width": 595,
           "height": 774
-        },
-        {
-          "src": "/images/extras/august-2026/p25-3.webp",
-          "width": 595,
-          "height": 774
         }
       ]
     }
@@ -3097,7 +2755,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p26-2.webp",
           "width": 249,
-          "height": 331
+          "height": 306
         },
         {
           "src": "/images/extras/august-2026/p26-3.webp",
@@ -3127,8 +2785,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 27,
       "printedPage": 25,
       "paragraphs": [
-        "T H E",
-        "W I N N I N G",
+        "THE",
+        "WINNING",
         "F R A M E .",
         "Chosen from the finest entries of our World Photography Day Contest.",
         "URJJOSSAN SAMANTA (LADAKH)"
@@ -3151,7 +2809,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p29-1.webp",
           "width": 843,
-          "height": 966
+          "height": 886
         },
         {
           "src": "/images/extras/august-2026/p29-2.webp",
@@ -3161,7 +2819,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p29-3.webp",
           "width": 221,
-          "height": 280
+          "height": 272
         }
       ]
     },
@@ -3179,8 +2837,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p31-2.webp",
-          "width": 396,
-          "height": 531
+          "width": 245,
+          "height": 267
         }
       ]
     },
@@ -3298,83 +2956,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p36-1.webp",
-          "width": 881,
-          "height": 1232
+          "width": 849,
+          "height": 1199
         },
         {
           "src": "/images/extras/august-2026/p36-2.webp",
-          "width": 783,
-          "height": 1108
-        },
-        {
-          "src": "/images/extras/august-2026/p36-3.webp",
-          "width": 783,
-          "height": 1108
-        },
-        {
-          "src": "/images/extras/august-2026/p36-4.webp",
-          "width": 715,
-          "height": 1012
-        },
-        {
-          "src": "/images/extras/august-2026/p36-5.webp",
-          "width": 715,
-          "height": 1012
-        },
-        {
-          "src": "/images/extras/august-2026/p36-6.webp",
-          "width": 715,
-          "height": 1012
-        },
-        {
-          "src": "/images/extras/august-2026/p36-7.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-8.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-9.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-10.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-11.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-12.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-13.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-14.webp",
-          "width": 691,
-          "height": 977
-        },
-        {
-          "src": "/images/extras/august-2026/p36-15.webp",
-          "width": 691,
-          "height": 977
-        },
-        {
-          "src": "/images/extras/august-2026/p36-16.webp",
-          "width": 595,
-          "height": 841
+          "width": 417,
+          "height": 124
         }
       ]
     },
@@ -3412,83 +3000,23 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p37-3.webp",
-          "width": 524,
-          "height": 520
+          "width": 487,
+          "height": 485
         },
         {
           "src": "/images/extras/august-2026/p37-4.webp",
-          "width": 493,
-          "height": 419
+          "width": 354,
+          "height": 408
         },
         {
           "src": "/images/extras/august-2026/p36-1.webp",
-          "width": 881,
-          "height": 1232
+          "width": 849,
+          "height": 1199
         },
         {
           "src": "/images/extras/august-2026/p36-2.webp",
-          "width": 783,
-          "height": 1108
-        },
-        {
-          "src": "/images/extras/august-2026/p36-3.webp",
-          "width": 783,
-          "height": 1108
-        },
-        {
-          "src": "/images/extras/august-2026/p36-6.webp",
-          "width": 715,
-          "height": 1012
-        },
-        {
-          "src": "/images/extras/august-2026/p36-7.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-8.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-9.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-10.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-11.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-12.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-13.webp",
-          "width": 754,
-          "height": 1067
-        },
-        {
-          "src": "/images/extras/august-2026/p36-14.webp",
-          "width": 691,
-          "height": 977
-        },
-        {
-          "src": "/images/extras/august-2026/p36-15.webp",
-          "width": 691,
-          "height": 977
-        },
-        {
-          "src": "/images/extras/august-2026/p36-16.webp",
-          "width": 595,
-          "height": 841
+          "width": 417,
+          "height": 124
         }
       ]
     }
@@ -3536,7 +3064,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p25-3.webp",
           "width": 793,
-          "height": 1032
+          "height": 1007
         }
       ]
     },
@@ -3550,10 +3078,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -3629,16 +3156,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/august-2026/p41-1.webp",
-          "width": 193,
-          "height": 193
-        },
-        {
-          "src": "/images/extras/august-2026/p41-2.webp",
-          "width": 192,
-          "height": 193
-        },
-        {
           "src": "/images/extras/august-2026/p41-3.webp",
           "width": 193,
           "height": 193
@@ -3646,16 +3163,6 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p41-4.webp",
           "width": 193,
-          "height": 193
-        },
-        {
-          "src": "/images/extras/august-2026/p41-5.webp",
-          "width": 193,
-          "height": 193
-        },
-        {
-          "src": "/images/extras/august-2026/p41-6.webp",
-          "width": 192,
           "height": 193
         },
         {
@@ -3674,11 +3181,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 193
         },
         {
-          "src": "/images/extras/august-2026/p41-10.webp",
-          "width": 192,
-          "height": 193
-        },
-        {
           "src": "/images/extras/august-2026/p41-11.webp",
           "width": 193,
           "height": 193
@@ -3690,21 +3192,16 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p41-13.webp",
-          "width": 193,
+          "width": 162,
           "height": 193
         },
         {
           "src": "/images/extras/august-2026/p41-14.webp",
-          "width": 192,
-          "height": 193
+          "width": 120,
+          "height": 168
         },
         {
           "src": "/images/extras/august-2026/p41-15.webp",
-          "width": 193,
-          "height": 193
-        },
-        {
-          "src": "/images/extras/august-2026/p41-16.webp",
           "width": 193,
           "height": 193
         },
@@ -3716,12 +3213,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p41-18.webp",
           "width": 192,
-          "height": 193
+          "height": 191
         },
         {
           "src": "/images/extras/august-2026/p41-19.webp",
           "width": 193,
-          "height": 193
+          "height": 72
         }
       ]
     },
@@ -3735,7 +3232,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p45-1.webp",
           "width": 853,
-          "height": 1108
+          "height": 1056
         }
       ]
     },
@@ -3767,8 +3264,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -3807,8 +3304,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -3897,10 +3394,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 50,
       "printedPage": 48,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -3935,10 +3432,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -4007,7 +3503,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p50-9.webp",
           "width": 202,
-          "height": 311
+          "height": 306
         }
       ]
     }
@@ -4031,7 +3527,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -4130,28 +3625,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p76-1.webp",
-          "width": 190,
+          "width": 168,
           "height": 276
         },
         {
-          "src": "/images/extras/august-2026/p76-2.webp",
-          "width": 190,
-          "height": 230
-        },
-        {
           "src": "/images/extras/august-2026/p76-3.webp",
-          "width": 190,
-          "height": 442
+          "width": 178,
+          "height": 194
         },
         {
           "src": "/images/extras/august-2026/p76-4.webp",
-          "width": 237,
+          "width": 227,
           "height": 197
         },
         {
           "src": "/images/extras/august-2026/p76-5.webp",
-          "width": 239,
-          "height": 298
+          "width": 212,
+          "height": 290
         }
       ]
     },
@@ -4165,39 +3655,33 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "st",
-        "July, 2026.",
-        "Domestic — International —"
+        "July, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/august-2026/p76-1.webp",
-          "width": 190,
+          "width": 168,
           "height": 276
         },
         {
           "src": "/images/extras/august-2026/p77-2.webp",
-          "width": 190,
-          "height": 230
-        },
-        {
-          "src": "/images/extras/august-2026/p76-2.webp",
-          "width": 190,
+          "width": 93,
           "height": 230
         },
         {
           "src": "/images/extras/august-2026/p76-3.webp",
-          "width": 190,
-          "height": 442
+          "width": 178,
+          "height": 194
         },
         {
           "src": "/images/extras/august-2026/p76-4.webp",
-          "width": 237,
+          "width": 227,
           "height": 197
         },
         {
           "src": "/images/extras/august-2026/p76-5.webp",
-          "width": 239,
-          "height": 298
+          "width": 212,
+          "height": 290
         }
       ]
     }
@@ -4222,8 +3706,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p78-1.webp",
-          "width": 537,
-          "height": 1013
+          "width": 417,
+          "height": 921
         }
       ]
     },
@@ -4245,7 +3729,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p79-1.webp",
-          "width": 530,
+          "width": 400,
           "height": 681
         },
         {
@@ -4257,11 +3741,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/august-2026/p79-4.webp",
           "width": 511,
           "height": 220
-        },
-        {
-          "src": "/images/extras/august-2026/p79-5.webp",
-          "width": 290,
-          "height": 220
         }
       ]
     },
@@ -4271,9 +3750,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 81,
       "printedPage": 79,
       "paragraphs": [
-        "स¶य",
-        "साहस",
-        "समपɓण",
         "EXP",
         "ESS",
         "Upendrra Rai",
@@ -4293,18 +3769,18 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p81-2.webp",
-          "width": 322,
-          "height": 318
+          "width": 287,
+          "height": 309
         },
         {
           "src": "/images/extras/august-2026/p81-3.webp",
-          "width": 533,
-          "height": 460
+          "width": 153,
+          "height": 367
         },
         {
           "src": "/images/extras/august-2026/p81-4.webp",
-          "width": 397,
-          "height": 410
+          "width": 382,
+          "height": 373
         }
       ]
     },
@@ -4348,22 +3824,22 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/august-2026/p83-1.webp",
           "width": 1200,
-          "height": 1632
+          "height": 1584
         },
         {
           "src": "/images/extras/august-2026/p02-7.webp",
-          "width": 849,
-          "height": 226
+          "width": 820,
+          "height": 197
         },
         {
           "src": "/images/extras/august-2026/p02-8.webp",
-          "width": 849,
-          "height": 226
+          "width": 820,
+          "height": 197
         },
         {
           "src": "/images/extras/august-2026/p02-9.webp",
-          "width": 556,
-          "height": 556
+          "width": 348,
+          "height": 475
         }
       ]
     },
@@ -4376,8 +3852,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/august-2026/p84-1.webp",
-          "width": 1200,
-          "height": 988
+          "width": 1167,
+          "height": 1125
         },
         {
           "src": "/images/extras/august-2026/p84-2.webp",
@@ -4386,8 +3862,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/august-2026/p84-3.webp",
-          "width": 527,
-          "height": 293
+          "width": 522,
+          "height": 149
         },
         {
           "src": "/images/extras/august-2026/p84-4.webp",
@@ -4406,7 +3882,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "LONGEVITY",
         "THE NEW LUXURY",
-        "T H E",
+        "THE",
         "I N F L I G H T M AG A Z I N E"
       ],
       "images": [
@@ -4426,13 +3902,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/july-2026/p02-1.webp",
-          "width": 766,
-          "height": 840
+          "width": 555,
+          "height": 461
         },
         {
           "src": "/images/extras/july-2026/p02-2.webp",
           "width": 282,
-          "height": 512
+          "height": 476
         }
       ]
     },
@@ -4501,7 +3977,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "(Fill-less Technology)",
         "save energy, go green!",
         "COOLING TOWER",
-        "S P E C I A L I S T S"
+        "SPECIALISTS"
       ],
       "images": [
         {
@@ -4512,57 +3988,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p06-2.webp",
           "width": 855,
-          "height": 1098
+          "height": 141
         },
         {
           "src": "/images/extras/july-2026/p06-3.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-4.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-5.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-6.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-7.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-8.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-9.webp",
-          "width": 855,
-          "height": 1098
+          "width": 723,
+          "height": 74
         },
         {
           "src": "/images/extras/july-2026/p06-10.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-11.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-12.webp",
-          "width": 855,
-          "height": 1098
+          "width": 400,
+          "height": 77
         }
       ]
     },
@@ -4575,7 +4011,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "MEET MENGO YOUR AI CO-FOUNDER",
         "EVERY FOUNDER DESERVES A CO-FOUNDER",
         "The Vision Behind Mengo Engine",
-        "ϢThe ˙˨˧˨˥e en˧˥eˣ˥ene˨˥ ˪i˟˟ no˧ ˖oˠˣe˧e ˕˔sed on ˥eso˨˥˖esʟ ˕˨˧ ˕˔sed on ho˪ in˧e˟˟igen˧˟ˬ ˧heˬ e˫e˖˨˧eʡϣ",
         "Jainam Jain - Founder, Mengo",
         "Beyond a Tool, a Partner in Growth",
         "The world has entered a new era of artificial intelligence.",
@@ -4709,7 +4144,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "became",
         "the",
         "foundation behind the creation of",
-        "‘Mengo Engine’ - an AI",
         "Co-Founder",
         "built",
         "for",
@@ -4725,87 +4159,42 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p06-2.webp",
           "width": 855,
-          "height": 1098
+          "height": 141
         },
         {
           "src": "/images/extras/july-2026/p06-3.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-4.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-5.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-6.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-7.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-8.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-9.webp",
-          "width": 855,
-          "height": 1098
+          "width": 723,
+          "height": 74
         },
         {
           "src": "/images/extras/july-2026/p06-10.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-11.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-12.webp",
-          "width": 855,
-          "height": 1098
+          "width": 400,
+          "height": 77
         },
         {
           "src": "/images/extras/july-2026/p07-13.webp",
-          "width": 349,
-          "height": 349
-        },
-        {
-          "src": "/images/extras/july-2026/p07-14.webp",
-          "width": 349,
-          "height": 349
+          "width": 257,
+          "height": 73
         },
         {
           "src": "/images/extras/july-2026/p07-15.webp",
           "width": 524,
-          "height": 527
+          "height": 524
         },
         {
           "src": "/images/extras/july-2026/p07-16.webp",
           "width": 524,
-          "height": 527
+          "height": 524
         },
         {
           "src": "/images/extras/july-2026/p07-17.webp",
-          "width": 512,
-          "height": 768
+          "width": 404,
+          "height": 700
         },
         {
           "src": "/images/extras/july-2026/p07-18.webp",
-          "width": 512,
-          "height": 768
+          "width": 401,
+          "height": 700
         }
       ]
     },
@@ -4819,10 +4208,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -4942,9 +4330,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -4970,7 +4356,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "one",
         "of",
         "the",
-        "UAE’s",
         "most dynamic entrepreneurs and philanthropists. As Chairman of the Bu Abdullah Group of Companies, he",
         "transformed",
         "2005",
@@ -5049,71 +4434,35 @@ export const extras: Record<string, StoryExtra[]> = {
         "Why Great Companies Donʼt Just Grow. They Evolve.",
         "Growth should not happen by accident. Growth should be architected.",
         "WHAT BROUGHT US HERE MAY NOT TAKE US THERE.",
-        "¡ʱͧ͸̖͔Ϥۯ ʱͧۯ ʇʱˠˠɦɕۯ ϖʱ͸ʞۯ ɂΑͧʱ̅ɦͧͧɦͧۯ ͸ʞǻ͸ۯͧ ͸ǻ͔͸ɦɕͧ ˾ǻˠˠۯ ɂΑ͸ۯ ɦϒɦ̅͸ΑǻˠˠϤۯ Ɋʞǻ̅ʒɦɕۯ ͸ʞɦۯ ϖǻϤۯ ͸ʞɦ ϖ̖͔ˠɕۯ͸ʞʱ̅˗ͧۯלĬʱ˗ɦۯɂɦʒǻ̅ۯɂϤۯͧɦˠˠʱ̅ʒۯͧʞ̖ɦͧۯʇ͔̖˾ ͸ʞɦۯɂǻɊ˗ۯ̖ʇۯǻۯɊǻ͔ۯלƍ͸ǻ͔ɂΑɊ˗ͧۯͧ͸ǻ͔͸ɦɕۯǻͧۯǻۯͧ˾ǻˠˠ Ɋ̖ʇʇɦɦۯͧ͸̖͔ɦۯʱ̅ۯƍɦǻ͸͸ˠɦۯל\u0002ʱ͔ɂ̅ɂۯɂɦʒǻ̅ۯϖʱ͸ʞۯ͸ʞ͔ɦɦ ǻʱ͔ۯ˾ǻ͸͸͔ɦͧͧɦͧۯʱ̅ۯǻ̅ۯǻ͋ǻ͔͸˾ɦ̅͸ל",
-        "\u0002͸ۯ̖̅ ɦۯ̖͋ ʱ̅͸ۯכ ͸ʞɦϤۯ ϖɦ͔ɦۯ̖̅ ͸ۯ ʒˠ̖ɂǻˠۯ ɂ͔ǻ̅ɕͧל ƛʞɦϤۯϖɦ͔ɦۯͧʱ˾͋ˠϤۯʱɕɦǻͧۯϖʱ͸ʞۯ̖͋͸ɦ̅͸ʱǻˠל AΑ͸ۯ ͸ʞ̖Αͧǻ̅ɕͧۯ̖ ʇۯ Ɋ̖˾͋ǻ̅ʱɦͧۯ ʞǻϒɦۯ̖͋ ͸ɦ̅͸ʱǻˠל ƛʞ̖Αͧǻ̅ɕͧۯ ʞǻϒɦۯ ʒ̖̖ɕۯ͔̖͋ ɕΑɊ͸ͧۯל ƛʞ̖Αͧǻ̅ɕͧ ʞǻϒɦۯ͋ǻͧͧʱ̖̅ǻ͸ɦۯʇ̖Α̅ɕɦ͔ͧל ƍ̖ۯכ ϖʞǻ͸ۯͧ ɦ͋ǻ͔ǻ͸ɦͧۯ ͸ʞɦۯ ʇɦϖۯ ͸ʞǻ͸ۯ ɂɦɊ̖˾ɦ Α̅ʇ̖͔ʒɦ͸͸ǻɂˠɦ֕",
-        "AɦɊǻΑͧɦۯͧ Ɋǻˠʱ̅ʒۯ ʱͧۯ̖̅ ͸ۯ̖̅ ˠϤۯ ǻɂ̖Α͸ۯ ʱ̅Ɋ͔ɦǻͧʱ̅ʒ̅ Α˾ɂɦ͔ͧۯל Å͸ۯ ʱͧۯ ǻɂ̖Α͸ۯ ɂΑʱˠɕʱ̅ʒۯ ͸ʞɦۯ ʇ̖Α̅ɕǻ͸ʱ̖̅ ͸ʞǻ͸ۯ",
-        "ǻˠˠ̖ϖͧۯ",
-        "͸ʞ̖ͧɦۯ̅",
-        "Α˾ɂɦ͔ͧۯ",
-        "ۯ͸̖",
-        "ۯלʒ͔̖ϖ",
-        "ƛʞɦͧ ͸͔̖̅ʒɦͧ͸ۯ Ɋ̖˾͋ǻ̅ʱɦͧۯ ʱ̅ۯ ͸ʞɦۯ ϖ̖͔ˠɕۯ ǻ͔ɦۯ̖̅ ͸ۯ ˏΑͧ͸ ɂΑʱˠ͸ۯ ǻ͔̖Α̅ɕۯ͔̖͋ ɕΑɊ͸ͧۯל ƛʞɦϤۯ ǻ͔ɦۯ ɂΑʱˠ͸ۯ ǻ͔̖Α̅ɕ̖͋ ϖɦ͔ʇΑˠۯͧ",
-        "͸̖͔ʱɦͧۯכ",
-        "͸͔Αͧ͸ɦɕۯ",
-        "ɂ͔ǻ̅ɕͧۯכͧ",
-        "Ɋǻˠǻɂˠɦͧ Ϥͧ͸ɦ˾ͧۯכͧ ͸͔̖̅ʒۯ ˠɦǻɕɦ͔ͧʞʱ͋ۯכ ǻ̅ɕۯ Ɋˠɦǻ͔ۯ ˾ǻ͔˗ɦ͸̖͋ͧ ʱ͸ʱ̖̅ͧל Aɦʞʱ̅ɕۯ ϒʱͧʱɂˠɦۯͧ ΑɊɊɦͧͧۯכ ͸ʞɦ͔ɦۯ ʱͧۯ ǻˠϖǻϤͧۯ ǻ̅ ʱ̅ϒʱͧʱɂˠɦۯ ǻ͔Ɋʞʱ͸ɦɊ͸Α͔ɦۯל ƛʞʱͧۯ ɂɦˠʱɦʇۯ ɂɦɊǻ˾ɦۯ ͸ʞɦ ʇ̖Α̅ɕǻ͸ʱ̖̅ۯɂɦʞʱ̅ɕۯęɦϒɦˠԼՀԼל",
-        "ƛʞɦۯ ǻ̅ͧϖɦ͔ۯ ʱͧۯ͔ ǻ͔ɦˠϤۯ ˠΑɊ˗ۯל Å͸ۯ ʱͧۯ ͸ʞɦۯ ǻɂʱˠʱ͸Ϥۯ ͸̖͔ ɦɊ̖ʒ̅ʱͧɦۯ ϖʞɦ̅ۯ ʒ͔̖ϖ͸ʞۯ̅ ɦɦɕͧ ۯǻۯ̅ ɦϖۯ ɕɦͧʱʒ̅ל Ĥ̖ͧ͸ۯ ɂΑͧʱ̅ɦͧͧɦͧۯͧ͋ ɦ̅ɕۯ Ϥɦǻ͔ͧۯ ʱ˾͔̖͋ϒʱ̅ʒۯ ϖʞǻ͸ ͸ʞɦϤۯ ǻˠ͔ɦǻɕϤۯ ɕ̖ۯל ƛʞɦϤۯ ˾ǻ˗ɦۯ ɂɦ͸͸ɦ͔ۯ͔̖͋ ɕΑɊ͸ͧכ ʞʱ͔ɦۯ˾̖͔ɦۯ͋ɦ̖͋ˠɦۯכʱ̅Ɋ͔ɦǻͧɦۯ˾ǻ͔˗ɦ͸ʱ̅ʒۯɂΑɕʒɦ͸ͧכ ǻ̅ɕۯϖ̖͔˗ۯʞǻ͔ɕɦ͔ל",
-        "ęɦϒɦˠԼՀԼۯ",
-        "ۯϖǻͧ",
-        "Ɋ͔ɦǻ͸ɦɕۯ",
-        "ϖʱ͸ʞۯ",
-        "ͧۯǻ",
-        "ʱ˾͋ˠɦ͋ ʞʱˠ̖̖ͧ͋ʞϤן",
-        "\u0002ͧ ۯǻۯ ͔̖ϖ͸ʞۯ \u0002͔Ɋʞʱ͸ɦɊ͸Α͔ɦۯ I̖˾͋ǻ̅Ϥۯכ ęɦϒɦˠԼՀԼ ϖ̖͔˗ͧۯ ϖʱ͸ʞۯ ɂΑͧʱ̅ɦͧͧɦͧۯ ǻ̅ɕۯ ˠɦǻɕɦ͔ͧۯ ͸̖ۯ ʱɕɦ̅͸ʱʇϤ ͸ʞɦʱ͔ۯ̅",
-        "ۯɦϟ͸",
-        "ˠɦϒɦˠۯ",
-        "ۯǻ̅ɕ",
-        "ɂΑʱˠɕۯ",
-        "͸ʞɦۯͧ",
-        "͸͔ǻ͸ɦʒʱɊ ʇ̖Α̅ɕǻ͸ʱ̖̅ۯ͔ɦ͑Αʱ͔ɦɕۯ͸̖ۯ͔ɦǻɊʞۯʱ͸ל",
-        "AɦɊǻΑͧɦۯɦϒɦ͔ϤۯɊ̖˾͋ǻ̅Ϥۯʞǻͧۯǻۯ̅ɦϟ͸ۯˠɦ ̖͔ۯ̖ͧ˾ɦۯכʱ͸ۯʱͧۯɂɦɊ̖˾ʱ̅ʒۯ˾̖͔ɦۯϒʱͧʱɂˠɦל ̖͔ۯ̖ͧ˾ɦۯכʱ͸ۯʱͧۯɂɦɊ̖˾ʱ̅ʒۯ˾̖͔ɦۯ͸͔Αͧ͸ɦɕל ̖͔ۯ̖ͧ˾ɦۯכʱ͸ۯʱͧۯɂɦɊ̖˾ʱ̅ʒۯǻۯ˾ǻ͔˗ɦ͸ۯˠɦ͔ AΑ͸ۯ͔ɦǻɊʞʱ̅ʒۯ͸ʞɦۯ̅ɦϟ͸ۯˠɦϒɦˠۯ͔ɦ͑Αʱ͔̖͔ͧ̅ ǻ˾ɂʱ͸ʱ̖̅ל Å͸ۯ͔ɦ͑Αʱ͔ɦͧۯɊˠǻ͔ʱ͸ϤۯלÅ͸ۯ͔ɦ͑Αʱ͔ɦͧۯͧ͸͔ΑɊ͸͔ Å͸ۯ͔ɦ͑Αʱ͔ɦͧۯǻ͔Ɋʞʱ͸ɦɊ͸Α͔ɦל ƛʞɦۯ Ɋ̖˾͋ǻ̅ʱɦͧۯ ͸ʞǻ͸ۯͧ ʞǻ͋ɦۯ ͸ʞɦۯ ʇΑ͸Α͔̖̅̅ ɦɊɦͧͧǻ͔ʱˠϤۯ ɂɦۯ ͸ʞɦۯ̖̅ ɦͧۯ ͸ʞǻ͸ۯͧ ͸ǻ͔͸ɦ͔͔ͧ ǻʱͧɦɕۯ͸ʞɦۯ˾̖ͧ͸ۯ˾̖̅ɦϤۯכ̖͔ۯͧʞ̖Α͸ɦɕۯ͸ʞɦۯ̖ͧ ƛʞɦϤۯϖʱˠˠۯɂɦۯ͸ʞɦۯ̖̅ɦͧۯϖʞ̖ۯΑ̅ɕɦ͔ͧ͸ǻ̅ɕͧ͋ ͸͔Α͸ʞן ͔ɦǻ͸ۯ Ɋ̖˾͋ǻ̅ʱɦͧۯ ǻ͔ɦۯ̖̅ ͸ۯ ɕʱͧɊ̖ϒɦ͔ɦɕۯ ǻʇ͔ ͸ʞɦϤۯɂɦɊ̖˾ɦۯͧΑɊɊɦͧͧʇΑˠל ƛʞɦϤۯ ǻ͔ɦۯ ɕɦͧʱʒ̅ɦɕۯ ɂɦʇ̖͔ɦۯ ͸ʞɦۯ ϖ̖͔ˠɕۯ̖̅ͧ ͸ʞɦ˾ל",
-        "ƛʞɦۯĬɦϟ͸ۯęɦϒɦˠۯƛʞ̖Αʒʞ͸ _ϒɦ͔Ϥۯ ɂΑͧʱ̅ɦͧͧۯ ʇǻɊɦͧ ۯǻۯ Ɋʞ̖ʱɊɦۯ ͸̖ۯͧ ϖʞɦ͔ɦۯʱ͸ۯʱͧۯ̖͔ۯʒ͔̖ϖۯʱ̅͸̖ۯϖʞǻ͸ۯʱ͸ۯɊǻ̖̅ ǻ̅ɕۯǻ͸ۯęɦϒɦˠԼՀԼۯכϖɦۯɂɦˠʱɦϒɦۯ̅ͧ ǻˠϖǻϤͧۯϖǻʱ͸ʱ̅ʒۯ͸̖ۯɂɦۯΑ̅ˠ̖Ɋ˗ɦɕל ƛʞɦۯ̖̅ˠϤۯ͑Αɦͧ͸ʱ̖̅ۯʱͧן \u0002͔ɦۯ ǘ̖Αۯ AΑʱˠɕʱ̅ʒۯ ʇ̖͔ۯ ǋʞɦ͔ɦۯ ǘ̖Αۯ͔ ƛ̖ɕǻϤ֕ Ł͔ۯ\u0002͔Ɋʞʱ͸ɦɊ͸ʱ̅ʒۯʇ̖͔ۯǋʞɦ͔ɦۯǘ̖Αۯǋǻ̅͸ۯ͸̖ɂɦۯۯ ƛ̖˾̖͔͔̖ϖ֕",
-        "ƛɿɇې ˦ɇπ͙ې ˁɇγɇˁې ʒ͈ې ˦ɇγɇ̵ې ɨ˷Ͳ˦ȶ ېȣֽ͙͈ .̵ɇǻ͙ɇȶېȣυېȶɇ͈ʒɳ˦ֽ",
-        "ƛʞɦ͔ɦۯʱͧۯǻۯ˾̖˾ɦ̅͸ۯʱ̅ۯɦϒɦ͔Ϥۯɦϟ͸͔ǻ̖͔ɕʱ̅ǻ͔Ϥۯˏ̖Α͔̅ɦϤۯ͸ʞǻ͸ۯ͸ʞɦۯϖ̖͔ˠɕۯ͔ǻ͔ɦˠϤۯ̖̅͸ʱɊɦͧל Å͸ۯʱͧۯ̖̅͸ۯ͸ʞɦۯɕǻϤۯ͸ʞɦۯɊ̖˾͋ǻ̅ϤۯɂɦɊ̖˾ɦͧۯʇǻ˾̖ΑͧۯלĬ̖͸ۯ͸ʞɦۯɕǻϤۯʱ͸ۯǻ͋͋ɦǻ͔ͧۯ̖̅ۯ˾ǻʒǻϼʱ̅ɦۯɊ̖ϒɦ͔ͧל Ĭ̖͸ۯ͸ʞɦۯɕǻϤۯʱ̅ϒɦͧ͸̖͔ͧۯɊɦˠɦɂ͔ǻ͸ɦۯʱ͸ͧۯͧΑɊɊɦͧͧל Å͸ۯ ʱͧۯ ͸ʞɦۯ͑ Αʱɦ͸ۯ ˾̖˾ɦ̅͸ۯכ ˾ΑɊʞۯ ɂɦʇ̖͔ɦۯ ͸ʞǻ͸ۯכ ϖʞɦ̅ ۯǻۯ ʇ̖Α̅ɕɦ͔ ۯכǻۯ ˠɦǻɕɦ͔ͧʞʱ͋ۯ ͸ɦǻ˾ۯכ̖͔ ۯ ǻ̖͔̅ ʒǻ̅ʱͧǻ͸ʱ̖̅ۯ͔ɦǻˠʱͧɦͧۯ̖ͧ˾ɦ͸ʞʱ̅ʒۯʱ˾̖͔͋͸ǻ̅͸ן",
-        "AΑ͸ۯ ɦϒɦ͔Ϥۯͧ ΑɊɊɦͧͧʇΑˠۯ̖͔ ʒǻ̅ʱͧǻ͸ʱ̖̅ۯ ɦϒɦ̅͸ΑǻˠˠϤ͔ ɦǻɊʞɦͧۯ ǻ̅ۯ ʱ̅ϒʱͧʱɂˠɦۯ Ɋɦʱˠʱ̅ʒ ۯל\u0002ۯͧ ͸ǻʒɦۯ ϖʞɦ͔ɦ ˾̖͔ɦۯ ɦʇʇ̖͔͸ۯ ɕ̖ɦͧۯ̖̅ ͸ۯ Ɋ͔ɦǻ͸ɦۯ͔̖̖͔͋͋ ͸ʱ̖̅ǻˠˠϤ ˾̖͔ɦۯ ʒ͔̖ϖ͸ʞۯל",
         "The",
         "question",
         "changes",
-        "from: “How",
         "do",
         "we",
         "do",
-        "more?ˮ",
         "to:",
-        "“How",
-        "do",
-        "we become more?ˮ"
+        "do"
       ],
       "images": [
         {
           "src": "/images/extras/july-2026/p13-1.webp",
-          "width": 382,
-          "height": 683
+          "width": 364,
+          "height": 565
         },
         {
           "src": "/images/extras/july-2026/p13-2.webp",
-          "width": 382,
-          "height": 683
+          "width": 363,
+          "height": 565
         },
         {
           "src": "/images/extras/july-2026/p13-5.webp",
-          "width": 429,
-          "height": 359
+          "width": 127,
+          "height": 127
         },
         {
           "src": "/images/extras/july-2026/p13-6.webp",
-          "width": 429,
-          "height": 359
+          "width": 127,
+          "height": 127
         }
       ]
     }
@@ -5208,7 +4557,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "by",
         "its",
         "motto,",
-        "“Education",
         "and Knowledge with Wisdom,” the school aims to nurture",
         "learners",
         "who",
@@ -5294,7 +4642,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "international exposure",
         "anchor",
         "the",
-        "school’s",
         "academic ecosystem. Teachers function as mentors and facilitators, translating curriculum into real-world skill development while engaging in continuous professional growth.",
         "Manchester Global School’s rapid rise has earned",
         "significant",
@@ -5306,7 +4653,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "MGS was awarded:",
         "Faculty Expertise",
         "Recognition of Excellence",
-        "• No.",
         "1 T",
         "op Emerging School in Overall Hyderabad (Second Consecutive Year) • No.",
         "Top Emerging School in the South Zone • Top Emerging Day-cum-Boarding School of the Year",
@@ -5445,26 +4791,6 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/july-2026/p25-1.webp",
-          "width": 842,
-          "height": 863
-        },
-        {
-          "src": "/images/extras/july-2026/p25-2.webp",
-          "width": 842,
-          "height": 535
-        },
-        {
-          "src": "/images/extras/july-2026/p25-3.webp",
-          "width": 842,
-          "height": 521
-        },
-        {
-          "src": "/images/extras/july-2026/p25-4.webp",
-          "width": 321,
-          "height": 243
-        },
-        {
           "src": "/images/extras/july-2026/p25-5.webp",
           "width": 326,
           "height": 485
@@ -5472,7 +4798,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p25-6.webp",
           "width": 235,
-          "height": 307
+          "height": 306
         },
         {
           "src": "/images/extras/july-2026/p25-7.webp",
@@ -5725,18 +5051,18 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/july-2026/p27-1.webp",
-          "width": 580,
-          "height": 794
+          "width": 555,
+          "height": 771
         },
         {
           "src": "/images/extras/july-2026/p27-2.webp",
-          "width": 580,
-          "height": 794
+          "width": 550,
+          "height": 766
         },
         {
           "src": "/images/extras/july-2026/p27-3.webp",
-          "width": 543,
-          "height": 752
+          "width": 526,
+          "height": 739
         }
       ]
     },
@@ -5804,7 +5130,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Certification in",
         "AI",
         "ADMISSIONS OPEN AY 2026-27",
-        "\u001f\u001f\u001e\u001e\u001e\u001d\u001c\u001b\u001a\u001c",
         "admissions@snpsu.edu.in",
         "www.snpsu.edu.in",
         "#14/5,CHIKKASANDRA,HESARGHATTA MAIN RD,BENGALURU-560057"
@@ -5817,18 +5142,18 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/july-2026/p29-2.webp",
-          "width": 1023,
-          "height": 1537
+          "width": 974,
+          "height": 1423
         },
         {
           "src": "/images/extras/july-2026/p29-3.webp",
-          "width": 1023,
-          "height": 1537
+          "width": 974,
+          "height": 1422
         },
         {
           "src": "/images/extras/july-2026/p29-4.webp",
-          "width": 554,
-          "height": 190
+          "width": 495,
+          "height": 121
         }
       ]
     },
@@ -5894,23 +5219,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/july-2026/p33-1.webp",
-          "width": 586,
-          "height": 1007
+          "width": 568,
+          "height": 989
         },
         {
           "src": "/images/extras/july-2026/p33-2.webp",
-          "width": 586,
-          "height": 1007
+          "width": 568,
+          "height": 989
         },
         {
           "src": "/images/extras/july-2026/p33-3.webp",
-          "width": 573,
-          "height": 1017
+          "width": 406,
+          "height": 926
         },
         {
           "src": "/images/extras/july-2026/p33-4.webp",
-          "width": 695,
-          "height": 674
+          "width": 553,
+          "height": 526
         }
       ]
     }
@@ -5927,7 +5252,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Every SpiceJet Axis Bank Credit Card swipe gets you closer to your dream destination.",
         "Travel. Earn. Repeat.",
         "Silver/Gold Tier Spiceclub Membership*",
-        "Up to ₹11,500",
         "Free SpiceJet Vouchers* Up to 7% Rewards on SpiceJet Spends*",
         "*TnC Apply"
       ],
@@ -5939,13 +5263,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/july-2026/p34-2.webp",
-          "width": 528,
-          "height": 373
+          "width": 458,
+          "height": 289
         },
         {
           "src": "/images/extras/july-2026/p34-3.webp",
-          "width": 528,
-          "height": 373
+          "width": 457,
+          "height": 288
         }
       ]
     },
@@ -6177,7 +5501,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "long-term institutional",
         "growth.",
         "The",
-        "Company’s diverse",
         "operations",
         "across",
         "print",
@@ -6202,7 +5525,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "that",
         "closely align",
         "with",
-        "Vedika’s",
         "own",
         "approach",
         "to leadership",
@@ -6262,14 +5584,12 @@ export const extras: Record<string, StoryExtra[]> = {
         "one",
         "of",
         "corporate",
-        "India’s",
         "most demanding",
         "responsibilities,",
         "emerging as",
         "one",
         "of",
         "the",
-        "country’s",
         "youngest Independent",
         "Directors.",
         "Yet",
@@ -6344,7 +5664,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "could",
         "not.",
         "Oxford, and the Art of Thinking",
-        "Vedika’s",
         "academic",
         "journey",
         "eventually led",
@@ -6392,8 +5711,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/july-2026/p41-2.webp",
-          "width": 593,
-          "height": 546
+          "width": 472,
+          "height": 537
         }
       ]
     },
@@ -6444,8 +5763,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -6484,8 +5803,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -6632,7 +5951,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -6682,8 +6000,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/september-2026/p68-1.webp",
-          "width": 533,
-          "height": 1006
+          "width": 415,
+          "height": 917
         }
       ]
     }
@@ -6699,7 +6017,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p25-3.webp",
           "width": 793,
-          "height": 1032
+          "height": 1007
         }
       ]
     },
@@ -6716,28 +6034,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/july-2026/p76-1.webp",
-          "width": 192,
+          "width": 170,
           "height": 280
         },
         {
-          "src": "/images/extras/july-2026/p76-2.webp",
-          "width": 192,
-          "height": 233
-        },
-        {
           "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 192,
-          "height": 448
+          "width": 180,
+          "height": 197
         },
         {
           "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 240,
+          "width": 230,
           "height": 200
         },
         {
           "src": "/images/extras/july-2026/p76-5.webp",
-          "width": 242,
-          "height": 302
+          "width": 214,
+          "height": 294
         }
       ]
     },
@@ -6751,39 +6064,33 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "th",
-        "June, 2026.",
-        "Domestic — International —"
+        "June, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/july-2026/p76-1.webp",
-          "width": 192,
+          "width": 170,
           "height": 280
         },
         {
           "src": "/images/extras/july-2026/p77-2.webp",
-          "width": 192,
-          "height": 233
-        },
-        {
-          "src": "/images/extras/july-2026/p76-2.webp",
-          "width": 192,
+          "width": 95,
           "height": 233
         },
         {
           "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 192,
-          "height": 448
+          "width": 180,
+          "height": 197
         },
         {
           "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 240,
+          "width": 230,
           "height": 200
         },
         {
           "src": "/images/extras/july-2026/p76-5.webp",
-          "width": 242,
-          "height": 302
+          "width": 214,
+          "height": 294
         }
       ]
     }
@@ -6799,10 +6106,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -6871,7 +6177,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p50-9.webp",
           "width": 202,
-          "height": 311
+          "height": 306
         }
       ]
     },
@@ -6885,12 +6191,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/september-2026/p50-9.webp",
           "width": 202,
-          "height": 311
+          "height": 306
         },
         {
           "src": "/images/extras/july-2026/p79-3.webp",
-          "width": 844,
-          "height": 1100
+          "width": 841,
+          "height": 1097
         }
       ]
     },
@@ -6902,7 +6208,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "AVAILABLE ON ALL LEADING DTH AND CABLE NETWORKS",
         "DD Free Dish – 101 | Dish TV – 671 | D2H – 753 | Tata Play – 535 | Airtel Digital TV – 327 | Jio TV - 495 | DEN Cable – 314 | Hathway – 214 & 212 | FastWay – 308 | Fastway J&K Channel – 168 | IN Digital – 317/721/719 | DDC Cable – 310 | Radiant Digitek Rajasthan -315 | RM – 101 | Siti Maurya-171 | DARSH Digital – 509 | DIGIANA MP - 308 | Bharat Express LIVE Streaming on – Waves OTT | Jio TV |Tata Play | Voda-Idea | LG TV | Amazon Fire TV | DailyHunt | OTT Play | Zenga TV | Play Box TV | YuppTV",
-        "FIRST TO BREAK. FAST TO EXPLAIN.FIRST TO BREAK. FAST TO EXPLAIN.",
+        "FIRST TO BREAK. FAST TO EXPLAIN.",
         "Upendrra Rai",
         "Chairman & Managing Director Editor-in-Chief",
         "BHARAT EXPRESS NEWS NETWORK",
@@ -6910,29 +6216,24 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/july-2026/p81-1.webp",
-          "width": 1200,
-          "height": 1555
-        },
-        {
           "src": "/images/extras/july-2026/p81-2.webp",
           "width": 1200,
-          "height": 1041
+          "height": 1038
         },
         {
           "src": "/images/extras/july-2026/p81-3.webp",
-          "width": 705,
-          "height": 549
+          "width": 640,
+          "height": 527
         },
         {
           "src": "/images/extras/july-2026/p81-4.webp",
-          "width": 700,
-          "height": 825
+          "width": 598,
+          "height": 762
         },
         {
           "src": "/images/extras/july-2026/p81-5.webp",
-          "width": 366,
-          "height": 378
+          "width": 352,
+          "height": 344
         }
       ]
     },
@@ -6962,7 +6263,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p82-1.webp",
           "width": 1200,
-          "height": 1852
+          "height": 1638
         }
       ]
     },
@@ -7034,8 +6335,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/july-2026/p84-5.webp",
-          "width": 266,
-          "height": 269
+          "width": 251,
+          "height": 264
         },
         {
           "src": "/images/extras/july-2026/p84-6.webp",
@@ -7044,8 +6345,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/july-2026/p84-7.webp",
-          "width": 237,
-          "height": 251
+          "width": 209,
+          "height": 246
         }
       ]
     }
@@ -7059,7 +6360,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "PERFECT",
         "RIVER ESCAPES",
-        "T H E",
+        "THE",
         "I N F L I G H T M AG A Z I N E"
       ],
       "images": [
@@ -7146,13 +6447,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p05-3.webp",
-          "width": 297,
-          "height": 294
+          "width": 221,
+          "height": 268
         },
         {
           "src": "/images/extras/june-2026/p05-4.webp",
-          "width": 245,
-          "height": 243
+          "width": 182,
+          "height": 221
         }
       ]
     },
@@ -7196,7 +6497,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "(Fill-less Technology)",
         "save energy, go green!",
         "COOLING TOWER",
-        "S P E C I A L I S T S"
+        "SPECIALISTS"
       ],
       "images": [
         {
@@ -7207,57 +6508,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p06-2.webp",
           "width": 855,
-          "height": 1098
+          "height": 141
         },
         {
           "src": "/images/extras/july-2026/p06-3.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-4.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-5.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-6.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-7.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-8.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-9.webp",
-          "width": 855,
-          "height": 1098
+          "width": 723,
+          "height": 74
         },
         {
           "src": "/images/extras/july-2026/p06-10.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-11.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-12.webp",
-          "width": 855,
-          "height": 1098
+          "width": 400,
+          "height": 77
         }
       ]
     },
@@ -7276,57 +6537,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/july-2026/p06-2.webp",
           "width": 855,
-          "height": 1098
+          "height": 141
         },
         {
           "src": "/images/extras/july-2026/p06-3.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-4.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-5.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-6.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-7.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-8.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-9.webp",
-          "width": 855,
-          "height": 1098
+          "width": 723,
+          "height": 74
         },
         {
           "src": "/images/extras/july-2026/p06-10.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-11.webp",
-          "width": 855,
-          "height": 1098
-        },
-        {
-          "src": "/images/extras/july-2026/p06-12.webp",
-          "width": 855,
-          "height": 1098
+          "width": 400,
+          "height": 77
         },
         {
           "src": "/images/extras/june-2026/p09-13.webp",
@@ -7363,53 +6584,53 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p10-2.webp",
-          "width": 476,
+          "width": 432,
           "height": 919
         },
         {
           "src": "/images/extras/june-2026/p10-3.webp",
-          "width": 468,
+          "width": 424,
           "height": 919
         },
         {
           "src": "/images/extras/june-2026/p10-4.webp",
-          "width": 864,
-          "height": 555
+          "width": 769,
+          "height": 440
         },
         {
           "src": "/images/extras/june-2026/p10-5.webp",
-          "width": 369,
-          "height": 447
+          "width": 323,
+          "height": 423
         },
         {
           "src": "/images/extras/june-2026/p10-6.webp",
-          "width": 388,
-          "height": 500
+          "width": 333,
+          "height": 448
         },
         {
           "src": "/images/extras/june-2026/p10-7.webp",
-          "width": 421,
-          "height": 492
+          "width": 401,
+          "height": 466
         },
         {
           "src": "/images/extras/june-2026/p10-8.webp",
-          "width": 336,
+          "width": 318,
           "height": 422
         },
         {
           "src": "/images/extras/june-2026/p10-9.webp",
-          "width": 369,
-          "height": 469
+          "width": 327,
+          "height": 446
         },
         {
           "src": "/images/extras/june-2026/p10-10.webp",
-          "width": 411,
-          "height": 539
+          "width": 351,
+          "height": 490
         },
         {
           "src": "/images/extras/june-2026/p10-11.webp",
-          "width": 366,
-          "height": 540
+          "width": 321,
+          "height": 504
         }
       ]
     },
@@ -7647,22 +6868,22 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p13-2.webp",
-          "width": 367,
-          "height": 657
+          "width": 349,
+          "height": 544
         },
         {
           "src": "/images/extras/june-2026/p13-3.webp",
-          "width": 367,
-          "height": 657
+          "width": 349,
+          "height": 544
         },
         {
           "src": "/images/extras/june-2026/p13-4.webp",
-          "width": 430,
+          "width": 414,
           "height": 286
         },
         {
           "src": "/images/extras/june-2026/p13-5.webp",
-          "width": 430,
+          "width": 400,
           "height": 286
         }
       ]
@@ -7705,9 +6926,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -7747,7 +6966,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p16-1.webp",
           "width": 359,
-          "height": 413
+          "height": 405
         },
         {
           "src": "/images/extras/june-2026/p16-2.webp",
@@ -7768,11 +6987,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 11,
       "paragraphs": [],
       "images": [
-        {
-          "src": "/images/extras/june-2026/p17-1.webp",
-          "width": 1200,
-          "height": 675
-        },
         {
           "src": "/images/extras/june-2026/p17-2.webp",
           "width": 320,
@@ -7803,8 +7017,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p18-2.webp",
-          "width": 227,
-          "height": 359
+          "width": 211,
+          "height": 346
         },
         {
           "src": "/images/extras/june-2026/p18-3.webp",
@@ -7828,7 +7042,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "JJJJJJJ",
         "JJJJJ",
         "JJ",
-        "JJJJJJJJ",
+        "JJJJ",
         "JJJJJ"
       ],
       "images": [
@@ -7838,19 +7052,9 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 1123
         },
         {
-          "src": "/images/extras/june-2026/p19-2.webp",
-          "width": 864,
-          "height": 1123
-        },
-        {
-          "src": "/images/extras/june-2026/p19-3.webp",
-          "width": 864,
-          "height": 1123
-        },
-        {
           "src": "/images/extras/june-2026/p19-4.webp",
-          "width": 864,
-          "height": 1123
+          "width": 718,
+          "height": 113
         },
         {
           "src": "/images/extras/june-2026/p19-5.webp",
@@ -7898,7 +7102,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Every SpiceJet Axis Bank Credit Card swipe gets you closer to your dream destination.",
         "Travel. Earn. Repeat.",
         "Silver/Gold Tier Spiceclub Membership*",
-        "Up to ₹11,500",
         "Free SpiceJet Vouchers* Up to 7% Rewards on SpiceJet Spends*",
         "*TnC Apply"
       ],
@@ -7910,13 +7113,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p22-2.webp",
-          "width": 528,
-          "height": 373
+          "width": 458,
+          "height": 289
         },
         {
           "src": "/images/extras/june-2026/p22-3.webp",
-          "width": 528,
-          "height": 373
+          "width": 457,
+          "height": 288
         }
       ]
     },
@@ -8068,12 +7271,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p31-1.webp",
           "width": 847,
-          "height": 1100
+          "height": 916
         },
         {
           "src": "/images/extras/june-2026/p31-2.webp",
-          "width": 294,
-          "height": 294
+          "width": 199,
+          "height": 256
         }
       ]
     },
@@ -8085,14 +7288,9 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/june-2026/p33-1.webp",
-          "width": 842,
-          "height": 773
-        },
-        {
           "src": "/images/extras/june-2026/p33-2.webp",
           "width": 567,
-          "height": 293
+          "height": 237
         },
         {
           "src": "/images/extras/june-2026/p33-4.webp",
@@ -8115,33 +7313,33 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p35-2.webp",
-          "width": 884,
-          "height": 672
+          "width": 252,
+          "height": 239
         },
         {
           "src": "/images/extras/june-2026/p35-3.webp",
-          "width": 884,
-          "height": 672
+          "width": 289,
+          "height": 550
         },
         {
           "src": "/images/extras/june-2026/p35-4.webp",
-          "width": 843,
-          "height": 640
+          "width": 261,
+          "height": 222
         },
         {
           "src": "/images/extras/june-2026/p35-5.webp",
-          "width": 843,
-          "height": 640
+          "width": 261,
+          "height": 222
         },
         {
           "src": "/images/extras/june-2026/p35-6.webp",
-          "width": 843,
-          "height": 640
+          "width": 284,
+          "height": 480
         },
         {
           "src": "/images/extras/june-2026/p35-9.webp",
-          "width": 1093,
-          "height": 1093
+          "width": 956,
+          "height": 410
         }
       ]
     }
@@ -8157,7 +7355,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p37-1.webp",
           "width": 872,
-          "height": 1166
+          "height": 958
         }
       ]
     },
@@ -8223,22 +7421,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "B.E",
         "Computer Science & Engineering Data Science",
-        "\u001f\u001e\u001d\u001c\u001b\u001a\u0019\u0018\u0017\u0016\u0015\u0014\u0019\u001b\u0013\u0012\u001e\u0017\u0017\u0011\u0019\u0012\u0010\u0019\u000f\u0015",
-        "\u0011\u0019\u0012\u001c\u001d\u000e\u0018\u0017\u0011\u0019\u0014\u001b\u0014\u001e\u001a\u001b",
         "with",
-        "\u001f\u001e\u001d\u001c\u001b\u001a\u001b\u0019\u0018\u001c\u001b\u0017\u0016\u0015",
-        "\u001f\u001e\u001d",
-        "\u0017 \u0012\u0019\u0017\u001a \u0014\u0017",
-        "\u001f\u001e\u001d\u001c\u001b\u001e\u001a\u0019\u0018\u0017",
-        "\u001f\u001f\u001e\u001e\u001e\u001d\u001c\u001b\u001a\u001c",
         "#14/5, CHIKKASANDRA, HESARGHATTA MAIN RD, BENGALURU- 560057",
         "admissions@snpsu.edu.in",
         "www.snpsu.edu.in",
-        "\u001f\u001e\u001d\u001c\u001b\u001a\u0019\u0018\u001c\u0017\u0016\u0015\u0014\u0013\u001d\u0019\u001b\u0012\u0015\u0016\u0016\u0015\u0019\u001c\u0018\u0018\u001c\u0015\u0011\u0013\u001e\u0010\u0011\u0010\u0016\u000f\u0019\u0017\u0010\u0011\u000e\u0019 \u001d\u001c \u0012\u001d\u001d \u0019\u0015\u0016\u001b\u001c \u001e\u0010 \u0016",
-        "\u0016\u000e\u0013\u001a\u0014\u0017\u001f",
-        "\u000f\u001b\u001a\u0014\u0019\u0018\u0017 \u000f\u001d\u0010\u0014\u0017\u0013\u001e\u0017\b\u001f",
-        "\b\u001c\u0007 \u0010\u001e\u0016\u0019\u001b\u001c\u0015\u0016\u0019\u0006\u001e \u0010\u001e\u0016\u0016\u0015\u0010\u001e \u0019\u001a\u001e\u001c\u0017\u001d\u0016",
-        "\u0016 \u0017\u0010\u0011\u000e\u0019 \u001d\u001c \u0012\u001d\u001d \u0019\u0015\u0016\u001b\u001c \u001e\u0010 \u0016 \u0019\b\u0016\u0015\u0011\u0010\u0014\u0010\u001b\u0012\u0011\u0010\u001c\u001e\u0019\u0014\u0015\u001c\u0007\u0019\u0005\u0004\u0003",
         "Age of AI",
         "in CA Foundation, Banking & Finance, &",
         "Other areas",
@@ -8271,11 +7457,6 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/june-2026/p39-1.webp",
-          "width": 931,
-          "height": 1058
-        },
-        {
           "src": "/images/extras/june-2026/p39-2.webp",
           "width": 832,
           "height": 1248
@@ -8287,8 +7468,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p39-4.webp",
-          "width": 403,
-          "height": 403
+          "width": 309,
+          "height": 381
         }
       ]
     },
@@ -8302,10 +7483,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -8364,7 +7544,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p40-9.webp",
           "width": 194,
-          "height": 298
+          "height": 293
         },
         {
           "src": "/images/extras/june-2026/p40-10.webp",
@@ -8477,8 +7657,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p49-1.webp",
-          "width": 872,
-          "height": 1088
+          "width": 815,
+          "height": 1024
         }
       ]
     },
@@ -8492,10 +7672,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -8573,7 +7752,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p51-1.webp",
           "width": 509,
-          "height": 757
+          "height": 729
         }
       ]
     },
@@ -8595,7 +7774,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -8639,11 +7817,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/june-2026/p53-1.webp",
-          "width": 849,
-          "height": 539
-        },
-        {
           "src": "/images/extras/june-2026/p52-2.webp",
           "width": 385,
           "height": 734
@@ -8677,8 +7850,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p54-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 581,
+          "height": 474
         }
       ]
     },
@@ -8695,7 +7868,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Looking to prepone your flight? FlyEarly is a unique service that allows you to reschedule your travel to an earlier time on the same day. You can choose it at the ticket counter at the airport, just before takeoff.",
         "SPICEFLEX FARE",
         "We want to transfer your worries to us and fly stress-free. Book with SpiceFlex Fare and enjoy the flexibility of changing your travel plan without worrying about the change fees. Along with this you also get some amazing and never-seen-before benefits like unlimited free date change, sandwich and also a preferred seat. This fare can be booked from SpiceJet website, mobile app, reservation centre, airport and through travel agents. Select this fare on the Flight Selection page and avail the associated benefits.",
-        "SPICECAFЀ",
         "We love pampering you with choices. Choose from a wide variety of hot meals and delicious snacks on SpiceJet flights. There are more than 80 sumptuous delicacies items to pick from, including beverages, munchies and ready-to-eat items. Delightful sandwiches and hot spreads for breakfast, dinner, lunch and snack times are available on pre-booking. So, take your pick when you book your SpiceJet ticket. We offer a selection of alcoholic beverages—miniatures and beer—available for onboard purchase and consumption on select international flights. There are also specially curated meals for kids. Apart from the main meal of the day or sandwich, you can also pre-book chef’s choices and special meals such as Jain meal, meals for diabetics, gluten-free meals, fruit platters, low-calorie salads, etc. Didn’t we say you would be spoilt for choice?",
         "For all of us at SpiceJet, you always come first! With this special offer, you can skip queues and avail of premium services like priority check-in, priority boarding and priority baggage delivery at a nominal price of just INR 595/- for domestic routes and INR 699/- for international flights."
       ],
@@ -8738,13 +7910,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p56-3.webp",
-          "width": 280,
-          "height": 320
+          "width": 204,
+          "height": 270
         },
         {
           "src": "/images/extras/june-2026/p56-4.webp",
-          "width": 260,
-          "height": 652
+          "width": 212,
+          "height": 614
         }
       ]
     },
@@ -8783,17 +7955,12 @@ export const extras: Record<string, StoryExtra[]> = {
         "• Soft Skills & Leadership Training Programs • Strong Industry Linkages with Top Corporates",
         "• Centers of Excellence in AR/VR, ROBOTICS, iMac, iLab • Internship Placement Support with 150+ Industry Tie-ups",
         "• Entrepreneurship & Innovation Cell (EIC) • Ideas. Innovation. Impact-Project Friday Special reserved seat in every programme for daughters of martyrs & students from J&K and north-east India.",
-        "BE THE CHANGE…",
         "LEAD THE FUTURE!",
-        "BE THE CHANGE…",
         "LEAD THE FUTURE!",
-        "BE THE CHANGE…",
         "LEAD THE FUTURE!",
-        "BE THE CHANGE…",
         "LEAD THE FUTURE!",
-        "BE THE CHANGE…",
         "LEAD THE FUTURE!",
-        "UNIVERSITY WHERE RESEARCH MEETS FUTURISTIC TECHNOLOGYUNIVERSITY WHERE RESEARCH MEETS FUTURISTIC TECHNOLOGY",
+        "UNIVERSITY WHERE RESEARCH MEETS FUTURISTIC TECHNOLOGY",
         "ADMISSIONS OPEN 2026-27",
         "Atharva University Mumbai (Estd. under Govt. of Maharashtra Act No.XV of 2025 & Recognised by UGC, Govt. of India), Malad Marve Rd, Charkop Naka, Malad (West), Mumbai.",
         "TEL: 022-40294949",
@@ -8801,8 +7968,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Online at www.atharvauniversity.org",
         "PROGRAMMES OFFERED",
         "SCAN TO REGISTER",
-        "• B.Tech | B.Tech (Direct 2nd Yr) • M. Tech • BBA | MBA | BBA+MBA • B.Sc./M.Sc. in Data Science • B.Sc. (Hospitality)",
-        "• B.Design | BA (Fashion) • BCA | MCA • LLB | BA. LLB • B.Arch • BA (Culinary Arts)",
         "• BA (Media & Communication) • BA (Film Making) • BA / MA (English / Economics / Psychology / Political Science • Ph.D (Engg./Mgmt./Social Sc.",
         "Sunil Rane",
         "Founder & Chancellor"
@@ -8815,13 +7980,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/june-2026/p63-2.webp",
-          "width": 673,
-          "height": 193
+          "width": 522,
+          "height": 41
         },
         {
           "src": "/images/extras/june-2026/p63-3.webp",
-          "width": 673,
-          "height": 193
+          "width": 522,
+          "height": 41
         },
         {
           "src": "/images/extras/june-2026/p63-4.webp",
@@ -8834,19 +7999,14 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 193
         },
         {
-          "src": "/images/extras/june-2026/p63-6.webp",
-          "width": 1200,
-          "height": 1367
-        },
-        {
           "src": "/images/extras/june-2026/p63-7.webp",
-          "width": 262,
-          "height": 298
+          "width": 230,
+          "height": 288
         },
         {
           "src": "/images/extras/june-2026/p63-8.webp",
-          "width": 262,
-          "height": 298
+          "width": 229,
+          "height": 287
         }
       ]
     },
@@ -8860,7 +8020,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/june-2026/p65-1.webp",
           "width": 799,
-          "height": 1040
+          "height": 1015
         }
       ]
     }
@@ -8895,28 +8055,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p80-1.webp",
-          "width": 192,
+          "width": 170,
           "height": 279
         },
         {
-          "src": "/images/extras/july-2026/p76-2.webp",
-          "width": 192,
-          "height": 233
-        },
-        {
           "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 192,
-          "height": 448
+          "width": 180,
+          "height": 197
         },
         {
           "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 240,
+          "width": 230,
           "height": 200
         },
         {
           "src": "/images/extras/june-2026/p80-5.webp",
-          "width": 241,
-          "height": 302
+          "width": 215,
+          "height": 294
         }
       ]
     },
@@ -8930,39 +8085,33 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "st",
-        "May, 2026.",
-        "Domestic — International —"
+        "May, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/june-2026/p80-1.webp",
-          "width": 192,
+          "width": 170,
           "height": 279
         },
         {
           "src": "/images/extras/july-2026/p77-2.webp",
-          "width": 192,
-          "height": 233
-        },
-        {
-          "src": "/images/extras/july-2026/p76-2.webp",
-          "width": 192,
+          "width": 95,
           "height": 233
         },
         {
           "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 192,
-          "height": 448
+          "width": 180,
+          "height": 197
         },
         {
           "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 240,
+          "width": 230,
           "height": 200
         },
         {
           "src": "/images/extras/june-2026/p80-5.webp",
-          "width": 241,
-          "height": 302
+          "width": 215,
+          "height": 294
         }
       ]
     }
@@ -8987,8 +8136,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p82-1.webp",
-          "width": 545,
-          "height": 1029
+          "width": 428,
+          "height": 936
         }
       ]
     },
@@ -9001,8 +8150,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p83-1.webp",
-          "width": 852,
-          "height": 1133
+          "width": 848,
+          "height": 1130
         }
       ]
     },
@@ -9078,8 +8227,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/june-2026/p88-1.webp",
-          "width": 583,
-          "height": 656
+          "width": 576,
+          "height": 649
         }
       ]
     }
@@ -9091,7 +8240,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 1,
       "printedPage": -5,
       "paragraphs": [
-        "T H E I N F L I G H T M A G A Z I N E",
+        "THEINFLIGHTMAGAZINE",
         "21 YEARS OF P ARTNERSHIP,",
         "MEMORIES & TRUST",
         "HERE’S TO MANY MORE MILESTONES TOGETHER.",
@@ -9114,7 +8263,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 2,
       "printedPage": -4,
       "paragraphs": [
-        "H A I E R S A L U T E S",
+        "HAIERSALUTES",
         "PERFORM BIG",
         "P R O U D S P O N S O R O F 8 T H I N D I A N O P E N"
       ],
@@ -9132,7 +8281,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 3,
       "printedPage": -3,
       "paragraphs": [
-        "C H A M P I O N S W H O",
+        "CHAMPIONSWHO",
         "SILENTLY",
         "PA R A AT H L E T I C S C H A M P I O N S H I P 2 0 2 6"
       ],
@@ -9154,7 +8303,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p04-1.webp",
           "width": 202,
-          "height": 504
+          "height": 490
         },
         {
           "src": "/images/extras/may-2026/p04-2.webp",
@@ -9164,7 +8313,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p04-3.webp",
           "width": 502,
-          "height": 410
+          "height": 383
         },
         {
           "src": "/images/extras/may-2026/p04-4.webp",
@@ -9185,7 +8334,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p05-1.webp",
           "width": 851,
-          "height": 1106
+          "height": 1105
         }
       ]
     },
@@ -9231,18 +8380,18 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p08-3.webp",
-          "width": 1192,
-          "height": 209
+          "width": 1188,
+          "height": 188
         },
         {
           "src": "/images/extras/may-2026/p08-4.webp",
-          "width": 1192,
-          "height": 209
+          "width": 1188,
+          "height": 164
         },
         {
           "src": "/images/extras/may-2026/p08-5.webp",
           "width": 1200,
-          "height": 900
+          "height": 639
         }
       ]
     },
@@ -9300,9 +8449,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -9344,54 +8491,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Ahmed perfume manufacturing l.L.C.",
         "INSIDE THE 1XL PLATFORM",
-        "I̖̅ϒɦ͔ͧǻ͸ʱ̖̅ۯ̖̅ۯAΑʱˠɕʱ̅ʒۯǻۯTʱϒɦ͔ͧʱʇʱɦɕۯÅ̅ϒɦͧ͸˾ɦ̅͸ۯƍ͸͔ΑɊ͸Α͔ɦۯʇ͔̖˾ۯTΑ",
-        "\u0002ͧۯ ʒˠ̖ɂǻˠۯ ʱ̅ϒɦͧ͸̖͔ͧۯͧ ɦɦ˗ۯͧ ͸͔ΑɊ͸Α͔ɦɕۯכ ɕʱϒɦ͔ͧʱʇʱɦɕۯ̖̖͔͋͋ ͸Α̅ʱ͸ʱɦͧۯכ͋ ˠǻ͸ʇ̖͔˾ͧۯ Ɋ̖˾ɂʱ̅ʱ̅ʒۯ̖ ϖ̅ɦ͔ͧʞʱ͋ۯכ͋ ǻ͔͸̅ɦ͔ͧʞʱ͋ͧۯכ͔̖͔̅͋͋͋̅ ʒǻʱ̅ʱ̅ʒۯǻ͸͸ɦ̅͸ʱ̖̅ۯלÅ̅ۯ͸ʞʱͧۯɦɕʱ͸ʱ̖̅ۯ̖ʇۯƍ͋ʱɊɦۯƀ̖Α͸ɦۯכϖɦۯͧ͋ɦǻ˗ۯϖʱ͸ʞۯT͔ۯלTʞʱ͔ǻˏۯĊǻʱ̅ۯǻ̅ɕۯT͔ۯלĤǻ͔ǻˏۯĊǻʱ̅ۯ̖ʇۯԼǒęۯ¡̖ˠɕʱ̅ʒͧۯǻɂ̖Α͸ۯ͸ʞɦ͔̖̖ͧ̅ ɂΑʱˠɕۯǻۯ˾Αˠ͸ʱֱɊ̖˾͋ǻ̅Ϥۯ͋ˠǻ͸ʇ̖͔˾ۯʇ̖͔ۯˠ̖̅ʒֱ͸ɦ͔˾ۯϒǻˠΑɦל",
-        "Ĥǻ̅Ϥۯ",
-        "Ɋ̖˾͋ǻ̅ʱɦͧۯ",
-        "ʇ̖ɊΑͧۯ̖̅",
-        "ɂΑʱˠɕʱ̅ʒۯ̖̅",
-        "ɦͧ ͸͔̖̅ʒۯ",
-        "ɂΑͧʱ̅ɦͧͧۯל",
-        "ۯǋʞϤ",
-        "ɂΑʱˠɕۯ",
-        "͋ۯǻ",
-        "ˠǻ͸ʇ̖͔˾ ʱ̅ͧ͸ɦǻɕ֕",
-        "ƛʞǻ͸׉ͧۯ ʱ̅͸ɦ͔ɦͧ͸ʱ̅ʒۯל Iǻ̅ۯ Ϥ̖Αۯ ͸ǻ˗ɦۯ Αͧ ۯǻۯ ˠɦϒɦˠ ɕɦɦ͋ɦ͔ۯ ʱ̅͸̖ۯ ʞ̖ϖۯ ͸ʞʱͧۯ ɕɦɊʱͧʱ̖̅ۯ ʱͧۯ ǻɊ͸ΑǻˠˠϤ ˾ǻɕɦ֕",
-        "ǋʞǻ͸ۯ",
-        "ۯʱͧ",
-        "ۯ͸ʞɦ",
-        "͸ʞʱ̅˗ʱ̅ʒۯ",
-        "ɂɦʞʱ̅ɕۯ",
-        "Ɋ̖˾ɂʱ̅ʱ̅ʒ̖ ϖ̅ɦ͔ͧʞʱ͋ۯכ͋ ǻ͔͸̅ɦ͔ͧʞʱ͋ͧۯכ ǻ̅ɕۯ ʱ̅ϒɦͧ͸˾ɦ̅͸ͧۯ ʱ̖̅̅ ɦۯ͋ˠǻ͸ʇ̖͔˾֕",
-        "Ĥǻ̅Ϥۯ͋ ˠǻ͸ʇ̖͔˾ͧۯͧ ͸͔Αʒʒˠɦۯ ǻͧۯ ͸ʞɦϤۯͧ Ɋǻˠɦۯכ ϖʱ͸ʞ Ɋ̖˾͋ˠɦϟʱ͸Ϥۯ̖",
-        "ʇ͸ɦ̅ۯ",
-        "ɕʱˠΑ͸ʱ̅ʒۯ",
-        "ʇ̖ɊΑͧۯל",
-        "ǋʞǻ͸͔͋ ɦϒɦ̅͸ͧۯ͸ʞǻ͸ۯʇ͔̖˾ۯʞǻ͋͋ɦ̅ʱ̅ʒۯϖʱ͸ʞʱ̅ۯԼǒę֕",
-        "ǋʞǻ͸ۯ ˗ʱ̅ɕۯ̖ ʇۯ ˾ʱ̅ɕͧɦ͸ۯͧ ʞ̖Αˠɕۯ ǻ̅ۯ ʱ̖͔̅ͧ ʞǻϒɦۯϖʞɦ̅ۯˠ̖̖˗ʱ̅ʒۯǻ͸ۯԼǒęۯ¡̖ˠɕʱ̅ʒͧ֕",
-        "ǋʞǻ͸ۯ ʱͧۯ ͸ʞɦۯ ˠǻ͔ʒɦ͔ۯ ǻ˾ɂʱ͸ʱ̖̅ۯ ɂ̅ ¡̖ˠɕʱ̅ʒͧ֕",
-        "ǋʞϤۯʱͧۯTΑɂǻʱۯɊɦ̅͸͔ǻˠۯ͸̖ۯ͸ʞɦۯԼǒę̖͔ͧ֕",
-        "¡̖ϖۯͧ",
-        "ʞ̖Αˠɕۯ",
-        "ʱ̅ϒɦͧ͸̖͔ͧۯ",
-        "͸ʞʱ̅˗ۯ",
-        "ǻɂ̖Α͸ۯ",
-        "Լǒę ¡̖ˠɕʱ̅ʒͧۯ ֱۯ ǻͧ ۯǻۯ Ɋ̖˾͋ǻ̅Ϥۯ̖͔ ۯ̖ͧ ˾ɦ͸ʞʱ̅ʒ ˠǻ͔ʒɦ͔֕",
-        "ƛʞɦۯɊ̖̅Ɋɦ͋͸ۯ̖ʇۯԼԻԻۯװɊ̖˾͋ǻ̅ʱɦͧۯʱͧۯǻ˾ɂʱ͸ʱ̖Αͧל ¡̖ϖۯ ɕ̖ۯ Ϥ̖Αۯ ˾ǻʱ̅͸ǻʱ̅ۯ Ɋˠǻ͔ʱ͸Ϥۯ ϖʱ͸ʞʱ̅ۯͧ ΑɊʞۯ ǻͧ Ɋǻˠɦ֕",
-        "ۯ̖ϖ¡",
-        "ۯɕ̖",
-        "ۯϤ̖Α",
-        "ɦ̅ͧΑ͔ɦۯ",
-        "ʱ̅ɕɦ͋ɦ̅ɕɦ̅Ɋɦۯ",
-        "ʇ̖͔ Ɋ̖˾͋ǻ̅ʱɦͧۯϖʱ͸ʞʱ̅ۯ͸ʞɦۯ͋ˠǻ͸ʇ̖͔˾֕",
-        "Å̅ ۯǻۯͧ ʱ˾͋ˠɦۯ ϖǻϤۯכ ʞ̖ϖۯ ϖ̖Αˠɕۯ Ϥ̖Αۯ ɦ͋̅ ǻɕϒǻ̅͸ǻʒɦۯ̖ʇۯ͸ʞʱͧۯ˾̖ɕɦˠۯ͸̖ۯǻ̅ۯʱ̅ϒɦ̖͔ͧ֕",
-        "Åʇۯ Ϥ̖Αۯ ʞǻɕۯ ͸̖ۯ ɕɦʇʱ̅ɦۯ Լǒęۯ ʱ̅ۯ̖̅ ɦͧ̅̅ ϖʞǻ͸ۯϖ̖Αˠɕۯʱ͸ۯɂɦ֕",
-        "¡̖ϖۯ ɕ̖ۯ Ϥ̖Αۯ ɕɦɊʱɕɦۯ ϖʞɦ͸ʞɦ͔ ۯǻۯ Ɋ̖˾͋ǻ̅Ϥ ɂɦɊ̖˾ɦͧۯ͋",
-        "ǻ͔͸ۯ̖",
-        "ۯʇ",
-        "ۯ͸ʞɦ",
-        "ɦɊ̖ͧϤͧ͸ɦ˾ۯכ",
-        "ǻ͋ ǻ͔͸̅ɦ͔ͧʞʱ͋ۯכ̖͔ۯǻ̅ۯʱ̅ϒɦͧ͸˾ɦ̅͸֕ T͔ۯל Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "That typically happens when scale",
         "outpaces",
         "structure.",
@@ -9415,7 +8514,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "while",
         "each",
         "business retains its own operating identity. So growth doesnʼt create complexity; it builds within a defined framework, which keeps the platform coherent as it expands.",
-        "T͔ۯל Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "A long-term mindset. This is not",
         "about",
         "single",
@@ -9424,7 +8522,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "It",
         "is",
         "about participating in a platform that grows over time through multiple businesses.",
-        "T͔ۯל Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "To",
         "build",
         "platform",
@@ -9442,7 +8539,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "growth",
         "becomes",
         "more sustainable and scalable.",
-        "T͔ۯלTʞʱ͔ǻˏۯĊǻʱ̅ۯן",
         "Dubai is a natural meeting point for",
         "global",
         "business.",
@@ -9457,7 +8553,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "vision,",
         "and execution.",
         "The",
-        "governmentʼs",
         "proactive approach,",
         "especially",
         "in",
@@ -9481,7 +8576,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "and",
         "forward-looking",
         "environment that supports scale.",
-        "T͔ۯלTʞʱ͔ǻˏۯĊǻʱ̅ۯן",
         "Because concentration creates dependency. A platform approach allows us to spread",
         "participation",
         "across",
@@ -9496,7 +8590,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "structure",
         "that",
         "allows growth to come from different directions.",
-        "T͔ۯל Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "It",
         "comes",
         "down",
@@ -9519,11 +8612,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "aligning participation",
         "with",
         "the",
-        "businessʼs",
         "long-term value potential.",
-        "ۯלT͔",
-        "Tʞʱ͔ǻˏۯ",
-        "ۯןĊǻʱ̅",
         "Each",
         "approach",
         "gives",
@@ -9537,7 +8626,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "give",
         "collaboration,",
         "and investments give reach. When you combine all three, you create a more balanced and resilient structure.",
-        "T͔ۯל Ĥǻ˾ǻ͸ǻۯ Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "It",
         "is",
         "more",
@@ -9547,10 +8635,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "single",
         "umbrella",
         "while remaining independent.",
-        "ۯלT͔",
-        "Ĥǻ˾ǻ͸ǻۯ",
-        "Tʞʱ͔ǻˏۯ",
-        "ۯןĊǻʱ̅",
         "Scale",
         "without structure creates confusion. That is why the platform is designed with clear layers. Every company fits into a defined category, and that clarity",
         "allows",
@@ -9559,13 +8643,8 @@ export const extras: Record<string, StoryExtra[]> = {
         "grow",
         "without",
         "losing direction.",
-        "ۯלT͔",
-        "Ĥǻ˾ǻ͸ǻۯ",
-        "Tʞʱ͔ǻˏۯ",
-        "ۯןĊǻʱ̅",
         "Each",
         "company operates with its own leadership and direction. The holding structure provides alignment at a higher level, but operational identity remains with the company.",
-        "T͔ۯל Ĥǻ˾ǻ͸ǻۯ Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "It",
         "allows",
         "you",
@@ -9582,14 +8661,12 @@ export const extras: Record<string, StoryExtra[]> = {
         "one",
         "basket",
         "applies strongly here.",
-        "T͔ۯל Ĥǻ˾ǻ͸ǻۯ Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "A platform designed to",
         "bring",
         "multiple",
         "businesses",
         "under",
         "one structured opportunity.",
-        "T͔ۯל Ĥǻ˾ǻ͸ǻۯ Tʞʱ͔ǻˏۯ Ċǻʱ̅ۯן",
         "It",
         "depends",
         "on",
@@ -9614,17 +8691,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p13-1.webp",
           "width": 220,
-          "height": 216
+          "height": 202
         },
         {
           "src": "/images/extras/may-2026/p13-2.webp",
-          "width": 688,
-          "height": 458
+          "width": 381,
+          "height": 428
         },
         {
           "src": "/images/extras/may-2026/p13-3.webp",
-          "width": 688,
-          "height": 458
+          "width": 380,
+          "height": 428
         }
       ]
     },
@@ -9648,7 +8725,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p14-2.webp",
           "width": 333,
-          "height": 288
+          "height": 225
         },
         {
           "src": "/images/extras/may-2026/p14-3.webp",
@@ -9679,16 +8756,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/may-2026/p14-8.webp",
           "width": 333,
           "height": 288
-        },
-        {
-          "src": "/images/extras/may-2026/p14-9.webp",
-          "width": 428,
-          "height": 240
-        },
-        {
-          "src": "/images/extras/may-2026/p14-10.webp",
-          "width": 238,
-          "height": 240
         }
       ]
     },
@@ -9703,38 +8770,38 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p15-1.webp",
-          "width": 541,
-          "height": 811
+          "width": 493,
+          "height": 733
         },
         {
           "src": "/images/extras/may-2026/p15-2.webp",
-          "width": 764,
-          "height": 214
+          "width": 754,
+          "height": 205
         },
         {
           "src": "/images/extras/may-2026/p15-3.webp",
-          "width": 764,
-          "height": 214
+          "width": 754,
+          "height": 205
         },
         {
           "src": "/images/extras/may-2026/p15-4.webp",
-          "width": 792,
-          "height": 226
+          "width": 773,
+          "height": 208
         },
         {
           "src": "/images/extras/may-2026/p15-5.webp",
-          "width": 792,
-          "height": 226
+          "width": 773,
+          "height": 208
         },
         {
           "src": "/images/extras/may-2026/p15-6.webp",
-          "width": 528,
-          "height": 204
+          "width": 511,
+          "height": 188
         },
         {
           "src": "/images/extras/may-2026/p15-7.webp",
-          "width": 528,
-          "height": 204
+          "width": 511,
+          "height": 188
         }
       ]
     },
@@ -9796,7 +8863,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p17-2.webp",
           "width": 1161,
-          "height": 590
+          "height": 589
         }
       ]
     },
@@ -9841,7 +8908,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Every SpiceJet Axis Bank Credit Card swipe gets you closer to your dream destination.",
         "Travel. Earn. Repeat.",
         "Silver/Gold Tier Spiceclub Membership*",
-        "Up to ₹11,500",
         "Free SpiceJet Vouchers* Up to 7% Rewards on SpiceJet Spends*",
         "*TnC Apply",
         "QQ",
@@ -9865,13 +8931,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p20-2.webp",
-          "width": 530,
-          "height": 375
+          "width": 460,
+          "height": 290
         },
         {
           "src": "/images/extras/may-2026/p20-3.webp",
-          "width": 530,
-          "height": 375
+          "width": 458,
+          "height": 289
         },
         {
           "src": "/images/extras/may-2026/p20-4.webp",
@@ -9880,7 +8946,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p20-5.webp",
-          "width": 222,
+          "width": 115,
           "height": 216
         }
       ]
@@ -9904,7 +8970,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p20-5.webp",
-          "width": 222,
+          "width": 115,
           "height": 216
         }
       ]
@@ -9937,28 +9003,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 17,
       "paragraphs": [
         "Casa Grand - 2",
-        "P E R A M B U R"
+        "PERAMBUR"
       ],
       "images": [
         {
           "src": "/images/extras/may-2026/p23-1.webp",
           "width": 317,
-          "height": 247
-        },
-        {
-          "src": "/images/extras/may-2026/p23-2.webp",
-          "width": 198,
-          "height": 198
-        },
-        {
-          "src": "/images/extras/may-2026/p23-3.webp",
-          "width": 198,
-          "height": 394
-        },
-        {
-          "src": "/images/extras/may-2026/p23-4.webp",
-          "width": 198,
-          "height": 394
+          "height": 246
         },
         {
           "src": "/images/extras/may-2026/p23-6.webp",
@@ -10077,129 +9128,9 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 1007
         },
         {
-          "src": "/images/extras/may-2026/p27-3.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-4.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-5.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-6.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-7.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-8.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-9.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-10.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-11.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-12.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
           "src": "/images/extras/may-2026/p27-13.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-14.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-15.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-16.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-17.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-18.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-19.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-20.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-21.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-22.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-23.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-24.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-25.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-26.webp",
-          "width": 775,
-          "height": 1007
-        },
-        {
-          "src": "/images/extras/may-2026/p27-27.webp",
-          "width": 775,
-          "height": 1007
+          "width": 544,
+          "height": 70
         }
       ]
     },
@@ -10234,34 +9165,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2026/p28-4.webp",
-          "width": 837,
-          "height": 863
-        },
-        {
-          "src": "/images/extras/may-2026/p28-5.webp",
-          "width": 837,
-          "height": 527
-        },
-        {
-          "src": "/images/extras/may-2026/p28-6.webp",
-          "width": 837,
-          "height": 513
-        },
-        {
           "src": "/images/extras/may-2026/p28-7.webp",
           "width": 234,
-          "height": 305
+          "height": 304
         },
         {
           "src": "/images/extras/may-2026/p28-8.webp",
           "width": 224,
           "height": 271
-        },
-        {
-          "src": "/images/extras/may-2026/p28-9.webp",
-          "width": 319,
-          "height": 241
         },
         {
           "src": "/images/extras/may-2026/p28-10.webp",
@@ -10304,34 +9215,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2026/p28-4.webp",
-          "width": 837,
-          "height": 863
-        },
-        {
-          "src": "/images/extras/may-2026/p28-5.webp",
-          "width": 837,
-          "height": 527
-        },
-        {
-          "src": "/images/extras/may-2026/p28-6.webp",
-          "width": 837,
-          "height": 513
-        },
-        {
           "src": "/images/extras/may-2026/p28-7.webp",
           "width": 234,
-          "height": 305
+          "height": 304
         },
         {
           "src": "/images/extras/may-2026/p28-8.webp",
           "width": 224,
           "height": 271
-        },
-        {
-          "src": "/images/extras/may-2026/p28-9.webp",
-          "width": 319,
-          "height": 241
         },
         {
           "src": "/images/extras/may-2026/p28-10.webp",
@@ -10364,8 +9255,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p30-4.webp",
-          "width": 218,
-          "height": 212
+          "width": 215,
+          "height": 207
         }
       ]
     },
@@ -10426,7 +9317,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p33-1.webp",
           "width": 847,
-          "height": 1100
+          "height": 1098
         },
         {
           "src": "/images/extras/may-2026/p33-2.webp",
@@ -10467,8 +9358,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p35-1.webp",
-          "width": 848,
-          "height": 1272
+          "width": 433,
+          "height": 1096
         }
       ]
     },
@@ -10514,18 +9405,18 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p38-1.webp",
-          "width": 311,
-          "height": 515
+          "width": 292,
+          "height": 496
         },
         {
           "src": "/images/extras/may-2026/p38-2.webp",
-          "width": 311,
-          "height": 515
+          "width": 292,
+          "height": 496
         },
         {
           "src": "/images/extras/may-2026/p38-3.webp",
-          "width": 326,
-          "height": 478
+          "width": 266,
+          "height": 472
         }
       ]
     },
@@ -10539,7 +9430,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "ith ute it ild a",
         "hing",
         "C2 ibility, l ble to",
-        "ine, free m isn’t",
         "ty life. guage cts e e in",
         "rom a",
         "ing",
@@ -10555,8 +9445,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "One of the most popular offerings at Language Pantheon is its fast-track German course, designed for those who need to achieve fluency quickly, such as students with upcoming university deadlines or professionals preparing for overseas assignments. This intensive program condenses months of study into a shorter duration while maintaining the highest standards of quality. Live online classes make it possible for students anywhere in the world to participate, ensuring personalized attention and guidance.",
         "What truly distinguishes Language Pantheon is Anuj’s personal mentorship. Despite running a large organization, he remains deeply involved with his students, often working 16-hour days to answer queries and guide learners. Many describe him as more than a teacher—a mentor who genuinely cares about their future. One student shared, “Anuj Sir’s way of explaining concepts is unmatched. After his classes, you don’t just know German—you feel confident using it.” This dedication creates a supportive environment where students feel empowered to take bold steps toward their dreams",
         "The institute’s impact has been recognized by leaders across industries",
-        "Language is the bridge that connects dreams with reality, and at Language Pantheon, we don’t just teach German—we build those bridges.",
-        "– Anuj Kumar Acharya"
+        "Language is the bridge that connects dreams with reality, and at Language Pantheon, we don’t just teach German—we build those bridges."
       ],
       "images": [
         {
@@ -10566,13 +9455,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p38-1.webp",
-          "width": 311,
-          "height": 515
+          "width": 292,
+          "height": 496
         },
         {
           "src": "/images/extras/may-2026/p38-2.webp",
-          "width": 311,
-          "height": 515
+          "width": 292,
+          "height": 496
         }
       ]
     },
@@ -10586,10 +9475,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -10658,7 +9546,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p40-10.webp",
           "width": 203,
-          "height": 313
+          "height": 308
         },
         {
           "src": "/images/extras/may-2026/p40-11.webp",
@@ -10680,8 +9568,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p41-1.webp",
-          "width": 839,
-          "height": 1084
+          "width": 788,
+          "height": 1005
         }
       ]
     },
@@ -10722,8 +9610,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p43-1.webp",
-          "width": 845,
-          "height": 1098
+          "width": 748,
+          "height": 1008
         }
       ]
     },
@@ -10804,8 +9692,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p47-1.webp",
-          "width": 780,
-          "height": 1091
+          "width": 392,
+          "height": 453
         }
       ]
     },
@@ -10838,8 +9726,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -10880,8 +9768,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/september-2026/p42-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/september-2026/p42-3.webp",
@@ -10975,7 +9863,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p57-1.webp",
           "width": 829,
-          "height": 1078
+          "height": 1077
         }
       ]
     }
@@ -11039,7 +9927,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -11081,10 +9968,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -11182,28 +10068,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p80-1.webp",
-          "width": 191,
+          "width": 169,
           "height": 278
         },
         {
-          "src": "/images/extras/may-2026/p80-2.webp",
-          "width": 191,
-          "height": 231
-        },
-        {
           "src": "/images/extras/may-2026/p80-3.webp",
-          "width": 191,
-          "height": 445
+          "width": 180,
+          "height": 195
         },
         {
           "src": "/images/extras/may-2026/p80-4.webp",
-          "width": 238,
+          "width": 228,
           "height": 198
         },
         {
           "src": "/images/extras/may-2026/p80-5.webp",
-          "width": 240,
-          "height": 300
+          "width": 212,
+          "height": 292
         }
       ]
     },
@@ -11218,39 +10099,33 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "st",
-        "April, 2026.",
-        "Domestic — International —"
+        "April, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/may-2026/p80-1.webp",
-          "width": 191,
+          "width": 169,
           "height": 278
         },
         {
           "src": "/images/extras/may-2026/p81-2.webp",
-          "width": 191,
-          "height": 231
-        },
-        {
-          "src": "/images/extras/may-2026/p80-2.webp",
-          "width": 191,
+          "width": 94,
           "height": 231
         },
         {
           "src": "/images/extras/may-2026/p80-3.webp",
-          "width": 191,
-          "height": 445
+          "width": 180,
+          "height": 195
         },
         {
           "src": "/images/extras/may-2026/p80-4.webp",
-          "width": 238,
+          "width": 228,
           "height": 198
         },
         {
           "src": "/images/extras/may-2026/p80-5.webp",
-          "width": 240,
-          "height": 300
+          "width": 212,
+          "height": 292
         }
       ]
     }
@@ -11276,8 +10151,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/september-2026/p68-1.webp",
-          "width": 533,
-          "height": 1006
+          "width": 415,
+          "height": 917
         }
       ]
     },
@@ -11290,8 +10165,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2026/p83-1.webp",
-          "width": 850,
-          "height": 1108
+          "width": 845,
+          "height": 1107
         }
       ]
     },
@@ -11307,7 +10182,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p85-1.webp",
           "width": 849,
-          "height": 1099
+          "height": 1020
         }
       ]
     },
@@ -11337,7 +10212,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2026/p86-1.webp",
           "width": 1200,
-          "height": 1852
+          "height": 1639
         }
       ]
     },
@@ -11361,26 +10236,21 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 88,
       "printedPage": 82,
       "paragraphs": [
-        "DR. DHI�J JAIN",
-        "DR. MAMATA DHI�J JAIN",
         "FOUNDER & CHAIRMAN",
         "FOUNDER & MANAGING DIRECTOR",
         "OWN THE FUTURE OF GROWTH",
-        "1 PLATFO�. 100+ COMPANIES. DIVERSIFIED OPPORTUNITY.",
         "1XL Holdings is a Dubai-based holding company building a diversified platform of 100+ high-growth companies through strategic equity participation.",
         "Investing in 1XL Holdings.",
         "Gain access to a broad portfolio of businesses across sectors.",
         "One single structured platform.",
         "ECOSYSTEM COMPANIES",
         "PORTFOLIO COMPANIES",
-        "�PITAL INVESTMENTS",
         "(100% Owned)",
         "(Strategic Equity Partnerships)",
         "(Pure Investment Participation)",
         "HOLDINGS",
         "DIVERSIFIED EXPOSURE",
         "Benefit from a wide portfolio of companies across multiple industries through one holding structure.",
-        "ST�TEGIC EQUITY PARTICIPATION",
         "1XL Holdings participates in businesses through ownership and partnerships, creating a balanced portfolio of opportunities.",
         "BUILT FOR LONG-TERM VALUE",
         "Focused on sustained capital growth through a diversified and structured investment approach.",
@@ -11393,14 +10263,9 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2026/p88-1.webp",
-          "width": 1190,
-          "height": 1570
-        },
-        {
           "src": "/images/extras/may-2026/p88-2.webp",
-          "width": 1200,
-          "height": 1560
+          "width": 977,
+          "height": 599
         }
       ]
     }
@@ -11413,11 +10278,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 13,
       "paragraphs": [],
       "images": [
-        {
-          "src": "/images/extras/april-2026/p01-1.webp",
-          "width": 828,
-          "height": 1078
-        },
         {
           "src": "/images/extras/april-2026/p01-2.webp",
           "width": 828,
@@ -11435,7 +10295,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p02-1.webp",
           "width": 206,
-          "height": 512
+          "height": 496
         },
         {
           "src": "/images/extras/april-2026/p02-2.webp",
@@ -11445,7 +10305,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p02-3.webp",
           "width": 510,
-          "height": 416
+          "height": 393
         },
         {
           "src": "/images/extras/april-2026/p02-4.webp",
@@ -11479,22 +10339,22 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p03-3.webp",
           "width": 1200,
-          "height": 444
+          "height": 369
         },
         {
           "src": "/images/extras/april-2026/p03-4.webp",
           "width": 1200,
-          "height": 444
+          "height": 362
         },
         {
           "src": "/images/extras/april-2026/p03-5.webp",
           "width": 1200,
-          "height": 900
+          "height": 638
         },
         {
           "src": "/images/extras/april-2026/p03-6.webp",
           "width": 830,
-          "height": 1078
+          "height": 1046
         }
       ]
     },
@@ -11536,9 +10396,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -11556,7 +10414,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 5,
       "printedPage": 17,
       "paragraphs": [
-        "SUMMERTIME’S VINTAGE",
         "ESCAPES",
         "AMRITSAR",
         "OF FOOD & FLAVOURS",
@@ -11698,7 +10555,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p08-2.webp",
           "width": 287,
-          "height": 286
+          "height": 222
         },
         {
           "src": "/images/extras/april-2026/p08-3.webp",
@@ -11712,7 +10569,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2026/p08-5.webp",
-          "width": 221,
+          "width": 113,
           "height": 215
         },
         {
@@ -11722,7 +10579,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2026/p20-5.webp",
-          "width": 222,
+          "width": 115,
           "height": 216
         },
         {
@@ -11732,7 +10589,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2026/p08-9.webp",
-          "width": 223,
+          "width": 112,
           "height": 217
         },
         {
@@ -11768,28 +10625,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 9,
       "printedPage": 21,
       "paragraphs": [
-        "P E R A M B U R"
+        "PERAMBUR"
       ],
       "images": [
         {
           "src": "/images/extras/april-2026/p09-1.webp",
           "width": 322,
-          "height": 251
-        },
-        {
-          "src": "/images/extras/april-2026/p09-2.webp",
-          "width": 202,
-          "height": 201
-        },
-        {
-          "src": "/images/extras/april-2026/p09-4.webp",
-          "width": 202,
-          "height": 400
-        },
-        {
-          "src": "/images/extras/april-2026/p09-5.webp",
-          "width": 202,
-          "height": 400
+          "height": 250
         },
         {
           "src": "/images/extras/april-2026/p09-7.webp",
@@ -11818,17 +10660,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p10-1.webp",
           "width": 832,
-          "height": 287
+          "height": 251
         },
         {
           "src": "/images/extras/april-2026/p10-2.webp",
-          "width": 209,
-          "height": 209
+          "width": 157,
+          "height": 154
         },
         {
           "src": "/images/extras/april-2026/p10-3.webp",
-          "width": 209,
-          "height": 209
+          "width": 159,
+          "height": 155
         }
       ]
     },
@@ -11854,21 +10696,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/september-2026/p24-3.webp",
           "width": 1200,
           "height": 1056
-        },
-        {
-          "src": "/images/extras/april-2026/p11-2.webp",
-          "width": 842,
-          "height": 874
-        },
-        {
-          "src": "/images/extras/april-2026/p11-3.webp",
-          "width": 842,
-          "height": 526
-        },
-        {
-          "src": "/images/extras/april-2026/p11-4.webp",
-          "width": 842,
-          "height": 511
         },
         {
           "src": "/images/extras/april-2026/p11-6.webp",
@@ -11909,143 +10736,143 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2026/p12-4.webp",
-          "width": 551,
-          "height": 643
+          "width": 332,
+          "height": 400
         },
         {
           "src": "/images/extras/april-2026/p12-5.webp",
-          "width": 551,
-          "height": 643
+          "width": 332,
+          "height": 400
         },
         {
           "src": "/images/extras/april-2026/p12-6.webp",
-          "width": 531,
-          "height": 585
+          "width": 311,
+          "height": 360
         },
         {
           "src": "/images/extras/april-2026/p12-7.webp",
-          "width": 531,
-          "height": 585
+          "width": 311,
+          "height": 360
         },
         {
           "src": "/images/extras/april-2026/p12-8.webp",
-          "width": 564,
-          "height": 630
+          "width": 328,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-9.webp",
-          "width": 564,
-          "height": 630
+          "width": 328,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-10.webp",
-          "width": 492,
-          "height": 599
+          "width": 296,
+          "height": 378
         },
         {
           "src": "/images/extras/april-2026/p12-11.webp",
-          "width": 492,
-          "height": 599
+          "width": 296,
+          "height": 378
         },
         {
           "src": "/images/extras/april-2026/p12-12.webp",
-          "width": 469,
-          "height": 485
+          "width": 287,
+          "height": 300
         },
         {
           "src": "/images/extras/april-2026/p12-13.webp",
-          "width": 469,
-          "height": 485
+          "width": 287,
+          "height": 300
         },
         {
           "src": "/images/extras/april-2026/p12-14.webp",
-          "width": 353,
-          "height": 394
+          "width": 207,
+          "height": 247
         },
         {
           "src": "/images/extras/april-2026/p12-15.webp",
-          "width": 353,
-          "height": 394
+          "width": 207,
+          "height": 247
         },
         {
           "src": "/images/extras/april-2026/p12-16.webp",
-          "width": 512,
-          "height": 643
+          "width": 296,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-17.webp",
-          "width": 512,
-          "height": 643
+          "width": 296,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-18.webp",
-          "width": 523,
-          "height": 635
+          "width": 316,
+          "height": 408
         },
         {
           "src": "/images/extras/april-2026/p12-19.webp",
-          "width": 523,
-          "height": 635
+          "width": 316,
+          "height": 408
         },
         {
           "src": "/images/extras/april-2026/p12-20.webp",
-          "width": 449,
-          "height": 527
+          "width": 279,
+          "height": 356
         },
         {
           "src": "/images/extras/april-2026/p12-21.webp",
-          "width": 449,
-          "height": 527
+          "width": 279,
+          "height": 356
         },
         {
           "src": "/images/extras/april-2026/p12-22.webp",
-          "width": 431,
-          "height": 529
+          "width": 271,
+          "height": 359
         },
         {
           "src": "/images/extras/april-2026/p12-23.webp",
-          "width": 431,
-          "height": 529
+          "width": 271,
+          "height": 359
         },
         {
           "src": "/images/extras/april-2026/p12-24.webp",
-          "width": 515,
-          "height": 599
+          "width": 319,
+          "height": 404
         },
         {
           "src": "/images/extras/april-2026/p12-25.webp",
-          "width": 515,
-          "height": 599
+          "width": 319,
+          "height": 404
         },
         {
           "src": "/images/extras/april-2026/p12-26.webp",
-          "width": 552,
-          "height": 660
+          "width": 312,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-27.webp",
-          "width": 552,
-          "height": 660
+          "width": 312,
+          "height": 392
         },
         {
           "src": "/images/extras/april-2026/p12-28.webp",
-          "width": 496,
-          "height": 494
+          "width": 290,
+          "height": 287
         },
         {
           "src": "/images/extras/april-2026/p12-29.webp",
-          "width": 496,
-          "height": 494
+          "width": 290,
+          "height": 287
         },
         {
           "src": "/images/extras/april-2026/p12-30.webp",
-          "width": 466,
-          "height": 518
+          "width": 276,
+          "height": 330
         },
         {
           "src": "/images/extras/april-2026/p12-31.webp",
-          "width": 466,
-          "height": 518
+          "width": 276,
+          "height": 330
         }
       ]
     },
@@ -12080,7 +10907,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p13-6.webp",
           "width": 872,
-          "height": 1114
+          "height": 1080
         }
       ]
     }
@@ -12123,7 +10950,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "1800 103 8301",
         "Not-for-profit registered under Section 8 of the Companies Act. •",
         "CSR1 registered with Ministry of Corporate Affairs. •",
-        "FCRA registered NGO. •",
         "Registered with NITI Aayog. •",
         "Doing Good For Bharat 2025 – Winner Healthcare",
         "TRANSFORM LIVES TOGETHER",
@@ -12147,10 +10973,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -12239,7 +11064,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p17-12.webp",
           "width": 205,
-          "height": 315
+          "height": 310
         },
         {
           "src": "/images/extras/april-2026/p17-13.webp",
@@ -12261,14 +11086,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Every SpiceJet Axis Bank Credit Card swipe gets you closer to your dream destination.",
         "Travel. Earn. Repeat.",
         "Silver/Gold Tier Spiceclub Membership*",
-        "Up to ₹11,500",
         "Free SpiceJet Vouchers* Up to 7% Rewards on SpiceJet Spends*",
         "*TnC Apply"
       ],
       "images": [
         {
           "src": "/images/extras/april-2026/p18-1.webp",
-          "width": 819,
+          "width": 816,
           "height": 1064
         },
         {
@@ -12278,13 +11102,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2026/p18-3.webp",
-          "width": 526,
-          "height": 372
+          "width": 456,
+          "height": 288
         },
         {
           "src": "/images/extras/april-2026/p18-4.webp",
-          "width": 526,
-          "height": 372
+          "width": 455,
+          "height": 287
         }
       ]
     },
@@ -12326,8 +11150,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2026/p23-2.webp",
-          "width": 633,
-          "height": 493
+          "width": 583,
+          "height": 474
         },
         {
           "src": "/images/extras/april-2026/p23-3.webp",
@@ -12353,7 +11177,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p24-1.webp",
           "width": 1200,
-          "height": 761
+          "height": 756
         }
       ]
     }
@@ -12377,7 +11201,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Based On Your Preference",
         "SAVE MORE",
         "For The Same Test At Your Preferred Lab",
-        "*T&C’s Apply",
         "To Book Visit www.flebo.in or Call 012 44 55 0000",
         "500+",
         "Bookings Everyday",
@@ -12469,10 +11292,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR YOUR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS EXCLUSIVE, ENSURING PRIVACY AND COMFORT.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com",
         "charters@spicejet.com"
@@ -12498,18 +11320,18 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2026/p38-2.webp",
-          "width": 525,
+          "width": 312,
           "height": 744
         },
         {
           "src": "/images/extras/april-2026/p38-3.webp",
-          "width": 218,
-          "height": 218
+          "width": 193,
+          "height": 193
         },
         {
           "src": "/images/extras/april-2026/p38-4.webp",
           "width": 581,
-          "height": 821
+          "height": 644
         }
       ]
     }
@@ -12528,19 +11350,18 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "st",
-        "March, 2026.",
-        "Domestic — International —"
+        "March, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/april-2026/p39-1.webp",
-          "width": 921,
-          "height": 1031
+          "width": 901,
+          "height": 1009
         },
         {
           "src": "/images/extras/april-2026/p39-2.webp",
-          "width": 921,
-          "height": 1031
+          "width": 901,
+          "height": 1009
         }
       ]
     },
@@ -12582,7 +11403,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2026/p41-3.webp",
           "width": 461,
-          "height": 559
+          "height": 391
         },
         {
           "src": "/images/extras/april-2026/p41-5.webp",
@@ -12598,11 +11419,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 80,
       "paragraphs": [],
       "images": [
-        {
-          "src": "/images/extras/april-2026/p42-1.webp",
-          "width": 829,
-          "height": 1078
-        },
         {
           "src": "/images/extras/april-2026/p42-2.webp",
           "width": 829,
@@ -12620,11 +11436,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/april-2026/p42-1.webp",
-          "width": 829,
-          "height": 1078
-        },
-        {
           "src": "/images/extras/march-2026/p01-2.webp",
           "width": 829,
           "height": 1078
@@ -12641,11 +11452,11 @@ export const extras: Record<string, StoryExtra[]> = {
         "Tower Air Conditioner",
         "Smart Cleaning, Simplified",
         "Robo Vacuum Cleaner",
-        "A L E G A C Y O F A N D P R O",
+        "ALEGACYOFANDPRO",
         "N O . 1",
-        "G L O B A L",
-        "L E A D E R",
-        "F O R",
+        "GLOBAL",
+        "LEADER",
+        "FOR",
         "Redefining standards for performance,"
       ],
       "images": [
@@ -12666,8 +11477,8 @@ export const extras: Record<string, StoryExtra[]> = {
         "India’s Only* 4 Door Convertible Side By Side Refrigerator",
         "Lumiere Series Refrigerator",
         "I N N OVAT I O N G R E S S",
-        "N S E C U T I V E",
-        "Y E A R S",
+        "NSECUTIVE",
+        "YEARS",
         "design & consumer trust worldwide"
       ],
       "images": [
@@ -12688,7 +11499,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p04-1.webp",
           "width": 413,
-          "height": 883
+          "height": 868
         }
       ]
     },
@@ -12715,8 +11526,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p07-1.webp",
-          "width": 829,
-          "height": 1078
+          "width": 764,
+          "height": 1012
         }
       ]
     },
@@ -12740,17 +11551,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p08-3.webp",
           "width": 1200,
-          "height": 443
+          "height": 370
         },
         {
           "src": "/images/extras/march-2026/p08-4.webp",
           "width": 1200,
-          "height": 443
+          "height": 362
         },
         {
           "src": "/images/extras/march-2026/p08-5.webp",
           "width": 1200,
-          "height": 900
+          "height": 637
         }
       ]
     },
@@ -12762,7 +11573,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Disclaimer:",
         "The information provided in this article is for general informational purposes only. While 1XL Ventures aims to help businesses achieve sustainable growth, individual results may vary based on factors such as market conditions, execution, and other variables. The past performance of 1XL Ventures and its portfolio companies is not indicative of future results. Investments carry inherent risks, and prospective investors should conduct their own due diligence and consult with a financial advisor before making any investment decisions.",
-        "B u i l d i n g S c a l a b l e B u s i n e s s e s T h r o u g h S t r u c t u r e d G r o w t h",
+        "BuildingScalableBusinessesThroughStructuredGrowth",
         "LEADERSHIP CONVERSATION",
         "What gap in the market led you to conceptualise",
         "1XL Ventures under the IGF framework?",
@@ -12820,7 +11631,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "handle that?",
         "From",
         "an",
-        "investor’s",
         "lens,",
         "what makes IGF attractive?",
         "How",
@@ -13019,9 +11829,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| NKN MEDIA UK LIMITED, 25 Tarry way, Boughton, Northampton, England, NN28GP. Phone: + 44 7424 491361",
         "Sri Lanka",
         "| NKN MEDIA (PVT) LTD, Paramount Tower, Level 02-05, No:192 9th lane, Nawala Road, Kotte. Phone: +971 522193009",
-        "The ‘",
         "’ magazine is published by",
-        "NKN Media (“Publisher”)",
         "for exclusive circulation on commercial flights operated by SpiceJet.All articles, advertisement content,images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials.The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materias are strictly",
         "copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support."
       ],
@@ -13056,7 +11864,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "BREAKING NEWS CLOUD COMPLIMENTS HAPPY FLYERS",
         "14 4228 38 32",
         "JAIPUR",
-        "IN HISTORY’S GLOW",
         "HOLI",
         "KE RANG"
       ],
@@ -13116,7 +11923,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p15-1.webp",
           "width": 829,
-          "height": 1078
+          "height": 1054
         }
       ]
     },
@@ -13137,7 +11944,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p16-2.webp",
           "width": 840,
-          "height": 1099
+          "height": 1082
         }
       ]
     },
@@ -13158,7 +11965,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p16-2.webp",
           "width": 840,
-          "height": 1099
+          "height": 1082
         }
       ]
     }
@@ -13243,7 +12050,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "and",
         "achieving",
         "an extraordinary",
-        "₹150 million in sales.",
         "As Founder and CEO,",
         "Mr.",
         "Sunill Kumaar",
@@ -13251,18 +12057,14 @@ export const extras: Record<string, StoryExtra[]> = {
         "estate",
         "to",
         "follow",
-        "tradition—he",
         "entered",
         "to",
         "challenge it",
         ". He saw what many had stopped seeing: clients seeking trust, clarity, and guidance during one of the most important decisions of their lives.",
-        "“Real",
         "estate",
         "is",
         "not",
         "about",
-        "buildings,”",
-        "Kumaar believes.“It’s",
         "about",
         "people,",
         "dreams,",
@@ -13302,7 +12104,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "a high-performing team that shared one vision:",
         "to raise the standard of real estate service",
         ". Backed by deep market research and sharp execution in high-growth corridors, Skywing quickly gained momentum—and credibility.",
-        "The ₹150",
         "million milestone was more than a financial",
         "achievement. It was",
         "proof that the market believed in Skywing’s approach",
@@ -13352,13 +12153,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p22-1.webp",
-          "width": 198,
-          "height": 198
+          "width": 149,
+          "height": 146
         },
         {
           "src": "/images/extras/march-2026/p22-2.webp",
-          "width": 198,
-          "height": 198
+          "width": 152,
+          "height": 148
         }
       ]
     },
@@ -13372,7 +12173,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p23-1.webp",
           "width": 824,
-          "height": 284
+          "height": 248
         }
       ]
     },
@@ -13386,7 +12187,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p24-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1524
         }
       ]
     },
@@ -13400,7 +12201,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p25-1.webp",
           "width": 829,
-          "height": 1079
+          "height": 1021
         }
       ]
     },
@@ -13480,16 +12281,16 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p32-2.webp",
           "width": 226,
-          "height": 286
+          "height": 285
         },
         {
           "src": "/images/extras/march-2026/p32-3.webp",
-          "width": 222,
-          "height": 286
+          "width": 211,
+          "height": 281
         },
         {
           "src": "/images/extras/march-2026/p32-4.webp",
-          "width": 219,
+          "width": 217,
           "height": 391
         },
         {
@@ -13500,7 +12301,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p32-6.webp",
           "width": 222,
-          "height": 338
+          "height": 330
         }
       ]
     },
@@ -13541,24 +12342,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/march-2026/p34-1.webp",
-          "width": 1200,
-          "height": 1200
-        },
-        {
           "src": "/images/extras/march-2026/p34-3.webp",
-          "width": 226,
-          "height": 203
+          "width": 99,
+          "height": 82
         },
         {
           "src": "/images/extras/march-2026/p34-4.webp",
-          "width": 226,
-          "height": 203
-        },
-        {
-          "src": "/images/extras/march-2026/p34-5.webp",
-          "width": 434,
-          "height": 270
+          "width": 99,
+          "height": 80
         },
         {
           "src": "/images/extras/march-2026/p34-6.webp",
@@ -13575,19 +12366,14 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/march-2026/p35-1.webp",
-          "width": 834,
-          "height": 1084
-        },
-        {
           "src": "/images/extras/march-2026/p35-2.webp",
           "width": 1200,
           "height": 676
         },
         {
           "src": "/images/extras/march-2026/p35-3.webp",
-          "width": 771,
-          "height": 964
+          "width": 582,
+          "height": 879
         }
       ]
     },
@@ -13601,10 +12387,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "Khushi",
         "(Delhi - Dharamshala)",
         "Spreading joy, one passenger at a time—our airport team’s",
-        "‘Smile Campaign’",
         "is in full swing!",
         "Your Perfect Smile!",
-        "KhushiKhushi",
+        "Khushi",
         "(Delhi - Dharamshala)",
         "Khushi",
         "(Delhi - Dharamshala)",
@@ -13673,7 +12458,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p36-10.webp",
           "width": 201,
-          "height": 309
+          "height": 304
         },
         {
           "src": "/images/extras/march-2026/p36-11.webp",
@@ -13697,7 +12482,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p36-10.webp",
           "width": 201,
-          "height": 309
+          "height": 304
         },
         {
           "src": "/images/extras/march-2026/p36-11.webp",
@@ -13818,8 +12603,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2026/p41-4.webp",
-          "width": 829,
-          "height": 1079
+          "width": 780,
+          "height": 1038
         }
       ]
     },
@@ -13863,8 +12648,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p43-1.webp",
-          "width": 807,
-          "height": 1074
+          "width": 789,
+          "height": 1023
         }
       ]
     },
@@ -13877,8 +12662,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p45-1.webp",
-          "width": 827,
-          "height": 1078
+          "width": 770,
+          "height": 1014
         }
       ]
     },
@@ -13893,8 +12678,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p46-1.webp",
-          "width": 830,
-          "height": 1078
+          "width": 735,
+          "height": 1034
         }
       ]
     },
@@ -13907,7 +12692,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p47-1.webp",
-          "width": 830,
+          "width": 779,
           "height": 1007
         }
       ]
@@ -13923,8 +12708,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p48-1.webp",
-          "width": 830,
-          "height": 1078
+          "width": 744,
+          "height": 909
         }
       ]
     }
@@ -13939,7 +12724,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p49-1.webp",
-          "width": 830,
+          "width": 813,
           "height": 1078
         }
       ]
@@ -13955,7 +12740,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p50-1.webp",
-          "width": 830,
+          "width": 826,
           "height": 1078
         }
       ]
@@ -13970,7 +12755,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p51-1.webp",
           "width": 830,
-          "height": 1078
+          "height": 1077
         }
       ]
     },
@@ -13984,7 +12769,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p55-1.webp",
           "width": 1200,
-          "height": 1690
+          "height": 1689
         },
         {
           "src": "/images/extras/march-2026/p55-2.webp",
@@ -14004,12 +12789,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p55-5.webp",
           "width": 1200,
-          "height": 1621
+          "height": 1665
         },
         {
           "src": "/images/extras/march-2026/p55-6.webp",
           "width": 1200,
-          "height": 1621
+          "height": 1726
         },
         {
           "src": "/images/extras/march-2026/p55-7.webp",
@@ -14019,17 +12804,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p55-8.webp",
           "width": 1200,
-          "height": 1621
+          "height": 1707
         },
         {
           "src": "/images/extras/march-2026/p55-9.webp",
-          "width": 1200,
-          "height": 1621
+          "width": 742,
+          "height": 1070
         },
         {
           "src": "/images/extras/march-2026/p55-10.webp",
-          "width": 1200,
-          "height": 1621
+          "width": 743,
+          "height": 1071
         }
       ]
     },
@@ -14080,8 +12865,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p60-2.webp",
-          "width": 261,
-          "height": 557
+          "width": 243,
+          "height": 537
         },
         {
           "src": "/images/extras/march-2026/p60-3.webp",
@@ -14138,7 +12923,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p74-1.webp",
-          "width": 778,
+          "width": 729,
           "height": 974
         }
       ]
@@ -14156,7 +12941,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p75-1.webp",
-          "width": 777,
+          "width": 729,
           "height": 977
         }
       ]
@@ -14209,13 +12994,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2026/p80-1.webp",
-          "width": 919,
-          "height": 1029
+          "width": 898,
+          "height": 1008
         },
         {
           "src": "/images/extras/march-2026/p80-2.webp",
-          "width": 919,
-          "height": 1029
+          "width": 898,
+          "height": 1008
         }
       ]
     },
@@ -14229,19 +13014,18 @@ export const extras: Record<string, StoryExtra[]> = {
         "India connects with SpiceJet.",
         "Flight schedules are subject to regulatory approvals and changes. Map not to scale, graphic representation only. Content as on",
         "th",
-        "February, 2026.",
-        "Domestic — International —"
+        "February, 2026."
       ],
       "images": [
         {
           "src": "/images/extras/march-2026/p80-1.webp",
-          "width": 919,
-          "height": 1029
+          "width": 898,
+          "height": 1008
         },
         {
           "src": "/images/extras/march-2026/p80-2.webp",
-          "width": 919,
-          "height": 1029
+          "width": 898,
+          "height": 1008
         }
       ]
     },
@@ -14255,7 +13039,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p83-1.webp",
           "width": 829,
-          "height": 1078
+          "height": 1016
         }
       ]
     },
@@ -14297,11 +13081,11 @@ export const extras: Record<string, StoryExtra[]> = {
         "GROOMED FOR GLOBAL LEADERSHIP. ROOTED IN INDIAN VALUES.",
         "international day-cum-boarding school - 2025",
         "international day-cum-boarding school - 2025",
-        "education world education world",
+        "education world",
         "NO.",
         "NO.",
-        "emerging school in hyd - 2025 emerging school in hyd - 2025",
-        "times of india times of india",
+        "emerging school in hyd - 2025",
+        "times of india",
         "NO.",
         "NO.",
         "www.manchester.global",
@@ -14344,62 +13128,27 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2026/p86-2.webp",
           "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-3.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-4.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-5.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-6.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-7.webp",
-          "width": 846,
-          "height": 1099
+          "height": 635
         },
         {
           "src": "/images/extras/march-2026/p86-8.webp",
-          "width": 846,
-          "height": 1099
+          "width": 415,
+          "height": 423
         },
         {
           "src": "/images/extras/march-2026/p86-9.webp",
-          "width": 846,
-          "height": 1099
+          "width": 365,
+          "height": 176
         },
         {
           "src": "/images/extras/march-2026/p86-10.webp",
-          "width": 846,
-          "height": 1099
+          "width": 381,
+          "height": 185
         },
         {
           "src": "/images/extras/march-2026/p86-11.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-12.webp",
-          "width": 846,
-          "height": 1099
-        },
-        {
-          "src": "/images/extras/march-2026/p86-13.webp",
-          "width": 846,
-          "height": 1099
+          "width": 561,
+          "height": 101
         }
       ]
     }
@@ -14430,7 +13179,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p02-1.webp",
-          "width": 404,
+          "width": 326,
           "height": 621
         },
         {
@@ -14561,9 +13310,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "Tel: +612 92523476; E-mail: charlton.dsilva@pubintl.com.au",
         "CIN No U22229DL2006PLC152087Website: maxposuremedia.com",
         "The",
-        "‘Spice Route’ magazine",
         "is published by Maxposure Limited",
-        "“Publisher”",
         ") for exclusive circulation on commercial flights",
         "operated by SpiceJet. All articles, advertisement, content,",
         "images and photographs published herein are created by the",
@@ -14613,7 +13360,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Kindly Scan the QR code for",
         "Corporate video",
         "Live Demo",
-        "THE WORLD’S HIGHEST",
         "WEATHER RESISTANT",
         "WINDOWS",
         "Heat Resistant Wind Resistant Water Resistant Sound Resistant",
@@ -14624,13 +13370,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p07-1.webp",
-          "width": 677,
-          "height": 844
+          "width": 649,
+          "height": 817
         },
         {
           "src": "/images/extras/may-2024/p07-2.webp",
-          "width": 1175,
-          "height": 1466
+          "width": 1124,
+          "height": 1416
         },
         {
           "src": "/images/extras/may-2024/p07-3.webp",
@@ -14639,13 +13385,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p07-4.webp",
-          "width": 554,
-          "height": 240
+          "width": 385,
+          "height": 72
         },
         {
           "src": "/images/extras/may-2024/p07-5.webp",
-          "width": 962,
-          "height": 416
+          "width": 668,
+          "height": 125
         }
       ]
     },
@@ -14808,7 +13554,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p11-2.webp",
           "width": 1200,
-          "height": 394
+          "height": 385
         }
       ]
     },
@@ -14822,7 +13568,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p12-1.webp",
           "width": 1200,
-          "height": 1478
+          "height": 842
         }
       ]
     },
@@ -14836,7 +13582,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p12-1.webp",
           "width": 1200,
-          "height": 1478
+          "height": 842
         }
       ]
     },
@@ -14917,8 +13663,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p15-1.webp",
-          "width": 1200,
-          "height": 1551
+          "width": 990,
+          "height": 1077
         }
       ]
     },
@@ -14956,48 +13702,18 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2024/p19-1.webp",
-          "width": 195,
-          "height": 202
-        },
-        {
-          "src": "/images/extras/may-2024/p19-2.webp",
-          "width": 213,
-          "height": 202
-        },
-        {
           "src": "/images/extras/may-2024/p19-3.webp",
-          "width": 213,
-          "height": 202
+          "width": 148,
+          "height": 164
         },
         {
           "src": "/images/extras/may-2024/p19-4.webp",
-          "width": 213,
-          "height": 202
-        },
-        {
-          "src": "/images/extras/may-2024/p19-5.webp",
-          "width": 213,
-          "height": 202
-        },
-        {
-          "src": "/images/extras/may-2024/p19-6.webp",
-          "width": 195,
-          "height": 202
-        },
-        {
-          "src": "/images/extras/may-2024/p19-7.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-8.webp",
-          "width": 213,
-          "height": 220
+          "width": 145,
+          "height": 168
         },
         {
           "src": "/images/extras/may-2024/p19-9.webp",
-          "width": 213,
+          "width": 139,
           "height": 220
         },
         {
@@ -15006,24 +13722,9 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 220
         },
         {
-          "src": "/images/extras/may-2024/p19-11.webp",
-          "width": 213,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-12.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-13.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
           "src": "/images/extras/may-2024/p19-14.webp",
-          "width": 213,
-          "height": 220
+          "width": 127,
+          "height": 154
         },
         {
           "src": "/images/extras/may-2024/p19-15.webp",
@@ -15037,22 +13738,12 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p19-17.webp",
-          "width": 213,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-18.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-19.webp",
-          "width": 195,
-          "height": 220
+          "width": 160,
+          "height": 179
         },
         {
           "src": "/images/extras/may-2024/p19-20.webp",
-          "width": 213,
+          "width": 181,
           "height": 220
         },
         {
@@ -15071,18 +13762,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 220
         },
         {
-          "src": "/images/extras/may-2024/p19-24.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-25.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
           "src": "/images/extras/may-2024/p19-26.webp",
-          "width": 213,
+          "width": 204,
           "height": 220
         },
         {
@@ -15106,13 +13787,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 220
         },
         {
-          "src": "/images/extras/may-2024/p19-31.webp",
-          "width": 195,
-          "height": 220
-        },
-        {
           "src": "/images/extras/may-2024/p19-32.webp",
-          "width": 213,
+          "width": 111,
           "height": 220
         },
         {
@@ -15129,11 +13805,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/may-2024/p19-35.webp",
           "width": 213,
           "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p19-36.webp",
-          "width": 195,
-          "height": 220
         }
       ]
     },
@@ -15145,29 +13816,14 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [],
       "images": [
         {
-          "src": "/images/extras/may-2024/p21-1.webp",
-          "width": 812,
-          "height": 819
-        },
-        {
-          "src": "/images/extras/may-2024/p21-2.webp",
-          "width": 860,
-          "height": 819
-        },
-        {
           "src": "/images/extras/may-2024/p21-3.webp",
-          "width": 407,
+          "width": 350,
           "height": 409
-        },
-        {
-          "src": "/images/extras/may-2024/p21-4.webp",
-          "width": 812,
-          "height": 868
         },
         {
           "src": "/images/extras/may-2024/p21-5.webp",
           "width": 430,
-          "height": 434
+          "height": 414
         },
         {
           "src": "/images/extras/may-2024/p21-6.webp",
@@ -15175,24 +13831,9 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 434
         },
         {
-          "src": "/images/extras/may-2024/p21-7.webp",
-          "width": 1098,
-          "height": 724
-        },
-        {
           "src": "/images/extras/may-2024/p21-8.webp",
           "width": 573,
           "height": 312
-        },
-        {
-          "src": "/images/extras/may-2024/p21-9.webp",
-          "width": 1200,
-          "height": 374
-        },
-        {
-          "src": "/images/extras/may-2024/p21-10.webp",
-          "width": 956,
-          "height": 447
         }
       ]
     },
@@ -15314,12 +13955,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p24-2.webp",
           "width": 279,
-          "height": 300
+          "height": 294
         },
         {
           "src": "/images/extras/may-2024/p24-3.webp",
-          "width": 250,
-          "height": 250
+          "width": 240,
+          "height": 228
         }
       ]
     },
@@ -15367,7 +14008,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 27,
       "printedPage": 25,
       "paragraphs": [
-        "O AIKSHA ‘",
         "NUSANDHAN",
         "Visit: www.soa.ac.in",
         "INDIA RANKINGS 2023",
@@ -15441,8 +14081,8 @@ export const extras: Record<string, StoryExtra[]> = {
         "to encompass a robust network of 700+ outlets, spearheading a paradigm shift in healthcare accessibility. Dr. Sujit Paul, the Group CEO, articulates a compelling vision to lead a global healthcare transformation, emphasizing the universal availability of quality health products and comprehensive wellness solutions.",
         "Excellence in Healthcare Products",
         "Davaindia's commitment to excellence is manifested in its extensive array of healthcare offerings, ranging from Generic Medicines to Over-the-Counter (OTC) products, Cosmetics, Gyms, and an array of health and wellness essentials. Operating primarily with private labels, the company ensures stringent quality standards through rigorous checks. The",
-        "i n n o v a t i v e",
-        "C O C O",
+        "innovative",
+        "COCO",
         "( c o m p a n y - o w n e d , company-operated) store format not only amplifies market presence but also introduces a personalized AI-driven supply chain, ensuring a superior and tailored customer experience.",
         "Guiding Zota Healthcare's Strategic Success",
         "In his capacity as the Group CEO of Zota Healthcare, Dr. Sujit Paul leads a proficient team operating under a well-structured framework of Strategic Business Units (SBUs). This strategic alignment ensures autonomy, fostering a successful operational model. The company's strategic trajectory involves nationwide retail expansion and a keen focus on operational enhancements to remain at the forefront of the dynamic healthcare landscape.",
@@ -15467,7 +14107,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p29-2.webp",
-          "width": 297,
+          "width": 296,
           "height": 262
         }
       ]
@@ -15531,16 +14171,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/may-2024/p33-4.webp",
           "width": 614,
           "height": 574
-        },
-        {
-          "src": "/images/extras/may-2024/p33-5.webp",
-          "width": 1112,
-          "height": 701
-        },
-        {
-          "src": "/images/extras/may-2024/p33-6.webp",
-          "width": 472,
-          "height": 486
         }
       ]
     }
@@ -15582,8 +14212,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p36-1.webp",
-          "width": 421,
-          "height": 688
+          "width": 370,
+          "height": 672
         },
         {
           "src": "/images/extras/may-2024/p36-2.webp",
@@ -15621,8 +14251,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p37-1.webp",
-          "width": 522,
-          "height": 654
+          "width": 430,
+          "height": 465
         },
         {
           "src": "/images/extras/may-2024/p37-2.webp",
@@ -15631,13 +14261,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p37-3.webp",
-          "width": 461,
-          "height": 280
+          "width": 424,
+          "height": 254
         },
         {
           "src": "/images/extras/may-2024/p37-4.webp",
           "width": 192,
-          "height": 295
+          "height": 294
         },
         {
           "src": "/images/extras/may-2024/p37-5.webp",
@@ -15703,7 +14333,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p38-1.webp",
           "width": 707,
-          "height": 597
+          "height": 363
         },
         {
           "src": "/images/extras/may-2024/p38-2.webp",
@@ -15782,7 +14412,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p43-1.webp",
           "width": 310,
-          "height": 861
+          "height": 851
         },
         {
           "src": "/images/extras/may-2024/p43-2.webp",
@@ -15806,10 +14436,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS PRIVATE. FOR YOUR PRIVACY, COMFORT AND SAFETY, BOOK NOW.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR A GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com | charters@spicejet.com"
       ],
@@ -15826,11 +14455,6 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p45-3.webp",
-          "width": 300,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/may-2024/p45-4.webp",
           "width": 300,
           "height": 278
         },
@@ -15886,17 +14510,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Increase your brand’s footprint by partnering with us. With hundreds of flights flying thousands of passengers every day, imagine the number of people your brand will connect with.",
         "For enquiries, reach out to us on media.sales@spicejet.com or call us at +91 9871082303.",
         "MEDIA PROPERTIES",
-        "• Aircraft Livery • Step Ladder",
         "DURING TRANSIT",
-        "• Boarding Pass • Brand Shoots with Aircraft • On-ground",
         "Engagements",
         "• Digital Itinerary and Boarding Pass • Promotional E-mailers • Social Media Platforms",
         "DIGITAL MEDIA",
         "AT THE AIRPORT",
         "IN-FLIGHT",
         "Sky Line Window Panel • Cabin Bulk Head • Head Rest Cover • Tray Table • Seat Pocket Insert • In-flight Sampling • In-flight Announcements and Jingles • In-flight Menu and Magazine",
-        "Carousel • Interstitial • Digital Banner Ad",
-        "• Video Ad • On-boarding Screen",
         "IN-FLIGHT ENTERTAINMENT"
       ],
       "images": [
@@ -15906,13 +14526,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 278
         },
         {
-          "src": "/images/extras/may-2024/p47-2.webp",
-          "width": 299,
-          "height": 278
-        },
-        {
           "src": "/images/extras/may-2024/p47-3.webp",
-          "width": 299,
+          "width": 207,
           "height": 278
         },
         {
@@ -15928,7 +14543,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p47-6.webp",
           "width": 299,
-          "height": 296
+          "height": 119
         },
         {
           "src": "/images/extras/may-2024/p47-7.webp",
@@ -15971,22 +14586,7 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 296
         },
         {
-          "src": "/images/extras/may-2024/p47-15.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
           "src": "/images/extras/may-2024/p47-16.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/may-2024/p47-17.webp",
-          "width": 292,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/may-2024/p47-18.webp",
           "width": 299,
           "height": 296
         },
@@ -16019,7 +14619,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "Free Change/ Cancellation Complimentary Upgrades",
         "Complimentary Meals Priority Services Free Seat Selection Exclusive Deals and Offers",
         "Join Now",
-        "SpiceClub BenefitsSpiceClub Benefits",
+        "SpiceClub Benefits",
         "Enjoy an enriched journey at each tier"
       ],
       "images": [
@@ -16030,8 +14630,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p53-2.webp",
-          "width": 813,
-          "height": 762
+          "width": 771,
+          "height": 686
         }
       ]
     },
@@ -16056,38 +14656,38 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p55-1.webp",
-          "width": 1200,
-          "height": 800
+          "width": 607,
+          "height": 778
         },
         {
           "src": "/images/extras/may-2024/p55-2.webp",
-          "width": 258,
-          "height": 215
+          "width": 252,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-3.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         },
         {
           "src": "/images/extras/may-2024/p55-4.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-5.webp",
-          "width": 516,
-          "height": 430
+          "width": 502,
+          "height": 418
         },
         {
           "src": "/images/extras/may-2024/p55-6.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-7.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         }
       ]
     }
@@ -16099,10 +14699,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 63,
       "printedPage": 61,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -16202,7 +14802,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "check in was super ! thanx guys ! hope to fly again soon",
         "@isarqureshi",
         "@AAI_Official",
-        "Aa I’m Unable to",
         "find specific twitter",
         "account for #Ayodhya Airport hence accept my appreciation to an Airport staff who helped me at Enquiry Counter #AyodhyaAirport . Such helping nature attitude needs to be highlighted. Thanks",
         "to Mr Arunesh Tiwari",
@@ -16241,12 +14840,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p70-5.webp",
           "width": 221,
-          "height": 298
-        },
-        {
-          "src": "/images/extras/may-2024/p70-6.webp",
-          "width": 427,
-          "height": 429
+          "height": 269
         },
         {
           "src": "/images/extras/may-2024/p70-7.webp",
@@ -16260,28 +14854,28 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p70-9.webp",
-          "width": 542,
-          "height": 496
+          "width": 276,
+          "height": 278
         },
         {
           "src": "/images/extras/may-2024/p70-10.webp",
-          "width": 361,
-          "height": 341
+          "width": 264,
+          "height": 261
         },
         {
           "src": "/images/extras/may-2024/p70-11.webp",
           "width": 253,
-          "height": 347
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p70-12.webp",
-          "width": 432,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p70-13.webp",
-          "width": 433,
-          "height": 374
+          "width": 156,
+          "height": 155
         }
       ]
     },
@@ -16292,13 +14886,12 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 69,
       "paragraphs": [
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "Certificate in In-flight Management (Cabin Crew Training)",
         "Certificate in In-flight Management (Cabin Crew Training) with Bachelor of Business Administration*",
         "Certificate in In-flight Management (Cabin Crew Training) with Master of Business Administration*",
-        "",
         "*BBA and MBA from Amity University (Online)",
         "Receive your Offer Letter on Day One.",
         "Your runway To a glamorous Cabin crew job.",
@@ -16333,39 +14926,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2024/p70-6.webp",
-          "width": 427,
-          "height": 429
-        },
-        {
-          "src": "/images/extras/may-2024/p71-2.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-3.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-4.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-5.webp",
-          "width": 426,
-          "height": 429
-        },
-        {
           "src": "/images/extras/may-2024/p71-6.webp",
           "width": 213,
-          "height": 214
+          "height": 164
         },
         {
           "src": "/images/extras/may-2024/p71-7.webp",
           "width": 213,
-          "height": 214
+          "height": 198
         },
         {
           "src": "/images/extras/may-2024/p71-8.webp",
@@ -16375,12 +14943,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p71-9.webp",
           "width": 213,
-          "height": 214
+          "height": 204
         },
         {
           "src": "/images/extras/may-2024/p71-10.webp",
           "width": 213,
-          "height": 214
+          "height": 206
         },
         {
           "src": "/images/extras/may-2024/p71-11.webp",
@@ -16424,43 +14992,43 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p70-9.webp",
-          "width": 542,
-          "height": 496
+          "width": 276,
+          "height": 278
         },
         {
           "src": "/images/extras/may-2024/p70-10.webp",
-          "width": 361,
-          "height": 341
+          "width": 264,
+          "height": 261
         },
         {
           "src": "/images/extras/may-2024/p70-11.webp",
           "width": 253,
-          "height": 347
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p71-24.webp",
-          "width": 431,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p70-12.webp",
-          "width": 432,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p71-26.webp",
-          "width": 431,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p70-13.webp",
-          "width": 433,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p71-28.webp",
-          "width": 430,
-          "height": 329
+          "width": 156,
+          "height": 156
         }
       ]
     },
@@ -16563,7 +15131,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p73-1.webp",
           "width": 1200,
-          "height": 1559
+          "height": 1170
         }
       ]
     },
@@ -16575,7 +15143,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Memories onboard",
         "Let us take your memories places!",
-        "Has the SpiceJet flight ‘flown’ your",
         "mind away? If yes, then email us photographs of your recent SpiceJet travel expedition and let us publish them! We cherish your happy moments",
         "with SpiceJet. Please share your flight",
         "details along with the photographs!",
@@ -16643,7 +15210,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         }
       ]
     },
@@ -16660,11 +15227,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "CADET",
         "PROGRAMME",
         "PIL",
-        "Join SpiceJet’s",
         "and become a Pilot.*",
         "ELIGIBILITY:",
         "Must be an Indian National or an Overseas Citizen of India (OCI)",
-        "Age: 17 to 35 years •",
         "Minimum height: 158 cm (approximately 5 feet 2 inches) •",
         "Must be fluent in English",
         "(both verbal and written)",
@@ -16724,12 +15289,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/may-2024/p75-12.webp",
           "width": 323,
-          "height": 295
+          "height": 267
         }
       ]
     },
@@ -16834,78 +15399,78 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p78-1.webp",
-          "width": 448,
-          "height": 252
+          "width": 372,
+          "height": 223
         },
         {
           "src": "/images/extras/may-2024/p78-3.webp",
-          "width": 376,
-          "height": 348
-        },
-        {
-          "src": "/images/extras/may-2024/p78-4.webp",
-          "width": 215,
-          "height": 225
-        },
-        {
-          "src": "/images/extras/may-2024/p78-5.webp",
-          "width": 376,
-          "height": 348
-        },
-        {
-          "src": "/images/extras/may-2024/p78-6.webp",
-          "width": 214,
-          "height": 225
-        },
-        {
-          "src": "/images/extras/may-2024/p78-7.webp",
-          "width": 352,
-          "height": 336
-        },
-        {
-          "src": "/images/extras/may-2024/p78-8.webp",
-          "width": 194,
-          "height": 221
-        },
-        {
-          "src": "/images/extras/may-2024/p78-9.webp",
-          "width": 352,
-          "height": 336
-        },
-        {
-          "src": "/images/extras/may-2024/p78-10.webp",
-          "width": 197,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p78-11.webp",
-          "width": 356,
-          "height": 352
-        },
-        {
-          "src": "/images/extras/may-2024/p78-12.webp",
-          "width": 199,
-          "height": 232
-        },
-        {
-          "src": "/images/extras/may-2024/p78-13.webp",
-          "width": 236,
+          "width": 306,
           "height": 320
         },
         {
+          "src": "/images/extras/may-2024/p78-4.webp",
+          "width": 213,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-5.webp",
+          "width": 304,
+          "height": 319
+        },
+        {
+          "src": "/images/extras/may-2024/p78-6.webp",
+          "width": 212,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-7.webp",
+          "width": 235,
+          "height": 296
+        },
+        {
+          "src": "/images/extras/may-2024/p78-8.webp",
+          "width": 162,
+          "height": 204
+        },
+        {
+          "src": "/images/extras/may-2024/p78-9.webp",
+          "width": 236,
+          "height": 291
+        },
+        {
+          "src": "/images/extras/may-2024/p78-10.webp",
+          "width": 162,
+          "height": 201
+        },
+        {
+          "src": "/images/extras/may-2024/p78-11.webp",
+          "width": 252,
+          "height": 316
+        },
+        {
+          "src": "/images/extras/may-2024/p78-12.webp",
+          "width": 178,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-13.webp",
+          "width": 141,
+          "height": 286
+        },
+        {
           "src": "/images/extras/may-2024/p78-14.webp",
-          "width": 372,
-          "height": 276
+          "width": 289,
+          "height": 246
         },
         {
           "src": "/images/extras/may-2024/p78-16.webp",
-          "width": 308,
-          "height": 284
+          "width": 222,
+          "height": 250
         },
         {
           "src": "/images/extras/may-2024/p78-18.webp",
-          "width": 448,
-          "height": 244
+          "width": 367,
+          "height": 212
         }
       ]
     },
@@ -17120,68 +15685,68 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p79-1.webp",
-          "width": 360,
-          "height": 384
+          "width": 284,
+          "height": 351
         },
         {
           "src": "/images/extras/may-2024/p79-2.webp",
-          "width": 202,
-          "height": 253
+          "width": 198,
+          "height": 250
         },
         {
           "src": "/images/extras/may-2024/p79-3.webp",
-          "width": 368,
-          "height": 392
+          "width": 290,
+          "height": 362
         },
         {
           "src": "/images/extras/may-2024/p79-4.webp",
-          "width": 205,
-          "height": 260
+          "width": 203,
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p79-5.webp",
-          "width": 216,
-          "height": 360
+          "width": 126,
+          "height": 309
         },
         {
           "src": "/images/extras/may-2024/p79-7.webp",
-          "width": 216,
-          "height": 368
+          "width": 125,
+          "height": 329
         },
         {
           "src": "/images/extras/may-2024/p79-8.webp",
-          "width": 256,
-          "height": 360
+          "width": 168,
+          "height": 322
         },
         {
           "src": "/images/extras/may-2024/p79-9.webp",
-          "width": 216,
-          "height": 288
+          "width": 119,
+          "height": 252
         },
         {
           "src": "/images/extras/may-2024/p79-10.webp",
-          "width": 208,
-          "height": 333
+          "width": 106,
+          "height": 312
         },
         {
           "src": "/images/extras/may-2024/p79-11.webp",
-          "width": 204,
-          "height": 333
+          "width": 126,
+          "height": 312
         },
         {
           "src": "/images/extras/may-2024/p79-12.webp",
-          "width": 252,
-          "height": 264
+          "width": 187,
+          "height": 241
         },
         {
           "src": "/images/extras/may-2024/p79-13.webp",
-          "width": 192,
-          "height": 340
+          "width": 112,
+          "height": 304
         },
         {
           "src": "/images/extras/may-2024/p79-17.webp",
-          "width": 192,
-          "height": 364
+          "width": 111,
+          "height": 333
         }
       ]
     },
@@ -17247,7 +15812,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 81,
       "printedPage": 79,
       "paragraphs": [
-        "Don’t Let",
         "Baldness",
         "Destroy your",
         "Happiness",
@@ -17269,28 +15833,28 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p81-1.webp",
-          "width": 346,
-          "height": 199
+          "width": 326,
+          "height": 184
         },
         {
           "src": "/images/extras/may-2024/p81-2.webp",
-          "width": 346,
-          "height": 198
+          "width": 327,
+          "height": 183
         },
         {
           "src": "/images/extras/may-2024/p81-3.webp",
-          "width": 348,
-          "height": 198
+          "width": 327,
+          "height": 183
         },
         {
           "src": "/images/extras/may-2024/p81-4.webp",
-          "width": 346,
-          "height": 194
+          "width": 326,
+          "height": 179
         },
         {
           "src": "/images/extras/may-2024/p81-5.webp",
-          "width": 348,
-          "height": 194
+          "width": 328,
+          "height": 181
         },
         {
           "src": "/images/extras/may-2024/p81-6.webp",
@@ -17352,8 +15916,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p83-1.webp",
-          "width": 684,
-          "height": 1375
+          "width": 612,
+          "height": 1341
         }
       ]
     },
@@ -17367,7 +15931,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p84-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1448
         }
       ]
     }
@@ -17400,7 +15964,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p02-1.webp",
-          "width": 433,
+          "width": 353,
           "height": 621
         },
         {
@@ -17444,7 +16008,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p03-1.webp",
           "width": 1123,
-          "height": 1089
+          "height": 920
         },
         {
           "src": "/images/extras/april-2024/p03-2.webp",
@@ -17452,39 +16016,24 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 591
         },
         {
-          "src": "/images/extras/april-2024/p03-3.webp",
-          "width": 1200,
-          "height": 358
-        },
-        {
           "src": "/images/extras/april-2024/p03-4.webp",
           "width": 1200,
-          "height": 359
+          "height": 217
         },
         {
           "src": "/images/extras/april-2024/p03-5.webp",
           "width": 1200,
-          "height": 218
-        },
-        {
-          "src": "/images/extras/april-2024/p03-6.webp",
-          "width": 1200,
-          "height": 297
+          "height": 51
         },
         {
           "src": "/images/extras/april-2024/p03-7.webp",
           "width": 1200,
-          "height": 274
+          "height": 100
         },
         {
           "src": "/images/extras/april-2024/p03-8.webp",
           "width": 1200,
-          "height": 205
-        },
-        {
-          "src": "/images/extras/april-2024/p03-9.webp",
-          "width": 1123,
-          "height": 205
+          "height": 54
         }
       ]
     },
@@ -17555,9 +16104,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| Charlton D’Silva; Publisher’s Internationale Tel: +612 92523476; E-mail: charlton.dsilva@pubintl.com.au",
         "CIN No U22229DL2006PLC152087Website: maxposuremedia.com",
         "The",
-        "‘Spice Route’ magazine",
         "is published by Maxposure Limited (",
-        "“Publisher”",
         ") for exclusive circulation on commercial flights",
         "operated by SpiceJet. All articles, advertisement, content, images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials. The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materials are strictly copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support.",
         "April 2024"
@@ -17596,7 +16143,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Kindly Scan the QR code for",
         "Corporate video",
         "Live Demo",
-        "THE WORLD’S HIGHEST",
         "WEATHER RESISTANT",
         "WINDOWS",
         "Heat Resistant Wind Resistant Water Resistant Sound Resistant",
@@ -17607,13 +16153,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p07-1.webp",
-          "width": 677,
-          "height": 844
+          "width": 649,
+          "height": 817
         },
         {
           "src": "/images/extras/may-2024/p07-2.webp",
-          "width": 1175,
-          "height": 1466
+          "width": 1124,
+          "height": 1416
         },
         {
           "src": "/images/extras/may-2024/p07-3.webp",
@@ -17622,13 +16168,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p07-4.webp",
-          "width": 554,
-          "height": 240
+          "width": 385,
+          "height": 72
         },
         {
           "src": "/images/extras/may-2024/p07-5.webp",
-          "width": 962,
-          "height": 416
+          "width": 668,
+          "height": 125
         }
       ]
     },
@@ -17646,13 +16192,12 @@ export const extras: Record<string, StoryExtra[]> = {
         "NETWORK",
         "Exploring a land of rugged beauty, a popular urban centre, and a land of beautiful beaches",
         "LIMELIGHT",
-        "Ed Sheeran talks about his recent India tour and the love he receives in the country",
-        "$SULO\u00032024"
+        "Ed Sheeran talks about his recent India tour and the love he receives in the country"
       ],
       "images": [
         {
           "src": "/images/extras/april-2024/p08-1.webp",
-          "width": 360,
+          "width": 357,
           "height": 363
         },
         {
@@ -17740,8 +16285,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "MONTAGE",
         "Snapshots of isolated and remote destinations from around the world",
         "KALEIDOSCOPE",
-        "Tracking the rise in popularity of the permanent makeup (PMU) trend in India",
-        "$SULO\u00032024"
+        "Tracking the rise in popularity of the permanent makeup (PMU) trend in India"
       ],
       "images": [
         {
@@ -17821,12 +16365,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p12-2.webp",
           "width": 250,
-          "height": 240
+          "height": 239
         },
         {
           "src": "/images/extras/april-2024/p12-3.webp",
-          "width": 200,
-          "height": 200
+          "width": 191,
+          "height": 192
         }
       ]
     },
@@ -17845,12 +16389,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p12-2.webp",
           "width": 250,
-          "height": 240
+          "height": 239
         },
         {
           "src": "/images/extras/april-2024/p12-3.webp",
-          "width": 200,
-          "height": 200
+          "width": 191,
+          "height": 192
         }
       ]
     },
@@ -17953,8 +16497,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p15-1.webp",
-          "width": 1200,
-          "height": 1551
+          "width": 990,
+          "height": 1077
         }
       ]
     },
@@ -17994,8 +16538,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p19-1.webp",
-          "width": 1200,
-          "height": 1560
+          "width": 1127,
+          "height": 1613
         }
       ]
     },
@@ -18005,7 +16549,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 21,
       "printedPage": 19,
       "paragraphs": [
-        "O AIKSHA ‘",
         "NUSANDHAN",
         "Visit: www.soa.ac.in",
         "INDIA RANKINGS 2023",
@@ -18140,16 +16683,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/april-2024/p27-4.webp",
           "width": 622,
           "height": 574
-        },
-        {
-          "src": "/images/extras/april-2024/p27-5.webp",
-          "width": 1099,
-          "height": 701
-        },
-        {
-          "src": "/images/extras/april-2024/p27-6.webp",
-          "width": 480,
-          "height": 486
         }
       ]
     }
@@ -18184,7 +16717,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p29-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1169
         }
       ]
     }
@@ -18200,7 +16733,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "CONTACT US",
         "Follow us on",
         "www.monsoonsalon.com",
-        "INDIA’S",
         "monsoonsalon",
         "150+ Salons",
         "65 Cities",
@@ -18280,8 +16812,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p36-1.webp",
-          "width": 421,
-          "height": 688
+          "width": 370,
+          "height": 672
         },
         {
           "src": "/images/extras/may-2024/p36-2.webp",
@@ -18315,8 +16847,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p37-1.webp",
-          "width": 522,
-          "height": 654
+          "width": 430,
+          "height": 465
         },
         {
           "src": "/images/extras/may-2024/p37-2.webp",
@@ -18325,13 +16857,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p37-3.webp",
-          "width": 461,
-          "height": 280
+          "width": 424,
+          "height": 254
         },
         {
           "src": "/images/extras/may-2024/p37-4.webp",
           "width": 192,
-          "height": 295
+          "height": 294
         },
         {
           "src": "/images/extras/may-2024/p37-5.webp",
@@ -18389,7 +16921,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p38-1.webp",
           "width": 707,
-          "height": 597
+          "height": 363
         },
         {
           "src": "/images/extras/may-2024/p38-2.webp",
@@ -18485,17 +17017,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Increase your brand’s footprint by partnering with us. With hundreds of flights flying thousands of passengers every day, imagine the number of people your brand will connect with.",
         "For enquiries, reach out to us on media.sales@spicejet.com or call us at +91 9871082303.",
         "MEDIA PROPERTIES",
-        "• Aircraft Livery • Step Ladder",
         "DURING TRANSIT",
-        "• Boarding Pass • Brand Shoots with Aircraft • On-ground",
         "Engagements",
         "• Digital Itinerary and Boarding Pass • Promotional E-mailers • Social Media Platforms",
         "DIGITAL MEDIA",
         "AT THE AIRPORT",
         "IN-FLIGHT",
         "Sky Line Window Panel • Cabin Bulk Head • Head Rest Cover • Tray Table • Seat Pocket Insert • In-flight Sampling • In-flight Announcements and Jingles • In-flight Menu and Magazine",
-        "Carousel • Interstitial • Digital Banner Ad",
-        "• Video Ad • On-boarding Screen",
         "IN-FLIGHT ENTERTAINMENT"
       ],
       "images": [
@@ -18505,13 +17033,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 278
         },
         {
-          "src": "/images/extras/may-2024/p47-2.webp",
-          "width": 299,
-          "height": 278
-        },
-        {
           "src": "/images/extras/may-2024/p47-3.webp",
-          "width": 299,
+          "width": 207,
           "height": 278
         },
         {
@@ -18527,7 +17050,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p47-6.webp",
           "width": 299,
-          "height": 296
+          "height": 119
         },
         {
           "src": "/images/extras/may-2024/p47-7.webp",
@@ -18570,22 +17093,7 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 296
         },
         {
-          "src": "/images/extras/april-2024/p45-15.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
           "src": "/images/extras/april-2024/p45-16.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/april-2024/p45-17.webp",
-          "width": 289,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/april-2024/p45-18.webp",
           "width": 299,
           "height": 296
         },
@@ -18613,7 +17121,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Earn up to",
         "10 SC Points*",
         "on every",
-        "₹ 100",
         "spent!",
         "EARN UNBEATABLE REWARDS",
         "WITH",
@@ -18630,8 +17137,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/april-2024/p47-2.webp",
-          "width": 205,
-          "height": 205
+          "width": 191,
+          "height": 192
         }
       ]
     },
@@ -18656,38 +17163,38 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p49-1.webp",
-          "width": 1200,
-          "height": 800
+          "width": 607,
+          "height": 778
         },
         {
           "src": "/images/extras/may-2024/p55-2.webp",
-          "width": 258,
-          "height": 215
+          "width": 252,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-3.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         },
         {
           "src": "/images/extras/may-2024/p55-4.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-5.webp",
-          "width": 516,
-          "height": 430
+          "width": 502,
+          "height": 418
         },
         {
           "src": "/images/extras/may-2024/p55-6.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/may-2024/p55-7.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         }
       ]
     }
@@ -18699,10 +17206,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 55,
       "printedPage": 53,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -18759,23 +17266,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p67-1.webp",
-          "width": 1200,
-          "height": 982
+          "width": 732,
+          "height": 644
         },
         {
           "src": "/images/extras/april-2024/p67-2.webp",
-          "width": 336,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-3.webp",
-          "width": 346,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-4.webp",
-          "width": 363,
-          "height": 267
+          "width": 309,
+          "height": 240
         }
       ]
     }
@@ -18788,13 +17295,12 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 69,
       "paragraphs": [
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "Certificate in In-flight Management (Cabin Crew Training)",
         "Certificate in In-flight Management (Cabin Crew Training) with Bachelor of Business Administration*",
         "Certificate in In-flight Management (Cabin Crew Training) with Master of Business Administration*",
-        "",
         "*BBA and MBA from Amity University (Online)",
         "Receive your Offer Letter on Day One.",
         "Your runway To a glamorous Cabin crew job.",
@@ -18829,39 +17335,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2024/p70-6.webp",
-          "width": 427,
-          "height": 429
-        },
-        {
-          "src": "/images/extras/may-2024/p71-2.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-3.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-4.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-5.webp",
-          "width": 426,
-          "height": 429
-        },
-        {
           "src": "/images/extras/may-2024/p71-6.webp",
           "width": 213,
-          "height": 214
+          "height": 164
         },
         {
           "src": "/images/extras/may-2024/p71-7.webp",
           "width": 213,
-          "height": 214
+          "height": 198
         },
         {
           "src": "/images/extras/may-2024/p71-8.webp",
@@ -18871,12 +17352,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p71-9.webp",
           "width": 213,
-          "height": 214
+          "height": 204
         },
         {
           "src": "/images/extras/may-2024/p71-10.webp",
           "width": 213,
-          "height": 214
+          "height": 206
         },
         {
           "src": "/images/extras/may-2024/p71-11.webp",
@@ -18920,43 +17401,43 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p70-9.webp",
-          "width": 542,
-          "height": 496
+          "width": 276,
+          "height": 278
         },
         {
           "src": "/images/extras/may-2024/p70-10.webp",
-          "width": 361,
-          "height": 341
+          "width": 264,
+          "height": 261
         },
         {
           "src": "/images/extras/may-2024/p70-11.webp",
           "width": 253,
-          "height": 347
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p71-24.webp",
-          "width": 431,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p70-12.webp",
-          "width": 432,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p71-26.webp",
-          "width": 431,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p70-13.webp",
-          "width": 433,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p71-28.webp",
-          "width": 430,
-          "height": 329
+          "width": 156,
+          "height": 156
         }
       ]
     },
@@ -19026,8 +17507,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p73-1.webp",
-          "width": 684,
-          "height": 1376
+          "width": 612,
+          "height": 1342
         }
       ]
     }
@@ -19041,7 +17522,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Memories onboard",
         "Let us take your memories places!",
-        "Has the SpiceJet flight ‘flown’ your",
         "mind away? If yes, then email us photographs of your recent SpiceJet travel expedition and let us publish them! We cherish your happy moments",
         "with SpiceJet. Please share your flight",
         "details along with the photographs!",
@@ -19102,8 +17582,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "*T&C apply.",
         "For lowest flight fares, book on spicejet.com or call +91-124-4983410.",
         "ZERO CANCELLATIONS. ZERO TENSION.",
-        "SPICEJET’S",
-        "‘TAXI SERVICE’",
         ". FOR AIRPORT DROPS AND PICK-UPS.",
         "100% CONFIRMED CABS",
         "ZERO CANCELLATION CHARGES",
@@ -19155,12 +17633,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/april-2024/p78-3.webp",
           "width": 194,
-          "height": 194
+          "height": 179
         }
       ]
     },
@@ -19177,11 +17655,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "CADET",
         "PROGRAMME",
         "PIL",
-        "Join SpiceJet’s",
         "and become a Pilot.*",
         "ELIGIBILITY:",
         "Must be an Indian National or an Overseas Citizen of India (OCI)",
-        "Age: 17 to 35 years •",
         "Minimum height: 158 cm (approximately 5 feet 2 inches) •",
         "Must be fluent in English",
         "(both verbal and written)",
@@ -19241,12 +17717,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/may-2024/p75-12.webp",
           "width": 323,
-          "height": 295
+          "height": 267
         }
       ]
     },
@@ -19351,78 +17827,78 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p78-1.webp",
-          "width": 448,
-          "height": 252
+          "width": 372,
+          "height": 223
         },
         {
           "src": "/images/extras/may-2024/p78-3.webp",
-          "width": 376,
-          "height": 348
-        },
-        {
-          "src": "/images/extras/may-2024/p78-4.webp",
-          "width": 215,
-          "height": 225
-        },
-        {
-          "src": "/images/extras/may-2024/p78-5.webp",
-          "width": 376,
-          "height": 348
-        },
-        {
-          "src": "/images/extras/may-2024/p78-6.webp",
-          "width": 214,
-          "height": 225
-        },
-        {
-          "src": "/images/extras/may-2024/p78-7.webp",
-          "width": 352,
-          "height": 336
-        },
-        {
-          "src": "/images/extras/may-2024/p78-8.webp",
-          "width": 194,
-          "height": 221
-        },
-        {
-          "src": "/images/extras/may-2024/p78-9.webp",
-          "width": 352,
-          "height": 336
-        },
-        {
-          "src": "/images/extras/may-2024/p78-10.webp",
-          "width": 197,
-          "height": 220
-        },
-        {
-          "src": "/images/extras/may-2024/p78-11.webp",
-          "width": 356,
-          "height": 352
-        },
-        {
-          "src": "/images/extras/may-2024/p78-12.webp",
-          "width": 199,
-          "height": 232
-        },
-        {
-          "src": "/images/extras/may-2024/p78-13.webp",
-          "width": 236,
+          "width": 306,
           "height": 320
         },
         {
+          "src": "/images/extras/may-2024/p78-4.webp",
+          "width": 213,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-5.webp",
+          "width": 304,
+          "height": 319
+        },
+        {
+          "src": "/images/extras/may-2024/p78-6.webp",
+          "width": 212,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-7.webp",
+          "width": 235,
+          "height": 296
+        },
+        {
+          "src": "/images/extras/may-2024/p78-8.webp",
+          "width": 162,
+          "height": 204
+        },
+        {
+          "src": "/images/extras/may-2024/p78-9.webp",
+          "width": 236,
+          "height": 291
+        },
+        {
+          "src": "/images/extras/may-2024/p78-10.webp",
+          "width": 162,
+          "height": 201
+        },
+        {
+          "src": "/images/extras/may-2024/p78-11.webp",
+          "width": 252,
+          "height": 316
+        },
+        {
+          "src": "/images/extras/may-2024/p78-12.webp",
+          "width": 178,
+          "height": 222
+        },
+        {
+          "src": "/images/extras/may-2024/p78-13.webp",
+          "width": 141,
+          "height": 286
+        },
+        {
           "src": "/images/extras/may-2024/p78-14.webp",
-          "width": 372,
-          "height": 276
+          "width": 289,
+          "height": 246
         },
         {
           "src": "/images/extras/may-2024/p78-16.webp",
-          "width": 308,
-          "height": 284
+          "width": 222,
+          "height": 250
         },
         {
           "src": "/images/extras/may-2024/p78-18.webp",
-          "width": 448,
-          "height": 244
+          "width": 367,
+          "height": 212
         }
       ]
     },
@@ -19637,68 +18113,68 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/may-2024/p79-1.webp",
-          "width": 360,
-          "height": 384
+          "width": 284,
+          "height": 351
         },
         {
           "src": "/images/extras/may-2024/p79-2.webp",
-          "width": 202,
-          "height": 253
+          "width": 198,
+          "height": 250
         },
         {
           "src": "/images/extras/may-2024/p79-3.webp",
-          "width": 368,
-          "height": 392
+          "width": 290,
+          "height": 362
         },
         {
           "src": "/images/extras/may-2024/p79-4.webp",
-          "width": 205,
-          "height": 260
+          "width": 203,
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p79-5.webp",
-          "width": 216,
-          "height": 360
+          "width": 126,
+          "height": 309
         },
         {
           "src": "/images/extras/may-2024/p79-7.webp",
-          "width": 216,
-          "height": 368
+          "width": 125,
+          "height": 329
         },
         {
           "src": "/images/extras/may-2024/p79-8.webp",
-          "width": 256,
-          "height": 360
+          "width": 168,
+          "height": 322
         },
         {
           "src": "/images/extras/may-2024/p79-9.webp",
-          "width": 216,
-          "height": 288
+          "width": 119,
+          "height": 252
         },
         {
           "src": "/images/extras/april-2024/p81-11.webp",
-          "width": 204,
-          "height": 320
+          "width": 102,
+          "height": 298
         },
         {
           "src": "/images/extras/april-2024/p81-12.webp",
-          "width": 196,
-          "height": 320
+          "width": 123,
+          "height": 298
         },
         {
           "src": "/images/extras/april-2024/p81-13.webp",
-          "width": 248,
-          "height": 256
+          "width": 181,
+          "height": 233
         },
         {
           "src": "/images/extras/may-2024/p79-13.webp",
-          "width": 192,
-          "height": 340
+          "width": 112,
+          "height": 304
         },
         {
           "src": "/images/extras/may-2024/p79-17.webp",
-          "width": 192,
-          "height": 364
+          "width": 111,
+          "height": 333
         }
       ]
     },
@@ -19740,10 +18216,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS PRIVATE. FOR YOUR PRIVACY, COMFORT AND SAFETY, BOOK NOW.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR A GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com | charters@spicejet.com"
       ],
@@ -19760,11 +18235,6 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p45-3.webp",
-          "width": 300,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/may-2024/p45-4.webp",
           "width": 300,
           "height": 278
         },
@@ -19833,12 +18303,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p84-3.webp",
           "width": 323,
-          "height": 1613
+          "height": 1199
         },
         {
           "src": "/images/extras/april-2024/p84-5.webp",
-          "width": 222,
-          "height": 1613
+          "width": 212,
+          "height": 1203
         }
       ]
     }
@@ -19975,9 +18445,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| Charlton D’Silva; Publisher’s Internationale Tel: +612 92523476; E-mail: charlton.dsilva@pubintl.com.au",
         "CIN No U22229DL2006PLC152087Website: maxposuremedia.com",
         "The",
-        "‘Spice Route’ magazine",
         "is published by Maxposure Limited (",
-        "“Publisher”",
         ") for exclusive circulation on commercial flights",
         "operated by SpiceJet. All articles, advertisement, content, images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials. The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materials are strictly copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support.",
         "March 2024"
@@ -20016,7 +18484,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "States",
         "Cities",
         "Union Territories",
-        "THE WORLD’S HIGHEST",
         "WEATHER RESISTANT",
         "WINDOWS",
         "Heat Resistant Wind Resistant Water Resistant Sound Resistant",
@@ -20027,13 +18494,13 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p07-1.webp",
-          "width": 677,
-          "height": 842
+          "width": 649,
+          "height": 816
         },
         {
           "src": "/images/extras/march-2024/p07-2.webp",
-          "width": 1175,
-          "height": 1462
+          "width": 1125,
+          "height": 1412
         },
         {
           "src": "/images/extras/march-2024/p07-3.webp",
@@ -20042,13 +18509,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p07-4.webp",
-          "width": 554,
-          "height": 240
+          "width": 385,
+          "height": 72
         },
         {
           "src": "/images/extras/march-2024/p07-5.webp",
-          "width": 962,
-          "height": 416
+          "width": 668,
+          "height": 125
         }
       ]
     },
@@ -20066,8 +18533,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "NETWORK",
         "Exploring a centre of culture and spirituality, a metropolis, and a gateway town to hill stations",
         "LIMELIGHT",
-        "Legendary musician Sting talks about his love for India and its culture",
-        "0DUFK\u00032024"
+        "Legendary musician Sting talks about his love for India and its culture"
       ],
       "images": [
         {
@@ -20127,14 +18593,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Amid Holi festivities, explore the landscape of Kathmandu and its vibrant traditions",
         "Contents",
         "MONTAGE",
-        "Snapshots of national parks from across the world that are perfect for a hike in spring",
-        "0DUFK\u00032024"
+        "Snapshots of national parks from across the world that are perfect for a hike in spring"
       ],
       "images": [
         {
           "src": "/images/extras/march-2024/p10-1.webp",
-          "width": 374,
-          "height": 277
+          "width": 350,
+          "height": 261
         },
         {
           "src": "/images/extras/march-2024/p10-2.webp",
@@ -20183,8 +18648,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p11-1.webp",
-          "width": 1106,
-          "height": 495
+          "width": 1086,
+          "height": 399
         },
         {
           "src": "/images/extras/march-2024/p10-4.webp",
@@ -20208,12 +18673,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p12-2.webp",
           "width": 250,
-          "height": 240
+          "height": 239
         },
         {
           "src": "/images/extras/march-2024/p12-3.webp",
-          "width": 205,
-          "height": 205
+          "width": 195,
+          "height": 197
         }
       ]
     },
@@ -20232,12 +18697,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/april-2024/p12-2.webp",
           "width": 250,
-          "height": 240
+          "height": 239
         },
         {
           "src": "/images/extras/march-2024/p12-3.webp",
-          "width": 205,
-          "height": 205
+          "width": 195,
+          "height": 197
         }
       ]
     },
@@ -20321,8 +18786,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p15-1.webp",
-          "width": 1198,
-          "height": 1548
+          "width": 1172,
+          "height": 1521
         }
       ]
     },
@@ -20367,7 +18832,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 21,
       "printedPage": 19,
       "paragraphs": [
-        "O AIKSHA ‘",
         "NUSANDHAN",
         "Visit: www.soa.ac.in",
         "INDIA RANKINGS 2023",
@@ -20430,18 +18894,18 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p23-1.webp",
-          "width": 817,
-          "height": 1046
+          "width": 703,
+          "height": 799
         },
         {
           "src": "/images/extras/march-2024/p23-2.webp",
           "width": 1200,
-          "height": 360
+          "height": 335
         },
         {
           "src": "/images/extras/march-2024/p23-3.webp",
-          "width": 786,
-          "height": 486
+          "width": 752,
+          "height": 477
         },
         {
           "src": "/images/extras/march-2024/p23-4.webp",
@@ -20506,16 +18970,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/march-2024/p27-4.webp",
           "width": 621,
           "height": 574
-        },
-        {
-          "src": "/images/extras/march-2024/p27-5.webp",
-          "width": 1101,
-          "height": 703
-        },
-        {
-          "src": "/images/extras/march-2024/p27-6.webp",
-          "width": 479,
-          "height": 487
         }
       ]
     }
@@ -20531,8 +18985,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "*T&C apply.",
         "For lowest flight fares, book on spicejet.com or call +91-124-4983410.",
         "ZERO CANCELLATIONS. ZERO TENSION.",
-        "SPICEJET’S",
-        "‘TAXI SERVICE’",
         ". FOR AIRPORT DROPS AND PICK-UPS.",
         "100% CONFIRMED CABS",
         "ZERO CANCELLATION CHARGES",
@@ -20559,8 +19011,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p31-1.webp",
-          "width": 1200,
-          "height": 1560
+          "width": 767,
+          "height": 1353
         }
       ]
     }
@@ -20595,7 +19047,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p33-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1169
         }
       ]
     }
@@ -20635,8 +19087,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p36-1.webp",
-          "width": 421,
-          "height": 688
+          "width": 370,
+          "height": 672
         },
         {
           "src": "/images/extras/march-2024/p36-2.webp",
@@ -20670,8 +19122,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p37-1.webp",
-          "width": 522,
-          "height": 654
+          "width": 431,
+          "height": 465
         },
         {
           "src": "/images/extras/march-2024/p37-2.webp",
@@ -20680,8 +19132,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p37-3.webp",
-          "width": 461,
-          "height": 280
+          "width": 423,
+          "height": 254
         },
         {
           "src": "/images/extras/march-2024/p37-4.webp",
@@ -20744,7 +19196,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p38-1.webp",
           "width": 707,
-          "height": 597
+          "height": 363
         },
         {
           "src": "/images/extras/march-2024/p38-2.webp",
@@ -20840,17 +19292,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Increase your brand’s footprint by partnering with us. With hundreds of flights flying thousands of passengers every day, imagine the number of people your brand will connect with.",
         "For enquiries, reach out to us on media.sales@spicejet.com or call us at +91 9871082303.",
         "MEDIA PROPERTIES",
-        "• Aircraft Livery • Step Ladder",
         "DURING TRANSIT",
-        "• Boarding Pass • Brand Shoots with Aircraft • On-ground",
         "Engagements",
         "• Digital Itinerary and Boarding Pass • Promotional E-mailers • Social Media Platforms",
         "DIGITAL MEDIA",
         "AT THE AIRPORT",
         "IN-FLIGHT",
         "Sky Line Window Panel • Cabin Bulk Head • Head Rest Cover • Tray Table • Seat Pocket Insert • In-flight Sampling • In-flight Announcements and Jingles • In-flight Menu and Magazine",
-        "Carousel • Interstitial • Digital Banner Ad",
-        "• Video Ad • On-boarding Screen",
         "IN-FLIGHT ENTERTAINMENT"
       ],
       "images": [
@@ -20860,13 +19308,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 278
         },
         {
-          "src": "/images/extras/march-2024/p45-2.webp",
-          "width": 299,
-          "height": 278
-        },
-        {
           "src": "/images/extras/march-2024/p45-3.webp",
-          "width": 299,
+          "width": 207,
           "height": 278
         },
         {
@@ -20882,7 +19325,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p45-6.webp",
           "width": 299,
-          "height": 296
+          "height": 119
         },
         {
           "src": "/images/extras/march-2024/p45-7.webp",
@@ -20925,22 +19368,7 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 296
         },
         {
-          "src": "/images/extras/march-2024/p45-15.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
           "src": "/images/extras/march-2024/p45-16.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/march-2024/p45-17.webp",
-          "width": 289,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/march-2024/p45-18.webp",
           "width": 299,
           "height": 296
         },
@@ -20962,7 +19390,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 47,
       "printedPage": 45,
       "paragraphs": [
-        "SpiceClub BenefitsSpiceClub Benefits",
+        "SpiceClub Benefits",
         "https://spiceclub.spicejet.com/signup",
         "Flight Vouchers",
         "Earn SC Points",
@@ -20981,13 +19409,13 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p47-2.webp",
-          "width": 660,
-          "height": 840
+          "width": 504,
+          "height": 400
         },
         {
           "src": "/images/extras/march-2024/p47-3.webp",
-          "width": 610,
-          "height": 850
+          "width": 507,
+          "height": 760
         }
       ]
     },
@@ -21012,38 +19440,38 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p49-1.webp",
-          "width": 1200,
-          "height": 800
+          "width": 607,
+          "height": 778
         },
         {
           "src": "/images/extras/march-2024/p49-2.webp",
-          "width": 258,
-          "height": 215
+          "width": 252,
+          "height": 209
         },
         {
           "src": "/images/extras/march-2024/p49-3.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         },
         {
           "src": "/images/extras/march-2024/p49-4.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/march-2024/p49-5.webp",
-          "width": 516,
-          "height": 430
+          "width": 502,
+          "height": 418
         },
         {
           "src": "/images/extras/march-2024/p49-6.webp",
-          "width": 258,
-          "height": 215
+          "width": 251,
+          "height": 209
         },
         {
           "src": "/images/extras/march-2024/p49-7.webp",
-          "width": 516,
-          "height": 430
+          "width": 503,
+          "height": 418
         }
       ]
     }
@@ -21075,10 +19503,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 55,
       "printedPage": 53,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -21129,23 +19557,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p67-1.webp",
-          "width": 1200,
-          "height": 982
+          "width": 732,
+          "height": 644
         },
         {
           "src": "/images/extras/april-2024/p67-2.webp",
-          "width": 336,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-3.webp",
-          "width": 346,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-4.webp",
-          "width": 363,
-          "height": 267
+          "width": 309,
+          "height": 240
         }
       ]
     }
@@ -21158,13 +19586,12 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 69,
       "paragraphs": [
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "Certificate in In-flight Management (Cabin Crew Training)",
         "Certificate in In-flight Management (Cabin Crew Training) with Bachelor of Business Administration*",
         "Certificate in In-flight Management (Cabin Crew Training) with Master of Business Administration*",
-        "",
         "*BBA and MBA from Amity University (Online)",
         "Receive your Offer Letter on Day One.",
         "Your runway To a glamorous Cabin crew job.",
@@ -21199,39 +19626,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2024/p70-6.webp",
-          "width": 427,
-          "height": 429
-        },
-        {
-          "src": "/images/extras/may-2024/p71-2.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-3.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-4.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-5.webp",
-          "width": 426,
-          "height": 429
-        },
-        {
           "src": "/images/extras/may-2024/p71-6.webp",
           "width": 213,
-          "height": 214
+          "height": 164
         },
         {
           "src": "/images/extras/may-2024/p71-7.webp",
           "width": 213,
-          "height": 214
+          "height": 198
         },
         {
           "src": "/images/extras/may-2024/p71-8.webp",
@@ -21241,12 +19643,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p71-9.webp",
           "width": 213,
-          "height": 214
+          "height": 204
         },
         {
           "src": "/images/extras/may-2024/p71-10.webp",
           "width": 213,
-          "height": 214
+          "height": 206
         },
         {
           "src": "/images/extras/may-2024/p71-11.webp",
@@ -21290,43 +19692,43 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p70-9.webp",
-          "width": 542,
-          "height": 496
+          "width": 276,
+          "height": 278
         },
         {
           "src": "/images/extras/may-2024/p70-10.webp",
-          "width": 361,
-          "height": 341
+          "width": 264,
+          "height": 261
         },
         {
           "src": "/images/extras/may-2024/p70-11.webp",
           "width": 253,
-          "height": 347
+          "height": 255
         },
         {
           "src": "/images/extras/may-2024/p71-24.webp",
-          "width": 431,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p70-12.webp",
-          "width": 432,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p71-26.webp",
-          "width": 431,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p70-13.webp",
-          "width": 433,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/may-2024/p71-28.webp",
-          "width": 430,
-          "height": 329
+          "width": 156,
+          "height": 156
         }
       ]
     },
@@ -21408,8 +19810,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p73-1.webp",
-          "width": 684,
-          "height": 1376
+          "width": 612,
+          "height": 1342
         }
       ]
     }
@@ -21423,7 +19825,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Memories onboard",
         "Let us take your memories places!",
-        "Has the SpiceJet flight ‘flown’ your",
         "mind away? If yes, then email us photographs of your recent SpiceJet travel expedition and let us publish",
         "them! We cherish your happy moments with SpiceJet. Please share your flight",
         "details along with the photographs!",
@@ -21452,7 +19853,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/march-2024/p74-2.webp",
@@ -21494,11 +19895,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "CADET",
         "PROGRAMME",
         "PIL",
-        "Join SpiceJet’s",
         "and become a Pilot.*",
         "ELIGIBILITY:",
         "Must be an Indian National or an Overseas Citizen of India (OCI)",
-        "Age: 17 to 35 years •",
         "Minimum height: 158 cm (approximately 5 feet 2 inches) •",
         "Must be fluent in English",
         "(both verbal and written)",
@@ -21558,12 +19957,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/may-2024/p75-12.webp",
           "width": 323,
-          "height": 295
+          "height": 267
         }
       ]
     },
@@ -21682,93 +20081,93 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p78-1.webp",
-          "width": 300,
-          "height": 268
+          "width": 232,
+          "height": 243
         },
         {
           "src": "/images/extras/march-2024/p78-3.webp",
-          "width": 300,
-          "height": 268
+          "width": 232,
+          "height": 244
         },
         {
           "src": "/images/extras/march-2024/p78-5.webp",
-          "width": 300,
-          "height": 268
+          "width": 231,
+          "height": 243
         },
         {
           "src": "/images/extras/march-2024/p78-7.webp",
-          "width": 340,
-          "height": 356
+          "width": 257,
+          "height": 308
         },
         {
           "src": "/images/extras/march-2024/p78-8.webp",
-          "width": 190,
-          "height": 233
+          "width": 179,
+          "height": 213
         },
         {
           "src": "/images/extras/march-2024/p78-9.webp",
-          "width": 356,
-          "height": 340
+          "width": 239,
+          "height": 300
         },
         {
           "src": "/images/extras/march-2024/p78-10.webp",
-          "width": 197,
-          "height": 224
+          "width": 165,
+          "height": 209
         },
         {
           "src": "/images/extras/march-2024/p78-11.webp",
-          "width": 356,
-          "height": 340
+          "width": 238,
+          "height": 296
         },
         {
           "src": "/images/extras/march-2024/p78-12.webp",
-          "width": 200,
-          "height": 223
+          "width": 165,
+          "height": 204
         },
         {
           "src": "/images/extras/march-2024/p78-13.webp",
-          "width": 356,
-          "height": 352
+          "width": 252,
+          "height": 316
         },
         {
           "src": "/images/extras/march-2024/p78-14.webp",
-          "width": 199,
-          "height": 232
+          "width": 177,
+          "height": 221
         },
         {
           "src": "/images/extras/march-2024/p78-15.webp",
-          "width": 300,
-          "height": 332
+          "width": 204,
+          "height": 295
         },
         {
           "src": "/images/extras/march-2024/p78-17.webp",
-          "width": 236,
-          "height": 320
+          "width": 141,
+          "height": 286
         },
         {
           "src": "/images/extras/march-2024/p78-18.webp",
-          "width": 340,
-          "height": 252
+          "width": 261,
+          "height": 222
         },
         {
           "src": "/images/extras/march-2024/p78-20.webp",
-          "width": 280,
-          "height": 256
+          "width": 196,
+          "height": 221
         },
         {
           "src": "/images/extras/march-2024/p78-21.webp",
-          "width": 304,
-          "height": 268
+          "width": 232,
+          "height": 244
         },
         {
           "src": "/images/extras/march-2024/p78-23.webp",
-          "width": 412,
-          "height": 224
+          "width": 331,
+          "height": 193
         },
         {
           "src": "/images/extras/march-2024/p78-24.webp",
-          "width": 412,
-          "height": 228
+          "width": 334,
+          "height": 201
         }
       ]
     },
@@ -21983,78 +20382,78 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p79-1.webp",
-          "width": 380,
-          "height": 384
+          "width": 302,
+          "height": 356
         },
         {
           "src": "/images/extras/march-2024/p79-2.webp",
-          "width": 217,
-          "height": 253
+          "width": 213,
+          "height": 251
         },
         {
           "src": "/images/extras/march-2024/p79-3.webp",
-          "width": 372,
-          "height": 400
+          "width": 286,
+          "height": 369
         },
         {
           "src": "/images/extras/march-2024/p79-4.webp",
-          "width": 205,
-          "height": 265
+          "width": 198,
+          "height": 260
         },
         {
           "src": "/images/extras/march-2024/p79-5.webp",
-          "width": 216,
-          "height": 360
+          "width": 126,
+          "height": 310
         },
         {
           "src": "/images/extras/march-2024/p79-7.webp",
-          "width": 216,
-          "height": 372
+          "width": 126,
+          "height": 334
         },
         {
           "src": "/images/extras/march-2024/p79-8.webp",
-          "width": 260,
-          "height": 364
+          "width": 170,
+          "height": 325
         },
         {
           "src": "/images/extras/march-2024/p79-9.webp",
-          "width": 196,
-          "height": 316
+          "width": 127,
+          "height": 295
         },
         {
           "src": "/images/extras/march-2024/p79-10.webp",
-          "width": 232,
-          "height": 316
+          "width": 132,
+          "height": 278
         },
         {
           "src": "/images/extras/march-2024/p79-11.webp",
-          "width": 204,
-          "height": 324
+          "width": 103,
+          "height": 301
         },
         {
           "src": "/images/extras/march-2024/p79-12.webp",
-          "width": 200,
-          "height": 324
+          "width": 122,
+          "height": 301
         },
         {
           "src": "/images/extras/march-2024/p79-13.webp",
-          "width": 268,
-          "height": 284
+          "width": 203,
+          "height": 262
         },
         {
           "src": "/images/extras/march-2024/p79-14.webp",
-          "width": 212,
-          "height": 384
-        },
-        {
-          "src": "/images/extras/march-2024/p79-15.webp",
-          "width": 192,
+          "width": 102,
           "height": 340
         },
         {
+          "src": "/images/extras/march-2024/p79-15.webp",
+          "width": 112,
+          "height": 304
+        },
+        {
           "src": "/images/extras/march-2024/p79-19.webp",
-          "width": 192,
-          "height": 364
+          "width": 111,
+          "height": 334
         }
       ]
     },
@@ -22108,8 +20507,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p81-1.webp",
-          "width": 1200,
-          "height": 1560
+          "width": 1016,
+          "height": 1123
         }
       ]
     },
@@ -22153,10 +20552,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS PRIVATE. FOR YOUR PRIVACY, COMFORT AND SAFETY, BOOK NOW.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR A GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com | charters@spicejet.com"
       ],
@@ -22173,11 +20571,6 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p83-3.webp",
-          "width": 300,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/march-2024/p83-4.webp",
           "width": 300,
           "height": 278
         },
@@ -22233,7 +20626,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p84-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1514
         }
       ]
     }
@@ -22248,7 +20641,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "T H E I N F L I G H T M AG A Z I N E",
         "EN ROUTE TO",
         "Ayodhya",
-        "D I V I N E B E G I N N I N G S"
+        "DIVINEBEGINNINGS"
       ],
       "images": [
         {
@@ -22268,12 +20661,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p02-1.webp",
           "width": 1170,
-          "height": 568
+          "height": 459
         },
         {
           "src": "/images/extras/february-2024/p02-2.webp",
           "width": 1170,
-          "height": 845
+          "height": 797
         },
         {
           "src": "/images/extras/february-2024/p02-3.webp",
@@ -22386,9 +20779,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "| Charlton D’Silva; Publisher’s Internationale Tel: +612 92523476; E-mail: charlton.dsilva@pubintl.com.au",
         "CIN No U22229DL2006PLC152087Website: maxposuremedia.com",
         "The",
-        "‘Spice Route’ magazine",
         "is published by Maxposure Limited (",
-        "“Publisher”",
         ") for exclusive circulation on commercial flights",
         "operated by SpiceJet. All articles, advertisement, content, images and photographs published herein are created by the Publisher and/or contributor at their own discretion and do not necessarily represent the views of SpiceJet. All rights, title and interest (including intellectual property rights) in and to the materials shall vest either with the Publisher or any contributor (including SpiceJet, in certain cases) of such materials. The Publisher is solely liable for any claims for breach of intellectual property rights by any third party in relation to materials appearing in the SpiceRoute magazine (except such materials and content which have been created by SpiceJet, in which case SpiceJet or its service providers shall be liable for such claims). SpiceJet shall bear no liability for any article, content, advertisement, advertorial, image or photograph appearing in any issue of this magazine including any content which is communal, indecent, gender discriminatory, caste-creed discriminatory, racist, defamatory or libelous to any person, organisation, etc., except in case of content which has been created by SpiceJet. All materials are strictly copyrighted and all rights reserved. No part of the publication may be reproduced in whole or part without prior written permission of the copyright holder, Publisher and SpiceJet. All articles marked as ‘In Focus’ in the magazine are advertorials/advertising support.",
         "February 2024"
@@ -22406,23 +20797,23 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/february-2024/p06-3.webp",
-          "width": 549,
-          "height": 232
+          "width": 387,
+          "height": 72
         },
         {
           "src": "/images/extras/february-2024/p06-4.webp",
-          "width": 999,
-          "height": 422
+          "width": 702,
+          "height": 131
         },
         {
           "src": "/images/extras/february-2024/p06-5.webp",
-          "width": 687,
-          "height": 856
+          "width": 661,
+          "height": 829
         },
         {
           "src": "/images/extras/february-2024/p06-6.webp",
           "width": 1200,
-          "height": 1496
+          "height": 1509
         }
       ]
     },
@@ -22438,7 +20829,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "1800 833 4500",
         "| info@prominance.com | www.prominance.com",
         "Follow us on",
-        "THE WORLD’S HIGHEST",
         "WEATHER RESISTANT",
         "WINDOWS",
         "Heat Resistant Wind Resistant Water Resistant Sound Resistant",
@@ -22458,23 +20848,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/february-2024/p06-3.webp",
-          "width": 549,
-          "height": 232
+          "width": 387,
+          "height": 72
         },
         {
           "src": "/images/extras/february-2024/p06-4.webp",
-          "width": 999,
-          "height": 422
+          "width": 702,
+          "height": 131
         },
         {
           "src": "/images/extras/february-2024/p06-5.webp",
-          "width": 687,
-          "height": 856
+          "width": 661,
+          "height": 829
         },
         {
           "src": "/images/extras/february-2024/p06-6.webp",
           "width": 1200,
-          "height": 1496
+          "height": 1509
         },
         {
           "src": "/images/extras/february-2024/p07-5.webp",
@@ -22614,8 +21004,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/february-2024/p11-2.webp",
-          "width": 538,
-          "height": 613
+          "width": 518,
+          "height": 547
         }
       ]
     },
@@ -22629,17 +21019,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p12-1.webp",
           "width": 1200,
-          "height": 780
+          "height": 762
         },
         {
           "src": "/images/extras/february-2024/p12-2.webp",
-          "width": 670,
+          "width": 669,
           "height": 531
         },
         {
           "src": "/images/extras/february-2024/p12-3.webp",
           "width": 1200,
-          "height": 307
+          "height": 313
         },
         {
           "src": "/images/extras/february-2024/p12-4.webp",
@@ -22663,17 +21053,17 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p12-1.webp",
           "width": 1200,
-          "height": 780
+          "height": 762
         },
         {
           "src": "/images/extras/february-2024/p12-2.webp",
-          "width": 670,
+          "width": 669,
           "height": 531
         },
         {
           "src": "/images/extras/february-2024/p12-3.webp",
           "width": 1200,
-          "height": 307
+          "height": 313
         },
         {
           "src": "/images/extras/february-2024/p12-4.webp",
@@ -22781,8 +21171,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p15-1.webp",
-          "width": 1198,
-          "height": 1548
+          "width": 1172,
+          "height": 1521
         }
       ]
     },
@@ -22810,7 +21200,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p19-1.webp",
           "width": 1200,
-          "height": 1560
+          "height": 1514
         }
       ]
     },
@@ -22824,7 +21214,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p21-1.webp",
           "width": 1200,
-          "height": 1561
+          "height": 1502
         }
       ]
     },
@@ -22834,7 +21224,6 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 23,
       "printedPage": 21,
       "paragraphs": [
-        "O AIKSHA ‘",
         "NUSANDHAN",
         "Visit: www.soa.ac.in",
         "INDIA RANKINGS 2023",
@@ -22923,16 +21312,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/february-2024/p25-4.webp",
           "width": 622,
           "height": 601
-        },
-        {
-          "src": "/images/extras/february-2024/p25-5.webp",
-          "width": 1196,
-          "height": 624
-        },
-        {
-          "src": "/images/extras/february-2024/p25-6.webp",
-          "width": 586,
-          "height": 624
         }
       ]
     }
@@ -22970,10 +21349,10 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 29,
       "printedPage": 27,
       "paragraphs": [
-        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
+        "LOCK IT NOW FOR 48 HOURS* AND BOOK LATER WITH",
         "/-",
         "STARTING AT JUST",
-        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS. AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
+        "AVAILABLE ON DOMESTIC AND INTERNATIONAL FLIGHTS.",
         "FOUND THE RIGHT FARE?",
         "*T&C apply.",
         "www.spicejet.com",
@@ -23004,7 +21383,7 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/february-2024/p31-2.webp",
-          "width": 583,
+          "width": 578,
           "height": 810
         }
       ]
@@ -23096,7 +21475,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "DEP.",
         "ARR.",
         "FREQUENCY",
-        "Chennai – Ayodhya Ayodhya – Chennai Jaipur – Ayodhya Ayodhya – Jaipur Patna – Ayodhya Ayodhya – Patna Darbhanga – Ayodhya Ayodhya – Darbhanga Ahmedabad – Ayodhya Ayodhya – Ahmedabad Delhi – Ayodhya Ayodhya – Delhi Mumbai – Ayodhya Ayodhya – Mumbai Bengaluru – Ayodhya Ayodhya – Bengaluru",
         "12:50 16:10 07:15 16:00 14:10 12:40 10:55 09:30 05:55 12:30 10:40 08:40 08:20 11:15 10:50 14:10",
         "15:25 18:40 09:00 17:45 15:15 13:40 12:10 10:35 08:00 14:25 12:00 10:05 10:40 13:20 13:30 16:45",
         "Daily Daily 2, 4, 6 & 7 2, 4, 6 & 7 2, 4, 6 & 7 2, 4, 6 & 7 2, 4, 6 & 7 2, 4, 6 & 7 Daily (Except Wed) Daily (Except Wed) Daily (Except Wed) Daily (Except Wed) Daily Daily 1, 3, 5 & 7 1, 3, 5 & 7",
@@ -23105,44 +21483,9 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/february-2024/p37-1.webp",
-          "width": 449,
-          "height": 399
-        },
-        {
-          "src": "/images/extras/february-2024/p37-2.webp",
-          "width": 475,
-          "height": 399
-        },
-        {
-          "src": "/images/extras/february-2024/p37-3.webp",
-          "width": 475,
-          "height": 399
-        },
-        {
-          "src": "/images/extras/february-2024/p37-4.webp",
-          "width": 261,
-          "height": 697
-        },
-        {
-          "src": "/images/extras/february-2024/p37-5.webp",
-          "width": 337,
-          "height": 299
-        },
-        {
           "src": "/images/extras/february-2024/p37-6.webp",
           "width": 356,
           "height": 299
-        },
-        {
-          "src": "/images/extras/february-2024/p37-7.webp",
-          "width": 356,
-          "height": 299
-        },
-        {
-          "src": "/images/extras/february-2024/p37-8.webp",
-          "width": 195,
-          "height": 505
         },
         {
           "src": "/images/extras/february-2024/p37-9.webp",
@@ -23195,8 +21538,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p36-1.webp",
-          "width": 421,
-          "height": 688
+          "width": 370,
+          "height": 672
         },
         {
           "src": "/images/extras/march-2024/p36-2.webp",
@@ -23232,8 +21575,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p37-1.webp",
-          "width": 522,
-          "height": 654
+          "width": 431,
+          "height": 465
         },
         {
           "src": "/images/extras/march-2024/p37-2.webp",
@@ -23242,8 +21585,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p37-3.webp",
-          "width": 461,
-          "height": 280
+          "width": 423,
+          "height": 254
         },
         {
           "src": "/images/extras/march-2024/p37-4.webp",
@@ -23304,7 +21647,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p38-1.webp",
           "width": 707,
-          "height": 597
+          "height": 363
         },
         {
           "src": "/images/extras/march-2024/p38-2.webp",
@@ -23376,7 +21719,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p43-1.webp",
           "width": 310,
-          "height": 861
+          "height": 851
         },
         {
           "src": "/images/extras/may-2024/p43-2.webp",
@@ -23400,17 +21743,13 @@ export const extras: Record<string, StoryExtra[]> = {
         "Increase your brand’s footprint by partnering with us. With hundreds of flights flying thousands of passengers every day, imagine the number of people your brand will connect with.",
         "For enquiries, reach out to us on media.sales@spicejet.com or call us at +91 9871082303.",
         "MEDIA PROPERTIES",
-        "• Aircraft Livery • Step Ladder",
         "DURING TRANSIT",
-        "• Boarding Pass • Brand Shoots with Aircraft • On-ground",
         "Engagements",
         "• Digital Itinerary and Boarding Pass • Promotional E-mailers • Social Media Platforms",
         "DIGITAL MEDIA",
         "AT THE AIRPORT",
         "IN-FLIGHT",
         "Sky Line Window Panel • Cabin Bulk Head • Head Rest Cover • Tray Table • Seat Pocket Insert • In-flight Sampling • In-flight Announcements and Jingles • In-flight Menu and Magazine",
-        "Carousel • Interstitial • Digital Banner Ad",
-        "• Video Ad • On-boarding Screen",
         "IN-FLIGHT ENTERTAINMENT"
       ],
       "images": [
@@ -23420,13 +21759,8 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 278
         },
         {
-          "src": "/images/extras/march-2024/p45-2.webp",
-          "width": 299,
-          "height": 278
-        },
-        {
           "src": "/images/extras/march-2024/p45-3.webp",
-          "width": 299,
+          "width": 207,
           "height": 278
         },
         {
@@ -23442,7 +21776,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/march-2024/p45-6.webp",
           "width": 299,
-          "height": 296
+          "height": 119
         },
         {
           "src": "/images/extras/march-2024/p45-7.webp",
@@ -23485,22 +21819,7 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 296
         },
         {
-          "src": "/images/extras/march-2024/p45-15.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
           "src": "/images/extras/march-2024/p45-16.webp",
-          "width": 299,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/february-2024/p47-17.webp",
-          "width": 294,
-          "height": 296
-        },
-        {
-          "src": "/images/extras/march-2024/p45-18.webp",
           "width": 299,
           "height": 296
         },
@@ -23547,8 +21866,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/february-2024/p49-2.webp",
-          "width": 267,
-          "height": 287
+          "width": 242,
+          "height": 267
         }
       ]
     }
@@ -23573,8 +21892,8 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p73-1.webp",
-          "width": 684,
-          "height": 1376
+          "width": 612,
+          "height": 1342
         }
       ]
     },
@@ -23645,8 +21964,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "*T&C apply.",
         "For lowest flight fares, book on spicejet.com or call +91-124-4983410.",
         "ZERO CANCELLATIONS. ZERO TENSION.",
-        "SPICEJET’S",
-        "‘TAXI SERVICE’",
         ". FOR AIRPORT DROPS AND PICK-UPS.",
         "100% CONFIRMED CABS",
         "ZERO CANCELLATION CHARGES",
@@ -23680,23 +21997,23 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/april-2024/p67-1.webp",
-          "width": 1200,
-          "height": 982
+          "width": 732,
+          "height": 644
         },
         {
           "src": "/images/extras/april-2024/p67-2.webp",
-          "width": 336,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-3.webp",
-          "width": 346,
-          "height": 267
+          "width": 309,
+          "height": 240
         },
         {
           "src": "/images/extras/april-2024/p67-4.webp",
-          "width": 363,
-          "height": 267
+          "width": 309,
+          "height": 240
         }
       ]
     }
@@ -23709,13 +22026,12 @@ export const extras: Record<string, StoryExtra[]> = {
       "printedPage": 71,
       "paragraphs": [
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "SPICE STAR",
-        "A C A D E M Y",
+        "ACADEMY",
         "Certificate in In-flight Management (Cabin Crew Training)",
         "Certificate in In-flight Management (Cabin Crew Training) with Bachelor of Business Administration*",
         "Certificate in In-flight Management (Cabin Crew Training) with Master of Business Administration*",
-        "",
         "*BBA and MBA from Amity University (Online)",
         "Receive your Offer Letter on Day One.",
         "Your runway To a glamorous Cabin crew job.",
@@ -23750,39 +22066,14 @@ export const extras: Record<string, StoryExtra[]> = {
       ],
       "images": [
         {
-          "src": "/images/extras/may-2024/p70-6.webp",
-          "width": 427,
-          "height": 429
-        },
-        {
-          "src": "/images/extras/may-2024/p71-2.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-3.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-4.webp",
-          "width": 213,
-          "height": 214
-        },
-        {
-          "src": "/images/extras/may-2024/p71-5.webp",
-          "width": 426,
-          "height": 429
-        },
-        {
           "src": "/images/extras/may-2024/p71-6.webp",
           "width": 213,
-          "height": 214
+          "height": 164
         },
         {
           "src": "/images/extras/may-2024/p71-7.webp",
           "width": 213,
-          "height": 214
+          "height": 198
         },
         {
           "src": "/images/extras/may-2024/p71-8.webp",
@@ -23792,12 +22083,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p71-9.webp",
           "width": 213,
-          "height": 214
+          "height": 204
         },
         {
           "src": "/images/extras/may-2024/p71-10.webp",
           "width": 213,
-          "height": 214
+          "height": 206
         },
         {
           "src": "/images/extras/may-2024/p71-11.webp",
@@ -23841,43 +22132,43 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/may-2024/p70-9.webp",
-          "width": 542,
-          "height": 496
+          "width": 276,
+          "height": 278
         },
         {
           "src": "/images/extras/may-2024/p70-10.webp",
-          "width": 361,
-          "height": 341
+          "width": 264,
+          "height": 261
         },
         {
           "src": "/images/extras/may-2024/p70-11.webp",
           "width": 253,
-          "height": 347
+          "height": 255
         },
         {
           "src": "/images/extras/february-2024/p73-24.webp",
-          "width": 432,
-          "height": 379
+          "width": 147,
+          "height": 149
         },
         {
           "src": "/images/extras/may-2024/p70-12.webp",
-          "width": 432,
-          "height": 379
+          "width": 148,
+          "height": 149
         },
         {
           "src": "/images/extras/february-2024/p73-26.webp",
-          "width": 432,
-          "height": 374
+          "width": 155,
+          "height": 155
         },
         {
           "src": "/images/extras/february-2024/p73-27.webp",
-          "width": 432,
-          "height": 374
+          "width": 156,
+          "height": 155
         },
         {
           "src": "/images/extras/february-2024/p73-28.webp",
-          "width": 431,
-          "height": 329
+          "width": 156,
+          "height": 156
         }
       ]
     },
@@ -23951,7 +22242,6 @@ export const extras: Record<string, StoryExtra[]> = {
         "Muzammil Hussain,",
         "(Delhi to Kochi)",
         "Let us take your memories places!",
-        "Has the SpiceJet flight ‘flown’ your",
         "mind away? If yes, then email us photographs of your recent SpiceJet travel expedition and let us publish them! We cherish your happy moments",
         "with SpiceJet. Please share your flight",
         "details along with the photographs!",
@@ -24028,7 +22318,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         }
       ]
     },
@@ -24045,11 +22335,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "CADET",
         "PROGRAMME",
         "PIL",
-        "Join SpiceJet’s",
         "and become a Pilot.*",
         "ELIGIBILITY:",
         "Must be an Indian National or an Overseas Citizen of India (OCI)",
-        "Age: 17 to 35 years •",
         "Minimum height: 158 cm (approximately 5 feet 2 inches) •",
         "Must be fluent in English",
         "(both verbal and written)",
@@ -24109,12 +22397,12 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/may-2024/p74-8.webp",
           "width": 323,
-          "height": 294
+          "height": 266
         },
         {
           "src": "/images/extras/may-2024/p75-12.webp",
           "width": 323,
-          "height": 295
+          "height": 267
         }
       ]
     },
@@ -24233,93 +22521,93 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p78-1.webp",
-          "width": 300,
-          "height": 268
+          "width": 232,
+          "height": 243
         },
         {
           "src": "/images/extras/march-2024/p78-3.webp",
-          "width": 300,
-          "height": 268
+          "width": 232,
+          "height": 244
         },
         {
           "src": "/images/extras/march-2024/p78-5.webp",
-          "width": 300,
-          "height": 268
+          "width": 231,
+          "height": 243
         },
         {
           "src": "/images/extras/march-2024/p78-7.webp",
-          "width": 340,
-          "height": 356
+          "width": 257,
+          "height": 308
         },
         {
           "src": "/images/extras/march-2024/p78-8.webp",
-          "width": 190,
-          "height": 233
+          "width": 179,
+          "height": 213
         },
         {
           "src": "/images/extras/march-2024/p78-9.webp",
-          "width": 356,
-          "height": 340
+          "width": 239,
+          "height": 300
         },
         {
           "src": "/images/extras/march-2024/p78-10.webp",
-          "width": 197,
-          "height": 224
+          "width": 165,
+          "height": 209
         },
         {
           "src": "/images/extras/march-2024/p78-11.webp",
-          "width": 356,
-          "height": 340
+          "width": 238,
+          "height": 296
         },
         {
           "src": "/images/extras/march-2024/p78-12.webp",
-          "width": 200,
-          "height": 223
+          "width": 165,
+          "height": 204
         },
         {
           "src": "/images/extras/march-2024/p78-13.webp",
-          "width": 356,
-          "height": 352
+          "width": 252,
+          "height": 316
         },
         {
           "src": "/images/extras/march-2024/p78-14.webp",
-          "width": 199,
-          "height": 232
+          "width": 177,
+          "height": 221
         },
         {
           "src": "/images/extras/march-2024/p78-15.webp",
-          "width": 300,
-          "height": 332
+          "width": 204,
+          "height": 295
         },
         {
           "src": "/images/extras/march-2024/p78-17.webp",
-          "width": 236,
-          "height": 320
+          "width": 141,
+          "height": 286
         },
         {
           "src": "/images/extras/march-2024/p78-18.webp",
-          "width": 340,
-          "height": 252
+          "width": 261,
+          "height": 222
         },
         {
           "src": "/images/extras/march-2024/p78-20.webp",
-          "width": 280,
-          "height": 256
+          "width": 196,
+          "height": 221
         },
         {
           "src": "/images/extras/march-2024/p78-21.webp",
-          "width": 304,
-          "height": 268
+          "width": 232,
+          "height": 244
         },
         {
           "src": "/images/extras/march-2024/p78-23.webp",
-          "width": 412,
-          "height": 224
+          "width": 331,
+          "height": 193
         },
         {
           "src": "/images/extras/march-2024/p78-24.webp",
-          "width": 412,
-          "height": 228
+          "width": 334,
+          "height": 201
         }
       ]
     },
@@ -24541,73 +22829,73 @@ export const extras: Record<string, StoryExtra[]> = {
       "images": [
         {
           "src": "/images/extras/march-2024/p79-1.webp",
-          "width": 380,
-          "height": 384
+          "width": 302,
+          "height": 356
         },
         {
           "src": "/images/extras/march-2024/p79-2.webp",
-          "width": 217,
-          "height": 253
+          "width": 213,
+          "height": 251
         },
         {
           "src": "/images/extras/march-2024/p79-3.webp",
-          "width": 372,
-          "height": 400
+          "width": 286,
+          "height": 369
         },
         {
           "src": "/images/extras/march-2024/p79-4.webp",
-          "width": 205,
-          "height": 265
+          "width": 198,
+          "height": 260
         },
         {
           "src": "/images/extras/march-2024/p79-5.webp",
-          "width": 216,
-          "height": 360
+          "width": 126,
+          "height": 310
         },
         {
           "src": "/images/extras/february-2024/p81-7.webp",
-          "width": 196,
-          "height": 376
+          "width": 114,
+          "height": 348
         },
         {
           "src": "/images/extras/march-2024/p79-7.webp",
-          "width": 216,
-          "height": 372
+          "width": 126,
+          "height": 334
         },
         {
           "src": "/images/extras/march-2024/p79-8.webp",
-          "width": 260,
-          "height": 364
+          "width": 170,
+          "height": 325
         },
         {
           "src": "/images/extras/march-2024/p79-9.webp",
-          "width": 196,
-          "height": 316
+          "width": 127,
+          "height": 295
         },
         {
           "src": "/images/extras/march-2024/p79-10.webp",
-          "width": 232,
-          "height": 316
+          "width": 132,
+          "height": 278
         },
         {
           "src": "/images/extras/march-2024/p79-11.webp",
-          "width": 204,
-          "height": 324
+          "width": 103,
+          "height": 301
         },
         {
           "src": "/images/extras/march-2024/p79-12.webp",
-          "width": 200,
-          "height": 324
+          "width": 122,
+          "height": 301
         },
         {
           "src": "/images/extras/march-2024/p79-13.webp",
-          "width": 268,
-          "height": 284
+          "width": 203,
+          "height": 262
         },
         {
           "src": "/images/extras/march-2024/p79-14.webp",
-          "width": 212,
-          "height": 384
+          "width": 102,
+          "height": 340
         }
       ]
     },
@@ -24640,8 +22928,8 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/february-2024/p82-2.webp",
-          "width": 270,
-          "height": 270
+          "width": 254,
+          "height": 254
         }
       ]
     },
@@ -24655,10 +22943,9 @@ export const extras: Record<string, StoryExtra[]> = {
         "BOOK A PRIVATE CHARTER FOR DESTINATION WEDDING AND KEEP THOSE JOYFUL MOMENTS PRIVATE. FOR YOUR PRIVACY, COMFORT AND SAFETY, BOOK NOW.",
         "Q400 BEST SUITED FOR SMALL GROUP TRAVEL",
         "BOEING 737 BEST SUITED FOR A GROUP TRAVEL OF UP TO 200 PASSENGERS",
-        "T H E R E ’ S",
-        "C H A R T E R",
-        "F O R",
-        "E V E R Y O N E",
+        "CHARTER",
+        "FOR",
+        "EVERYONE",
         "For bookings:",
         "www.spicejet.com | charters@spicejet.com"
       ],
@@ -24675,11 +22962,6 @@ export const extras: Record<string, StoryExtra[]> = {
         },
         {
           "src": "/images/extras/march-2024/p83-3.webp",
-          "width": 300,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/march-2024/p83-4.webp",
           "width": 300,
           "height": 278
         },
@@ -24733,7 +23015,7 @@ export const extras: Record<string, StoryExtra[]> = {
       "paragraphs": [
         "Join SpiceClub & Earn Rewards From This Flight!",
         "Also claim points for flights flown in the past 6 months",
-        "SpiceClub BenefitsSpiceClub Benefits",
+        "SpiceClub Benefits",
         "https://spiceclub.spicejet.com/signup",
         "Flight Vouchers",
         "Earn SC Points",
@@ -24745,7 +23027,7 @@ export const extras: Record<string, StoryExtra[]> = {
         {
           "src": "/images/extras/february-2024/p84-1.webp",
           "width": 1200,
-          "height": 1559
+          "height": 1486
         }
       ]
     }

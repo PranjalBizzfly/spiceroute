@@ -31,7 +31,17 @@ export const MAX_SCALE = 1.5;
  * by working back from the last picture so the whole sequence is balanced
  * rather than only the first row.
  */
-export function plateRows<T extends Plate>(images: T[], target = ROW_TARGET, maxScale = MAX_SCALE): PlateRow<T>[] {
+export function plateRows<T extends Plate>(
+  images: T[],
+  target = ROW_TARGET,
+  maxScale = MAX_SCALE,
+  /**
+   * The least of a row's width any one picture may take. An upright picture
+   * set beside two landscape ones takes a sixth of the row and is drawn as a
+   * sliver; a row that would do that to a picture is not used at all.
+   */
+  minShare = 0
+): PlateRow<T>[] {
   const r = images.map((img) => img.width / img.height);
   const n = r.length;
   // best[i] = lowest cost of laying out images i..n-1; cut[i] = end of its first row
@@ -40,8 +50,11 @@ export function plateRows<T extends Plate>(images: T[], target = ROW_TARGET, max
   best[n] = 0;
   for (let i = n - 1; i >= 0; i--) {
     let sum = 0;
+    let narrowest = Infinity;
     for (let j = i; j < n; j++) {
       sum += r[j];
+      narrowest = Math.min(narrowest, r[j]);
+      if (j > i && narrowest / sum < minShare) break;
       const cost = (sum - target) ** 2 + best[j + 1];
       if (cost < best[i]) {
         best[i] = cost;

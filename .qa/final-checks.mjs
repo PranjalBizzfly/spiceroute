@@ -2,6 +2,7 @@
 // Loads the real data modules (transpiled with the project's TypeScript) and
 // checks every claim against the edition PDFs and the running production build.
 import fs from "node:fs/promises";
+import { NON_PDF_IMAGES } from "./non-pdf-images.mjs";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
 import { storyHref } from "./site-urls.mjs";
@@ -100,7 +101,10 @@ for (const s of stories) {
       try { await fs.access(`../public${s.heroImage}`); } catch { problems.push(`image file missing ${s.heroImage}`); }
     }
     if (!s.heroImageAlt) problems.push("no alt text");
-    if (!s.heroImageSource?.includes(ed?.title ?? "??")) problems.push(`image source "${s.heroImageSource}" not from its own edition`);
+    // pictures the user has chosen that are not cut from the edition PDF are
+    // listed in non-pdf-images.mjs, with the reason
+    if (!NON_PDF_IMAGES[s.slug] && !s.heroImageSource?.includes(ed?.title ?? "??"))
+      problems.push(`image source "${s.heroImageSource}" not from its own edition`);
   }
   check("story", problems.length === 0, `${s.slug}${problems.length ? " — " + problems.join("; ") : ""}`);
 }

@@ -1,88 +1,81 @@
 import Image from "next/image";
 import type { StoryExtra } from "@/types";
+import { toBlocks } from "@/lib/extras";
+import { MAX_SCALE, ROW_TARGET, plateRows } from "@/lib/plateRows";
 
-const isLink = (t: string) => /^(https?:\/\/|www\.)\S+$/i.test(t.trim());
-const isEmail = (t: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(t.trim());
-const isPhone = (t: string) => /^[+\d][\d\s()+-]{7,}$/.test(t.trim());
-/** A short line in capitals reads as a printed heading. */
-const isHeading = (t: string) => t.length <= 60 && t === t.toUpperCase() && /[A-Z]/.test(t);
-
-/** Printed lines that carry an address or a link become usable on the web. */
-function Line({ text }: { text: string }) {
-  const t = text.trim();
-  if (isLink(t)) {
-    const href = t.startsWith("http") ? t : `https://${t}`;
-    return (
-      <a className="ed-extra__link" href={href} target="_blank" rel="noopener noreferrer">
-        {t}
-      </a>
-    );
-  }
-  if (isEmail(t)) return <a className="ed-extra__link" href={`mailto:${t}`}>{t}</a>;
-  if (isPhone(t)) return <a className="ed-extra__link" href={`tel:${t.replace(/[^\d+]/g, "")}`}>{t}</a>;
-  return <>{t}</>;
-}
+/** No picture is set narrower than a sixth of its row: below that it is a sliver. */
+const MIN_SHARE = 1 / 6;
 
 /**
- * Everything else printed around this article in the edition — advertising,
- * 'In Focus' advertorials, SpiceJet service and menu pages, contents pages and
- * reader pages. Each keeps its printed text and pictures, labelled for what it
- * is, and opens in place, so the article above still reads as one story.
+ * The rest of the edition printed around this article — its features,
+ * advertising, SpiceJet's own pages and readers' pages — set as the magazine
+ * sets them, and set the same way every time: each page opens on its own
+ * heading, its printed text reads in one column in the article's own type, and
+ * its pictures run underneath in even rows, each row filling the column at one
+ * shared height. Nothing floats beside the text, so no page is left half
+ * empty and no page of pictures reads as a scattering.
  */
 export default function StoryExtras({ extras }: { extras: StoryExtra[] }) {
-  if (!extras.length) return null;
+  const blocks = toBlocks(extras);
+  if (!blocks.length) return null;
 
   return (
-    <section className="ed-extras" aria-labelledby="extras-title">
-      <h2 id="extras-title" className="ed-extras__head">
-        Also printed in this edition
-      </h2>
-      <p className="ed-extras__note">
-        The pages printed around this article — advertising, features and SpiceJet&apos;s own pages — with their printed text and
-        pictures.
-      </p>
+    <div className="ed-pages">
+      {blocks.map((block, i) => (
+        <section key={i} className="ed-pagefeat">
+          {block.title && <h2 className="ed-pagefeat__title">{block.title}</h2>}
 
-      {extras.map((x, i) => {
-        // the first line that reads as a title, for the closed row
-        const lead = x.paragraphs.find((p) => !isLink(p) && !isEmail(p) && !isPhone(p) && p.length > 2);
-        const rest = x.paragraphs.filter((p) => p !== lead);
-        return (
-          <details key={`${x.pdfPage}-${i}`} className={`ed-extra ed-extra--${x.kind}`} open={i === 0}>
-            <summary className="ed-extra__summary">
-              <span className="ed-extra__label">{x.label}</span>
-              {lead && <span className="ed-extra__peek">{lead}</span>}
-            </summary>
-
-            <div className="ed-extra__body">
-              {x.images.length > 0 && (
-                <div className="ed-extra__plates">
-                  {x.images.map((img) => (
-                    <a key={img.src} className="ed-extra__plate" href={img.src} target="_blank" rel="noopener noreferrer">
-                      <Image src={img.src} alt="" width={img.width} height={img.height} sizes="160px" loading="lazy" />
-                      <span className="visually-hidden">Open the printed picture</span>
-                    </a>
-                  ))}
-                </div>
-              )}
-
-              <div className="ed-extra__text">
-                {lead && <p className="ed-extra__lead">{lead}</p>}
-                {rest.map((p, n) =>
-                  isHeading(p) ? (
-                    <p key={n} className="ed-extra__sub">
-                      {p}
+          {block.pieces.length > 0 && (
+            <div className="ed-pagefeat__text">
+              {block.pieces.map((piece, n) => {
+                if (piece.kind === "heading")
+                  return (
+                    <h3 key={n} className="ed-pagefeat__sub">
+                      {piece.text}
+                    </h3>
+                  );
+                if (piece.kind === "link")
+                  return (
+                    <p key={n} className="ed-pagefeat__contact">
+                      <a href={piece.href} {...(piece.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+                        {piece.text}
+                      </a>
                     </p>
-                  ) : (
-                    <p key={n}>
-                      <Line text={p} />
-                    </p>
-                  )
-                )}
-              </div>
+                  );
+                return <p key={n}>{piece.text}</p>;
+              })}
             </div>
-          </details>
-        );
-      })}
-    </section>
+          )}
+
+          {block.images.length > 0 && (
+            <div className="ed-pagefeat__plates">
+              {plateRows(block.images, ROW_TARGET, MAX_SCALE, MIN_SHARE).map((row) => (
+                <div
+                  key={row.images[0].src}
+                  className="ed-pagefeat__row"
+                  style={{ ["--sum" as string]: row.sum.toFixed(4), ["--maxw" as string]: `${row.maxWidth}px` }}
+                >
+                  {row.images.map((img) => {
+                    const r = img.width / img.height;
+                    return (
+                      <figure key={img.src} className="ed-pagefeat__plate" style={{ ["--r" as string]: r.toFixed(4) }}>
+                        <Image
+                          src={img.src}
+                          alt=""
+                          width={img.width}
+                          height={img.height}
+                          sizes={`(max-width: 760px) ${Math.ceil((92 * r) / row.sum)}vw, ${Math.ceil((640 * r) / row.sum)}px`}
+                          loading="lazy"
+                        />
+                      </figure>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      ))}
+    </div>
   );
 }

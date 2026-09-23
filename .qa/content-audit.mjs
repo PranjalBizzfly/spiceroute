@@ -6,6 +6,7 @@ import fs from "node:fs/promises";
 import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
 import * as pdfjs from "pdfjs-dist/legacy/build/pdf.mjs";
+import { NON_PDF_IMAGES } from "./non-pdf-images.mjs";
 
 const require = createRequire(import.meta.url);
 const ts = require("../node_modules/typescript");
@@ -59,7 +60,7 @@ for (const s of stories) {
   if (!s.source.pdfPages.includes(s.source.imagePdfPage)) problems.push("image page not among article pages");
   // "PDF page 46", or "PDF pages 46–47" for a photograph across a spread
   // (pieces printed without a photograph, e.g. Predictions, have none)
-  if (s.heroImage) {
+  if (s.heroImage && !NON_PDF_IMAGES[s.slug]) {
     const heroPages = s.heroImageSource?.match(/PDF pages? (\d+)(?:–(\d+))?$/);
     if (!heroPages || Number(heroPages[1]) !== s.source.imagePdfPage) problems.push("heroImageSource page ≠ imagePdfPage");
     else if (heroPages[2] && !s.source.pdfPages.includes(Number(heroPages[2]))) problems.push("hero spread page not among article pages");
