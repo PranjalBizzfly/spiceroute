@@ -8,13 +8,21 @@
    ========================================================================== */
 
 .ed-news {
-  /* the reading column and the side rail fill the page between them, so the
-     article lines up with the header and footer above and below */
+  /* Three columns fill the page between them, so the article lines up with
+     the header and footer above and below. The side columns are set wide
+     enough to carry a headline and a photograph, and the reading column
+     keeps its measure: the text still sets the page. */
   --news-col: 41rem;
-  --news-rail: 19rem;
-  --news-left: 13rem;
+  --news-rail: 20rem;
+  --news-left: 14.5rem;
+  /* the share of the page each side column takes when all three are set */
+  --news-left-fr: 0.37fr;
+  --news-rail-fr: 0.52fr;
   --news-gap: clamp(1.75rem, 3vw, 2.75rem);
+  --news-colgap: clamp(1.5rem, 2.2vw, 2.25rem);
   --news-rule: 1px solid var(--border-subtle);
+  /* where a side column comes to rest under the masthead */
+  --news-stick: calc(var(--header-h, 72px) + 1.25rem);
 }
 
 /* --------------------------------------------------------------------------
@@ -276,22 +284,42 @@
   border-top: 3px solid var(--text-heading);
 }
 
-/* The rail */
-.ed-news__rail {
-  display: grid;
-  align-content: start;
-  gap: 1.5rem;
+/* --------------------------------------------------------------------------
+   The side columns
+   Each is a stack of ruled boxes. Beside the text the stack comes to rest
+   under the masthead and travels the whole length of the article, so neither
+   side of the page ever runs out under a long story; a stack taller than the
+   screen scrolls within itself. Stacked under the article on narrow screens
+   it simply reads on.
+   -------------------------------------------------------------------------- */
+.ed-news__rail,
+.ed-news__left {
   min-width: 0;
 }
 
-/* Contents appear in the rail only where the rail sits beside the text */
-.ed-news__box--contents {
+/* The left column reads beside the text or not at all: everything in it is
+   either navigation repeated below or, in the case of the contents and the
+   topics, already set in the reading column itself */
+.ed-news__left {
   display: none;
 }
 
-.ed-news__box {
+.ed-news__stack {
+  display: grid;
+  align-content: start;
+  gap: clamp(1.25rem, 2vw, 1.75rem);
+  min-width: 0;
+}
+
+.ed-news__box,
+.ed-news__leftbox {
   padding-top: 0.9rem;
   border-top: 3px solid var(--text-heading);
+}
+
+.ed-news__box + .ed-news__box,
+.ed-news__leftbox + .ed-news__leftbox {
+  padding-top: 1.1rem;
 }
 
 .ed-news__boxkicker {
@@ -306,7 +334,7 @@
 
 .ed-news__print {
   display: grid;
-  grid-template-columns: 5.25rem minmax(0, 1fr);
+  grid-template-columns: clamp(5.25rem, 38%, 6.75rem) minmax(0, 1fr);
   gap: 1rem;
   align-items: start;
 }
@@ -328,8 +356,10 @@
 .ed-news__vol {
   margin: -0.4rem 0 0.6rem;
   font-size: 0.78rem;
+  line-height: 1.45;
   color: var(--text-muted);
 }
+
 
 .ed-news__printtitle {
   margin-bottom: 0.25rem;
@@ -446,57 +476,106 @@
   transform: scale(1.06);
 }
 
+/* --------------------------------------------------------------------------
+   More in this section: further stories, photograph first, that are not
+   already set out at the foot of the page
+   -------------------------------------------------------------------------- */
+.ed-news__reads {
+  display: grid;
+  gap: 1.1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-news__read {
+  display: grid;
+  gap: 0.4rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-news__read:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.ed-news__readplate {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+}
+
+.ed-news__readplate img {
+  transition: transform var(--dur-slow, 0.4s) var(--ease-out, ease);
+}
+
+.ed-news__read:hover .ed-news__readplate img {
+  transform: scale(1.03);
+}
+
+.ed-news__readtitle {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.28;
+  color: var(--text-heading);
+  text-decoration: none;
+  text-wrap: pretty;
+  overflow-wrap: anywhere;
+}
+
+/* A single-line title is only ~20px tall, under the 24px minimum for a touch
+   target, so on touch widths the link keeps a little height of its own. The
+   padding is inside the link, so the text still sits on the list's grid. */
+@media (max-width: 1023px) {
+  .ed-news__readtitle {
+    display: block;
+    min-height: 24px;
+    padding-block: 0.15rem;
+  }
+}
+
+.ed-news__readtitle:hover {
+  color: var(--accent-text);
+}
+
+.ed-news__readmeta {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
 .ed-news__all {
   font-size: 0.8rem;
 }
 
-/* Wide screens: reading column beside a sticky rail */
-/* Laptops: the reading column and the side panel */
-@media (min-width: 1000px) {
+/* --------------------------------------------------------------------------
+   Tablets and small laptops: two columns — the article and the side column
+   -------------------------------------------------------------------------- */
+@media (min-width: 960px) {
   .ed-news__grid {
-    grid-template-columns: minmax(0, 1fr) minmax(0, var(--news-rail));
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.52fr);
+    column-gap: var(--news-colgap);
     justify-content: space-between;
-    align-items: start;
   }
 
-  .ed-news__left {
-    display: none;
-  }
-
-  /* The rail runs the article's full height; its last box (the story's
-     contents) stays in view while the reader moves through the text */
+  /* The column stretches the article's full height so its stack can travel */
   .ed-news__rail {
     align-self: stretch;
-    padding-bottom: 1rem;
   }
 
-  .ed-news__box--contents {
-    display: block;
+  .ed-news__rail .ed-news__stack {
     position: sticky;
-    top: calc(var(--header-h, 72px) + 1.5rem);
-    max-height: calc(100vh - var(--header-h, 72px) - 3rem);
+    top: var(--news-stick);
+    max-height: calc(100vh - var(--news-stick) - 1.5rem);
+    padding-bottom: 0.25rem;
     overflow-y: auto;
     scrollbar-width: thin;
-  }
-
-  /* the live contents list sits in the rail; the compact one steps aside */
-  .ed-news .ed-story__body > .ed-instory {
-    display: none;
-  }
-
-  .ed-news__box--contents .ed-instory {
-    margin: 0;
-  }
-
-  .ed-news__box--contents .ed-instory__compact {
-    display: none;
-  }
-
-  .ed-news__box--contents .ed-instory__rail {
-    display: block;
-    position: static;
-    max-height: none;
-    overflow: visible;
+    scrollbar-color: var(--border-subtle) transparent;
   }
 }
 
@@ -545,6 +624,7 @@
   .ed-header,
   footer:not(.ed-story__end),
   .ed-news__rail,
+  .ed-news__left,
   .ed-news__toolbar,
   .ed-pager,
   .ed-story__related,
@@ -716,6 +796,12 @@
   background-color: var(--bg-plate);
 }
 
+/* the photograph fills the 4:3 plate without being squashed; PlatePhoto's
+   own framed images (.ed-photo) keep their fit, so only the plain one */
+.ed-row2__thumb > img {
+  object-fit: cover;
+}
+
 .ed-row2__title {
   margin-bottom: 0.3rem;
   font-family: var(--font-serif);
@@ -772,26 +858,112 @@
 }
 
 /* ==========================================================================
-   Wide screens: three columns — other stories, the article, the print panel
+   Desktop: three columns — the reader's place in the story, the article,
+   the edition it was printed in
    ========================================================================== */
-@media (min-width: 1240px) {
+@media (min-width: 1180px) {
+  /* The side columns keep their proportion of the page at every width: a
+     narrow laptop narrows all three together rather than squeezing the two
+     sides to slivers against a full-width text column. Neither side goes
+     under its own minimum, and neither grows past its set width. */
   .ed-news__grid {
-    grid-template-columns: minmax(0, var(--news-left)) minmax(0, var(--news-col)) minmax(0, var(--news-rail));
-    column-gap: clamp(1.5rem, 2.4vw, 2.5rem);
+    grid-template-columns:
+      minmax(11rem, var(--news-left-fr)) minmax(0, 1fr) minmax(15rem, var(--news-rail-fr));
+    column-gap: var(--news-colgap);
     justify-content: space-between;
   }
 
   .ed-news__left {
     display: block;
     align-self: stretch;
+  }
+
+  .ed-news__left .ed-news__stack {
+    position: sticky;
+    top: var(--news-stick);
+    max-height: calc(100vh - var(--news-stick) - 1.5rem);
+    padding-right: clamp(0.85rem, 1.4vw, 1.35rem);
+    padding-bottom: 0.25rem;
     border-right: 1px solid var(--border-subtle);
-    padding-right: clamp(1rem, 1.6vw, 1.5rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-subtle) transparent;
+  }
+
+  /* The story's contents lead the left column, live as the reader moves
+     through the text; the compact list above the text steps aside */
+  .ed-news .ed-story__body > .ed-instory {
+    display: none;
+  }
+
+  .ed-news__leftbox--contents .ed-instory__compact {
+    display: none;
+  }
+
+  .ed-news__leftbox--contents .ed-instory__rail {
+    display: block;
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  /* Topics are read in the left column here, so the line under the article
+     is not set twice */
+  .ed-news .ed-story__tags--inline {
+    display: none;
+  }
+
+  /* A story with no left column of its own keeps two full columns rather
+     than an empty gutter */
+  .ed-news__grid:not(:has(> .ed-news__left)) {
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, var(--news-rail));
+  }
+
+  .ed-news__grid:not(:has(> .ed-news__rail)) {
+    grid-template-columns: minmax(11rem, var(--news-left)) minmax(0, 1fr);
   }
 }
 
-/* The left column: printed section, headline, one photograph at the top */
-.ed-news__left {
-  min-width: 0;
+/* --------------------------------------------------------------------------
+   The left column: the story's contents, its topics, then other stories —
+   each a printed section, a headline and, twice down the column, a photograph
+   -------------------------------------------------------------------------- */
+
+/* In its own box the contents list spans the box: the centring that keeps it
+   to the reading measure in the article would inset it from the column */
+.ed-news__leftbox--contents .ed-instory {
+  max-width: none;
+  margin: 0;
+}
+
+/* Contents lead the column, so they are ruled off rather than headed twice */
+.ed-news__leftbox--contents {
+  padding-top: 0;
+  border-top-width: 3px;
+}
+
+.ed-news__leftbox--contents .ed-instory__title {
+  margin-bottom: 0.85rem;
+}
+
+/* a long contents list keeps its place without crowding out what follows */
+.ed-news__leftbox--contents .ed-instory__list {
+  max-height: 42vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.ed-news__topiclist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-news__topiclist .badge {
+  font-size: 0.68rem;
 }
 
 .ed-briefs {
@@ -801,12 +973,17 @@
 }
 
 .ed-brief {
-  padding-block: 0.85rem;
+  padding-block: 0.8rem;
   border-bottom: 1px solid var(--border-subtle);
 }
 
 .ed-brief:first-child {
   padding-top: 0;
+}
+
+.ed-brief:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .ed-brief__section {
@@ -821,9 +998,11 @@
 
 .ed-brief__title {
   font-family: var(--font-serif);
-  font-size: 0.98rem;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.28;
+  text-wrap: pretty;
+  overflow-wrap: anywhere;
 }
 
 .ed-brief__title a {
@@ -837,7 +1016,7 @@
 
 .ed-brief__plate {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 5 / 4;
   margin-top: 0.6rem;
   overflow: hidden;
   border-radius: 2px;
@@ -848,6 +1027,168 @@
   margin-top: 0.3rem;
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+/* ==========================================================================
+   The rest of the edition, page by page
+   The pages printed around an article: features, advertising, SpiceJet's own
+   pages and readers' pages. They read on from the article in the article's
+   own type — a heading, a plate of pictures and one column of text — so the
+   page carries on rather than starting an appendix.
+   ========================================================================== */
+.ed-pages {
+  margin-top: clamp(3rem, 7vw, 4.5rem);
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* One printed page: heading, its text in one column, its pictures beneath.
+   One column throughout, so every page reads the same way down the article
+   and none is left with a half-empty side. */
+.ed-pagefeat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: clamp(1rem, 2.5vw, 1.4rem);
+  padding-block: clamp(2.25rem, 5vw, 3.25rem);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-pagefeat:last-child {
+  border-bottom: 0;
+}
+
+/* Heading: the page's own, in the article's own section-heading type, at the
+   same size — one set of rules for the whole reading column */
+.ed-pagefeat__title {
+  min-width: 0;
+  max-width: var(--article-col, 42rem);
+  overflow-wrap: anywhere;
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.6vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--text-heading);
+  text-wrap: balance;
+}
+
+/* Text: the article's own measure, size and rhythm */
+.ed-pagefeat__text {
+  min-width: 0;
+  max-width: var(--article-col, 42rem);
+  overflow-wrap: anywhere;
+  font-size: calc(var(--article-body) * var(--article-scale));
+  line-height: 1.75;
+  color: var(--text-body);
+}
+
+.ed-pagefeat__text > * + * {
+  margin-top: 0.9em;
+}
+
+/* A printed label within the page, set as the article sets its own labels */
+.ed-pagefeat__sub {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-family: var(--font-sans);
+  font-size: var(--step-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: var(--text-heading);
+}
+
+.ed-pagefeat__text > .ed-pagefeat__sub + * {
+  margin-top: 0.45em;
+}
+
+/* A subhead that follows a paragraph needs air above it, or the page runs on */
+.ed-pagefeat__text > * + .ed-pagefeat__sub {
+  margin-top: 1.6em;
+}
+
+/* Several printed labels one under the other — a list of services, a contents
+   page — read as a stack, not as separate paragraphs adrift on the page */
+.ed-pagefeat__text > .ed-pagefeat__sub + .ed-pagefeat__sub {
+  margin-top: 0.5em;
+}
+
+/* Telephone, e-mail and web lines, usable on the web */
+.ed-pagefeat__contact a {
+  color: var(--accent-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.ed-pagefeat__contact a:hover {
+  color: var(--text-heading);
+}
+
+/* Pictures: rows that fill the column, as the story's own photographs are set
+   (see .ed-gallery). Every picture in a row shares one height and keeps its
+   own proportions (--r = width / height), and a row is never drawn wider than
+   its pictures' own pixels allow (--maxw), so a small fragment stays small
+   rather than being blown up to fill the page. */
+.ed-pagefeat__plates {
+  display: flex;
+  flex-direction: column;
+  /* a row that its own pixels hold narrower than the column sits in the middle
+     of it, so the space left over falls evenly on both sides rather than
+     stranding the picture against the text edge */
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+.ed-pagefeat__row {
+  display: flex;
+  width: 100%;
+  gap: clamp(0.4rem, 1vw, 0.6rem);
+  max-width: min(calc(22rem * var(--sum)), var(--maxw, 100%), 100%);
+}
+
+.ed-pagefeat__row + .ed-pagefeat__row {
+  margin-top: clamp(0.4rem, 1vw, 0.6rem);
+}
+
+.ed-pagefeat__plate {
+  margin: 0;
+  flex: var(--r) 1 0;
+  min-width: 0;
+  aspect-ratio: var(--r);
+  overflow: hidden;
+  border-radius: var(--radius-plate, var(--radius-sm));
+  background-color: var(--bg-plate);
+}
+
+.ed-pagefeat__plate img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* On a narrow screen a row of four or five pictures would squeeze each one to
+   a thumbnail, so the row wraps instead: two pictures to a line, each at its
+   own proportions. */
+@media (max-width: 640px) {
+  .ed-pagefeat__row {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .ed-pagefeat__plate {
+    flex: 1 1 calc(50% - 0.6rem);
+  }
+}
+
+@media print {
+  .ed-pages {
+    display: none;
+  }
 }
 
 /* ==========================================================================

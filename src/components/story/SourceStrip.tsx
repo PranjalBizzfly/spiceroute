@@ -30,7 +30,7 @@ export default function SourceStrip({ variant, edition, pdfUrl, pdfPage }: Sourc
   const editionName = `${edition.month} ${edition.year}${edition.issue ? ` · Issue ${edition.issue}` : ""}`;
 
   return (
-    <section className={`ed-source ed-source--${variant}`} aria-label={variant === "open" ? "Print source" : "This story in print"}>
+    <section className={`ed-source ed-source--${variant}`} aria-label={variant === "open" ? "Source edition" : "This story's edition"}>
       {variant === "close" && (
         <Link href={editionHref} className="ed-source__cover" tabIndex={-1} aria-hidden="true">
           <Image src={edition.cover} alt="" fill sizes="96px" loading="lazy" />

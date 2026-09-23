@@ -89,7 +89,7 @@ export default function InflightMagazinePage() {
               <p className="ed-latest__meta">
                 {latest.issue ? `Volume ${latest.volume} · Issue ${latest.issue} · ` : ""}
                 {latestStories.length} web {latestStories.length === 1 ? "story" : "stories"}
-                {latest.pageCount ? ` · ${latest.pageCount} pages in print` : ""}
+
               </p>
               {latestStories.length > 0 && (
                 <ul className="ed-latest__stories">

@@ -9,15 +9,12 @@ interface ArticleBodyProps {
   pullQuotes?: string[];
   /** The story's printed photographs, page by page. */
   galleries?: GalleryGroup[];
-  /** Edition PDF, for each gallery's "page in print" link. */
-  pdfUrl?: string;
-  editionTitle?: string;
   /** Each printed subhead opens and closes its own text (reference pieces). */
   collapsible?: boolean;
 }
 
 /** Renders the printed article, block by block, in printed order. */
-export default function ArticleBody({ body, pullQuotes = [], galleries = [], pdfUrl = "", editionTitle = "", collapsible = false }: ArticleBodyProps) {
+export default function ArticleBody({ body, pullQuotes = [], galleries = [], collapsible = false }: ArticleBodyProps) {
   // Place each pull quote after an evenly spaced paragraph.
   const paragraphIdx = body.map((b, i) => (b.type === "p" ? i : -1)).filter((i) => i >= 0);
   const quoteAfter = new Map<number, string>();
@@ -41,7 +38,7 @@ export default function ArticleBody({ body, pullQuotes = [], galleries = [], pdf
   for (const g of galleries) {
     const page = Math.max(g.pdfPages[g.pdfPages.length - 1], firstPage);
     const at = body.findLastIndex((b) => b.page !== undefined && b.page <= page);
-    const el = <StoryGallery key={g.pdfPages.join("-")} group={g} start={start} pdfUrl={pdfUrl} editionTitle={editionTitle} />;
+    const el = <StoryGallery key={g.pdfPages.join("-")} group={g} start={start} />;
     start += g.images.length;
     if (at < 0) trailing.push(el);
     else galleryAfter.set(at, [...(galleryAfter.get(at) ?? []), el]);

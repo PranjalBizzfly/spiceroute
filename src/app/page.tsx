@@ -270,7 +270,7 @@ export default function HomePage() {
               </Link>
               <p className="ed-now__facts">
                 {latestEdition.issue ? `Volume ${latestEdition.volume} · Issue ${latestEdition.issue}` : latestEdition.title}
-                {latestEdition.pageCount ? ` · ${latestEdition.pageCount} pages in print` : ""}
+
               </p>
               <div className="ed-actions">
                 <Link href={latestHref} className="btn btn-primary">
@@ -447,7 +447,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 10. HOW TO READ — from the archive to the printed page */}
+      {/* 10. HOW TO READ — from the archive to the original edition */}
       <section className="ed-section ed-steps" aria-labelledby="steps-title">
         <div className="container">
           <SectionHead id="steps-title" kicker="Reading Spice Route" title="Every issue, two ways to read it" center />
@@ -466,7 +466,7 @@ export default function HomePage() {
               <p className="ed-step__num" aria-hidden="true">02</p>
               <h3 className="ed-step__title">Read it on the web</h3>
               <p className="ed-step__text">
-                {stories.length} stories from {onlineEditions} editions, set word for word as printed, with their photographs.
+                {stories.length} stories from {onlineEditions} editions, set word for word, with their photographs.
               </p>
               <Link href="/search" className="ed-more">
                 All stories <span className="ed-more__arrow" aria-hidden="true">&rarr;</span>
@@ -474,8 +474,8 @@ export default function HomePage() {
             </Reveal>
             <Reveal as="li" className="ed-step" delay={160}>
               <p className="ed-step__num" aria-hidden="true">03</p>
-              <h3 className="ed-step__title">Open the printed pages</h3>
-              <p className="ed-step__text">Every story links to its page in the original edition PDF.</p>
+              <h3 className="ed-step__title">Open the original edition</h3>
+              <p className="ed-step__text">Every story links to the original edition PDF.</p>
               <PdfButton pdfUrl={latestEdition.pdfUrl} title={latestEdition.title} className="ed-more">
                 {editionDate(latestEdition)} PDF <span className="ed-more__arrow" aria-hidden="true">↗</span>
               </PdfButton>

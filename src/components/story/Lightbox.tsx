@@ -4,6 +4,7 @@ import Image from "next/image";
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { PrintedCaption, StoryGalleryImage } from "@/types";
+import { captionLabel } from "@/lib/captions";
 
 /** A gallery photograph with the printed page and captions it belongs to. */
 export interface LightboxItem extends StoryGalleryImage {
@@ -142,7 +143,6 @@ function LightboxDialog({ items, index, setIndex, onClose, title }: DialogProps)
         </div>
         {item.captions.length > 0 && (
           <figcaption className="ed-lightbox__captions" onClick={(e) => e.stopPropagation()}>
-            <span className="ed-lightbox__captionhead">As printed</span>
             <PrintedCaptions captions={item.captions} />
           </figcaption>
         )}
@@ -185,7 +185,7 @@ export function PrintedCaptions({ captions }: { captions: PrintedCaption[] }) {
     <>
       {captions.map((c, i) => (
         <span key={i} className="ed-captions">
-          {c.label && <span className="ed-captions__label">{c.label}</span>}
+          {captionLabel(c.label) && <span className="ed-captions__label">{captionLabel(c.label)}</span>}
           {c.items.map((t, j) => (
             <span key={j} className="ed-captions__item">
               {t}

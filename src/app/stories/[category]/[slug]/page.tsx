@@ -36,6 +36,18 @@ export async function generateStaticParams() {
 /** A landscape lead photograph is shown up to this multiple of its own width. */
 const HERO_SCALE = 1.3;
 
+/** How many further stories in the same section the side column carries. */
+const RAIL_MORE = 3;
+
+/**
+ * How many other stories the left column lists. A story that also gives that
+ * column a contents list or its topics needs fewer of them, so the column
+ * still ends level with the text; one that gives it nothing else carries the
+ * longer list rather than leaving the column short.
+ */
+const BRIEFS_WITH_CONTENTS = 5;
+const BRIEFS_ALONE = 9;
+
 
 /**
  * Stories to read next, only from verified relationships: the rest of the same
@@ -51,11 +63,16 @@ function readNext(story: StoryEntry) {
   // related: this issue first, then the same printed section, then the same subject
   const related = [...issue.slice(0, 3), ...bySection, ...byCategory].slice(0, 6);
   const shown = new Set(related.map((s) => s.slug));
+  // the rest of the issue, in printed order, that is not already shown
+  const edition = issue.filter((s) => !shown.has(s.slug)).slice(0, 6);
+  // The side column's own reading list: the same printed section, then the
+  // same subject — never a story already set out at the foot of the page.
+  const below = new Set([...related, ...edition].map((s) => s.slug));
   return {
     related,
+    edition,
     sectionName: bySection.length ? story.section : categoryLabel(story.category),
-    // the rest of the issue, in printed order, that is not already shown
-    edition: issue.filter((s) => !shown.has(s.slug)).slice(0, 6),
+    railMore: [...bySection, ...byCategory].filter((s) => !below.has(s.slug)).slice(0, RAIL_MORE),
   };
 }
 
@@ -102,8 +119,13 @@ export default async function StoryPage({ params }: PageProps) {
   const edition = getEdition(story.editionSlug)!;
   const date = editionDate(edition);
   const next = readNext(story);
+  // the left column also carries the story's contents and its topics where
+  // the story has them; the list of other stories takes up the rest
+  const hasContents = story.sections.length >= 3;
+  const topics = story.tags ?? [];
+  const briefCount = hasContents || topics.length ? BRIEFS_WITH_CONTENTS : BRIEFS_ALONE;
   // the left column: other stories, newest issues first
-  const briefs = getStories().filter((s) => s.slug !== story.slug && s.images[0]).slice(0, 6);
+  const briefs = getStories().filter((s) => s.slug !== story.slug && s.images[0]).slice(0, briefCount);
   const image = story.images[0];
   // Shown at its own proportions — never cropped. Portrait photographs sit
   // beside the headline on wide screens; landscape ones run wide under it,
@@ -193,7 +215,11 @@ export default async function StoryPage({ params }: PageProps) {
 
 
           <div className="ed-news__grid">
-            <StorySideList stories={briefs} />
+            <StorySideList
+              stories={briefs}
+              sections={hasContents ? story.sections : undefined}
+              topics={topics}
+            />
             <div className="ed-news__main">
               <header className="ed-story__header ed-news__head">
                 {/* Printed section, then the printed place label where set */}
@@ -257,13 +283,11 @@ export default async function StoryPage({ params }: PageProps) {
               {hasBody && (
                 <LightboxProvider items={photos} title={displayTitle(story)}>
                   <div className="ed-story__body">
-                    {story.sections.length >= 3 && <InThisStory sections={story.sections} />}
+                    {hasContents && <InThisStory sections={story.sections} />}
                     <ArticleBody
                       body={story.body}
                       pullQuotes={story.pullQuotes}
                       galleries={story.galleryGroups}
-                      pdfUrl={edition.pdfUrl}
-                      editionTitle={edition.title}
                       collapsible={story.collapsible}
                     />
                   </div>
@@ -280,9 +304,9 @@ export default async function StoryPage({ params }: PageProps) {
 
               <StoryExtras extras={extras[story.slug] ?? []} />
 
-              {story.tags && story.tags.length > 0 && (
-                <ul className="ed-story__tags" aria-label="Topics">
-                  {story.tags.map((tag) => (
+              {topics.length > 0 && (
+                <ul className="ed-story__tags ed-story__tags--inline" aria-label="Topics">
+                  {topics.map((tag) => (
                     <li key={tag} className="badge badge-outline">{tag}</li>
                   ))}
                 </ul>
@@ -290,7 +314,13 @@ export default async function StoryPage({ params }: PageProps) {
 
             </div>
 
-            <StoryRail story={story} edition={edition} issue={getEditionStories(story.editionSlug)} />
+            <StoryRail
+              story={story}
+              edition={edition}
+              issue={getEditionStories(story.editionSlug)}
+              more={next.railMore}
+              moreTitle={next.sectionName}
+            />
           </div>
         </article>
 

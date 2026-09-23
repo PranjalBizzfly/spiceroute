@@ -50,7 +50,7 @@ export default function PlatePhoto({ src, alt, sizes, className, priority = fals
         loading={loading}
         fetchPriority={priority ? "high" : undefined}
         className={className}
-        style={{ objectPosition: focus }}
+        style={{ objectFit: "cover", objectPosition: focus }}
       />
     );
   }

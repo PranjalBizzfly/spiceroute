@@ -120,12 +120,6 @@ export default async function EditionPage({ params }: PageProps) {
                     <dd className="ed-fact__value ed-fact__value--gold">{edition.issue}</dd>
                   </div>
                 )}
-                {edition.pageCount && (
-                  <div className="ed-fact">
-                    <dt className="ed-fact__label">Pages in print</dt>
-                    <dd className="ed-fact__value">{edition.pageCount}</dd>
-                  </div>
-                )}
                 <div className="ed-fact">
                   <dt className="ed-fact__label">Web stories</dt>
                   <dd className="ed-fact__value">{stories.length}</dd>
@@ -142,7 +136,7 @@ export default async function EditionPage({ params }: PageProps) {
                 </li>
                 <li className="ed-access__item is-on">
                   <span className="ed-access__dot" aria-hidden="true" />
-                  Full edition available as PDF{edition.pageCount ? ` — ${edition.pageCount} pages` : ""}
+                  Full edition available as PDF
                 </li>
               </ul>
 
@@ -180,18 +174,13 @@ export default async function EditionPage({ params }: PageProps) {
           <div className="container">
             <Reveal>
               <div className="ed-pdfpanel">
-                {edition.pageCount && (
-                  <p className="ed-pdfpanel__pages">
-                    <span>{edition.pageCount}</span> pages in print
-                  </p>
-                )}
                 <div>
                   <p className="ed-kicker">Read this edition online</p>
-                  <h2 id="read-pdf-title" className="ed-pdfpanel__title">The complete {date} edition, as printed</h2>
+                  <h2 id="read-pdf-title" className="ed-pdfpanel__title">The complete {date} edition</h2>
                   <p className="ed-pdfpanel__text">
-                    Stories from this edition are not available as web articles. The full issue
-                    {edition.pageCount ? ` — all ${edition.pageCount} pages —` : ""} can be read in the original PDF,
-                    in the reader on this page or in a new tab.
+                    Stories from this edition are not available as web articles. The full
+                    issue can be read in the original PDF, in the reader on this page or in
+                    a new tab.
                   </p>
                   <div className="ed-actions">
                     <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} className="btn btn-primary">
@@ -220,7 +209,7 @@ export default async function EditionPage({ params }: PageProps) {
                     <p className="ed-kicker ed-kicker--red">{chapter(1)}{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
                     <h2 id="contents-title" className="ed-shead__title">In this issue</h2>
                     <p className="ed-shead__sub">
-                      Every story from this edition that can be read on the web, in printed order.
+                      Every story from this edition that can be read on the web, in issue order.
                     </p>
                   </div>
                 </div>
@@ -229,16 +218,16 @@ export default async function EditionPage({ params }: PageProps) {
             </div>
           </section>
 
-          {/* ===================== THE PRINT EDITION ===================== */}
+          {/* ===================== THE FULL EDITION ===================== */}
           <section className="ed-section ed-section--tight ed-section--rule" aria-labelledby="print-title">
             <div className="container">
               <div className="ed-pdfband">
                 <div>
-                  <p className="ed-kicker">{chapter(2)}The print edition</p>
-                  <h2 id="print-title" className="ed-pdfband__title">The complete print edition</h2>
+                  <p className="ed-kicker">{chapter(2)}The full edition</p>
+                  <h2 id="print-title" className="ed-pdfband__title">The complete edition</h2>
                   <p className="ed-pdfband__text">
-                    The original PDF has every page of the {date} issue
-                    {edition.pageCount ? ` (${edition.pageCount} pages)` : ""}, as printed for SpiceJet flights.
+                    The original PDF has the whole of the {date} issue, as it was
+                    published for SpiceJet flights.
                   </p>
                 </div>
                 <div className="ed-actions">

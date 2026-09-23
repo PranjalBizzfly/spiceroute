@@ -49,7 +49,7 @@ export const categories: Category[] = [
     id: "predictions",
     slug: "predictions",
     name: "Predictions",
-    description: "The monthly astrological predictions, sign by sign, as printed in each edition.",
+    description: "The monthly astrological predictions, sign by sign, from each edition.",
   },
   {
     // Printed section heading on page 4 of each edition
