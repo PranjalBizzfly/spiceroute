@@ -38,7 +38,7 @@ const probe = () => {
 
   // Text never touches the viewport edges (outside scroll rails)
   for (const el of document.querySelectorAll("main h1, main h2, main h3, main p, main li, footer p, footer a, header a")) {
-    if (!vis(el) || el.closest(".ed-editions, .ed-triptych, .ed-shelf__track, [hidden], .visually-hidden, .ed-lightbox")) continue;
+    if (!vis(el) || el.closest(".ed-editions, .ed-triptych, .ed-shelf__track, .ed-secnav__list, [hidden], .visually-hidden, .ed-lightbox")) continue;
     const r = el.getBoundingClientRect();
     if (r.width && (r.left < 10 || r.right > vw - 10)) out.push(`EDGE ${name(el)} "${el.textContent.trim().slice(0, 30)}" [${Math.round(r.left)}→${Math.round(r.right)}]`);
   }

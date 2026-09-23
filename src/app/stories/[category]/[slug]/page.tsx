@@ -11,6 +11,7 @@ import ReadingProgress from "@/components/story/ReadingProgress";
 import SourceStrip from "@/components/story/SourceStrip";
 import StoryRail from "@/components/story/StoryRail";
 import StorySideList from "@/components/story/StorySideList";
+import SectionNav from "@/components/SectionNav";
 import { MoreFromEdition, RelatedStories } from "@/components/story/StoryRelated";
 import ArticleTools from "@/components/story/ArticleTools";
 import PdfButton from "@/components/PdfButton";
@@ -159,7 +160,10 @@ export default async function StoryPage({ params }: PageProps) {
   };
 
   return (
-    <div className="ed-story ed-news">
+    <>
+      {/* section navigation: story pages only */}
+      <SectionNav />
+      <div className="ed-story ed-news">
       {story.body.length > 0 && <ReadingProgress target=".ed-story__body" />}
       <script
         type="application/ld+json"
@@ -314,6 +318,7 @@ export default async function StoryPage({ params }: PageProps) {
           <SourceStrip variant="close" {...source} />
         </footer>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

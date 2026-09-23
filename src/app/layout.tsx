@@ -16,7 +16,6 @@ import "./typography.css";
 import "./nav.css";
 import "./motion.css";
 import Header from "@/components/Header";
-import SectionNav from "@/components/SectionNav";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 import MotionProvider, { type StoryPreview } from "@/components/motion/MotionProvider";
@@ -122,7 +121,6 @@ export default function RootLayout({
           storyMenu={storyCategories().map((c) => ({ href: categoryHref(c.id), label: c.name }))}
           years={getEditionYears()}
         />
-        <SectionNav />
         <main id="main-content" style={{ flex: 1 }}>
           {children}
         </main>
