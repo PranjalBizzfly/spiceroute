@@ -8,9 +8,12 @@
    ========================================================================== */
 
 .ed-news {
-  --news-col: 42rem;
-  --news-rail: 20rem;
-  --news-gap: clamp(2rem, 4vw, 3.5rem);
+  /* the reading column and the side rail fill the page between them, so the
+     article lines up with the header and footer above and below */
+  --news-col: 41rem;
+  --news-rail: 19rem;
+  --news-left: 13rem;
+  --news-gap: clamp(1.75rem, 3vw, 2.75rem);
   --news-rule: 1px solid var(--border-subtle);
 }
 
@@ -18,8 +21,7 @@
    Header: section, headline, standfirst, meta line, actions
    -------------------------------------------------------------------------- */
 .ed-news__head {
-  max-width: 58rem;
-  margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
+  margin: 0 0 clamp(1.5rem, 3vw, 2rem);
   text-align: left;
 }
 
@@ -34,7 +36,7 @@
 }
 
 .ed-news .ed-story__standfirst {
-  max-width: 46rem;
+  max-width: none;
   margin: 0 0 1.5rem;
   font-style: normal;
   color: var(--text-secondary);
@@ -161,8 +163,8 @@
 .ed-news .ed-article,
 .ed-news .ed-article__callouts,
 .ed-news .ed-story__tags,
-.ed-news .ed-story__end {
-  max-width: var(--news-col);
+.ed-news .ed-story__body > .ed-instory {
+  max-width: none;
   margin-inline: 0;
 }
 
@@ -174,7 +176,6 @@
 }
 
 .ed-news .ed-story__body > .ed-instory {
-  max-width: var(--news-col);
   margin: 0 0 1.75rem;
 }
 
@@ -189,7 +190,7 @@
 /* Lead photograph: in the reading column, at its own proportions, and never
    wider than 1.3× its own pixels (--img-max, set by the page) */
 .ed-news__hero {
-  max-width: min(var(--news-col), var(--img-max, var(--news-col)));
+  max-width: min(100%, var(--img-max, 100%));
   margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
 }
 
@@ -199,8 +200,9 @@
 }
 
 /* Portrait photographs: never taller than most of the screen */
+/* Portrait photographs: the column width, but never past their own sharpness */
 .ed-news__hero--portrait {
-  max-width: min(var(--news-col), var(--img-max, var(--news-col)), 30rem);
+  max-width: min(100%, var(--img-max, 100%), 40rem);
 }
 
 .ed-news__hero figcaption {
@@ -267,11 +269,11 @@
   background-color: var(--bg-tint);
 }
 
-/* The story's end: its print source, ruled off from what follows */
+/* The story's end: the printed source, last on the page and ruled off */
 .ed-news .ed-story__end {
-  margin-top: clamp(2rem, 5vw, 3rem);
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--text-heading);
+  margin-top: clamp(2.5rem, 6vw, 3.5rem);
+  padding-top: 1.5rem;
+  border-top: 3px solid var(--text-heading);
 }
 
 /* The rail */
@@ -321,6 +323,12 @@
 
 .ed-news__printcover img {
   object-fit: cover;
+}
+
+.ed-news__vol {
+  margin: -0.4rem 0 0.6rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
 }
 
 .ed-news__printtitle {
@@ -443,10 +451,16 @@
 }
 
 /* Wide screens: reading column beside a sticky rail */
-@media (min-width: 1100px) {
+/* Laptops: the reading column and the side panel */
+@media (min-width: 1000px) {
   .ed-news__grid {
-    grid-template-columns: minmax(0, 1fr) var(--news-rail);
+    grid-template-columns: minmax(0, 1fr) minmax(0, var(--news-rail));
+    justify-content: space-between;
     align-items: start;
+  }
+
+  .ed-news__left {
+    display: none;
   }
 
   /* The rail runs the article's full height; its last box (the story's
@@ -563,4 +577,286 @@
   .ed-news figure {
     break-inside: avoid;
   }
+}
+
+/* ==========================================================================
+   End matter: related stories, more from this edition
+   Editorial lists, not cards: a photograph, its printed section, the
+   headline and where it was printed.
+   ========================================================================== */
+.ed-relmore {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+}
+
+.ed-relmore__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+}
+
+.ed-relmore__head {
+  margin-bottom: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 3px solid var(--text-heading);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-heading);
+}
+
+.ed-relmore__bar .ed-relmore__head {
+  flex: 1 1 auto;
+}
+
+.ed-relmore__bar .ed-more {
+  font-size: 0.8rem;
+}
+
+/* Related: photograph-led columns */
+.ed-relgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: clamp(1.5rem, 3vw, 2.25rem) clamp(1.25rem, 2.5vw, 2rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-rel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.ed-rel__plate {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+}
+
+.ed-rel__section,
+.ed-row2__section {
+  margin-bottom: 0.35rem;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-rel__title {
+  margin-bottom: 0.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.ed-rel__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+/* the whole item opens the story */
+.ed-rel__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-rel__title a:focus-visible {
+  outline: none;
+}
+
+.ed-rel__title a:focus-visible::after {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 4px;
+}
+
+.ed-rel:hover .ed-rel__title a {
+  color: var(--accent-text);
+}
+
+.ed-rel__meta,
+.ed-row2__page {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* More from this edition: rows */
+.ed-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-row2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-row2__thumb {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+}
+
+.ed-row2__title {
+  margin-bottom: 0.3rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.ed-row2__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-row2__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.ed-row2__title a:focus-visible {
+  outline: none;
+}
+
+.ed-row2__title a:focus-visible::after {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 2px;
+}
+
+.ed-row2:hover .ed-row2__title a {
+  color: var(--accent-text);
+}
+
+.ed-row2__dek {
+  max-width: 52ch;
+  font-family: var(--font-text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ed-row2__page {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media (max-width: 559px) {
+  .ed-row2 {
+    grid-template-columns: 5rem minmax(0, 1fr);
+    gap: 0.9rem;
+  }
+
+  .ed-row2__dek {
+    display: none;
+  }
+
+  .ed-row2__page {
+    grid-column: 2;
+    margin-top: 0.15rem;
+  }
+}
+
+/* ==========================================================================
+   Wide screens: three columns — other stories, the article, the print panel
+   ========================================================================== */
+@media (min-width: 1240px) {
+  .ed-news__grid {
+    grid-template-columns: minmax(0, var(--news-left)) minmax(0, var(--news-col)) minmax(0, var(--news-rail));
+    column-gap: clamp(1.5rem, 2.4vw, 2.5rem);
+    justify-content: space-between;
+  }
+
+  .ed-news__left {
+    display: block;
+    align-self: stretch;
+    border-right: 1px solid var(--border-subtle);
+    padding-right: clamp(1rem, 1.6vw, 1.5rem);
+  }
+}
+
+/* The left column: printed section, headline, one photograph at the top */
+.ed-news__left {
+  min-width: 0;
+}
+
+.ed-briefs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ed-brief {
+  padding-block: 0.85rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-brief:first-child {
+  padding-top: 0;
+}
+
+.ed-brief__section {
+  margin-bottom: 0.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.ed-brief__title {
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.ed-brief__title a {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.ed-brief__title a:hover {
+  color: var(--accent-text);
+}
+
+.ed-brief__plate {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  margin-top: 0.6rem;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--bg-plate);
+}
+
+.ed-brief__meta {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
 }

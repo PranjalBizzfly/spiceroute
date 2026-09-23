@@ -20,7 +20,7 @@ for (const [w, h] of [[1440, 900], [390, 844]]) {
     for (const p of PAGES) {
      for (let attempt = 0; attempt < 2; attempt++) {
      try {
-      await page.goto(BASE + p, { waitUntil: "networkidle" });
+      await page.goto(BASE + p, { waitUntil: "load" });
       await page.waitForTimeout(300);
       const top = await page.evaluate(() => {
         const armed = [...document.querySelectorAll('[data-motion="armed"]')];
@@ -47,7 +47,7 @@ for (const [w, h] of [[1440, 900], [390, 844]]) {
      }
     }
     // route entrance on client navigation
-    await page.goto(BASE + "/", { waitUntil: "networkidle" });
+    await page.goto(BASE + "/", { waitUntil: "load" });
     const link = page.locator('main a[href="/inflight-magazine"]:visible').first();
     await link.scrollIntoViewIfNeeded();
     await Promise.all([page.waitForURL(/\/inflight-magazine$/), link.click()]);

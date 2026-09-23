@@ -25,7 +25,7 @@ async function session(w, h) {
   });
   return { ctx, page, errors };
 }
-const go = (page, p) => page.goto(BASE + p, { waitUntil: "networkidle" });
+const go = async (page, p) => { await page.goto(BASE + p, { waitUntil: "load" }); await page.waitForTimeout(350); };
 const h1 = (page) => page.locator("h1").first().innerText();
 const path = (page) => new URL(page.url()).pathname + new URL(page.url()).hash;
 
@@ -41,12 +41,12 @@ async function follow(page, locator, { atPoint = false } = {}) {
     const box = await locator.boundingBox();
     await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
     await page.waitForURL((u) => u.href !== before, { timeout: 15000 });
-    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("load");
   } else {
     // wait for the address to change (client navigation can finish after
     // "networkidle"); links to the same page simply time out and carry on
     await Promise.all([page.waitForURL((u) => u.href !== before, { timeout: 8000 }).catch(() => {}), locator.click()]);
-    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("load");
   }
   await page.waitForTimeout(250);
   return [path(page), (await h1(page)).replace(/\s+/g, " ")];
@@ -256,7 +256,7 @@ for (const [w, h] of [[390, 844], [1440, 900]]) {
     ["previous story", '.ed-pager--story a[rel="prev"]', "/stories/culture-living/world-tourism-day-info-corner"],
     ["next story", '.ed-pager--story a[rel="next"]', "/stories/food-flavours/global-flavours-on-indian-plate"],
     ["see the whole edition", ".ed-story__end .ed-source__actions a[href='/inflight-magazine/september-2026']", "/inflight-magazine/september-2026"],
-    ["related story", ".ed-related .ed-card__link", null],
+    ["related story", ".ed-relgrid .ed-rel__title a", null],
   ]) {
     await go(page, art);
     const loc = page.locator(sel).first();

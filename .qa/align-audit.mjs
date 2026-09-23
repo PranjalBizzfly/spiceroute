@@ -92,7 +92,7 @@ for (const w of WIDTHS) {
   const ctx = await browser.newContext({ viewport: { width: w, height: 900 }, reducedMotion: "reduce" });
   const page = await ctx.newPage();
   for (const [key, path] of Object.entries(PAGES)) {
-    await page.goto(BASE + path, { waitUntil: "networkidle" });
+    await page.goto(BASE + path, { waitUntil: "load" });
     const res = await page.evaluate(probe);
     const bad = res.filter((r) => !r.startsWith("info"));
     problems += bad.length;

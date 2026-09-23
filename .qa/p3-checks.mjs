@@ -66,7 +66,9 @@ for (const [i, e] of chrono.entries()) {
   const own = stories.filter((s) => s.editionSlug === e.slug);
   // story pages only (/stories/<category>/<story>), not the category pages
   // (/stories/<category>) that the header menu links to
-  const links = [...new Set([...body.matchAll(/href="(\/stories\/[^"/]+\/[^"/?#]+)"/g)].map((m) => m[1]))];
+  // the page's own links: the section navigation lists stories on every page
+  const main = (body.match(/<main[\s\S]*?<\/main>/) || [body])[0];
+  const links = [...new Set([...main.matchAll(/href="(\/stories\/[^"/]+\/[^"/?#]+)"/g)].map((m) => m[1]))];
   const expected = own.map((s) => storyHref(s));
   const missing = expected.filter((x) => !links.includes(x));
   const foreign = links.filter((x) => !expected.includes(x));

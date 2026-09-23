@@ -123,7 +123,9 @@ check("restored", wScore > 0.98, `Welcome Aboard body matches PDF verbatim: ${(w
 // ---------- Homepage discovery: every story exactly once ----------
 const home = await (await fetch(BASE + "/")).text();
 const stripScripts = (h) => h.replace(/<script[\s\S]*?<\/script>/g, "");
-const bodyOnly = stripScripts(home); // real links only, not the RSC payload
+// a page's own content: the section navigation lists stories on every page
+const mainOnly = (h) => (h.match(/<main[\s\S]*?<\/main>/) || [h])[0];
+const bodyOnly = mainOnly(stripScripts(home)); // real links only, not the RSC payload or the nav
 // The homepage shows a capped selection; every story must be reachable from
 // its own edition page and never linked twice on the homepage
 const edPages = {};
@@ -131,7 +133,7 @@ for (const s of stories) {
   const href = `href="${storyHref(s)}"`;
   // the latest issue's contents index (IssueIndex) lists its stories again by design
   const n = bodyOnly.split(href).slice(0, -1).filter((before) => !/class="ed-issueindex__title"[^<]*<a[^>]*$|class="ed-issueindex__title"[^>]*$/.test(before.slice(-400))).length;
-  edPages[s.editionSlug] ??= stripScripts(await (await fetch(`${BASE}/inflight-magazine/${s.editionSlug}`)).text());
+  edPages[s.editionSlug] ??= mainOnly(stripScripts(await (await fetch(`${BASE}/inflight-magazine/${s.editionSlug}`)).text()));
   const onEdition = edPages[s.editionSlug].includes(href);
   check("homepage", n <= 1 && onEdition, `${s.slug} homepage ${n}x, edition page ${onEdition ? "yes" : "NO"}`);
 }

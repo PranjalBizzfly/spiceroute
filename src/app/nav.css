@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Spice Route — Section navigation
+   A newspaper section bar under the masthead: every subject, then a strip of
+   what is in the current issue. Both scroll sideways on narrow screens, so
+   the page itself never scrolls sideways.
+   ========================================================================== */
+.ed-secnav {
+  position: relative;
+  z-index: 40;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.ed-secnav__inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ed-secnav__list {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.85rem, 1.6vw, 1.6rem);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+.ed-secnav__list::-webkit-scrollbar {
+  display: none;
+}
+
+.ed-secnav__link,
+.ed-secnav__topic {
+  display: inline-block;
+  padding-block: 0.7rem;
+  white-space: nowrap;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.ed-secnav__link:hover,
+.ed-secnav__topic:hover {
+  color: var(--accent-text);
+  border-bottom-color: var(--accent);
+}
+
+.ed-secnav__link:focus-visible,
+.ed-secnav__topic:focus-visible,
+.ed-secnav__label a:focus-visible {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: -2px;
+}
+
+.ed-secnav__link--all {
+  font-weight: 800;
+}
+
+/* The second strip: what is in the current issue */
+.ed-secnav__strip {
+  background-color: var(--bg-tint);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.ed-secnav__label {
+  flex: none;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ed-secnav__label a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+.ed-secnav__label a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.ed-secnav__topic {
+  padding-block: 0.55rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Phones: the section bar alone, so the masthead area stays compact */
+@media (max-width: 767px) {
+  .ed-secnav__strip {
+    display: none;
+  }
+
+  .ed-secnav__link {
+    font-size: 0.8rem;
+    padding-block: 0.6rem;
+  }
+}
+
+@media print {
+  .ed-secnav {
+    display: none;
+  }
+}

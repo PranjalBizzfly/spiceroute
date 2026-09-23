@@ -3,13 +3,15 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import ArticleBody from "@/components/ArticleBody";
-import StoryCard, { categoryLabel } from "@/components/StoryCard";
+import { categoryLabel } from "@/components/StoryCard";
 import StoryPager from "@/components/edition/StoryPager";
 import InThisStory from "@/components/story/InThisStory";
 import LightboxProvider, { type LightboxItem } from "@/components/story/Lightbox";
 import ReadingProgress from "@/components/story/ReadingProgress";
 import SourceStrip from "@/components/story/SourceStrip";
 import StoryRail from "@/components/story/StoryRail";
+import StorySideList from "@/components/story/StorySideList";
+import { MoreFromEdition, RelatedStories } from "@/components/story/StoryRelated";
 import ArticleTools from "@/components/story/ArticleTools";
 import PdfButton from "@/components/PdfButton";
 import { editionDate, getEdition, getEditionStories, getStories, getStoryByPath } from "@/lib/content";
@@ -39,12 +41,19 @@ const HERO_SCALE = 1.3;
  */
 function readNext(story: StoryEntry) {
   const skip = new Set([story.slug, story.previousStory?.slug, story.nextStory?.slug]);
-  const issue = getEditionStories(story.editionSlug).filter((s) => !skip.has(s.slug)).slice(0, 3);
-  issue.forEach((s) => skip.add(s.slug));
+  const issue = getEditionStories(story.editionSlug).filter((s) => !skip.has(s.slug));
   const others = getStories().filter((s) => !skip.has(s.slug) && s.editionSlug !== story.editionSlug);
   const bySection = others.filter((s) => s.section === story.section);
-  const section = (bySection.length ? bySection : others.filter((s) => s.category === story.category)).slice(0, 3);
-  return { issue, section, sectionName: bySection.length ? story.section : categoryLabel(story.category) };
+  const byCategory = others.filter((s) => s.category === story.category && s.section !== story.section);
+  // related: this issue first, then the same printed section, then the same subject
+  const related = [...issue.slice(0, 3), ...bySection, ...byCategory].slice(0, 6);
+  const shown = new Set(related.map((s) => s.slug));
+  return {
+    related,
+    sectionName: bySection.length ? story.section : categoryLabel(story.category),
+    // the rest of the issue, in printed order, that is not already shown
+    edition: issue.filter((s) => !shown.has(s.slug)).slice(0, 6),
+  };
 }
 
 /** Display headline: printed headline, with the printed place label where set. */
@@ -90,6 +99,8 @@ export default async function StoryPage({ params }: PageProps) {
   const edition = getEdition(story.editionSlug)!;
   const date = editionDate(edition);
   const next = readNext(story);
+  // the left column: other stories, newest issues first
+  const briefs = getStories().filter((s) => s.slug !== story.slug && s.images[0]).slice(0, 6);
   const image = story.images[0];
   // Shown at its own proportions — never cropped. Portrait photographs sit
   // beside the headline on wide screens; landscape ones run wide under it,
@@ -173,50 +184,52 @@ export default async function StoryPage({ params }: PageProps) {
           {/* Newspaper header: section, headline, standfirst, then a ruled
               meta line (byline · issue · printed pages · reading time) with
               the story's actions */}
-          <header className="ed-story__header ed-news__head">
-            {/* Printed section, then the printed place label where set */}
-            <p className="ed-story__rubric">
-              <span className="ed-kicker ed-story__section">{story.section}</span>
-              {story.label && <span className="ed-article__label">{story.label}</span>}
-            </p>
-            <h1 className="ed-story__title">{story.printedTitle}</h1>
-            {story.standfirst && <p className="ed-story__standfirst">{story.standfirst}</p>}
 
-            <div className="ed-news__meta">
-              <p className="ed-news__facts">
-                {story.author && (
-                  <span className="ed-news__byline">
-                    {story.bylineLabel ?? "By"}&nbsp;<strong>{story.author}</strong>
-                    {story.role && <span>, {story.role}</span>}
-                  </span>
-                )}
-                <span>
-                  <Link href={`/inflight-magazine/${edition.slug}`}>
-                    {date}
-                    {edition.issue ? ` · Issue ${edition.issue}` : ""}
-                  </Link>
-                </span>
-                {story.printedPages[0] !== undefined && (
-                  <span>
-                    Printed {story.printedPages.length > 1 ? "pages" : "page"}{" "}
-                    {story.printedPages.length > 1
-                      ? `${story.printedPages[0]}–${story.printedPages[story.printedPages.length - 1]}`
-                      : story.printedPages[0]}
-                  </span>
-                )}
-                <span>{story.readingTime}</span>
-              </p>
-              <div className="ed-news__toolbar">
-                <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="ed-news__action ed-news__action--pdf">
-                  View Original PDF <span aria-hidden="true">↗</span>
-                </PdfButton>
-                <ArticleTools title={displayTitle(story)} path={story.href} />
-              </div>
-            </div>
-          </header>
 
           <div className="ed-news__grid">
+            <StorySideList stories={briefs} />
             <div className="ed-news__main">
+              <header className="ed-story__header ed-news__head">
+                {/* Printed section, then the printed place label where set */}
+                <p className="ed-story__rubric">
+                  <span className="ed-kicker ed-story__section">{story.section}</span>
+                  {story.label && <span className="ed-article__label">{story.label}</span>}
+                </p>
+                <h1 className="ed-story__title">{story.printedTitle}</h1>
+                {story.standfirst && <p className="ed-story__standfirst">{story.standfirst}</p>}
+
+                <div className="ed-news__meta">
+                  <p className="ed-news__facts">
+                    {story.author && (
+                      <span className="ed-news__byline">
+                        {story.bylineLabel ?? "By"}&nbsp;<strong>{story.author}</strong>
+                        {story.role && <span>, {story.role}</span>}
+                      </span>
+                    )}
+                    <span>
+                      <Link href={`/inflight-magazine/${edition.slug}`}>
+                        {date}
+                        {edition.issue ? ` · Issue ${edition.issue}` : ""}
+                      </Link>
+                    </span>
+                    {story.printedPages[0] !== undefined && (
+                      <span>
+                        Printed {story.printedPages.length > 1 ? "pages" : "page"}{" "}
+                        {story.printedPages.length > 1
+                          ? `${story.printedPages[0]}–${story.printedPages[story.printedPages.length - 1]}`
+                          : story.printedPages[0]}
+                      </span>
+                    )}
+                    <span>{story.readingTime}</span>
+                  </p>
+                  <div className="ed-news__toolbar">
+                    <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="ed-news__action ed-news__action--pdf">
+                      View Original PDF <span aria-hidden="true">↗</span>
+                    </PdfButton>
+                    <ArticleTools title={displayTitle(story)} path={story.href} />
+                  </div>
+                </div>
+              </header>
               {image && (
                 <figure
                   className={`ed-article__figure ed-news__hero${portrait ? " ed-news__hero--portrait" : ""}`}
@@ -279,53 +292,27 @@ export default async function StoryPage({ params }: PageProps) {
                 </ul>
               )}
 
-              {/* The end of the story: its print source, one step away */}
-              <footer className="ed-story__end">
-                <SourceStrip variant="close" {...source} />
-              </footer>
             </div>
 
             <StoryRail story={story} edition={edition} issue={getEditionStories(story.editionSlug)} />
           </div>
         </article>
 
+        <RelatedStories stories={next.related} title={`Related stories${next.sectionName ? ` · ${next.sectionName}` : ""}`} />
+
+        <MoreFromEdition
+          stories={next.edition}
+          editionHref={`/inflight-magazine/${edition.slug}`}
+          editionName={date}
+          total={edition.storyIds.length}
+        />
+
         <StoryPager previous={story.previousStory} next={story.nextStory} edition={story.edition} />
 
-        {next.issue.length > 0 && (
-          <section className="ed-story__related" aria-labelledby="issue-more-title">
-            <div className="ed-shead">
-              <div className="ed-shead__main">
-                <p className="ed-kicker">{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
-                <h2 id="issue-more-title" className="ed-shead__title">More from this issue</h2>
-              </div>
-              <Link href={`/inflight-magazine/${edition.slug}#in-this-issue`} className="ed-more">
-                All {edition.storyIds.length} stories in this issue
-                <span className="ed-more__arrow" aria-hidden="true">&rarr;</span>
-              </Link>
-            </div>
-            <div className="ed-row ed-row--3 ed-related">
-              {next.issue.map((s) => (
-                <StoryCard key={s.slug} story={s} variant="standard" sizes="(max-width: 619px) 92vw, (max-width: 979px) 46vw, 390px" />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {next.section.length > 0 && (
-          <section className="ed-story__related ed-story__related--more" aria-labelledby="section-more-title">
-            <div className="ed-shead">
-              <div className="ed-shead__main">
-                <p className="ed-kicker">From other issues</p>
-                <h2 id="section-more-title" className="ed-shead__title">More {next.sectionName}</h2>
-              </div>
-            </div>
-            <div className="ed-row ed-row--3 ed-related">
-              {next.section.map((s) => (
-                <StoryCard key={s.slug} story={s} variant="standard" showEdition sizes="(max-width: 619px) 92vw, (max-width: 979px) 46vw, 390px" />
-              ))}
-            </div>
-          </section>
-        )}
+        {/* The printed source, last: the whole edition as it was printed */}
+        <footer className="ed-story__end">
+          <SourceStrip variant="close" {...source} />
+        </footer>
       </div>
     </div>
   );

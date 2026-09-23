@@ -35,6 +35,12 @@ export default function StoryRail({ story, edition, issue }: StoryRailProps) {
           <p className="ed-news__boxkicker" id="rail-print-title">
             In print
           </p>
+          {edition.volume !== undefined && (
+            <p className="ed-news__vol">
+              Volume {edition.volume}
+              {edition.pageCount ? ` · ${edition.pageCount} pages in print` : ""}
+            </p>
+          )}
           {/* the print source: edition, printed pages and the original PDF at this story */}
           <SourceStrip
             variant="open"
