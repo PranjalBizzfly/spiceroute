@@ -685,8 +685,7 @@
   color: var(--accent-text);
 }
 
-.ed-rel__meta,
-.ed-row2__page {
+.ed-rel__meta {
   font-size: 0.78rem;
   color: var(--text-muted);
 }
@@ -702,7 +701,7 @@
 .ed-row2 {
   position: relative;
   display: grid;
-  grid-template-columns: 7.5rem minmax(0, 1fr) auto;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
   gap: 1.25rem;
   align-items: center;
   padding-block: 1rem;
@@ -761,11 +760,6 @@
   overflow: hidden;
 }
 
-.ed-row2__page {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
 @media (max-width: 559px) {
   .ed-row2 {
     grid-template-columns: 5rem minmax(0, 1fr);
@@ -774,11 +768,6 @@
 
   .ed-row2__dek {
     display: none;
-  }
-
-  .ed-row2__page {
-    grid-column: 2;
-    margin-top: 0.15rem;
   }
 }
 
@@ -859,4 +848,209 @@
   margin-top: 0.3rem;
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+/* ==========================================================================
+   Also printed in this edition
+   The pages printed around an article — advertising, 'In Focus' advertorials,
+   SpiceJet service and menu pages, contents and reader pages. Set apart from
+   the article: a tinted panel, a label for what each one is, and its printed
+   page. Each opens in place, so the article above reads as one story.
+   ========================================================================== */
+.ed-extras {
+  margin-top: clamp(2.5rem, 6vw, 3.5rem);
+  padding-top: 1.25rem;
+  border-top: 3px solid var(--text-heading);
+}
+
+.ed-extras__head {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-heading);
+}
+
+.ed-extras__note {
+  margin: 0.5rem 0 1.25rem;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.ed-extra {
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-tint);
+}
+
+.ed-extra__summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.75rem;
+  padding: 0.75rem 0.9rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ed-extra__summary::-webkit-details-marker {
+  display: none;
+}
+
+.ed-extra__summary::after {
+  content: "+";
+  margin-left: auto;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.ed-extra[open] > .ed-extra__summary::after {
+  content: "–";
+}
+
+.ed-extra__summary:focus-visible {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: -2px;
+}
+
+.ed-extra__label {
+  flex: none;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  background-color: var(--text-heading);
+  color: var(--bg-primary);
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.ed-extra--advert .ed-extra__label,
+.ed-extra--advertorial .ed-extra__label {
+  background-color: var(--text-muted);
+}
+
+.ed-extra--spicejet .ed-extra__label {
+  background-color: var(--accent-fill, var(--accent));
+  color: var(--on-accent, #ffffff);
+}
+
+.ed-extra__page {
+  flex: none;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.ed-extra__peek {
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ed-extra__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 0.25rem 0.9rem 1.1rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+/* Pictures: compact plates that wrap, each shown whole on its own ground */
+.ed-extra__plates {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: 0.85rem;
+  margin: 0;
+}
+
+.ed-extra__plate {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  border-radius: 2px;
+  background-color: var(--bg-card);
+  transition: border-color 0.25s ease, transform 0.3s var(--motion-ease, ease);
+}
+
+.ed-extra__plate:hover {
+  border-color: var(--text-heading);
+  transform: translateY(-2px);
+}
+
+.ed-extra__plate:focus-visible {
+  outline: 2px solid var(--focus-ring, currentColor);
+  outline-offset: 2px;
+}
+
+/* the plate is filled; the whole printed picture opens on click */
+.ed-extra__plate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text: one column, at the article's measure */
+.ed-extra__text {
+  max-width: 40rem;
+  font-family: var(--font-text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-body);
+}
+
+.ed-extra__text > p {
+  margin-bottom: 0.55rem;
+}
+
+.ed-extra__lead {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-heading);
+}
+
+.ed-extra__sub {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-heading);
+}
+
+.ed-extra__link {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+/* The pictures follow the text, so no column is left half empty */
+.ed-extra__plates {
+  order: 2;
+}
+
+.ed-extra__text {
+  order: 1;
+}
+
+@media print {
+  .ed-extras {
+    display: none;
+  }
 }

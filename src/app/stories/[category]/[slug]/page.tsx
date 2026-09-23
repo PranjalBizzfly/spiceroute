@@ -11,6 +11,8 @@ import ReadingProgress from "@/components/story/ReadingProgress";
 import SourceStrip from "@/components/story/SourceStrip";
 import StoryRail from "@/components/story/StoryRail";
 import StorySideList from "@/components/story/StorySideList";
+import StoryExtras from "@/components/story/StoryExtras";
+import { extras } from "@/data/extras";
 import SectionNav from "@/components/SectionNav";
 import { MoreFromEdition, RelatedStories } from "@/components/story/StoryRelated";
 import ArticleTools from "@/components/story/ArticleTools";
@@ -186,7 +188,7 @@ export default async function StoryPage({ params }: PageProps) {
 
         <article className="ed-story__article">
           {/* Newspaper header: section, headline, standfirst, then a ruled
-              meta line (byline · issue · printed pages · reading time) with
+              meta line (byline · issue · reading time) with
               the story's actions */}
 
 
@@ -216,14 +218,6 @@ export default async function StoryPage({ params }: PageProps) {
                         {edition.issue ? ` · Issue ${edition.issue}` : ""}
                       </Link>
                     </span>
-                    {story.printedPages[0] !== undefined && (
-                      <span>
-                        Printed {story.printedPages.length > 1 ? "pages" : "page"}{" "}
-                        {story.printedPages.length > 1
-                          ? `${story.printedPages[0]}–${story.printedPages[story.printedPages.length - 1]}`
-                          : story.printedPages[0]}
-                      </span>
-                    )}
                     <span>{story.readingTime}</span>
                   </p>
                   <div className="ed-news__toolbar">
@@ -255,11 +249,7 @@ export default async function StoryPage({ params }: PageProps) {
                   </div>
                   <figcaption>
                     {heroCaption && <span>{heroCaption}</span>}
-                    {story.printedPages[0] !== undefined && (
-                      <span className="ed-news__credit">
-                        Spice Route, {date} · page {story.printedPages[0]}
-                      </span>
-                    )}
+                    <span className="ed-news__credit">Spice Route, {date}</span>
                   </figcaption>
                 </figure>
               )}
@@ -287,6 +277,8 @@ export default async function StoryPage({ params }: PageProps) {
                   ))}
                 </aside>
               )}
+
+              <StoryExtras extras={extras[story.slug] ?? []} />
 
               {story.tags && story.tags.length > 0 && (
                 <ul className="ed-story__tags" aria-label="Topics">

@@ -41,13 +41,12 @@ export default function StoryRail({ story, edition, issue }: StoryRailProps) {
               {edition.pageCount ? ` · ${edition.pageCount} pages in print` : ""}
             </p>
           )}
-          {/* the print source: edition, printed pages and the original PDF at this story */}
+          {/* the print source: the edition and the original PDF at this story */}
           <SourceStrip
             variant="open"
             edition={{ ...story.edition, issue: edition.issue }}
             pdfUrl={edition.pdfUrl}
             pdfPage={story.pdfPages[0]}
-            printedPages={story.printedPages}
           />
         </div>
       </section>

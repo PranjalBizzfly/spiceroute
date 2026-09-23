@@ -221,3 +221,21 @@ export interface PartnerBrand {
   logo: string;
   description?: string;
 }
+
+/**
+ * A printed page of an edition that is not an article's own text —
+ * advertising, an 'In Focus' advertorial, a SpiceJet service or menu page, a
+ * contents or cover page, a reader page. Kept with the article it is printed
+ * nearest to. Text is exactly as printed, in printed order.
+ */
+export interface StoryExtra {
+  kind: "advert" | "advertorial" | "spicejet" | "masthead" | "readers" | "page";
+  /** Shown above it on the web, e.g. "Advertisement" or "In Focus". */
+  label: string;
+  pdfPage: number;
+  /** The page number as printed, where the edition prints one. */
+  printedPage?: number;
+  /** Printed text blocks, in printed reading order. */
+  paragraphs: string[];
+  images: { src: string; width: number; height: number }[];
+}

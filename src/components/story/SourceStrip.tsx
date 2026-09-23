@@ -9,8 +9,6 @@ interface SourceStripProps {
   pdfUrl: string;
   /** PDF page the story starts on — the reader opens there. */
   pdfPage?: number;
-  /** Printed page numbers, as printed in the edition. */
-  printedPages: number[];
 }
 
 function PdfIcon() {
@@ -23,14 +21,11 @@ function PdfIcon() {
 }
 
 /**
- * Where the story is printed: its edition, its printed pages and the original
+ * Where the story is printed: its edition and the original
  * PDF, opened at the story's first page. Set at the top and at the end of
  * every article, so the print source is always one step away.
  */
-export default function SourceStrip({ variant, edition, pdfUrl, pdfPage, printedPages }: SourceStripProps) {
-  const first = printedPages[0];
-  const last = printedPages[printedPages.length - 1];
-  const range = printedPages.length > 1 ? `${first}–${last}` : `${first}`;
+export default function SourceStrip({ variant, edition, pdfUrl, pdfPage }: SourceStripProps) {
   const editionHref = `/inflight-magazine/${edition.slug}`;
   const editionName = `${edition.month} ${edition.year}${edition.issue ? ` · Issue ${edition.issue}` : ""}`;
 
@@ -48,12 +43,6 @@ export default function SourceStrip({ variant, edition, pdfUrl, pdfPage, printed
             <Link href={editionHref}>{editionName}</Link>
           </dd>
         </div>
-        {first !== undefined && (
-          <div>
-            <dt>Printed {printedPages.length > 1 ? "pages" : "page"}</dt>
-            <dd>{range}</dd>
-          </div>
-        )}
       </dl>
       <div className="ed-source__actions">
         <PdfButton pdfUrl={pdfUrl} title={edition.title} page={pdfPage} className={variant === "open" ? "ed-source__pdf" : "btn btn-primary btn-sm"}>

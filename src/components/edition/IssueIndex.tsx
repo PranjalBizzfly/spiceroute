@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { StoryEntry } from "@/types";
 
 /**
- * A compact contents list of one issue — number, printed section, headline and
- * printed page — for the homepage. The edition page carries the full version.
+ * A compact contents list of one issue — number, printed section and headline
+ * — for the homepage. The edition page carries the full version.
  */
 export default function IssueIndex({ stories }: { stories: StoryEntry[] }) {
   return (
@@ -20,11 +20,6 @@ export default function IssueIndex({ stories }: { stories: StoryEntry[] }) {
               {s.printedTitle}
               {s.label && <span className="ed-issueindex__label"> · {s.label}</span>}
             </Link>
-          </span>
-          <span className="ed-issueindex__page">
-            <span className="visually-hidden">Printed page </span>
-            <span aria-hidden="true">p. </span>
-            {s.printedPages[0]}
           </span>
         </li>
       ))}

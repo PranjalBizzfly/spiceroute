@@ -220,8 +220,7 @@ export default async function EditionPage({ params }: PageProps) {
                     <p className="ed-kicker ed-kicker--red">{chapter(1)}{edition.issue ? `Issue ${edition.issue} · ${date}` : date}</p>
                     <h2 id="contents-title" className="ed-shead__title">In this issue</h2>
                     <p className="ed-shead__sub">
-                      Every story from this edition that can be read on the web, in printed order, with its page
-                      number in print.
+                      Every story from this edition that can be read on the web, in printed order.
                     </p>
                   </div>
                 </div>

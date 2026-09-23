@@ -60,7 +60,6 @@ function rows(images: StoryGalleryImage[]) {
  */
 export default function StoryGallery({ group, start, pdfUrl, editionTitle }: StoryGalleryProps) {
   const open = useLightbox();
-  const pages = group.printedPages;
   const indexOf = new Map(group.images.map((img, k) => [img.src, start + k]));
   return (
     <figure className="ed-gallery">
@@ -93,7 +92,7 @@ export default function StoryGallery({ group, start, pdfUrl, editionTitle }: Sto
       ))}
       <figcaption className="ed-gallery__caption">
         <PdfButton pdfUrl={pdfUrl} title={editionTitle} page={group.pdfPages[0]} className="ed-gallery__page">
-          Page{pages.length > 1 ? "s" : ""} {pages.join("–")} in print
+          See these pictures in the original PDF
         </PdfButton>
         <PrintedCaptions captions={group.captions} />
       </figcaption>

@@ -2,9 +2,6 @@ import Link from "next/link";
 import PlatePhoto from "@/components/PlatePhoto";
 import type { StoryEntry } from "@/types";
 
-/** Printed page, or the first page of a printed range. */
-const firstPage = (s: StoryEntry) => s.printedPages[0];
-
 /**
  * Related stories: photograph-led, from this story's own issue first, then
  * the same printed section or web category in other issues. Only verified
@@ -42,7 +39,7 @@ export function RelatedStories({ stories, title }: { stories: StoryEntry[]; titl
 
 /**
  * More from this edition: the rest of the issue in printed order, as compact
- * editorial rows — thumbnail, printed section, headline and printed page.
+ * editorial rows — thumbnail, printed section and headline.
  */
 export function MoreFromEdition({
   stories,
@@ -84,13 +81,6 @@ export function MoreFromEdition({
               </h3>
               {s.standfirst && <p className="ed-row2__dek">{s.standfirst}</p>}
             </div>
-            {firstPage(s) !== undefined && (
-              <p className="ed-row2__page">
-                <span className="visually-hidden">Printed page </span>
-                <span aria-hidden="true">p. </span>
-                {firstPage(s)}
-              </p>
-            )}
           </li>
         ))}
       </ul>

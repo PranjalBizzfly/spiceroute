@@ -300,6 +300,12 @@
   overflow: hidden;
   background-color: var(--brand-charcoal);
   isolation: isolate;
+  border-radius: 3px;
+  transition: box-shadow 0.5s var(--ease-editorial);
+}
+
+.ed-gcard:hover {
+  box-shadow: 0 14px 32px -8px rgba(0, 0, 0, 0.4);
 }
 
 /* Phones: a slightly landscape plate keeps more cards in view */
@@ -312,7 +318,7 @@
 .ed-gcard__img {
   object-fit: cover;
   z-index: -2;
-  transition: transform 0.6s var(--ease-editorial);
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), filter 0.7s ease;
 }
 
 /* legibility gradient under the text */
@@ -385,7 +391,8 @@
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .ed-gcard:hover .ed-gcard__img {
-    transform: scale(1.04);
+    transform: scale(1.055);
+    filter: brightness(1.05);
   }
 }
 

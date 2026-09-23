@@ -6,13 +6,10 @@ interface EditionContentsProps {
   stories: StoryEntry[];
 }
 
-const pageRange = (pages: number[]) =>
-  pages.length > 1 ? `${pages[0]}–${pages[pages.length - 1]}` : `${pages[0]}`;
-
 /**
  * The issue's contents page: its web stories in printed reading order, each
- * with its printed section and the page it is printed on — so every story
- * reads back to its place in the magazine.
+ * with its printed section, so every story reads back to its place in the
+ * magazine.
  */
 export default function EditionContents({ stories }: EditionContentsProps) {
   return (
@@ -38,9 +35,6 @@ export default function EditionContents({ stories }: EditionContentsProps) {
                   {s.role && <span className="ed-card__role">, {s.role}</span>}
                 </span>
               )}
-              <span className="ed-toc__page">
-                Printed {s.printedPages.length > 1 ? "pages" : "page"} {pageRange(s.printedPages)}
-              </span>
               <span>{s.readingTime}</span>
             </p>
             <span className="ed-toc__read" aria-hidden="true">

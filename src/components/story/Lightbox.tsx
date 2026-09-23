@@ -106,8 +106,6 @@ function LightboxDialog({ items, index, setIndex, onClose, title }: DialogProps)
     return () => document.removeEventListener("keydown", onKey);
   }, [onClose, step, count]);
 
-  const pages = item.printedPages;
-  const pageLabel = `Page${pages.length > 1 ? "s" : ""} ${pages.join("–")} in print`;
 
   return createPortal(
     <div
@@ -123,7 +121,6 @@ function LightboxDialog({ items, index, setIndex, onClose, title }: DialogProps)
           <span>
             {index + 1} / {count}
           </span>
-          <span className="ed-lightbox__page">{pageLabel}</span>
         </p>
         <button ref={closeButton} type="button" className="ed-lightbox__close" onClick={onClose} aria-label="Close photographs">
           <span aria-hidden="true">&times;</span>
@@ -145,7 +142,7 @@ function LightboxDialog({ items, index, setIndex, onClose, title }: DialogProps)
         </div>
         {item.captions.length > 0 && (
           <figcaption className="ed-lightbox__captions" onClick={(e) => e.stopPropagation()}>
-            <span className="ed-lightbox__captionhead">Printed on this page</span>
+            <span className="ed-lightbox__captionhead">As printed</span>
             <PrintedCaptions captions={item.captions} />
           </figcaption>
         )}

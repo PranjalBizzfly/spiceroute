@@ -1884,7 +1884,7 @@
 .ed-issueindex__item {
   position: relative;
   display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
   gap: 1rem;
   align-items: baseline;
   padding-block: 1.1rem;
@@ -1943,14 +1943,6 @@
   font-style: italic;
   font-weight: 600;
   color: var(--text-secondary);
-}
-
-.ed-issueindex__page {
-  font-size: var(--step-meta);
-  font-weight: 700;
-  color: var(--text-muted);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
 }
 
 /* --------------------------------------------------------------------------
@@ -2533,11 +2525,6 @@
 }
 
 /* The printed page: the link back to the magazine */
-.ed-toc__page {
-  font-weight: 700;
-  color: var(--highlight-text);
-}
-
 .ed-toc__read {
   display: inline-flex;
   align-items: center;
@@ -3555,14 +3542,6 @@
   font-size: 0.85rem;
   font-variant-numeric: tabular-nums;
   color: var(--text-secondary);
-}
-
-.ed-lightbox__page {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--highlight-text);
 }
 
 .ed-lightbox__close,
