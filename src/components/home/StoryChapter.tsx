@@ -45,7 +45,8 @@ export default function StoryChapter({ items }: { items: ChapterItem[] }) {
       <div className="ed-chapter__frame" aria-hidden="true">
         {items.map((it, i) => (
           <div key={it.href} className={`ed-chapter__photo${i === active ? " is-active" : ""}`}>
-            <Image src={it.image} alt="" fill sizes="(max-width: 899px) 1px, 50vw" style={{ objectPosition: it.focus }} />
+            {/* the frame takes 1.35 of 2.35 parts of the page width (about 55%) */}
+            <Image src={it.image} alt={it.alt} fill sizes="(max-width: 899px) 1px, (max-width: 1400px) 58vw, 800px" style={{ objectPosition: it.focus }} />
           </div>
         ))}
         <p className="ed-chapter__count">

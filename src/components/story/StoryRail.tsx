@@ -34,7 +34,7 @@ export default function StoryRail({ story, edition, issue, more = [], moreTitle 
       <div className="ed-news__stack">
         <section className="ed-news__box ed-news__print" aria-labelledby="rail-print-title">
           <Link href={`/inflight-magazine/${edition.slug}`} className="ed-news__printcover" tabIndex={-1} aria-hidden="true">
-            <Image src={edition.cover} alt="" fill sizes="128px" loading="lazy" />
+            <Image src={edition.cover} alt={`Spice Route ${edition.month} ${edition.year} cover`} fill sizes="128px" loading="lazy" />
           </Link>
           <div className="ed-news__printbody">
             <p className="ed-news__boxkicker" id="rail-print-title">
@@ -73,7 +73,7 @@ export default function StoryRail({ story, edition, issue, more = [], moreTitle 
                   {s.images[0] && (
                     <span className="ed-news__thumb" aria-hidden="true">
                       {/* small or very wide photographs are shown whole, never enlarged */}
-                      <PlatePhoto src={s.images[0].src} alt="" sizes="84px" />
+                      <PlatePhoto src={s.images[0].src} alt={s.images[0].alt || s.printedTitle} sizes="84px" />
                     </span>
                   )}
                 </li>
@@ -98,7 +98,8 @@ export default function StoryRail({ story, edition, issue, more = [], moreTitle 
                       scroll of its own */}
                   {i === 0 && s.images[0] && (
                     <span className="ed-news__readplate" aria-hidden="true">
-                      <PlatePhoto src={s.images[0].src} alt="" sizes="288px" />
+                      {/* below 960px the column stacks under the article at full width */}
+                      <PlatePhoto src={s.images[0].src} alt={s.images[0].alt || s.printedTitle} sizes="(max-width: 959px) 92vw, 288px" />
                     </span>
                   )}
                   <Link href={s.href} className="ed-news__readtitle">

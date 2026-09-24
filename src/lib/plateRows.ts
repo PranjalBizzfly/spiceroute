@@ -10,6 +10,8 @@
 export interface Plate {
   width: number;
   height: number;
+  /** Largest multiple of its own pixels this picture may be drawn at, when not maxScale. */
+  scale?: number;
 }
 
 export interface PlateRow<T> {
@@ -23,7 +25,9 @@ export interface PlateRow<T> {
 /** Summed width:height a row aims for — about three landscape photographs. */
 export const ROW_TARGET = 2.6;
 /** Never shown larger than this multiple of a picture's own pixels. */
-export const MAX_SCALE = 1.5;
+export const MAX_SCALE = 1;
+/** Never more than four pictures in a single row, so pictures don't compress into slivers. */
+export const MAX_ROW_ITEMS = 4;
 
 /**
  * Splits pictures into rows in printed order, as evenly as possible: each
@@ -40,7 +44,8 @@ export function plateRows<T extends Plate>(
    * set beside two landscape ones takes a sixth of the row and is drawn as a
    * sliver; a row that would do that to a picture is not used at all.
    */
-  minShare = 0
+  minShare = 0,
+  maxItems = MAX_ROW_ITEMS
 ): PlateRow<T>[] {
   const r = images.map((img) => img.width / img.height);
   const n = r.length;
@@ -51,7 +56,7 @@ export function plateRows<T extends Plate>(
   for (let i = n - 1; i >= 0; i--) {
     let sum = 0;
     let narrowest = Infinity;
-    for (let j = i; j < n; j++) {
+    for (let j = i; j < n && j - i < maxItems; j++) {
       sum += r[j];
       narrowest = Math.min(narrowest, r[j]);
       if (j > i && narrowest / sum < minShare) break;
@@ -67,7 +72,7 @@ export function plateRows<T extends Plate>(
     const imgs = images.slice(i, cut[i]);
     const sum = r.slice(i, cut[i]).reduce((a, b) => a + b, 0);
     // the shared height stays within maxScale of the smallest picture's own height
-    const maxWidth = Math.round(maxScale * Math.min(...imgs.map((x) => x.height)) * sum);
+    const maxWidth = Math.round(Math.min(...imgs.map((x) => (x.scale ?? maxScale) * x.height)) * sum);
     out.push({ images: imgs, sum, maxWidth });
   }
   return out;

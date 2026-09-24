@@ -1,7 +1,21 @@
 import type { StoryExtra } from "@/types";
 import { extraImageKey, isJunkExtraImage } from "@/data/extrasImages";
+import { composites, isCrispExtraImage, isHiddenExtraImage, type ExtraComposite } from "@/data/extrasLayout";
 
 type StoryExtraImage = StoryExtra["images"][number];
+
+/**
+ * One picture as the page sets it: a printed picture, or an advertisement the
+ * PDF stored as tiles, put back together (`composite`, sized in its own pixels).
+ */
+export interface ExtraPlate {
+  src: string;
+  width: number;
+  height: number;
+  /** Never drawn larger than its own pixels (QR codes, logos, lettering). */
+  scale?: number;
+  composite?: ExtraComposite;
+}
 
 /*
  * The pages printed around an article arrive from the PDF as lines in printed
@@ -27,7 +41,7 @@ export interface ExtraBlock {
   /** The page's own heading, taken from its printed text. */
   title?: string;
   pieces: ExtraPiece[];
-  images: StoryExtraImage[];
+  images: ExtraPlate[];
 }
 
 const URL_RE = /^(https?:\/\/|www\.)\S+$/i;
@@ -225,6 +239,40 @@ const headingFor = (pieces: ExtraPiece[]) => {
 };
 
 /**
+ * The page's pictures as the page sets them. An advertisement stored as tiles
+ * is set once, whole, where its first tile falls, when every one of its tiles
+ * is on the page; page furniture is left out; and `shown` keeps a picture
+ * already set further up from being set again.
+ */
+function platesFor(images: StoryExtraImage[], shown: Set<string>): ExtraPlate[] {
+  const onPage = new Set(images.map((img) => img.src));
+  const tileOf = new Map<string, ExtraComposite>();
+  for (const c of composites) if (c.parts.every((src) => onPage.has(src))) for (const src of c.parts) tileOf.set(src, c);
+
+  const plates: ExtraPlate[] = [];
+  const set = new Set<ExtraComposite>();
+  for (const img of images) {
+    const c = tileOf.get(img.src);
+    if (c) {
+      if (set.has(c)) continue;
+      set.add(c);
+      const key = "composite:" + c.tiles.map((t) => extraImageKey({ src: t.src, width: t.w, height: t.h })).join("+");
+      if (shown.has(key)) continue;
+      shown.add(key);
+      for (const t of c.tiles) shown.add(extraImageKey({ src: t.src, width: t.w, height: t.h }));
+      plates.push({ src: c.tiles[0].src, width: c.width, height: c.height, composite: c });
+      continue;
+    }
+    if (isJunkExtraImage(img) || isHiddenExtraImage(img.src)) continue;
+    const key = extraImageKey(img);
+    if (shown.has(key)) continue;
+    shown.add(key);
+    plates.push(isCrispExtraImage(img.src) ? { ...img, scale: 1 } : { ...img });
+  }
+  return plates;
+}
+
+/**
  * One printed page as a block the page can set: its own heading, its text and
  * its pictures. The heading is lifted from the page's own text and is not
  * repeated in the body; pictures that are page furniture rather than
@@ -238,14 +286,7 @@ export function toBlock(extra: StoryExtra, shown = new Set<string>()): ExtraBloc
   const at = headingFor(pieces);
   const title = at >= 0 ? pieces[at].text : undefined;
   const body = at >= 0 ? [...pieces.slice(0, at), ...pieces.slice(at + 1)] : pieces;
-  const images = extra.images.filter((img) => {
-    if (isJunkExtraImage(img)) return false;
-    const key = extraImageKey(img);
-    if (shown.has(key)) return false;
-    shown.add(key);
-    return true;
-  });
-  return { title, pieces: body, images };
+  return { title, pieces: body, images: platesFor(extra.images, shown) };
 }
 
 /**

@@ -68,7 +68,7 @@ export default function Footer() {
             <Link href="/" className="ed-pfoot__logo" aria-label="Spice Route — home">
               <Image
                 src="/images/spice-route-logo.webp"
-                alt=""
+                alt="Spice Route — The Inflight Magazine of SpiceJet"
                 fill
                 sizes="200px"
                 style={{ objectFit: "contain", objectPosition: "left center" }}

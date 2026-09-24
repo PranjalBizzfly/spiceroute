@@ -19,7 +19,7 @@ export function RelatedStories({ stories, title }: { stories: StoryEntry[]; titl
           <li key={s.slug} className="ed-rel">
             {s.images[0] && (
               <div className="ed-rel__plate">
-                <PlatePhoto src={s.images[0].src} alt="" sizes="(max-width: 559px) 92vw, (max-width: 979px) 44vw, 300px" />
+                <PlatePhoto src={s.images[0].src} alt={s.images[0].alt || s.printedTitle} sizes="(max-width: 559px) 92vw, (max-width: 979px) 44vw, 300px" />
               </div>
             )}
             <p className="ed-rel__section">{s.section}</p>
@@ -71,7 +71,7 @@ export function MoreFromEdition({
           <li key={s.slug} className="ed-row2">
             {s.images[0] && (
               <div className="ed-row2__thumb">
-                <PlatePhoto src={s.images[0].src} alt="" sizes="120px" />
+                <PlatePhoto src={s.images[0].src} alt={s.images[0].alt || s.printedTitle} sizes="120px" />
               </div>
             )}
             <div className="ed-row2__body">

@@ -161,7 +161,7 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
                 <li key={e.slug}>
                   <Link href={editionHref(e.slug)} className="ed-gsearch__edition">
                     <span className="ed-gsearch__cover">
-                      <Image src={e.cover} alt="" fill sizes="72px" loading="lazy" />
+                      <Image src={e.cover} alt={`Spice Route ${e.month} ${e.year} cover`} fill sizes="72px" loading="lazy" />
                     </span>
                     <span>
                       <span className="ed-gsearch__title">{editionDate(e)}</span>

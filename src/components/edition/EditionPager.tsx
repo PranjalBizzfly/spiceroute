@@ -14,7 +14,7 @@ export default function EditionPager({ previous, next }: EditionPagerProps) {
       {previous ? (
         <Link href={`/inflight-magazine/${previous.slug}`} className="ed-pager__link ed-pager__link--prev" rel="prev">
           <span className="ed-pager__thumb">
-            <Image src={previous.cover} alt="" fill sizes="64px" loading="lazy" />
+            <Image src={previous.cover} alt={`Spice Route ${previous.month} ${previous.year} cover`} fill sizes="64px" loading="lazy" />
           </span>
           <span className="ed-pager__text">
             <span className="ed-pager__dir">
@@ -40,7 +40,7 @@ export default function EditionPager({ previous, next }: EditionPagerProps) {
             </span>
           </span>
           <span className="ed-pager__thumb">
-            <Image src={next.cover} alt="" fill sizes="64px" loading="lazy" />
+            <Image src={next.cover} alt={`Spice Route ${next.month} ${next.year} cover`} fill sizes="64px" loading="lazy" />
           </span>
         </Link>
       ) : (

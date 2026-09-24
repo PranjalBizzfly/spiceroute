@@ -650,14 +650,19 @@
   opacity: 0.85;
 }
 
-/* -- Small photographs in large plates (components/PlatePhoto.tsx) ---------- */
+/* -- Photographs in plates (components/PlatePhoto.tsx) --------------------- */
 /* The photograph's frame is the plate, but never larger than 1.5 × the file
-   (--photo-w / --photo-h); beyond that, a blurred copy fills the plate. */
+   (--photo-w / --photo-h), and never so far from the photograph's own shape
+   (--photo-r) that covering it would cut away more than a fifth of it in
+   either direction; beyond that, a blurred copy fills the plate. The plate is
+   a size container, so the frame is measured against it at every width. */
 .ed-photo {
+  --photo-keep: 0.8;
   position: absolute;
   inset: 0;
   display: block;
   overflow: hidden;
+  container-type: size;
   background-color: var(--bg-plate);
 }
 
@@ -675,8 +680,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: min(100%, var(--photo-w));
-  height: min(100%, var(--photo-h));
+  width: min(100%, var(--photo-w), 100cqh * var(--photo-r) / var(--photo-keep));
+  height: min(100%, var(--photo-h), 100cqw / var(--photo-r) / var(--photo-keep));
   transform: translate(-50%, -50%);
   overflow: hidden;
   /* only visible when the frame is smaller than the plate (clipped otherwise) */
@@ -3391,18 +3396,39 @@
   display: flex;
   gap: 0.5rem;
   /* no taller than 33rem, and never beyond the photographs' own sharpness
-     (--maxw). A row held narrower than the column starts on the text edge,
-     over its caption, rather than floating in the middle. */
+     (--maxw). A row held narrower than the column — a lone upright
+     photograph, a small file — sits in the middle of it, so the space left
+     over falls evenly on both sides instead of all to its right. */
   max-width: min(calc(33rem * var(--sum)), var(--maxw, 100%));
+  margin-inline: auto;
 }
 
 .ed-gallery__row + .ed-gallery__row {
   margin-top: 0.5rem;
 }
 
+/* A phone gets rows of its own — one or two photographs each — so an upright
+   photograph beside wide ones is never drawn as a sliver. */
+.ed-gallery__rows--narrow {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .ed-gallery__rows--wide {
+    display: none;
+  }
+
+  .ed-gallery__rows--narrow {
+    display: block;
+  }
+}
+
 .ed-gallery__item {
   position: relative;
-  flex: var(--r) 1 0;
+  /* shares divided by the row's total: flex shares that add up to less than
+     one (an upright photograph alone on its line) would otherwise take only
+     that fraction of the row and leave the photograph a sliver */
+  flex: calc(var(--r) / var(--sum)) 1 0;
   min-width: 0;
   aspect-ratio: var(--r);
   padding: 0;

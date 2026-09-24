@@ -15,7 +15,7 @@ export default function StoryPager({ previous, next, edition }: StoryPagerProps)
     <Link href={s.href} className={`ed-pager__link ed-pager__link--${dir} ed-pager__link--story`} rel={dir}>
       {dir === "prev" && s.image && (
         <span className="ed-pager__thumb ed-pager__thumb--story">
-          <PlatePhoto src={s.image} alt="" sizes="80px" />
+          <PlatePhoto src={s.image} alt={s.imageAlt || s.printedTitle} sizes="80px" />
         </span>
       )}
       <span className="ed-pager__text">
@@ -39,7 +39,7 @@ export default function StoryPager({ previous, next, edition }: StoryPagerProps)
       </span>
       {dir === "next" && s.image && (
         <span className="ed-pager__thumb ed-pager__thumb--story">
-          <PlatePhoto src={s.image} alt="" sizes="80px" />
+          <PlatePhoto src={s.image} alt={s.imageAlt || s.printedTitle} sizes="80px" />
         </span>
       )}
     </Link>

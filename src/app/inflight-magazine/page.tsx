@@ -70,7 +70,7 @@ export default function InflightMagazinePage() {
             <div className="ed-fan" aria-hidden="true">
               {editions.slice(0, 5).map((e, i) => (
                 <div key={e.slug} className="ed-fan__cover" style={{ "--i": i } as React.CSSProperties}>
-                  <Image src={e.cover} alt="" fill sizes="220px" loading={i === 0 ? "eager" : "lazy"} />
+                  <Image src={e.cover} alt={`Spice Route ${e.month} ${e.year} cover`} fill sizes="220px" loading={i === 0 ? "eager" : "lazy"} />
                 </div>
               ))}
             </div>
@@ -79,7 +79,7 @@ export default function InflightMagazinePage() {
           {/* Latest edition leads the archive */}
           <article className="ed-latest ed-latest--panel" aria-labelledby="latest-title">
             <Link href={`/inflight-magazine/${latest.slug}`} className="ed-latest__cover" tabIndex={-1} aria-hidden="true">
-              <Image src={latest.cover} alt="" fill loading="eager" fetchPriority="high" sizes="(max-width: 767px) 66vw, 320px" />
+              <Image src={latest.cover} alt={`Spice Route ${latest.month} ${latest.year} cover`} fill loading="eager" fetchPriority="high" sizes="(max-width: 767px) 66vw, 320px" />
             </Link>
             <div className="ed-latest__body">
               <p className="ed-kicker ed-kicker--red">Latest edition</p>

@@ -73,7 +73,7 @@ export default async function EditionPage({ params }: PageProps) {
       <section className="ed-issue__hero ed-pagehero ed-scope-dark" aria-labelledby="edition-title">
         {/* Ambient colour from the printed cover (a tiny, blurred copy) */}
         <div className="ed-issue__ambient" aria-hidden="true">
-          <Image src={edition.cover} alt="" fill sizes="64px" loading="eager" />
+          <Image src={edition.cover} alt={`Spice Route ${edition.month} ${edition.year} cover`} fill sizes="64px" loading="eager" />
         </div>
         <div className="container">
           <nav aria-label="Breadcrumb" className="ed-crumbs">

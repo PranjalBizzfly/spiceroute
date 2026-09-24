@@ -139,3 +139,23 @@
     transform: translate3d(3px, -7px, 0) rotate(-0.4deg);
   }
 }
+
+/* The narrowest phones: the headline wraps to more lines, so the artwork and
+   type shrink a step and the button stays clear of the slanted edge */
+@media (max-width: 400px) {
+  .ed-hx__slide--intro .ed-shero {
+    --shape-h: 28px;
+  }
+
+  .ed-hx__slide--intro .ed-shero__media img {
+    max-height: 15svh;
+  }
+
+  .ed-hx__slide--intro .ed-shero__title {
+    font-size: 1.35rem;
+  }
+
+  .ed-hx__slide--intro .ed-shero__lede {
+    font-size: 0.85rem;
+  }
+}

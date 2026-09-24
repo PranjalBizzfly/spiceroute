@@ -266,7 +266,7 @@ export default function HomePage() {
           <div className="ed-now__grid">
             <Reveal className="ed-now__issue">
               <Link href={latestHref} className="ed-now__cover" tabIndex={-1} aria-hidden="true">
-                <Image src={latestEdition.cover} alt="" fill sizes="(max-width: 767px) 60vw, 340px" />
+                <Image src={latestEdition.cover} alt={`Spice Route ${latestEdition.month} ${latestEdition.year} cover`} fill sizes="(max-width: 767px) 60vw, 340px" />
               </Link>
               <p className="ed-now__facts">
                 {latestEdition.issue ? `Volume ${latestEdition.volume} · Issue ${latestEdition.issue}` : latestEdition.title}

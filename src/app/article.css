@@ -1143,12 +1143,18 @@
   min-width: 0;
 }
 
+.ed-pagefeat__plates {
+  /* how tall a row may be drawn: a printed page on its own reads at most of
+     the column's width, and still fits the screen */
+  --cap: min(40rem, 72vh);
+}
+
 .ed-pagefeat__row {
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
   width: 100%;
   gap: clamp(0.4rem, 1vw, 0.6rem);
-  max-width: min(calc(22rem * var(--sum)), var(--maxw, 100%), 100%);
+  max-width: min(calc(var(--cap) * var(--sum)), var(--maxw, 100%), 100%);
 }
 
 .ed-pagefeat__row + .ed-pagefeat__row {
@@ -1157,13 +1163,12 @@
 
 .ed-pagefeat__plate {
   margin: 0;
-  /* the row's width shared out in proportion to each picture's own shape; the
-     shares are divided by the row's total so one upright picture on a line
-     fills it rather than taking four tenths of it */
+  /* the row's width shared out in proportion to each picture's own shape, so
+     every picture in the row stands at one height and keeps its proportions:
+     nothing is cropped and nothing is stretched. The rows are laid out so no
+     picture takes less than a sixth of its row (a quarter on a phone). */
   flex: calc(var(--r) / var(--sum)) 1 0;
-  /* never thinner than a thumbnail: an upright picture that would be squeezed
-     to a sliver takes a line of its own instead */
-  min-width: min(100%, 96px);
+  min-width: 0;
   aspect-ratio: var(--r);
   overflow: hidden;
   border-radius: var(--radius-plate, var(--radius-sm));
@@ -1177,15 +1182,46 @@
   object-fit: cover;
 }
 
-/* On a narrow screen a row of four or five pictures would squeeze each one to
-   a thumbnail, so it wraps to two pictures a line, each at its own shape. */
+/* An advertisement stored as tiles, set back together: each tile at its own
+   place in the picture, and a flat tile that was never kept painted in its
+   colour. */
+.ed-pagefeat__plate--composite {
+  position: relative;
+}
+
+.ed-pagefeat__composite {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.ed-pagefeat__plate .ed-pagefeat__composite img,
+.ed-pagefeat__fill {
+  position: absolute;
+  display: block;
+  max-width: none;
+  object-fit: fill;
+}
+
+/* A phone gets rows of its own — one or two pictures each — rather than the
+   wide rows squeezed to thumbnails. Where both layouts come out the same only
+   one is set. */
+.ed-pagefeat__plates--narrow {
+  display: none;
+}
+
 @media (max-width: 640px) {
-  .ed-pagefeat__row {
-    max-width: 100%;
+  .ed-pagefeat__plates {
+    --cap: min(28rem, 64vh);
   }
 
-  .ed-pagefeat__plate {
-    flex: 1 1 calc(50% - 0.6rem);
+  .ed-pagefeat__plates--wide {
+    display: none;
+  }
+
+  .ed-pagefeat__plates--narrow {
+    display: flex;
   }
 }
 

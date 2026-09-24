@@ -63,7 +63,7 @@ export default function StorySideList({ stories, sections, topics = [], title = 
                   </h3>
                   {(i === 0 || i === midPlate) && s.images[0] && (
                     <div className="ed-brief__plate">
-                      <PlatePhoto src={s.images[0].src} alt="" sizes="240px" />
+                      <PlatePhoto src={s.images[0].src} alt={s.images[0].alt || s.printedTitle} sizes="240px" />
                     </div>
                   )}
                   <p className="ed-brief__meta">

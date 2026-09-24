@@ -1521,28 +1521,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOLKATA (CCU) KOCHI (COK) KANDLA (IXY) LEH (IXL) MUMBAI (BOM) MADURAI (IXM) PHUKET (HKT) PORT BLAIR (IXZ) PATNA (PAT) PUNE (PNQ) SHARJAH (SHJ) SHILLONG (SHL) SRINAGAR (SXR) UDAIPUR (UDR) VARANASI (VNS)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/september-2026/p76-1.webp",
-          "width": 171,
-          "height": 280
-        },
-        {
-          "src": "/images/extras/september-2026/p76-3.webp",
-          "width": 181,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/september-2026/p76-4.webp",
-          "width": 228,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/september-2026/p76-5.webp",
-          "width": 216,
-          "height": 295
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -1556,33 +1535,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "st",
         "August, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/september-2026/p76-1.webp",
-          "width": 171,
-          "height": 280
-        },
-        {
-          "src": "/images/extras/september-2026/p77-2.webp",
-          "width": 96,
-          "height": 234
-        },
-        {
-          "src": "/images/extras/september-2026/p76-3.webp",
-          "width": 181,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/september-2026/p76-4.webp",
-          "width": 228,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/september-2026/p76-5.webp",
-          "width": 216,
-          "height": 295
-        }
-      ]
+      "images": []
     }
   ],
   "predictions-september-2026": [
@@ -3563,36 +3516,12 @@ export const extras: Record<string, StoryExtra[]> = {
       "pdfPage": 69,
       "printedPage": 67,
       "paragraphs": [
-        "Photo by",
-        "Sonal and Vishal",
-        "(Dharamshala - Delhi)",
-        "Photo by",
-        "Mir Sajid Hussain",
-        "(Jammu - Delhi)",
-        "Photo by",
-        "Nitesh Dattatray Banote",
-        "(Delhi - Mumbai)",
         "Be in the Spotlight!",
         "Share your best travel moments and shine in SpiceRoute magazine and on our social media pages. Tag us and email your photos with flight details to marketing.ho@spicejet.com!",
-        "@spicejetairlines FlySpiceJet",
-        "Photo by",
-        "Shivam Kumar",
-        "(Patna - Delhi)",
-        "Photo by",
-        "Huzaifa Sadriwala",
-        "(Mumbai - Dubai)"
+        "@spicejetairlines | FlySpiceJet.",
+        "Photo by Nitesh Dattatray Banote (Delhi - Mumbai), Shivam Kumar (Patna - Delhi), Huzaifa Sadriwala (Mumbai - Dubai), Mir Sajid Hussain (Jammu - Delhi), Sonal and Vishal (Dharamshala - Delhi)."
       ],
       "images": [
-        {
-          "src": "/images/extras/august-2026/p69-1.webp",
-          "width": 541,
-          "height": 905
-        },
-        {
-          "src": "/images/extras/august-2026/p69-2.webp",
-          "width": 535,
-          "height": 714
-        },
         {
           "src": "/images/extras/august-2026/p69-3.webp",
           "width": 313,
@@ -3607,6 +3536,16 @@ export const extras: Record<string, StoryExtra[]> = {
           "src": "/images/extras/august-2026/p69-8.webp",
           "width": 273,
           "height": 405
+        },
+        {
+          "src": "/images/extras/august-2026/p69-2.webp",
+          "width": 535,
+          "height": 714
+        },
+        {
+          "src": "/images/extras/august-2026/p69-1.webp",
+          "width": 541,
+          "height": 905
         }
       ]
     }
@@ -3622,28 +3561,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOLKATA (CCU) KOCHI (COK) KANDLA (IXY) LEH (IXL) MUMBAI (BOM) MADURAI (IXM) PHUKET (HKT) PORT BLAIR (IXZ) PORBANDAR (PBD) PATNA (PAT) PUNE (PNQ) SHARJAH (SHJ) SHILLONG (SHL) SRINAGAR (SXR) UDAIPUR (UDR)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/august-2026/p76-1.webp",
-          "width": 168,
-          "height": 276
-        },
-        {
-          "src": "/images/extras/august-2026/p76-3.webp",
-          "width": 178,
-          "height": 194
-        },
-        {
-          "src": "/images/extras/august-2026/p76-4.webp",
-          "width": 227,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/august-2026/p76-5.webp",
-          "width": 212,
-          "height": 290
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -3657,33 +3575,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "st",
         "July, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/august-2026/p76-1.webp",
-          "width": 168,
-          "height": 276
-        },
-        {
-          "src": "/images/extras/august-2026/p77-2.webp",
-          "width": 93,
-          "height": 230
-        },
-        {
-          "src": "/images/extras/august-2026/p76-3.webp",
-          "width": 178,
-          "height": 194
-        },
-        {
-          "src": "/images/extras/august-2026/p76-4.webp",
-          "width": 227,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/august-2026/p76-5.webp",
-          "width": 212,
-          "height": 290
-        }
-      ]
+      "images": []
     }
   ],
   "predictions-august-2026": [
@@ -6031,28 +5923,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOLKATA (CCU) KOCHI (COK) KANDLA (IXY) LEH (IXL) MUMBAI (BOM) MADURAI (IXM) PHUKET (HKT) PORT BLAIR (IXZ) PORBANDAR (PBD) PATNA (PAT) PUNE (PNQ) SHARJAH (SHJ) SHILLONG (SHL) SHIVAMOGGA (RQY) SRINAGAR (SXR) UDAIPUR (UDR) VARANASI (VNS)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/july-2026/p76-1.webp",
-          "width": 170,
-          "height": 280
-        },
-        {
-          "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 180,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 230,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/july-2026/p76-5.webp",
-          "width": 214,
-          "height": 294
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -6066,33 +5937,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "th",
         "June, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/july-2026/p76-1.webp",
-          "width": 170,
-          "height": 280
-        },
-        {
-          "src": "/images/extras/july-2026/p77-2.webp",
-          "width": 95,
-          "height": 233
-        },
-        {
-          "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 180,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 230,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/july-2026/p76-5.webp",
-          "width": 214,
-          "height": 294
-        }
-      ]
+      "images": []
     }
   ],
   "predictions-july-2026": [
@@ -8052,28 +7897,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOZHIKODE (CCJ) KOLKATA (CCU) KOCHI (COK) LEH (IXL) MUMBAI (BOM) PATNA (PAT) PUNE (PNQ) SHILLONG (SHL) SHIVAMOGGA (RQY) SRINAGAR (SXR) VARANASI (VNS)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/june-2026/p80-1.webp",
-          "width": 170,
-          "height": 279
-        },
-        {
-          "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 180,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 230,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/june-2026/p80-5.webp",
-          "width": 215,
-          "height": 294
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -8087,33 +7911,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "st",
         "May, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/june-2026/p80-1.webp",
-          "width": 170,
-          "height": 279
-        },
-        {
-          "src": "/images/extras/july-2026/p77-2.webp",
-          "width": 95,
-          "height": 233
-        },
-        {
-          "src": "/images/extras/july-2026/p76-3.webp",
-          "width": 180,
-          "height": 197
-        },
-        {
-          "src": "/images/extras/july-2026/p76-4.webp",
-          "width": 230,
-          "height": 200
-        },
-        {
-          "src": "/images/extras/june-2026/p80-5.webp",
-          "width": 215,
-          "height": 294
-        }
-      ]
+      "images": []
     }
   ],
   "predictions-june-2026": [
@@ -10065,28 +9863,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOZHIKODE (CCJ) KOLKATA (CCU) KOCHI (COK) LEH (IXL) MADURAI (IXM) MUMBAI (BOM) PATNA (PAT) PUNE (PNQ) SHARJAH (SHJ) SHILLONG (SHL) SHIVAMOGGA (RQY) SRINAGAR (SXR) VARANASI (VNS)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/may-2026/p80-1.webp",
-          "width": 169,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/may-2026/p80-3.webp",
-          "width": 180,
-          "height": 195
-        },
-        {
-          "src": "/images/extras/may-2026/p80-4.webp",
-          "width": 228,
-          "height": 198
-        },
-        {
-          "src": "/images/extras/may-2026/p80-5.webp",
-          "width": 212,
-          "height": 292
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -10101,33 +9878,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "st",
         "April, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/may-2026/p80-1.webp",
-          "width": 169,
-          "height": 278
-        },
-        {
-          "src": "/images/extras/may-2026/p81-2.webp",
-          "width": 94,
-          "height": 231
-        },
-        {
-          "src": "/images/extras/may-2026/p80-3.webp",
-          "width": 180,
-          "height": 195
-        },
-        {
-          "src": "/images/extras/may-2026/p80-4.webp",
-          "width": 228,
-          "height": 198
-        },
-        {
-          "src": "/images/extras/may-2026/p80-5.webp",
-          "width": 212,
-          "height": 292
-        }
-      ]
+      "images": []
     }
   ],
   "predictions-may-2026": [
@@ -11319,11 +11070,6 @@ export const extras: Record<string, StoryExtra[]> = {
           "height": 1097
         },
         {
-          "src": "/images/extras/april-2026/p38-2.webp",
-          "width": 312,
-          "height": 744
-        },
-        {
           "src": "/images/extras/april-2026/p38-3.webp",
           "width": 193,
           "height": 193
@@ -11352,18 +11098,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "st",
         "March, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/april-2026/p39-1.webp",
-          "width": 901,
-          "height": 1009
-        },
-        {
-          "src": "/images/extras/april-2026/p39-2.webp",
-          "width": 901,
-          "height": 1009
-        }
-      ]
+      "images": []
     },
     {
       "kind": "advert",
@@ -12991,18 +12726,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "KOLKATA (CCU) KOCHI (COK) KANDLA (IXY) LEH (IXL) MADURAI (IXM) MUMBAI (BOM) PATNA (PAT) PORBANDAR (PBD) PUNE (PNQ) SHARJAH (SHJ) SHILLONG (SHL) SHIVAMOGGA (RQY) SRINAGAR (SXR) UDAIPUR (UDR) VARANASI (VNS)",
         "OUR RED HOT ROUTES"
       ],
-      "images": [
-        {
-          "src": "/images/extras/march-2026/p80-1.webp",
-          "width": 898,
-          "height": 1008
-        },
-        {
-          "src": "/images/extras/march-2026/p80-2.webp",
-          "width": 898,
-          "height": 1008
-        }
-      ]
+      "images": []
     },
     {
       "kind": "spicejet",
@@ -13016,18 +12740,7 @@ export const extras: Record<string, StoryExtra[]> = {
         "th",
         "February, 2026."
       ],
-      "images": [
-        {
-          "src": "/images/extras/march-2026/p80-1.webp",
-          "width": 898,
-          "height": 1008
-        },
-        {
-          "src": "/images/extras/march-2026/p80-2.webp",
-          "width": 898,
-          "height": 1008
-        }
-      ]
+      "images": []
     },
     {
       "kind": "page",

@@ -1,0 +1,3258 @@
+{
+ "hidden": [
+  {
+   "src": "/images/extras/april-2024/p03-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p03-4.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p03-5.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p03-7.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p03-8.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p12-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p12-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p31-3.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p31-6.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p31-7.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p45-1.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p45-19.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p45-20.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p45-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p67-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p67-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p67-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2024/p81-12.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2024/p81-13.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2024/p84-1.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/april-2024/p84-2.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p84-3.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2024/p84-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2026/p02-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2026/p02-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2026/p03-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2026/p03-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p08-14.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2026/p08-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2026/p08-8.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/april-2026/p08-9.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/april-2026/p09-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-10.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-11.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-12.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-13.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-14.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-15.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-16.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-17.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-18.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-19.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-20.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-21.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-22.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-23.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-24.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-25.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-26.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-27.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-28.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-29.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-30.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-31.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-6.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-8.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p12-9.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/april-2026/p17-13.webp",
+   "why": "lower half of a photograph cut in two"
+  },
+  {
+   "src": "/images/extras/august-2026/p02-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/august-2026/p02-8.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/august-2026/p05-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/august-2026/p07-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/august-2026/p07-4.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/august-2026/p12-3.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p26-6.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p29-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p36-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-13.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-14.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-17.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-18.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-19.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p41-9.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p79-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p81-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p84-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/august-2026/p84-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/february-2024/p02-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/february-2024/p02-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/february-2024/p06-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/february-2024/p06-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/february-2024/p06-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/february-2024/p06-6.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/february-2024/p12-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/february-2024/p12-3.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/february-2024/p12-4.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/february-2024/p12-5.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/february-2024/p47-1.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/february-2024/p47-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/july-2026/p03-4.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/july-2026/p03-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/july-2026/p06-10.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/july-2026/p06-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/july-2026/p06-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/july-2026/p07-17.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p13-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p13-5.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/july-2026/p13-6.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/july-2026/p23-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/july-2026/p27-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p27-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p29-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p33-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p33-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/july-2026/p39-2.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/july-2026/p81-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/july-2026/p84-1.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/july-2026/p84-2.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/june-2026/p04-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p05-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p05-3.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/june-2026/p05-4.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/june-2026/p10-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p13-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p13-4.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/june-2026/p19-4.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p19-5.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p29-5.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p29-7.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p31-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/june-2026/p33-2.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/june-2026/p35-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p35-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p35-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p39-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p40-10.webp",
+   "why": "lower half of a photograph cut in two"
+  },
+  {
+   "src": "/images/extras/june-2026/p63-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p63-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p63-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/june-2026/p63-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p07-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p07-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p07-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p07-5.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2024/p23-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2024/p23-4.webp",
+   "why": "blurred or washed-out layer of an advertisement"
+  },
+  {
+   "src": "/images/extras/march-2024/p31-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2024/p45-1.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/march-2024/p45-19.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2024/p45-20.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2024/p45-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/march-2024/p47-2.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-6.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p49-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-11.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-13.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-15.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-17.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-18.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-20.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-21.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-23.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-24.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p78-9.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-10.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-11.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-12.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-13.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-8.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2024/p79-9.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2026/p08-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p08-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2026/p34-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/march-2026/p34-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p36-11.webp",
+   "why": "lower half of a photograph cut in two"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-10.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-2.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-3.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-5.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-6.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-7.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-8.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p55-9.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/march-2026/p86-10.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/march-2026/p86-11.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/march-2026/p86-9.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p07-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p07-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p07-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p07-5.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p21-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p21-5.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p22-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p29-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p47-1.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p47-19.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p47-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-6.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p55-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p70-10.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/may-2024/p70-11.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/may-2024/p70-8.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p70-9.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/may-2024/p71-10.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p71-15.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p75-10.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p75-12.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2024/p75-3.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p75-8.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p75-9.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-11.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-13.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-18.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p78-9.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-10.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-11.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-12.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-5.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2024/p79-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p04-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p04-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p08-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p08-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p13-1.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/may-2026/p13-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p14-3.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2026/p14-6.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2026/p15-2.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p15-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p15-6.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p15-7.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p17-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p20-4.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p20-5.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/may-2026/p23-1.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/may-2026/p31-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p31-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p33-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/may-2026/p40-11.webp",
+   "why": "lower half of a photograph cut in two"
+  },
+  {
+   "src": "/images/extras/september-2026/p05-3.webp",
+   "why": "blank panel"
+  },
+  {
+   "src": "/images/extras/september-2026/p06-10.webp",
+   "why": "sliver of an advertisement shown whole"
+  },
+  {
+   "src": "/images/extras/september-2026/p06-2.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/september-2026/p06-3.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/september-2026/p07-2.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/september-2026/p07-4.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/september-2026/p07-5.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/september-2026/p07-6.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/september-2026/p07-7.webp",
+   "why": "ornament fragment"
+  },
+  {
+   "src": "/images/extras/september-2026/p11-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/september-2026/p21-1.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/september-2026/p23-3.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/september-2026/p23-4.webp",
+   "why": "alpha mask"
+  },
+  {
+   "src": "/images/extras/september-2026/p81-9.webp",
+   "why": "shadow, glow, gradient or plain panel"
+  },
+  {
+   "src": "/images/extras/september-2026/p84-2.webp",
+   "why": "alpha mask"
+  }
+ ],
+ "crisp": [
+  "/images/extras/april-2024/p12-3.webp",
+  "/images/extras/april-2024/p47-2.webp",
+  "/images/extras/april-2024/p78-3.webp",
+  "/images/extras/april-2026/p10-2.webp",
+  "/images/extras/august-2026/p13-4.webp",
+  "/images/extras/august-2026/p13-5.webp",
+  "/images/extras/august-2026/p31-2.webp",
+  "/images/extras/february-2024/p49-2.webp",
+  "/images/extras/february-2024/p82-2.webp",
+  "/images/extras/july-2026/p07-13.webp",
+  "/images/extras/july-2026/p07-15.webp",
+  "/images/extras/july-2026/p07-16.webp",
+  "/images/extras/june-2026/p33-2.webp",
+  "/images/extras/june-2026/p63-2.webp",
+  "/images/extras/june-2026/p63-4.webp",
+  "/images/extras/march-2024/p12-3.webp",
+  "/images/extras/march-2024/p47-2.webp",
+  "/images/extras/march-2026/p22-1.webp",
+  "/images/extras/may-2024/p09-4.webp",
+  "/images/extras/may-2024/p21-3.webp",
+  "/images/extras/may-2024/p21-5.webp",
+  "/images/extras/may-2024/p71-6.webp",
+  "/images/extras/may-2026/p15-2.webp",
+  "/images/extras/may-2026/p15-3.webp",
+  "/images/extras/may-2026/p15-4.webp",
+  "/images/extras/may-2026/p15-5.webp",
+  "/images/extras/may-2026/p30-4.webp",
+  "/images/extras/may-2026/p47-1.webp",
+  "/images/extras/september-2026/p11-1.webp",
+  "/images/extras/september-2026/p11-5.webp",
+  "/images/extras/september-2026/p23-2.webp",
+  "/images/extras/september-2026/p79-7.webp"
+ ],
+ "composites": [
+  {
+   "width": 717,
+   "height": 788,
+   "tiles": [
+    {
+     "src": "/images/extras/september-2026/p58-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-2.webp",
+     "x": 239,
+     "y": 0,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-3.webp",
+     "x": 478,
+     "y": 0,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-4.webp",
+     "x": 0,
+     "y": 197,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-5.webp",
+     "x": 239,
+     "y": 197,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-6.webp",
+     "x": 478,
+     "y": 197,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-7.webp",
+     "x": 0,
+     "y": 394,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-8.webp",
+     "x": 239,
+     "y": 394,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-9.webp",
+     "x": 478,
+     "y": 394,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-10.webp",
+     "x": 0,
+     "y": 591,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-11.webp",
+     "x": 239,
+     "y": 591,
+     "w": 239,
+     "h": 197
+    },
+    {
+     "src": "/images/extras/september-2026/p58-12.webp",
+     "x": 478,
+     "y": 591,
+     "w": 239,
+     "h": 197
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/september-2026/p58-1.webp",
+    "/images/extras/september-2026/p58-10.webp",
+    "/images/extras/september-2026/p58-11.webp",
+    "/images/extras/september-2026/p58-12.webp",
+    "/images/extras/september-2026/p58-2.webp",
+    "/images/extras/september-2026/p58-3.webp",
+    "/images/extras/september-2026/p58-4.webp",
+    "/images/extras/september-2026/p58-5.webp",
+    "/images/extras/september-2026/p58-6.webp",
+    "/images/extras/september-2026/p58-7.webp",
+    "/images/extras/september-2026/p58-8.webp",
+    "/images/extras/september-2026/p58-9.webp"
+   ]
+  },
+  {
+   "width": 779,
+   "height": 626,
+   "tiles": [
+    {
+     "src": "/images/extras/august-2026/p11-5.webp",
+     "x": 520,
+     "y": -312,
+     "w": 259,
+     "h": 416
+    },
+    {
+     "src": "/images/extras/august-2026/p11-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 209,
+     "h": 313
+    },
+    {
+     "src": "/images/extras/august-2026/p11-7.webp",
+     "x": 209,
+     "y": 0,
+     "w": 311,
+     "h": 313
+    },
+    {
+     "src": "/images/extras/august-2026/p11-8.webp",
+     "x": 520,
+     "y": 104,
+     "w": 259,
+     "h": 417
+    },
+    {
+     "src": "/images/extras/august-2026/p11-9.webp",
+     "x": -102,
+     "y": 313,
+     "w": 311,
+     "h": 313
+    },
+    {
+     "src": "/images/extras/august-2026/p11-10.webp",
+     "x": 209,
+     "y": 313,
+     "w": 311,
+     "h": 313
+    }
+   ],
+   "fills": [
+    {
+     "x": 520,
+     "y": 521,
+     "w": 259,
+     "h": 105,
+     "color": "#b68339"
+    }
+   ],
+   "parts": [
+    "/images/extras/august-2026/p11-10.webp",
+    "/images/extras/august-2026/p11-4.webp",
+    "/images/extras/august-2026/p11-5.webp",
+    "/images/extras/august-2026/p11-6.webp",
+    "/images/extras/august-2026/p11-7.webp",
+    "/images/extras/august-2026/p11-8.webp",
+    "/images/extras/august-2026/p11-9.webp"
+   ]
+  },
+  {
+   "width": 711,
+   "height": 784,
+   "tiles": [
+    {
+     "src": "/images/extras/august-2026/p40-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-2.webp",
+     "x": 237,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-3.webp",
+     "x": 474,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-4.webp",
+     "x": 0,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-5.webp",
+     "x": 237,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-6.webp",
+     "x": 474,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-7.webp",
+     "x": 0,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-8.webp",
+     "x": 237,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-9.webp",
+     "x": 474,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-10.webp",
+     "x": 0,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-11.webp",
+     "x": 237,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/august-2026/p40-12.webp",
+     "x": 474,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/august-2026/p40-1.webp",
+    "/images/extras/august-2026/p40-10.webp",
+    "/images/extras/august-2026/p40-11.webp",
+    "/images/extras/august-2026/p40-12.webp",
+    "/images/extras/august-2026/p40-2.webp",
+    "/images/extras/august-2026/p40-3.webp",
+    "/images/extras/august-2026/p40-4.webp",
+    "/images/extras/august-2026/p40-5.webp",
+    "/images/extras/august-2026/p40-6.webp",
+    "/images/extras/august-2026/p40-7.webp",
+    "/images/extras/august-2026/p40-8.webp",
+    "/images/extras/august-2026/p40-9.webp"
+   ]
+  },
+  {
+   "width": 386,
+   "height": 579,
+   "tiles": [
+    {
+     "src": "/images/extras/august-2026/p41-3.webp",
+     "x": 0,
+     "y": 0,
+     "w": 193,
+     "h": 193
+    },
+    {
+     "src": "/images/extras/august-2026/p41-4.webp",
+     "x": 193,
+     "y": 0,
+     "w": 193,
+     "h": 193
+    },
+    {
+     "src": "/images/extras/august-2026/p41-7.webp",
+     "x": 0,
+     "y": 193,
+     "w": 193,
+     "h": 193
+    },
+    {
+     "src": "/images/extras/august-2026/p41-8.webp",
+     "x": 193,
+     "y": 193,
+     "w": 193,
+     "h": 193
+    },
+    {
+     "src": "/images/extras/august-2026/p41-11.webp",
+     "x": 0,
+     "y": 386,
+     "w": 193,
+     "h": 193
+    },
+    {
+     "src": "/images/extras/august-2026/p41-12.webp",
+     "x": 193,
+     "y": 386,
+     "w": 193,
+     "h": 193
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/august-2026/p41-11.webp",
+    "/images/extras/august-2026/p41-12.webp",
+    "/images/extras/august-2026/p41-15.webp",
+    "/images/extras/august-2026/p41-3.webp",
+    "/images/extras/august-2026/p41-4.webp",
+    "/images/extras/august-2026/p41-7.webp",
+    "/images/extras/august-2026/p41-8.webp"
+   ]
+  },
+  {
+   "width": 711,
+   "height": 784,
+   "tiles": [
+    {
+     "src": "/images/extras/july-2026/p08-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-2.webp",
+     "x": 237,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-3.webp",
+     "x": 474,
+     "y": 0,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-4.webp",
+     "x": 0,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-5.webp",
+     "x": 237,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-6.webp",
+     "x": 474,
+     "y": 196,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-7.webp",
+     "x": 0,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-8.webp",
+     "x": 237,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-9.webp",
+     "x": 474,
+     "y": 392,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-10.webp",
+     "x": 0,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-11.webp",
+     "x": 237,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    },
+    {
+     "src": "/images/extras/july-2026/p08-12.webp",
+     "x": 474,
+     "y": 588,
+     "w": 237,
+     "h": 196
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/july-2026/p08-1.webp",
+    "/images/extras/july-2026/p08-10.webp",
+    "/images/extras/july-2026/p08-11.webp",
+    "/images/extras/july-2026/p08-12.webp",
+    "/images/extras/july-2026/p08-2.webp",
+    "/images/extras/july-2026/p08-3.webp",
+    "/images/extras/july-2026/p08-4.webp",
+    "/images/extras/july-2026/p08-5.webp",
+    "/images/extras/july-2026/p08-6.webp",
+    "/images/extras/july-2026/p08-7.webp",
+    "/images/extras/july-2026/p08-8.webp",
+    "/images/extras/july-2026/p08-9.webp"
+   ]
+  },
+  {
+   "width": 666,
+   "height": 801,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2026/p14-1.webp",
+     "x": 0,
+     "y": -63,
+     "w": 333,
+     "h": 288
+    },
+    {
+     "src": "/images/extras/may-2026/p14-2.webp",
+     "x": 333,
+     "y": 0,
+     "w": 333,
+     "h": 225
+    },
+    {
+     "src": "/images/extras/may-2026/p14-4.webp",
+     "x": 0,
+     "y": 225,
+     "w": 333,
+     "h": 288
+    },
+    {
+     "src": "/images/extras/may-2026/p14-5.webp",
+     "x": 333,
+     "y": 225,
+     "w": 333,
+     "h": 288
+    },
+    {
+     "src": "/images/extras/may-2026/p14-7.webp",
+     "x": 0,
+     "y": 513,
+     "w": 333,
+     "h": 288
+    },
+    {
+     "src": "/images/extras/may-2026/p14-8.webp",
+     "x": 333,
+     "y": 513,
+     "w": 333,
+     "h": 288
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2026/p14-1.webp",
+    "/images/extras/may-2026/p14-2.webp",
+    "/images/extras/may-2026/p14-4.webp",
+    "/images/extras/may-2026/p14-5.webp",
+    "/images/extras/may-2026/p14-7.webp",
+    "/images/extras/may-2026/p14-8.webp"
+   ]
+  },
+  {
+   "width": 706,
+   "height": 780,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2026/p76-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-2.webp",
+     "x": 235,
+     "y": 0,
+     "w": 236,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-3.webp",
+     "x": 471,
+     "y": 0,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-4.webp",
+     "x": 0,
+     "y": 195,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-5.webp",
+     "x": 235,
+     "y": 195,
+     "w": 236,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-6.webp",
+     "x": 471,
+     "y": 195,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-7.webp",
+     "x": 0,
+     "y": 390,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-8.webp",
+     "x": 235,
+     "y": 390,
+     "w": 236,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-9.webp",
+     "x": 471,
+     "y": 390,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-10.webp",
+     "x": 0,
+     "y": 585,
+     "w": 235,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-11.webp",
+     "x": 235,
+     "y": 585,
+     "w": 236,
+     "h": 195
+    },
+    {
+     "src": "/images/extras/may-2026/p76-12.webp",
+     "x": 471,
+     "y": 585,
+     "w": 235,
+     "h": 195
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2026/p76-1.webp",
+    "/images/extras/may-2026/p76-10.webp",
+    "/images/extras/may-2026/p76-11.webp",
+    "/images/extras/may-2026/p76-12.webp",
+    "/images/extras/may-2026/p76-2.webp",
+    "/images/extras/may-2026/p76-3.webp",
+    "/images/extras/may-2026/p76-4.webp",
+    "/images/extras/may-2026/p76-5.webp",
+    "/images/extras/may-2026/p76-6.webp",
+    "/images/extras/may-2026/p76-7.webp",
+    "/images/extras/may-2026/p76-8.webp",
+    "/images/extras/may-2026/p76-9.webp"
+   ]
+  },
+  {
+   "width": 1243,
+   "height": 1129,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p33-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 629,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/may-2024/p33-2.webp",
+     "x": 629,
+     "y": 0,
+     "w": 614,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/may-2024/p33-3.webp",
+     "x": 0,
+     "y": 555,
+     "w": 629,
+     "h": 574
+    },
+    {
+     "src": "/images/extras/may-2024/p33-4.webp",
+     "x": 629,
+     "y": 555,
+     "w": 614,
+     "h": 574
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2024/p33-1.webp",
+    "/images/extras/may-2024/p33-2.webp",
+    "/images/extras/may-2024/p33-3.webp",
+    "/images/extras/may-2024/p33-4.webp"
+   ]
+  },
+  {
+   "width": 885,
+   "height": 871,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p45-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 284,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/may-2024/p45-2.webp",
+     "x": 284,
+     "y": 0,
+     "w": 301,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/may-2024/p45-3.webp",
+     "x": 585,
+     "y": 0,
+     "w": 300,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/may-2024/p45-5.webp",
+     "x": 0,
+     "y": 278,
+     "w": 284,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/may-2024/p45-6.webp",
+     "x": 284,
+     "y": 278,
+     "w": 301,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/may-2024/p45-7.webp",
+     "x": 585,
+     "y": 278,
+     "w": 300,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/may-2024/p45-9.webp",
+     "x": 0,
+     "y": 575,
+     "w": 284,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p45-10.webp",
+     "x": 284,
+     "y": 575,
+     "w": 301,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p45-11.webp",
+     "x": 585,
+     "y": 575,
+     "w": 300,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2024/p45-1.webp",
+    "/images/extras/may-2024/p45-10.webp",
+    "/images/extras/may-2024/p45-11.webp",
+    "/images/extras/may-2024/p45-12.webp",
+    "/images/extras/may-2024/p45-2.webp",
+    "/images/extras/may-2024/p45-3.webp",
+    "/images/extras/may-2024/p45-5.webp",
+    "/images/extras/may-2024/p45-6.webp",
+    "/images/extras/may-2024/p45-7.webp",
+    "/images/extras/may-2024/p45-8.webp",
+    "/images/extras/may-2024/p45-9.webp"
+   ]
+  },
+  {
+   "width": 897,
+   "height": 415,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p47-7.webp",
+     "x": 299,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p47-8.webp",
+     "x": 598,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p47-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 299,
+     "h": 119
+    },
+    {
+     "src": "/images/extras/may-2024/p47-10.webp",
+     "x": 0,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p47-11.webp",
+     "x": 299,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p47-12.webp",
+     "x": 598,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2024/p47-10.webp",
+    "/images/extras/may-2024/p47-11.webp",
+    "/images/extras/may-2024/p47-12.webp",
+    "/images/extras/may-2024/p47-13.webp",
+    "/images/extras/may-2024/p47-14.webp",
+    "/images/extras/may-2024/p47-16.webp",
+    "/images/extras/may-2024/p47-20.webp",
+    "/images/extras/may-2024/p47-3.webp",
+    "/images/extras/may-2024/p47-4.webp",
+    "/images/extras/may-2024/p47-6.webp",
+    "/images/extras/may-2024/p47-7.webp",
+    "/images/extras/may-2024/p47-8.webp",
+    "/images/extras/may-2024/p47-9.webp"
+   ]
+  },
+  {
+   "width": 852,
+   "height": 378,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p71-8.webp",
+     "x": 426,
+     "y": -50,
+     "w": 213,
+     "h": 214
+    },
+    {
+     "src": "/images/extras/may-2024/p71-9.webp",
+     "x": 639,
+     "y": -40,
+     "w": 213,
+     "h": 204
+    },
+    {
+     "src": "/images/extras/may-2024/p71-7.webp",
+     "x": 213,
+     "y": -34,
+     "w": 213,
+     "h": 198
+    },
+    {
+     "src": "/images/extras/may-2024/p71-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 213,
+     "h": 164
+    },
+    {
+     "src": "/images/extras/may-2024/p71-11.webp",
+     "x": 0,
+     "y": 164,
+     "w": 213,
+     "h": 214
+    },
+    {
+     "src": "/images/extras/may-2024/p71-12.webp",
+     "x": 213,
+     "y": 164,
+     "w": 213,
+     "h": 214
+    },
+    {
+     "src": "/images/extras/may-2024/p71-13.webp",
+     "x": 426,
+     "y": 164,
+     "w": 213,
+     "h": 214
+    },
+    {
+     "src": "/images/extras/may-2024/p71-14.webp",
+     "x": 639,
+     "y": 164,
+     "w": 213,
+     "h": 214
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2024/p70-7.webp",
+    "/images/extras/may-2024/p71-11.webp",
+    "/images/extras/may-2024/p71-12.webp",
+    "/images/extras/may-2024/p71-13.webp",
+    "/images/extras/may-2024/p71-14.webp",
+    "/images/extras/may-2024/p71-17.webp",
+    "/images/extras/may-2024/p71-6.webp",
+    "/images/extras/may-2024/p71-7.webp",
+    "/images/extras/may-2024/p71-8.webp",
+    "/images/extras/may-2024/p71-9.webp"
+   ]
+  },
+  {
+   "width": 876,
+   "height": 1321,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p75-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 438,
+     "h": 440
+    },
+    {
+     "src": "/images/extras/may-2024/p75-2.webp",
+     "x": 438,
+     "y": 0,
+     "w": 438,
+     "h": 440
+    },
+    {
+     "src": "/images/extras/may-2024/p75-4.webp",
+     "x": 0,
+     "y": 440,
+     "w": 438,
+     "h": 440
+    },
+    {
+     "src": "/images/extras/may-2024/p75-5.webp",
+     "x": 438,
+     "y": 440,
+     "w": 438,
+     "h": 440
+    },
+    {
+     "src": "/images/extras/may-2024/p75-6.webp",
+     "x": 0,
+     "y": 880,
+     "w": 438,
+     "h": 441
+    },
+    {
+     "src": "/images/extras/may-2024/p75-7.webp",
+     "x": 438,
+     "y": 880,
+     "w": 438,
+     "h": 441
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/may-2024/p75-1.webp",
+    "/images/extras/may-2024/p75-2.webp",
+    "/images/extras/may-2024/p75-4.webp",
+    "/images/extras/may-2024/p75-5.webp",
+    "/images/extras/may-2024/p75-6.webp",
+    "/images/extras/may-2024/p75-7.webp"
+   ]
+  },
+  {
+   "width": 1242,
+   "height": 1129,
+   "tiles": [
+    {
+     "src": "/images/extras/april-2024/p27-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 620,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/april-2024/p27-2.webp",
+     "x": 620,
+     "y": 0,
+     "w": 622,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/april-2024/p27-3.webp",
+     "x": 0,
+     "y": 555,
+     "w": 620,
+     "h": 574
+    },
+    {
+     "src": "/images/extras/april-2024/p27-4.webp",
+     "x": 620,
+     "y": 555,
+     "w": 622,
+     "h": 574
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/april-2024/p27-1.webp",
+    "/images/extras/april-2024/p27-2.webp",
+    "/images/extras/april-2024/p27-3.webp",
+    "/images/extras/april-2024/p27-4.webp"
+   ]
+  },
+  {
+   "width": 827,
+   "height": 797,
+   "tiles": [
+    {
+     "src": "/images/extras/april-2024/p31-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 413,
+     "h": 398
+    },
+    {
+     "src": "/images/extras/april-2024/p31-2.webp",
+     "x": 413,
+     "y": 0,
+     "w": 414,
+     "h": 398
+    },
+    {
+     "src": "/images/extras/april-2024/p31-4.webp",
+     "x": 0,
+     "y": 398,
+     "w": 413,
+     "h": 399
+    },
+    {
+     "src": "/images/extras/april-2024/p31-5.webp",
+     "x": 413,
+     "y": 398,
+     "w": 414,
+     "h": 399
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/april-2024/p31-1.webp",
+    "/images/extras/april-2024/p31-2.webp",
+    "/images/extras/april-2024/p31-4.webp",
+    "/images/extras/april-2024/p31-5.webp"
+   ]
+  },
+  {
+   "width": 897,
+   "height": 415,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p47-7.webp",
+     "x": 299,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/april-2024/p45-8.webp",
+     "x": 598,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/may-2024/p47-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 299,
+     "h": 119
+    },
+    {
+     "src": "/images/extras/april-2024/p45-10.webp",
+     "x": 0,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/april-2024/p45-11.webp",
+     "x": 299,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/april-2024/p45-12.webp",
+     "x": 598,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/april-2024/p45-10.webp",
+    "/images/extras/april-2024/p45-11.webp",
+    "/images/extras/april-2024/p45-12.webp",
+    "/images/extras/april-2024/p45-13.webp",
+    "/images/extras/april-2024/p45-14.webp",
+    "/images/extras/april-2024/p45-16.webp",
+    "/images/extras/april-2024/p45-8.webp",
+    "/images/extras/april-2024/p45-9.webp",
+    "/images/extras/may-2024/p47-3.webp",
+    "/images/extras/may-2024/p47-4.webp",
+    "/images/extras/may-2024/p47-6.webp",
+    "/images/extras/may-2024/p47-7.webp"
+   ]
+  },
+  {
+   "width": 1242,
+   "height": 1129,
+   "tiles": [
+    {
+     "src": "/images/extras/march-2024/p27-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 621,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/march-2024/p27-2.webp",
+     "x": 621,
+     "y": 0,
+     "w": 621,
+     "h": 555
+    },
+    {
+     "src": "/images/extras/march-2024/p27-3.webp",
+     "x": 0,
+     "y": 555,
+     "w": 621,
+     "h": 574
+    },
+    {
+     "src": "/images/extras/march-2024/p27-4.webp",
+     "x": 621,
+     "y": 555,
+     "w": 621,
+     "h": 574
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/march-2024/p27-1.webp",
+    "/images/extras/march-2024/p27-2.webp",
+    "/images/extras/march-2024/p27-3.webp",
+    "/images/extras/march-2024/p27-4.webp"
+   ]
+  },
+  {
+   "width": 897,
+   "height": 415,
+   "tiles": [
+    {
+     "src": "/images/extras/march-2024/p45-7.webp",
+     "x": 299,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-8.webp",
+     "x": 598,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 299,
+     "h": 119
+    },
+    {
+     "src": "/images/extras/march-2024/p45-10.webp",
+     "x": 0,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-11.webp",
+     "x": 299,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-12.webp",
+     "x": 598,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/march-2024/p45-10.webp",
+    "/images/extras/march-2024/p45-11.webp",
+    "/images/extras/march-2024/p45-12.webp",
+    "/images/extras/march-2024/p45-13.webp",
+    "/images/extras/march-2024/p45-14.webp",
+    "/images/extras/march-2024/p45-16.webp",
+    "/images/extras/march-2024/p45-3.webp",
+    "/images/extras/march-2024/p45-4.webp",
+    "/images/extras/march-2024/p45-6.webp",
+    "/images/extras/march-2024/p45-7.webp",
+    "/images/extras/march-2024/p45-8.webp",
+    "/images/extras/march-2024/p45-9.webp"
+   ]
+  },
+  {
+   "width": 885,
+   "height": 871,
+   "tiles": [
+    {
+     "src": "/images/extras/march-2024/p83-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 284,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/march-2024/p83-2.webp",
+     "x": 284,
+     "y": 0,
+     "w": 301,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/march-2024/p83-3.webp",
+     "x": 585,
+     "y": 0,
+     "w": 300,
+     "h": 278
+    },
+    {
+     "src": "/images/extras/march-2024/p83-5.webp",
+     "x": 0,
+     "y": 278,
+     "w": 284,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/march-2024/p83-6.webp",
+     "x": 284,
+     "y": 278,
+     "w": 301,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/march-2024/p83-7.webp",
+     "x": 585,
+     "y": 278,
+     "w": 300,
+     "h": 297
+    },
+    {
+     "src": "/images/extras/march-2024/p83-9.webp",
+     "x": 0,
+     "y": 575,
+     "w": 284,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p83-10.webp",
+     "x": 284,
+     "y": 575,
+     "w": 301,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p83-11.webp",
+     "x": 585,
+     "y": 575,
+     "w": 300,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/march-2024/p83-1.webp",
+    "/images/extras/march-2024/p83-10.webp",
+    "/images/extras/march-2024/p83-11.webp",
+    "/images/extras/march-2024/p83-12.webp",
+    "/images/extras/march-2024/p83-2.webp",
+    "/images/extras/march-2024/p83-3.webp",
+    "/images/extras/march-2024/p83-5.webp",
+    "/images/extras/march-2024/p83-6.webp",
+    "/images/extras/march-2024/p83-7.webp",
+    "/images/extras/march-2024/p83-8.webp",
+    "/images/extras/march-2024/p83-9.webp"
+   ]
+  },
+  {
+   "width": 1242,
+   "height": 1181,
+   "tiles": [
+    {
+     "src": "/images/extras/february-2024/p25-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 620,
+     "h": 580
+    },
+    {
+     "src": "/images/extras/february-2024/p25-2.webp",
+     "x": 620,
+     "y": 0,
+     "w": 622,
+     "h": 580
+    },
+    {
+     "src": "/images/extras/february-2024/p25-3.webp",
+     "x": 0,
+     "y": 580,
+     "w": 620,
+     "h": 601
+    },
+    {
+     "src": "/images/extras/february-2024/p25-4.webp",
+     "x": 620,
+     "y": 580,
+     "w": 622,
+     "h": 601
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/february-2024/p25-1.webp",
+    "/images/extras/february-2024/p25-2.webp",
+    "/images/extras/february-2024/p25-3.webp",
+    "/images/extras/february-2024/p25-4.webp"
+   ]
+  },
+  {
+   "width": 712,
+   "height": 299,
+   "tiles": [
+    {
+     "src": "/images/extras/february-2024/p37-10.webp",
+     "x": 0,
+     "y": 0,
+     "w": 356,
+     "h": 299
+    },
+    {
+     "src": "/images/extras/february-2024/p37-11.webp",
+     "x": 356,
+     "y": 0,
+     "w": 356,
+     "h": 299
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/february-2024/p37-10.webp",
+    "/images/extras/february-2024/p37-11.webp",
+    "/images/extras/february-2024/p37-6.webp",
+    "/images/extras/february-2024/p37-9.webp"
+   ]
+  },
+  {
+   "width": 897,
+   "height": 415,
+   "tiles": [
+    {
+     "src": "/images/extras/march-2024/p45-7.webp",
+     "x": 299,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-8.webp",
+     "x": 598,
+     "y": -177,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-6.webp",
+     "x": 0,
+     "y": 0,
+     "w": 299,
+     "h": 119
+    },
+    {
+     "src": "/images/extras/march-2024/p45-10.webp",
+     "x": 0,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-11.webp",
+     "x": 299,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    },
+    {
+     "src": "/images/extras/march-2024/p45-12.webp",
+     "x": 598,
+     "y": 119,
+     "w": 299,
+     "h": 296
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/february-2024/p47-13.webp",
+    "/images/extras/february-2024/p47-9.webp",
+    "/images/extras/march-2024/p45-10.webp",
+    "/images/extras/march-2024/p45-11.webp",
+    "/images/extras/march-2024/p45-12.webp",
+    "/images/extras/march-2024/p45-14.webp",
+    "/images/extras/march-2024/p45-16.webp",
+    "/images/extras/march-2024/p45-3.webp",
+    "/images/extras/march-2024/p45-4.webp",
+    "/images/extras/march-2024/p45-6.webp",
+    "/images/extras/march-2024/p45-7.webp",
+    "/images/extras/march-2024/p45-8.webp"
+   ]
+  },
+  {
+   "width": 515,
+   "height": 516,
+   "tiles": [
+    {
+     "src": "/images/extras/august-2026/p05-1.webp",
+     "x": -163,
+     "y": -44,
+     "w": 387,
+     "h": 242
+    },
+    {
+     "src": "/images/extras/august-2026/p05-2.webp",
+     "x": 224,
+     "y": 0,
+     "w": 291,
+     "h": 226
+    },
+    {
+     "src": "/images/extras/august-2026/p05-3.webp",
+     "x": 224,
+     "y": 226,
+     "w": 291,
+     "h": 290
+    },
+    {
+     "src": "/images/extras/august-2026/p05-4.webp",
+     "x": 0,
+     "y": 198,
+     "w": 224,
+     "h": 218
+    }
+   ],
+   "fills": [
+    {
+     "x": 0,
+     "y": 416,
+     "w": 224,
+     "h": 100,
+     "color": "#c5272a"
+    }
+   ],
+   "parts": [
+    "/images/extras/august-2026/p05-1.webp",
+    "/images/extras/august-2026/p05-2.webp",
+    "/images/extras/august-2026/p05-3.webp",
+    "/images/extras/august-2026/p05-4.webp"
+   ]
+  },
+  {
+   "width": 508,
+   "height": 508,
+   "tiles": [
+    {
+     "src": "/images/extras/april-2026/p08-1.webp",
+     "x": -161,
+     "y": -43,
+     "w": 382,
+     "h": 239
+    },
+    {
+     "src": "/images/extras/april-2026/p08-2.webp",
+     "x": 221,
+     "y": 0,
+     "w": 287,
+     "h": 222
+    },
+    {
+     "src": "/images/extras/april-2026/p08-3.webp",
+     "x": 221,
+     "y": 222,
+     "w": 287,
+     "h": 286
+    },
+    {
+     "src": "/images/extras/april-2026/p08-4.webp",
+     "x": 0,
+     "y": 196,
+     "w": 221,
+     "h": 215
+    }
+   ],
+   "fills": [
+    {
+     "x": 0,
+     "y": 412,
+     "w": 220,
+     "h": 96,
+     "color": "#c5272a"
+    }
+   ],
+   "parts": [
+    "/images/extras/april-2026/p08-1.webp",
+    "/images/extras/april-2026/p08-2.webp",
+    "/images/extras/april-2026/p08-3.webp",
+    "/images/extras/april-2026/p08-4.webp"
+   ]
+  },
+  {
+   "width": 780,
+   "height": 650,
+   "tiles": [
+    {
+     "src": "/images/extras/april-2026/p08-10.webp",
+     "x": 0,
+     "y": 0,
+     "w": 439,
+     "h": 319
+    },
+    {
+     "src": "/images/extras/april-2026/p08-11.webp",
+     "x": 439,
+     "y": 0,
+     "w": 390,
+     "h": 319
+    },
+    {
+     "src": "/images/extras/april-2026/p08-12.webp",
+     "x": 0,
+     "y": 319,
+     "w": 390,
+     "h": 331
+    },
+    {
+     "src": "/images/extras/april-2026/p08-13.webp",
+     "x": 390,
+     "y": 319,
+     "w": 390,
+     "h": 331
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/april-2026/p08-10.webp",
+    "/images/extras/april-2026/p08-11.webp",
+    "/images/extras/april-2026/p08-12.webp",
+    "/images/extras/april-2026/p08-13.webp"
+   ]
+  },
+  {
+   "width": 1038,
+   "height": 1268,
+   "tiles": [
+    {
+     "src": "/images/extras/may-2024/p19-3.webp",
+     "x": 269,
+     "y": 5,
+     "w": 148,
+     "h": 164
+    },
+    {
+     "src": "/images/extras/may-2024/p19-4.webp",
+     "x": 417,
+     "y": 0,
+     "w": 145,
+     "h": 168
+    },
+    {
+     "src": "/images/extras/may-2024/p19-9.webp",
+     "x": 278,
+     "y": 168,
+     "w": 139,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-10.webp",
+     "x": 417,
+     "y": 168,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-14.webp",
+     "x": 77,
+     "y": 454,
+     "w": 127,
+     "h": 154
+    },
+    {
+     "src": "/images/extras/may-2024/p19-15.webp",
+     "x": 204,
+     "y": 388,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-16.webp",
+     "x": 417,
+     "y": 388,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-17.webp",
+     "x": 630,
+     "y": 429,
+     "w": 160,
+     "h": 179
+    },
+    {
+     "src": "/images/extras/may-2024/p19-20.webp",
+     "x": 23,
+     "y": 608,
+     "w": 181,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-21.webp",
+     "x": 204,
+     "y": 608,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-22.webp",
+     "x": 417,
+     "y": 608,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-23.webp",
+     "x": 630,
+     "y": 608,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-26.webp",
+     "x": 0,
+     "y": 828,
+     "w": 204,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-27.webp",
+     "x": 204,
+     "y": 828,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-28.webp",
+     "x": 417,
+     "y": 828,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-29.webp",
+     "x": 630,
+     "y": 828,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-30.webp",
+     "x": 843,
+     "y": 828,
+     "w": 195,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-32.webp",
+     "x": 93,
+     "y": 1048,
+     "w": 111,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-33.webp",
+     "x": 204,
+     "y": 1048,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-34.webp",
+     "x": 417,
+     "y": 1048,
+     "w": 213,
+     "h": 220
+    },
+    {
+     "src": "/images/extras/may-2024/p19-35.webp",
+     "x": 630,
+     "y": 1048,
+     "w": 213,
+     "h": 220
+    }
+   ],
+   "fills": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 23,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 23,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 168,
+     "w": 23,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 169,
+     "w": 23,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 388,
+     "w": 23,
+     "h": 41,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 429,
+     "w": 23,
+     "h": 25,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 454,
+     "w": 23,
+     "h": 154,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 0,
+     "y": 608,
+     "w": 23,
+     "h": 220,
+     "color": "#d0cfd3"
+    },
+    {
+     "x": 0,
+     "y": 1048,
+     "w": 23,
+     "h": 220,
+     "color": "#c7c6cb"
+    },
+    {
+     "x": 23,
+     "y": 0,
+     "w": 54,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 5,
+     "w": 54,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 168,
+     "w": 54,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 169,
+     "w": 54,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 388,
+     "w": 54,
+     "h": 41,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 429,
+     "w": 54,
+     "h": 25,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 23,
+     "y": 454,
+     "w": 54,
+     "h": 154,
+     "color": "#d5d5d9"
+    },
+    {
+     "x": 23,
+     "y": 1048,
+     "w": 54,
+     "h": 220,
+     "color": "#c9c9cd"
+    },
+    {
+     "x": 77,
+     "y": 0,
+     "w": 16,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 77,
+     "y": 5,
+     "w": 16,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 77,
+     "y": 168,
+     "w": 16,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 77,
+     "y": 169,
+     "w": 16,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 77,
+     "y": 388,
+     "w": 16,
+     "h": 41,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 77,
+     "y": 429,
+     "w": 16,
+     "h": 25,
+     "color": "#d7d7db"
+    },
+    {
+     "x": 77,
+     "y": 1048,
+     "w": 16,
+     "h": 220,
+     "color": "#cecdd1"
+    },
+    {
+     "x": 93,
+     "y": 0,
+     "w": 111,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 93,
+     "y": 5,
+     "w": 111,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 93,
+     "y": 168,
+     "w": 111,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 93,
+     "y": 169,
+     "w": 111,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 93,
+     "y": 388,
+     "w": 111,
+     "h": 41,
+     "color": "#d9dbdf"
+    },
+    {
+     "x": 93,
+     "y": 429,
+     "w": 111,
+     "h": 25,
+     "color": "#d9dade"
+    },
+    {
+     "x": 204,
+     "y": 0,
+     "w": 65,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 204,
+     "y": 5,
+     "w": 65,
+     "h": 163,
+     "color": "#e2dee3"
+    },
+    {
+     "x": 204,
+     "y": 168,
+     "w": 65,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 204,
+     "y": 169,
+     "w": 65,
+     "h": 219,
+     "color": "#d9dbdf"
+    },
+    {
+     "x": 269,
+     "y": 0,
+     "w": 9,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 269,
+     "y": 169,
+     "w": 9,
+     "h": 219,
+     "color": "#e0dee2"
+    },
+    {
+     "x": 278,
+     "y": 0,
+     "w": 139,
+     "h": 5,
+     "color": "#e4dfe5"
+    },
+    {
+     "x": 562,
+     "y": 0,
+     "w": 68,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 562,
+     "y": 5,
+     "w": 68,
+     "h": 163,
+     "color": "#dedae0"
+    },
+    {
+     "x": 630,
+     "y": 0,
+     "w": 160,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 630,
+     "y": 5,
+     "w": 160,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 630,
+     "y": 168,
+     "w": 160,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 630,
+     "y": 169,
+     "w": 160,
+     "h": 219,
+     "color": "#dcd9de"
+    },
+    {
+     "x": 630,
+     "y": 388,
+     "w": 160,
+     "h": 41,
+     "color": "#d7d3d9"
+    },
+    {
+     "x": 790,
+     "y": 0,
+     "w": 53,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 790,
+     "y": 5,
+     "w": 53,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 790,
+     "y": 168,
+     "w": 53,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 790,
+     "y": 169,
+     "w": 53,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 790,
+     "y": 388,
+     "w": 53,
+     "h": 41,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 790,
+     "y": 429,
+     "w": 53,
+     "h": 25,
+     "color": "#d6d2d8"
+    },
+    {
+     "x": 790,
+     "y": 454,
+     "w": 53,
+     "h": 154,
+     "color": "#d4d1d7"
+    },
+    {
+     "x": 843,
+     "y": 0,
+     "w": 195,
+     "h": 5,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 5,
+     "w": 195,
+     "h": 163,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 168,
+     "w": 195,
+     "h": 1,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 169,
+     "w": 195,
+     "h": 219,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 388,
+     "w": 195,
+     "h": 41,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 429,
+     "w": 195,
+     "h": 25,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 454,
+     "w": 195,
+     "h": 154,
+     "color": "#d5d5d8"
+    },
+    {
+     "x": 843,
+     "y": 608,
+     "w": 195,
+     "h": 220,
+     "color": "#d0cdd3"
+    },
+    {
+     "x": 843,
+     "y": 1048,
+     "w": 195,
+     "h": 220,
+     "color": "#cfccd2"
+    }
+   ],
+   "parts": [
+    "/images/extras/may-2024/p19-10.webp",
+    "/images/extras/may-2024/p19-14.webp",
+    "/images/extras/may-2024/p19-15.webp",
+    "/images/extras/may-2024/p19-16.webp",
+    "/images/extras/may-2024/p19-17.webp",
+    "/images/extras/may-2024/p19-20.webp",
+    "/images/extras/may-2024/p19-21.webp",
+    "/images/extras/may-2024/p19-22.webp",
+    "/images/extras/may-2024/p19-23.webp",
+    "/images/extras/may-2024/p19-26.webp",
+    "/images/extras/may-2024/p19-27.webp",
+    "/images/extras/may-2024/p19-28.webp",
+    "/images/extras/may-2024/p19-29.webp",
+    "/images/extras/may-2024/p19-3.webp",
+    "/images/extras/may-2024/p19-30.webp",
+    "/images/extras/may-2024/p19-32.webp",
+    "/images/extras/may-2024/p19-33.webp",
+    "/images/extras/may-2024/p19-34.webp",
+    "/images/extras/may-2024/p19-35.webp",
+    "/images/extras/may-2024/p19-4.webp",
+    "/images/extras/may-2024/p19-9.webp"
+   ]
+  },
+  {
+   "width": 846,
+   "height": 490,
+   "tiles": [
+    {
+     "src": "/images/extras/march-2026/p86-1.webp",
+     "x": 0,
+     "y": 0,
+     "w": 846,
+     "h": 1099
+    }
+   ],
+   "fills": [],
+   "parts": [
+    "/images/extras/march-2026/p86-1.webp"
+   ]
+  }
+ ]
+}

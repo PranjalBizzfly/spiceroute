@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
     // second heavy compression pass would visibly soften them.
     formats: ["image/webp"],
     qualities: [90],
+    // serve every picture exactly as stored: no second compression pass
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

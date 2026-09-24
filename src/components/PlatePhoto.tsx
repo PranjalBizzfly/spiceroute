@@ -3,10 +3,7 @@ import { imageFocus } from "@/lib/imageFocus";
 import { localImageSize } from "@/lib/imageSize";
 
 /** A photograph is never shown larger than this multiple of its own pixels. */
-export const MAX_SCALE = 1.5;
-
-/** Files at least this wide fill any plate on the site without enlarging. */
-const LARGE = 1400;
+export const MAX_SCALE = 1;
 
 /** Photographs this far from square (spreads, strips) are shown whole. */
 const WIDE = 2;
@@ -23,13 +20,15 @@ interface PlatePhotoProps {
 
 /**
  * A story photograph filling a fixed plate (card, tile, portrait) — the plate
- * keeps its size, so grids stay aligned. The edition PDFs yield many small
- * photographs, so inside a plate larger than MAX_SCALE × the file the
- * photograph stays at that size, centred, over a soft blurred copy of itself
- * that fills the plate. In a plate that is small enough it simply fills it,
- * exactly as before. The limit is pure CSS, so it holds at every width.
- * Photographs far from square (printed spreads) are shown whole the same way,
- * rather than cropped to a sliver.
+ * keeps its size, so grids stay aligned. The photograph fills the plate as far
+ * as it can without being cut down or blurred: it is never drawn larger than
+ * MAX_SCALE × its own pixels, and never cropped to less than four fifths of
+ * itself in either direction — a portrait magazine page in a landscape card
+ * would otherwise lose its top and bottom halves. Whatever of the plate it
+ * leaves is filled by a soft blurred copy of itself. Both limits are pure CSS
+ * (the frame is sized against the plate with container units), so they hold
+ * at every width and in every plate shape. Photographs far from square
+ * (printed spreads) are shown whole the same way.
  */
 export default function PlatePhoto({ src, alt, sizes, className, priority = false }: PlatePhotoProps) {
   const size = localImageSize(src);
@@ -40,7 +39,7 @@ export default function PlatePhoto({ src, alt, sizes, className, priority = fals
   // a two-page spread in a card would keep a third of itself: show it whole
   const whole = ratio > WIDE || ratio < TALL;
 
-  if (!size || (size.width >= LARGE && !whole)) {
+  if (!size) {
     return (
       <Image
         src={src}
@@ -62,6 +61,7 @@ export default function PlatePhoto({ src, alt, sizes, className, priority = fals
         {
           "--photo-w": `${Math.round(size.width * MAX_SCALE)}px`,
           "--photo-h": `${Math.round(size.height * MAX_SCALE)}px`,
+          "--photo-r": ratio.toFixed(4),
         } as React.CSSProperties
       }
     >
