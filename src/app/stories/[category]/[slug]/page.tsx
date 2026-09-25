@@ -244,7 +244,6 @@ export default async function StoryPage({ params }: PageProps) {
                         {edition.issue ? ` · Issue ${edition.issue}` : ""}
                       </Link>
                     </span>
-                    <span>{story.readingTime}</span>
                   </p>
                   <div className="ed-news__toolbar">
                     <PdfButton pdfUrl={edition.pdfUrl} title={edition.title} page={story.pdfPages[0]} className="ed-news__action ed-news__action--pdf">

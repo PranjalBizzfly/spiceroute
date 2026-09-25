@@ -35,7 +35,6 @@ export default function EditionContents({ stories }: EditionContentsProps) {
                   {s.role && <span className="ed-card__role">, {s.role}</span>}
                 </span>
               )}
-              <span>{s.readingTime}</span>
             </p>
             <span className="ed-toc__read" aria-hidden="true">
               Read story <span className="ed-more__arrow">&rarr;</span>
